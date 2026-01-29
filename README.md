@@ -32,6 +32,28 @@ cd teleclaude
 npm run setup
 ```
 
+### API Keys Setup
+
+If you need to store API keys for various services:
+
+```bash
+# Run the setup script (creates API_KEYS.md from template)
+./setup.sh
+
+# Or manually copy the template
+cp API_KEYS.template.md API_KEYS.md
+
+# Edit API_KEYS.md and fill in your actual keys
+# This file is gitignored and won't be committed
+```
+
+The template includes placeholders and instructions for:
+- OpenAI, Anthropic, Google AI, xAI APIs
+- Cloudflare, Stripe, Resend
+- Twitter/X, Alpaca Trading, Gumroad
+- Google Calendar/Gmail OAuth
+- Telegram Bot tokens
+
 The setup wizard will guide you through:
 - Installing dependencies
 - Choosing CLI or Telegram mode
@@ -148,7 +170,8 @@ teleclaude/
 ├── images/               # Downloaded Telegram images (created automatically)
 ├── CLAUDE.md             # Instructions for Claude
 ├── SKILLS.md             # Workflow documentation
-├── API_KEYS.md           # API key storage template
+├── API_KEYS.md           # Your API keys (gitignored, create from template)
+├── API_KEYS.template.md  # API keys template with placeholders
 ├── config.example.json   # Example configuration
 └── .env.example          # Example environment variables
 ```

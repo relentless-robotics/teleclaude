@@ -7,6 +7,9 @@ config.json
 .env.*
 !.env.example
 
+# API Keys (contains real keys - use API_KEYS.template.md as reference)
+API_KEYS.md
+
 # Temporary files
 /tmp/
 *.log

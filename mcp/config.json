@@ -2,7 +2,9 @@
   "mcpServers": {
     "telegram": {
       "command": "node",
-      "args": ["mcp/telegram-bridge.js"]
+      "args": [
+        "/home/farmspace/teleclaude/mcp/telegram-bridge.js"
+      ]
     }
   }
 }

@@ -144,10 +144,79 @@ Steps:
 
 ## IMPORTANT FILES & REFERENCES
 
-### API Keys Storage
-- **Location:** `./API_KEYS.md` (in bridge directory)
-- Contains API keys obtained via browser automation or manual login
-- Always store new keys here after generating them
+### API Keys Storage - MANDATORY INSTRUCTIONS
+
+**Location:** `/home/farmspace/teleclaude/API_KEYS.md`
+
+**CRITICAL: Whenever you obtain ANY API key, you MUST store it in this file.**
+
+#### If API_KEYS.md Does Not Exist - Create It:
+
+```markdown
+# API_KEYS.md - Stored API Keys
+
+This file contains API keys that have been manually obtained (via browser login, etc.) and need to be stored for later use.
+
+**Security Note:** This file contains sensitive credentials. Do not share or commit to public repositories.
+
+---
+
+*Add new keys below using the standard format.*
+```
+
+#### Standard Format for Adding New Keys:
+
+Every new API key entry MUST follow this exact markdown table format:
+
+```markdown
+---
+
+## [Service Name]
+
+| Field | Value |
+|-------|-------|
+| Service | [Full Service Name] |
+| Key Name | [Name given to the key] |
+| API Key | `[the-actual-api-key]` |
+| API Endpoint | [endpoint URL if applicable] |
+| Permissions | [what the key can access] |
+| Created | YYYY-MM-DD |
+| Console URL | [URL to manage this key] |
+
+**Notes:** [Any additional context about the key]
+
+---
+```
+
+#### Adding a New Key - Step by Step:
+
+1. Read the current API_KEYS.md file (or create it if missing)
+2. Scroll to the end of the file
+3. Add a new section using the format above
+4. Include ALL relevant fields (service name, key name, the actual key, date, etc.)
+5. Always wrap the actual API key in backticks: `like-this`
+
+#### Template Reference:
+- See `/home/farmspace/teleclaude/API_KEYS.template.md` for format examples
+- Contains placeholder entries for common services
+
+#### Example - Adding an OpenAI Key:
+
+```markdown
+---
+
+## OpenAI Platform
+
+| Field | Value |
+|-------|-------|
+| Service | OpenAI Platform |
+| Key Name | my-project-key |
+| API Key | `sk-proj-abc123xyz789...` |
+| Created | 2026-01-29 |
+| Console URL | https://platform.openai.com/api-keys |
+
+---
+```
 
 ### Workflows & Skills
 - **Location:** `./SKILLS.md` (in bridge directory)
