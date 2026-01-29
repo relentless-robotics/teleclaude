@@ -8,21 +8,43 @@
  * - MCP server for send_to_telegram tool
  * - Process management commands (/status, /restart, /kill, /reset)
  * - Chunked message sending for long responses
+ * - CLI-only mode (no Telegram required)
+ * - Cross-platform Windows/Unix compatibility
  */
 
 const TelegramBot = require('node-telegram-bot-api');
 const pty = require('node-pty');
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
 const readline = require('readline');
+
+// Cross-platform utilities
+const platform = require('./lib/platform');
 
 // Configuration paths
 const CONFIG_FILE = path.join(__dirname, 'config.json');
 const BRIDGE_DIR = __dirname;
-const OUTPUT_FILE = '/tmp/tg-response.txt';
+const OUTPUT_FILE = platform.getOutputFile();
 const MCP_CONFIG = path.join(__dirname, 'mcp', 'config.json');
 const MAX_MSG = 4000;
+
+// ANSI color codes
+const colors = {
+  reset: '\x1b[0m',
+  bold: '\x1b[1m',
+  dim: '\x1b[2m',
+  red: '\x1b[31m',
+  green: '\x1b[32m',
+  yellow: '\x1b[33m',
+  blue: '\x1b[34m',
+  magenta: '\x1b[35m',
+  cyan: '\x1b[36m',
+  white: '\x1b[37m',
+};
+
+function c(color, text) {
+  return `${colors[color]}${text}${colors.reset}`;
+}
 
 let config = null;
 let claude = null;
@@ -110,7 +132,7 @@ async function bootstrap() {
     console.log('  The directory Claude will have access to.');
     console.log('  Press Enter to use your home directory.\n');
 
-    const defaultWorkdir = process.env.HOME || '/home';
+    const defaultWorkdir = platform.getHomeDir();
     const workdir = await prompt(rl, `Working directory [${defaultWorkdir}]: `) || defaultWorkdir;
 
     if (!fs.existsSync(workdir)) {
@@ -129,6 +151,7 @@ async function bootstrap() {
 
     // Create config
     config = {
+      mode: 'telegram',
       telegramToken: token,
       allowedUsers: userIds,
       workdir: workdir,
@@ -213,42 +236,70 @@ function loadConfig() {
   }
 }
 
+// Determine mode from config (backwards compatible)
+function getMode(cfg) {
+  if (!cfg) return null;
+  // If mode is explicitly set, use it
+  if (cfg.mode) return cfg.mode;
+  // Backwards compatibility: if telegramToken exists, assume telegram mode
+  if (cfg.telegramToken) return 'telegram';
+  // Otherwise, assume CLI mode
+  return 'cli';
+}
+
+// Check if running directly without config (show setup message)
+function showSetupMessage() {
+  console.log('');
+  console.log(c('cyan', '  ╔═══════════════════════════════════════════════════════════════╗'));
+  console.log(c('cyan', '  ║') + c('bold', '       Claude Code Bridge - Welcome!                          ') + c('cyan', '║'));
+  console.log(c('cyan', '  ╚═══════════════════════════════════════════════════════════════╝'));
+  console.log('');
+  console.log(c('dim', '  No configuration found. Choose how you want to use Claude:'));
+  console.log('');
+  console.log(c('green', '  ─────────────────────────────────────────────────────────────────'));
+  console.log('');
+  console.log(`  ${c('bold', '[1]')} ${c('green', 'CLI Mode')} ${c('yellow', '(Recommended - Quick Start)')}`);
+  console.log(c('dim', '      Chat with Claude directly in this terminal.'));
+  console.log(c('dim', '      No setup required - start chatting immediately!'));
+  console.log('');
+  console.log(`  ${c('bold', '[2]')} ${c('cyan', 'Telegram Mode')} ${c('dim', '(Full Setup)')}`);
+  console.log(c('dim', '      Control Claude from your phone via Telegram.'));
+  console.log(c('dim', '      Requires creating a Telegram bot first.'));
+  console.log('');
+  console.log(c('dim', '  ─────────────────────────────────────────────────────────────────'));
+  console.log('');
+  console.log(c('dim', '  You can add Telegram later with: npm run setup-telegram'));
+  console.log('');
+}
+
 // ============================================
-// PROCESS MANAGEMENT
+// PROCESS MANAGEMENT (Cross-platform)
 // ============================================
 
 function killOrphanedClaude() {
-  try {
-    execSync('pkill -f "claude.*mcp-config.*telegram" 2>/dev/null || true', { stdio: 'ignore' });
-    execSync('pkill -f "telegram-bridge.js" 2>/dev/null || true', { stdio: 'ignore' });
-    execSync('sleep 1', { stdio: 'ignore' });
-    return true;
-  } catch (e) {
-    return false;
-  }
+  return platform.killClaudeProcesses();
 }
 
 function getProcessStatus() {
-  try {
-    const ps = execSync('ps aux | grep -E "claude|telegram-bridge" | grep -v grep | wc -l', { encoding: 'utf8' }).trim();
-    const procs = execSync('ps aux | grep -E "claude.*mcp-config" | grep -v grep | head -3', { encoding: 'utf8' }).trim();
-    return { count: parseInt(ps) || 0, details: procs || 'none' };
-  } catch (e) {
-    return { count: 0, details: 'error checking' };
-  }
+  return platform.getProcessStatus();
 }
 
 // ============================================
-// CLAUDE MANAGEMENT
+// CLAUDE MANAGEMENT (Telegram Mode)
 // ============================================
 
 function startClaude() {
   if (claude) return;
 
+  // Ensure output file directory exists
+  platform.ensureDir(path.dirname(OUTPUT_FILE));
   fs.writeFileSync(OUTPUT_FILE, '', 'utf8');
   lastMtime = Date.now();
 
   console.log('Starting Claude with MCP...');
+
+  // On Windows, node-pty needs shell: true for proper command execution
+  const shell = platform.isWindows ? 'cmd.exe' : undefined;
 
   claude = pty.spawn('claude', [
     '--dangerously-skip-permissions',
@@ -262,9 +313,11 @@ function startClaude() {
       ...process.env,
       TERM: 'xterm-256color',
       HOME: config.workdir,
+      USERPROFILE: config.workdir, // Windows equivalent
       // Playwright browser settings (optional - use system browser)
       PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
-    }
+    },
+    useConpty: platform.isWindows // Use ConPTY on Windows
   });
 
   claude.onData((data) => {
@@ -295,7 +348,7 @@ function startClaude() {
 }
 
 // ============================================
-// MESSAGE HANDLING
+// MESSAGE HANDLING (Telegram Mode)
 // ============================================
 
 function sendChunked(text) {
@@ -331,22 +384,10 @@ function sendToClaude(userMessage) {
 }
 
 // ============================================
-// MAIN
+// TELEGRAM MODE
 // ============================================
 
-async function main() {
-  // Load or create config
-  config = loadConfig();
-
-  if (!config) {
-    const success = await bootstrap();
-    if (!success) {
-      console.error('Setup failed. Exiting.');
-      process.exit(1);
-    }
-    config = loadConfig();
-  }
-
+async function startTelegramMode() {
   // Ensure MCP config path is correct
   updateMcpConfig();
 
@@ -461,9 +502,136 @@ Related processes: ${status.count}`, { parse_mode: 'Markdown' });
   process.on('SIGINT', () => { if (claude) claude.kill(); process.exit(0); });
 
   // Create output file and start Claude
+  platform.ensureDir(path.dirname(OUTPUT_FILE));
   fs.writeFileSync(OUTPUT_FILE, '', 'utf8');
   startClaude();
   console.log('Ready - waiting for Telegram messages');
+}
+
+// ============================================
+// CLI MODE QUICK SETUP
+// ============================================
+
+async function quickCliSetup(rl) {
+  console.log('');
+  console.log(c('green', '  Setting up CLI mode...'));
+  console.log('');
+
+  // Check Claude CLI
+  console.log(c('dim', '  Checking Claude Code CLI...'));
+  const claudeVersion = platform.getCommandVersion('claude');
+  if (claudeVersion) {
+    console.log(`  ${c('green', '[OK]')} Claude Code CLI found: ${claudeVersion}`);
+  } else {
+    console.log(`  ${c('red', '[X]')} Claude Code CLI not found.`);
+    console.log('');
+    console.log(c('dim', '  Install it with: npm install -g @anthropic-ai/claude-code'));
+    console.log('');
+    const cont = await prompt(rl, `  ${c('yellow', '?')} Continue anyway? (y/N): `);
+    if (!cont.toLowerCase().startsWith('y')) {
+      rl.close();
+      process.exit(1);
+    }
+  }
+
+  // Working directory
+  console.log('');
+  const defaultWorkdir = platform.getHomeDir();
+  const workdirInput = await prompt(rl, `  ${c('yellow', '?')} Working directory ${c('dim', `[${defaultWorkdir}]`)}: `);
+  const workdir = workdirInput || defaultWorkdir;
+
+  if (!fs.existsSync(workdir)) {
+    console.log(c('yellow', `  Creating directory: ${workdir}`));
+    fs.mkdirSync(workdir, { recursive: true });
+  }
+
+  // Save minimal config
+  const cliConfig = {
+    mode: 'cli',
+    workdir: workdir,
+    credentials: { email: null, password: null }
+  };
+
+  fs.writeFileSync(CONFIG_FILE, JSON.stringify(cliConfig, null, 2));
+  console.log('');
+  console.log(`  ${c('green', '[OK]')} Configuration saved!`);
+  console.log('');
+  console.log(c('cyan', '  ─────────────────────────────────────────────────────────────────'));
+  console.log('');
+  console.log(c('dim', '  To add Telegram later: npm run setup-telegram'));
+  console.log('');
+
+  rl.close();
+  return cliConfig;
+}
+
+// ============================================
+// MAIN
+// ============================================
+
+async function main() {
+  // Load config
+  config = loadConfig();
+
+  // If no config exists, show mode selection
+  if (!config) {
+    // Check if this is a direct run (not from setup.js)
+    const isFromSetup = process.argv.includes('--from-setup');
+    const isTelegramSetup = process.argv.includes('--telegram-setup');
+
+    if (isTelegramSetup) {
+      // Force Telegram setup mode
+      require('./setup.js');
+      return;
+    }
+
+    if (!isFromSetup) {
+      showSetupMessage();
+
+      const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+      });
+
+      const choice = await prompt(rl, `  ${c('yellow', '?')} Choose mode ${c('dim', '[1]')}: `);
+
+      if (choice === '2') {
+        rl.close();
+        // Run full Telegram setup
+        require('./setup.js');
+        return;
+      } else {
+        // CLI mode quick setup (default)
+        config = await quickCliSetup(rl);
+        // Start CLI chat
+        require('./chat.js');
+        return;
+      }
+    }
+
+    // Fallback to inline bootstrap if called from setup
+    const success = await bootstrap();
+    if (!success) {
+      console.error('Setup failed. Exiting.');
+      process.exit(1);
+    }
+    config = loadConfig();
+  }
+
+  // Determine mode and start appropriate interface
+  const mode = getMode(config);
+
+  if (mode === 'cli') {
+    // Start CLI chat mode
+    console.log(c('cyan', '  Starting CLI mode...'));
+    console.log(c('dim', '  To switch to Telegram mode: npm run setup-telegram'));
+    console.log('');
+    require('./chat.js');
+    return;
+  }
+
+  // Telegram mode
+  await startTelegramMode();
 }
 
 main().catch(console.error);

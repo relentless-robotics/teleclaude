@@ -3,12 +3,25 @@
  * MCP Server for Telegram Bridge
  * Provides a send_to_telegram tool that writes to the output file
  * Claude Code reads this tool via MCP protocol
+ * Cross-platform Windows/Unix compatible
  */
 
 const fs = require('fs');
+const path = require('path');
 const readline = require('readline');
+const os = require('os');
 
-const OUTPUT_FILE = '/tmp/tg-response.txt';
+// Cross-platform output file location
+const isWindows = process.platform === 'win32';
+const OUTPUT_FILE = isWindows
+  ? path.join(os.tmpdir(), 'tg-response.txt')
+  : '/tmp/tg-response.txt';
+
+// Ensure the temp directory exists (should always exist, but just in case)
+const tempDir = path.dirname(OUTPUT_FILE);
+if (!fs.existsSync(tempDir)) {
+  fs.mkdirSync(tempDir, { recursive: true });
+}
 
 // Read JSON-RPC messages from stdin
 const rl = readline.createInterface({
@@ -77,7 +90,7 @@ rl.on('line', (line) => {
       respondError(id, -32601, `Unknown method: ${method}`);
     }
   } catch (e) {
-    console.error('Parse error:', e.message);
+    process.stderr.write('Parse error: ' + e.message + '\n');
   }
 });
 

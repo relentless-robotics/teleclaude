@@ -1,11 +1,21 @@
 {
-  "name": "claude-telegram-bridge",
+  "name": "teleclaude",
   "version": "1.0.0",
-  "description": "Bridge between Telegram and Claude Code CLI - control Claude from your phone",
+  "description": "Control Claude Code CLI from your phone via Telegram, or chat locally in your terminal. Cross-platform Windows/macOS/Linux.",
   "main": "index.js",
+  "bin": {
+    "teleclaude-setup": "./setup.js",
+    "teleclaude-chat": "./chat.js",
+    "teleclaude-telegram": "./setup-telegram.js"
+  },
   "scripts": {
     "start": "node index.js",
-    "setup": "node index.js"
+    "setup": "node setup.js",
+    "chat": "node chat.js",
+    "setup-telegram": "node setup-telegram.js",
+    "install-cli": "npm install -g @anthropic-ai/claude-code",
+    "postinstall": "node -e \"console.log('\\n  Run: npm run setup\\n  to start the setup wizard.\\n')\"",
+    "test": "node -e \"console.log('Tests not implemented yet')\""
   },
   "keywords": [
     "claude",
@@ -14,9 +24,13 @@
     "ai",
     "cli",
     "mcp",
-    "anthropic"
+    "anthropic",
+    "chatbot",
+    "windows",
+    "cross-platform",
+    "teleclaude"
   ],
-  "author": "",
+  "author": "gatordevin",
   "license": "MIT",
   "dependencies": {
     "node-telegram-bot-api": "^0.66.0",
@@ -26,8 +40,17 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/gatordevin/teleclaude.git"
+  },
+  "homepage": "https://github.com/gatordevin/teleclaude#readme",
+  "bugs": {
+    "url": "https://github.com/gatordevin/teleclaude/issues"
   }
 }

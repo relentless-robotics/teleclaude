@@ -1,4 +1,5 @@
 {
+  "mode": "telegram",
   "telegramToken": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
   "allowedUsers": [123456789],
   "workdir": "/home/user",

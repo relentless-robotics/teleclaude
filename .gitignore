@@ -2,12 +2,10 @@
 node_modules/
 
 # Configuration (contains sensitive data)
-/config.json
+config.json
 .env
-
-# API Keys file (may contain secrets after use)
-# Keep the template but ignore if it has real keys
-# API_KEYS.md  # Uncomment if you add real keys
+.env.*
+!.env.example
 
 # Temporary files
 /tmp/
@@ -17,18 +15,25 @@ node_modules/
 # OS files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # Build artifacts
 dist/
 build/
 
-# Debug
+# Debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Package manager locks (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
