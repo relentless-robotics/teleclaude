@@ -10,6 +10,30 @@ config.json
 # API Keys (contains real keys - use API_KEYS.template.md as reference)
 API_KEYS.md
 
+# Wallet keys and crypto credentials
+WALLET_KEYS.md
+
+# Personal project tracking
+PROJECTS.md
+
+# MCP server configurations (may contain tokens/credentials)
+mcp-servers/
+MCP_CONFIG.md
+.playwright-mcp/
+
+# Separate projects (not part of TeleClaude)
+contentmorph/
+
+# Daemon logs
+teleclaude-daemon.log
+
+# Downloaded images and profile pictures
+images/
+*.png
+*.jpg
+*.jpeg
+!screenshots/
+
 # Temporary files
 /tmp/
 *.log

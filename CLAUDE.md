@@ -144,6 +144,17 @@ Steps:
 
 ## IMPORTANT FILES & REFERENCES
 
+### Active Projects - PROJECTS.md
+
+**Location:** `/home/farmspace/teleclaude/PROJECTS.md`
+
+This file tracks all actively running projects, deployments, and scheduled tasks. **Whenever you deploy a new project or set up something that runs continuously (Vercel, cron jobs, bots, etc.), you MUST add it to PROJECTS.md.**
+
+Reference this file to:
+- See what projects are currently live
+- Find deployment URLs and management commands
+- Understand project configurations and dependencies
+
 ### API Keys Storage - MANDATORY INSTRUCTIONS
 
 **Location:** `/home/farmspace/teleclaude/API_KEYS.md`
@@ -223,7 +234,7 @@ Every new API key entry MUST follow this exact markdown table format:
 - Documents procedures for logging into services, generating API keys, etc.
 - Reference this before attempting browser-based logins
 
-### Default Login Credentials (if configured)
-- **Email:** [YOUR_EMAIL]
-- **Password:** [YOUR_PASSWORD]
-- **Google 2FA:** If enabled, always select "Tap Yes on phone/tablet" for approval
+### Default Login Credentials (Configure Locally)
+- **Email:** [Configure in your local CLAUDE.md]
+- **Password:** [Configure in your local CLAUDE.md]
+- **Google 2FA:** If enabled, select "Tap Yes on phone/tablet" for approval
