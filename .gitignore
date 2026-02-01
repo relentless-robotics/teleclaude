@@ -76,3 +76,5 @@ yarn-error.log*
 # package-lock.json
 # yarn.lock
 nul
+tools/SysinternalsSuite.zip
+tools/sysinternals/RDCMan*.exe

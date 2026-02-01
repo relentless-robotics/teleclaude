@@ -53,6 +53,53 @@ node scrape_all_bounties.js
 
 ---
 
+## 🤖 Discord/Telegram Bridge Commands
+
+Commands available when using the bot via Discord or Telegram:
+
+| Command | Description |
+|---------|-------------|
+| `/help` | Show all available commands |
+| `/status` | Check Claude process status and uptime |
+| `/restart` | Gracefully restart Claude |
+| `/kill` | Kill all Claude processes |
+| `/reset` | Full reset (kill + restart fresh) |
+| `/ping` | Check if bridge is responsive |
+| `/logs [category]` | View recent logs (bridge, claude, mcp, agent, system) |
+| `/pwd` | Show current working directory |
+| `/cd <path>` | Change working directory |
+| `/getfile <path>` | Download a file (25MB Discord / 50MB Telegram limit) |
+
+**File Commands Notes:**
+- `/cd` supports both absolute and relative paths
+- `/getfile` resolves relative paths from current working directory
+- Working directory persists across Claude restarts
+
+---
+
+## 🧠 Memory System v2 (Semantic Search)
+
+The memory MCP server now includes TF-IDF semantic search for better recall.
+
+**New Features:**
+- **Semantic matching**: "code repo" finds memories about "github"
+- **Synonym expansion**: Built-in synonyms for common terms
+- **Similarity search**: Find related memories with `find_similar`
+- **Relevance scoring**: See match quality in search results
+
+**Storage Files:**
+- `memory/memories.json` - Raw memory data
+- `memory/semantic-index.json` - Search index (auto-generated)
+
+**Semantic Search Examples:**
+```
+recall("where is code hosted")  → Finds GitHub repo memory
+recall("payment processing")    → Finds Stripe/billing memories
+recall("login issues")          → Finds OAuth/auth memories
+```
+
+---
+
 ## Template: Service Login
 
 **Purpose:** Generic template for documenting a login workflow.

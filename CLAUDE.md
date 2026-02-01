@@ -799,18 +799,27 @@ await session.close();
 
 **Never lose track of active bounties or PRs again.**
 
-### Persistent Memory System - USE IT!
+### Persistent Memory System v2 - WITH SEMANTIC SEARCH
 
-**You have a memory MCP server for tracking things you need to remember!**
+**You have a memory MCP server with semantic search for tracking things you need to remember!**
 
 **Available tools:**
 - `remember(content, priority, tags, expires_days)` - Store important info
-- `recall(query, priority, tag)` - Search your memories
+- `recall(query, priority, tag)` - **Semantic search** your memories (finds related concepts!)
 - `check_pending()` - Get URGENT and DAILY items needing attention
 - `complete_memory(id)` - Mark something as done
 - `forget(id)` - Delete a memory
 - `list_memories(priority, status)` - Browse all memories
 - `update_memory(id, ...)` - Update existing memory
+- `find_similar(id)` - **NEW**: Find memories related to a given memory
+- `rebuild_index()` - **NEW**: Rebuild semantic search index
+
+**Semantic Search Examples:**
+```
+recall("code repository")     → Finds memories about "github", "git", "codebase"
+recall("authentication")      → Finds memories about "OAuth", "login", "JWT"
+recall("payment processing")  → Finds memories about "Stripe", "billing", "transactions"
+```
 
 **Priority levels:**
 - `URGENT` - Check every conversation (active blockers, critical deadlines)
@@ -830,7 +839,9 @@ check_pending()
 ```
 This shows all URGENT and DAILY items that need attention.
 
-**Storage:** `./memory/memories.json`
+**Storage:**
+- `./memory/memories.json` - Raw memories
+- `./memory/semantic-index.json` - TF-IDF search index (auto-generated)
 
 ### KeePass Password Backup
 

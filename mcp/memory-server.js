@@ -1,15 +1,24 @@
 #!/usr/bin/env node
 /**
- * MCP Memory Server
- * Persistent memory system for Claude with priority-based recall
+ * MCP Memory Server v2 - With Semantic Search
+ * Persistent memory system for Claude with TF-IDF based semantic recall
+ *
+ * NEW in v2:
+ *   - Semantic search using TF-IDF + cosine similarity
+ *   - Synonym expansion for better matching
+ *   - Automatic indexing of all memories
+ *   - Similar memory suggestions
+ *   - Memory summarization
  *
  * Tools:
  *   - remember: Store a memory with priority, tags, and optional expiration
- *   - recall: Search memories by query and/or tags
+ *   - recall: Search memories semantically by query and/or tags
  *   - check_pending: Get all items needing attention (URGENT and DAILY)
  *   - complete_memory: Mark a memory as completed
  *   - forget: Remove a memory
  *   - list_memories: List all memories with optional filters
+ *   - update_memory: Modify an existing memory
+ *   - find_similar: Find memories similar to a given memory
  */
 
 const fs = require('fs');
@@ -17,9 +26,13 @@ const path = require('path');
 const readline = require('readline');
 const crypto = require('crypto');
 
+// Import semantic search
+const { SemanticIndex } = require('../lib/semantic-search');
+
 // Storage location
 const MEMORY_DIR = path.join(__dirname, '..', 'memory');
 const MEMORY_FILE = path.join(MEMORY_DIR, 'memories.json');
+const INDEX_FILE = path.join(MEMORY_DIR, 'semantic-index.json');
 const LOG_FILE = path.join(__dirname, '..', 'logs', `mcp-memory-${new Date().toISOString().split('T')[0]}.log`);
 
 // Ensure directories exist
@@ -39,6 +52,9 @@ const PRIORITIES = {
   WEEKLY: 3,    // Check weekly
   ARCHIVE: 4    // Long-term storage, rarely checked
 };
+
+// Semantic search index
+let semanticIndex = new SemanticIndex(INDEX_FILE);
 
 /**
  * Logging
@@ -71,7 +87,7 @@ function loadMemories() {
   } catch (e) {
     log('ERROR', 'Failed to load memories', { error: e.message });
   }
-  return { memories: [], metadata: { created: new Date().toISOString(), version: 1 } };
+  return { memories: [], metadata: { created: new Date().toISOString(), version: 2 } };
 }
 
 /**
@@ -80,6 +96,7 @@ function loadMemories() {
 function saveMemories(data) {
   try {
     data.metadata.lastModified = new Date().toISOString();
+    data.metadata.version = 2;
     fs.writeFileSync(MEMORY_FILE, JSON.stringify(data, null, 2), 'utf8');
     log('INFO', 'Memories saved', { count: data.memories.length });
     return true;
@@ -87,6 +104,41 @@ function saveMemories(data) {
     log('ERROR', 'Failed to save memories', { error: e.message });
     return false;
   }
+}
+
+/**
+ * Rebuild semantic index from all memories
+ */
+function rebuildIndex() {
+  const data = loadMemories();
+  semanticIndex = new SemanticIndex(INDEX_FILE);
+
+  for (const memory of data.memories) {
+    if (!isExpired(memory) && memory.status !== 'completed') {
+      // Combine content and tags for better indexing
+      const indexText = `${memory.content} ${memory.tags.join(' ')}`;
+      semanticIndex.addDocument(memory.id, indexText, {
+        priority: memory.priority,
+        created: memory.created,
+        tags: memory.tags
+      });
+    }
+  }
+
+  semanticIndex.save();
+  log('INFO', 'Semantic index rebuilt', semanticIndex.getStats());
+}
+
+/**
+ * Add memory to semantic index
+ */
+function indexMemory(memory) {
+  const indexText = `${memory.content} ${memory.tags.join(' ')}`;
+  semanticIndex.addDocument(memory.id, indexText, {
+    priority: memory.priority,
+    created: memory.created,
+    tags: memory.tags
+  });
 }
 
 /**
@@ -105,25 +157,82 @@ function isExpired(memory) {
 }
 
 /**
- * Search memories by query (searches content and tags)
+ * Semantic search memories
  */
-function searchMemories(memories, query, priorityFilter = null, tagFilter = null, includeCompleted = false) {
+function semanticSearchMemories(query, options = {}) {
+  const {
+    priorityFilter = null,
+    tagFilter = null,
+    includeCompleted = false,
+    limit = 20,
+    threshold = 0.05  // Lower threshold for more results
+  } = options;
+
+  // Get semantic matches
+  const semanticResults = semanticIndex.search(query, {
+    limit: limit * 2,  // Get more, then filter
+    threshold,
+    expandSynonyms: true,
+    boostRecent: true,
+    recentDays: 14
+  });
+
+  // Load memories for filtering
+  const data = loadMemories();
+  const memoryMap = new Map(data.memories.map(m => [m.id, m]));
+
+  // Filter and enhance results
+  const results = [];
+
+  for (const result of semanticResults) {
+    const memory = memoryMap.get(result.id);
+    if (!memory) continue;
+
+    // Skip expired
+    if (isExpired(memory)) continue;
+
+    // Skip completed unless requested
+    if (!includeCompleted && memory.status === 'completed') continue;
+
+    // Priority filter
+    if (priorityFilter && memory.priority !== priorityFilter) continue;
+
+    // Tag filter
+    if (tagFilter && !memory.tags.some(t => t.toLowerCase() === tagFilter.toLowerCase())) continue;
+
+    results.push({
+      ...memory,
+      relevanceScore: result.score
+    });
+
+    if (results.length >= limit) break;
+  }
+
+  // Sort by relevance, then priority
+  results.sort((a, b) => {
+    // Higher relevance first
+    const scoreDiff = b.relevanceScore - a.relevanceScore;
+    if (Math.abs(scoreDiff) > 0.1) return scoreDiff;
+
+    // Then by priority
+    return PRIORITIES[a.priority] - PRIORITIES[b.priority];
+  });
+
+  return results;
+}
+
+/**
+ * Keyword search memories (fallback)
+ */
+function keywordSearchMemories(memories, query, priorityFilter = null, tagFilter = null, includeCompleted = false) {
   const queryLower = query ? query.toLowerCase() : '';
 
   return memories.filter(m => {
-    // Skip expired
     if (isExpired(m)) return false;
-
-    // Skip completed unless requested
     if (!includeCompleted && m.status === 'completed') return false;
-
-    // Priority filter
     if (priorityFilter && m.priority !== priorityFilter) return false;
-
-    // Tag filter
     if (tagFilter && !m.tags.some(t => t.toLowerCase() === tagFilter.toLowerCase())) return false;
 
-    // Query match (content or tags)
     if (queryLower) {
       const contentMatch = m.content.toLowerCase().includes(queryLower);
       const tagMatch = m.tags.some(t => t.toLowerCase().includes(queryLower));
@@ -132,7 +241,6 @@ function searchMemories(memories, query, priorityFilter = null, tagFilter = null
 
     return true;
   }).sort((a, b) => {
-    // Sort by priority (URGENT first), then by date
     const priorityDiff = PRIORITIES[a.priority] - PRIORITIES[b.priority];
     if (priorityDiff !== 0) return priorityDiff;
     return new Date(b.created) - new Date(a.created);
@@ -140,10 +248,40 @@ function searchMemories(memories, query, priorityFilter = null, tagFilter = null
 }
 
 /**
+ * Combined search - semantic + keyword fallback
+ */
+function searchMemories(query, options = {}) {
+  const data = loadMemories();
+
+  // Try semantic search first
+  if (query && semanticIndex.documents.size > 0) {
+    const semanticResults = semanticSearchMemories(query, options);
+
+    // If we got good semantic results, use them
+    if (semanticResults.length > 0 && semanticResults[0].relevanceScore > 0.1) {
+      return semanticResults;
+    }
+  }
+
+  // Fallback to keyword search
+  return keywordSearchMemories(
+    data.memories,
+    query,
+    options.priorityFilter,
+    options.tagFilter,
+    options.includeCompleted
+  );
+}
+
+/**
  * Format memory for display
  */
-function formatMemory(m) {
-  return `[${m.id}] [${m.priority}] ${m.content}${m.tags.length ? ` (tags: ${m.tags.join(', ')})` : ''}${m.status === 'completed' ? ' [DONE]' : ''}`;
+function formatMemory(m, showScore = false) {
+  let result = `[${m.id}] [${m.priority}] ${m.content}`;
+  if (m.tags.length) result += ` (tags: ${m.tags.join(', ')})`;
+  if (m.status === 'completed') result += ' [DONE]';
+  if (showScore && m.relevanceScore) result += ` (relevance: ${(m.relevanceScore * 100).toFixed(0)}%)`;
+  return result;
 }
 
 // MCP Server Implementation
@@ -197,7 +335,7 @@ const TOOLS = [
   },
   {
     name: 'recall',
-    description: 'Search and retrieve memories by query, tags, or priority. Use this to remember what you were working on.',
+    description: 'Search and retrieve memories by query, tags, or priority. Uses semantic search to find related memories even with different wording.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -312,6 +450,32 @@ const TOOLS = [
       },
       required: ['id']
     }
+  },
+  {
+    name: 'find_similar',
+    description: 'Find memories similar to a given memory ID. Useful for finding related context.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        id: {
+          type: 'string',
+          description: 'The memory ID to find similar memories for'
+        },
+        limit: {
+          type: 'number',
+          description: 'Maximum number of similar memories to return (default: 5)'
+        }
+      },
+      required: ['id']
+    }
+  },
+  {
+    name: 'rebuild_index',
+    description: 'Rebuild the semantic search index. Use if search results seem stale or after bulk imports.',
+    inputSchema: {
+      type: 'object',
+      properties: {}
+    }
   }
 ];
 
@@ -338,25 +502,38 @@ function handleRemember(args) {
   data.memories.push(memory);
   saveMemories(data);
 
+  // Add to semantic index
+  indexMemory(memory);
+  semanticIndex.save();
+
   log('INFO', 'Memory stored', memory);
+
+  // Find similar existing memories
+  const similar = semanticIndex.findSimilar(memory.id, 3);
+  let similarText = '';
+  if (similar.length > 0) {
+    const memoryMap = new Map(data.memories.map(m => [m.id, m]));
+    similarText = '\n\nRelated memories:\n' + similar.map(s => {
+      const m = memoryMap.get(s.id);
+      return m ? `- ${m.content.slice(0, 80)}...` : '';
+    }).filter(x => x).join('\n');
+  }
 
   return {
     content: [{
       type: 'text',
-      text: `Memory stored with ID: ${memory.id}\n\nPriority: ${memory.priority}\nTags: ${memory.tags.join(', ') || 'none'}\nExpires: ${memory.expires || 'never'}`
+      text: `Memory stored with ID: ${memory.id}\n\nPriority: ${memory.priority}\nTags: ${memory.tags.join(', ') || 'none'}\nExpires: ${memory.expires || 'never'}${similarText}`
     }]
   };
 }
 
 function handleRecall(args) {
-  const data = loadMemories();
-  const results = searchMemories(
-    data.memories,
-    args.query,
-    args.priority,
-    args.tag,
-    args.include_completed
-  );
+  const results = searchMemories(args.query || '', {
+    priorityFilter: args.priority,
+    tagFilter: args.tag,
+    includeCompleted: args.include_completed,
+    limit: 20
+  });
 
   if (results.length === 0) {
     return {
@@ -367,12 +544,15 @@ function handleRecall(args) {
     };
   }
 
-  const formatted = results.map(formatMemory).join('\n');
+  // Check if results have relevance scores (semantic search was used)
+  const hasScores = results[0].relevanceScore !== undefined;
+
+  const formatted = results.map(m => formatMemory(m, hasScores)).join('\n');
 
   return {
     content: [{
       type: 'text',
-      text: `Found ${results.length} memories:\n\n${formatted}`
+      text: `Found ${results.length} memories${hasScores ? ' (semantic search)' : ''}:\n\n${formatted}`
     }]
   };
 }
@@ -381,8 +561,8 @@ function handleCheckPending() {
   const data = loadMemories();
 
   // Get URGENT and DAILY items that are active
-  const urgent = searchMemories(data.memories, null, 'URGENT');
-  const daily = searchMemories(data.memories, null, 'DAILY');
+  const urgent = keywordSearchMemories(data.memories, null, 'URGENT');
+  const daily = keywordSearchMemories(data.memories, null, 'DAILY');
 
   // Update lastChecked
   const now = new Date().toISOString();
@@ -395,11 +575,11 @@ function handleCheckPending() {
   let response = '';
 
   if (urgent.length > 0) {
-    response += `**URGENT (${urgent.length}):**\n${urgent.map(formatMemory).join('\n')}\n\n`;
+    response += `**URGENT (${urgent.length}):**\n${urgent.map(m => formatMemory(m)).join('\n')}\n\n`;
   }
 
   if (daily.length > 0) {
-    response += `**DAILY (${daily.length}):**\n${daily.map(formatMemory).join('\n')}`;
+    response += `**DAILY (${daily.length}):**\n${daily.map(m => formatMemory(m)).join('\n')}`;
   }
 
   if (!response) {
@@ -431,6 +611,10 @@ function handleCompleteMemory(args) {
   memory.completedAt = new Date().toISOString();
   saveMemories(data);
 
+  // Remove from semantic index (completed items shouldn't show in search)
+  semanticIndex.removeDocument(args.id);
+  semanticIndex.save();
+
   log('INFO', 'Memory completed', { id: args.id });
 
   return {
@@ -456,6 +640,10 @@ function handleForget(args) {
 
   const removed = data.memories.splice(index, 1)[0];
   saveMemories(data);
+
+  // Remove from semantic index
+  semanticIndex.removeDocument(args.id);
+  semanticIndex.save();
 
   log('INFO', 'Memory deleted', { id: args.id, content: removed.content });
 
@@ -517,10 +705,14 @@ function handleListMemories(args) {
   for (const priority of ['URGENT', 'DAILY', 'WEEKLY', 'ARCHIVE']) {
     if (grouped[priority]) {
       response += `**${priority} (${grouped[priority].length}):**\n`;
-      response += grouped[priority].map(formatMemory).join('\n');
+      response += grouped[priority].map(m => formatMemory(m)).join('\n');
       response += '\n\n';
     }
   }
+
+  // Add index stats
+  const stats = semanticIndex.getStats();
+  response += `\n_Semantic index: ${stats.documentCount} documents, ${stats.uniqueTerms} terms_`;
 
   return {
     content: [{
@@ -551,6 +743,11 @@ function handleUpdateMemory(args) {
   memory.updatedAt = new Date().toISOString();
   saveMemories(data);
 
+  // Update semantic index
+  semanticIndex.removeDocument(args.id);
+  indexMemory(memory);
+  semanticIndex.save();
+
   log('INFO', 'Memory updated', { id: args.id });
 
   return {
@@ -561,7 +758,73 @@ function handleUpdateMemory(args) {
   };
 }
 
-log('INFO', 'Memory MCP Server starting');
+function handleFindSimilar(args) {
+  const data = loadMemories();
+  const memory = data.memories.find(m => m.id === args.id);
+
+  if (!memory) {
+    return {
+      content: [{
+        type: 'text',
+        text: `Memory not found: ${args.id}`
+      }]
+    };
+  }
+
+  const limit = args.limit || 5;
+  const similar = semanticIndex.findSimilar(args.id, limit);
+
+  if (similar.length === 0) {
+    return {
+      content: [{
+        type: 'text',
+        text: `No similar memories found for: ${memory.content.slice(0, 50)}...`
+      }]
+    };
+  }
+
+  const memoryMap = new Map(data.memories.map(m => [m.id, m]));
+  const results = similar.map(s => {
+    const m = memoryMap.get(s.id);
+    if (!m) return null;
+    return `[${(s.score * 100).toFixed(0)}% similar] ${formatMemory(m)}`;
+  }).filter(x => x);
+
+  return {
+    content: [{
+      type: 'text',
+      text: `Memories similar to "${memory.content.slice(0, 50)}...":\n\n${results.join('\n')}`
+    }]
+  };
+}
+
+function handleRebuildIndex() {
+  rebuildIndex();
+  const stats = semanticIndex.getStats();
+
+  return {
+    content: [{
+      type: 'text',
+      text: `Semantic index rebuilt.\n\nStats:\n- Documents: ${stats.documentCount}\n- Unique terms: ${stats.uniqueTerms}\n- Avg doc length: ${stats.avgDocLength.toFixed(1)} terms`
+    }]
+  };
+}
+
+// Initialize: Load existing memories into index
+function initialize() {
+  const data = loadMemories();
+
+  // If index is empty but we have memories, rebuild it
+  if (semanticIndex.documents.size === 0 && data.memories.length > 0) {
+    log('INFO', 'Rebuilding semantic index from existing memories');
+    rebuildIndex();
+  }
+}
+
+log('INFO', 'Memory MCP Server v2 (Semantic) starting');
+
+// Initialize on startup
+initialize();
 
 rl.on('line', (line) => {
   try {
@@ -574,7 +837,7 @@ rl.on('line', (line) => {
       respond(id, {
         protocolVersion: '2024-11-05',
         capabilities: { tools: {} },
-        serverInfo: { name: 'memory-server', version: '1.0.0' }
+        serverInfo: { name: 'memory-server', version: '2.0.0' }
       });
     }
     else if (method === 'tools/list') {
@@ -607,6 +870,12 @@ rl.on('line', (line) => {
         case 'update_memory':
           result = handleUpdateMemory(args || {});
           break;
+        case 'find_similar':
+          result = handleFindSimilar(args || {});
+          break;
+        case 'rebuild_index':
+          result = handleRebuildIndex();
+          break;
         default:
           respondError(id, -32601, `Unknown tool: ${name}`);
           return;
@@ -626,12 +895,14 @@ rl.on('line', (line) => {
 });
 
 rl.on('close', () => {
-  log('INFO', 'Memory MCP Server shutting down');
+  // Save index on shutdown
+  semanticIndex.save();
+  log('INFO', 'Memory MCP Server v2 shutting down');
 });
 
 process.on('uncaughtException', (e) => {
   log('ERROR', 'Uncaught exception', { error: e.message, stack: e.stack });
 });
 
-log('INFO', 'Memory MCP Server ready');
-process.stderr.write('Memory MCP server started\n');
+log('INFO', 'Memory MCP Server v2 ready');
+process.stderr.write('Memory MCP server v2 (semantic search) started\n');
