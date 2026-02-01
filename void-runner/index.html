@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#87CEEB">
+    <title>🌶️ Spicy Flappy Bird</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+
+        <!-- Main Menu -->
+        <div id="menu-screen" class="screen active">
+            <h1 class="game-title">🌶️ SPICY<br>FLAPPY BIRD</h1>
+            <button class="btn btn-primary" id="play-btn">PLAY</button>
+            <button class="btn btn-secondary" id="shop-btn">SHOP</button>
+            <button class="btn btn-secondary" id="multiplayer-btn">MULTIPLAYER</button>
+            <button class="btn btn-secondary" id="settings-btn">SETTINGS</button>
+            <div class="high-score">High Score: <span id="menu-high-score">0</span></div>
+        </div>
+
+        <!-- Shop Screen -->
+        <div id="shop-screen" class="screen">
+            <h2>🛍️ SHOP</h2>
+            <div class="coins-display">💰 Coins: <span id="shop-coins">0</span></div>
+
+            <div class="shop-section">
+                <h3>🐦 Bird Skins</h3>
+                <div id="skins-container" class="shop-grid"></div>
+            </div>
+
+            <div class="shop-section">
+                <h3>⬆️ Upgrades</h3>
+                <div id="upgrades-container" class="shop-grid"></div>
+            </div>
+
+            <button class="btn btn-secondary" id="shop-back-btn">BACK</button>
+        </div>
+
+        <!-- Multiplayer Screen -->
+        <div id="multiplayer-screen" class="screen">
+            <h2>🎮 MULTIPLAYER</h2>
+            <p>Race against friends! Last bird standing wins.</p>
+
+            <div class="mp-option">
+                <button class="btn btn-primary" id="create-room-btn">CREATE ROOM</button>
+            </div>
+
+            <div class="mp-option">
+                <input type="text" id="room-code-input" placeholder="Enter room code" maxlength="6">
+                <button class="btn btn-primary" id="join-room-btn">JOIN ROOM</button>
+            </div>
+
+            <div id="room-info" class="room-info hidden">
+                <p>Room Code: <strong id="room-code-display"></strong></p>
+                <p>Players: <span id="player-count">1</span>/4</p>
+                <button class="btn btn-success" id="start-mp-game-btn">START GAME</button>
+            </div>
+
+            <button class="btn btn-secondary" id="mp-back-btn">BACK</button>
+        </div>
+
+        <!-- Settings Screen -->
+        <div id="settings-screen" class="screen">
+            <h2>⚙️ SETTINGS</h2>
+
+            <div class="setting-item">
+                <label>🔊 Sound Effects</label>
+                <input type="checkbox" id="sound-toggle" checked>
+            </div>
+
+            <div class="setting-item">
+                <label>🎵 Music</label>
+                <input type="checkbox" id="music-toggle" checked>
+            </div>
+
+            <button class="btn btn-secondary" id="settings-back-btn">BACK</button>
+        </div>
+
+        <!-- Game Over Screen -->
+        <div id="gameover-screen" class="screen">
+            <h2>💀 GAME OVER</h2>
+            <div class="score-display">
+                <p>Score: <span id="final-score">0</span></p>
+                <p>Best: <span id="final-high-score">0</span></p>
+                <p>Coins Earned: <span id="coins-earned">0</span></p>
+            </div>
+            <button class="btn btn-primary" id="retry-btn">RETRY</button>
+            <button class="btn btn-secondary" id="menu-btn">MENU</button>
+        </div>
+
+        <!-- In-Game HUD -->
+        <div id="hud" class="hud hidden">
+            <div class="hud-top">
+                <div class="score-hud" id="score-hud">0</div>
+                <div class="coins-hud">💰 <span id="coins-hud">0</span></div>
+            </div>
+            <div class="powerups-hud" id="powerups-hud"></div>
+            <div class="combo-hud hidden" id="combo-hud">
+                <span class="combo-text">COMBO</span>
+                <span class="combo-value" id="combo-value">x1</span>
+            </div>
+        </div>
+
+        <!-- Event Banner -->
+        <div id="event-banner" class="event-banner hidden"></div>
+    </div>
+
+    <script src="https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/powerups.js"></script>
+    <script src="js/bird.js"></script>
+    <script src="js/pipes.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/multiplayer.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>

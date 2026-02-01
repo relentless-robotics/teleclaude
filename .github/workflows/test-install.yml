@@ -1,0 +1,194 @@
+name: Test Installation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-install:
+    name: Test Install (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: true
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Display environment info
+        run: |
+          echo "=== Environment Info ==="
+          echo "OS: ${{ matrix.os }}"
+          node --version
+          npm --version
+          echo "Working directory: $PWD"
+        shell: bash
+
+      - name: Install dependencies
+        run: |
+          echo "=== Installing npm dependencies ==="
+          npm install
+          echo "=== npm install completed ==="
+        shell: bash
+
+      - name: Run setup.sh (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          echo "=== Running setup.sh ==="
+          chmod +x setup.sh
+          ./setup.sh
+          echo "=== setup.sh completed ==="
+        shell: bash
+
+      - name: Run setup equivalent (Windows)
+        if: runner.os == 'Windows'
+        run: |
+          echo "=== Running Windows setup equivalent ==="
+          if (!(Test-Path "API_KEYS.md")) {
+            Copy-Item "API_KEYS.template.md" "API_KEYS.md"
+            Write-Host "Created API_KEYS.md from template."
+          } else {
+            Write-Host "API_KEYS.md already exists."
+          }
+          echo "=== Windows setup completed ==="
+        shell: pwsh
+
+      - name: Verify key files exist
+        run: |
+          echo "=== Verifying key files ==="
+
+          # Check main application files
+          for file in index.js setup.js chat.js setup-telegram.js package.json; do
+            if [ -f "$file" ]; then
+              echo "[OK] $file exists"
+            else
+              echo "[FAIL] $file is missing!"
+              exit 1
+            fi
+          done
+
+          # Check lib directory
+          for file in lib/platform.js lib/logger.js; do
+            if [ -f "$file" ]; then
+              echo "[OK] $file exists"
+            else
+              echo "[FAIL] $file is missing!"
+              exit 1
+            fi
+          done
+
+          # Check mcp directory
+          for file in mcp/telegram-bridge.js mcp/config.json; do
+            if [ -f "$file" ]; then
+              echo "[OK] $file exists"
+            else
+              echo "[FAIL] $file is missing!"
+              exit 1
+            fi
+          done
+
+          # Check API_KEYS.md was created
+          if [ -f "API_KEYS.md" ]; then
+            echo "[OK] API_KEYS.md was created from template"
+          else
+            echo "[FAIL] API_KEYS.md was not created!"
+            exit 1
+          fi
+
+          # Check node_modules
+          if [ -d "node_modules" ]; then
+            echo "[OK] node_modules directory exists"
+          else
+            echo "[FAIL] node_modules directory is missing!"
+            exit 1
+          fi
+
+          echo "=== All key files verified ==="
+        shell: bash
+
+      - name: Verify dependencies installed
+        run: |
+          echo "=== Verifying npm dependencies ==="
+
+          # Check key dependencies are installed
+          for pkg in node-telegram-bot-api node-pty strip-ansi; do
+            if [ -d "node_modules/$pkg" ]; then
+              echo "[OK] $pkg is installed"
+            else
+              echo "[FAIL] $pkg is not installed!"
+              exit 1
+            fi
+          done
+
+          echo "=== All dependencies verified ==="
+        shell: bash
+
+      - name: Smoke test - syntax check main files
+        run: |
+          echo "=== Running syntax checks ==="
+
+          # Check that main JS files have valid syntax
+          node --check index.js && echo "[OK] index.js syntax valid"
+          node --check setup.js && echo "[OK] setup.js syntax valid"
+          node --check chat.js && echo "[OK] chat.js syntax valid"
+          node --check setup-telegram.js && echo "[OK] setup-telegram.js syntax valid"
+          node --check lib/platform.js && echo "[OK] lib/platform.js syntax valid"
+          node --check lib/logger.js && echo "[OK] lib/logger.js syntax valid"
+          node --check mcp/telegram-bridge.js && echo "[OK] mcp/telegram-bridge.js syntax valid"
+
+          echo "=== All syntax checks passed ==="
+        shell: bash
+
+      - name: Smoke test - require main module
+        run: |
+          echo "=== Testing module loading ==="
+
+          # Test that the main modules can be required without errors
+          # We use a simple require test (doesn't start the app, just loads the module)
+          node -e "
+            try {
+              // Test platform utilities
+              const platform = require('./lib/platform.js');
+              console.log('[OK] lib/platform.js can be required');
+
+              // Test logger
+              const logger = require('./lib/logger.js');
+              console.log('[OK] lib/logger.js can be required');
+
+              console.log('=== Module loading tests passed ===');
+            } catch (err) {
+              console.error('[FAIL] Module loading error:', err.message);
+              process.exit(1);
+            }
+          "
+        shell: bash
+
+      - name: Installation summary
+        run: |
+          echo ""
+          echo "========================================"
+          echo "  Installation Test PASSED"
+          echo "========================================"
+          echo "OS: ${{ matrix.os }}"
+          echo "Node.js: $(node --version)"
+          echo "npm: $(npm --version)"
+          echo ""
+          echo "Verified:"
+          echo "  - npm install completed successfully"
+          echo "  - API_KEYS.md created from template"
+          echo "  - All key application files present"
+          echo "  - All dependencies installed"
+          echo "  - JavaScript syntax valid"
+          echo "  - Core modules load without errors"
+          echo "========================================"
+        shell: bash

@@ -1,0 +1,100 @@
+# ColorHat Security Tools - Docker Compose
+#
+# Usage:
+#   docker-compose -f docker-compose.colorhat.yml up -d    # Start container
+#   docker-compose -f docker-compose.colorhat.yml exec colorhat bash  # Shell access
+#   docker-compose -f docker-compose.colorhat.yml down     # Stop and remove
+
+version: '3.8'
+
+services:
+  colorhat:
+    build:
+      context: .
+      dockerfile: Dockerfile.colorhat
+    image: teleclaude/colorhat:latest
+    container_name: colorhat-security
+
+    # Security settings
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_RAW        # Required for nmap, ping
+      - NET_ADMIN      # Required for some network tools
+
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+
+    # Network - isolated by default
+    networks:
+      - colorhat-network
+
+    # Volumes for persistence (optional)
+    volumes:
+      - colorhat-output:/home/colorhat/output
+      - colorhat-logs:/home/colorhat/logs
+      - ./workspace:/home/colorhat/workspace:rw
+
+    # Environment
+    environment:
+      - COLORHAT_MODE=container
+      - LOG_LEVEL=INFO
+
+    # Keep container running
+    stdin_open: true
+    tty: true
+
+    # Restart policy
+    restart: unless-stopped
+
+  # Ghidra service for reverse engineering (heavier, separate container)
+  ghidra:
+    build:
+      context: .
+      dockerfile: Dockerfile.colorhat
+    image: teleclaude/colorhat:latest
+    container_name: colorhat-ghidra
+
+    # Override for Ghidra-specific work
+    command: ["sleep", "infinity"]
+
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+          memory: 4G
+
+    volumes:
+      - ghidra-projects:/home/colorhat/.ghidra
+      - colorhat-output:/home/colorhat/output
+      - ./binaries:/home/colorhat/binaries:ro
+
+    networks:
+      - colorhat-network
+
+    profiles:
+      - ghidra  # Only start when explicitly requested
+
+networks:
+  colorhat-network:
+    driver: bridge
+    internal: true  # No external access by default
+
+volumes:
+  colorhat-output:
+  colorhat-logs:
+  ghidra-projects:

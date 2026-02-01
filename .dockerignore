@@ -1,0 +1,98 @@
+# Teleclaude Docker Ignore File
+# Excludes sensitive data and unnecessary files from Docker builds
+
+# ===========================================
+# CRITICAL: PROTECTED/SENSITIVE FILES
+# These MUST NEVER be baked into Docker images
+# ===========================================
+
+# Credentials and API keys
+ACCOUNTS.md
+API_KEYS.md
+config.json
+.env
+.env.*
+!.env.example
+
+# Keys directory (crypto wallets, etc.)
+.keys/
+*.pem
+*.key
+
+# Browser session data (contains cookies, auth tokens)
+browser_state/
+browser-data/
+browser-data-v2/
+browser-data-stealth2/
+browser-data-vercel/
+browser_profile_stripe/
+browser_profile_edge/
+twitter-browser-data/
+
+# ===========================================
+# OPERATIONAL DATA
+# ===========================================
+
+# Screenshots (operational, can be large)
+screenshots/
+
+# Logs
+logs/
+*.log
+
+# Test data directories
+test-data/
+upstream-test-data/
+
+# ===========================================
+# DEVELOPMENT/BUILD ARTIFACTS
+# ===========================================
+
+# Node modules (will be rebuilt in container)
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ===========================================
+# DOCKER-RELATED
+# ===========================================
+
+# Docker files (not needed inside container)
+Dockerfile
+Dockerfile.*
+docker-compose*.yml
+.dockerignore
+docker/
+
+# ===========================================
+# DOCUMENTATION (optional, reduces image size)
+# ===========================================
+
+# Uncomment to exclude docs from production image
+# README.md
+# PROTECTED_FILES.md
+# SKILLS.md
+# DOCKER_TESTING.md
+# *.md
+
+# ===========================================
+# TEMPORARY FILES
+# ===========================================
+
+*.tmp
+*.temp
+*.bak
+*.backup

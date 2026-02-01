@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+
+# Configuration (contains sensitive data)
+config.json
+.env
+.env.*
+!.env.example
+
+# API Keys (contains real keys - use API_KEYS.template.md as reference)
+API_KEYS.md
+
+# Wallet keys and crypto credentials
+WALLET_KEYS.md
+.keys/
+
+# Account credentials
+ACCOUNTS.md
+
+# Personal project tracking
+PROJECTS.md
+
+# MCP server configurations (may contain tokens/credentials)
+mcp-servers/
+MCP_CONFIG.md
+.playwright-mcp/
+
+# Separate projects (not part of TeleClaude)
+contentmorph/
+
+# Daemon logs
+teleclaude-daemon.log
+
+# Downloaded images and profile pictures
+images/
+*.png
+*.jpg
+*.jpeg
+!screenshots/
+
+# Browser session data (contains login cookies)
+browser_state/
+browser-data/
+browser-data-*/
+browser_profile_*/
+twitter-browser-data/
+
+# Temporary files
+/tmp/
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+dist/
+build/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package manager locks (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+nul

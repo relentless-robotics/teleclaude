@@ -1,0 +1,858 @@
+{
+  "timestamp": "2026-01-31T20:39:46.867Z",
+  "summary": {
+    "total": 95,
+    "correct": 6,
+    "accuracy": 0.06315789473684211,
+    "byType": {
+      "text": {
+        "total": 70,
+        "correct": 0,
+        "accuracy": 0,
+        "avgSimilarity": 0.14931972789115647,
+        "avgTime": 483.0285714285714
+      },
+      "math": {
+        "total": 25,
+        "correct": 6,
+        "accuracy": 0.24,
+        "avgSimilarity": 0.24,
+        "avgTime": 382.2
+      }
+    }
+  },
+  "errorAnalysis": {
+    "charConfusions": {
+      "A→H": 1,
+      "5→S": 1,
+      "K→H": 1,
+      "H→E": 1,
+      "U→K": 1,
+      "L→2": 1,
+      "E→A": 1,
+      "2→4": 1,
+      "5→F": 1,
+      "H→X": 1,
+      "Y→E": 1,
+      "F→E": 2,
+      "E→K": 1,
+      "A→P": 1,
+      "G→F": 1,
+      "L→Y": 1,
+      "D→S": 2,
+      "Z→F": 1,
+      "C→S": 1,
+      "S→H": 1,
+      "J→C": 1,
+      "W→6": 1,
+      "T→F": 1,
+      "3→G": 1,
+      "Z→A": 1,
+      "G→D": 1,
+      "A→Z": 1,
+      "A→4": 1,
+      "L→A": 1,
+      "X→H": 1,
+      "V→R": 1,
+      "J→T": 2,
+      "Z→R": 1,
+      "R→S": 1,
+      "S→K": 1,
+      "B→K": 1,
+      "9→A": 1,
+      "A→G": 1,
+      "K→E": 1,
+      "9→F": 1,
+      "J→F": 1,
+      "F→P": 1,
+      "U→4": 1,
+      "M→3": 1,
+      "3→4": 1,
+      "C→P": 1,
+      "M→A": 1,
+      "M→E": 1,
+      "U→E": 1,
+      "M→Y": 1
+    },
+    "lengthMismatch": 38,
+    "totallyWrong": 22,
+    "partialMatch": 19
+  },
+  "suggestions": [
+    "CRITICAL: Accuracy below 50%. Consider:",
+    "  - Check if Tesseract is properly installed",
+    "  - Improve image preprocessing (contrast, threshold)",
+    "  - Try different PSM modes",
+    "Many length mismatches. Consider:",
+    "  - Adjusting character segmentation",
+    "  - Using --psm 7 (single line) or --psm 8 (single word)",
+    "Common character confusions:",
+    "  - F→E (2 times)",
+    "  - D→S (2 times)",
+    "  - J→T (2 times)",
+    "  - A→H (1 times)",
+    "  - 5→S (1 times)",
+    "Consider adding to character whitelist or training data"
+  ],
+  "results": [
+    {
+      "filename": "lab_1769891889200_1b9db572a8a0d911.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 475,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891889795_7bb6f986a74f223f.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 487,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891890384_1d0ff7278820a45a.png",
+      "type": "text",
+      "expected": "HAZBX3",
+      "got": "HHZB",
+      "correct": false,
+      "similarity": 0.5,
+      "elapsed": 484
+    },
+    {
+      "filename": "lab_1769891890974_32491b563110941d.png",
+      "type": "text",
+      "expected": "E5KHUN",
+      "got": "ESHEK",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 485
+    },
+    {
+      "filename": "lab_1769891891566_247e65b375460f01.png",
+      "type": "text",
+      "expected": "2888CY",
+      "got": "ZZ",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 477
+    },
+    {
+      "filename": "lab_1769891892157_83f37edd7cfdc99f.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 473,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891892748_ee65095b517bab79.png",
+      "type": "text",
+      "expected": "TSTL55",
+      "got": "FHS",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 481
+    },
+    {
+      "filename": "lab_1769891893353_97f315d450020700.png",
+      "type": "text",
+      "expected": "LE2UA8",
+      "got": "2A4",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 478
+    },
+    {
+      "filename": "lab_1769891893943_d5dbc40263f5a21e.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 472,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891894530_984e694a9bf5adfe.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 481,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891895134_dfce5494e1dc9e63.png",
+      "type": "text",
+      "expected": "K5HTDX",
+      "got": "KFX",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 481
+    },
+    {
+      "filename": "lab_1769891895736_6aac96a595ae9fa0.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 469,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891896324_d2f9585493166c8f.png",
+      "type": "text",
+      "expected": "YFEAKP",
+      "got": "EEKP",
+      "correct": false,
+      "similarity": 0.5,
+      "elapsed": 480
+    },
+    {
+      "filename": "lab_1769891896912_335a768653e3565e.png",
+      "type": "text",
+      "expected": "UQAZP2",
+      "got": "CO2",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 480
+    },
+    {
+      "filename": "lab_1769891897498_2c23796b604c5c4f.png",
+      "type": "text",
+      "expected": "GFLDUD",
+      "got": "FEYD",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 486
+    },
+    {
+      "filename": "lab_1769891898106_6a7a0789cef7f077.png",
+      "type": "text",
+      "expected": "9HUDTY",
+      "got": "UBF",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 496
+    },
+    {
+      "filename": "lab_1769891898697_cf74e675b7050233.png",
+      "type": "text",
+      "expected": "DQAAQB",
+      "got": "BOAACEH",
+      "correct": false,
+      "similarity": 0.2857142857142857,
+      "elapsed": 518
+    },
+    {
+      "filename": "lab_1769891899300_8d8d6b55b4988f49.png",
+      "type": "text",
+      "expected": "KSADZ6",
+      "got": "KSASF",
+      "correct": false,
+      "similarity": 0.5,
+      "elapsed": 475
+    },
+    {
+      "filename": "lab_1769891899891_9b8e284ae5af4b5d.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 474,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891900480_3971b7bd810bd222.png",
+      "type": "text",
+      "expected": "K723PP",
+      "got": "KE",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 484
+    },
+    {
+      "filename": "lab_1769891901087_df80fdd054923c4d.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 481,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891901678_a2640dd865a53569.png",
+      "type": "text",
+      "expected": "U7UQAE",
+      "got": "FECUE",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 478
+    },
+    {
+      "filename": "lab_1769891902283_3b7970eb0ca68991.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 488,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891902885_df34b3be6c9bdeab.png",
+      "type": "text",
+      "expected": "47W7SG",
+      "got": "FITSE",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 478
+    },
+    {
+      "filename": "lab_1769891903480_60a5d24e7b2d3334.png",
+      "type": "text",
+      "expected": "34EZ9Y",
+      "got": "Z2",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 471
+    },
+    {
+      "filename": "lab_1769891904074_8309ffe846cf42a7.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 466,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891904664_e75f3559bca40f0e.png",
+      "type": "text",
+      "expected": "4MNEA8",
+      "got": "HTAS",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 475
+    },
+    {
+      "filename": "lab_1769891905255_b2b1be29ca4abcc7.png",
+      "type": "text",
+      "expected": "CSJ4C4",
+      "got": "SHC4",
+      "correct": false,
+      "similarity": 0.5,
+      "elapsed": 474
+    },
+    {
+      "filename": "lab_1769891905848_f5e4533d86f231ce.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 469,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891906449_b5968de08df6c7cf.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 491,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891907039_c162748d96243cd2.png",
+      "type": "text",
+      "expected": "3YWTVP",
+      "got": "3Y6F",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 487
+    },
+    {
+      "filename": "lab_1769891907629_68b8ae2d7ab53add.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 484,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891908236_d593bfedd9d56d2e.png",
+      "type": "text",
+      "expected": "B3ZGA2",
+      "got": "BGADZ",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 478
+    },
+    {
+      "filename": "lab_1769891908823_2929c1d083594baa.png",
+      "type": "text",
+      "expected": "HKD3ST",
+      "got": "HKS",
+      "correct": false,
+      "similarity": 0.5,
+      "elapsed": 490
+    },
+    {
+      "filename": "lab_1769891909413_103bc7d77067abe8.png",
+      "type": "text",
+      "expected": "2ALAUY",
+      "got": "24AA",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 477
+    },
+    {
+      "filename": "lab_1769891910018_4132c630b016cf70.png",
+      "type": "text",
+      "expected": "53KCVQ",
+      "got": "WHEE",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 488
+    },
+    {
+      "filename": "lab_1769891910608_a9eb15d3279d779c.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 477,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891911199_467dc11bc417a4d2.png",
+      "type": "text",
+      "expected": "4LQE6G",
+      "got": "TEGS",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 494
+    },
+    {
+      "filename": "lab_1769891911803_959d55955f37fbf8.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 492,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891912393_4aa104525dd851f0.png",
+      "type": "text",
+      "expected": "XVMPHR",
+      "got": "HR",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 481
+    },
+    {
+      "filename": "lab_1769891912984_faeeb7aebea2455a.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 510,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891913576_c746411b0c92d7fd.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 494,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891914167_3ad2fd61b2a0bd5b.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 493,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891914755_6c925af32d1bfdd0.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 479,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891915344_14310f121c3da23a.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 477,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891915932_7ad9b27d7f74f744.png",
+      "type": "text",
+      "expected": "QWPM6D",
+      "got": "OEPERS",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 484
+    },
+    {
+      "filename": "lab_1769891916536_521334197e4aec75.png",
+      "type": "text",
+      "expected": "8ENLFZ",
+      "got": "GEAES",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 481
+    },
+    {
+      "filename": "lab_1769891917127_f433745cb775b7c0.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 486,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_1769891917716_4641a24444d389c9.png",
+      "type": "text",
+      "expected": "8GFKET",
+      "got": "KF",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 475
+    },
+    {
+      "filename": "lab_1769891918306_94fc85b15b8a468d.png",
+      "type": "text",
+      "expected": "JAZRSK",
+      "got": "TARSK",
+      "correct": false,
+      "similarity": 0.6666666666666667,
+      "elapsed": 480
+    },
+    {
+      "filename": "math_1769891922652.txt",
+      "type": "math",
+      "expected": "8",
+      "got": "8",
+      "correct": true,
+      "similarity": 1,
+      "elapsed": 0
+    },
+    {
+      "filename": "math_1769891922653.txt",
+      "type": "math",
+      "expected": "6",
+      "got": "6",
+      "correct": true,
+      "similarity": 1,
+      "elapsed": 0
+    },
+    {
+      "filename": "math_1769891922654.txt",
+      "type": "math",
+      "expected": "14",
+      "got": "14",
+      "correct": true,
+      "similarity": 1,
+      "elapsed": 0
+    },
+    {
+      "filename": "math_1769891922655.txt",
+      "type": "math",
+      "expected": "5",
+      "got": "5",
+      "correct": true,
+      "similarity": 1,
+      "elapsed": 0
+    },
+    {
+      "filename": "math_1769891922656.txt",
+      "type": "math",
+      "expected": "20",
+      "got": "20",
+      "correct": true,
+      "similarity": 1,
+      "elapsed": 0
+    },
+    {
+      "filename": "lab_text_1769891923049_0.png",
+      "type": "text",
+      "expected": "KF652F",
+      "got": "CSF",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 474
+    },
+    {
+      "filename": "lab_text_1769891923445_1.png",
+      "type": "text",
+      "expected": "KB9AEQ",
+      "got": "KKAG",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 477
+    },
+    {
+      "filename": "lab_text_1769891923848_2.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 490,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891924237_3.png",
+      "type": "text",
+      "expected": "JKB6K9",
+      "got": "TKB6EF",
+      "correct": false,
+      "similarity": 0.5,
+      "elapsed": 481
+    },
+    {
+      "filename": "lab_text_1769891924630_4.png",
+      "type": "text",
+      "expected": "JF7YLP",
+      "got": "FP",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 474
+    },
+    {
+      "filename": "lab_text_1769891925031_5.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 487,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891925421_6.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 472,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891925808_7.png",
+      "type": "text",
+      "expected": "UM3C4P",
+      "got": "434P",
+      "correct": false,
+      "similarity": 0.5,
+      "elapsed": 508
+    },
+    {
+      "filename": "lab_text_1769891926195_8.png",
+      "type": "text",
+      "expected": "Q77U66",
+      "got": "FVE",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 471
+    },
+    {
+      "filename": "lab_text_1769891926586_9.png",
+      "type": "text",
+      "expected": "5235BH",
+      "got": "SHE",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 476
+    },
+    {
+      "filename": "lab_text_1769891926984_10.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 478,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891927375_11.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 484,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891927763_12.png",
+      "type": "text",
+      "expected": "QZ484T",
+      "got": "ZZF",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 482
+    },
+    {
+      "filename": "lab_text_1769891928167_13.png",
+      "type": "text",
+      "expected": "CZX7VB",
+      "got": "BAIS",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 539
+    },
+    {
+      "filename": "lab_text_1769891928558_14.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 472,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891928942_15.png",
+      "type": "text",
+      "expected": "CDGZQB",
+      "got": "EC26",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 478
+    },
+    {
+      "filename": "lab_text_1769891929334_16.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 489,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891929724_17.png",
+      "type": "text",
+      "expected": "MMMHUM",
+      "got": "MAEHEY",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 489
+    },
+    {
+      "filename": "lab_text_1769891930109_18.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 496,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891930496_19.png",
+      "type": "text",
+      "expected": "4YX5EU",
+      "got": "XX",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 481
+    },
+    {
+      "filename": "lab_math_1769891930943_0.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 478,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891931325_1.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 477,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891931709_2.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 477,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891932099_3.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 476,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891932488_4.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 477,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891932875_5.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 477,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891933268_6.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 479,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891933660_7.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 478,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891934051_8.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 489,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891934445_9.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 478,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891934847_10.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 479,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891935252_11.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 474,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891935642_12.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 480,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891936032_13.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 475,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891936432_14.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 476,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891936824_15.png",
+      "type": "math",
+      "expected": "45",
+      "got": "45",
+      "correct": true,
+      "similarity": 1,
+      "elapsed": 476
+    },
+    {
+      "filename": "lab_math_1769891937214_16.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 479,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891937618_17.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 474,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891938010_18.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 477,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891938396_19.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 479,
+      "error": "Could not parse math expression"
+    }
+  ]
+}

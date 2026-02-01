@@ -1,0 +1,102 @@
+# Quant Trading Bot Configuration
+# ================================
+
+# Data Settings
+data:
+  source: "yahoo"  # Options: yahoo, alphavantage, csv, polygon
+  symbols:
+    - "SPY"
+    - "QQQ"
+    - "AAPL"
+    - "MSFT"
+    - "NVDA"
+    - "GOOGL"
+    - "AMZN"
+    - "META"
+  start_date: "2020-01-01"
+  end_date: "2024-12-31"
+  interval: "1d"  # 1d, 1h, 15m, 5m, 1m
+  cache_data: true
+  cache_dir: "./data/cache"
+
+# Backtest Settings
+backtest:
+  initial_capital: 100000
+  commission: 0.001        # 0.1% per trade
+  slippage: 0.0005         # 0.05% slippage
+  margin_requirement: 0.5  # 50% margin for shorts
+  fractional_shares: true  # Allow fractional shares
+
+# Risk Management
+risk:
+  # Position Sizing
+  position_sizing: "volatility_target"  # fixed_fractional, kelly, volatility_target
+  max_position_size: 0.15               # 15% max per position
+  target_volatility: 0.15               # 15% annualized vol target
+  kelly_fraction: 0.25                  # Quarter Kelly for conservative sizing
+
+  # Stop Losses
+  stop_loss_type: "atr"     # fixed, trailing, atr
+  stop_loss_pct: 0.03       # 3% for fixed stops
+  atr_multiplier: 2.0       # 2x ATR for ATR-based stops
+  trailing_pct: 0.05        # 5% trailing stop
+
+  # Portfolio Controls
+  max_drawdown: 0.20        # 20% max drawdown - halt trading
+  max_correlation: 0.7      # Avoid highly correlated positions
+  max_sector_exposure: 0.4  # 40% max in one sector
+  max_leverage: 1.0         # No leverage by default
+
+# Strategy Parameters (override per strategy)
+strategy:
+  momentum:
+    fast_period: 10
+    slow_period: 30
+    lookback: 252
+    rebalance_freq: "M"  # D=daily, W=weekly, M=monthly
+
+  mean_reversion:
+    lookback: 20
+    entry_zscore: 2.0
+    exit_zscore: 0.5
+
+  ml_strategy:
+    model_type: "xgboost"  # xgboost, lightgbm, random_forest
+    features:
+      - "returns_5d"
+      - "returns_20d"
+      - "volatility_20d"
+      - "rsi_14"
+      - "macd_signal"
+    train_window: 252
+    retrain_freq: 63  # Quarterly retraining
+
+# Live Trading Settings
+live:
+  broker: "alpaca"
+  paper: true  # ALWAYS start with paper trading!
+
+  alpaca:
+    api_key: "YOUR_ALPACA_API_KEY"
+    api_secret: "YOUR_ALPACA_SECRET_KEY"
+    base_url: "https://paper-api.alpaca.markets"  # Paper trading URL
+
+  ibkr:
+    host: "127.0.0.1"
+    port: 7497  # 7497 for paper, 7496 for live
+    client_id: 1
+
+# Logging
+logging:
+  level: "INFO"
+  file: "./logs/trading.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Notifications (optional)
+notifications:
+  enabled: false
+  webhook_url: ""  # Discord/Slack webhook
+  email:
+    smtp_server: ""
+    sender: ""
+    recipient: ""

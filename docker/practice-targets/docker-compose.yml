@@ -1,0 +1,215 @@
+# TeleClaude Practice Targets
+# Local vulnerable environments for pentesting practice
+#
+# WARNING: These are intentionally vulnerable!
+# Only run on isolated networks. Never expose to internet.
+
+version: '3.8'
+
+services:
+  # ============================================
+  # DVWA - Damn Vulnerable Web Application
+  # Classic web vulnerabilities practice
+  # ============================================
+  dvwa:
+    image: vulnerables/web-dvwa:latest
+    container_name: dvwa
+    ports:
+      - "8081:80"
+    environment:
+      - MYSQL_HOSTNAME=dvwa-db
+      - MYSQL_DATABASE=dvwa
+      - MYSQL_USERNAME=dvwa
+      - MYSQL_PASSWORD=p@ssw0rd
+    depends_on:
+      - dvwa-db
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  dvwa-db:
+    image: mysql:5.7
+    container_name: dvwa-db
+    environment:
+      - MYSQL_ROOT_PASSWORD=dvwa
+      - MYSQL_DATABASE=dvwa
+      - MYSQL_USER=dvwa
+      - MYSQL_PASSWORD=p@ssw0rd
+    volumes:
+      - dvwa-db-data:/var/lib/mysql
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  # ============================================
+  # OWASP Juice Shop
+  # Modern vulnerable web app (gamified)
+  # ============================================
+  juice-shop:
+    image: bkimminich/juice-shop:latest
+    container_name: juice-shop
+    ports:
+      - "3000:3000"
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  # ============================================
+  # OWASP WebGoat
+  # Web security training platform
+  # ============================================
+  webgoat:
+    image: webgoat/webgoat:latest
+    container_name: webgoat
+    ports:
+      - "8080:8080"
+      - "9090:9090"
+    environment:
+      - WEBGOAT_HOST=0.0.0.0
+      - WEBGOAT_PORT=8080
+      - WEBWOLF_HOST=0.0.0.0
+      - WEBWOLF_PORT=9090
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  # ============================================
+  # bWAPP - Buggy Web Application
+  # Another classic vulnerable app
+  # ============================================
+  bwapp:
+    image: raesene/bwapp:latest
+    container_name: bwapp
+    ports:
+      - "8082:80"
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  # ============================================
+  # Mutillidae II
+  # OWASP Top 10 vulnerabilities
+  # ============================================
+  mutillidae:
+    image: citizenstig/nowasp:latest
+    container_name: mutillidae
+    ports:
+      - "8083:80"
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  # ============================================
+  # HackTheBox-style challenges
+  # NodeGoat - Vulnerable Node.js app
+  # ============================================
+  nodegoat:
+    image: owasp/nodegoat:latest
+    container_name: nodegoat
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=development
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  # ============================================
+  # VulnHub-style - Vulnerable WordPress
+  # ============================================
+  vuln-wordpress:
+    image: wordpress:4.6
+    container_name: vuln-wordpress
+    ports:
+      - "8084:80"
+    environment:
+      - WORDPRESS_DB_HOST=vuln-wp-db
+      - WORDPRESS_DB_USER=wordpress
+      - WORDPRESS_DB_PASSWORD=wordpress
+      - WORDPRESS_DB_NAME=wordpress
+    depends_on:
+      - vuln-wp-db
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  vuln-wp-db:
+    image: mysql:5.7
+    container_name: vuln-wp-db
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_USER=wordpress
+      - MYSQL_PASSWORD=wordpress
+    volumes:
+      - vuln-wp-data:/var/lib/mysql
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  # ============================================
+  # Vulnerable API - crAPI
+  # API security testing
+  # ============================================
+  crapi-web:
+    image: crapi/crapi-web:latest
+    container_name: crapi-web
+    ports:
+      - "8888:80"
+    depends_on:
+      - crapi-api
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  crapi-api:
+    image: crapi/crapi-api:latest
+    container_name: crapi-api
+    environment:
+      - DB_HOST=crapi-db
+      - DB_PORT=5432
+      - DB_USER=crapi
+      - DB_PASSWORD=crapi
+      - DB_NAME=crapi
+    depends_on:
+      - crapi-db
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  crapi-db:
+    image: postgres:12
+    container_name: crapi-db
+    environment:
+      - POSTGRES_USER=crapi
+      - POSTGRES_PASSWORD=crapi
+      - POSTGRES_DB=crapi
+    volumes:
+      - crapi-db-data:/var/lib/postgresql/data
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+  # ============================================
+  # Vulnerable SSH/Linux - Basic CTF
+  # ============================================
+  vuln-ssh:
+    image: rastasheep/ubuntu-sshd:18.04
+    container_name: vuln-ssh
+    ports:
+      - "2222:22"
+    networks:
+      - vulnerable-net
+    restart: unless-stopped
+
+networks:
+  vulnerable-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.0.0/16
+
+volumes:
+  dvwa-db-data:
+  vuln-wp-data:
+  crapi-db-data:

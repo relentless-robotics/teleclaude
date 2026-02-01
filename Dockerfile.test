@@ -1,0 +1,82 @@
+# Teleclaude Test/Experimental Dockerfile
+# Extended from production with additional debugging tools
+# Designed for quick iteration and testing
+
+FROM node:20-bookworm AS test-base
+
+# Install system dependencies for node-pty, Playwright, and debugging
+RUN apt-get update && apt-get install -y \
+    # Build tools for native modules
+    build-essential \
+    python3 \
+    # Playwright dependencies
+    libnss3 \
+    libnspr4 \
+    libatk1.0-0 \
+    libatk-bridge2.0-0 \
+    libcups2 \
+    libdrm2 \
+    libxkbcommon0 \
+    libxcomposite1 \
+    libxdamage1 \
+    libxfixes3 \
+    libxrandr2 \
+    libgbm1 \
+    libasound2 \
+    libpango-1.0-0 \
+    libpangocairo-1.0-0 \
+    libcairo2 \
+    libatspi2.0-0 \
+    libgtk-3-0 \
+    # Additional utilities
+    git \
+    curl \
+    wget \
+    ca-certificates \
+    dumb-init \
+    # Debugging tools
+    vim \
+    nano \
+    htop \
+    procps \
+    net-tools \
+    iputils-ping \
+    strace \
+    lsof \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create non-root user
+RUN groupadd -r teleclaude && useradd -r -g teleclaude -d /app -s /bin/bash teleclaude
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install ALL dependencies (including dev)
+RUN npm install && npm cache clean --force
+
+# Install Playwright browsers
+RUN npx playwright install chromium firefox webkit
+
+# Copy application code
+COPY . .
+
+# Create directories
+RUN mkdir -p /app/logs /app/screenshots /app/browser_state /app/test-data && \
+    chown -R teleclaude:teleclaude /app
+
+# Keep as root for debugging flexibility in test mode
+# USER teleclaude
+
+# Environment variables
+ENV NODE_ENV=development
+ENV DEBUG=*
+ENV PLAYWRIGHT_BROWSERS_PATH=/app/.playwright
+
+# Default to shell for interactive debugging
+CMD ["bash"]
+
+# Labels
+LABEL org.opencontainers.image.title="Teleclaude Test"
+LABEL org.opencontainers.image.description="Teleclaude test/experimental environment"

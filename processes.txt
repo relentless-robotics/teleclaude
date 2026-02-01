@@ -1,0 +1,111 @@
+﻿
+Name                          Id Path                                                                                  
+----                          -- ----                                                                                  
+ApplicationFrameHost        2912 C:\WINDOWS\system32\ApplicationFrameHost.exe                                          
+backgroundTaskHost         22968 C:\WINDOWS\system32\backgroundTaskHost.exe                                            
+backgroundTaskHost         16144 C:\WINDOWS\system32\backgroundTaskHost.exe                                            
+bash                       22800 C:\Program Files\Git\bin\..\usr\bin\bash.exe                                          
+bash                       27016 C:\Program Files\Git\bin\..\usr\bin\bash.exe                                          
+bash                       27100 C:\Program Files\Git\bin\bash.exe                                                     
+bash                        4612 C:\Program Files\Git\bin\..\usr\bin\bash.exe                                          
+bash                       11360 C:\Program Files\Git\bin\..\usr\bin\bash.exe                                          
+bash                       15008 C:\Program Files\Git\bin\bash.exe                                                     
+cmd                        28164 C:\WINDOWS\system32\cmd.exe                                                           
+cmd                        15240 C:\WINDOWS\system32\cmd.exe                                                           
+cmd                        11100 C:\WINDOWS\system32\cmd.exe                                                           
+conhost                    15020 C:\WINDOWS\system32\conhost.exe                                                       
+conhost                    21044 C:\WINDOWS\system32\conhost.exe                                                       
+conhost                    27972 C:\WINDOWS\system32\conhost.exe                                                       
+conhost                    13316 C:\WINDOWS\system32\conhost.exe                                                       
+conhost                     3272 C:\WINDOWS\system32\conhost.exe                                                       
+conhost                     4544 C:\WINDOWS\system32\conhost.exe                                                       
+conhost                    11868 C:\WINDOWS\system32\conhost.exe                                                       
+CrossDeviceResume           9028 C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume.exe 
+Discord                    19528 C:\Users\Footb\AppData\Local\Discord\app-1.0.9222\Discord.exe                         
+Discord                    20968 C:\Users\Footb\AppData\Local\Discord\app-1.0.9222\Discord.exe                         
+Discord                    22524 C:\Users\Footb\AppData\Local\Discord\app-1.0.9222\Discord.exe                         
+Discord                    19072 C:\Users\Footb\AppData\Local\Discord\app-1.0.9222\Discord.exe                         
+Discord                    19316 C:\Users\Footb\AppData\Local\Discord\app-1.0.9222\Discord.exe                         
+Discord                    19500 C:\Users\Footb\AppData\Local\Discord\app-1.0.9222\Discord.exe                         
+dllhost                    27300 C:\WINDOWS\system32\DllHost.exe                                                       
+dllhost                    15012 C:\WINDOWS\system32\DllHost.exe                                                       
+EpicGamesLauncher          21004 C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+EpicWebHelper              23124 C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe    
+EpicWebHelper              23184 C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe    
+EpicWebHelper              22332 C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe    
+EpicWebHelper              22972 C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe    
+explorer                    8700 C:\WINDOWS\Explorer.EXE                                                               
+FvContainer                10696 C:\Program Files\NVIDIA Corporation\FrameViewSDK\FvContainer\FvContainer.exe          
+lghub_agent                19360 C:\Program Files\LGHUB\lghub_agent.exe                                                
+lghub_system_tray          19244 C:\Program Files\LGHUB\system_tray\lghub_system_tray.exe                              
+MicrosoftStartFeedProvider 11596 C:\Program Files\WindowsApps\Microsoft.StartExperiencesApp_1.195.0.0_x64__8wekyb3d8...
+MoNotificationUx           22936 C:\WINDOWS\uus\packages\preview\AMD64\MoNotificationUx.exe                            
+msedgewebview2             12952 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.93\msedgewebvie...
+msedgewebview2             13280 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.93\msedgewebvie...
+msedgewebview2             13544 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.93\msedgewebvie...
+msedgewebview2             12164 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.93\msedgewebvie...
+msedgewebview2             12212 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.93\msedgewebvie...
+msedgewebview2             12864 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.93\msedgewebvie...
+msrdc                       5712 C:\Program Files\WSL\msrdc.exe                                                        
+node                       28324 C:\Program Files\nodejs\node.exe                                                      
+node                       29356 C:\Program Files\nodejs\node.exe                                                      
+node                        1228 C:\Program Files\nodejs\node.exe                                                      
+node                       12160 C:\Program Files\nodejs\node.exe                                                      
+nvcontainer                15556 C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe                       
+nvcontainer                15508 C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe                       
+NVIDIA Overlay             13320 C:\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA Overlay.exe                 
+NVIDIA Overlay             16980 C:\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA Overlay.exe                 
+NVIDIA Overlay             12416 C:\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA Overlay.exe                 
+NVIDIA Overlay             10184 C:\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA Overlay.exe                 
+NVIDIA Overlay             12408 C:\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA Overlay.exe                 
+nvrla                      18488 C:\Program Files\NVIDIA Corporation\FrameViewSDK\bin\nvrla.exe                        
+OneDrive                    8716 C:\Users\Footb\AppData\Local\Microsoft\OneDrive\OneDrive.exe                          
+OpenConsole                11320 C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8b...
+Overwolf                   21980 C:\Program Files (x86)\Overwolf\Overwolf.exe                                          
+OverwolfBrowser            24188 C:\Program Files (x86)\Overwolf\0.292.142.12\OverwolfBrowser.exe                      
+OverwolfBrowser            28924 C:\Program Files (x86)\Overwolf\0.292.142.12\OverwolfBrowser.exe                      
+OverwolfBrowser            24140 C:\Program Files (x86)\Overwolf\0.292.142.12\OverwolfBrowser.exe                      
+OverwolfBrowser            23396 C:\Program Files (x86)\Overwolf\0.292.142.12\OverwolfBrowser.exe                      
+OverwolfBrowser            24116 C:\Program Files (x86)\Overwolf\0.292.142.12\OverwolfBrowser.exe                      
+powershell                 15800 C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe                             
+RuntimeBroker              13844 C:\Windows\System32\RuntimeBroker.exe                                                 
+RuntimeBroker              23908 C:\Windows\System32\RuntimeBroker.exe                                                 
+RuntimeBroker               5956 C:\Windows\System32\RuntimeBroker.exe                                                 
+RuntimeBroker              10872 C:\Windows\System32\RuntimeBroker.exe                                                 
+SearchHost                 10420 C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe        
+SecurityHealthSystray       8892 C:\Windows\System32\SecurityHealthSystray.exe                                         
+ShellExperienceHost        12136 C:\WINDOWS\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe       
+ShellHost                   8764 C:\Windows\System32\ShellHost.exe                                                     
+sihost                      1276 C:\WINDOWS\system32\sihost.exe                                                        
+Spotify                    23488 C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.282.428.0_x64__zpdnekdrzrea0\...
+Spotify                    24912 C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.282.428.0_x64__zpdnekdrzrea0\...
+Spotify                    25260 C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.282.428.0_x64__zpdnekdrzrea0\...
+Spotify                    23444 C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.282.428.0_x64__zpdnekdrzrea0\...
+Spotify                    20892 C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.282.428.0_x64__zpdnekdrzrea0\...
+Spotify                    22888 C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.282.428.0_x64__zpdnekdrzrea0\...
+Spotify                    23116 C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.282.428.0_x64__zpdnekdrzrea0\...
+StartMenuExperienceHost    10428 C:\WINDOWS\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\Start...
+svchost                     9412 C:\WINDOWS\system32\svchost.exe                                                       
+svchost                     6476 C:\WINDOWS\system32\svchost.exe                                                       
+svchost                    14612 C:\WINDOWS\system32\svchost.exe                                                       
+svchost                    10860 C:\WINDOWS\system32\svchost.exe                                                       
+svchost                     5740 C:\WINDOWS\system32\svchost.exe                                                       
+svchost                     1612 C:\WINDOWS\system32\svchost.exe                                                       
+svchost                     1232 C:\WINDOWS\system32\svchost.exe                                                       
+svchost                     2648 C:\WINDOWS\system32\svchost.exe                                                       
+svchost                     1728 C:\WINDOWS\system32\svchost.exe                                                       
+SystemSettings             28328 C:\Windows\ImmersiveControlPanel\SystemSettings.exe                                   
+tailscale-ipn              25720 C:\Program Files\Tailscale\tailscale-ipn.exe                                          
+taskhostw                   9092 C:\WINDOWS\system32\taskhostw.exe                                                     
+unsecapp                   19372 C:\WINDOWS\system32\wbem\unsecapp.exe                                                 
+WidgetBoard                10664 C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_526.1202.40.0_x6...
+WidgetService              11288 C:\Program Files\WindowsApps\Microsoft.WidgetsPlatformRuntime_1.6.14.0_x64__8wekyb3...
+WindowsTerminal            11792 C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.23.20211.0_x64__8wekyb3d8b...
+wsl                        13812 C:\Program Files\WSL\wsl.exe                                                          
+wsl                         3016 C:\WINDOWS\system32\wsl.exe                                                           
+wslhost                    24172 C:\Program Files\WSL\wslhost.exe                                                      
+wslhost                    15264 C:\Program Files\WSL\wslhost.exe                                                      
+wslhost                    10776 C:\Program Files\WSL\wslhost.exe                                                      
+wslrelay                   27544 C:\Program Files\WSL\wslrelay.exe                                                     
+
+

@@ -1,0 +1,136 @@
+[
+  {
+    "organization": "Rafael de la Fuente",
+    "amount": "$1,000",
+    "url": "https://github.com/rafael-fuente/diffractsim/issues/69",
+    "title": "Vectorial EM field model · Issue #69 · rafael-fuente/diffractsim",
+    "snippet": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSign in\nSign up\nrafael-fuente\n/\ndiffractsim\nPublic\n Sponsor\nNotifications\nFork 135\n Star 988\nCode\nIssues\n11\nPull requests\n6\nDiscussions\nActions\nProjects\nSecurity\nInsights\nVectorial EM field model #69\nNew issue\nOpen\nDescription\nSebastienTs\nopened \n\nVery nice work! Does your library support a vectorial representation of the EM field accounting for polarization, and if not can it be simply extended?\n\nActivit",
+    "languages": [
+      "  \n    \n\n",
+      "/"
+    ]
+  },
+  {
+    "organization": "Archestra",
+    "amount": "$900",
+    "url": "https://github.com/archestra-ai/archestra/issues/1301",
+    "title": "Support MCP UI · Issue #1301 · archestra-ai/archestra",
+    "snippet": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSign in\nSign up\narchestra-ai\n/\narchestra\nPublic\nNotifications\nFork 191\n Star 2.3k\nCode\nIssues\n62\nPull requests\n38\nActions\nSecurity\nInsights\nSupport MCP UI #1301\nNew issue\nOpen\n#2503\n(+2)\nDescription\nMatvey-Kuk\nopened \nContributor\n\nDear community, let's build some cool stuff 🚀🚀🚀\n\nBring the support of MCP UI (https://github.com/MCP-UI-Org/mcp-ui) in Archestra Chat UI.\nMake sure it works in 3'rd third-par",
+    "languages": [
+      "  \n    \n\n",
+      "/"
+    ]
+  },
+  {
+    "organization": "Mudlet",
+    "amount": "$1,000",
+    "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+    "title": "Split Mudlet up into `libmudlet` and a Qt front-end · Issue #8030 · Mudlet/Mudlet",
+    "snippet": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSign in\nSign up\nMudlet\n/\nMudlet\nPublic\n Sponsor\nNotifications\nFork 333\n Star 852\nCode\nIssues\n474\nPull requests\n29\nActions\nProjects\nWiki\nSecurity\nInsights\nSplit Mudlet up into libmudlet and a Qt front-end #8030\nNew issue\nOpen\nFeature\n0 / 1\n0 of 1 issue completed\nDescription\nvadi2\nopened  · edited by Kebap\nEdits\nMember\nDescription of requested feature:\n\nMudlet is a Qt Widgets based application, which works ",
+    "languages": [
+      "  \n    \n\n",
+      "/"
+    ]
+  },
+  {
+    "organization": "Twenty (YC S23)",
+    "amount": "$2,500",
+    "url": "https://algora.io/twentyhq/bounties/g6i2c8YSNV9nHogT",
+    "title": "IMAP | Algora",
+    "snippet": "Explore\nContact us\n1-650-420-2207\n1.1K\nSign in\nSign up\nTW\nIMAP\nTwenty (YC S23)\n$2,500\nShare on socials\nExclusives\nHU\n\nHuzef\n\n@neo773\n\nDescription\nContributor chat\nHT\nHT\nHT\nHT\n+3\nSep 01\nBL\nIt's the first time I work for an IMAP bounty. It is possible for me to work on it?\n00:11\nPR\nhow to contribute\n09:27\nSep 03\nGS\nHow do I contribute a PR?\n23:05\nOct 23\nKA\nhi\n04:31\nNov 06\nEX\nwhere is the github issue ?\n15:35\nDec 26\nEX\nwhere's the gh issue ?\n05:43\nJan 22\nKU\ni also want to contribute\n21:33\nFooter\nDi",
+    "languages": []
+  },
+  {
+    "organization": "Golem Cloud",
+    "amount": "$3,500",
+    "url": "https://github.com/golemcloud/golem-cli/issues/275",
+    "title": "Incorporate MCP Server into Golem CLI · Issue #1926 · golemcloud/golem",
+    "snippet": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSign in\nSign up\ngolemcloud\n/\ngolem\nPublic\nNotifications\nFork 161\n Star 947\nCode\nIssues\n164\nPull requests\n9\nActions\nProjects\nSecurity\nInsights\nIncorporate MCP Server into Golem CLI #1926\nNew issue\nClosed\n#2268\nDescription\njdegoes\nopened \nContributor\n\nWith a new command, Golem CLI enters serve mode:\n\n%> golem-cli --serve --serve-port 1232\n%> golem-cli running MCP Server at port 1232\n\nIn this mode, Golem CLI",
+    "languages": [
+      "  \n    \n\n",
+      "/"
+    ]
+  },
+  {
+    "organization": "Omnigres",
+    "amount": "$1,000",
+    "url": "https://github.com/omnigres/omnigres/issues/823",
+    "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow · Issue #823 · omnigres/omnigres",
+    "snippet": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSign in\nSign up\nomnigres\n/\nomnigres\nPublic\nNotifications\nFork 109\n Star 1.6k\nCode\nIssues\n64\nPull requests\n43\nDiscussions\nActions\nProjects\nWiki\nSecurity\nInsights\nProblem: omni_schema.dependency and omni_schema.acl views are slow #823\nNew issue\nOpen\nDescription\nyrashk\nopened  · edited by yrashk\nEdits\nContributor\n\nWe're closing down our bounty program; this issue is no longer open for new submissions.\n\nThis ",
+    "languages": [
+      "  \n    \n\n",
+      "/"
+    ]
+  },
+  {
+    "organization": "Deskflow",
+    "amount": "$2,500",
+    "url": "https://github.com/deskflow/deskflow/issues/8032",
+    "title": "Persist Input Capture XDG Desktop Portal dialog (Wayland) · Issue #8032 · deskflow/deskflow",
+    "snippet": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSign in\nSign up\ndeskflow\n/\ndeskflow\nPublic\nNotifications\nFork 4.4k\n Star 23.5k\nCode\nIssues\n192\nPull requests\n5\nDiscussions\nActions\nWiki\nSecurity\n6\nInsights\nPersist Input Capture XDG Desktop Portal dialog (Wayland) #8032\nNew issue\nOpen\n🪄Feature\nDescription\nnbolton\nopened  · edited by nbolton\nEdits\nMember\nFeature Request\n\nDepends on upstream:\n\ninputcapture: Add support for the permission store flatpak/xdg-",
+    "languages": [
+      "  \n    \n\n",
+      "/",
+      "nbolton",
+      "Anshgrover23",
+      "varshith257",
+      "algora-pbc"
+    ]
+  },
+  {
+    "organization": "Deskflow",
+    "amount": "$5,000",
+    "url": "https://github.com/deskflow/deskflow/issues/8031",
+    "title": "Clipboard support in XDG Desktop Portal (Wayland) · Issue #8031 · deskflow/deskflow",
+    "snippet": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSign in\nSign up\ndeskflow\n/\ndeskflow\nPublic\nNotifications\nFork 4.4k\n Star 23.5k\nCode\nIssues\n192\nPull requests\n5\nDiscussions\nActions\nWiki\nSecurity\n6\nInsights\nClipboard support in XDG Desktop Portal (Wayland) #8031\nNew issue\nOpen\n🪄Feature\nDescription\nnbolton\nopened  · edited by nbolton\nEdits\nMember\nFeature Request\n\nThe XDG Desktop Portal is missing clipboard support, meaning that we cannot copy and paste be",
+    "languages": [
+      "  \n    \n\n",
+      "/",
+      "nbolton",
+      "algora-pbc"
+    ]
+  },
+  {
+    "organization": "Kyo",
+    "amount": "$500",
+    "url": "https://github.com/getkyo/kyo/issues/390",
+    "title": "gRPC Support · Issue #390 · getkyo/kyo",
+    "snippet": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSign in\nSign up\ngetkyo\n/\nkyo\nPublic\nNotifications\nFork 85\n Star 747\nCode\nIssues\n58\nPull requests\n9\nDiscussions\nActions\nSecurity\nInsights\ngRPC Support #390\nNew issue\nOpen\n#1450\n#1334\nDescription\nghostdogpr\nopened \nContributor\n\nSupport for protobuf and gRPC would drive adoption (at least for me).\n\nIt's definitely not easy as it involves code generation but maybe https://scalapb.github.io/docs/writing-plugin",
+    "languages": [
+      "  \n    \n\n",
+      "/"
+    ]
+  },
+  {
+    "organization": "Isaac",
+    "amount": "$850",
+    "url": "https://algora.io/isaac/bounties/clq18zr98000ejs0gt0nv7gwu",
+    "title": "[ISAAC-497] Implement an enhanced RAG Pipeline for Scientific/Research Workflows | Algora",
+    "snippet": "Explore\nContact us\n1-650-420-2207\n1.1K\nSign in\nSign up\nIS\n[ISAAC-497] Implement an enhanced RAG Pipeline for Scientific/Research Workflows\naietal\n$850\nShare on socials\nExclusives\nOpen to everyone\nDescription\n\nOur current RAG (Retriever-Augmented Generation) pipeline, primarily designed for generic tasks, is facing significant challenges, particularly in its application to scientific and research workflows. There are notable issues in its stability and effectiveness, necessitating a complete over",
+    "languages": []
+  },
+  {
+    "organization": "ZIO",
+    "amount": "$500",
+    "url": "https://github.com/zio/zio-blocks/issues/899",
+    "title": "Add GitHub Flavored Markdown micro-library · Issue #899 · zio/zio-blocks",
+    "snippet": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSign in\nSign up\nzio\n/\nzio-blocks\nPublic\nNotifications\nFork 115\n Star 74\nCode\nIssues\n11\nPull requests\n5\nActions\nProjects\nSecurity\nInsights\nAdd GitHub Flavored Markdown micro-library #899\nNew issue\nOpen\n#900\nDescription\n987Nabil\nopened \nContributor\nSummary\n\nAdd a new markdown module to zio-blocks providing a pure Scala implementation of GitHub Flavored Markdown (GFM) with:\n\nADT: Three-tier structure (Docume",
+    "languages": [
+      "  \n    \n\n",
+      "/"
+    ]
+  },
+  {
+    "organization": "ZIO",
+    "amount": "$500",
+    "url": "https://github.com/zio/zio-schema/issues/754",
+    "title": "XML Codec · Issue #754 · zio/zio-schema",
+    "snippet": "Skip to content\nNavigation Menu\nPlatform\nSolutions\nResources\nOpen Source\nEnterprise\nPricing\nSign in\nSign up\nzio\n/\nzio-schema\nPublic\nNotifications\nFork 192\n Star 160\nCode\nIssues\n57\nPull requests\n12\nDiscussions\nActions\nSecurity\nInsights\nXML Codec #754\nNew issue\nOpen\n#804\n#992\nDescription\nAdrielC\nopened \n\nAs mentioned in the ZIO schema docs, XML Codec is listed as a good use case. I would like to get the ball rolling on that.\n\nThe idea would be a zio-schema-xml module that would have a limited set ",
+    "languages": [
+      "  \n    \n\n",
+      "/",
+      "blocator23",
+      "blocator23"
+    ]
+  }
+]

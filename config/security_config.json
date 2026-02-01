@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-01-30",
+
+  "host_hardening": {
+    "enabled": true,
+    "features": {
+      "file_integrity_monitoring": true,
+      "network_monitoring": true,
+      "process_monitoring": true,
+      "audit_logging": true
+    }
+  },
+
+  "ip_traceability": {
+    "enabled": true,
+    "log_all_connections": true,
+    "geolocate_external_ips": true,
+    "cache_geolocation": true,
+    "cache_ttl_hours": 24,
+    "alert_on_high_risk_countries": true,
+    "high_risk_countries": ["CN", "RU", "KP", "IR"]
+  },
+
+  "container_security": {
+    "enabled": true,
+    "drop_all_capabilities": true,
+    "allowed_capabilities": ["NET_RAW"],
+    "no_new_privileges": true,
+    "read_only_rootfs": false,
+    "run_as_non_root": true,
+    "resource_limits": {
+      "memory": "2g",
+      "cpus": "2",
+      "pids": 100
+    },
+    "network_isolation": {
+      "default": "none",
+      "allow_for_scans": true
+    },
+    "seccomp_profile": "default",
+    "audit_all_commands": true
+  },
+
+  "colorhat_restrictions": {
+    "require_target_authorization": true,
+    "log_all_operations": true,
+    "max_concurrent_scans": 3,
+    "scan_timeout_minutes": 30,
+    "blocked_targets": [
+      "*.gov",
+      "*.mil",
+      "*.edu",
+      "*.bank",
+      "10.0.0.0/8",
+      "172.16.0.0/12"
+    ],
+    "auto_authorized_targets": [
+      "127.0.0.1",
+      "localhost",
+      "192.168.0.0/16",
+      "100.64.0.0/10"
+    ]
+  },
+
+  "alerts": {
+    "enabled": true,
+    "notify_on_unauthorized_scan_attempt": true,
+    "notify_on_external_connection": true,
+    "notify_on_file_integrity_violation": true,
+    "notify_on_suspicious_process": true,
+    "notification_method": "discord"
+  },
+
+  "audit": {
+    "enabled": true,
+    "log_retention_days": 90,
+    "log_rotation_size_mb": 100,
+    "include_timestamps": true,
+    "include_user": true,
+    "include_hostname": true,
+    "sensitive_data_masking": true
+  }
+}

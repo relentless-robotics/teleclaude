@@ -1,0 +1,70 @@
+{
+  "name": "teleclaude",
+  "version": "1.0.0",
+  "description": "Control Claude Code CLI from your phone via Telegram or Discord, or chat locally in your terminal. Cross-platform Windows/macOS/Linux.",
+  "main": "index.js",
+  "bin": {
+    "teleclaude-setup": "./setup.js",
+    "teleclaude-chat": "./chat.js",
+    "teleclaude-telegram": "./setup-telegram.js",
+    "teleclaude-discord": "./setup-discord.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js",
+    "chat": "node chat.js",
+    "setup-telegram": "node setup-telegram.js",
+    "setup-discord": "node setup-discord.js",
+    "install-cli": "npm install -g @anthropic-ai/claude-code",
+    "postinstall": "node -e \"console.log('\\n  Run: npm run setup\\n  to start the setup wizard.\\n')\"",
+    "test": "node -e \"console.log('Tests not implemented yet')\""
+  },
+  "keywords": [
+    "claude",
+    "telegram",
+    "discord",
+    "bot",
+    "ai",
+    "cli",
+    "mcp",
+    "anthropic",
+    "chatbot",
+    "windows",
+    "cross-platform",
+    "teleclaude"
+  ],
+  "author": "gatordevin",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "argon2": "^0.44.0",
+    "bs58": "^6.0.0",
+    "discord.js": "^14.14.1",
+    "googleapis": "^171.0.0",
+    "kdbxweb": "^2.1.1",
+    "node-pty": "^1.0.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^6.17.0",
+    "playwright": "^1.58.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "strip-ansi": "^6.0.1",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatordevin/teleclaude.git"
+  },
+  "homepage": "https://github.com/gatordevin/teleclaude#readme",
+  "bugs": {
+    "url": "https://github.com/gatordevin/teleclaude/issues"
+  }
+}

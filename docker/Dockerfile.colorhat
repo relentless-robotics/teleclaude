@@ -1,0 +1,74 @@
+# ColorHat Security Tools Container
+# Based on Kali Linux - runs all security tools in isolation
+#
+# SECURITY: This container is for WHITE HAT testing only
+# - Runs as non-root user
+# - No persistent storage by default
+# - Network isolated unless explicitly connected
+
+FROM kalilinux/kali-rolling:latest
+
+LABEL maintainer="TeleClaude"
+LABEL description="Isolated security tools container for ColorHat"
+LABEL security.warning="WHITE HAT USE ONLY - All operations are logged"
+
+# Avoid prompts during package installation
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Update and install security tools
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    # Network reconnaissance
+    nmap \
+    masscan \
+    netcat-openbsd \
+    dnsutils \
+    whois \
+    traceroute \
+    # Web security
+    nikto \
+    gobuster \
+    dirb \
+    ffuf \
+    curl \
+    wget \
+    # Reverse engineering
+    ghidra \
+    radare2 \
+    binutils \
+    file \
+    strings \
+    # Binary analysis
+    ltrace \
+    strace \
+    gdb \
+    # Utilities
+    python3 \
+    python3-pip \
+    jq \
+    vim-tiny \
+    # Cleanup
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+# Create non-root user for security
+RUN groupadd -r colorhat && useradd -r -g colorhat -d /home/colorhat -s /bin/bash colorhat \
+    && mkdir -p /home/colorhat/workspace /home/colorhat/output /home/colorhat/logs \
+    && chown -R colorhat:colorhat /home/colorhat
+
+# Set working directory
+WORKDIR /home/colorhat/workspace
+
+# Copy entrypoint script
+COPY colorhat-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/colorhat-entrypoint.sh
+
+# Switch to non-root user
+USER colorhat
+
+# Environment variables
+ENV HOME=/home/colorhat
+ENV PATH="${PATH}:/home/colorhat/.local/bin"
+
+# Default command
+ENTRYPOINT ["/usr/local/bin/colorhat-entrypoint.sh"]
+CMD ["bash"]

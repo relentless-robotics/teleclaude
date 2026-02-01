@@ -1,0 +1,376 @@
+{
+  "projects": [],
+  "rawText": "Explore\nContact us\n1-650-420-2207\n1.1K\nSign in\nSign up\nBounties\n\nOpen bounties for you\n\nScala (13)\nJavaScript (9)\nCSS (8)\nC++ (4)\nJava (4)\nTypeScript (2)\nCMake (2)\nObjective-C++ (2)\nRust (2)\nShell (2)\nPython (1)\nQMake (1)\nThrift (1)\nLua (1)\nNix (1)\nC (1)\nPLpgSQL (1)\nZI\nZIO\n#899\n$500\nAdd GitHub Flavored Markdown micro-library\nZI\nZIO\n#685\n$1,000\nAdd JsonPatch - Depends on #679\nZI\nZIO\n#519\n$4,000\nSchema Migration System for ZIO Schema 2\nRA\nRafael de la Fuente\n#69\n$1,000\nVectorial EM field model\nAR\nArchestra\n#1301\n$900\nSupport MCP UI\nMU\nMudlet\n#8030\n$1,000\nSplit Mudlet up into `libmudlet` and a Qt front-end\nTwenty (YC S23)\n$2,500\nIMAP\nGO\nGolem Cloud\n#275\n$3,500\nIncorporate MCP Server into Golem CLI\nZI\nZIO\n#9878\n$850\nZScheduler parks+unparks workers too frequently\nZI\nZIO\n#9877\n$750\nCan Fiber(Runtime) and Promise be merged?\nGO\nGolem Cloud\n#23\n$3,500\nImplement Durable Text-to-Speech Provider Components for golem:tts WIT Interface\nOM\nOmnigres\n#823\n$1,000\nProblem: omni_schema.dependency and omni_schema.acl views are slow\nZI\nZIO\n#754\n$500\nXML Codec\nDE\nDeskflow\n#8032\n$2,500\nPersist Input Capture XDG Desktop Portal dialog (Wayland)\nDE\nDeskflow\n#8031\n$5,000\nClipboard support in XDG Desktop Portal (Wayland)\nZI\nZIO\n#9356\n$2,500\nImplement NIO scheduler for ZIO\nZI\nZIO\n#481\n$750\nSubtype relation for refined type fails\nZI\nZIO\n#9101\n$650\nzio.test.Gen generates the same data every time in certain conditions\nZI\nZIO\n#9093\n$650\nZIO's `Semaphore` performance not too great\nGE\nKyo\n#390\n$500\ngRPC Support\nZI\nZIO\n#8861\n$1,500\nCreate Loom-friendly concurrent weak set (FiberSet)\nZI\nZIO\n#8807\n$1,250\nCreating highly optimized and specialized fiber mailbox\nIsaac\n#45\n$850\n[ISAAC-497] Implement an enhanced RAG Pipeline for Scientific/Research Workflows\nFund GitHub issues\n\nAdd USD rewards on issues and pay when work is merged\n\nFund any issue in seconds\nHelp improve the OSS you love and rely on\nPay when PRs are merged\nPool bounties with other sponsors\nAlgora handles payouts, compliance & 1099s\nFund issues\nGitHub cofounder funds new feature in Zed Editor\nZed Editor, Scott Chacon\nView issue\nDefenceTech CEOs fund obstacle avoidance in PX4 Autopilot\nAlex Klimaj, Founder of ARK Electronics & Andrew Wilkins, CEO of Ascend Engineering\nView issue\nCoolify community crowdfunds new feature development\nAndras Bacsai, Founder of Coolify\nView bounty board\nDid you know?\n\nYou can tip your favorite open source contributors with Algora.\n\nTip contributors instantly\n\nSupport the maintainers of your favorite projects\n\nSend tips directly to GitHub usernames\nAlgora handles payouts, compliance & 1099s\nTip contributors\nTrusted by open source YC founders\nBrowser Use\nTrieve\nTwenty\n🔥 Firecrawl\nWindmill\nKeep has 90+ integrations to alert our customers about critical events. Of these, 42 integrations\n were built using bounties on Algora.\nTal Borenstein\nCo-founder & CEO at Keep (YC W23)\nBuild product faster\n\nUse bounties for outcome-based contract work with full GitHub integration.\n\nI posted our bounty on Upwork to try it, overall it's 1000x more friction than OSS bounties with Algora.\nLouis Beaumont\nCo-founder & CEO at Screenpipe\nLet's offer a bounty to say \"Hey, someone please prioritize this, who has the skillset for it?\" I think long term I'd like to make it a very consistent part of our development process.\nJosh Pigford\nCo-founder & CEO at Maybe\nWe used Algora extensively at Ziverge to reward over $143,000 in bounties and introduce a whole new generation of contributors to the ZIO and Golem ecosystems.\nJohn A De Goes\nFounder & CEO at Ziverge\nCommunity highlights\n\nZIO shared a $500 bounty\n\n3 hours ago\n\nZIO awarded Nabil Abdel-Hafeez a $3,000 bounty\n\n5 hours ago\n\nZIO awarded Nabil Abdel-Hafeez a $2,000 bounty\n\n1 day ago\n\nZIO awarded Nabil Abdel-Hafeez a $2,000 bounty\n\n3 days ago\n\nZIO awarded Ajay RV a $1,000 bounty\n\n3 days ago\n\nZIO awarded Helmy LuqmanulHakim a $1,000 bounty\n\n5 days ago\n\nZIO awarded Ajay RV a $1,000 bounty\n\n6 days ago\n\nZIO awarded Orbin Sunny a $1,000 bounty\n\n1 week ago\n\nZIO awarded Nabil Abdel-Hafeez a $2,000 bounty\n\n1 week ago\n\nZIO awarded Nabil Abdel-Hafeez a $500 bounty\n\n1 week ago\n\nZIO awarded Nabil Abdel-Hafeez a $2,500 bounty\n\n1 week ago\n\nZIO shared a $1,000 bounty\n\n2 weeks ago\n\nZIO shared a $4,000 bounty\n\n1 month ago\n\nRafael de la Fuente shared a $1,000 bounty\n\n1 month ago\n\nArchestra shared a $900 bounty\n\n2 months ago\n\nMudlet shared a $1,000 bounty\n\n5 months ago\n\nTwenty (YC S23) shared a $2,500 bounty\n\n7 months ago\n\nGolem Cloud shared a $3,500 bounty\n\n7 months ago\n\nZIO shared a $850 bounty\n\n8 months ago\n\nZIO shared a $750 bounty\n\n8 months ago\n\nGarden Computing is hiring! Full-stack TypeScript Framework Developer\n\n9 months ago\n\nTraceMachina is hiring! OSS Rust Engineer - India Office 🇮🇳\n\n9 months ago\n\nZIO is hiring! Full-time Scala Developer\n\n9 months ago\n\nGolem Cloud is hiring! Full-time TypeScript developer\n\n9 months ago\nJoin the open source economy\nCompanies\nDevelopers\nFooter\nDiscord\nX (formerly Twitter)\nGitHub\nLinkedIn\nYouTube\nEmail\n© 2026 Algora, Public Benefit Corporation\nSchedule a call\nUS\n+1 (650) 420-2207\nEU\n+30 (697) 318-4144",
+  "links": [
+    {
+      "href": "https://algora.io/platform",
+      "text": "Explore"
+    },
+    {
+      "href": "https://cal.com/ioannisflo",
+      "text": "Contact us"
+    },
+    {
+      "href": "tel:+16504202207",
+      "text": "1-650-420-2207"
+    },
+    {
+      "href": "https://github.com/algora-io/algora",
+      "text": "1.1K"
+    },
+    {
+      "href": "https://algora.io/auth/login",
+      "text": "Sign in"
+    },
+    {
+      "href": "https://algora.io/auth/signup",
+      "text": "Sign up"
+    },
+    {
+      "href": "https://algora.io/platform",
+      "text": "Explore"
+    },
+    {
+      "href": "https://cal.com/ioannisflo",
+      "text": "Schedule a call"
+    },
+    {
+      "href": "tel:+16504202207",
+      "text": "US\n              +1 (650) 420-2207"
+    },
+    {
+      "href": "tel:+306973184144",
+      "text": "EU\n              +30 (697) 318-4144"
+    },
+    {
+      "href": "https://github.com/algora-io/algora",
+      "text": "Star\n              \n                1142"
+    },
+    {
+      "href": "https://algora.io/auth/signup",
+      "text": "Sign up"
+    },
+    {
+      "href": "https://algora.io/auth/login",
+      "text": "Sign in"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/899",
+      "text": "ZI\nZIO\n#899\n$500\nAdd GitHub Flavored Markdown micro-library"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/685",
+      "text": "ZI\nZIO\n#685\n$1,000\nAdd JsonPatch - Depends on #679"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/519",
+      "text": "ZI\nZIO\n#519\n$4,000\nSchema Migration System for ZIO Schema 2"
+    },
+    {
+      "href": "https://github.com/rafael-fuente/diffractsim/issues/69",
+      "text": "RA\nRafael de la Fuente\n#69\n$1,000\nVectorial EM field model"
+    },
+    {
+      "href": "https://github.com/archestra-ai/archestra/issues/1301",
+      "text": "AR\nArchestra\n#1301\n$900\nSupport MCP UI"
+    },
+    {
+      "href": "https://github.com/Mudlet/Mudlet/issues/8030",
+      "text": "MU\nMudlet\n#8030\n$1,000\nSplit Mudlet up into `libmudlet` and a Qt front-end"
+    },
+    {
+      "href": "https://algora.io/twentyhq/bounties/g6i2c8YSNV9nHogT",
+      "text": "Twenty (YC S23)\n$2,500\nIMAP"
+    },
+    {
+      "href": "https://github.com/golemcloud/golem-cli/issues/275",
+      "text": "GO\nGolem Cloud\n#275\n$3,500\nIncorporate MCP Server into Golem CLI"
+    },
+    {
+      "href": "https://github.com/zio/zio/issues/9878",
+      "text": "ZI\nZIO\n#9878\n$850\nZScheduler parks+unparks workers too frequently"
+    },
+    {
+      "href": "https://github.com/zio/zio/issues/9877",
+      "text": "ZI\nZIO\n#9877\n$750\nCan Fiber(Runtime) and Promise be merged?"
+    },
+    {
+      "href": "https://github.com/golemcloud/golem-ai/issues/23",
+      "text": "GO\nGolem Cloud\n#23\n$3,500\nImplement Durable Text-to-Speech Provider Components for golem:tts WIT Interface"
+    },
+    {
+      "href": "https://github.com/omnigres/omnigres/issues/823",
+      "text": "OM\nOmnigres\n#823\n$1,000\nProblem: omni_schema.dependency and omni_schema.acl views are slow"
+    },
+    {
+      "href": "https://github.com/zio/zio-schema/issues/754",
+      "text": "ZI\nZIO\n#754\n$500\nXML Codec"
+    },
+    {
+      "href": "https://github.com/deskflow/deskflow/issues/8032",
+      "text": "DE\nDeskflow\n#8032\n$2,500\nPersist Input Capture XDG Desktop Portal dialog (Wayland)"
+    },
+    {
+      "href": "https://github.com/deskflow/deskflow/issues/8031",
+      "text": "DE\nDeskflow\n#8031\n$5,000\nClipboard support in XDG Desktop Portal (Wayland)"
+    },
+    {
+      "href": "https://github.com/zio/zio/issues/9356",
+      "text": "ZI\nZIO\n#9356\n$2,500\nImplement NIO scheduler for ZIO"
+    },
+    {
+      "href": "https://github.com/zio/izumi-reflect/issues/481",
+      "text": "ZI\nZIO\n#481\n$750\nSubtype relation for refined type fails"
+    },
+    {
+      "href": "https://github.com/zio/zio/issues/9101",
+      "text": "ZI\nZIO\n#9101\n$650\nzio.test.Gen generates the same data every time in certain conditions"
+    },
+    {
+      "href": "https://github.com/zio/zio/issues/9093",
+      "text": "ZI\nZIO\n#9093\n$650\nZIO's `Semaphore` performance not too great"
+    },
+    {
+      "href": "https://github.com/getkyo/kyo/issues/390",
+      "text": "GE\nKyo\n#390\n$500\ngRPC Support"
+    },
+    {
+      "href": "https://github.com/zio/zio/issues/8861",
+      "text": "ZI\nZIO\n#8861\n$1,500\nCreate Loom-friendly concurrent weak set (FiberSet)"
+    },
+    {
+      "href": "https://github.com/zio/zio/issues/8807",
+      "text": "ZI\nZIO\n#8807\n$1,250\nCreating highly optimized and specialized fiber mailbox"
+    },
+    {
+      "href": "https://algora.io/isaac/bounties/clq18zr98000ejs0gt0nv7gwu",
+      "text": "Isaac\n#45\n$850\n[ISAAC-497] Implement an enhanced RAG Pipeline for Scientific/Research Workflows"
+    },
+    {
+      "href": "https://cal.com/ioannisflo",
+      "text": "Fund issues"
+    },
+    {
+      "href": "https://github.com/zed-industries/zed/issues/4440",
+      "text": "GitHub cofounder funds new feature in Zed Editor\nZed Editor, Scott Chacon\nView issue"
+    },
+    {
+      "href": "https://github.com/PX4/PX4-Autopilot/issues/22464",
+      "text": "DefenceTech CEOs fund obstacle avoidance in PX4 Autopilot\nAlex Klimaj, Founder of ARK Electronics & Andrew Wilkins, CEO of Ascend Engineering\nView issue"
+    },
+    {
+      "href": "https://algora.io/coollabsio/bounties/community",
+      "text": "Coolify community crowdfunds new feature development\nAndras Bacsai, Founder of Coolify\nView bounty board"
+    },
+    {
+      "href": "https://algora.io/browser-use",
+      "text": "Browser Use"
+    },
+    {
+      "href": "https://algora.io/trieve",
+      "text": "Trieve"
+    },
+    {
+      "href": "https://algora.io/twentyhq",
+      "text": "Twenty"
+    },
+    {
+      "href": "https://algora.io/mendableai",
+      "text": "🔥 Firecrawl"
+    },
+    {
+      "href": "https://algora.io/windmill-labs",
+      "text": "Windmill"
+    },
+    {
+      "href": "https://github.com/keephq/keep/issues?q=state%3Aclosed%20label%3A%22%F0%9F%92%8E%20Bounty%22%20%20label%3A%22%F0%9F%92%B0%20Rewarded%22%20label%3AProvider%20",
+      "text": "42 integrations"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/899",
+      "text": "ZIO shared a $500 bounty\n\n3 hours ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/471",
+      "text": "ZIO awarded Nabil Abdel-Hafeez a $3,000 bounty\n\n5 hours ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/517",
+      "text": "ZIO awarded Nabil Abdel-Hafeez a $2,000 bounty\n\n1 day ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/462",
+      "text": "ZIO awarded Nabil Abdel-Hafeez a $2,000 bounty\n\n3 days ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/801",
+      "text": "ZIO awarded Ajay RV a $1,000 bounty\n\n3 days ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/682",
+      "text": "ZIO awarded Helmy LuqmanulHakim a $1,000 bounty\n\n5 days ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/683",
+      "text": "ZIO awarded Ajay RV a $1,000 bounty\n\n6 days ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/681",
+      "text": "ZIO awarded Orbin Sunny a $1,000 bounty\n\n1 week ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/679",
+      "text": "ZIO awarded Nabil Abdel-Hafeez a $2,000 bounty\n\n1 week ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-http/issues/1522",
+      "text": "ZIO awarded Nabil Abdel-Hafeez a $500 bounty\n\n1 week ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/518",
+      "text": "ZIO awarded Nabil Abdel-Hafeez a $2,500 bounty\n\n1 week ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/685",
+      "text": "ZIO shared a $1,000 bounty\n\n2 weeks ago"
+    },
+    {
+      "href": "https://github.com/zio/zio-blocks/issues/519",
+      "text": "ZIO shared a $4,000 bounty\n\n1 month ago"
+    },
+    {
+      "href": "https://github.com/rafael-fuente/diffractsim/issues/69",
+      "text": "Rafael de la Fuente shared a $1,000 bounty\n\n1 month ago"
+    },
+    {
+      "href": "https://github.com/archestra-ai/archestra/issues/1301",
+      "text": "Archestra shared a $900 bounty\n\n2 months ago"
+    },
+    {
+      "href": "https://github.com/Mudlet/Mudlet/issues/8030",
+      "text": "Mudlet shared a $1,000 bounty\n\n5 months ago"
+    },
+    {
+      "href": "https://algora.io/bounties#",
+      "text": "Twenty (YC S23) shared a $2,500 bounty\n\n7 months ago"
+    },
+    {
+      "href": "https://github.com/golemcloud/golem-cli/issues/275",
+      "text": "Golem Cloud shared a $3,500 bounty\n\n7 months ago"
+    },
+    {
+      "href": "https://github.com/zio/zio/issues/9878",
+      "text": "ZIO shared a $850 bounty\n\n8 months ago"
+    },
+    {
+      "href": "https://github.com/zio/zio/issues/9877",
+      "text": "ZIO shared a $750 bounty\n\n8 months ago"
+    },
+    {
+      "href": "https://algora.io/garden-co/jobs",
+      "text": "Garden Computing is hiring! Full-stack TypeScript Framework Developer\n\n9 months ago"
+    },
+    {
+      "href": "https://algora.io/TraceMachina/jobs",
+      "text": "TraceMachina is hiring! OSS Rust Engineer - India Office 🇮🇳\n\n9 months ago"
+    },
+    {
+      "href": "https://algora.io/ZIO/jobs",
+      "text": "ZIO is hiring! Full-time Scala Developer\n\n9 months ago"
+    },
+    {
+      "href": "https://algora.io/golemcloud/jobs",
+      "text": "Golem Cloud is hiring! Full-time TypeScript developer\n\n9 months ago"
+    },
+    {
+      "href": "https://cal.com/ioannisflo",
+      "text": "Companies"
+    },
+    {
+      "href": "https://algora.io/onboarding/dev",
+      "text": "Developers"
+    },
+    {
+      "href": "https://algora.io/discord",
+      "text": "Discord"
+    },
+    {
+      "href": "https://x.com/algoraio",
+      "text": "X (formerly Twitter)"
+    },
+    {
+      "href": "https://github.com/algora-io",
+      "text": "GitHub"
+    },
+    {
+      "href": "https://linkedin.com/company/algorapbc",
+      "text": "LinkedIn"
+    },
+    {
+      "href": "https://www.youtube.com/@algora-io",
+      "text": "YouTube"
+    },
+    {
+      "href": "mailto:info@algora.io",
+      "text": "Email"
+    },
+    {
+      "href": "https://cal.com/ioannisflo",
+      "text": "Schedule a call"
+    },
+    {
+      "href": "tel:+16504202207",
+      "text": "US\n+1 (650) 420-2207"
+    },
+    {
+      "href": "tel:+306973184144",
+      "text": "EU\n+30 (697) 318-4144"
+    }
+  ],
+  "dollarAmounts": [
+    "$500",
+    "$1",
+    "$4",
+    "$1",
+    "$900",
+    "$1",
+    "$2",
+    "$3",
+    "$850",
+    "$750",
+    "$3",
+    "$1",
+    "$500",
+    "$2",
+    "$5",
+    "$2",
+    "$750",
+    "$650",
+    "$650",
+    "$500",
+    "$1",
+    "$1",
+    "$850",
+    "$143",
+    "$500",
+    "$3",
+    "$2",
+    "$2",
+    "$1",
+    "$1",
+    "$1",
+    "$1",
+    "$2",
+    "$500",
+    "$2",
+    "$1",
+    "$4",
+    "$1",
+    "$900",
+    "$1",
+    "$2",
+    "$3",
+    "$850",
+    "$750"
+  ]
+}

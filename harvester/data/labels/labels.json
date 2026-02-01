@@ -1,0 +1,1109 @@
+{
+  "samples": [
+    {
+      "id": "c32bf31e0f8d981d",
+      "filename": "math_1769891607692.txt",
+      "source": "generated",
+      "type": "math",
+      "label": "8",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:33:27.694Z",
+      "metadata": {}
+    },
+    {
+      "id": "bb2f2f65e4940718",
+      "filename": "math_1769891607699.txt",
+      "source": "generated",
+      "type": "math",
+      "label": "6",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:33:27.702Z",
+      "metadata": {}
+    },
+    {
+      "id": "1ae5df2e944698f9",
+      "filename": "math_1769891607704.txt",
+      "source": "generated",
+      "type": "math",
+      "label": "14",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:33:27.707Z",
+      "metadata": {}
+    },
+    {
+      "id": "c855aa787d3e8da9",
+      "filename": "math_1769891607708.txt",
+      "source": "generated",
+      "type": "math",
+      "label": "5",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:33:27.711Z",
+      "metadata": {}
+    },
+    {
+      "id": "5ce9a59410d413a9",
+      "filename": "math_1769891607713.txt",
+      "source": "generated",
+      "type": "math",
+      "label": "20",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:33:27.716Z",
+      "metadata": {}
+    },
+    {
+      "id": "31c5d5eec5873faa",
+      "filename": "lab_1769891645678_bd14d0fc8005a555.png",
+      "source": "lab",
+      "type": "text",
+      "label": "JRH96E",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:05.748Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "357dda860e827a12",
+      "filename": "lab_1769891646284_f7c0902c8d8c2cb4.png",
+      "source": "lab",
+      "type": "text",
+      "label": "PQC676",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:06.347Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "bb683c6a81bb9d0b",
+      "filename": "lab_1769891646879_7961fbd2dcd8b56e.png",
+      "source": "lab",
+      "type": "text",
+      "label": "SW5JPV",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:06.946Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "e9dde2fe69623db9",
+      "filename": "lab_1769891647479_63cc0672bd4b14db.png",
+      "source": "lab",
+      "type": "text",
+      "label": "VMW8FT",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:07.546Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "bf9490bf5e262c8c",
+      "filename": "lab_1769891648079_69388c94f11fe24a.png",
+      "source": "lab",
+      "type": "text",
+      "label": "BNRRCJ",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:08.147Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "f7ae7cb79c96c707",
+      "filename": "lab_1769891648679_864be9bdc9cfe1b4.png",
+      "source": "lab",
+      "type": "text",
+      "label": "3Y9AL8",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:08.749Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "5e8d3627fcbe939d",
+      "filename": "lab_1769891649282_177b35112a1afa46.png",
+      "source": "lab",
+      "type": "text",
+      "label": "7LS23L",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:09.347Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "c1fcc5e4bd7e1c9c",
+      "filename": "lab_1769891649879_5723c0df6cbe0554.png",
+      "source": "lab",
+      "type": "text",
+      "label": "Z25F5H",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:09.946Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "4fc02b9f0f101abf",
+      "filename": "lab_1769891650478_5c688cf85b079244.png",
+      "source": "lab",
+      "type": "text",
+      "label": "YDVU4Q",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:10.546Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "3685c7628c0d25f4",
+      "filename": "lab_1769891651077_69e6924fcd0d576f.png",
+      "source": "lab",
+      "type": "text",
+      "label": "QSBYNC",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:11.146Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "bdd20bd764fb180e",
+      "filename": "lab_1769891651676_d5d82d08b0a0dd92.png",
+      "source": "lab",
+      "type": "text",
+      "label": "9TSKC2",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:11.747Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "722f2189f0777c89",
+      "filename": "lab_1769891652276_228ccfe550131182.png",
+      "source": "lab",
+      "type": "text",
+      "label": "W269CE",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:12.347Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "06f5bc3b30ea6415",
+      "filename": "lab_1769891652882_4c7ea71cb02807b6.png",
+      "source": "lab",
+      "type": "text",
+      "label": "ZRXX5F",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:12.946Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "2ff2495c49bba928",
+      "filename": "lab_1769891653477_ba78ec5acaee8beb.png",
+      "source": "lab",
+      "type": "text",
+      "label": "SJR7JP",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:13.547Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "ed8bdb9efb72eafb",
+      "filename": "lab_1769891654077_1251089d29afd8c7.png",
+      "source": "lab",
+      "type": "text",
+      "label": "YY236B",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:14.146Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "2c497244394b39a1",
+      "filename": "lab_1769891654677_9acf1b85b33c6fc7.png",
+      "source": "lab",
+      "type": "text",
+      "label": "3WV58R",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:14.746Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "f0e486b11fa4b1ad",
+      "filename": "lab_1769891655280_974a685e53fd32cd.png",
+      "source": "lab",
+      "type": "text",
+      "label": "R8RUYJ",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:15.346Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "c4096218efd7499d",
+      "filename": "lab_1769891655877_9d04d88b6a9555d3.png",
+      "source": "lab",
+      "type": "text",
+      "label": "KW9RUN",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:15.946Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "ad6badfcaa3237ea",
+      "filename": "lab_1769891656477_9263a46f9f0de5ef.png",
+      "source": "lab",
+      "type": "text",
+      "label": "S9YFQK",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:16.546Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "c991a3ddbc040bb1",
+      "filename": "lab_1769891657076_d1ba9ef441e636e1.png",
+      "source": "lab",
+      "type": "text",
+      "label": "PTBJYW",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:17.146Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "5ee2a7b2a6a79a4f",
+      "filename": "lab_1769891657675_180a1b84e497ceca.png",
+      "source": "lab",
+      "type": "text",
+      "label": "Q3BWU2",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:17.746Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "824a795ec4b49349",
+      "filename": "lab_1769891658275_57ff0a959065da1c.png",
+      "source": "lab",
+      "type": "text",
+      "label": "5F4MCA",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:18.347Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "42068620b1fad529",
+      "filename": "lab_1769891658878_4068b87dc953b8a2.png",
+      "source": "lab",
+      "type": "text",
+      "label": "Q579D4",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:18.946Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "5250609cb4db2b2b",
+      "filename": "lab_1769891659475_1ee9c5d019924fd8.png",
+      "source": "lab",
+      "type": "text",
+      "label": "5MJSPY",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:19.546Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "6c4bae02563a10cf",
+      "filename": "lab_1769891660075_3b38ffb05ab1c6fa.png",
+      "source": "lab",
+      "type": "text",
+      "label": "ABQU4A",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:20.146Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "0d8604d01706b08c",
+      "filename": "lab_1769891660677_64697d3ac9ec89a9.png",
+      "source": "lab",
+      "type": "text",
+      "label": "DFMAB7",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:20.746Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "dbeb13c06b8ff009",
+      "filename": "lab_1769891661276_60ea85e35a1fe2f5.png",
+      "source": "lab",
+      "type": "text",
+      "label": "VPDYNY",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:21.347Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "567f5722ea0cbc15",
+      "filename": "lab_1769891661877_631c8bf9329284d1.png",
+      "source": "lab",
+      "type": "text",
+      "label": "2FLJDR",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:21.946Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "1c124c0155eb3f3b",
+      "filename": "lab_1769891662476_6909d6084b201b4c.png",
+      "source": "lab",
+      "type": "text",
+      "label": "V776GG",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:22.546Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "d907398a850a65d7",
+      "filename": "lab_1769891663075_f7c4baf3b2c893e3.png",
+      "source": "lab",
+      "type": "text",
+      "label": "K8T6ZB",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:23.146Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "70d365ec3a00f679",
+      "filename": "lab_1769891663675_b4b125ca5ebcd216.png",
+      "source": "lab",
+      "type": "text",
+      "label": "QB7GJM",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:23.746Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "2dd714695082d905",
+      "filename": "lab_1769891664278_577d5dd49ea078d7.png",
+      "source": "lab",
+      "type": "text",
+      "label": "7H4J6Y",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:24.346Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "39b587be0caee811",
+      "filename": "lab_1769891664875_f08f54da93f1c2f6.png",
+      "source": "lab",
+      "type": "text",
+      "label": "5XY5LJ",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:24.946Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "19f5b4c98e637517",
+      "filename": "lab_1769891665477_150af3ec7b32968d.png",
+      "source": "lab",
+      "type": "text",
+      "label": "PL93VF",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:25.546Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "ebcb81521699aa99",
+      "filename": "lab_1769891666075_6462243b2c57d6e0.png",
+      "source": "lab",
+      "type": "text",
+      "label": "XH2YPN",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:26.147Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "0563daf1e4fddacc",
+      "filename": "lab_1769891666678_8d88590c20d11cdc.png",
+      "source": "lab",
+      "type": "text",
+      "label": "KNQMUZ",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:26.746Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "35edf8a69848ac92",
+      "filename": "lab_1769891667276_8bb4bbefd4e3b524.png",
+      "source": "lab",
+      "type": "text",
+      "label": "X89ELL",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:27.346Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "0bbd720e3f3b1574",
+      "filename": "lab_1769891667876_deeced4813899f33.png",
+      "source": "lab",
+      "type": "text",
+      "label": "MDKPYL",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:27.946Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "f4a7f1011ee4caa3",
+      "filename": "lab_1769891668476_f04814ea690c73b3.png",
+      "source": "lab",
+      "type": "text",
+      "label": "7DBUBH",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:28.545Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "bdb38f1b1c1ac61e",
+      "filename": "lab_1769891669077_54dbf890cd63368d.png",
+      "source": "lab",
+      "type": "text",
+      "label": "F76NZQ",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:29.145Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "1bb43ecacb47cff5",
+      "filename": "lab_1769891669676_ca6df56b6cb4336f.png",
+      "source": "lab",
+      "type": "text",
+      "label": "GSC8SD",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:29.746Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "3e7323158e64bdc8",
+      "filename": "lab_1769891670276_6592c21bc5429a35.png",
+      "source": "lab",
+      "type": "text",
+      "label": "FNW9RN",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:30.346Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "372ee21c2d8c4fed",
+      "filename": "lab_1769891670877_14fe3d0897df1e16.png",
+      "source": "lab",
+      "type": "text",
+      "label": "P67XED",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:30.945Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "358a98267b690b5c",
+      "filename": "lab_1769891671476_da73b2480cc8f7e6.png",
+      "source": "lab",
+      "type": "text",
+      "label": "MVY9KD",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:31.546Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "5e856cdf8e66dc09",
+      "filename": "lab_1769891672075_8a710d47ceafcd5d.png",
+      "source": "lab",
+      "type": "text",
+      "label": "7XTZWM",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:32.146Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "4d28a2836c0e83fe",
+      "filename": "lab_1769891672677_59bdf8008c0fa034.png",
+      "source": "lab",
+      "type": "text",
+      "label": "U7CW4D",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:32.745Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "da803812a7dab838",
+      "filename": "lab_1769891673274_c584c0c526209c92.png",
+      "source": "lab",
+      "type": "text",
+      "label": "DVTLYK",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:33.346Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "5db1fb5554c383b4",
+      "filename": "lab_1769891673876_cba544a58318f3d7.png",
+      "source": "lab",
+      "type": "text",
+      "label": "S5KUKR",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:33.946Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "4ca8e3a7a40201d8",
+      "filename": "lab_1769891674474_ff54cddf01827767.png",
+      "source": "lab",
+      "type": "text",
+      "label": "MH34YV",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:34.545Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "a9e286a206f8f290",
+      "filename": "lab_1769891675074_934a2cefb49c4a18.png",
+      "source": "lab",
+      "type": "text",
+      "label": "XKVSJW",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:35.146Z",
+      "metadata": {
+        "labUrl": "http://localhost:3000"
+      }
+    },
+    {
+      "id": "cc43b3548aacdca9",
+      "filename": "math_1769891679463.txt",
+      "source": "generated",
+      "type": "math",
+      "label": "8",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:39.467Z",
+      "metadata": {}
+    },
+    {
+      "id": "44f9454ed27ca8a5",
+      "filename": "math_1769891679469.txt",
+      "source": "generated",
+      "type": "math",
+      "label": "6",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:39.472Z",
+      "metadata": {}
+    },
+    {
+      "id": "d06def25a4a5c45c",
+      "filename": "math_1769891679473.txt",
+      "source": "generated",
+      "type": "math",
+      "label": "14",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:39.477Z",
+      "metadata": {}
+    },
+    {
+      "id": "333e5a890e5c6de2",
+      "filename": "math_1769891679478.txt",
+      "source": "generated",
+      "type": "math",
+      "label": "5",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:39.482Z",
+      "metadata": {}
+    },
+    {
+      "id": "6415de3aa7cd79d9",
+      "filename": "math_1769891679483.txt",
+      "source": "generated",
+      "type": "math",
+      "label": "20",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:39.486Z",
+      "metadata": {}
+    },
+    {
+      "id": "976bd20f6abc530b",
+      "filename": "lab_text_1769891679852_0.png",
+      "source": "lab",
+      "type": "text",
+      "label": "TXZEQ7",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:39.928Z",
+      "metadata": {}
+    },
+    {
+      "id": "13b994a0535cdd41",
+      "filename": "lab_text_1769891680259_1.png",
+      "source": "lab",
+      "type": "text",
+      "label": "3FTGEV",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:40.329Z",
+      "metadata": {}
+    },
+    {
+      "id": "d35392b8e1c68399",
+      "filename": "lab_text_1769891680658_2.png",
+      "source": "lab",
+      "type": "text",
+      "label": "DR8DJR",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:40.728Z",
+      "metadata": {}
+    },
+    {
+      "id": "6574e904eeef3240",
+      "filename": "lab_text_1769891681057_3.png",
+      "source": "lab",
+      "type": "text",
+      "label": "RWJZNC",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:41.128Z",
+      "metadata": {}
+    },
+    {
+      "id": "0069455b8b82e9a7",
+      "filename": "lab_text_1769891681456_4.png",
+      "source": "lab",
+      "type": "text",
+      "label": "Z6H2C8",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:41.528Z",
+      "metadata": {}
+    },
+    {
+      "id": "0341d450c924efbb",
+      "filename": "lab_text_1769891681858_5.png",
+      "source": "lab",
+      "type": "text",
+      "label": "Q8QVKU",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:41.928Z",
+      "metadata": {}
+    },
+    {
+      "id": "005a5182cce3bb7f",
+      "filename": "lab_text_1769891682257_6.png",
+      "source": "lab",
+      "type": "text",
+      "label": "V4FTB3",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:42.328Z",
+      "metadata": {}
+    },
+    {
+      "id": "e08b152d509aa121",
+      "filename": "lab_text_1769891682657_7.png",
+      "source": "lab",
+      "type": "text",
+      "label": "94Y967",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:42.728Z",
+      "metadata": {}
+    },
+    {
+      "id": "ddb68837f14ec2ce",
+      "filename": "lab_text_1769891683057_8.png",
+      "source": "lab",
+      "type": "text",
+      "label": "BM36MC",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:43.128Z",
+      "metadata": {}
+    },
+    {
+      "id": "45123d6adf797caf",
+      "filename": "lab_text_1769891683456_9.png",
+      "source": "lab",
+      "type": "text",
+      "label": "6FFJFV",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:43.528Z",
+      "metadata": {}
+    },
+    {
+      "id": "96d3cf6e10507995",
+      "filename": "lab_text_1769891683857_10.png",
+      "source": "lab",
+      "type": "text",
+      "label": "2Z5VHR",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:43.928Z",
+      "metadata": {}
+    },
+    {
+      "id": "6ed26f88a04eee6a",
+      "filename": "lab_text_1769891684256_11.png",
+      "source": "lab",
+      "type": "text",
+      "label": "C3TFTG",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:44.328Z",
+      "metadata": {}
+    },
+    {
+      "id": "612d47e7b8ed0c20",
+      "filename": "lab_text_1769891684658_12.png",
+      "source": "lab",
+      "type": "text",
+      "label": "XTSHYN",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:44.728Z",
+      "metadata": {}
+    },
+    {
+      "id": "c96877d97f0fb6a0",
+      "filename": "lab_text_1769891685056_13.png",
+      "source": "lab",
+      "type": "text",
+      "label": "CNN4SV",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:45.128Z",
+      "metadata": {}
+    },
+    {
+      "id": "e4fc3dd5b325af64",
+      "filename": "lab_text_1769891685455_14.png",
+      "source": "lab",
+      "type": "text",
+      "label": "H8D24M",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:45.528Z",
+      "metadata": {}
+    },
+    {
+      "id": "dd6fcf62ef82ee47",
+      "filename": "lab_text_1769891685857_15.png",
+      "source": "lab",
+      "type": "text",
+      "label": "EZJNCF",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:45.927Z",
+      "metadata": {}
+    },
+    {
+      "id": "adc7187ede043497",
+      "filename": "lab_text_1769891686255_16.png",
+      "source": "lab",
+      "type": "text",
+      "label": "VAA3JP",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:46.328Z",
+      "metadata": {}
+    },
+    {
+      "id": "b72e517a8ae2e54a",
+      "filename": "lab_text_1769891686656_17.png",
+      "source": "lab",
+      "type": "text",
+      "label": "29D5NZ",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:46.727Z",
+      "metadata": {}
+    },
+    {
+      "id": "0d1b4ee991f7ddf5",
+      "filename": "lab_text_1769891687059_18.png",
+      "source": "lab",
+      "type": "text",
+      "label": "KFLT5X",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:47.128Z",
+      "metadata": {}
+    },
+    {
+      "id": "13781451cb129614",
+      "filename": "lab_text_1769891687456_19.png",
+      "source": "lab",
+      "type": "text",
+      "label": "JUB4PJ",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:47.529Z",
+      "metadata": {}
+    },
+    {
+      "id": "8784eaa521915f01",
+      "filename": "lab_math_1769891687896_0.png",
+      "source": "lab",
+      "type": "math",
+      "label": "17",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:47.960Z",
+      "metadata": {}
+    },
+    {
+      "id": "e66627c6057ecb17",
+      "filename": "lab_math_1769891688291_1.png",
+      "source": "lab",
+      "type": "math",
+      "label": "9",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:48.361Z",
+      "metadata": {}
+    },
+    {
+      "id": "570480d33e7baa6f",
+      "filename": "lab_math_1769891688690_2.png",
+      "source": "lab",
+      "type": "math",
+      "label": "6",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:48.761Z",
+      "metadata": {}
+    },
+    {
+      "id": "15f2fe631b8c9ffd",
+      "filename": "lab_math_1769891689090_3.png",
+      "source": "lab",
+      "type": "math",
+      "label": "8",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:49.160Z",
+      "metadata": {}
+    },
+    {
+      "id": "83e5603b9ddd9d8a",
+      "filename": "lab_math_1769891689489_4.png",
+      "source": "lab",
+      "type": "math",
+      "label": "5",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:49.561Z",
+      "metadata": {}
+    },
+    {
+      "id": "1f86e2d66b307158",
+      "filename": "lab_math_1769891689889_5.png",
+      "source": "lab",
+      "type": "math",
+      "label": "2",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:49.961Z",
+      "metadata": {}
+    },
+    {
+      "id": "095de0b0b4a75688",
+      "filename": "lab_math_1769891690290_6.png",
+      "source": "lab",
+      "type": "math",
+      "label": "20",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:50.360Z",
+      "metadata": {}
+    },
+    {
+      "id": "0a67f2a0f31b33aa",
+      "filename": "lab_math_1769891690689_7.png",
+      "source": "lab",
+      "type": "math",
+      "label": "6",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:50.761Z",
+      "metadata": {}
+    },
+    {
+      "id": "b8827b58bc915770",
+      "filename": "lab_math_1769891691090_8.png",
+      "source": "lab",
+      "type": "math",
+      "label": "-3",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:51.161Z",
+      "metadata": {}
+    },
+    {
+      "id": "2b3d06dc1e1039eb",
+      "filename": "lab_math_1769891691489_9.png",
+      "source": "lab",
+      "type": "math",
+      "label": "17",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:51.560Z",
+      "metadata": {}
+    },
+    {
+      "id": "88e3128e5b65ed87",
+      "filename": "lab_math_1769891691889_10.png",
+      "source": "lab",
+      "type": "math",
+      "label": "16",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:51.960Z",
+      "metadata": {}
+    },
+    {
+      "id": "585fc4553c34fe2b",
+      "filename": "lab_math_1769891692288_11.png",
+      "source": "lab",
+      "type": "math",
+      "label": "90",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:52.360Z",
+      "metadata": {}
+    },
+    {
+      "id": "1f4627f418a7a344",
+      "filename": "lab_math_1769891692689_12.png",
+      "source": "lab",
+      "type": "math",
+      "label": "11",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:52.760Z",
+      "metadata": {}
+    },
+    {
+      "id": "8b1e13fd4de2b7ed",
+      "filename": "lab_math_1769891693090_13.png",
+      "source": "lab",
+      "type": "math",
+      "label": "45",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:53.161Z",
+      "metadata": {}
+    },
+    {
+      "id": "104a895c3a07b0f5",
+      "filename": "lab_math_1769891693488_14.png",
+      "source": "lab",
+      "type": "math",
+      "label": "25",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:53.561Z",
+      "metadata": {}
+    },
+    {
+      "id": "e5e484e8b11ee318",
+      "filename": "lab_math_1769891693891_15.png",
+      "source": "lab",
+      "type": "math",
+      "label": "1",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:53.961Z",
+      "metadata": {}
+    },
+    {
+      "id": "0ed49215441f41f5",
+      "filename": "lab_math_1769891694289_16.png",
+      "source": "lab",
+      "type": "math",
+      "label": "19",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:54.360Z",
+      "metadata": {}
+    },
+    {
+      "id": "446ef2339a363334",
+      "filename": "lab_math_1769891694691_17.png",
+      "source": "lab",
+      "type": "math",
+      "label": "8",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:54.761Z",
+      "metadata": {}
+    },
+    {
+      "id": "4e8845b4e2a8691c",
+      "filename": "lab_math_1769891695094_18.png",
+      "source": "lab",
+      "type": "math",
+      "label": "10",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:55.161Z",
+      "metadata": {}
+    },
+    {
+      "id": "cdfd0b0f1f82a907",
+      "filename": "lab_math_1769891695490_19.png",
+      "source": "lab",
+      "type": "math",
+      "label": "-3",
+      "labeled": true,
+      "addedAt": "2026-01-31T20:34:55.561Z",
+      "metadata": {}
+    }
+  ],
+  "stats": {
+    "total": 100,
+    "labeled": 100,
+    "unlabeled": 0
+  }
+}

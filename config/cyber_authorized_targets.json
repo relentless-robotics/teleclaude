@@ -1,0 +1,44 @@
+{
+  "authorized_targets": [
+    "127.0.0.1",
+    "localhost",
+    "192.168.*.*",
+    "10.0.*.*",
+    "172.16.*.*"
+  ],
+  "require_confirmation": true,
+  "logging_enabled": true,
+  "notes": [
+    "This file controls which targets can be scanned by cyber tools",
+    "Only add targets you own or have explicit permission to test",
+    "Wildcard patterns are supported (e.g., '192.168.*.*')",
+    "All scanning operations are logged in logs/cyber_tools.log",
+    "NEVER scan external targets without written authorization"
+  ],
+  "security_policy": {
+    "white_hat_only": true,
+    "log_all_operations": true,
+    "require_authorization": true,
+    "max_scan_rate": 10000,
+    "default_timeout": 600000
+  },
+  "examples": {
+    "local_network": "192.168.1.100",
+    "localhost_variants": [
+      "127.0.0.1",
+      "localhost",
+      "::1"
+    ],
+    "private_ranges": [
+      "10.0.0.0/8 (10.0.0.0 - 10.255.255.255)",
+      "172.16.0.0/12 (172.16.0.0 - 172.31.255.255)",
+      "192.168.0.0/16 (192.168.0.0 - 192.168.255.255)"
+    ]
+  },
+  "warnings": {
+    "external_scans": "Scanning external targets without permission is illegal",
+    "dos_attacks": "Never use aggressive scan rates that could disrupt services",
+    "data_collection": "Only collect data from systems you own or have permission to test",
+    "responsible_disclosure": "Report vulnerabilities responsibly to system owners"
+  }
+}

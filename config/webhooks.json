@@ -1,0 +1,13 @@
+{
+  "webhooks": {
+    "default": "",
+    "notifications": "",
+    "alerts": ""
+  },
+  "_instructions": {
+    "setup": "Add your Discord webhook URLs above. Get webhook URL from Discord: Server Settings > Integrations > Webhooks > New Webhook > Copy Webhook URL",
+    "default": "Main notification webhook - used for all notifications if specific ones aren't set",
+    "notifications": "Task completion, progress updates",
+    "alerts": "Errors, rate limits, authentication failures"
+  }
+}

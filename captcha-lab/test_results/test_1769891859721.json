@@ -1,0 +1,851 @@
+{
+  "timestamp": "2026-01-31T20:37:39.721Z",
+  "summary": {
+    "total": 94,
+    "correct": 4,
+    "accuracy": 0.0425531914893617,
+    "byType": {
+      "text": {
+        "total": 70,
+        "correct": 0,
+        "accuracy": 0,
+        "avgSimilarity": 0.10503568971448231,
+        "avgTime": 473.35714285714283
+      },
+      "math": {
+        "total": 24,
+        "correct": 4,
+        "accuracy": 0.16666666666666666,
+        "avgSimilarity": 0.16666666666666666,
+        "avgTime": 397.7083333333333
+      }
+    }
+  },
+  "errorAnalysis": {
+    "charConfusions": {
+      "W→2": 1,
+      "2→P": 1,
+      "P→K": 1,
+      "3→S": 1,
+      "W→S": 2,
+      "B→S": 1,
+      "9→P": 1,
+      "M→P": 1,
+      "R→E": 1,
+      "8→F": 1
+    },
+    "lengthMismatch": 63,
+    "totallyWrong": 58,
+    "partialMatch": 5
+  },
+  "suggestions": [
+    "CRITICAL: Accuracy below 50%. Consider:",
+    "  - Check if Tesseract is properly installed",
+    "  - Improve image preprocessing (contrast, threshold)",
+    "  - Try different PSM modes",
+    "Many length mismatches. Consider:",
+    "  - Adjusting character segmentation",
+    "  - Using --psm 7 (single line) or --psm 8 (single word)",
+    "Common character confusions:",
+    "  - W→S (2 times)",
+    "  - W→2 (1 times)",
+    "  - 2→P (1 times)",
+    "  - P→K (1 times)",
+    "  - 3→S (1 times)",
+    "Consider adding to character whitelist or training data"
+  ],
+  "results": [
+    {
+      "filename": "lab_1769891758798_3fcc70a2206249f4.png",
+      "type": "text",
+      "expected": "2NDJQS",
+      "got": "2BSCAPTCHAID925D9F27",
+      "correct": false,
+      "similarity": 0.09999999999999998,
+      "elapsed": 467
+    },
+    {
+      "filename": "lab_1769891759389_5de8747f8ed09746.png",
+      "type": "text",
+      "expected": "N3M67G",
+      "got": "CAPTCHAID875773",
+      "correct": false,
+      "similarity": 0.06666666666666665,
+      "elapsed": 463
+    },
+    {
+      "filename": "lab_1769891759978_ad0240d912cd4117.png",
+      "type": "text",
+      "expected": "2X9TSP",
+      "got": "XPPCAPTCHAID65772DD6",
+      "correct": false,
+      "similarity": 0.050000000000000044,
+      "elapsed": 461
+    },
+    {
+      "filename": "lab_1769891760567_e762ca4e572de6a9.png",
+      "type": "text",
+      "expected": "KLWY9P",
+      "got": "CAPTCHAIDB301CD86",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 469
+    },
+    {
+      "filename": "lab_1769891761157_3686aaa4ed1d182c.png",
+      "type": "text",
+      "expected": "9K7RJU",
+      "got": "OFCAPTCHAIDB20F8931",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 466
+    },
+    {
+      "filename": "lab_1769891761747_96f6b607795d76be.png",
+      "type": "text",
+      "expected": "NSAK5Z",
+      "got": "SSKSCAPTCHAIDD30AA18F",
+      "correct": false,
+      "similarity": 0.09523809523809523,
+      "elapsed": 470
+    },
+    {
+      "filename": "lab_1769891762338_a67c6e3f04ab99a4.png",
+      "type": "text",
+      "expected": "JVDTXH",
+      "got": "CAPTCHAID52E9DFDB",
+      "correct": false,
+      "similarity": 0.11764705882352944,
+      "elapsed": 473
+    },
+    {
+      "filename": "lab_1769891762942_8d81008ac9f1b9ea.png",
+      "type": "text",
+      "expected": "3GHKTQ",
+      "got": "CAPTCHAID44313587",
+      "correct": false,
+      "similarity": 0.05882352941176472,
+      "elapsed": 477
+    },
+    {
+      "filename": "lab_1769891763534_be7615b873f5fb6d.png",
+      "type": "text",
+      "expected": "DJ59CV",
+      "got": "ESCAPTCHAIDD27EB745",
+      "correct": false,
+      "similarity": 0.052631578947368474,
+      "elapsed": 471
+    },
+    {
+      "filename": "lab_1769891764144_c189b25d9e648129.png",
+      "type": "text",
+      "expected": "CT24X3",
+      "got": "F2XFCAPTCHAID12038917",
+      "correct": false,
+      "similarity": 0.1428571428571429,
+      "elapsed": 471
+    },
+    {
+      "filename": "lab_1769891764740_175ab8b8e79c2a26.png",
+      "type": "text",
+      "expected": "VZFFSU",
+      "got": "ZZFSCAPTCHAIDABCBB036",
+      "correct": false,
+      "similarity": 0.09523809523809523,
+      "elapsed": 479
+    },
+    {
+      "filename": "lab_1769891765332_e36ab1ce08a2dcb7.png",
+      "type": "text",
+      "expected": "7TKZDT",
+      "got": "FDCAPTCHAIDD85854FF",
+      "correct": false,
+      "similarity": 0.10526315789473684,
+      "elapsed": 469
+    },
+    {
+      "filename": "lab_1769891765925_cd9851fb95172f5c.png",
+      "type": "text",
+      "expected": "PNEAR6",
+      "got": "TAEECAPTCHAID616FB9F3",
+      "correct": false,
+      "similarity": 0.1428571428571429,
+      "elapsed": 469
+    },
+    {
+      "filename": "lab_1769891766516_aab248377f78e553.png",
+      "type": "text",
+      "expected": "6ACCUU",
+      "got": "CAPTCHAID72BD03AE",
+      "correct": false,
+      "similarity": 0.11764705882352944,
+      "elapsed": 472
+    },
+    {
+      "filename": "lab_1769891767103_3c8c9f404fef4bb9.png",
+      "type": "text",
+      "expected": "V5L5UD",
+      "got": "CAPTCHAIDDFFA3880",
+      "correct": false,
+      "similarity": 0.05882352941176472,
+      "elapsed": 469
+    },
+    {
+      "filename": "lab_1769891767711_ea1794b709a34b76.png",
+      "type": "text",
+      "expected": "MY6SER",
+      "got": "CAPTCHAID75B5278B",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 468
+    },
+    {
+      "filename": "lab_1769891768298_b191bb86634d31ef.png",
+      "type": "text",
+      "expected": "DV8CWW",
+      "got": "SNMCCAPTCHAID738DBFES",
+      "correct": false,
+      "similarity": 0.09523809523809523,
+      "elapsed": 480
+    },
+    {
+      "filename": "lab_1769891768889_6649350e310915d6.png",
+      "type": "text",
+      "expected": "MC7CCM",
+      "got": "ETCAPTCHAIDAD976C4A",
+      "correct": false,
+      "similarity": 0.1578947368421053,
+      "elapsed": 472
+    },
+    {
+      "filename": "lab_1769891769478_0432fbf72708782c.png",
+      "type": "text",
+      "expected": "ZVUWS2",
+      "got": "SECAPTCHAID4571220",
+      "correct": false,
+      "similarity": 0.05555555555555558,
+      "elapsed": 470
+    },
+    {
+      "filename": "lab_1769891770064_955551874e866bf5.png",
+      "type": "text",
+      "expected": "PRBW24",
+      "got": "WH4CAPTCHAIDA146ACSD",
+      "correct": false,
+      "similarity": 0.09999999999999998,
+      "elapsed": 466
+    },
+    {
+      "filename": "lab_1769891770656_55bf7d18229caeca.png",
+      "type": "text",
+      "expected": "SBPUQG",
+      "got": "SBCAPTCHAID625135FA",
+      "correct": false,
+      "similarity": 0.1578947368421053,
+      "elapsed": 473
+    },
+    {
+      "filename": "lab_1769891771253_b270ede67bfdef7a.png",
+      "type": "text",
+      "expected": "KG92MG",
+      "got": "KEDCAPTCHAIDCDE8AT7C",
+      "correct": false,
+      "similarity": 0.050000000000000044,
+      "elapsed": 470
+    },
+    {
+      "filename": "lab_1769891771858_46d41e7da1d16382.png",
+      "type": "text",
+      "expected": "9XF9XL",
+      "got": "DHKXCAPTCHA1D48755601",
+      "correct": false,
+      "similarity": 0.04761904761904767,
+      "elapsed": 471
+    },
+    {
+      "filename": "lab_1769891772448_f8fc7b514c40a3b1.png",
+      "type": "text",
+      "expected": "RWUFGE",
+      "got": "CAPTCHAID81082495",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 471
+    },
+    {
+      "filename": "lab_1769891773035_22239388186d88f0.png",
+      "type": "text",
+      "expected": "TGRZR8",
+      "got": "CAPTCHAID3011897",
+      "correct": false,
+      "similarity": 0.125,
+      "elapsed": 475
+    },
+    {
+      "filename": "lab_1769891773628_875f09857bef61a0.png",
+      "type": "text",
+      "expected": "8M48UP",
+      "got": "4CAPTCHAID3F0919E7",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 465
+    },
+    {
+      "filename": "lab_1769891774215_2d1c59c6adbe31d6.png",
+      "type": "text",
+      "expected": "73GG2H",
+      "got": "FCAPTCHAID7A1213BE",
+      "correct": false,
+      "similarity": 0.05555555555555558,
+      "elapsed": 466
+    },
+    {
+      "filename": "lab_1769891774804_476a8cd649769f57.png",
+      "type": "text",
+      "expected": "7S9XT7",
+      "got": "CAPTCHAID6192888",
+      "correct": false,
+      "similarity": 0.0625,
+      "elapsed": 470
+    },
+    {
+      "filename": "lab_1769891775407_a962a573ab8efd25.png",
+      "type": "text",
+      "expected": "CJTH3B",
+      "got": "EEINRERCAPTCHA1D91308041",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 476
+    },
+    {
+      "filename": "lab_1769891776003_7868c9287ace2a86.png",
+      "type": "text",
+      "expected": "TMYJLZ",
+      "got": "CAPTCHAIDD36EDDE8",
+      "correct": false,
+      "similarity": 0.05882352941176472,
+      "elapsed": 472
+    },
+    {
+      "filename": "lab_1769891776607_14d8896fee5cb926.png",
+      "type": "text",
+      "expected": "GY345B",
+      "got": "CAPTCHAID72886503",
+      "correct": false,
+      "similarity": 0.05882352941176472,
+      "elapsed": 464
+    },
+    {
+      "filename": "lab_1769891777197_3bc5bd044e3f63fc.png",
+      "type": "text",
+      "expected": "36LXSD",
+      "got": "CEBFCAPTCHAID3F60C12A",
+      "correct": false,
+      "similarity": 0.09523809523809523,
+      "elapsed": 470
+    },
+    {
+      "filename": "lab_1769891777778_6852766372fcafd7.png",
+      "type": "text",
+      "expected": "4VSUMF",
+      "got": "A425CAPTCHAIDD0183E9A",
+      "correct": false,
+      "similarity": 0.04761904761904767,
+      "elapsed": 474
+    },
+    {
+      "filename": "lab_1769891778367_380903b2c8e77d9e.png",
+      "type": "text",
+      "expected": "NSVQFN",
+      "got": "CAPTCHAID46A4652B",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 467
+    },
+    {
+      "filename": "lab_1769891778958_a98416cd6afdd2cb.png",
+      "type": "text",
+      "expected": "CUT9P6",
+      "got": "GECAPTCHAID91F661BE",
+      "correct": false,
+      "similarity": 0.21052631578947367,
+      "elapsed": 470
+    },
+    {
+      "filename": "lab_1769891779549_a894166e7408870d.png",
+      "type": "text",
+      "expected": "F7JUA9",
+      "got": "ZZACAPTCHAID61B90D29",
+      "correct": false,
+      "similarity": 0.09999999999999998,
+      "elapsed": 473
+    },
+    {
+      "filename": "lab_1769891780137_5e802ebfafa972df.png",
+      "type": "text",
+      "expected": "56LCQC",
+      "got": "CAPTCHAIDCC0A1631",
+      "correct": false,
+      "similarity": 0.11764705882352944,
+      "elapsed": 467
+    },
+    {
+      "filename": "lab_1769891780739_c7ae375033a757a1.png",
+      "type": "text",
+      "expected": "6YZ7AL",
+      "got": "OYACAPTCHAID23687055",
+      "correct": false,
+      "similarity": 0.09999999999999998,
+      "elapsed": 471
+    },
+    {
+      "filename": "lab_1769891781330_ea6a3eb63edb81f4.png",
+      "type": "text",
+      "expected": "AY5TRG",
+      "got": "FRECAPTCHAID04899B07",
+      "correct": false,
+      "similarity": 0.050000000000000044,
+      "elapsed": 471
+    },
+    {
+      "filename": "lab_1769891781920_f6ff2c2da0ea8ecf.png",
+      "type": "text",
+      "expected": "A7K6YH",
+      "got": "CAPTCHAIDCCD9F800",
+      "correct": false,
+      "similarity": 0.05882352941176472,
+      "elapsed": 466
+    },
+    {
+      "filename": "lab_1769891782524_929f7c62cdea056d.png",
+      "type": "text",
+      "expected": "XTEH4Y",
+      "got": "CAPTCHAID7AC3B09B",
+      "correct": false,
+      "similarity": 0.11764705882352944,
+      "elapsed": 466
+    },
+    {
+      "filename": "lab_1769891783117_751a5a666bc7f4ed.png",
+      "type": "text",
+      "expected": "YLN4DR",
+      "got": "46CAPTCHAIDC46B8EA8",
+      "correct": false,
+      "similarity": 0.052631578947368474,
+      "elapsed": 471
+    },
+    {
+      "filename": "lab_1769891783705_46aedb332f84932b.png",
+      "type": "text",
+      "expected": "UPU4BQ",
+      "got": "POEBCAPTCHAID1B65EF22",
+      "correct": false,
+      "similarity": 0.09523809523809523,
+      "elapsed": 474
+    },
+    {
+      "filename": "lab_1769891784309_bc95cbfc12eabba9.png",
+      "type": "text",
+      "expected": "W3SB2A",
+      "got": "WT8BACAPTCHAID1135639",
+      "correct": false,
+      "similarity": 0.1428571428571429,
+      "elapsed": 467
+    },
+    {
+      "filename": "lab_1769891784900_76c1710b85dc0070.png",
+      "type": "text",
+      "expected": "DUFA93",
+      "got": "CAPTCHAID783826D",
+      "correct": false,
+      "similarity": 0.125,
+      "elapsed": 473
+    },
+    {
+      "filename": "lab_1769891785492_31327e9d8d0f492f.png",
+      "type": "text",
+      "expected": "J3UAD4",
+      "got": "CAPTCHAIDAC2C02Z",
+      "correct": false,
+      "similarity": 0.125,
+      "elapsed": 470
+    },
+    {
+      "filename": "lab_1769891786091_0893a3f79cdd335d.png",
+      "type": "text",
+      "expected": "DTWELD",
+      "got": "ICAPTCHAIDD8BE2638",
+      "correct": false,
+      "similarity": 0.11111111111111116,
+      "elapsed": 466
+    },
+    {
+      "filename": "lab_1769891786682_b887be0ba80236c7.png",
+      "type": "text",
+      "expected": "TBP333",
+      "got": "EPACAPTCHAID7BC68C3E",
+      "correct": false,
+      "similarity": 0.15000000000000002,
+      "elapsed": 472
+    },
+    {
+      "filename": "lab_1769891787273_65a4c32f809b1ee0.png",
+      "type": "text",
+      "expected": "LAPY84",
+      "got": "TRCAPTCHAID4A41BCAD",
+      "correct": false,
+      "similarity": 0.1578947368421053,
+      "elapsed": 477
+    },
+    {
+      "filename": "lab_1769891787861_5aafe2f6f31ae47e.png",
+      "type": "text",
+      "expected": "HY8WW5",
+      "got": "SFSCAPTCHAIDCA97E15F",
+      "correct": false,
+      "similarity": 0.09999999999999998,
+      "elapsed": 473
+    },
+    {
+      "filename": "math_1769891795332.txt",
+      "type": "math",
+      "expected": "8",
+      "got": "8",
+      "correct": true,
+      "similarity": 1,
+      "elapsed": 0
+    },
+    {
+      "filename": "math_1769891795333.txt",
+      "type": "math",
+      "expected": "6",
+      "got": "6",
+      "correct": true,
+      "similarity": 1,
+      "elapsed": 0
+    },
+    {
+      "filename": "math_1769891795334.txt",
+      "type": "math",
+      "expected": "14",
+      "got": "14",
+      "correct": true,
+      "similarity": 1,
+      "elapsed": 0
+    },
+    {
+      "filename": "math_1769891795335.txt",
+      "type": "math",
+      "expected": "20",
+      "got": "20",
+      "correct": true,
+      "similarity": 1,
+      "elapsed": 0
+    },
+    {
+      "filename": "lab_text_1769891795715_0.png",
+      "type": "text",
+      "expected": "G8SP97",
+      "got": "CEP",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 477
+    },
+    {
+      "filename": "lab_text_1769891796096_1.png",
+      "type": "text",
+      "expected": "YUWHLP",
+      "got": "HEPF",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 487
+    },
+    {
+      "filename": "lab_text_1769891796483_2.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 472,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891796872_3.png",
+      "type": "text",
+      "expected": "L3WHQM",
+      "got": "EEESE",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 478
+    },
+    {
+      "filename": "lab_text_1769891797261_4.png",
+      "type": "text",
+      "expected": "VD9XVA",
+      "got": "WE",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 478
+    },
+    {
+      "filename": "lab_text_1769891797648_5.png",
+      "type": "text",
+      "expected": "LW2WMB",
+      "got": "BEOE",
+      "correct": false,
+      "similarity": 0,
+      "elapsed": 482
+    },
+    {
+      "filename": "lab_text_1769891798036_6.png",
+      "type": "text",
+      "expected": "SAW2PY",
+      "got": "SA2PK",
+      "correct": false,
+      "similarity": 0.6666666666666667,
+      "elapsed": 477
+    },
+    {
+      "filename": "lab_text_1769891798425_7.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 472,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891798811_8.png",
+      "type": "text",
+      "expected": "3APJXM",
+      "got": "SAP",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 476
+    },
+    {
+      "filename": "lab_text_1769891799203_9.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 491,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891799591_10.png",
+      "type": "text",
+      "expected": "HZ8N6N",
+      "got": "HEHC",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 474
+    },
+    {
+      "filename": "lab_text_1769891799981_11.png",
+      "type": "text",
+      "expected": "WWS7S3",
+      "got": "SSS",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 476
+    },
+    {
+      "filename": "lab_text_1769891800371_12.png",
+      "type": "text",
+      "expected": "YFSNBV",
+      "got": "SHE",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 485
+    },
+    {
+      "filename": "lab_text_1769891800760_13.png",
+      "type": "text",
+      "expected": "8T6ZX2",
+      "got": "FE2",
+      "correct": false,
+      "similarity": 0.16666666666666663,
+      "elapsed": 480
+    },
+    {
+      "filename": "lab_text_1769891801149_14.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 476,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891801536_15.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 514,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891801925_16.png",
+      "type": "text",
+      "expected": "SB9M6P",
+      "got": "SSPP",
+      "correct": false,
+      "similarity": 0.33333333333333337,
+      "elapsed": 474
+    },
+    {
+      "filename": "lab_text_1769891802315_17.png",
+      "type": "text",
+      "expected": "SALR86",
+      "got": "SALEF",
+      "correct": false,
+      "similarity": 0.5,
+      "elapsed": 480
+    },
+    {
+      "filename": "lab_text_1769891802706_18.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 495,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_text_1769891803093_19.png",
+      "type": "text",
+      "correct": false,
+      "elapsed": 478,
+      "error": "Could not extract text from image"
+    },
+    {
+      "filename": "lab_math_1769891803550_0.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 481,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891803930_1.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 482,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891804315_2.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 478,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891804707_3.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 477,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891805093_4.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 474,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891805483_5.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 476,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891805888_6.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 478,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891806281_7.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 479,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891806669_8.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 476,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891807075_9.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 478,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891807461_10.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 478,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891807851_11.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 474,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891808238_12.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 479,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891808625_13.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 477,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891809014_14.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 478,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891809395_15.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 476,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891809785_16.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 478,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891810186_17.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 474,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891810588_18.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 477,
+      "error": "Could not parse math expression"
+    },
+    {
+      "filename": "lab_math_1769891810977_19.png",
+      "type": "math",
+      "correct": false,
+      "elapsed": 475,
+      "error": "Could not parse math expression"
+    }
+  ]
+}

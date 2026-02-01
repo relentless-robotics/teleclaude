@@ -1,0 +1,17 @@
+{
+  "captchas": [
+    {
+      "type": "auto_solve",
+      "method": "failed",
+      "status": "failed",
+      "error": "elementHandle.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m    - fill(\"KFE\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    59 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying fill action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+      "timestamp": "2026-01-31T20:55:42.060Z"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "solved": 0,
+    "failed": 1,
+    "timeout": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "captcha-lab",
+  "version": "1.0.0",
+  "description": "CAPTCHA testing and training environment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-local-solver.js",
+    "docker:build": "docker build -t captcha-lab .",
+    "docker:run": "docker run -p 3000:3000 -p 8080:8080 captcha-lab"
+  },
+  "dependencies": {
+    "express": "^4.22.1",
+    "playwright": "^1.58.1"
+  }
+}

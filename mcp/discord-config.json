@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "discord": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\Footb\\Documents\\Github\\teleclaude-main\\mcp\\discord-bridge.js"
+      ]
+    }
+  }
+}

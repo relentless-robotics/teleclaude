@@ -1,0 +1,132 @@
+# TeleClaude Security Tools Docker Compose
+# Orchestrates security containers with anonymity options
+
+version: '3.8'
+
+services:
+  # Base Kali tools - no anonymity
+  kali-tools:
+    build:
+      context: ./kali-tools
+      dockerfile: Dockerfile
+    image: teleclaude/kali-tools:latest
+    container_name: kali-tools
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./workspace:/work
+      - ./output:/output
+      - /usr/share/wordlists:/wordlists:ro
+    networks:
+      - security-net
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+
+  # Kali with Tor anonymity
+  kali-anon:
+    build:
+      context: ./kali-anon
+      dockerfile: Dockerfile
+    image: teleclaude/kali-anon:latest
+    container_name: kali-anon
+    stdin_open: true
+    tty: true
+    environment:
+      - ANON_LEVEL=tor
+    volumes:
+      - ./workspace:/work
+      - ./output:/output
+      - ./vpn-configs:/vpn-configs:ro
+    networks:
+      - security-net
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    sysctls:
+      - net.ipv6.conf.all.disable_ipv6=1
+
+  # Kali through VPN gateway
+  kali-vpn:
+    build:
+      context: ./kali-tools
+      dockerfile: Dockerfile
+    image: teleclaude/kali-tools:latest
+    container_name: kali-vpn
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./workspace:/work
+      - ./output:/output
+    networks:
+      - vpn-net
+    depends_on:
+      - vpn-gateway
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+
+  # VPN Gateway - routes traffic for connected containers
+  vpn-gateway:
+    build:
+      context: ./vpn-gateway
+      dockerfile: Dockerfile
+    image: teleclaude/vpn-gateway:latest
+    container_name: vpn-gateway
+    environment:
+      - KILL_SWITCH=true
+    volumes:
+      - ./vpn-configs:/vpn-configs:ro
+    networks:
+      vpn-net:
+        ipv4_address: 172.20.0.2
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    sysctls:
+      - net.ipv4.ip_forward=1
+    devices:
+      - /dev/net/tun:/dev/net/tun
+
+  # Full anonymity: VPN + Tor
+  kali-full-anon:
+    build:
+      context: ./kali-anon
+      dockerfile: Dockerfile
+    image: teleclaude/kali-anon:latest
+    container_name: kali-full-anon
+    stdin_open: true
+    tty: true
+    environment:
+      - ANON_LEVEL=full
+      - VPN_TYPE=wireguard
+    volumes:
+      - ./workspace:/work
+      - ./output:/output
+      - ./vpn-configs:/vpn-configs:ro
+    networks:
+      - vpn-net
+    depends_on:
+      - vpn-gateway
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    sysctls:
+      - net.ipv6.conf.all.disable_ipv6=1
+
+networks:
+  security-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.19.0.0/16
+
+  vpn-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+
+volumes:
+  workspace:
+  output:
