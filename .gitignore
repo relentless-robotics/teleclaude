@@ -58,8 +58,17 @@ cursor_results/
 utils/gh_auth.js
 !utils/gh_auth.template.js
 utils/credentials.js
+utils/password_manager.js
+password-cli.js
 config/webhooks.json
 config/cyber_authorized_targets.json
+
+# OAuth credentials
+*_credentials.json
+*_oauth_credentials.json
+
+# Secrets folder
+secrets/
 
 # Temp OAuth/auth scripts (one-off scripts with credentials)
 *_oauth*.js
