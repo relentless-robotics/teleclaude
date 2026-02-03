@@ -67,13 +67,21 @@ config/cyber_authorized_targets.json
 *_credentials.json
 *_oauth_credentials.json
 
-# Secrets folder
+# Secrets folder (includes salt files, encrypted data)
 secrets/
+*.salt
+*.enc
 
 # Temp OAuth/auth scripts (one-off scripts with credentials)
 *_oauth*.js
 *_auth*.js
 !*_auth.template.js
+*_secret*.js
+*_getkeys*.js
+*_keys*.js
+setup-*-keys.js
+validate-*-keys.js
+*_keyboard.js
 automate_auths.js
 check_gmail*.js
 complete_*_auth.js
