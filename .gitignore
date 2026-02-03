@@ -100,6 +100,34 @@ temp_*.js
 test_gmail*.js
 quick_gmail*.js
 
+# Signup/automation scripts (contain hardcoded credentials)
+*_signup*.js
+*_signup.js
+clerk-*.js
+clerk_*.js
+*_verify*.js
+voice_*.js
+gvoice_*.js
+google_voice_*.js
+google_ads_*.js
+*_pr_*.js
+create_*_pat*.js
+create-github-*.js
+final_*.js
+dump_*.js
+click_and_*.js
+simple_browser_*.js
+submit_pr_*.js
+anthropic_*.js
+nowpayments_*.js
+lemon_*.js
+verify-*.js
+*-clerk-*.js
+update-clerk-*.js
+reopen-*.js
+complete-*.js
+pinterest_*.js
+
 # Temp HTML files
 *.html
 

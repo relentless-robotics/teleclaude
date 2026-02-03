@@ -3,7 +3,7 @@
 ## Account Setup
 
 **Account Email**: relentlessrobotics@gmail.com
-**Password**: Relaxing41!
+**Password**: YOUR_PASSWORD_HERE
 **Authentication Method**: Magic Link (magic.link) or Wallet Connection
 
 ### Setup Steps

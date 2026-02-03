@@ -971,7 +971,7 @@ const { KeePassManager } = require('./utils/keepass_manager');
 
 // Add new credentials to KeePass backup
 const kp = new KeePassManager();
-await kp.open('Relaxing41!');
+await kp.open('YOUR_PASSWORD_HERE');
 kp.addEntry('ServiceName', 'username', 'password', 'https://url');
 await kp.save();
 kp.close();
@@ -979,7 +979,7 @@ kp.close();
 
 **After adding to ACCOUNTS.md or API_KEYS.md, run:**
 ```bash
-node utils/keepass_manager.js import "Relaxing41!"
+node utils/keepass_manager.js import "YOUR_PASSWORD_HERE"
 ```
 
 ### API Keys Storage - MANDATORY INSTRUCTIONS
@@ -1063,7 +1063,7 @@ Every new API key entry MUST follow this exact markdown table format:
 
 ### Default Login Credentials (if configured)
 - **Email:** relentlessrobotics@gmail.com
-- **Password:** Relaxing41!
+- **Password:** YOUR_PASSWORD_HERE
 - **Google 2FA:** If enabled, always select "Tap Yes on phone/tablet" for approval
 
 ### IMPORTANT: Gmail Access
@@ -1690,7 +1690,7 @@ const status = await checkStatus();
 - **Docker Version:** 27.5.1
 - **Docker Compose:** 2.32.4
 - **Location:** WSL2 Kali Linux (`wsl -d kali-linux`)
-- **User:** teleclaude (password: Relaxing41!)
+- **User:** teleclaude (password: YOUR_PASSWORD_HERE)
 
 ### Quick Commands
 

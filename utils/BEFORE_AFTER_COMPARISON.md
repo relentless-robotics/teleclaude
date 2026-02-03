@@ -273,7 +273,7 @@ const passwordInput = await page.$('input[name="password"]');
 if (passwordInput) {
     await passwordInput.click();
     await sleep(500);
-    await typeSlowly(passwordInput, 'Relaxing41!');
+    await typeSlowly(passwordInput, 'YOUR_PASSWORD_HERE');
     await sleep(1000);
 
     const loginBtn = await page.$('[data-testid="LoginForm_Login_Button"]');
@@ -331,7 +331,7 @@ await safeClick(page, [
 await safeType(page, [
     'input[name="password"]',
     'input[type="password"]'
-], 'Relaxing41!', {
+], 'YOUR_PASSWORD_HERE', {
     humanLike: true,
     retries: 3
 });
@@ -398,7 +398,7 @@ if (await emailInput.count() > 0) {
 // Password
 const passwordInput = await page.locator('input[type="password"]');
 if (await passwordInput.count() > 0) {
-    await passwordInput.first().fill('Relaxing41!');
+    await passwordInput.first().fill('YOUR_PASSWORD_HERE');
     await page.waitForTimeout(1000);
 
     const continueBtn = await page.locator('button:has-text("Continue")');
@@ -461,7 +461,7 @@ await safeClick(page, 'button:has-text("Continue")');
 await safeType(page, [
     'input[type="password"]',
     'input[name="password"]'
-], 'Relaxing41!', {
+], 'YOUR_PASSWORD_HERE', {
     humanLike: true
 });
 

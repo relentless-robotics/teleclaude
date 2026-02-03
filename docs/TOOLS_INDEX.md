@@ -212,7 +212,7 @@ node utils/practice_targets.js start dvwa
 # Then visit http://localhost:8081
 
 # Check passwords
-node utils/keepass_manager.js list "Relaxing41!"
+node utils/keepass_manager.js list "YOUR_PASSWORD_HERE"
 
 # AI assistance
 node utils/cursor_cli.js ask "explain this code"

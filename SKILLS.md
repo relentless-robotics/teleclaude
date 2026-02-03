@@ -836,7 +836,7 @@ const result = await analyzeWithGhidra('large.exe', {
 
 **Location:** `secure/teleclaude_passwords.kdbx`
 
-**Master Password:** Same as system default (Relaxing41!)
+**Master Password:** Same as system default (YOUR_PASSWORD_HERE)
 
 **Module:** `utils/keepass_manager.js`
 
@@ -844,10 +844,10 @@ const result = await analyzeWithGhidra('large.exe', {
 
 ```bash
 # List all stored passwords
-node utils/keepass_manager.js list "Relaxing41!"
+node utils/keepass_manager.js list "YOUR_PASSWORD_HERE"
 
 # Import from ACCOUNTS.md & API_KEYS.md
-node utils/keepass_manager.js import "Relaxing41!"
+node utils/keepass_manager.js import "YOUR_PASSWORD_HERE"
 
 # Generate secure password
 node utils/keepass_manager.js generate 24
@@ -859,7 +859,7 @@ node utils/keepass_manager.js generate 24
 const { KeePassManager } = require('./utils/keepass_manager');
 
 const kp = new KeePassManager();
-await kp.open('Relaxing41!');
+await kp.open('YOUR_PASSWORD_HERE');
 
 // Add new entry
 kp.addEntry('GitHub', 'user@example.com', 'password123', 'https://github.com');
@@ -1061,7 +1061,7 @@ addVPNConfig('/path/to/wg.conf', 'wireguard');
 
 **Location:** WSL2 Kali Linux
 
-**Credentials:** teleclaude / Relaxing41!
+**Credentials:** teleclaude / YOUR_PASSWORD_HERE
 
 ### Quick Reference
 
