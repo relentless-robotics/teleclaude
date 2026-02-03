@@ -57,7 +57,7 @@ cursor_results/
 # Auth files with hardcoded credentials (use templates)
 utils/gh_auth.js
 !utils/gh_auth.template.js
-utils/credentials.js
+# utils/credentials.js is now SAFE - reads from .env, no hardcoded values
 utils/password_manager.js
 password-cli.js
 config/webhooks.json
