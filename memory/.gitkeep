@@ -1,0 +1,3 @@
+# This directory stores memory database and embeddings
+# Files are gitignored for privacy - they contain personal data
+# The memory system will create files here automatically

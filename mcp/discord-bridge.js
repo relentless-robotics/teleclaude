@@ -108,6 +108,24 @@ rl.on('line', (line) => {
             },
             required: ['message']
           }
+        },
+        {
+          name: 'send_file_to_discord',
+          description: 'Send a file to the Discord user. Use this to send screenshots, images, or other files.',
+          inputSchema: {
+            type: 'object',
+            properties: {
+              file_path: {
+                type: 'string',
+                description: 'The absolute path to the file to send'
+              },
+              message: {
+                type: 'string',
+                description: 'Optional message to accompany the file'
+              }
+            },
+            required: ['file_path']
+          }
         }]
       });
     }
@@ -142,7 +160,58 @@ rl.on('line', (line) => {
           });
           respondError(id, -32000, `Failed to write message: ${writeError.message}`);
         }
-      } else {
+      }
+      else if (name === 'send_file_to_discord') {
+        const filePath = args?.file_path || '';
+        const message = args?.message || '';
+
+        if (!filePath) {
+          log('WARN', 'send_file_to_discord called without file_path');
+          respondError(id, -32000, 'file_path is required');
+          return;
+        }
+
+        // Verify file exists
+        if (!fs.existsSync(filePath)) {
+          log('WARN', 'send_file_to_discord called with non-existent file', { filePath });
+          respondError(id, -32000, `File not found: ${filePath}`);
+          return;
+        }
+
+        // Write to a special file that the Discord bridge will pick up
+        const fileRequestPath = OUTPUT_FILE.replace('.txt', '-file-request.json');
+        const request = JSON.stringify({
+          filePath,
+          message,
+          timestamp: Date.now()
+        });
+
+        try {
+          // Write the request file
+          fs.writeFileSync(fileRequestPath, request, 'utf8');
+          log('INFO', 'File request written to bridge', {
+            filePath,
+            messageLength: message.length,
+            requestPath: fileRequestPath,
+            fileSize: fs.statSync(filePath).size
+          });
+
+          // Also log to stdout for debugging
+          console.error(`[FILE SEND] Written request: ${fileRequestPath}`);
+
+          respond(id, {
+            content: [{ type: 'text', text: `File queued for sending: ${filePath}` }]
+          });
+        } catch (writeError) {
+          log('ERROR', 'Failed to write file request to bridge', {
+            error: writeError.message,
+            errorCode: writeError.code,
+            requestPath: fileRequestPath
+          });
+          respondError(id, -32000, `Failed to queue file: ${writeError.message}`);
+        }
+      }
+      else {
         log('WARN', `Unknown tool requested: ${name}`);
         respondError(id, -32601, `Unknown tool: ${name}`);
       }

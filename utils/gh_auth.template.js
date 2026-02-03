@@ -2,8 +2,10 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-// GitHub Personal Access Token from API_KEYS.md
-const GITHUB_PAT = 'ghp_YOUR_TOKEN_HERE';
+// GitHub Personal Access Token - GET YOUR OWN FROM:
+// https://github.com/settings/tokens
+// Required scopes: repo, read:org, workflow
+const GITHUB_PAT = 'YOUR_GITHUB_PAT_HERE';
 
 function setupGitHubAuth() {
   console.log('Setting up GitHub CLI authentication...');
@@ -29,20 +31,22 @@ function setupGitHubAuth() {
     console.log(result);
     return true;
   } catch (error) {
-    // gh auth status returns non-zero even on success due to stderr output
-    if (error.stderr && error.stderr.includes('Logged in to github.com')) {
-      console.log('\n✓ Successfully authenticated with GitHub!');
-      console.log(error.stderr);
-      return true;
-    }
-    console.error('\n❌ Authentication failed:');
-    console.error(error.message);
+    console.error('Auth check failed:', error.message);
     return false;
   }
 }
 
+function getAuthenticatedEnv() {
+  return { ...process.env, GH_TOKEN: GITHUB_PAT };
+}
+
+module.exports = {
+  setupGitHubAuth,
+  getAuthenticatedEnv,
+  GITHUB_PAT
+};
+
+// Run setup if called directly
 if (require.main === module) {
   setupGitHubAuth();
 }
-
-module.exports = { setupGitHubAuth, GITHUB_PAT };

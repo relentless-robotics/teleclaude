@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Embedding service configuration for Memory System v4",
+
+  "provider": "auto",
+  "$provider_options": ["auto", "local", "openai", "tfidf"],
+  "$provider_description": "auto = try local first, then OpenAI, then TF-IDF fallback",
+
+  "localModel": "Xenova/all-MiniLM-L6-v2",
+  "$localModel_description": "sentence-transformers model for local embeddings (384 dimensions)",
+
+  "openaiModel": "text-embedding-3-small",
+  "$openaiModel_description": "OpenAI model for API embeddings (1536 dimensions)",
+
+  "dimensions": 384,
+  "$dimensions_description": "Embedding vector dimensions (auto-set based on provider)",
+
+  "cacheEnabled": true,
+  "$cacheEnabled_description": "Cache embeddings to disk for faster repeat queries",
+
+  "cacheTTLDays": 30,
+  "$cacheTTLDays_description": "How long to keep cached embeddings",
+
+  "batchSize": 32,
+  "$batchSize_description": "Max items per batch for embedding generation"
+}

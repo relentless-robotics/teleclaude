@@ -24,9 +24,72 @@ PROJECTS.md
 mcp-servers/
 MCP_CONFIG.md
 .playwright-mcp/
+.mcp.json
+
+# Secure credentials folder
+secure/*
+!secure/.gitkeep
+
+# Memory database (contains personal data)
+memory/*
+!memory/.gitkeep
+
+# Logs (may contain sensitive info)
+logs/*
+!logs/.gitkeep
+
+# Audio files (generated TTS)
+audio/*
+!audio/.gitkeep
+
+# Screenshot captures
+screenshots/*
+!screenshots/.gitkeep
+
+# Cursor fallback results
+cursor_results/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Auth files with hardcoded credentials (use templates)
+utils/gh_auth.js
+!utils/gh_auth.template.js
+utils/credentials.js
+config/webhooks.json
+config/cyber_authorized_targets.json
+
+# Temp OAuth/auth scripts (one-off scripts with credentials)
+*_oauth*.js
+*_auth*.js
+!*_auth.template.js
+automate_auths.js
+check_gmail*.js
+complete_*_auth.js
+fix_gmail*.js
+gcloud_*.js
+get_alpaca*.js
+groq_*.js
+handle_oauth*.js
+kalshi_setup.js
+manual_gmail*.js
+refresh_google*.js
+save_*_key*.js
+setup_polymarket*.js
+stripe_*.js
+temp_*.js
+test_gmail*.js
+quick_gmail*.js
+
+# Temp HTML files
+*.html
 
 # Separate projects (not part of TeleClaude)
 contentmorph/
+dashboard-app/
+period-tracker/
 
 # Daemon logs
 teleclaude-daemon.log
@@ -36,7 +99,8 @@ images/
 *.png
 *.jpg
 *.jpeg
-!screenshots/
+*.gif
+*.bmp
 
 # Browser session data (contains login cookies)
 browser_state/

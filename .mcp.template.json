@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "discord": {
+      "command": "node",
+      "args": ["mcp/discord-bridge.js"],
+      "cwd": "/path/to/your/teleclaude"
+    },
+    "memory": {
+      "command": "node",
+      "args": ["mcp/memory-server-v4.js"],
+      "cwd": "/path/to/your/teleclaude"
+    }
+  }
+}

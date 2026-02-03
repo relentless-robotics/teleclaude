@@ -1,16 +1,21 @@
 #!/usr/bin/env node
 /**
- * MCP Memory Server v2 - With Semantic Search
+ * MCP Memory Server v3 - With Semantic Search + Project Tracking
  * Persistent memory system for Claude with TF-IDF based semantic recall
  *
- * NEW in v2:
+ * NEW in v3:
+ *   - Project tracking for multi-step tasks
+ *   - Step-by-step progress management
+ *   - Blocker tracking
+ *   - Project indexing in semantic search
+ *
+ * v2 features:
  *   - Semantic search using TF-IDF + cosine similarity
  *   - Synonym expansion for better matching
  *   - Automatic indexing of all memories
  *   - Similar memory suggestions
- *   - Memory summarization
  *
- * Tools:
+ * Memory Tools:
  *   - remember: Store a memory with priority, tags, and optional expiration
  *   - recall: Search memories semantically by query and/or tags
  *   - check_pending: Get all items needing attention (URGENT and DAILY)
@@ -19,6 +24,16 @@
  *   - list_memories: List all memories with optional filters
  *   - update_memory: Modify an existing memory
  *   - find_similar: Find memories similar to a given memory
+ *
+ * Project Tools:
+ *   - create_project: Create a multi-step project
+ *   - get_project: Get full project details
+ *   - list_projects: List all projects
+ *   - update_project: Update project metadata
+ *   - update_step: Update a step's status
+ *   - add_step: Add a new step to a project
+ *   - add_blocker: Add a blocker to a project
+ *   - resolve_blocker: Remove a blocker
  */
 
 const fs = require('fs');
@@ -32,6 +47,7 @@ const { SemanticIndex } = require('../lib/semantic-search');
 // Storage location
 const MEMORY_DIR = path.join(__dirname, '..', 'memory');
 const MEMORY_FILE = path.join(MEMORY_DIR, 'memories.json');
+const PROJECTS_FILE = path.join(MEMORY_DIR, 'projects.json');
 const INDEX_FILE = path.join(MEMORY_DIR, 'semantic-index.json');
 const LOG_FILE = path.join(__dirname, '..', 'logs', `mcp-memory-${new Date().toISOString().split('T')[0]}.log`);
 
@@ -53,8 +69,116 @@ const PRIORITIES = {
   ARCHIVE: 4    // Long-term storage, rarely checked
 };
 
+// Project status levels
+const PROJECT_STATUS = {
+  planning: 'planning',
+  in_progress: 'in_progress',
+  blocked: 'blocked',
+  completed: 'completed',
+  abandoned: 'abandoned'
+};
+
+// Step status levels
+const STEP_STATUS = {
+  pending: 'pending',
+  in_progress: 'in_progress',
+  completed: 'completed',
+  skipped: 'skipped'
+};
+
 // Semantic search index
 let semanticIndex = new SemanticIndex(INDEX_FILE);
+
+/**
+ * Load projects from disk
+ */
+function loadProjects() {
+  try {
+    if (fs.existsSync(PROJECTS_FILE)) {
+      const data = fs.readFileSync(PROJECTS_FILE, 'utf8');
+      return JSON.parse(data);
+    }
+  } catch (e) {
+    log('ERROR', 'Failed to load projects', { error: e.message });
+  }
+  return { projects: [], metadata: { created: new Date().toISOString(), version: 1 } };
+}
+
+/**
+ * Save projects to disk
+ */
+function saveProjects(data) {
+  try {
+    data.metadata.lastModified = new Date().toISOString();
+    fs.writeFileSync(PROJECTS_FILE, JSON.stringify(data, null, 2), 'utf8');
+    log('INFO', 'Projects saved', { count: data.projects.length });
+    return true;
+  } catch (e) {
+    log('ERROR', 'Failed to save projects', { error: e.message });
+    return false;
+  }
+}
+
+/**
+ * Index a project in semantic search
+ */
+function indexProject(project) {
+  const indexText = `PROJECT: ${project.name} ${project.description || ''} ${project.tags.join(' ')} ${project.steps.map(s => s.task).join(' ')}`;
+  semanticIndex.addDocument(`project_${project.id}`, indexText, {
+    type: 'project',
+    priority: project.priority,
+    created: project.created,
+    tags: project.tags
+  });
+}
+
+/**
+ * Calculate project progress
+ */
+function calculateProgress(project) {
+  if (!project.steps || project.steps.length === 0) return 0;
+  const completed = project.steps.filter(s => s.status === 'completed').length;
+  return Math.round((completed / project.steps.length) * 100);
+}
+
+/**
+ * Get current step (first non-completed step)
+ */
+function getCurrentStep(project) {
+  return project.steps.find(s => s.status !== 'completed' && s.status !== 'skipped');
+}
+
+/**
+ * Format project for display
+ */
+function formatProject(p, verbose = false) {
+  const progress = calculateProgress(p);
+  const currentStep = getCurrentStep(p);
+  const blockerCount = p.blockers ? p.blockers.filter(b => !b.resolved).length : 0;
+
+  let result = `[${p.id}] ${p.name} - ${p.status.toUpperCase()} (${progress}%)`;
+  if (blockerCount > 0) result += ` [${blockerCount} BLOCKERS]`;
+  if (currentStep) result += `\n  Current: Step ${currentStep.id} - ${currentStep.task}`;
+
+  if (verbose) {
+    result += `\n  Priority: ${p.priority}`;
+    result += `\n  Tags: ${p.tags.join(', ') || 'none'}`;
+    result += `\n  Steps:`;
+    for (const step of p.steps) {
+      const statusIcon = step.status === 'completed' ? '✓' : step.status === 'in_progress' ? '→' : step.status === 'skipped' ? '⊘' : '○';
+      result += `\n    ${statusIcon} ${step.id}. ${step.task}`;
+      if (step.notes) result += ` (${step.notes})`;
+    }
+    if (blockerCount > 0) {
+      result += `\n  Blockers:`;
+      for (const blocker of p.blockers.filter(b => !b.resolved)) {
+        result += `\n    ⚠ ${blocker.description}`;
+      }
+    }
+  }
+
+  return result;
+}
 
 /**
  * Logging
@@ -476,6 +600,198 @@ const TOOLS = [
       type: 'object',
       properties: {}
     }
+  },
+  // Project tracking tools
+  {
+    name: 'create_project',
+    description: 'Create a new multi-step project for tracking complex tasks. Projects have steps, status, and blockers.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        name: {
+          type: 'string',
+          description: 'Project name (e.g., "Build Chrome Extension")'
+        },
+        description: {
+          type: 'string',
+          description: 'Detailed description of the project goal'
+        },
+        steps: {
+          type: 'array',
+          items: { type: 'string' },
+          description: 'List of step descriptions in order (e.g., ["Research competitors", "Design architecture", "Build MVP"])'
+        },
+        priority: {
+          type: 'string',
+          enum: ['URGENT', 'DAILY', 'WEEKLY', 'ARCHIVE'],
+          description: 'Priority level for the project'
+        },
+        tags: {
+          type: 'array',
+          items: { type: 'string' },
+          description: 'Tags for categorization'
+        }
+      },
+      required: ['name', 'steps']
+    }
+  },
+  {
+    name: 'get_project',
+    description: 'Get full details of a project including all steps and blockers.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        id: {
+          type: 'string',
+          description: 'The project ID'
+        }
+      },
+      required: ['id']
+    }
+  },
+  {
+    name: 'list_projects',
+    description: 'List all projects with optional status filter.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        status: {
+          type: 'string',
+          enum: ['planning', 'in_progress', 'blocked', 'completed', 'abandoned', 'active', 'all'],
+          description: 'Filter by status. "active" = planning + in_progress + blocked (default)'
+        }
+      }
+    }
+  },
+  {
+    name: 'update_project',
+    description: 'Update project metadata (name, description, priority, status, tags).',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        id: {
+          type: 'string',
+          description: 'The project ID'
+        },
+        name: {
+          type: 'string',
+          description: 'New project name'
+        },
+        description: {
+          type: 'string',
+          description: 'New description'
+        },
+        status: {
+          type: 'string',
+          enum: ['planning', 'in_progress', 'blocked', 'completed', 'abandoned'],
+          description: 'New status'
+        },
+        priority: {
+          type: 'string',
+          enum: ['URGENT', 'DAILY', 'WEEKLY', 'ARCHIVE'],
+          description: 'New priority'
+        },
+        tags: {
+          type: 'array',
+          items: { type: 'string' },
+          description: 'New tags (replaces existing)'
+        }
+      },
+      required: ['id']
+    }
+  },
+  {
+    name: 'update_step',
+    description: 'Update a step\'s status or add notes. Use this to track progress through a project.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        project_id: {
+          type: 'string',
+          description: 'The project ID'
+        },
+        step_id: {
+          type: 'number',
+          description: 'The step number (1-indexed)'
+        },
+        status: {
+          type: 'string',
+          enum: ['pending', 'in_progress', 'completed', 'skipped'],
+          description: 'New step status'
+        },
+        notes: {
+          type: 'string',
+          description: 'Notes about this step (progress, findings, etc.)'
+        }
+      },
+      required: ['project_id', 'step_id']
+    }
+  },
+  {
+    name: 'add_step',
+    description: 'Add a new step to an existing project.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        project_id: {
+          type: 'string',
+          description: 'The project ID'
+        },
+        task: {
+          type: 'string',
+          description: 'Description of the new step'
+        },
+        after_step: {
+          type: 'number',
+          description: 'Insert after this step number (0 = at beginning, omit = at end)'
+        }
+      },
+      required: ['project_id', 'task']
+    }
+  },
+  {
+    name: 'add_blocker',
+    description: 'Add a blocker to a project. Blockers are issues preventing progress.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        project_id: {
+          type: 'string',
+          description: 'The project ID'
+        },
+        description: {
+          type: 'string',
+          description: 'Description of the blocker'
+        },
+        step_id: {
+          type: 'number',
+          description: 'Which step is blocked (optional)'
+        }
+      },
+      required: ['project_id', 'description']
+    }
+  },
+  {
+    name: 'resolve_blocker',
+    description: 'Mark a blocker as resolved.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        project_id: {
+          type: 'string',
+          description: 'The project ID'
+        },
+        blocker_id: {
+          type: 'string',
+          description: 'The blocker ID to resolve'
+        },
+        resolution: {
+          type: 'string',
+          description: 'How the blocker was resolved'
+        }
+      },
+      required: ['project_id', 'blocker_id']
+    }
   }
 ];
 
@@ -558,19 +874,30 @@ function handleRecall(args) {
 }
 
 function handleCheckPending() {
-  const data = loadMemories();
+  const memoryData = loadMemories();
+  const projectData = loadProjects();
 
   // Get URGENT and DAILY items that are active
-  const urgent = keywordSearchMemories(data.memories, null, 'URGENT');
-  const daily = keywordSearchMemories(data.memories, null, 'DAILY');
+  const urgent = keywordSearchMemories(memoryData.memories, null, 'URGENT');
+  const daily = keywordSearchMemories(memoryData.memories, null, 'DAILY');
+
+  // Get active projects (not completed/abandoned)
+  const activeProjects = projectData.projects.filter(p =>
+    ['planning', 'in_progress', 'blocked'].includes(p.status)
+  ).sort((a, b) => {
+    // Blocked first, then by priority
+    if (a.status === 'blocked' && b.status !== 'blocked') return -1;
+    if (b.status === 'blocked' && a.status !== 'blocked') return 1;
+    return PRIORITIES[a.priority] - PRIORITIES[b.priority];
+  });
 
   // Update lastChecked
   const now = new Date().toISOString();
   [...urgent, ...daily].forEach(m => {
-    const mem = data.memories.find(x => x.id === m.id);
+    const mem = memoryData.memories.find(x => x.id === m.id);
     if (mem) mem.lastChecked = now;
   });
-  saveMemories(data);
+  saveMemories(memoryData);
 
   let response = '';
 
@@ -579,7 +906,19 @@ function handleCheckPending() {
   }
 
   if (daily.length > 0) {
-    response += `**DAILY (${daily.length}):**\n${daily.map(m => formatMemory(m)).join('\n')}`;
+    response += `**DAILY (${daily.length}):**\n${daily.map(m => formatMemory(m)).join('\n')}\n\n`;
+  }
+
+  if (activeProjects.length > 0) {
+    const blocked = activeProjects.filter(p => p.status === 'blocked');
+    const inProgress = activeProjects.filter(p => p.status !== 'blocked');
+
+    if (blocked.length > 0) {
+      response += `**BLOCKED PROJECTS (${blocked.length}):**\n${blocked.map(p => formatProject(p, false)).join('\n\n')}\n\n`;
+    }
+    if (inProgress.length > 0) {
+      response += `**ACTIVE PROJECTS (${inProgress.length}):**\n${inProgress.map(p => formatProject(p, false)).join('\n\n')}`;
+    }
   }
 
   if (!response) {
@@ -589,7 +928,7 @@ function handleCheckPending() {
   return {
     content: [{
       type: 'text',
-      text: response
+      text: response.trim()
     }]
   };
 }
@@ -810,18 +1149,361 @@ function handleRebuildIndex() {
   };
 }
 
-// Initialize: Load existing memories into index
-function initialize() {
-  const data = loadMemories();
+// ===== PROJECT HANDLERS =====
 
-  // If index is empty but we have memories, rebuild it
-  if (semanticIndex.documents.size === 0 && data.memories.length > 0) {
-    log('INFO', 'Rebuilding semantic index from existing memories');
+function handleCreateProject(args) {
+  const data = loadProjects();
+
+  const project = {
+    id: generateId(),
+    name: args.name,
+    description: args.description || '',
+    status: 'planning',
+    priority: args.priority || 'DAILY',
+    tags: args.tags || [],
+    steps: args.steps.map((task, idx) => ({
+      id: idx + 1,
+      task,
+      status: 'pending',
+      createdAt: new Date().toISOString(),
+      notes: null
+    })),
+    blockers: [],
+    created: new Date().toISOString(),
+    updatedAt: new Date().toISOString()
+  };
+
+  data.projects.push(project);
+  saveProjects(data);
+
+  // Index in semantic search
+  indexProject(project);
+  semanticIndex.save();
+
+  log('INFO', 'Project created', { id: project.id, name: project.name });
+
+  return {
+    content: [{
+      type: 'text',
+      text: `Project created: ${project.id}\n\n${formatProject(project, true)}`
+    }]
+  };
+}
+
+function handleGetProject(args) {
+  const data = loadProjects();
+  const project = data.projects.find(p => p.id === args.id);
+
+  if (!project) {
+    return {
+      content: [{
+        type: 'text',
+        text: `Project not found: ${args.id}`
+      }]
+    };
+  }
+
+  return {
+    content: [{
+      type: 'text',
+      text: formatProject(project, true)
+    }]
+  };
+}
+
+function handleListProjects(args) {
+  const data = loadProjects();
+  let projects = data.projects;
+
+  // Filter by status
+  const statusFilter = args.status || 'active';
+  if (statusFilter === 'active') {
+    projects = projects.filter(p => ['planning', 'in_progress', 'blocked'].includes(p.status));
+  } else if (statusFilter !== 'all') {
+    projects = projects.filter(p => p.status === statusFilter);
+  }
+
+  // Sort by priority then date
+  projects.sort((a, b) => {
+    const priorityDiff = PRIORITIES[a.priority] - PRIORITIES[b.priority];
+    if (priorityDiff !== 0) return priorityDiff;
+    return new Date(b.updatedAt) - new Date(a.updatedAt);
+  });
+
+  if (projects.length === 0) {
+    return {
+      content: [{
+        type: 'text',
+        text: `No projects found with status: ${statusFilter}`
+      }]
+    };
+  }
+
+  const formatted = projects.map(p => formatProject(p, false)).join('\n\n');
+
+  return {
+    content: [{
+      type: 'text',
+      text: `Found ${projects.length} projects:\n\n${formatted}`
+    }]
+  };
+}
+
+function handleUpdateProject(args) {
+  const data = loadProjects();
+  const project = data.projects.find(p => p.id === args.id);
+
+  if (!project) {
+    return {
+      content: [{
+        type: 'text',
+        text: `Project not found: ${args.id}`
+      }]
+    };
+  }
+
+  if (args.name) project.name = args.name;
+  if (args.description) project.description = args.description;
+  if (args.status) project.status = args.status;
+  if (args.priority) project.priority = args.priority;
+  if (args.tags) project.tags = args.tags;
+
+  project.updatedAt = new Date().toISOString();
+  saveProjects(data);
+
+  // Re-index
+  semanticIndex.removeDocument(`project_${project.id}`);
+  indexProject(project);
+  semanticIndex.save();
+
+  log('INFO', 'Project updated', { id: args.id });
+
+  return {
+    content: [{
+      type: 'text',
+      text: `Project updated:\n\n${formatProject(project, true)}`
+    }]
+  };
+}
+
+function handleUpdateStep(args) {
+  const data = loadProjects();
+  const project = data.projects.find(p => p.id === args.project_id);
+
+  if (!project) {
+    return {
+      content: [{
+        type: 'text',
+        text: `Project not found: ${args.project_id}`
+      }]
+    };
+  }
+
+  const step = project.steps.find(s => s.id === args.step_id);
+  if (!step) {
+    return {
+      content: [{
+        type: 'text',
+        text: `Step not found: ${args.step_id} in project ${args.project_id}`
+      }]
+    };
+  }
+
+  const oldStatus = step.status;
+
+  if (args.status) {
+    step.status = args.status;
+    if (args.status === 'in_progress' && !step.startedAt) {
+      step.startedAt = new Date().toISOString();
+    }
+    if (args.status === 'completed' && !step.completedAt) {
+      step.completedAt = new Date().toISOString();
+    }
+  }
+  if (args.notes) {
+    step.notes = args.notes;
+  }
+
+  // Auto-update project status based on steps
+  const allCompleted = project.steps.every(s => s.status === 'completed' || s.status === 'skipped');
+  const anyInProgress = project.steps.some(s => s.status === 'in_progress');
+  const hasActiveBlockers = project.blockers.some(b => !b.resolved);
+
+  if (allCompleted) {
+    project.status = 'completed';
+  } else if (hasActiveBlockers) {
+    project.status = 'blocked';
+  } else if (anyInProgress) {
+    project.status = 'in_progress';
+  }
+
+  project.updatedAt = new Date().toISOString();
+  saveProjects(data);
+
+  log('INFO', 'Step updated', { projectId: args.project_id, stepId: args.step_id, oldStatus, newStatus: step.status });
+
+  const progress = calculateProgress(project);
+  return {
+    content: [{
+      type: 'text',
+      text: `Step ${step.id} updated: ${oldStatus} → ${step.status}\n\nProject progress: ${progress}%\n\n${formatProject(project, false)}`
+    }]
+  };
+}
+
+function handleAddStep(args) {
+  const data = loadProjects();
+  const project = data.projects.find(p => p.id === args.project_id);
+
+  if (!project) {
+    return {
+      content: [{
+        type: 'text',
+        text: `Project not found: ${args.project_id}`
+      }]
+    };
+  }
+
+  const newStep = {
+    id: project.steps.length + 1,
+    task: args.task,
+    status: 'pending',
+    createdAt: new Date().toISOString(),
+    notes: null
+  };
+
+  // Insert at position
+  if (args.after_step !== undefined) {
+    project.steps.splice(args.after_step, 0, newStep);
+    // Renumber all steps
+    project.steps.forEach((s, idx) => s.id = idx + 1);
+  } else {
+    project.steps.push(newStep);
+  }
+
+  project.updatedAt = new Date().toISOString();
+  saveProjects(data);
+
+  // Re-index
+  semanticIndex.removeDocument(`project_${project.id}`);
+  indexProject(project);
+  semanticIndex.save();
+
+  log('INFO', 'Step added', { projectId: args.project_id, task: args.task });
+
+  return {
+    content: [{
+      type: 'text',
+      text: `Step added to project ${project.name}:\n\n${formatProject(project, true)}`
+    }]
+  };
+}
+
+function handleAddBlocker(args) {
+  const data = loadProjects();
+  const project = data.projects.find(p => p.id === args.project_id);
+
+  if (!project) {
+    return {
+      content: [{
+        type: 'text',
+        text: `Project not found: ${args.project_id}`
+      }]
+    };
+  }
+
+  const blocker = {
+    id: generateId(),
+    description: args.description,
+    stepId: args.step_id || null,
+    createdAt: new Date().toISOString(),
+    resolved: false,
+    resolvedAt: null,
+    resolution: null
+  };
+
+  project.blockers.push(blocker);
+  project.status = 'blocked';
+  project.updatedAt = new Date().toISOString();
+  saveProjects(data);
+
+  log('INFO', 'Blocker added', { projectId: args.project_id, blockerId: blocker.id });
+
+  return {
+    content: [{
+      type: 'text',
+      text: `Blocker added to project ${project.name}:\n\n⚠ ${blocker.description}\n\nBlocker ID: ${blocker.id}`
+    }]
+  };
+}
+
+function handleResolveBlocker(args) {
+  const data = loadProjects();
+  const project = data.projects.find(p => p.id === args.project_id);
+
+  if (!project) {
+    return {
+      content: [{
+        type: 'text',
+        text: `Project not found: ${args.project_id}`
+      }]
+    };
+  }
+
+  const blocker = project.blockers.find(b => b.id === args.blocker_id);
+  if (!blocker) {
+    return {
+      content: [{
+        type: 'text',
+        text: `Blocker not found: ${args.blocker_id}`
+      }]
+    };
+  }
+
+  blocker.resolved = true;
+  blocker.resolvedAt = new Date().toISOString();
+  blocker.resolution = args.resolution || 'Resolved';
+
+  // Check if any blockers remain
+  const hasActiveBlockers = project.blockers.some(b => !b.resolved);
+  if (!hasActiveBlockers && project.status === 'blocked') {
+    project.status = 'in_progress';
+  }
+
+  project.updatedAt = new Date().toISOString();
+  saveProjects(data);
+
+  log('INFO', 'Blocker resolved', { projectId: args.project_id, blockerId: args.blocker_id });
+
+  return {
+    content: [{
+      type: 'text',
+      text: `Blocker resolved: ${blocker.description}\n\nResolution: ${blocker.resolution}\n\nProject status: ${project.status}`
+    }]
+  };
+}
+
+// Initialize: Load existing memories and projects into index
+function initialize() {
+  const memoryData = loadMemories();
+  const projectData = loadProjects();
+
+  // If index is empty but we have data, rebuild it
+  if (semanticIndex.documents.size === 0 && (memoryData.memories.length > 0 || projectData.projects.length > 0)) {
+    log('INFO', 'Rebuilding semantic index from existing memories and projects');
     rebuildIndex();
+
+    // Index projects too
+    for (const project of projectData.projects) {
+      if (project.status !== 'completed' && project.status !== 'abandoned') {
+        indexProject(project);
+      }
+    }
+    semanticIndex.save();
   }
 }
 
-log('INFO', 'Memory MCP Server v2 (Semantic) starting');
+log('INFO', 'Memory MCP Server v3 (Semantic + Projects) starting');
 
 // Initialize on startup
 initialize();
@@ -837,7 +1519,7 @@ rl.on('line', (line) => {
       respond(id, {
         protocolVersion: '2024-11-05',
         capabilities: { tools: {} },
-        serverInfo: { name: 'memory-server', version: '2.0.0' }
+        serverInfo: { name: 'memory-server', version: '3.0.0' }
       });
     }
     else if (method === 'tools/list') {
@@ -876,6 +1558,31 @@ rl.on('line', (line) => {
         case 'rebuild_index':
           result = handleRebuildIndex();
           break;
+        // Project tools
+        case 'create_project':
+          result = handleCreateProject(args || {});
+          break;
+        case 'get_project':
+          result = handleGetProject(args || {});
+          break;
+        case 'list_projects':
+          result = handleListProjects(args || {});
+          break;
+        case 'update_project':
+          result = handleUpdateProject(args || {});
+          break;
+        case 'update_step':
+          result = handleUpdateStep(args || {});
+          break;
+        case 'add_step':
+          result = handleAddStep(args || {});
+          break;
+        case 'add_blocker':
+          result = handleAddBlocker(args || {});
+          break;
+        case 'resolve_blocker':
+          result = handleResolveBlocker(args || {});
+          break;
         default:
           respondError(id, -32601, `Unknown tool: ${name}`);
           return;
@@ -897,12 +1604,12 @@ rl.on('line', (line) => {
 rl.on('close', () => {
   // Save index on shutdown
   semanticIndex.save();
-  log('INFO', 'Memory MCP Server v2 shutting down');
+  log('INFO', 'Memory MCP Server v3 shutting down');
 });
 
 process.on('uncaughtException', (e) => {
   log('ERROR', 'Uncaught exception', { error: e.message, stack: e.stack });
 });
 
-log('INFO', 'Memory MCP Server v2 ready');
-process.stderr.write('Memory MCP server v2 (semantic search) started\n');
+log('INFO', 'Memory MCP Server v3 ready');
+process.stderr.write('Memory MCP server v3 (semantic search + project tracking) started\n');
