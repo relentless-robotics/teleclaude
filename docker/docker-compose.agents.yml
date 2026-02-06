@@ -1,0 +1,91 @@
+version: '3.8'
+
+services:
+  # Redis server - core message broker and data store
+  redis:
+    image: redis:7-alpine
+    container_name: teleclaude-redis
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redis_data:/data
+    command: >
+      redis-server
+      --appendonly yes
+      --appendfsync everysec
+      --save 60 1000
+      --maxmemory 512mb
+      --maxmemory-policy allkeys-lru
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    networks:
+      - agent-network
+
+  # Redis Commander - Web UI for Redis (optional, for debugging)
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    container_name: teleclaude-redis-ui
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    ports:
+      - "${REDIS_UI_PORT:-8081}:8081"
+    depends_on:
+      - redis
+    restart: unless-stopped
+    networks:
+      - agent-network
+    profiles:
+      - debug
+
+  # Example agent template (uncomment and customize as needed)
+  # trading-agent:
+  #   build:
+  #     context: ../agents/trading
+  #     dockerfile: Dockerfile
+  #   container_name: teleclaude-trading-agent
+  #   environment:
+  #     - REDIS_HOST=redis
+  #     - REDIS_PORT=6379
+  #     - AGENT_NAME=trading-agent
+  #     - AGENT_HEARTBEAT_INTERVAL=30000
+  #     - TASK_TIMEOUT=300000
+  #   depends_on:
+  #     redis:
+  #       condition: service_healthy
+  #   restart: unless-stopped
+  #   networks:
+  #     - agent-network
+  #   volumes:
+  #     - ../logs:/app/logs
+
+  # Example orchestrator service
+  # orchestrator:
+  #   build:
+  #     context: ../
+  #     dockerfile: docker/Dockerfile.orchestrator
+  #   container_name: teleclaude-orchestrator
+  #   environment:
+  #     - REDIS_HOST=redis
+  #     - REDIS_PORT=6379
+  #     - HEALTH_CHECK_INTERVAL=60000
+  #   depends_on:
+  #     redis:
+  #       condition: service_healthy
+  #   restart: unless-stopped
+  #   networks:
+  #     - agent-network
+  #   ports:
+  #     - "3000:3000"  # API port
+
+volumes:
+  redis_data:
+    driver: local
+
+networks:
+  agent-network:
+    driver: bridge

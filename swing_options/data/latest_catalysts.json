@@ -1,0 +1,489 @@
+{
+  "earnings": [],
+  "insiders": [],
+  "social": [
+    {
+      "type": "social_buzz",
+      "symbol": "GOOG",
+      "mentions": 511,
+      "stocktwitsWatchlist": 306010,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 3,
+      "price": 333.34,
+      "change": null,
+      "volume": 32526925,
+      "avgVolume": 32526925,
+      "volumeRatio": 1,
+      "socialScore": 8.1701,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "AMZN",
+      "mentions": 107,
+      "stocktwitsWatchlist": 684800,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 18,
+      "price": 232.99,
+      "change": null,
+      "volume": 47918976,
+      "avgVolume": 47918976,
+      "volumeRatio": 1,
+      "socialScore": 7.918,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "SPY",
+      "mentions": 587,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 1,
+      "price": 686.19,
+      "change": null,
+      "volume": 97603141,
+      "avgVolume": 97603141,
+      "volumeRatio": 1,
+      "socialScore": 5.87,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "AMD",
+      "mentions": 561,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 2,
+      "price": 200.19,
+      "change": null,
+      "volume": 106517605,
+      "avgVolume": 106517605,
+      "volumeRatio": 1,
+      "socialScore": 5.61,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "GOOGL",
+      "mentions": 306,
+      "stocktwitsWatchlist": 214246,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 6,
+      "price": 333.04,
+      "change": null,
+      "volume": 63047130,
+      "avgVolume": 63047130,
+      "volumeRatio": 1,
+      "socialScore": 5.20246,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "MSFT",
+      "mentions": 418,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 4,
+      "price": 414.19,
+      "change": null,
+      "volume": 44206612,
+      "avgVolume": 44206612,
+      "volumeRatio": 1,
+      "socialScore": 4.18,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "HOOD",
+      "mentions": 303,
+      "stocktwitsWatchlist": 92629,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 7,
+      "price": 80.62,
+      "change": null,
+      "volume": 62170181,
+      "avgVolume": 62170181,
+      "volumeRatio": 1,
+      "socialScore": 3.9562899999999996,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "MU",
+      "mentions": 344,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 5,
+      "price": 379.4,
+      "change": null,
+      "volume": 56349413,
+      "avgVolume": 56349413,
+      "volumeRatio": 1,
+      "socialScore": 3.44,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "NVDA",
+      "mentions": 294,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 8,
+      "price": 174.19,
+      "change": null,
+      "volume": 195443460,
+      "avgVolume": 195443460,
+      "volumeRatio": 1,
+      "socialScore": 2.94,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "RDDT",
+      "mentions": 239,
+      "stocktwitsWatchlist": 31188,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 10,
+      "price": 152.69,
+      "change": null,
+      "volume": 9415271,
+      "avgVolume": 9415271,
+      "volumeRatio": 1,
+      "socialScore": 2.70188,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "SNDK",
+      "mentions": 255,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 9,
+      "price": 584.55,
+      "change": null,
+      "volume": 27865045,
+      "avgVolume": 27865045,
+      "volumeRatio": 1,
+      "socialScore": 2.55,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "SNAP",
+      "mentions": 0,
+      "stocktwitsWatchlist": 233440,
+      "sources": [
+        "stocktwits"
+      ],
+      "price": 5.91,
+      "change": null,
+      "volume": 100693732,
+      "avgVolume": 100693732,
+      "volumeRatio": 1,
+      "socialScore": 2.3344,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "MSTR",
+      "mentions": 150,
+      "stocktwitsWatchlist": 77040,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 15,
+      "price": 129.09,
+      "change": null,
+      "volume": 25556700,
+      "avgVolume": 25556700,
+      "volumeRatio": 1,
+      "socialScore": 2.2704,
+      "priority": "medium",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "QQQ",
+      "mentions": 210,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 11,
+      "price": 605.75,
+      "change": null,
+      "volume": 79405010,
+      "avgVolume": 79405010,
+      "volumeRatio": 1,
+      "socialScore": 2.1,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "AVGO",
+      "mentions": 123,
+      "stocktwitsWatchlist": 61814,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 16,
+      "price": 308.05,
+      "change": null,
+      "volume": 42586299,
+      "avgVolume": 42586299,
+      "volumeRatio": 1,
+      "socialScore": 1.84814,
+      "priority": "medium",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "QS",
+      "mentions": 0,
+      "stocktwitsWatchlist": 64782,
+      "sources": [
+        "stocktwits"
+      ],
+      "price": 8.49,
+      "change": null,
+      "volume": 15561779,
+      "avgVolume": 15561779,
+      "volumeRatio": 1,
+      "socialScore": 0.64782,
+      "priority": "medium",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "QCOM",
+      "mentions": 0,
+      "stocktwitsWatchlist": 64332,
+      "sources": [
+        "stocktwits"
+      ],
+      "price": 148.89,
+      "change": null,
+      "volume": 18559160,
+      "avgVolume": 18559160,
+      "volumeRatio": 1,
+      "socialScore": 0.64332,
+      "priority": "medium",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    }
+  ],
+  "analysts": [],
+  "unusualOptions": [],
+  "timestamp": "2026-02-05T00:12:22.374Z"
+}

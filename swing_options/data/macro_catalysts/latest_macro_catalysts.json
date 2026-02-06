@@ -1,0 +1,110 @@
+{
+  "fomc": [
+    {
+      "type": "fed_minutes",
+      "date": "2026-02-19",
+      "description": "FOMC Minutes (Jan meeting)",
+      "daysUntil": 14,
+      "impact": "medium",
+      "time": "14:00 ET",
+      "priority": "medium",
+      "meta": {
+        "description": "FOMC meeting minutes release",
+        "typicalMarketImpact": "medium",
+        "typicalVIXIncrease": 0.08,
+        "affectedSectors": [
+          "all"
+        ],
+        "strategies": [
+          "watch_reaction"
+        ]
+      }
+    }
+  ],
+  "economic": [
+    {
+      "type": "jobs_report",
+      "indicator": "NFP",
+      "name": "Non-Farm Payrolls",
+      "date": "2026-02-06",
+      "time": "08:30 ET",
+      "daysUntil": 1,
+      "impact": "high",
+      "priority": "critical",
+      "affectedSectors": [
+        "SPY",
+        "QQQ",
+        "XLY",
+        "XRT"
+      ],
+      "tradingImplications": {
+        "action": "Position for binary move",
+        "strategies": [
+          "SPY/QQQ straddles",
+          "Sector ETF plays",
+          "VIX calls"
+        ],
+        "watchFor": "NFP vs expectations - surprise = big move",
+        "expectedMove": "1-2% SPY"
+      }
+    },
+    {
+      "type": "jobs_report",
+      "indicator": "INITIAL_CLAIMS",
+      "name": "Initial Jobless Claims",
+      "date": "2026-02-06",
+      "time": "08:30 ET",
+      "daysUntil": 1,
+      "impact": "low",
+      "priority": "high",
+      "affectedSectors": [
+        "SPY"
+      ],
+      "tradingImplications": {
+        "action": "Monitor consensus",
+        "strategies": [
+          "Wait for data",
+          "Prepare positions"
+        ],
+        "watchFor": "Consensus estimates and whisper numbers"
+      }
+    },
+    {
+      "type": "cpi_release",
+      "indicator": "CPI",
+      "name": "Consumer Price Index",
+      "date": "2026-02-12",
+      "time": "08:30 ET",
+      "daysUntil": 7,
+      "impact": "high",
+      "priority": "medium",
+      "affectedSectors": [
+        "SPY",
+        "QQQ",
+        "TLT",
+        "XLF",
+        "XLU"
+      ],
+      "tradingImplications": {
+        "action": "Monitor consensus",
+        "strategies": [
+          "Wait for data",
+          "Prepare positions"
+        ],
+        "watchFor": "Consensus estimates and whisper numbers"
+      }
+    }
+  ],
+  "regulatory": [],
+  "geopolitical": [],
+  "rateContext": {
+    "currentFedFunds": 3.64,
+    "treasury2y": 3.57,
+    "treasury10y": 4.28,
+    "yieldSpread": 0.72,
+    "curveStatus": "normal",
+    "impliedRatePath": "neutral",
+    "interpretation": "Market pricing in rate cuts"
+  },
+  "timestamp": "2026-02-05T00:12:22.370Z"
+}

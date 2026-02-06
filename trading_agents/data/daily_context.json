@@ -1,0 +1,109 @@
+{
+  "date": "2026-02-06",
+  "createdAt": "2026-02-06T05:16:41.560Z",
+  "lastUpdated": "2026-02-06T05:16:41.565Z",
+  "overnight": {
+    "futures": {
+      "S&P 500": {
+        "price": 5900,
+        "change": -1.7
+      },
+      "NASDAQ": {
+        "price": 20500,
+        "change": -2.1
+      }
+    },
+    "globalMarkets": {},
+    "crypto": {},
+    "significantMoves": [],
+    "riskSentiment": "RISK_OFF",
+    "updatedAt": "2026-02-06T05:16:41.563Z"
+  },
+  "preMarket": {
+    "futures": {},
+    "gappers": [
+      {
+        "symbol": "AMD",
+        "change": -5.2,
+        "direction": "DOWN"
+      }
+    ],
+    "movers": [
+      {
+        "symbol": "AMD",
+        "price": 190,
+        "change": -5.2
+      }
+    ],
+    "watchlistAlerts": [],
+    "newsHighlights": [],
+    "updatedAt": "2026-02-06T05:16:41.564Z"
+  },
+  "market": {
+    "indices": {},
+    "vix": null,
+    "regime": null,
+    "sectorLeaders": [],
+    "sectorLaggards": [],
+    "updatedAt": null
+  },
+  "sentiment": {
+    "overall": null,
+    "trending": [],
+    "socialMomentum": [],
+    "updatedAt": null
+  },
+  "catalysts": {
+    "earningsToday": [],
+    "earningsThisWeek": [],
+    "economicEvents": [],
+    "newsBreaking": [],
+    "updatedAt": null
+  },
+  "technicals": {
+    "oversold": [],
+    "overbought": [],
+    "breakouts": [],
+    "volumeSpikes": [],
+    "updatedAt": null
+  },
+  "optionsFlow": {
+    "unusualActivity": [],
+    "putCallRatio": null,
+    "ivRank": {},
+    "updatedAt": null
+  },
+  "dayWatchlist": [],
+  "swingTrader": {
+    "positions": [],
+    "pendingOrders": [],
+    "signals": [],
+    "account": null,
+    "updatedAt": null
+  },
+  "dayTrader": {
+    "positions": [],
+    "trades": [],
+    "pnlToday": 0,
+    "tradesCount": 0,
+    "account": null,
+    "reasoning": [],
+    "updatedAt": null
+  },
+  "agentLog": [
+    {
+      "agent": "overnight",
+      "time": "00:16:41",
+      "timestamp": "2026-02-06T05:16:41.564Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "00:16:41",
+      "timestamp": "2026-02-06T05:16:41.565Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    }
+  ]
+}

@@ -1,0 +1,1295 @@
+{
+  "macro": {
+    "fomc": [
+      {
+        "type": "fed_minutes",
+        "date": "2026-02-19",
+        "description": "FOMC Minutes (Jan meeting)",
+        "daysUntil": 14,
+        "impact": "medium",
+        "time": "14:00 ET",
+        "priority": "medium",
+        "meta": {
+          "description": "FOMC meeting minutes release",
+          "typicalMarketImpact": "medium",
+          "typicalVIXIncrease": 0.08,
+          "affectedSectors": [
+            "all"
+          ],
+          "strategies": [
+            "watch_reaction"
+          ]
+        }
+      }
+    ],
+    "economic": [
+      {
+        "type": "jobs_report",
+        "indicator": "NFP",
+        "name": "Non-Farm Payrolls",
+        "date": "2026-02-06",
+        "time": "08:30 ET",
+        "daysUntil": 1,
+        "impact": "high",
+        "priority": "critical",
+        "affectedSectors": [
+          "SPY",
+          "QQQ",
+          "XLY",
+          "XRT"
+        ],
+        "tradingImplications": {
+          "action": "Position for binary move",
+          "strategies": [
+            "SPY/QQQ straddles",
+            "Sector ETF plays",
+            "VIX calls"
+          ],
+          "watchFor": "NFP vs expectations - surprise = big move",
+          "expectedMove": "1-2% SPY"
+        }
+      },
+      {
+        "type": "jobs_report",
+        "indicator": "INITIAL_CLAIMS",
+        "name": "Initial Jobless Claims",
+        "date": "2026-02-06",
+        "time": "08:30 ET",
+        "daysUntil": 1,
+        "impact": "low",
+        "priority": "high",
+        "affectedSectors": [
+          "SPY"
+        ],
+        "tradingImplications": {
+          "action": "Monitor consensus",
+          "strategies": [
+            "Wait for data",
+            "Prepare positions"
+          ],
+          "watchFor": "Consensus estimates and whisper numbers"
+        }
+      },
+      {
+        "type": "cpi_release",
+        "indicator": "CPI",
+        "name": "Consumer Price Index",
+        "date": "2026-02-12",
+        "time": "08:30 ET",
+        "daysUntil": 7,
+        "impact": "high",
+        "priority": "medium",
+        "affectedSectors": [
+          "SPY",
+          "QQQ",
+          "TLT",
+          "XLF",
+          "XLU"
+        ],
+        "tradingImplications": {
+          "action": "Monitor consensus",
+          "strategies": [
+            "Wait for data",
+            "Prepare positions"
+          ],
+          "watchFor": "Consensus estimates and whisper numbers"
+        }
+      }
+    ],
+    "regulatory": [],
+    "geopolitical": [],
+    "rateContext": {
+      "currentFedFunds": 3.64,
+      "treasury2y": 3.57,
+      "treasury10y": 4.28,
+      "yieldSpread": 0.72,
+      "curveStatus": "normal",
+      "impliedRatePath": "neutral",
+      "interpretation": "Market pricing in rate cuts"
+    },
+    "timestamp": "2026-02-05T00:12:22.370Z"
+  },
+  "earnings": [],
+  "social": [
+    {
+      "type": "social_buzz",
+      "symbol": "GOOG",
+      "mentions": 511,
+      "stocktwitsWatchlist": 306010,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 3,
+      "price": 333.34,
+      "change": null,
+      "volume": 32526925,
+      "avgVolume": 32526925,
+      "volumeRatio": 1,
+      "socialScore": 8.1701,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "AMZN",
+      "mentions": 107,
+      "stocktwitsWatchlist": 684800,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 18,
+      "price": 232.99,
+      "change": null,
+      "volume": 47918976,
+      "avgVolume": 47918976,
+      "volumeRatio": 1,
+      "socialScore": 7.918,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "SPY",
+      "mentions": 587,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 1,
+      "price": 686.19,
+      "change": null,
+      "volume": 97603141,
+      "avgVolume": 97603141,
+      "volumeRatio": 1,
+      "socialScore": 5.87,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "AMD",
+      "mentions": 561,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 2,
+      "price": 200.19,
+      "change": null,
+      "volume": 106517605,
+      "avgVolume": 106517605,
+      "volumeRatio": 1,
+      "socialScore": 5.61,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "GOOGL",
+      "mentions": 306,
+      "stocktwitsWatchlist": 214246,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 6,
+      "price": 333.04,
+      "change": null,
+      "volume": 63047130,
+      "avgVolume": 63047130,
+      "volumeRatio": 1,
+      "socialScore": 5.20246,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "MSFT",
+      "mentions": 418,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 4,
+      "price": 414.19,
+      "change": null,
+      "volume": 44206612,
+      "avgVolume": 44206612,
+      "volumeRatio": 1,
+      "socialScore": 4.18,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "HOOD",
+      "mentions": 303,
+      "stocktwitsWatchlist": 92629,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 7,
+      "price": 80.62,
+      "change": null,
+      "volume": 62170181,
+      "avgVolume": 62170181,
+      "volumeRatio": 1,
+      "socialScore": 3.9562899999999996,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "MU",
+      "mentions": 344,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 5,
+      "price": 379.4,
+      "change": null,
+      "volume": 56349413,
+      "avgVolume": 56349413,
+      "volumeRatio": 1,
+      "socialScore": 3.44,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "NVDA",
+      "mentions": 294,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 8,
+      "price": 174.19,
+      "change": null,
+      "volume": 195443460,
+      "avgVolume": 195443460,
+      "volumeRatio": 1,
+      "socialScore": 2.94,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "RDDT",
+      "mentions": 239,
+      "stocktwitsWatchlist": 31188,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 10,
+      "price": 152.69,
+      "change": null,
+      "volume": 9415271,
+      "avgVolume": 9415271,
+      "volumeRatio": 1,
+      "socialScore": 2.70188,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "SNDK",
+      "mentions": 255,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 9,
+      "price": 584.55,
+      "change": null,
+      "volume": 27865045,
+      "avgVolume": 27865045,
+      "volumeRatio": 1,
+      "socialScore": 2.55,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "SNAP",
+      "mentions": 0,
+      "stocktwitsWatchlist": 233440,
+      "sources": [
+        "stocktwits"
+      ],
+      "price": 5.91,
+      "change": null,
+      "volume": 100693732,
+      "avgVolume": 100693732,
+      "volumeRatio": 1,
+      "socialScore": 2.3344,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "MSTR",
+      "mentions": 150,
+      "stocktwitsWatchlist": 77040,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 15,
+      "price": 129.09,
+      "change": null,
+      "volume": 25556700,
+      "avgVolume": 25556700,
+      "volumeRatio": 1,
+      "socialScore": 2.2704,
+      "priority": "medium",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "QQQ",
+      "mentions": 210,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 11,
+      "price": 605.75,
+      "change": null,
+      "volume": 79405010,
+      "avgVolume": 79405010,
+      "volumeRatio": 1,
+      "socialScore": 2.1,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "AVGO",
+      "mentions": 123,
+      "stocktwitsWatchlist": 61814,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 16,
+      "price": 308.05,
+      "change": null,
+      "volume": 42586299,
+      "avgVolume": 42586299,
+      "volumeRatio": 1,
+      "socialScore": 1.84814,
+      "priority": "medium",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "QS",
+      "mentions": 0,
+      "stocktwitsWatchlist": 64782,
+      "sources": [
+        "stocktwits"
+      ],
+      "price": 8.49,
+      "change": null,
+      "volume": 15561779,
+      "avgVolume": 15561779,
+      "volumeRatio": 1,
+      "socialScore": 0.64782,
+      "priority": "medium",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "QCOM",
+      "mentions": 0,
+      "stocktwitsWatchlist": 64332,
+      "sources": [
+        "stocktwits"
+      ],
+      "price": 148.89,
+      "change": null,
+      "volume": 18559160,
+      "avgVolume": 18559160,
+      "volumeRatio": 1,
+      "socialScore": 0.64332,
+      "priority": "medium",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      }
+    }
+  ],
+  "insiders": [],
+  "technical": {
+    "oversold": [
+      {
+        "symbol": "MSFT",
+        "rsi": 1.39,
+        "price": 0.32,
+        "targetPrice": 24.34,
+        "shortFloat": 0.75
+      },
+      {
+        "symbol": "UNH",
+        "rsi": 0.42,
+        "price": 1.5,
+        "targetPrice": 65.97,
+        "shortFloat": 1.48
+      },
+      {
+        "symbol": "MRK",
+        "rsi": 1.66,
+        "price": 1.54,
+        "targetPrice": 45.05,
+        "shortFloat": 1.36
+      },
+      {
+        "symbol": "JNJ",
+        "rsi": 2.11,
+        "price": 0.97,
+        "targetPrice": 46.59,
+        "shortFloat": 0.89
+      },
+      {
+        "symbol": "XOM",
+        "rsi": 2.26,
+        "price": 0.17,
+        "targetPrice": 59.7,
+        "shortFloat": 1.13
+      },
+      {
+        "symbol": "PG",
+        "rsi": 2.04,
+        "price": 1.13,
+        "targetPrice": 62.63,
+        "shortFloat": 0.82
+      },
+      {
+        "symbol": "CVX",
+        "rsi": 2.07,
+        "price": 0.22,
+        "targetPrice": 103.17,
+        "shortFloat": 1.03
+      }
+    ],
+    "overbought": [],
+    "volumeSpike": [],
+    "breakout": [],
+    "breakdown": []
+  },
+  "universe": {
+    "universe": [
+      "AAPL",
+      "MSFT",
+      "AMZN",
+      "NVDA",
+      "GOOGL",
+      "GOOG",
+      "META",
+      "BRK.B",
+      "TSLA",
+      "UNH",
+      "XOM",
+      "JNJ",
+      "JPM",
+      "V",
+      "PG",
+      "MA",
+      "HD",
+      "CVX",
+      "MRK",
+      "ABBV",
+      "LLY",
+      "PEP",
+      "COST",
+      "KO",
+      "AVGO",
+      "WMT",
+      "MCD",
+      "CSCO",
+      "TMO",
+      "ACN",
+      "ABT",
+      "DHR",
+      "VZ",
+      "ADBE",
+      "CRM",
+      "NKE",
+      "CMCSA",
+      "PFE",
+      "NEE",
+      "TXN",
+      "PM",
+      "INTC",
+      "ORCL",
+      "WFC",
+      "DIS",
+      "BMY",
+      "QCOM",
+      "AMD",
+      "UPS",
+      "RTX",
+      "NFLX",
+      "TMUS",
+      "AMGN",
+      "INTU",
+      "HON",
+      "AMAT",
+      "ISRG",
+      "BKNG",
+      "SBUX",
+      "ADP",
+      "VRTX",
+      "MDLZ",
+      "GILD",
+      "REGN",
+      "ADI",
+      "LRCX",
+      "PANW",
+      "MU",
+      "SNPS",
+      "CDNS",
+      "KLAC",
+      "MELI",
+      "PYPL",
+      "MNST",
+      "MAR",
+      "ORLY",
+      "CTAS",
+      "FTNT",
+      "ABNB",
+      "MRVL",
+      "DXCM",
+      "WDAY",
+      "BAC",
+      "GS",
+      "MS",
+      "SPGI",
+      "AXP",
+      "BLK",
+      "C",
+      "SCHW",
+      "CB",
+      "PGR",
+      "MMC",
+      "ICE",
+      "CME",
+      "AON",
+      "USB",
+      "MET",
+      "AIG",
+      "TRV",
+      "PNC",
+      "AFL",
+      "ALL",
+      "PRU",
+      "MCO",
+      "MSCI",
+      "FIS",
+      "COP",
+      "SLB",
+      "EOG",
+      "MPC",
+      "PXD",
+      "PSX",
+      "VLO",
+      "OXY",
+      "WMB",
+      "HES",
+      "KMI",
+      "HAL",
+      "DVN",
+      "FANG",
+      "BKR",
+      "TRGP",
+      "OKE",
+      "CTRA",
+      "IBM",
+      "NOW",
+      "CVS",
+      "MDT",
+      "CI",
+      "ELV",
+      "SYK",
+      "LOW",
+      "TJX",
+      "CMG",
+      "GM",
+      "F",
+      "AZO",
+      "ROST",
+      "DHI",
+      "YUM",
+      "HLT",
+      "LULU",
+      "MO",
+      "CL",
+      "TGT",
+      "GIS",
+      "KMB",
+      "SYY",
+      "STZ",
+      "KHC",
+      "HSY",
+      "K",
+      "ADM",
+      "KR",
+      "MKC",
+      "UNP",
+      "CAT",
+      "DE",
+      "BA",
+      "LMT",
+      "GE",
+      "MMM",
+      "NOC",
+      "CSX",
+      "ITW",
+      "FDX",
+      "NSC",
+      "WM",
+      "EMR",
+      "JCI",
+      "PH",
+      "DUK",
+      "SO",
+      "D",
+      "AEP",
+      "SRE",
+      "XEL",
+      "EXC",
+      "WEC",
+      "ED",
+      "PEG",
+      "AWK",
+      "DTE",
+      "ES",
+      "EIX",
+      "FE",
+      "PPL",
+      "CMS",
+      "AEE",
+      "ATO",
+      "PLD",
+      "AMT",
+      "EQIX",
+      "CCI",
+      "PSA",
+      "SPG",
+      "O",
+      "WELL",
+      "DLR",
+      "SBAC",
+      "VICI",
+      "AVB",
+      "EQR",
+      "WY",
+      "VTR",
+      "ARE",
+      "IRM",
+      "CBRE",
+      "ESS",
+      "MAA",
+      "LIN",
+      "APD",
+      "SHW",
+      "FCX",
+      "ECL",
+      "NEM",
+      "DD",
+      "NUE",
+      "DOW",
+      "PPG",
+      "CTVA",
+      "VMC",
+      "MLM",
+      "ALB",
+      "FMC",
+      "CF",
+      "MOS",
+      "IFF",
+      "CE",
+      "AVY",
+      "ROKU",
+      "COIN",
+      "SQ",
+      "PATH",
+      "ZM",
+      "HOOD",
+      "CRSP",
+      "DKNG",
+      "U",
+      "TWLO",
+      "EXAS",
+      "NTLA",
+      "TDOC",
+      "DNA",
+      "BEAM",
+      "PLTR",
+      "RBLX",
+      "SHOP",
+      "TXG",
+      "SMCI",
+      "MARA",
+      "RIOT",
+      "CVNA",
+      "PLUG",
+      "UPST",
+      "AFRM",
+      "SOFI",
+      "RIVN",
+      "LCID",
+      "AMC",
+      "GME",
+      "BBBY",
+      "SPCE",
+      "SNOW",
+      "SNAP",
+      "WISH",
+      "CLOV",
+      "NKLA",
+      "GOEV",
+      "FFIE",
+      "MULN",
+      "BBIG",
+      "ATER",
+      "APRN",
+      "BKKT",
+      "DWAC",
+      "PHUN",
+      "SPY",
+      "SNDK",
+      "RDDT",
+      "QQQ",
+      "SLV",
+      "MSTR",
+      "NVO",
+      "CIFR",
+      "ARM",
+      "ELF",
+      "IREN",
+      "RBRK",
+      "WOLF",
+      "SLAB",
+      "QS",
+      "NIO",
+      "UBER",
+      "LYFT",
+      "PENN",
+      "WYNN",
+      "MRNA",
+      "BNTX",
+      "GPS",
+      "MRO",
+      "APA",
+      "IWM",
+      "DIA",
+      "XLF",
+      "XLE",
+      "XLK",
+      "XLV",
+      "XLY",
+      "XLP",
+      "XLI",
+      "XLU",
+      "GLD",
+      "USO",
+      "TLT",
+      "HYG",
+      "VIX",
+      "UVXY",
+      "SQQQ",
+      "TQQQ",
+      "ARKK"
+    ],
+    "count": 322,
+    "technicalSetups": {
+      "oversold": [
+        {
+          "symbol": "MSFT",
+          "rsi": 1.39,
+          "price": 0.32,
+          "targetPrice": 24.34,
+          "shortFloat": 0.75
+        },
+        {
+          "symbol": "UNH",
+          "rsi": 0.42,
+          "price": 1.5,
+          "targetPrice": 65.97,
+          "shortFloat": 1.48
+        },
+        {
+          "symbol": "MRK",
+          "rsi": 1.66,
+          "price": 1.54,
+          "targetPrice": 45.05,
+          "shortFloat": 1.36
+        },
+        {
+          "symbol": "JNJ",
+          "rsi": 2.11,
+          "price": 0.97,
+          "targetPrice": 46.59,
+          "shortFloat": 0.89
+        },
+        {
+          "symbol": "XOM",
+          "rsi": 2.26,
+          "price": 0.17,
+          "targetPrice": 59.7,
+          "shortFloat": 1.13
+        },
+        {
+          "symbol": "PG",
+          "rsi": 2.04,
+          "price": 1.13,
+          "targetPrice": 62.63,
+          "shortFloat": 0.82
+        },
+        {
+          "symbol": "CVX",
+          "rsi": 2.07,
+          "price": 0.22,
+          "targetPrice": 103.17,
+          "shortFloat": 1.03
+        }
+      ],
+      "overbought": [],
+      "volumeSpike": [],
+      "breakout": [],
+      "breakdown": []
+    },
+    "sources": {
+      "etf": 278,
+      "social": "included",
+      "options": 100
+    },
+    "timestamp": "2026-02-05T00:12:22.369Z"
+  },
+  "criticalEvents": [
+    {
+      "type": "jobs_report",
+      "indicator": "INITIAL_CLAIMS",
+      "name": "Initial Jobless Claims",
+      "date": "2026-02-06",
+      "time": "08:30 ET",
+      "daysUntil": 1,
+      "impact": "low",
+      "priority": "high",
+      "affectedSectors": [
+        "SPY"
+      ],
+      "tradingImplications": {
+        "action": "Monitor consensus",
+        "strategies": [
+          "Wait for data",
+          "Prepare positions"
+        ],
+        "watchFor": "Consensus estimates and whisper numbers"
+      },
+      "source": "macro",
+      "category": "economic"
+    },
+    {
+      "type": "jobs_report",
+      "indicator": "NFP",
+      "name": "Non-Farm Payrolls",
+      "date": "2026-02-06",
+      "time": "08:30 ET",
+      "daysUntil": 1,
+      "impact": "high",
+      "priority": "critical",
+      "affectedSectors": [
+        "SPY",
+        "QQQ",
+        "XLY",
+        "XRT"
+      ],
+      "tradingImplications": {
+        "action": "Position for binary move",
+        "strategies": [
+          "SPY/QQQ straddles",
+          "Sector ETF plays",
+          "VIX calls"
+        ],
+        "watchFor": "NFP vs expectations - surprise = big move",
+        "expectedMove": "1-2% SPY"
+      },
+      "source": "macro",
+      "category": "economic"
+    }
+  ],
+  "topOpportunities": [
+    {
+      "type": "jobs_report",
+      "indicator": "INITIAL_CLAIMS",
+      "name": "Initial Jobless Claims",
+      "date": "2026-02-06",
+      "time": "08:30 ET",
+      "daysUntil": 1,
+      "impact": "low",
+      "priority": "high",
+      "affectedSectors": [
+        "SPY"
+      ],
+      "tradingImplications": {
+        "action": "Monitor consensus",
+        "strategies": [
+          "Wait for data",
+          "Prepare positions"
+        ],
+        "watchFor": "Consensus estimates and whisper numbers"
+      },
+      "source": "macro",
+      "category": "economic"
+    },
+    {
+      "type": "jobs_report",
+      "indicator": "NFP",
+      "name": "Non-Farm Payrolls",
+      "date": "2026-02-06",
+      "time": "08:30 ET",
+      "daysUntil": 1,
+      "impact": "high",
+      "priority": "critical",
+      "affectedSectors": [
+        "SPY",
+        "QQQ",
+        "XLY",
+        "XRT"
+      ],
+      "tradingImplications": {
+        "action": "Position for binary move",
+        "strategies": [
+          "SPY/QQQ straddles",
+          "Sector ETF plays",
+          "VIX calls"
+        ],
+        "watchFor": "NFP vs expectations - surprise = big move",
+        "expectedMove": "1-2% SPY"
+      },
+      "source": "macro",
+      "category": "economic"
+    },
+    {
+      "type": "cpi_release",
+      "indicator": "CPI",
+      "name": "Consumer Price Index",
+      "date": "2026-02-12",
+      "time": "08:30 ET",
+      "daysUntil": 7,
+      "impact": "high",
+      "priority": "medium",
+      "affectedSectors": [
+        "SPY",
+        "QQQ",
+        "TLT",
+        "XLF",
+        "XLU"
+      ],
+      "tradingImplications": {
+        "action": "Monitor consensus",
+        "strategies": [
+          "Wait for data",
+          "Prepare positions"
+        ],
+        "watchFor": "Consensus estimates and whisper numbers"
+      },
+      "source": "macro",
+      "category": "economic"
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "AMZN",
+      "mentions": 107,
+      "stocktwitsWatchlist": 684800,
+      "sources": [
+        "reddit",
+        "stocktwits"
+      ],
+      "rank": 18,
+      "price": 232.99,
+      "change": null,
+      "volume": 47918976,
+      "avgVolume": 47918976,
+      "volumeRatio": 1,
+      "socialScore": 7.918,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      },
+      "source": "social",
+      "category": "social"
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "SPY",
+      "mentions": 587,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 1,
+      "price": 686.19,
+      "change": null,
+      "volume": 97603141,
+      "avgVolume": 97603141,
+      "volumeRatio": 1,
+      "socialScore": 5.87,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      },
+      "source": "social",
+      "category": "social"
+    },
+    {
+      "type": "social_buzz",
+      "symbol": "AMD",
+      "mentions": 561,
+      "stocktwitsWatchlist": 0,
+      "sources": [
+        "reddit"
+      ],
+      "rank": 2,
+      "price": 200.19,
+      "change": null,
+      "volume": 106517605,
+      "avgVolume": 106517605,
+      "volumeRatio": 1,
+      "socialScore": 5.61,
+      "priority": "high",
+      "meta": {
+        "description": "High social media mentions/sentiment",
+        "typicalIVIncrease": 0.2,
+        "typicalMove": 0.1,
+        "timing": "early",
+        "strategies": [
+          "long_call",
+          "long_put",
+          "straddle"
+        ]
+      },
+      "source": "social",
+      "category": "social"
+    },
+    {
+      "type": "technical_oversold",
+      "symbol": "MSFT",
+      "rsi": 1.39,
+      "price": 0.32,
+      "priority": "medium",
+      "source": "technical",
+      "category": "technical"
+    },
+    {
+      "type": "technical_oversold",
+      "symbol": "UNH",
+      "rsi": 0.42,
+      "price": 1.5,
+      "priority": "medium",
+      "source": "technical",
+      "category": "technical"
+    },
+    {
+      "type": "technical_oversold",
+      "symbol": "MRK",
+      "rsi": 1.66,
+      "price": 1.54,
+      "priority": "medium",
+      "source": "technical",
+      "category": "technical"
+    }
+  ],
+  "timestamp": "2026-02-05T00:12:27.444Z"
+}

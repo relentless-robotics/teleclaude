@@ -1,0 +1,94 @@
+{
+  "dickCapital": [
+    {
+      "symbol": "ANF",
+      "entryTarget": 97,
+      "thesis": "Retail turnaround, 62% P/E discount to peers",
+      "ptLow": 123,
+      "ptHigh": 128,
+      "conviction": "HIGH",
+      "timeframe": "3-6 months"
+    },
+    {
+      "symbol": "FOA",
+      "entryTarget": 22,
+      "thesis": "Reverse mortgage leader, Blue Owl $2.5B partnership",
+      "ptLow": 42,
+      "ptHigh": 76,
+      "conviction": "MEDIUM",
+      "flags": ["insider_selling"],
+      "timeframe": "6-12 months"
+    }
+  ],
+  "independent": [
+    {
+      "symbol": "CRDO",
+      "entryTarget": 28,
+      "thesis": "AI networking, 272% revenue growth, down 54% from highs",
+      "ptLow": 50,
+      "ptHigh": 70,
+      "conviction": "HIGH",
+      "timeframe": "6-9 months"
+    },
+    {
+      "symbol": "MU",
+      "entryTarget": 85,
+      "thesis": "HBM memory leader, 12x forward P/E, capacity sold out",
+      "ptLow": 110,
+      "ptHigh": 130,
+      "conviction": "MEDIUM",
+      "timeframe": "3-6 months"
+    },
+    {
+      "symbol": "CCJ",
+      "entryTarget": 50,
+      "thesis": "Uranium leader, nuclear for AI data centers",
+      "ptLow": 65,
+      "ptHigh": 80,
+      "conviction": "MEDIUM",
+      "timeframe": "12-18 months"
+    },
+    {
+      "symbol": "BE",
+      "entryTarget": 25,
+      "thesis": "AI power bottleneck solver, fuel cell technology",
+      "ptLow": 40,
+      "ptHigh": 50,
+      "conviction": "MEDIUM",
+      "timeframe": "6-12 months"
+    }
+  ],
+  "positions": [
+    {
+      "symbol": "SMCI",
+      "entryPrice": 32.14,
+      "shares": 30,
+      "entryDate": "2026-02-04",
+      "thesis": "Post-earnings recovery, server demand, AI infrastructure",
+      "target": 35,
+      "stopLoss": 28,
+      "status": "ACTIVE"
+    },
+    {
+      "symbol": "RIVN",
+      "entryPrice": 14.47,
+      "shares": 30,
+      "entryDate": "2026-02-04",
+      "thesis": "EV momentum, earnings Feb 20",
+      "target": 18,
+      "stopLoss": 12.50,
+      "status": "ACTIVE"
+    },
+    {
+      "symbol": "AMD",
+      "entryPrice": 192,
+      "shares": 2,
+      "entryDate": "2026-02-05",
+      "thesis": "Oversold + social momentum + AI narrative",
+      "target": 212,
+      "stopLoss": 178,
+      "status": "PENDING"
+    }
+  ],
+  "lastUpdated": "2026-02-05"
+}

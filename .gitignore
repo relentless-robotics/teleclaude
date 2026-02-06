@@ -70,7 +70,37 @@ config/cyber_authorized_targets.json
 # Secrets folder (includes salt files, encrypted data)
 secrets/
 *.salt
-*.enc
+
+# Security module - sensitive files
+security/audit.log
+security/vault.enc
+security/*.enc
+security/*.key
+security/AUDIT_REPORT.md
+security/migrate_to_vault.js
+security/vault_backups/
+security/ip_protection.py
+
+# Credential-containing files
+tradier_credentials_final.json
+config/remote_servers.json
+pending_notifications.json
+
+# Audit/migration reports with credential references
+AUDIT_SUMMARY_QUICKSTART.txt
+CREDENTIAL_MIGRATION_REPORT.md
+EXPOSED_SECRETS_SUMMARY.csv
+SECURITY_AUDIT_2026_02_04.md
+
+# Runtime data
+task_checkpoints/
+task_logs/
+data/substack/
+
+# Vault master key file (NEVER commit)
+.vault_key
+vault_key.txt
+master_key.txt
 
 # Temp OAuth/auth scripts (one-off scripts with credentials)
 *_oauth*.js

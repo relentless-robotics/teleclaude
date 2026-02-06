@@ -1,0 +1,78 @@
+{
+  "dickCapital": [
+    {
+      "symbol": "ANF",
+      "entryTarget": 97,
+      "thesis": "Retail turnaround, 62% P/E discount",
+      "ptLow": 123,
+      "ptHigh": 128
+    },
+    {
+      "symbol": "FOA",
+      "entryTarget": 22,
+      "thesis": "Reverse mortgage leader, Blue Owl partnership",
+      "ptLow": 42,
+      "ptHigh": 76
+    },
+    {
+      "symbol": "ATXRF",
+      "entryTarget": 3,
+      "thesis": "Copper explorer, wait for pullback",
+      "ptLow": 4.5,
+      "ptHigh": 6
+    },
+    {
+      "symbol": "TORXF",
+      "entryTarget": 60,
+      "thesis": "Gold producer, Mexico king",
+      "ptLow": 80,
+      "ptHigh": 100
+    },
+    {
+      "symbol": "NBIS",
+      "entryTarget": 70,
+      "thesis": "AI infra, high risk",
+      "ptLow": 120,
+      "ptHigh": 150
+    }
+  ],
+  "independent": [
+    {
+      "symbol": "CRDO",
+      "entryTarget": 28,
+      "thesis": "AI networking, down 54% from highs",
+      "ptLow": 50,
+      "ptHigh": 70
+    },
+    {
+      "symbol": "TGB",
+      "entryTarget": 7,
+      "thesis": "Copper producer, 44% of NPV",
+      "ptLow": 12,
+      "ptHigh": 15
+    },
+    {
+      "symbol": "CCJ",
+      "entryTarget": 50,
+      "thesis": "Uranium leader, nuclear for AI",
+      "ptLow": 65,
+      "ptHigh": 80
+    },
+    {
+      "symbol": "MU",
+      "entryTarget": 85,
+      "thesis": "HBM leader, 12x fwd P/E",
+      "ptLow": 110,
+      "ptHigh": 130
+    },
+    {
+      "symbol": "BE",
+      "entryTarget": 25,
+      "thesis": "AI power bottleneck solver",
+      "ptLow": 40,
+      "ptHigh": 50
+    }
+  ],
+  "positions": [],
+  "alerts": []
+}
