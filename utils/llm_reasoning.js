@@ -2,17 +2,26 @@
  * LLM Reasoning Client
  *
  * Multi-provider LLM client for agent reasoning.
- * Supports: Groq (FREE), Anthropic (Haiku), OpenAI, Kimi
+ * Supports: Claude CLI (uses existing subscription), Groq (FREE), Anthropic API, OpenAI, Kimi
  *
- * Priority: Groq (free) → Anthropic Haiku (cheap) → OpenAI mini → Kimi
+ * Priority: Claude CLI Haiku (cheap, no extra key) → Groq (free) → Anthropic API → OpenAI → Kimi
  */
 
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
+const { exec } = require('child_process');
 
 // Provider configs
 const PROVIDERS = {
+  claude_cli: {
+    name: 'Claude CLI (Haiku)',
+    model: 'haiku',
+    costPer1kIn: 0.001,   // Haiku pricing via subscription
+    costPer1kOut: 0.005,
+    isClaude_cli: true,
+  },
   groq: {
     name: 'Groq',
     host: 'api.groq.com',
@@ -52,6 +61,61 @@ const PROVIDERS = {
   },
 };
 
+// Cache Claude CLI availability check
+let _claudeCliAvailable = null;
+
+/**
+ * Check if Claude CLI is installed and working
+ */
+function isClaudeCliAvailable() {
+  if (_claudeCliAvailable !== null) return _claudeCliAvailable;
+  try {
+    const { execSync } = require('child_process');
+    const result = execSync('claude --version', { encoding: 'utf-8', timeout: 5000, stdio: ['pipe', 'pipe', 'pipe'] });
+    _claudeCliAvailable = result.includes('.');
+    return _claudeCliAvailable;
+  } catch {
+    _claudeCliAvailable = false;
+    return false;
+  }
+}
+
+/**
+ * Call Claude CLI in print mode (runs from temp dir to avoid CLAUDE.md interference)
+ * @param {string} prompt - Combined system + user prompt
+ * @param {object} options - { model, timeout }
+ * @returns {Promise<string>} Response text
+ */
+function callClaudeCli(prompt, options = {}) {
+  const model = options.model || 'haiku';
+  const timeout = options.timeout || 90000;
+
+  return new Promise((resolve, reject) => {
+    // Write prompt to temp file to avoid shell argument limits
+    const tmpFile = path.join(os.tmpdir(), `llm_reason_${Date.now()}.txt`);
+    fs.writeFileSync(tmpFile, prompt);
+
+    // Run from temp dir so project CLAUDE.md doesn't override the prompt
+    const cmd = `powershell -Command "Get-Content '${tmpFile}' | claude -p --model ${model} --output-format text --tools '' --no-session-persistence"`;
+
+    exec(cmd, {
+      encoding: 'utf-8',
+      timeout,
+      maxBuffer: 2 * 1024 * 1024,
+      cwd: os.tmpdir(),
+    }, (err, stdout, stderr) => {
+      // Cleanup temp file
+      try { fs.unlinkSync(tmpFile); } catch (e) {}
+
+      if (err && !stdout) {
+        reject(new Error(`Claude CLI error: ${err.message}`));
+        return;
+      }
+      resolve((stdout || '').trim());
+    });
+  });
+}
+
 // Try to load keys from vault
 function loadKeyFromVault(secretName) {
   try {
@@ -70,6 +134,9 @@ function getApiKey(provider) {
   const config = PROVIDERS[provider];
   if (!config) return null;
 
+  // Claude CLI doesn't need an API key - it uses its own auth
+  if (config.isClaude_cli) return isClaudeCliAvailable() ? 'claude-cli' : null;
+
   // Check env first
   const envVal = process.env[config.envKey];
   if (envVal) return envVal;
@@ -85,7 +152,7 @@ function getApiKey(provider) {
  * Find first available provider
  */
 function findAvailableProvider() {
-  const priority = ['groq', 'anthropic', 'openai', 'kimi'];
+  const priority = ['claude_cli', 'groq', 'anthropic', 'openai', 'kimi'];
   for (const p of priority) {
     if (getApiKey(p)) return p;
   }
@@ -97,9 +164,31 @@ function findAvailableProvider() {
  */
 function callLLM(provider, messages, options = {}) {
   const config = PROVIDERS[provider];
-  const apiKey = getApiKey(provider);
 
-  if (!config || !apiKey) {
+  if (!config) {
+    return Promise.reject(new Error(`Provider ${provider} not available`));
+  }
+
+  // Claude CLI path - combine messages into a single prompt
+  if (config.isClaude_cli) {
+    const systemMsg = messages.find(m => m.role === 'system')?.content || '';
+    const userMsg = messages.find(m => m.role === 'user')?.content || '';
+    const combinedPrompt = `${systemMsg}\n\n${userMsg}`;
+
+    return callClaudeCli(combinedPrompt, {
+      model: options.model || config.model,
+      timeout: options.timeout || 90000,
+    }).then(content => ({
+      content,
+      provider: config.name,
+      model: options.model || config.model,
+      usage: null, // CLI doesn't report usage
+    }));
+  }
+
+  // API-based providers need an API key
+  const apiKey = getApiKey(provider);
+  if (!apiKey) {
     return Promise.reject(new Error(`Provider ${provider} not available`));
   }
 
@@ -193,7 +282,7 @@ RULES:
 - Close losers quickly, let winners run
 - No forced EOD flatten - YOU decide what to hold
 
-RESPOND IN JSON ONLY with this structure:
+RESPOND IN JSON ONLY (no markdown code blocks, no explanation outside JSON) with this structure:
 {
   "marketAssessment": "1-2 sentence market read",
   "decisions": [
@@ -227,7 +316,7 @@ If no good trades exist, return empty decisions array with explanation in market
 async function reasonAboutTrades(dataPackage, preferredProvider = null) {
   const provider = preferredProvider || findAvailableProvider();
   if (!provider) {
-    throw new Error('No LLM provider available. Set GROQ_API_KEY (free), ANTHROPIC_API_KEY, OPENAI_API_KEY, or KIMI_API_KEY');
+    throw new Error('No LLM provider available. Install Claude CLI, or set GROQ_API_KEY (free), ANTHROPIC_API_KEY, OPENAI_API_KEY, or KIMI_API_KEY');
   }
 
   const userMessage = `Here is all available market data. Analyze and decide what trades to make (if any).
@@ -283,7 +372,7 @@ ${JSON.stringify(dataPackage.dayWatchlist || [], null, 2)}
 PREVIOUS REASONING (what you decided last scan):
 ${JSON.stringify(dataPackage.previousReasoning || [], null, 2)}
 
-Analyze everything and respond with your trading decisions in JSON.`;
+Analyze everything and respond with your trading decisions in JSON only. No markdown.`;
 
   const messages = [
     { role: 'system', content: TRADING_SYSTEM_PROMPT },
@@ -293,7 +382,7 @@ Analyze everything and respond with your trading decisions in JSON.`;
   const result = await callLLM(provider, messages, {
     temperature: 0.3,
     maxTokens: 2048,
-    jsonMode: !PROVIDERS[provider]?.isAnthropic, // Anthropic doesn't support json_mode
+    jsonMode: !PROVIDERS[provider]?.isAnthropic && !PROVIDERS[provider]?.isClaude_cli,
   });
 
   // Parse JSON from response
@@ -363,9 +452,11 @@ function getProviderStatus() {
 
 module.exports = {
   callLLM,
+  callClaudeCli,
   reasonAboutTrades,
   analyzeSpecificData,
   getProviderStatus,
   findAvailableProvider,
+  isClaudeCliAvailable,
   PROVIDERS,
 };
