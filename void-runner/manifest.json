@@ -1,0 +1,17 @@
+{
+  "name": "Spicy Flappy Bird",
+  "short_name": "SpicyFlappy",
+  "description": "Addictive Flappy Bird clone with power-ups, skins, and multiplayer!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#87CEEB",
+  "theme_color": "#FF6B35",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%2387CEEB' width='512' height='512'/><circle fill='%23FFD700' cx='256' cy='256' r='100'/><circle fill='%23000' cx='280' cy='240' r='15'/><path fill='%23FF6B35' d='M356 256l30 -15 0 30z'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

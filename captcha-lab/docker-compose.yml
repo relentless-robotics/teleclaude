@@ -1,0 +1,89 @@
+version: '3.8'
+
+services:
+  # Main CAPTCHA Lab Server - generates test CAPTCHAs
+  captcha-lab:
+    build: .
+    container_name: captcha-lab
+    ports:
+      - "3000:3000"   # CAPTCHA lab server
+      - "3001:3001"   # Labeling UI
+      - "8080:8080"   # Nginx proxy
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+    volumes:
+      # Persist harvested CAPTCHAs and labels
+      - ./harvester/data:/app/harvester/data
+      # Persist test results and metrics
+      - ./test_results:/app/test_results
+      # Persist training data
+      - ./solver/training_data:/app/solver/training_data
+      # Mount source for live development
+      - ./server.js:/app/server.js:ro
+      - ./solver:/app/solver
+      - ./harvester:/app/harvester
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:3000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Test Runner - runs test suite and tracks metrics
+  test-runner:
+    build: .
+    container_name: captcha-test-runner
+    depends_on:
+      captcha-lab:
+        condition: service_healthy
+    environment:
+      - LAB_URL=http://captcha-lab:3000
+    volumes:
+      # Share data with main lab
+      - ./harvester/data:/app/harvester/data
+      - ./test_results:/app/test_results
+      - ./solver:/app/solver
+    command: >
+      sh -c "
+        echo '=== CAPTCHA Solver Test Suite ==='
+        echo 'Running tests against harvested samples...'
+        node test-and-iterate.js
+        echo ''
+        echo '=== Metrics History ==='
+        node metrics-tracker.js
+      "
+    profiles:
+      - test
+
+  # Harvester - collects CAPTCHAs from online sources
+  harvester:
+    build: .
+    container_name: captcha-harvester
+    depends_on:
+      captcha-lab:
+        condition: service_healthy
+    environment:
+      - LAB_URL=http://captcha-lab:3000
+    volumes:
+      - ./harvester/data:/app/harvester/data
+      - ./solver:/app/solver
+    command: >
+      sh -c "
+        echo '=== CAPTCHA Harvester ==='
+        node harvest-now.js
+      "
+    profiles:
+      - harvest
+
+  # Labeling UI - manual labeling of harvested CAPTCHAs
+  labeling-ui:
+    build: .
+    container_name: captcha-labeling
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./harvester/data:/app/harvester/data
+    command: node harvester/labeling-ui.js
+    profiles:
+      - label

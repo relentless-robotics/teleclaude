@@ -1,0 +1,111 @@
+# Teleclaude Docker Compose Configuration
+# Provides production, test, and upstream testing environments
+
+version: '3.8'
+
+services:
+  # Production-like environment
+  teleclaude-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: teleclaude-prod
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - TZ=America/New_York
+    volumes:
+      # Protected files - mount as read-only from host
+      - ./config.json:/app/config.json:ro
+      - ./.env:/app/.env:ro
+      - ./ACCOUNTS.md:/app/ACCOUNTS.md:ro
+      - ./API_KEYS.md:/app/API_KEYS.md:ro
+      - ./CLAUDE.md:/app/CLAUDE.md:ro
+      # Browser state - read-write for session persistence
+      - ./browser_state:/app/browser_state
+      # Output directories
+      - ./logs:/app/logs
+      - ./screenshots:/app/screenshots
+    networks:
+      - teleclaude-prod-net
+    # Uncomment to expose for debugging
+    # ports:
+    #   - "3000:3000"
+
+  # Test environment for experimental changes
+  teleclaude-test:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+    container_name: teleclaude-test
+    environment:
+      - NODE_ENV=development
+      - DEBUG=*
+      - TZ=America/New_York
+    volumes:
+      # Protected files - read-only
+      - ./config.json:/app/config.json:ro
+      - ./.env:/app/.env:ro
+      - ./ACCOUNTS.md:/app/ACCOUNTS.md:ro
+      - ./API_KEYS.md:/app/API_KEYS.md:ro
+      - ./CLAUDE.md:/app/CLAUDE.md:ro
+      # Mount source code for live editing (excludes node_modules)
+      - ./lib:/app/lib
+      - ./mcp:/app/mcp
+      - ./utils:/app/utils
+      - ./index.js:/app/index.js
+      - ./chat.js:/app/chat.js
+      - ./setup.js:/app/setup.js
+      # Separate browser state for testing
+      - ./test-data/browser_state:/app/browser_state
+      # Test output directories
+      - ./test-data/logs:/app/logs
+      - ./test-data/screenshots:/app/screenshots
+    networks:
+      - teleclaude-test-net
+    stdin_open: true
+    tty: true
+    # Keep container running for debugging
+    command: ["tail", "-f", "/dev/null"]
+
+  # Upstream testing environment (for testing updates before applying)
+  teleclaude-upstream:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+      args:
+        - UPSTREAM_REF=${UPSTREAM_REF:-main}
+    container_name: teleclaude-upstream
+    environment:
+      - NODE_ENV=development
+      - DEBUG=*
+      - TZ=America/New_York
+      - UPSTREAM_MODE=true
+    volumes:
+      # Protected files - read-only (use local config with upstream code)
+      - ./config.json:/app/config.json:ro
+      - ./.env:/app/.env:ro
+      - ./ACCOUNTS.md:/app/ACCOUNTS.md:ro
+      - ./API_KEYS.md:/app/API_KEYS.md:ro
+      - ./CLAUDE.md:/app/CLAUDE.md:ro
+      # Separate data directories for upstream testing
+      - ./upstream-test-data/browser_state:/app/browser_state
+      - ./upstream-test-data/logs:/app/logs
+      - ./upstream-test-data/screenshots:/app/screenshots
+    networks:
+      - teleclaude-upstream-net
+    stdin_open: true
+    tty: true
+    command: ["tail", "-f", "/dev/null"]
+
+# Isolated networks for each environment
+networks:
+  teleclaude-prod-net:
+    driver: bridge
+    name: teleclaude-prod-net
+  teleclaude-test-net:
+    driver: bridge
+    name: teleclaude-test-net
+  teleclaude-upstream-net:
+    driver: bridge
+    name: teleclaude-upstream-net

@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "updated": "2026-03-01",
+
+  "providerPriority": ["claude_cli", "groq", "anthropic", "openai", "kimi"],
+
+  "forceProvider": null,
+
+  "circuitBreaker": {
+    "enabled": true,
+    "failureThreshold": 3,
+    "recoveryTimeMs": 300000,
+    "halfOpenMaxAttempts": 1
+  },
+
+  "groq": {
+    "preferredModel": "llama-3.3-70b-versatile",
+    "fallbackModel": "llama-3.1-8b-instant",
+    "maxTokens": 8192,
+    "temperature": 0.3,
+    "rateLimitRPM": 30,
+    "rateLimitTPM": 14400,
+    "retryOnRateLimit": true,
+    "retryDelayMs": 2000
+  },
+
+  "anthropic": {
+    "preferredModel": "claude-haiku-4-5-20251001",
+    "maxTokens": 4096,
+    "temperature": 0.3
+  },
+
+  "claude_cli": {
+    "preferredModel": "sonnet",
+    "timeout": 90000
+  },
+
+  "healthCheck": {
+    "enabled": true,
+    "intervalMs": 600000,
+    "timeoutMs": 10000
+  }
+}

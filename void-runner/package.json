@@ -1,0 +1,24 @@
+{
+  "name": "void-runner",
+  "version": "2.0.0",
+  "description": "3D multiplayer endless runner mobile game",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "partykit dev",
+    "deploy:party": "partykit deploy"
+  },
+  "keywords": [
+    "game",
+    "3d",
+    "endless-runner",
+    "mobile",
+    "multiplayer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "partykit": "^0.0.115",
+    "partysocket": "^1.1.11"
+  }
+}
