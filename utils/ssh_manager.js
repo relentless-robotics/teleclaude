@@ -65,20 +65,41 @@ function getConnection(serverName) {
             connectionPool.delete(serverName);
         });
 
-        // Connection options
+        // Connection options — prefer tailscale_ip over host if available
         const connOptions = {
-            host: server.host,
+            host: server.tailscale_ip || server.host,
             port: server.port || 22,
             username: server.user,
             readyTimeout: 30000,
-            keepaliveInterval: 10000
+            keepaliveInterval: 10000,
+            // Explicit kex algorithms for compatibility (avoids TripleDES/legacy cipher issues)
+            algorithms: {
+                kex: [
+                    'ecdh-sha2-nistp256',
+                    'ecdh-sha2-nistp384',
+                    'ecdh-sha2-nistp521',
+                    'diffie-hellman-group-exchange-sha256',
+                    'diffie-hellman-group14-sha256',
+                    'diffie-hellman-group14-sha1',
+                ],
+            },
         };
 
         // Use key if available, otherwise password
         if (server.keyFile && fs.existsSync(server.keyFile)) {
             connOptions.privateKey = fs.readFileSync(server.keyFile);
+        } else if (server.key_file) {
+            // Support snake_case key_file from remote_servers.json
+            const keyPath = server.key_file.replace(/^~[/\\]?/, (process.env.USERPROFILE || process.env.HOME || '') + path.sep);
+            if (fs.existsSync(keyPath)) {
+                connOptions.privateKey = fs.readFileSync(keyPath);
+            } else if (server.password) {
+                connOptions.password = server.password;
+            }
         } else if (server.password) {
             connOptions.password = server.password;
+        } else if (server.password_env && process.env[server.password_env]) {
+            connOptions.password = process.env[server.password_env];
         }
 
         conn.connect(connOptions);
@@ -98,16 +119,24 @@ async function exec(serverName, command, options = {}) {
 
         return new Promise((resolve, reject) => {
             let fullCommand = command;
+            let needsSudoPassword = false;
 
-            // Handle sudo with password
+            // Handle sudo - use stdin pipe instead of embedding password in command
             if (sudo && server.password) {
-                fullCommand = `echo '${server.password}' | sudo -S bash -c '${command.replace(/'/g, "'\\''")}'`;
+                fullCommand = `sudo -S bash -c '${command.replace(/'/g, "'\\''")}'`;
+                needsSudoPassword = true;
             } else if (sudo) {
                 fullCommand = `sudo ${command}`;
             }
 
             conn.exec(fullCommand, { pty: sudo }, (err, channel) => {
                 if (err) return reject(err);
+
+                // Pipe password via stdin instead of embedding in command line
+                // This prevents the password from appearing in `ps aux` output
+                if (needsSudoPassword) {
+                    channel.stdin.write(server.password + '\n');
+                }
 
                 let stdout = '';
                 let stderr = '';

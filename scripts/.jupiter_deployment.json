@@ -1,0 +1,32 @@
+{
+  "deployed_at": "2026-03-27T14:05:11.547562",
+  "jupiter_host": "192.168.0.108",
+  "experiments": {
+    "c5_diagnosis": {
+      "pid": "1395515",
+      "log": "/home/jupiter/Lvl3Quant/logs/c5_diagnosis.log",
+      "script": "c5_diagnosis.py"
+    },
+    "multi_card_conviction": {
+      "pid": "1395532",
+      "log": "/home/jupiter/Lvl3Quant/logs/multi_card_conviction.log",
+      "script": "multi_card_conviction_sweep.py"
+    },
+    "hold_time_opt": {
+      "pid": "1395534",
+      "log": "/home/jupiter/Lvl3Quant/logs/hold_time_opt.log",
+      "script": "hold_time_optimization.py"
+    },
+    "time_of_day": {
+      "pid": "1395566",
+      "log": "/home/jupiter/Lvl3Quant/logs/time_of_day.log",
+      "script": "time_of_day_analysis.py"
+    },
+    "queue_position": {
+      "pid": "1395583",
+      "log": "/home/jupiter/Lvl3Quant/logs/queue_position.log",
+      "script": "queue_position_analysis.py"
+    }
+  },
+  "z20_files_synced": 58
+}

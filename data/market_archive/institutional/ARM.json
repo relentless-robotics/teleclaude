@@ -1,0 +1,100 @@
+{
+  "ticker": "ARM",
+  "downloaded": "2026-03-09T10:01:40.833480",
+  "cik": "0001973239",
+  "company_name": "ARM HOLDINGS PLC /UK",
+  "sic": "3674",
+  "sic_description": "Semiconductors & Related Devices",
+  "filings_13f": [],
+  "filings_form4": [],
+  "yf_institutional_holders": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Goldman Sachs Group Inc",
+      "pctHeld": 0.0037,
+      "Shares": 3873957,
+      "Value": 437137293,
+      "pctChange": 0.1362
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0036000002,
+      "Shares": 3783006,
+      "Value": 426874383,
+      "pctChange": 0.0121
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Sustainable Growth Advisors, LP",
+      "pctHeld": 0.0025,
+      "Shares": 2668130,
+      "Value": 301071779,
+      "pctChange": -0.074099995
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Invesco Ltd.",
+      "pctHeld": 0.0023,
+      "Shares": 2426850,
+      "Value": 273845745,
+      "pctChange": 0.3695
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Bank of America Corporation",
+      "pctHeld": 0.0022,
+      "Shares": 2345553,
+      "Value": 264672191,
+      "pctChange": 0.3009
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Coatue Management LLC",
+      "pctHeld": 0.0022,
+      "Shares": 2300000,
+      "Value": 259531991,
+      "pctChange": 0.0178
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Wellington Management Group, LLP",
+      "pctHeld": 0.002,
+      "Shares": 2149159,
+      "Value": 242511093,
+      "pctChange": 0.4175
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Dz Bank Ag Deutsche Zentral Genossenschafts Bank, Frankfurt Am Main",
+      "pctHeld": 0.002,
+      "Shares": 2131259,
+      "Value": 240491257,
+      "pctChange": -0.4957
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Alphabet Inc.",
+      "pctHeld": 0.0019,
+      "Shares": 1960784,
+      "Value": 221254859,
+      "pctChange": 0.0
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Schroder Investment Management Group",
+      "pctHeld": 0.0018000001,
+      "Shares": 1891310,
+      "Value": 213415413,
+      "pctChange": 0.1097
+    }
+  ],
+  "yf_major_holders": {
+    "Value": {
+      "insidersPercentHeld": 0.00048000002,
+      "institutionsPercentHeld": 0.95012003,
+      "institutionsFloatPercentHeld": 0.95058,
+      "institutionsCount": 931.0
+    }
+  }
+}

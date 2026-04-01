@@ -1,0 +1,250 @@
+{
+  "date": "2026-03-21",
+  "createdAt": "2026-03-22T00:00:08.453Z",
+  "lastUpdated": "2026-03-22T00:00:08.454Z",
+  "overnight": {
+    "futures": {
+      "S&P 500": {
+        "price": 6559,
+        "change": -0.7602980671029239,
+        "threshold": 0.5,
+        "significant": true
+      },
+      "NASDAQ": {
+        "price": 24101.5,
+        "change": -1.077409292398621,
+        "threshold": 0.7,
+        "significant": true
+      },
+      "Dow Jones": {
+        "price": 45893,
+        "change": -0.3214526183184553,
+        "threshold": 0.5,
+        "significant": false
+      },
+      "Russell 2000": {
+        "price": 2455,
+        "change": -1.6268632793716906,
+        "threshold": 0.7,
+        "significant": true
+      },
+      "Crude Oil": {
+        "price": 98.23,
+        "change": 2.1739130434782643,
+        "threshold": 2,
+        "significant": true
+      },
+      "Gold": {
+        "price": 4574.9,
+        "change": -0.5607842284869734,
+        "threshold": 1,
+        "significant": false
+      },
+      "30Y Bonds": {
+        "price": 112.406,
+        "change": -2.096452492313585,
+        "threshold": 0.5,
+        "significant": true
+      }
+    },
+    "globalMarkets": {
+      "Asia": [
+        {
+          "name": "Nikkei (Japan)",
+          "price": 53372.53,
+          "change": -3.3795986198257086
+        },
+        {
+          "name": "Hang Seng (HK)",
+          "price": 25277.32,
+          "change": -2.874497318391014
+        },
+        {
+          "name": "Shanghai (China)",
+          "price": 3957.053,
+          "change": -1.2354513307202866
+        }
+      ],
+      "Europe": [
+        {
+          "name": "FTSE 100 (UK)",
+          "price": 9918.33,
+          "change": -3.755058076911874
+        },
+        {
+          "name": "DAX (Germany)",
+          "price": 22380.19,
+          "change": -4.774266293652741
+        },
+        {
+          "name": "CAC 40 (France)",
+          "price": 7665.62,
+          "change": -1.8218797187965474
+        }
+      ]
+    },
+    "crypto": {
+      "Bitcoin": {
+        "price": 68875.7,
+        "change": -2.328382608488486
+      },
+      "Ethereum": {
+        "price": 2080.159,
+        "change": -3.0917878897287467
+      }
+    },
+    "significantMoves": [
+      {
+        "market": "S&P 500",
+        "change": -0.7602980671029239,
+        "type": "FUTURES",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "NASDAQ",
+        "change": -1.077409292398621,
+        "type": "FUTURES",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "Russell 2000",
+        "change": -1.6268632793716906,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Crude Oil",
+        "change": 2.1739130434782643,
+        "type": "FUTURES",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "30Y Bonds",
+        "change": -2.096452492313585,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Nikkei (Japan)",
+        "change": -3.3795986198257086,
+        "type": "ASIA",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Hang Seng (HK)",
+        "change": -2.874497318391014,
+        "type": "ASIA",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "FTSE 100 (UK)",
+        "change": -3.755058076911874,
+        "type": "EUROPE",
+        "severity": "HIGH"
+      },
+      {
+        "market": "DAX (Germany)",
+        "change": -4.774266293652741,
+        "type": "EUROPE",
+        "severity": "HIGH"
+      },
+      {
+        "market": "CAC 40 (France)",
+        "change": -1.8218797187965474,
+        "type": "EUROPE",
+        "severity": "MEDIUM"
+      }
+    ],
+    "riskSentiment": "RISK_OFF",
+    "updatedAt": "2026-03-22T00:00:08.453Z"
+  },
+  "preMarket": {
+    "futures": {},
+    "gappers": [],
+    "movers": [],
+    "watchlistAlerts": [],
+    "newsHighlights": [],
+    "updatedAt": null
+  },
+  "market": {
+    "indices": {},
+    "vix": null,
+    "regime": null,
+    "sectorLeaders": [],
+    "sectorLaggards": [],
+    "updatedAt": null
+  },
+  "sentiment": {
+    "overall": null,
+    "trending": [],
+    "socialMomentum": [],
+    "updatedAt": null
+  },
+  "catalysts": {
+    "earningsToday": [],
+    "earningsThisWeek": [],
+    "economicEvents": [],
+    "newsBreaking": [],
+    "updatedAt": null
+  },
+  "technicals": {
+    "oversold": [],
+    "overbought": [],
+    "breakouts": [],
+    "volumeSpikes": [],
+    "updatedAt": null
+  },
+  "optionsFlow": {
+    "unusualActivity": [],
+    "putCallRatio": null,
+    "ivRank": {},
+    "updatedAt": null
+  },
+  "dayWatchlist": [],
+  "swingTrader": {
+    "positions": [],
+    "pendingOrders": [],
+    "signals": [],
+    "account": null,
+    "updatedAt": null
+  },
+  "dayTrader": {
+    "positions": [],
+    "trades": [],
+    "pnlToday": 0,
+    "tradesCount": 0,
+    "account": null,
+    "reasoning": [],
+    "updatedAt": null
+  },
+  "macroAlpha": {
+    "version": null,
+    "predictionDate": null,
+    "generatedAt": null,
+    "freshness": null,
+    "topPicks": [],
+    "bottomPicks": [],
+    "metadata": null,
+    "modelInfo": null,
+    "scores": {},
+    "updatedAt": null
+  },
+  "iasmSignals": {
+    "timestamp": null,
+    "signals": [],
+    "model_metrics": {},
+    "market_context": {},
+    "freshness": null,
+    "updatedAt": null
+  },
+  "failedSetups": [],
+  "agentLog": [
+    {
+      "agent": "overnight",
+      "time": "20:00:08",
+      "timestamp": "2026-03-22T00:00:08.454Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    }
+  ]
+}

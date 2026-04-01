@@ -1,0 +1,167 @@
+{
+  "ticker": "SHOP",
+  "downloaded": "2026-03-09T10:00:15.756947",
+  "cik": "0001594805",
+  "company_name": "SHOPIFY INC.",
+  "sic": "7372",
+  "sic_description": "Services-Prepackaged Software",
+  "filings_13f": [],
+  "filings_form4": [
+    {
+      "form": "4",
+      "date": "2026-01-30",
+      "accession": "0001193125-26-031887",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-14",
+      "accession": "0001193125-25-283256",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-29",
+      "accession": "0000950170-25-099676",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-04-29",
+      "accession": "0000950170-25-060311",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-02-21",
+      "accession": "0000950170-25-024964",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-10-29",
+      "accession": "0000950170-24-118371",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-07-30",
+      "accession": "0000950170-24-087969",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-04-30",
+      "accession": "0000950172-24-000237",
+      "document": "xslF345X05/form4.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-01-30",
+      "accession": "0001209191-24-002414",
+      "document": "xslF345X05/doc4.xml"
+    },
+    {
+      "form": "4",
+      "date": "2023-11-02",
+      "accession": "0001209191-23-054165",
+      "document": "xslF345X05/doc4.xml"
+    },
+    {
+      "form": "4",
+      "date": "2023-10-02",
+      "accession": "0001209191-23-051089",
+      "document": "xslF345X05/doc4.xml"
+    }
+  ],
+  "yf_institutional_holders": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Vanguard Group Inc",
+      "pctHeld": 0.041300002,
+      "Shares": 50670627,
+      "Value": 6510669141,
+      "pctChange": 0.0149
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "FMR, LLC",
+      "pctHeld": 0.0392,
+      "Shares": 48003077,
+      "Value": 6167915627,
+      "pctChange": 0.033800002
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Capital World Investors",
+      "pctHeld": 0.039,
+      "Shares": 47822705,
+      "Value": 6144739628,
+      "pctChange": -0.108
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Capital International Investors",
+      "pctHeld": 0.0313,
+      "Shares": 38343155,
+      "Value": 4926712196,
+      "pctChange": -0.0069999998
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "JPMORGAN CHASE & CO",
+      "pctHeld": 0.0273,
+      "Shares": 33418297,
+      "Value": 4293917165,
+      "pctChange": -0.5078
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "BAILLIE GIFFORD & CO",
+      "pctHeld": 0.0255,
+      "Shares": 31206232,
+      "Value": 4009688921,
+      "pctChange": -0.1196
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0216,
+      "Shares": 26453143,
+      "Value": 3398964489,
+      "pctChange": -0.0967
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Price (T.Rowe) Associates Inc",
+      "pctHeld": 0.019199999,
+      "Shares": 23531422,
+      "Value": 3023552542,
+      "pctChange": -0.109799996
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Royal Bank of Canada",
+      "pctHeld": 0.0161,
+      "Shares": 19735551,
+      "Value": 2535821056,
+      "pctChange": -0.1196
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Jennison Associates LLC",
+      "pctHeld": 0.0155,
+      "Shares": 18966407,
+      "Value": 2436993739,
+      "pctChange": 0.0023
+    }
+  ],
+  "yf_major_holders": {
+    "Value": {
+      "insidersPercentHeld": 0.0019200001,
+      "institutionsPercentHeld": 0.7406,
+      "institutionsFloatPercentHeld": 0.74202,
+      "institutionsCount": 2514.0
+    }
+  }
+}

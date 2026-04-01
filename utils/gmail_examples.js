@@ -5,6 +5,7 @@
  */
 
 const { GmailAPI } = require('./gmail_api');
+const creds = require('./secure_creds');
 
 /**
  * Example 1: Search for verification emails
@@ -87,7 +88,7 @@ async function sendTestEmail() {
   await gmail.initialize();
 
   const result = await gmail.sendEmail(
-    'relentlessrobotics@gmail.com',
+    creds.google.email,
     'Test from TeleClaude Gmail API',
     'This is a test email sent via the Gmail API.\n\nIf you receive this, the API is working correctly!'
   );

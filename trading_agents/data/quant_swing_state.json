@@ -1,0 +1,434 @@
+{
+  "lastScan": "2026-03-13T19:16:20.538Z",
+  "lastSectorScan": null,
+  "scanHistory": [
+    {
+      "time": "2026-03-04T15:16:02.489Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 59
+    },
+    {
+      "time": "2026-03-04T16:16:03.569Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 59
+    },
+    {
+      "time": "2026-03-04T17:16:03.624Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-04T18:16:03.634Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-04T19:16:04.794Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-04T20:16:05.026Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-05T15:15:46.978Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 57
+    },
+    {
+      "time": "2026-03-05T16:15:47.326Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 57
+    },
+    {
+      "time": "2026-03-05T17:15:48.928Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 59
+    },
+    {
+      "time": "2026-03-05T18:15:49.101Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 59
+    },
+    {
+      "time": "2026-03-05T19:15:49.773Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 59
+    },
+    {
+      "time": "2026-03-05T20:15:50.114Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 59
+    },
+    {
+      "time": "2026-03-06T15:15:32.603Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 61
+    },
+    {
+      "time": "2026-03-06T16:15:32.774Z",
+      "buys": 1,
+      "sells": 0,
+      "universe": 61
+    },
+    {
+      "time": "2026-03-06T17:15:34.450Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 62
+    },
+    {
+      "time": "2026-03-06T18:15:34.398Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 62
+    },
+    {
+      "time": "2026-03-06T19:15:35.040Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 62
+    },
+    {
+      "time": "2026-03-06T20:15:35.118Z",
+      "buys": 1,
+      "sells": 0,
+      "universe": 62
+    },
+    {
+      "time": "2026-03-09T14:16:17.300Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 63
+    },
+    {
+      "time": "2026-03-09T15:16:17.769Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 63
+    },
+    {
+      "time": "2026-03-09T16:16:18.265Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 63
+    },
+    {
+      "time": "2026-03-09T17:16:19.852Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 63
+    },
+    {
+      "time": "2026-03-09T18:16:19.649Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 63
+    },
+    {
+      "time": "2026-03-09T19:16:20.056Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 63
+    },
+    {
+      "time": "2026-03-10T14:16:07.579Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 58
+    },
+    {
+      "time": "2026-03-10T15:16:26.048Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 58
+    },
+    {
+      "time": "2026-03-10T16:16:27.057Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-10T17:15:56.750Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-10T17:16:28.872Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-10T18:15:56.554Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-10T18:16:27.365Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-10T19:15:58.759Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-10T19:16:27.897Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-11T14:16:10.715Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 59
+    },
+    {
+      "time": "2026-03-11T15:16:11.343Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 59
+    },
+    {
+      "time": "2026-03-11T16:16:13.147Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 61
+    },
+    {
+      "time": "2026-03-11T17:16:12.428Z",
+      "buys": 1,
+      "sells": 0,
+      "universe": 61
+    },
+    {
+      "time": "2026-03-11T18:16:13.313Z",
+      "buys": 1,
+      "sells": 0,
+      "universe": 61
+    },
+    {
+      "time": "2026-03-11T19:16:14.550Z",
+      "buys": 2,
+      "sells": 0,
+      "universe": 61
+    },
+    {
+      "time": "2026-03-12T14:16:26.441Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 56
+    },
+    {
+      "time": "2026-03-12T15:16:27.343Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 56
+    },
+    {
+      "time": "2026-03-12T17:16:31.216Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 57
+    },
+    {
+      "time": "2026-03-12T18:16:28.657Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 57
+    },
+    {
+      "time": "2026-03-12T19:15:29.697Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 57
+    },
+    {
+      "time": "2026-03-13T14:16:17.694Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-13T15:16:18.086Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 60
+    },
+    {
+      "time": "2026-03-13T16:16:20.872Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 61
+    },
+    {
+      "time": "2026-03-13T17:16:19.983Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 61
+    },
+    {
+      "time": "2026-03-13T18:16:20.549Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 61
+    },
+    {
+      "time": "2026-03-13T19:16:20.538Z",
+      "buys": 0,
+      "sells": 0,
+      "universe": 61
+    }
+  ],
+  "sectorRotation": {
+    "leaders": [
+      {
+        "symbol": "XLE",
+        "ret5d": 2.4,
+        "ret20d": 0,
+        "rsi": 70,
+        "strength": 1.44
+      },
+      {
+        "symbol": "XLU",
+        "ret5d": 0.82,
+        "ret20d": 0,
+        "rsi": 55,
+        "strength": 0.49
+      },
+      {
+        "symbol": "XLK",
+        "ret5d": -0.21,
+        "ret20d": 0,
+        "rsi": 47,
+        "strength": -0.12
+      }
+    ],
+    "laggards": [
+      {
+        "symbol": "XLF",
+        "ret5d": -3.03,
+        "ret20d": 0,
+        "rsi": 36,
+        "strength": -1.82
+      },
+      {
+        "symbol": "XLY",
+        "ret5d": -2.91,
+        "ret20d": 0,
+        "rsi": 35,
+        "strength": -1.75
+      },
+      {
+        "symbol": "XLI",
+        "ret5d": -2.82,
+        "ret20d": 0,
+        "rsi": 30,
+        "strength": -1.69
+      }
+    ],
+    "all": [
+      {
+        "symbol": "XLE",
+        "ret5d": 2.4,
+        "ret20d": 0,
+        "rsi": 70,
+        "strength": 1.44
+      },
+      {
+        "symbol": "XLU",
+        "ret5d": 0.82,
+        "ret20d": 0,
+        "rsi": 55,
+        "strength": 0.49
+      },
+      {
+        "symbol": "XLK",
+        "ret5d": -0.21,
+        "ret20d": 0,
+        "rsi": 47,
+        "strength": -0.12
+      },
+      {
+        "symbol": "XLP",
+        "ret5d": -1.13,
+        "ret20d": 0,
+        "rsi": 30,
+        "strength": -0.68
+      },
+      {
+        "symbol": "XLB",
+        "ret5d": -1.14,
+        "ret20d": 0,
+        "rsi": 17,
+        "strength": -0.69
+      },
+      {
+        "symbol": "XLRE",
+        "ret5d": -1.18,
+        "ret20d": 0,
+        "rsi": 31,
+        "strength": -0.71
+      },
+      {
+        "symbol": "XLV",
+        "ret5d": -1.41,
+        "ret20d": 0,
+        "rsi": 28,
+        "strength": -0.84
+      },
+      {
+        "symbol": "XLC",
+        "ret5d": -2.49,
+        "ret20d": 0,
+        "rsi": 45,
+        "strength": -1.49
+      },
+      {
+        "symbol": "XLI",
+        "ret5d": -2.82,
+        "ret20d": 0,
+        "rsi": 30,
+        "strength": -1.69
+      },
+      {
+        "symbol": "XLY",
+        "ret5d": -2.91,
+        "ret20d": 0,
+        "rsi": 35,
+        "strength": -1.75
+      },
+      {
+        "symbol": "XLF",
+        "ret5d": -3.03,
+        "ret20d": 0,
+        "rsi": 36,
+        "strength": -1.82
+      }
+    ]
+  },
+  "lastUpdated": "2026-03-13T19:16:20.538Z"
+}

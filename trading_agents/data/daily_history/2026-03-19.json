@@ -1,0 +1,525 @@
+{
+  "date": "2026-03-19",
+  "createdAt": "2026-03-19T04:03:39.659Z",
+  "lastUpdated": "2026-03-20T03:00:42.696Z",
+  "overnight": {
+    "futures": {
+      "S&P 500": {
+        "price": 6677.5,
+        "change": 0.7772411711439783,
+        "threshold": 0.5,
+        "significant": true
+      },
+      "NASDAQ": {
+        "price": 24633,
+        "change": 0.8123759438498844,
+        "threshold": 0.7,
+        "significant": true
+      },
+      "Dow Jones": {
+        "price": 46484,
+        "change": 0.5407276030626812,
+        "threshold": 0.5,
+        "significant": true
+      },
+      "Russell 2000": {
+        "price": 2527.1,
+        "change": 1.9238525449705501,
+        "threshold": 0.7,
+        "significant": true
+      },
+      "Crude Oil": {
+        "price": 93.55,
+        "change": -2.875830564784049,
+        "threshold": 2,
+        "significant": true
+      },
+      "Gold": {
+        "price": 4702.7,
+        "change": -3.8282991472218213,
+        "threshold": 1,
+        "significant": true
+      },
+      "30Y Bonds": {
+        "price": 114.469,
+        "change": -0.21792379640687248,
+        "threshold": 0.5,
+        "significant": false
+      }
+    },
+    "globalMarkets": {
+      "Asia": [
+        {
+          "name": "Nikkei (Japan)",
+          "price": 53372.53,
+          "change": -3.3795986198257086
+        },
+        {
+          "name": "Hang Seng (HK)",
+          "price": 25392.86,
+          "change": -2.430546750062046
+        },
+        {
+          "name": "Shanghai (China)",
+          "price": 3988.813,
+          "change": -0.4427547455889875
+        }
+      ],
+      "Europe": [
+        {
+          "name": "FTSE 100 (UK)",
+          "price": 10063.5,
+          "change": -3.2690607097543194
+        },
+        {
+          "name": "DAX (Germany)",
+          "price": 22839.56,
+          "change": -3.756112278832835
+        },
+        {
+          "name": "CAC 40 (France)",
+          "price": 7807.87,
+          "change": -2.03277841071635
+        }
+      ]
+    },
+    "crypto": {
+      "Bitcoin": {
+        "price": 70466.92,
+        "change": 0.7794840785911233
+      },
+      "Ethereum": {
+        "price": 2147.1704,
+        "change": 0.4445922691869924
+      }
+    },
+    "significantMoves": [
+      {
+        "market": "S&P 500",
+        "change": 0.7772411711439783,
+        "type": "FUTURES",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "NASDAQ",
+        "change": 0.8123759438498844,
+        "type": "FUTURES",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "Dow Jones",
+        "change": 0.5407276030626812,
+        "type": "FUTURES",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "Russell 2000",
+        "change": 1.9238525449705501,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Crude Oil",
+        "change": -2.875830564784049,
+        "type": "FUTURES",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "Gold",
+        "change": -3.8282991472218213,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Nikkei (Japan)",
+        "change": -3.3795986198257086,
+        "type": "ASIA",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Hang Seng (HK)",
+        "change": -2.430546750062046,
+        "type": "ASIA",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "FTSE 100 (UK)",
+        "change": -3.2690607097543194,
+        "type": "EUROPE",
+        "severity": "HIGH"
+      },
+      {
+        "market": "DAX (Germany)",
+        "change": -3.756112278832835,
+        "type": "EUROPE",
+        "severity": "HIGH"
+      },
+      {
+        "market": "CAC 40 (France)",
+        "change": -2.03277841071635,
+        "type": "EUROPE",
+        "severity": "MEDIUM"
+      }
+    ],
+    "riskSentiment": "RISK_OFF",
+    "updatedAt": "2026-03-20T03:00:42.696Z"
+  },
+  "preMarket": {
+    "futures": {},
+    "gappers": [],
+    "movers": [],
+    "watchlistAlerts": [],
+    "newsHighlights": [],
+    "updatedAt": null
+  },
+  "market": {
+    "indices": {},
+    "vix": null,
+    "regime": null,
+    "sectorLeaders": [],
+    "sectorLaggards": [],
+    "updatedAt": null
+  },
+  "sentiment": {
+    "overall": null,
+    "trending": [],
+    "socialMomentum": [],
+    "updatedAt": null
+  },
+  "catalysts": {
+    "earningsToday": [],
+    "earningsThisWeek": [],
+    "economicEvents": [],
+    "newsBreaking": [],
+    "updatedAt": null
+  },
+  "technicals": {
+    "oversold": [],
+    "overbought": [],
+    "breakouts": [],
+    "volumeSpikes": [],
+    "updatedAt": null
+  },
+  "optionsFlow": {
+    "unusualActivity": [],
+    "putCallRatio": null,
+    "ivRank": {},
+    "updatedAt": null
+  },
+  "dayWatchlist": [],
+  "swingTrader": {
+    "positions": [],
+    "pendingOrders": [],
+    "signals": [],
+    "account": null,
+    "updatedAt": null
+  },
+  "dayTrader": {
+    "positions": [],
+    "trades": [],
+    "pnlToday": 0,
+    "tradesCount": 0,
+    "account": null,
+    "reasoning": [],
+    "updatedAt": null
+  },
+  "macroAlpha": {
+    "version": null,
+    "predictionDate": null,
+    "generatedAt": null,
+    "freshness": null,
+    "topPicks": [],
+    "bottomPicks": [],
+    "metadata": null,
+    "modelInfo": null,
+    "scores": {},
+    "updatedAt": null
+  },
+  "iasmSignals": {
+    "timestamp": null,
+    "signals": [],
+    "model_metrics": {},
+    "market_context": {},
+    "freshness": null,
+    "updatedAt": null
+  },
+  "failedSetups": [],
+  "agentLog": [
+    {
+      "agent": "pred-markets-scanner",
+      "time": "00:03:39",
+      "timestamp": "2026-03-19T04:03:39.659Z",
+      "action": "Scan #134: 3 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "00:03:40",
+      "timestamp": "2026-03-19T04:03:40.853Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "01:00:30",
+      "timestamp": "2026-03-19T05:00:30.501Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "02:08:44",
+      "timestamp": "2026-03-19T06:08:44.193Z",
+      "action": "Scan #135: 5 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "02:08:45",
+      "timestamp": "2026-03-19T06:08:45.572Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "03:00:31",
+      "timestamp": "2026-03-19T07:00:31.019Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "04:03:42",
+      "timestamp": "2026-03-19T08:03:42.715Z",
+      "action": "Scan #136: 9 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "04:03:44",
+      "timestamp": "2026-03-19T08:03:44.088Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "05:00:31",
+      "timestamp": "2026-03-19T09:00:31.924Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "06:03:43",
+      "timestamp": "2026-03-19T10:03:43.385Z",
+      "action": "Scan #137: 6 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "06:03:44",
+      "timestamp": "2026-03-19T10:03:44.722Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets",
+      "time": "08:01:33",
+      "timestamp": "2026-03-19T12:01:33.498Z",
+      "action": "Scan: 15 opportunities",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "08:09:38",
+      "timestamp": "2026-03-19T12:09:38.692Z",
+      "action": "Scan #138: 13 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "09:34:15",
+      "timestamp": "2026-03-19T13:34:15.319Z",
+      "action": "Scan #139: 5 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "10:03:48",
+      "timestamp": "2026-03-19T14:03:48.682Z",
+      "action": "Scan #140: 4 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "10:38:48",
+      "timestamp": "2026-03-19T14:38:48.013Z",
+      "action": "Scan #141: 1 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "11:03:50",
+      "timestamp": "2026-03-19T15:03:50.330Z",
+      "action": "Scan #142: 1 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "11:34:01",
+      "timestamp": "2026-03-19T15:34:01.234Z",
+      "action": "Scan #143: 2 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets",
+      "time": "12:04:11",
+      "timestamp": "2026-03-19T16:04:11.490Z",
+      "action": "Scan: 15 opportunities",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "12:12:28",
+      "timestamp": "2026-03-19T16:12:28.263Z",
+      "action": "Scan #144: 5 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "12:33:50",
+      "timestamp": "2026-03-19T16:33:50.945Z",
+      "action": "Scan #145: 1 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "13:03:52",
+      "timestamp": "2026-03-19T17:03:52.066Z",
+      "action": "Scan #146: 3 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "13:38:50",
+      "timestamp": "2026-03-19T17:38:50.806Z",
+      "action": "Scan #147: 0 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "14:03:49",
+      "timestamp": "2026-03-19T18:03:49.865Z",
+      "action": "Scan #148: 0 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "14:33:53",
+      "timestamp": "2026-03-19T18:33:53.035Z",
+      "action": "Scan #149: 3 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "15:08:52",
+      "timestamp": "2026-03-19T19:08:52.251Z",
+      "action": "Scan #150: 0 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "15:33:53",
+      "timestamp": "2026-03-19T19:33:53.698Z",
+      "action": "Scan #151: 1 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "16:03:51",
+      "timestamp": "2026-03-19T20:03:51.723Z",
+      "action": "Scan #152: 1 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "18:08:50",
+      "timestamp": "2026-03-19T22:08:50.516Z",
+      "action": "Scan #153: 1 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "20:03:52",
+      "timestamp": "2026-03-20T00:03:52.408Z",
+      "action": "Scan #154: 6 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "20:03:53",
+      "timestamp": "2026-03-20T00:03:53.620Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "21:00:41",
+      "timestamp": "2026-03-20T01:00:41.588Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "pred-markets-scanner",
+      "time": "22:04:07",
+      "timestamp": "2026-03-20T02:04:07.135Z",
+      "action": "Scan #155: 3 signals, 0 edges, 0 paper trades",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "22:04:08",
+      "timestamp": "2026-03-20T02:04:08.320Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "23:00:42",
+      "timestamp": "2026-03-20T03:00:42.696Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    }
+  ],
+  "predictionMarketsScanner": {
+    "lastScan": "2026-03-20T02:04:07.134Z",
+    "scanCount": 155,
+    "todaySignals": 595,
+    "todayEdges": 0,
+    "lastNewSignals": 3,
+    "lastNewEdges": 0,
+    "lastPaperTrades": 0,
+    "activeAlerts": 50,
+    "hasErrors": false,
+    "paperTrading": {
+      "openPositions": 40,
+      "totalPnl": -7.473599999999999
+    },
+    "updatedAt": "2026-03-20T02:04:07.135Z"
+  },
+  "predictionMarkets": {
+    "lastScan": "2026-03-19T16:00:36.250Z",
+    "opportunities": 15,
+    "topOpportunity": {
+      "type": "spx_bracket",
+      "description": "INXD-SIM-B5825-5850",
+      "edge": 0.1221,
+      "strategy": "spx_vol_brackets",
+      "action": "SELL_YES"
+    },
+    "fomcSignal": "active",
+    "volSignalAge": null,
+    "volSignalStale": false,
+    "updatedAt": "2026-03-19T16:04:11.490Z"
+  }
+}

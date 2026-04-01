@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-03-04T21:30:34.926Z",
+  "date": "2026-03-04",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90401.14,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "cash": 90401.14,
+    "buyingPower": 361604.56,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Feb 10-13: 5 consecutive losing trades including a -$4,757 day (3 losses, 0 wins) — this looks like revenge trading or fighting a trend. No day should have 3 losses and 0 wins without a hard stop.",
+      "AVOID: Win rate of 37.9% is below 40% — if this persists without exceptional R:R ratios, the system is unprofitable long-term.",
+      "AVOID: Losses are concentrated and large (-$2,870, -$4,757, -$2,157) while most wins are smaller — this is inverted R:R and is the core problem in the data."
+    ],
+    "tomorrowRules": [
+      "Only trade if market regime is RISK_ON or a clear directional setup exists. NEUTRAL = wait for confirmation before entering.",
+      "Max 2 losses per day. If you hit 2 losses, close the platform. No exceptions.",
+      "Before each trade, define your R:R target. Only take trades where potential reward is at least 2x your defined stop loss.",
+      "With VIX above 20, reduce position size by at least 25% from your standard size until VIX drops below 18.",
+      "Do not average into losing positions. The Feb 11 data (-$4,757, 3 trades, 0 wins) strongly suggests adding to losers — stop immediately if this is the case."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades taken today in a NEUTRAL market regime with VIX elevated context from recent days. Sitting out is a valid and disciplined choice. Grade is not an A because there is no active evidence of skill application, but avoiding bad trades in uncertain conditions is itself a positive behavior.",
+    "keyLessons": [
+      "Sitting out on a NEUTRAL market day is a legitimate strategy — not every day requires a trade. Preserving capital is an active decision, not a passive one.",
+      "Your cumulative win rate is 37.9% across 29 trades. This means your edge must come from trade sizing and R:R, not win rate alone. Review whether your winners are large enough to offset your losers — the data shows a $20k day (2026-02-06) largely driving your $11.9k cumulative P&L.",
+      "The week of Feb 10-13 was a disaster: -$9,882 across 3 days with 0 wins in 3 trades on Feb 11, and a -$2,869 single loss on Feb 10. That pattern of consecutive large losers needs a hard circuit breaker rule.",
+      "VIX has been elevated (20-26 range recently). High VIX environments require reduced position sizing or higher selectivity — not more trades to recover losses."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Correctly identified no edge today and took zero trades — capital preserved.",
+        "Recent days show a green streak starting, suggesting improved discipline after the Feb 10-13 drawdown.",
+        "Feb 6 and Feb 9 show you can execute well when conditions align — 8 trades each with positive P&L on both days."
+      ],
+      "badPatterns": [
+        "Feb 10-13: 5 consecutive losing trades including a -$4,757 day (3 losses, 0 wins) — this looks like revenge trading or fighting a trend. No day should have 3 losses and 0 wins without a hard stop.",
+        "Win rate of 37.9% is below 40% — if this persists without exceptional R:R ratios, the system is unprofitable long-term.",
+        "Losses are concentrated and large (-$2,870, -$4,757, -$2,157) while most wins are smaller — this is inverted R:R and is the core problem in the data."
+      ]
+    },
+    "tomorrowRules": [
+      "Only trade if market regime is RISK_ON or a clear directional setup exists. NEUTRAL = wait for confirmation before entering.",
+      "Max 2 losses per day. If you hit 2 losses, close the platform. No exceptions.",
+      "Before each trade, define your R:R target. Only take trades where potential reward is at least 2x your defined stop loss.",
+      "With VIX above 20, reduce position size by at least 25% from your standard size until VIX drops below 18.",
+      "Do not average into losing positions. The Feb 11 data (-$4,757, 3 trades, 0 wins) strongly suggests adding to losers — stop immediately if this is the case."
+    ],
+    "riskAssessment": "Today: risk was managed perfectly — no trades, no exposure, no loss. Historically: risk management has been poor. Three days in Feb (10, 11, 13) produced -$9,882 combined. With a $90k account, that is nearly 11% drawdown in 3 days. Maximum daily loss rules are either absent or not being followed. This is the single biggest risk to the account.",
+    "emotionalCheck": "Today shows no emotional trading. However, the Feb 10-13 sequence is a textbook revenge trading pattern: one large loss on Feb 10 (-$2,870), followed by the worst day of the record on Feb 11 (3 losses, -$4,757), then another losing day Feb 13 (-$2,157). That 3-day sequence almost certainly involved emotional decision-making — increasing size, ignoring stops, or overtrading to recover. The fact that you are now sitting out more frequently suggests improved awareness, but the underlying triggers need to be identified and rules must be in place before the next drawdown cycle begins."
+  },
+  "errors": []
+}

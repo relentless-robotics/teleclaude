@@ -1,0 +1,54 @@
+{
+  "started_at": "2026-03-27T18:08:50.688Z",
+  "total_dispatches": 28,
+  "total_completions": 0,
+  "total_failures": 109,
+  "last_low_alert": {
+    "neptune": "2026-03-29T18:10:30.722Z",
+    "saturn": "2026-03-29T20:56:31.947Z",
+    "jupiter": "2026-03-29T21:11:31.975Z",
+    "razer": "2026-03-29T21:23:32.080Z",
+    "uranus": "2026-03-29T21:31:32.156Z"
+  },
+  "running": {
+    "neptune": {
+      "jobId": "neptune_q2_001",
+      "startedAt": "2026-03-29T21:09:41.000Z",
+      "via": "local_exec",
+      "pid": 2084,
+      "note": "Restarted fold76 from fold_75 checkpoint. Ghost PID 8252 killed. enriched_features_diagnostic (PID 30548) killed to free RAM. BELOW_NORMAL priority, CREATE_NO_WINDOW."
+    },
+    "uranus": {
+      "jobId": "job_mn97ohr8_w6nj3",
+      "startedAt": "2026-03-27T21:25:07.590Z",
+      "via": "ssh_fallback",
+      "pid": null
+    },
+    "razer": {
+      "jobId": "job_mn9fqzp1_hsmi0",
+      "startedAt": "2026-03-27T22:01:26.836Z",
+      "via": "ssh_fallback",
+      "pid": null
+    },
+    "jupiter": {
+      "jobId": "job_mn9frluo_6lk11",
+      "startedAt": "2026-03-27T21:51:45.589Z",
+      "via": "ssh_fallback",
+      "pid": null
+    },
+    "saturn": {
+      "jobId": "job_mn9frluu_ce1yy",
+      "startedAt": "2026-03-29T14:04:37.483Z",
+      "via": "ssh_fallback",
+      "pid": null
+    }
+  },
+  "poll_count": 3100,
+  "node_api_fails": {
+    "jupiter": 16,
+    "razer": 42,
+    "saturn": 25,
+    "uranus": 20,
+    "neptune": 5
+  }
+}

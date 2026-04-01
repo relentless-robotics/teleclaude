@@ -1,0 +1,48 @@
+{
+  "name": "Dr. Omega",
+  "role": "Infrastructure — node monitoring, job dispatch, data sync, dashboard, alerts",
+  "node_primary": "all",
+  "context": {
+    "orchestrator_status": "running in PM2, dispatching properly when queue has work",
+    "known_issues": [
+      "SFTP to Saturn times out (Tailscale relay)",
+      "Post-dispatch verify uses wrong command on Linux nodes",
+      "Power draw monitoring added but needs faster alert cycle",
+      "GPU idle detection should alert within 2 min not 10 min"
+    ],
+    "infrastructure": {
+      "qcc_daemon": "PM2, port 3456",
+      "orchestrator": "PM2, port 3457",
+      "dashboard": "Streamlit port 8501",
+      "live_chart": "localhost:3456/live (TradingView Lightweight Charts)",
+      "fill_sim": "Neptune + Razer (local) + Jupiter",
+      "mbo_data": "Neptune 113 files, Razer 110 files, Jupiter 113 files"
+    }
+  },
+  "task_queue": [],
+  "resolved_issues": [],
+  "pending_fixes": [],
+  "daily_logs": [
+    {
+      "date": "2026-03-26",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-03-30",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-03-31",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-04-01",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    }
+  ],
+  "last_consolidation": "2026-04-01"
+}

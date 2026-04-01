@@ -1,0 +1,1647 @@
+{
+  "book_conv2.5_vol70_noTP": {
+    "strategy": "conv2.5_vol70 (no TP/SL, baseline)",
+    "name": "book_conv2.5_vol70_noTP",
+    "files_loaded": 54,
+    "date_range": "2025-12-01 to 2026-02-17",
+    "overview": {
+      "total_trades": 16,
+      "total_pnl_dollars": 177.0,
+      "total_pnl_ticks": 14.16,
+      "win_rate_pct": 56.2,
+      "profit_factor": 1.02,
+      "avg_pnl_per_trade_dollars": 11.06,
+      "avg_pnl_per_trade_ticks": 0.89,
+      "trades_per_day": 0.3,
+      "avg_hold_time_minutes": 59.7,
+      "median_hold_time_minutes": 60.0,
+      "max_consecutive_losses": 3,
+      "max_consecutive_wins": 4,
+      "max_drawdown_dollars": 2302.75
+    },
+    "direction": {
+      "long_trades": 12,
+      "short_trades": 4,
+      "long_short_ratio": 3.0,
+      "long_win_rate": 58.3,
+      "short_win_rate": 50.0,
+      "long_total_pnl": 201.5,
+      "short_total_pnl": -24.5,
+      "long_avg_pnl": 16.79,
+      "short_avg_pnl": -6.12
+    },
+    "win_loss": {
+      "avg_win_dollars": 843.53,
+      "avg_loss_dollars": -1059.25,
+      "avg_win_ticks": 67.48,
+      "avg_loss_ticks": -84.74,
+      "largest_win_dollars": 2147.0,
+      "largest_loss_dollars": -3065.5,
+      "win_loss_ratio": 0.8
+    },
+    "daily": {
+      "total_trading_days": 54,
+      "winning_days": 6,
+      "losing_days": 5,
+      "flat_days": 43,
+      "zero_trade_days": 43,
+      "pct_winning_days": 11.1,
+      "best_day": {
+        "date": "2025-12-10",
+        "pnl": 2437.75,
+        "trades": 2
+      },
+      "worst_day": {
+        "date": "2025-12-12",
+        "pnl": -1796.5,
+        "trades": 3
+      },
+      "avg_pnl_per_day": 3.28,
+      "avg_fill_rate": 4.7
+    },
+    "monthly_breakdown": {
+      "2025-12": {
+        "pnl_dollars": 177.0,
+        "trades": 16,
+        "win_rate": 56.2,
+        "trading_days": 21,
+        "avg_pnl_per_day": 8.43
+      },
+      "2026-01": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "trading_days": 21,
+        "avg_pnl_per_day": 0.0
+      },
+      "2026-02": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "trading_days": 12,
+        "avg_pnl_per_day": 0.0
+      }
+    },
+    "weekly_breakdown": {
+      "2025-W48": {
+        "pnl_dollars": 722.5,
+        "trades": 5,
+        "win_rate": 60.0,
+        "days": 5
+      },
+      "2025-W49": {
+        "pnl_dollars": -236.75,
+        "trades": 6,
+        "win_rate": 66.7,
+        "days": 5
+      },
+      "2025-W50": {
+        "pnl_dollars": -308.75,
+        "trades": 5,
+        "win_rate": 40.0,
+        "days": 5
+      },
+      "2025-W51": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 4
+      },
+      "2025-W52": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 2
+      },
+      "2026-W00": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 1
+      },
+      "2026-W01": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W02": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W03": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W04": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W05": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W06": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W07": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 2
+      }
+    },
+    "day_of_week": {
+      "Monday": {
+        "pnl_dollars": 356.5,
+        "trades": 2,
+        "win_rate": 50.0,
+        "days": 11,
+        "avg_pnl_per_day": 32.41
+      },
+      "Tuesday": {
+        "pnl_dollars": 916.0,
+        "trades": 3,
+        "win_rate": 66.7,
+        "days": 12,
+        "avg_pnl_per_day": 76.33
+      },
+      "Wednesday": {
+        "pnl_dollars": 1606.75,
+        "trades": 4,
+        "win_rate": 75.0,
+        "days": 11,
+        "avg_pnl_per_day": 146.07
+      },
+      "Thursday": {
+        "pnl_dollars": -440.25,
+        "trades": 3,
+        "win_rate": 33.3,
+        "days": 9,
+        "avg_pnl_per_day": -48.92
+      },
+      "Friday": {
+        "pnl_dollars": -2262.0,
+        "trades": 4,
+        "win_rate": 50.0,
+        "days": 11,
+        "avg_pnl_per_day": -205.64
+      }
+    },
+    "hourly_breakdown": {
+      "10:00 ET": {
+        "trades": 6,
+        "pnl_dollars": -3830.5,
+        "win_rate": 33.3,
+        "avg_pnl": -638.42
+      },
+      "11:00 ET": {
+        "trades": 2,
+        "pnl_dollars": 1144.0,
+        "win_rate": 100.0,
+        "avg_pnl": 572.0
+      },
+      "12:00 ET": {
+        "trades": 1,
+        "pnl_dollars": -1065.5,
+        "win_rate": 0.0,
+        "avg_pnl": -1065.5
+      },
+      "13:00 ET": {
+        "trades": 3,
+        "pnl_dollars": 866.0,
+        "win_rate": 66.7,
+        "avg_pnl": 288.67
+      },
+      "14:00 ET": {
+        "trades": 2,
+        "pnl_dollars": 3006.5,
+        "win_rate": 100.0,
+        "avg_pnl": 1503.25
+      },
+      "15:00 ET": {
+        "trades": 2,
+        "pnl_dollars": 56.5,
+        "win_rate": 50.0,
+        "avg_pnl": 28.25
+      }
+    },
+    "session": {
+      "morning_pre12ET": {
+        "label": "Morning (pre-12 ET)",
+        "trades": 8,
+        "total_pnl": -2686.5,
+        "avg_pnl": -335.81,
+        "win_rate": 50.0,
+        "profit_factor": 0.49,
+        "avg_win": 637.62,
+        "avg_loss": -1309.25
+      },
+      "afternoon_post12ET": {
+        "label": "Afternoon (post-12 ET)",
+        "trades": 8,
+        "total_pnl": 2863.5,
+        "avg_pnl": 357.94,
+        "win_rate": 62.5,
+        "profit_factor": 2.31,
+        "avg_win": 1008.25,
+        "avg_loss": -725.92
+      }
+    },
+    "vol_regime": {
+      "low_vol": {
+        "label": "Low Vol (bottom tercile by signals)",
+        "days": 18,
+        "total_pnl": 0.0,
+        "avg_pnl_per_day": 0.0,
+        "total_trades": 0,
+        "win_rate": 0,
+        "avg_signals_per_day": 0.0,
+        "signal_range": "0-0"
+      },
+      "med_vol": {
+        "label": "Med Vol (middle tercile)",
+        "days": 18,
+        "total_pnl": 0.0,
+        "avg_pnl_per_day": 0.0,
+        "total_trades": 0,
+        "win_rate": 0,
+        "avg_signals_per_day": 0.0,
+        "signal_range": "0-0"
+      },
+      "high_vol": {
+        "label": "High Vol (top tercile by signals)",
+        "days": 18,
+        "total_pnl": 177.0,
+        "avg_pnl_per_day": 9.83,
+        "total_trades": 16,
+        "win_rate": 56.2,
+        "avg_signals_per_day": 14.3,
+        "signal_range": "0-88"
+      }
+    },
+    "exit_reasons": {
+      "HoldTimeout": {
+        "count": 14,
+        "pct_of_trades": 87.5,
+        "total_pnl": 120.5,
+        "avg_pnl": 8.61,
+        "win_rate": 57.1
+      },
+      "EndOfDay": {
+        "count": 2,
+        "pct_of_trades": 12.5,
+        "total_pnl": 56.5,
+        "avg_pnl": 28.25,
+        "win_rate": 50.0
+      }
+    },
+    "signal_strength": {
+      "strong_signals_gt0.3": {
+        "label": "Strong (|sig| > 0.3)",
+        "trades": 16,
+        "total_pnl": 177.0,
+        "avg_pnl": 11.06,
+        "win_rate": 56.2,
+        "profit_factor": 1.02,
+        "avg_win": 843.53,
+        "avg_loss": -1059.25
+      },
+      "weak_signals_le0.3": {
+        "label": "Weak (|sig| <= 0.3)",
+        "trades": 0
+      },
+      "avg_signal_strength": 2.644
+    },
+    "equity_curve": [
+      {
+        "date": "2025-12-01",
+        "equity": 0.0
+      },
+      {
+        "date": "2025-12-02",
+        "equity": 156.5
+      },
+      {
+        "date": "2025-12-03",
+        "equity": 328.5
+      },
+      {
+        "date": "2025-12-04",
+        "equity": 1188.0
+      },
+      {
+        "date": "2025-12-05",
+        "equity": 722.5
+      },
+      {
+        "date": "2025-12-08",
+        "equity": -155.5
+      },
+      {
+        "date": "2025-12-09",
+        "equity": -155.5
+      },
+      {
+        "date": "2025-12-10",
+        "equity": 2282.25
+      },
+      {
+        "date": "2025-12-11",
+        "equity": 2282.25
+      },
+      {
+        "date": "2025-12-12",
+        "equity": 485.75
+      },
+      {
+        "date": "2025-12-15",
+        "equity": 1720.25
+      },
+      {
+        "date": "2025-12-16",
+        "equity": 2479.75
+      },
+      {
+        "date": "2025-12-17",
+        "equity": 1476.75
+      },
+      {
+        "date": "2025-12-18",
+        "equity": 177.0
+      },
+      {
+        "date": "2025-12-19",
+        "equity": 177.0
+      },
+      {
+        "date": "2025-12-22",
+        "equity": 177.0
+      },
+      {
+        "date": "2025-12-23",
+        "equity": 177.0
+      },
+      {
+        "date": "2025-12-24",
+        "equity": 177.0
+      },
+      {
+        "date": "2025-12-26",
+        "equity": 177.0
+      },
+      {
+        "date": "2025-12-30",
+        "equity": 177.0
+      },
+      {
+        "date": "2025-12-31",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-02",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-05",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-06",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-07",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-08",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-09",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-12",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-13",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-14",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-15",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-16",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-19",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-20",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-21",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-22",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-23",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-26",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-27",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-28",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-29",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-01-30",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-02",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-03",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-04",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-05",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-06",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-09",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-10",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-11",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-12",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-13",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-16",
+        "equity": 177.0
+      },
+      {
+        "date": "2026-02-17",
+        "equity": 177.0
+      }
+    ]
+  },
+  "book_conv1.5_vol50_tp15": {
+    "strategy": "conv1.5_vol50 (tp15)",
+    "name": "book_conv1.5_vol50_tp15",
+    "files_loaded": 54,
+    "date_range": "2025-12-01 to 2026-02-17",
+    "overview": {
+      "total_trades": 127,
+      "total_pnl_dollars": 7469.0,
+      "total_pnl_ticks": 597.52,
+      "win_rate_pct": 88.2,
+      "profit_factor": 1.58,
+      "avg_pnl_per_trade_dollars": 58.81,
+      "avg_pnl_per_trade_ticks": 4.7,
+      "trades_per_day": 2.4,
+      "avg_hold_time_minutes": 15.1,
+      "median_hold_time_minutes": 4.1,
+      "max_consecutive_losses": 2,
+      "max_consecutive_wins": 22,
+      "max_drawdown_dollars": 3514.0
+    },
+    "direction": {
+      "long_trades": 65,
+      "short_trades": 62,
+      "long_short_ratio": 1.05,
+      "long_win_rate": 93.8,
+      "short_win_rate": 82.3,
+      "long_total_pnl": 7105.0,
+      "short_total_pnl": 364.0,
+      "long_avg_pnl": 109.31,
+      "short_avg_pnl": 5.87
+    },
+    "win_loss": {
+      "avg_win_dollars": 181.21,
+      "avg_loss_dollars": -855.08,
+      "avg_win_ticks": 14.5,
+      "avg_loss_ticks": -68.41,
+      "largest_win_dollars": 184.5,
+      "largest_loss_dollars": -2978.0,
+      "win_loss_ratio": 0.21
+    },
+    "daily": {
+      "total_trading_days": 54,
+      "winning_days": 7,
+      "losing_days": 7,
+      "flat_days": 40,
+      "zero_trade_days": 40,
+      "pct_winning_days": 13.0,
+      "best_day": {
+        "date": "2025-12-10",
+        "pnl": 3240.5,
+        "trades": 24
+      },
+      "worst_day": {
+        "date": "2025-12-12",
+        "pnl": -2230.5,
+        "trades": 6
+      },
+      "avg_pnl_per_day": 138.31,
+      "avg_fill_rate": 5.5
+    },
+    "monthly_breakdown": {
+      "2025-12": {
+        "pnl_dollars": 7469.0,
+        "trades": 127,
+        "win_rate": 88.2,
+        "trading_days": 21,
+        "avg_pnl_per_day": 355.67
+      },
+      "2026-01": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "trading_days": 21,
+        "avg_pnl_per_day": 0.0
+      },
+      "2026-02": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "trading_days": 12,
+        "avg_pnl_per_day": 0.0
+      }
+    },
+    "weekly_breakdown": {
+      "2025-W48": {
+        "pnl_dollars": -693.75,
+        "trades": 25,
+        "win_rate": 76.0,
+        "days": 5
+      },
+      "2025-W49": {
+        "pnl_dollars": 3138.5,
+        "trades": 58,
+        "win_rate": 91.4,
+        "days": 5
+      },
+      "2025-W50": {
+        "pnl_dollars": 5024.25,
+        "trades": 44,
+        "win_rate": 90.9,
+        "days": 5
+      },
+      "2025-W51": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 4
+      },
+      "2025-W52": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 2
+      },
+      "2026-W00": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 1
+      },
+      "2026-W01": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W02": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W03": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W04": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W05": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W06": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W07": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 2
+      }
+    },
+    "day_of_week": {
+      "Monday": {
+        "pnl_dollars": 3566.5,
+        "trades": 32,
+        "win_rate": 90.6,
+        "days": 11,
+        "avg_pnl_per_day": 324.23
+      },
+      "Tuesday": {
+        "pnl_dollars": 1718.5,
+        "trades": 23,
+        "win_rate": 87.0,
+        "days": 12,
+        "avg_pnl_per_day": 143.21
+      },
+      "Wednesday": {
+        "pnl_dollars": 4883.0,
+        "trades": 39,
+        "win_rate": 94.9,
+        "days": 11,
+        "avg_pnl_per_day": 443.91
+      },
+      "Thursday": {
+        "pnl_dollars": -419.0,
+        "trades": 23,
+        "win_rate": 78.3,
+        "days": 9,
+        "avg_pnl_per_day": -46.56
+      },
+      "Friday": {
+        "pnl_dollars": -2280.0,
+        "trades": 10,
+        "win_rate": 80.0,
+        "days": 11,
+        "avg_pnl_per_day": -207.27
+      }
+    },
+    "hourly_breakdown": {
+      "10:00 ET": {
+        "trades": 48,
+        "pnl_dollars": 731.0,
+        "win_rate": 87.5,
+        "avg_pnl": 15.23
+      },
+      "11:00 ET": {
+        "trades": 18,
+        "pnl_dollars": 833.5,
+        "win_rate": 88.9,
+        "avg_pnl": 46.31
+      },
+      "12:00 ET": {
+        "trades": 12,
+        "pnl_dollars": 439.0,
+        "win_rate": 75.0,
+        "avg_pnl": 36.58
+      },
+      "13:00 ET": {
+        "trades": 14,
+        "pnl_dollars": 1633.0,
+        "win_rate": 92.9,
+        "avg_pnl": 116.64
+      },
+      "14:00 ET": {
+        "trades": 26,
+        "pnl_dollars": 3134.5,
+        "win_rate": 92.3,
+        "avg_pnl": 120.56
+      },
+      "15:00 ET": {
+        "trades": 9,
+        "pnl_dollars": 698.0,
+        "win_rate": 88.9,
+        "avg_pnl": 77.56
+      }
+    },
+    "session": {
+      "morning_pre12ET": {
+        "label": "Morning (pre-12 ET)",
+        "trades": 66,
+        "total_pnl": 1564.5,
+        "avg_pnl": 23.7,
+        "win_rate": 87.9,
+        "profit_factor": 1.17,
+        "avg_win": 181.48,
+        "avg_loss": -1120.19
+      },
+      "afternoon_post12ET": {
+        "label": "Afternoon (post-12 ET)",
+        "trades": 61,
+        "total_pnl": 5904.5,
+        "avg_pnl": 96.8,
+        "win_rate": 88.5,
+        "profit_factor": 2.53,
+        "avg_win": 180.91,
+        "avg_loss": -552.11
+      }
+    },
+    "vol_regime": {
+      "low_vol": {
+        "label": "Low Vol (bottom tercile by signals)",
+        "days": 18,
+        "total_pnl": 0.0,
+        "avg_pnl_per_day": 0.0,
+        "total_trades": 0,
+        "win_rate": 0,
+        "avg_signals_per_day": 0.0,
+        "signal_range": "0-0"
+      },
+      "med_vol": {
+        "label": "Med Vol (middle tercile)",
+        "days": 18,
+        "total_pnl": 0.0,
+        "avg_pnl_per_day": 0.0,
+        "total_trades": 0,
+        "win_rate": 0,
+        "avg_signals_per_day": 0.0,
+        "signal_range": "0-0"
+      },
+      "high_vol": {
+        "label": "High Vol (top tercile by signals)",
+        "days": 18,
+        "total_pnl": 7469.0,
+        "avg_pnl_per_day": 414.94,
+        "total_trades": 127,
+        "win_rate": 88.2,
+        "avg_signals_per_day": 66.8,
+        "signal_range": "0-309"
+      }
+    },
+    "exit_reasons": {
+      "TakeProfit": {
+        "count": 109,
+        "pct_of_trades": 85.8,
+        "total_pnl": 20110.5,
+        "avg_pnl": 184.5,
+        "win_rate": 100.0
+      },
+      "HoldTimeout": {
+        "count": 16,
+        "pct_of_trades": 12.6,
+        "total_pnl": -12048.0,
+        "avg_pnl": -753.0,
+        "win_rate": 12.5
+      },
+      "EndOfDay": {
+        "count": 2,
+        "pct_of_trades": 1.6,
+        "total_pnl": -593.5,
+        "avg_pnl": -296.75,
+        "win_rate": 50.0
+      }
+    },
+    "signal_strength": {
+      "strong_signals_gt0.3": {
+        "label": "Strong (|sig| > 0.3)",
+        "trades": 126,
+        "total_pnl": 7284.5,
+        "avg_pnl": 57.81,
+        "win_rate": 88.1,
+        "profit_factor": 1.57,
+        "avg_win": 181.18,
+        "avg_loss": -855.08
+      },
+      "weak_signals_le0.3": {
+        "label": "Weak (|sig| <= 0.3)",
+        "trades": 1,
+        "total_pnl": 184.5,
+        "avg_pnl": 184.5,
+        "win_rate": 100.0,
+        "profit_factor": 184500.0,
+        "avg_win": 184.5,
+        "avg_loss": 0
+      },
+      "avg_signal_strength": 1.7642
+    },
+    "equity_curve": [
+      {
+        "date": "2025-12-01",
+        "equity": -1309.0
+      },
+      {
+        "date": "2025-12-02",
+        "equity": 351.5
+      },
+      {
+        "date": "2025-12-03",
+        "equity": -35.5
+      },
+      {
+        "date": "2025-12-04",
+        "equity": -644.25
+      },
+      {
+        "date": "2025-12-05",
+        "equity": -693.75
+      },
+      {
+        "date": "2025-12-08",
+        "equity": 2258.25
+      },
+      {
+        "date": "2025-12-09",
+        "equity": 2718.25
+      },
+      {
+        "date": "2025-12-10",
+        "equity": 5958.75
+      },
+      {
+        "date": "2025-12-11",
+        "equity": 4675.25
+      },
+      {
+        "date": "2025-12-12",
+        "equity": 2444.75
+      },
+      {
+        "date": "2025-12-15",
+        "equity": 4368.25
+      },
+      {
+        "date": "2025-12-16",
+        "equity": 3966.25
+      },
+      {
+        "date": "2025-12-17",
+        "equity": 5995.75
+      },
+      {
+        "date": "2025-12-18",
+        "equity": 7469.0
+      },
+      {
+        "date": "2025-12-19",
+        "equity": 7469.0
+      },
+      {
+        "date": "2025-12-22",
+        "equity": 7469.0
+      },
+      {
+        "date": "2025-12-23",
+        "equity": 7469.0
+      },
+      {
+        "date": "2025-12-24",
+        "equity": 7469.0
+      },
+      {
+        "date": "2025-12-26",
+        "equity": 7469.0
+      },
+      {
+        "date": "2025-12-30",
+        "equity": 7469.0
+      },
+      {
+        "date": "2025-12-31",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-02",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-05",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-06",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-07",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-08",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-09",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-12",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-13",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-14",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-15",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-16",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-19",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-20",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-21",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-22",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-23",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-26",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-27",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-28",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-29",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-01-30",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-02",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-03",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-04",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-05",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-06",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-09",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-10",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-11",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-12",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-13",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-16",
+        "equity": 7469.0
+      },
+      {
+        "date": "2026-02-17",
+        "equity": 7469.0
+      }
+    ]
+  },
+  "book_conv2.5_vol50_tp20": {
+    "strategy": "conv2.5_vol50 (tp20, no SL)",
+    "name": "book_conv2.5_vol50_tp20",
+    "files_loaded": 54,
+    "date_range": "2025-12-01 to 2026-02-17",
+    "overview": {
+      "total_trades": 37,
+      "total_pnl_dollars": 251.5,
+      "total_pnl_ticks": 20.12,
+      "win_rate_pct": 81.1,
+      "profit_factor": 1.04,
+      "avg_pnl_per_trade_dollars": 6.8,
+      "avg_pnl_per_trade_ticks": 0.54,
+      "trades_per_day": 0.7,
+      "avg_hold_time_minutes": 20.0,
+      "median_hold_time_minutes": 7.6,
+      "max_consecutive_losses": 2,
+      "max_consecutive_wins": 11,
+      "max_drawdown_dollars": 3279.5
+    },
+    "direction": {
+      "long_trades": 26,
+      "short_trades": 11,
+      "long_short_ratio": 2.36,
+      "long_win_rate": 80.8,
+      "short_win_rate": 81.8,
+      "long_total_pnl": 934.5,
+      "short_total_pnl": -683.0,
+      "long_avg_pnl": 35.94,
+      "short_avg_pnl": -62.09
+    },
+    "win_loss": {
+      "avg_win_dollars": 247.0,
+      "avg_loss_dollars": -1022.64,
+      "avg_win_ticks": 19.76,
+      "avg_loss_ticks": -81.81,
+      "largest_win_dollars": 247.0,
+      "largest_loss_dollars": -2790.5,
+      "win_loss_ratio": 0.24
+    },
+    "daily": {
+      "total_trading_days": 54,
+      "winning_days": 8,
+      "losing_days": 4,
+      "flat_days": 42,
+      "zero_trade_days": 42,
+      "pct_winning_days": 14.8,
+      "best_day": {
+        "date": "2025-12-10",
+        "pnl": 2717.0,
+        "trades": 11
+      },
+      "worst_day": {
+        "date": "2025-12-12",
+        "pnl": -2596.5,
+        "trades": 3
+      },
+      "avg_pnl_per_day": 4.66,
+      "avg_fill_rate": 6.1
+    },
+    "monthly_breakdown": {
+      "2025-12": {
+        "pnl_dollars": 251.5,
+        "trades": 37,
+        "win_rate": 81.1,
+        "trading_days": 21,
+        "avg_pnl_per_day": 11.98
+      },
+      "2026-01": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "trading_days": 21,
+        "avg_pnl_per_day": 0.0
+      },
+      "2026-02": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "trading_days": 12,
+        "avg_pnl_per_day": 0.0
+      }
+    },
+    "weekly_breakdown": {
+      "2025-W48": {
+        "pnl_dollars": 1445.0,
+        "trades": 10,
+        "win_rate": 80.0,
+        "days": 5
+      },
+      "2025-W49": {
+        "pnl_dollars": -510.5,
+        "trades": 16,
+        "win_rate": 81.2,
+        "days": 5
+      },
+      "2025-W50": {
+        "pnl_dollars": -683.0,
+        "trades": 11,
+        "win_rate": 81.8,
+        "days": 5
+      },
+      "2025-W51": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 4
+      },
+      "2025-W52": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 2
+      },
+      "2026-W00": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 1
+      },
+      "2026-W01": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W02": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W03": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W04": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W05": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W06": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 5
+      },
+      "2026-W07": {
+        "pnl_dollars": 0.0,
+        "trades": 0,
+        "win_rate": 0,
+        "days": 2
+      }
+    },
+    "day_of_week": {
+      "Monday": {
+        "pnl_dollars": 110.0,
+        "trades": 5,
+        "win_rate": 80.0,
+        "days": 11,
+        "avg_pnl_per_day": 10.0
+      },
+      "Tuesday": {
+        "pnl_dollars": -283.5,
+        "trades": 7,
+        "win_rate": 71.4,
+        "days": 12,
+        "avg_pnl_per_day": -23.62
+      },
+      "Wednesday": {
+        "pnl_dollars": 3211.0,
+        "trades": 13,
+        "win_rate": 100.0,
+        "days": 11,
+        "avg_pnl_per_day": 291.91
+      },
+      "Thursday": {
+        "pnl_dollars": -330.5,
+        "trades": 6,
+        "win_rate": 83.3,
+        "days": 9,
+        "avg_pnl_per_day": -36.72
+      },
+      "Friday": {
+        "pnl_dollars": -2455.5,
+        "trades": 6,
+        "win_rate": 50.0,
+        "days": 11,
+        "avg_pnl_per_day": -223.23
+      }
+    },
+    "hourly_breakdown": {
+      "10:00 ET": {
+        "trades": 11,
+        "pnl_dollars": -920.5,
+        "win_rate": 81.8,
+        "avg_pnl": -83.68
+      },
+      "11:00 ET": {
+        "trades": 3,
+        "pnl_dollars": 16.0,
+        "win_rate": 33.3,
+        "avg_pnl": 5.33
+      },
+      "12:00 ET": {
+        "trades": 4,
+        "pnl_dollars": -824.5,
+        "win_rate": 75.0,
+        "avg_pnl": -206.12
+      },
+      "13:00 ET": {
+        "trades": 5,
+        "pnl_dollars": 110.0,
+        "win_rate": 80.0,
+        "avg_pnl": 22.0
+      },
+      "14:00 ET": {
+        "trades": 12,
+        "pnl_dollars": 1376.5,
+        "win_rate": 91.7,
+        "avg_pnl": 114.71
+      },
+      "15:00 ET": {
+        "trades": 2,
+        "pnl_dollars": 494.0,
+        "win_rate": 100.0,
+        "avg_pnl": 247.0
+      }
+    },
+    "session": {
+      "morning_pre12ET": {
+        "label": "Morning (pre-12 ET)",
+        "trades": 14,
+        "total_pnl": -904.5,
+        "avg_pnl": -64.61,
+        "win_rate": 71.4,
+        "profit_factor": 0.73,
+        "avg_win": 247.0,
+        "avg_loss": -843.62
+      },
+      "afternoon_post12ET": {
+        "label": "Afternoon (post-12 ET)",
+        "trades": 23,
+        "total_pnl": 1156.0,
+        "avg_pnl": 50.26,
+        "win_rate": 87.0,
+        "profit_factor": 1.31,
+        "avg_win": 247.0,
+        "avg_loss": -1261.33
+      }
+    },
+    "vol_regime": {
+      "low_vol": {
+        "label": "Low Vol (bottom tercile by signals)",
+        "days": 18,
+        "total_pnl": 0.0,
+        "avg_pnl_per_day": 0.0,
+        "total_trades": 0,
+        "win_rate": 0,
+        "avg_signals_per_day": 0.0,
+        "signal_range": "0-0"
+      },
+      "med_vol": {
+        "label": "Med Vol (middle tercile)",
+        "days": 18,
+        "total_pnl": 0.0,
+        "avg_pnl_per_day": 0.0,
+        "total_trades": 0,
+        "win_rate": 0,
+        "avg_signals_per_day": 0.0,
+        "signal_range": "0-0"
+      },
+      "high_vol": {
+        "label": "High Vol (top tercile by signals)",
+        "days": 18,
+        "total_pnl": 251.5,
+        "avg_pnl_per_day": 13.97,
+        "total_trades": 37,
+        "win_rate": 81.1,
+        "avg_signals_per_day": 21.2,
+        "signal_range": "0-123"
+      }
+    },
+    "exit_reasons": {
+      "TakeProfit": {
+        "count": 30,
+        "pct_of_trades": 81.1,
+        "total_pnl": 7410.0,
+        "avg_pnl": 247.0,
+        "win_rate": 100.0
+      },
+      "HoldTimeout": {
+        "count": 7,
+        "pct_of_trades": 18.9,
+        "total_pnl": -7158.5,
+        "avg_pnl": -1022.64,
+        "win_rate": 0.0
+      }
+    },
+    "signal_strength": {
+      "strong_signals_gt0.3": {
+        "label": "Strong (|sig| > 0.3)",
+        "trades": 37,
+        "total_pnl": 251.5,
+        "avg_pnl": 6.8,
+        "win_rate": 81.1,
+        "profit_factor": 1.04,
+        "avg_win": 247.0,
+        "avg_loss": -1022.64
+      },
+      "weak_signals_le0.3": {
+        "label": "Weak (|sig| <= 0.3)",
+        "trades": 0
+      },
+      "avg_signal_strength": 2.6716
+    },
+    "equity_curve": [
+      {
+        "date": "2025-12-01",
+        "equity": 247.0
+      },
+      {
+        "date": "2025-12-02",
+        "equity": 563.0
+      },
+      {
+        "date": "2025-12-03",
+        "equity": 810.0
+      },
+      {
+        "date": "2025-12-04",
+        "equity": 1304.0
+      },
+      {
+        "date": "2025-12-05",
+        "equity": 1445.0
+      },
+      {
+        "date": "2025-12-08",
+        "equity": 814.0
+      },
+      {
+        "date": "2025-12-09",
+        "equity": 814.0
+      },
+      {
+        "date": "2025-12-10",
+        "equity": 3531.0
+      },
+      {
+        "date": "2025-12-11",
+        "equity": 3531.0
+      },
+      {
+        "date": "2025-12-12",
+        "equity": 934.5
+      },
+      {
+        "date": "2025-12-15",
+        "equity": 1428.5
+      },
+      {
+        "date": "2025-12-16",
+        "equity": 829.0
+      },
+      {
+        "date": "2025-12-17",
+        "equity": 1076.0
+      },
+      {
+        "date": "2025-12-18",
+        "equity": 251.5
+      },
+      {
+        "date": "2025-12-19",
+        "equity": 251.5
+      },
+      {
+        "date": "2025-12-22",
+        "equity": 251.5
+      },
+      {
+        "date": "2025-12-23",
+        "equity": 251.5
+      },
+      {
+        "date": "2025-12-24",
+        "equity": 251.5
+      },
+      {
+        "date": "2025-12-26",
+        "equity": 251.5
+      },
+      {
+        "date": "2025-12-30",
+        "equity": 251.5
+      },
+      {
+        "date": "2025-12-31",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-02",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-05",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-06",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-07",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-08",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-09",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-12",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-13",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-14",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-15",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-16",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-19",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-20",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-21",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-22",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-23",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-26",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-27",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-28",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-29",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-01-30",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-02",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-03",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-04",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-05",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-06",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-09",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-10",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-11",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-12",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-13",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-16",
+        "equity": 251.5
+      },
+      {
+        "date": "2026-02-17",
+        "equity": 251.5
+      }
+    ]
+  }
+}

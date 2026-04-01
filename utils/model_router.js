@@ -1,13 +1,11 @@
 /**
  * AI Model Router
  *
- * Smart routing between Claude (Opus/Sonnet/Haiku), Kimi K2.5, and Groq based on:
+ * Smart routing between Claude (Opus/Sonnet/Haiku) and Kimi K2.5 based on:
  * - Task type and complexity
  * - Cost optimization
  * - Model strengths/weaknesses
  * - Rate limits and availability
- *
- * FALLBACK PROVIDERS: If Claude becomes unavailable, routes to Kimi or Groq
  *
  * Usage:
  *   const { route, routeTask } = require('./utils/model_router');
@@ -15,7 +13,6 @@
  */
 
 const kimiClient = require('./kimi_client');
-const groqClient = require('./groq_client');
 const fs = require('fs');
 const path = require('path');
 
@@ -50,19 +47,6 @@ const MODEL_SPECS = {
     quality: 'high',
     weaknesses: ['pure reasoning', 'math']
   },
-  'groq': {
-    cost: { input: 0.59, output: 0.79 },  // llama-3.3-70b-versatile pricing
-    strengths: ['fast inference', 'general tasks', 'coding', 'chat', 'fallback'],
-    contextWindow: 128000,
-    speed: 'fastest',  // Groq's main advantage
-    quality: 'high',
-    weaknesses: ['complex reasoning', 'nuanced analysis'],
-    models: {
-      'llama-3.3-70b-versatile': { cost: { input: 0.59, output: 0.79 } },
-      'llama-3.1-8b-instant': { cost: { input: 0.05, output: 0.08 } },
-      'mixtral-8x7b-32768': { cost: { input: 0.24, output: 0.24 } }
-    }
-  }
 };
 
 // Task patterns that map to specific models
@@ -112,16 +96,6 @@ const TASK_PATTERNS = {
     /glob|grep|basic/i
   ],
 
-  // Groq - ultra-fast inference, good fallback
-  groq: [
-    /quick.*(?:answer|response|reply)/i,
-    /fast.*(?:generation|response)/i,
-    /simple.*(?:chat|conversation)/i,
-    /summarize|summary/i,
-    /translate|translation/i,
-    /explain.*simply/i,
-    /fallback|backup/i
-  ]
 };
 
 /**
@@ -137,7 +111,6 @@ function analyzeTask(taskDescription, options = {}) {
     preferQuality: options.preferQuality || false,  // Prioritize best quality
     preferSpeed: options.preferSpeed || false,      // Prioritize fastest
     allowKimi: options.allowKimi !== false,         // Allow Kimi routing
-    allowGroq: options.allowGroq !== false,         // Allow Groq routing
     forceModel: options.forceModel || null          // Force specific model
   };
 
@@ -164,9 +137,6 @@ function analyzeTask(taskDescription, options = {}) {
   for (const [model, matchCount] of Object.entries(matches)) {
     if (model === 'kimi' && !preferences.allowKimi) continue;
     if (model === 'kimi' && !kimiClient.isAvailable()) continue;
-    if (model === 'groq' && !preferences.allowGroq) continue;
-    if (model === 'groq' && !groqClient.isAvailable()) continue;
-
     let score = matchCount * 10;  // Base score from pattern matches
 
     // Apply preference modifiers
@@ -258,8 +228,6 @@ async function route(taskDescription, options = {}) {
   // Execute based on selected model
   if (analysis.model === 'kimi') {
     return await executeWithKimi(taskDescription, options);
-  } else if (analysis.model === 'groq') {
-    return await executeWithGroq(taskDescription, options);
   } else {
     return await executeWithClaude(taskDescription, analysis.model, options);
   }
@@ -288,42 +256,6 @@ async function executeWithKimi(task, options = {}) {
 
     // Fallback to Claude Sonnet
     if (options.allowFallback !== false) {
-      console.log('[Model Router] Falling back to Claude Sonnet...');
-      return await executeWithClaude(task, 'sonnet', options);
-    }
-
-    throw error;
-  }
-}
-
-/**
- * Execute task with Groq (ultra-fast inference)
- */
-async function executeWithGroq(task, options = {}) {
-  try {
-    const result = await groqClient.chat(task, {
-      model: options.groqModel || 'llama-3.3-70b-versatile',
-      temperature: options.temperature,
-      max_tokens: options.max_tokens
-    });
-
-    return {
-      model: 'groq',
-      content: result.content,
-      usage: result.usage,
-      cost: result.cost,
-      timing: result.timing,  // Groq provides timing info
-      success: true
-    };
-  } catch (error) {
-    console.error('[Model Router] Groq execution failed:', error.message);
-
-    // Fallback to Kimi, then Claude
-    if (options.allowFallback !== false) {
-      if (kimiClient.isAvailable()) {
-        console.log('[Model Router] Falling back to Kimi...');
-        return await executeWithKimi(task, options);
-      }
       console.log('[Model Router] Falling back to Claude Sonnet...');
       return await executeWithClaude(task, 'sonnet', options);
     }
@@ -364,7 +296,6 @@ function estimateCosts(taskDescription, estimatedInputTokens = 5000, estimatedOu
 
   for (const [model, spec] of Object.entries(MODEL_SPECS)) {
     if (model === 'kimi' && !kimiClient.isAvailable()) continue;
-    if (model === 'groq' && !groqClient.isAvailable()) continue;
 
     const inputCost = (estimatedInputTokens / 1000000) * spec.cost.input;
     const outputCost = (estimatedOutputTokens / 1000000) * spec.cost.output;
@@ -438,91 +369,6 @@ function isKimiAvailable() {
   return kimiClient.isAvailable();
 }
 
-/**
- * Check if Groq is available
- */
-function isGroqAvailable() {
-  return groqClient.isAvailable();
-}
-
-/**
- * Get available fallback providers (non-Claude options)
- */
-function getAvailableFallbacks() {
-  const fallbacks = [];
-  if (groqClient.isAvailable()) fallbacks.push('groq');
-  if (kimiClient.isAvailable()) fallbacks.push('kimi');
-  return fallbacks;
-}
-
-/**
- * Fallback handler - try alternative models if primary fails
- * Prioritizes: Primary choice -> Groq (fast) -> Kimi (coding) -> Claude variants
- */
-async function routeWithFallback(taskDescription, options = {}) {
-  const analysis = analyzeTask(taskDescription, options);
-
-  // Build fallback chain: primary -> groq -> kimi -> other claude models
-  let modelsToTry = [analysis.model];
-
-  // Add Groq as first fallback if available (fastest)
-  if (groqClient.isAvailable() && analysis.model !== 'groq') {
-    modelsToTry.push('groq');
-  }
-
-  // Add Kimi as second fallback if available (good for coding)
-  if (kimiClient.isAvailable() && analysis.model !== 'kimi') {
-    modelsToTry.push('kimi');
-  }
-
-  // Add remaining alternatives
-  modelsToTry.push(...analysis.alternatives.filter(m => !modelsToTry.includes(m)));
-
-  for (const model of modelsToTry) {
-    try {
-      console.log(`[Model Router] Trying ${model}...`);
-      const result = await route(taskDescription, { ...options, forceModel: model });
-
-      if (result.success) {
-        return result;
-      }
-    } catch (error) {
-      console.error(`[Model Router] ${model} failed:`, error.message);
-      continue;
-    }
-  }
-
-  throw new Error('All models failed to execute task');
-}
-
-/**
- * Route specifically to non-Claude providers (for resilience)
- * Use this when Claude is unavailable or you want to avoid Claude dependency
- */
-async function routeToFallback(taskDescription, options = {}) {
-  // Try Groq first (fastest)
-  if (groqClient.isAvailable()) {
-    try {
-      console.log('[Model Router] Routing to Groq (fallback)...');
-      return await executeWithGroq(taskDescription, options);
-    } catch (error) {
-      console.error('[Model Router] Groq failed:', error.message);
-    }
-  }
-
-  // Then try Kimi
-  if (kimiClient.isAvailable()) {
-    try {
-      console.log('[Model Router] Routing to Kimi (fallback)...');
-      return await executeWithKimi(taskDescription, options);
-    } catch (error) {
-      console.error('[Model Router] Kimi failed:', error.message);
-    }
-  }
-
-  throw new Error('No fallback providers available. Configure Groq or Kimi API keys.');
-}
-
 module.exports = {
   // Core routing
   analyzeTask,
@@ -538,14 +384,9 @@ module.exports = {
   // Utilities
   getModelSpecs,
   isKimiAvailable,
-  isGroqAvailable,
-  getAvailableFallbacks,
-  routeWithFallback,
-  routeToFallback,
 
   // Direct execution (advanced)
   executeWithKimi,
-  executeWithGroq,
   executeWithClaude,
 
   // Constants

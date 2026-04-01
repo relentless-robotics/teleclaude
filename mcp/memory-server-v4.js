@@ -1398,6 +1398,14 @@ rl.on('line', async (line) => {
       const { name, arguments: args } = params;
       log('INFO', `Tool call: ${name}`, args);
 
+      // Write MCP heartbeat so bridge knows Claude is alive
+      try {
+        const hbFile = process.platform === 'win32'
+          ? require('path').join(require('os').tmpdir(), 'claude-mcp-heartbeat')
+          : '/tmp/claude-mcp-heartbeat';
+        fs.writeFileSync(hbFile, Date.now().toString(), 'utf8');
+      } catch (_) {}
+
       let result;
       try {
         switch (name) {

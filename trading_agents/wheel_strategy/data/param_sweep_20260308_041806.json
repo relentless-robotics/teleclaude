@@ -1,0 +1,723 @@
+[
+  {
+    "config": {
+      "csp_delta": 0.4,
+      "cc_delta": 0.45,
+      "target_dte": 7,
+      "label": "Ultra-aggressive Weekly"
+    },
+    "avg_return": 9.62,
+    "avg_sharpe": 1.74,
+    "avg_win_rate": 60.3,
+    "avg_max_dd": -3.76,
+    "total_premium": 178594.75,
+    "tickers": [
+      {
+        "ticker": "AAPL",
+        "return_pct": 8.22,
+        "annualized": 8.53,
+        "premium": 20336.93,
+        "sharpe": 1.44,
+        "max_dd": -4.26,
+        "win_rate": 56.5,
+        "cycles": 62,
+        "assignments": 14
+      },
+      {
+        "ticker": "AMZN",
+        "return_pct": 8.61,
+        "annualized": 8.93,
+        "premium": 22554.12,
+        "sharpe": 1.55,
+        "max_dd": -3.64,
+        "win_rate": 56.5,
+        "cycles": 62,
+        "assignments": 14
+      },
+      {
+        "ticker": "MSFT",
+        "return_pct": 12.2,
+        "annualized": 12.65,
+        "premium": 33767.62,
+        "sharpe": 1.16,
+        "max_dd": -8.63,
+        "win_rate": 62.9,
+        "cycles": 62,
+        "assignments": 12
+      },
+      {
+        "ticker": "T",
+        "return_pct": 0.88,
+        "annualized": 0.91,
+        "premium": 1775.67,
+        "sharpe": 2.06,
+        "max_dd": -0.3,
+        "win_rate": 66.1,
+        "cycles": 62,
+        "assignments": 11
+      },
+      {
+        "ticker": "CVX",
+        "return_pct": 6.17,
+        "annualized": 6.4,
+        "premium": 11028.61,
+        "sharpe": 1.97,
+        "max_dd": -2.53,
+        "win_rate": 58.1,
+        "cycles": 62,
+        "assignments": 13
+      },
+      {
+        "ticker": "META",
+        "return_pct": 35.13,
+        "annualized": 36.43,
+        "premium": 77407.29,
+        "sharpe": 1.77,
+        "max_dd": -9.51,
+        "win_rate": 66.1,
+        "cycles": 62,
+        "assignments": 11
+      },
+      {
+        "ticker": "NEE",
+        "return_pct": 2.96,
+        "annualized": 3.07,
+        "premium": 6023.92,
+        "sharpe": 2.22,
+        "max_dd": -0.59,
+        "win_rate": 59.7,
+        "cycles": 62,
+        "assignments": 13
+      },
+      {
+        "ticker": "CL",
+        "return_pct": 2.79,
+        "annualized": 2.9,
+        "premium": 5700.59,
+        "sharpe": 1.75,
+        "max_dd": -0.65,
+        "win_rate": 56.5,
+        "cycles": 62,
+        "assignments": 14
+      }
+    ]
+  },
+  {
+    "config": {
+      "csp_delta": 0.3,
+      "cc_delta": 0.35,
+      "target_dte": 30,
+      "label": "Moderate 30DTE"
+    },
+    "avg_return": 5.88,
+    "avg_sharpe": 1.27,
+    "avg_win_rate": 79.5,
+    "avg_max_dd": -3.46,
+    "total_premium": 59721.5,
+    "tickers": [
+      {
+        "ticker": "AAPL",
+        "return_pct": 5.12,
+        "annualized": 5.31,
+        "premium": 6791.25,
+        "sharpe": 1.2,
+        "max_dd": -2.35,
+        "win_rate": 78.6,
+        "cycles": 14,
+        "assignments": 2
+      },
+      {
+        "ticker": "AMZN",
+        "return_pct": 5.5,
+        "annualized": 5.7,
+        "premium": 7491.67,
+        "sharpe": 1.22,
+        "max_dd": -4.1,
+        "win_rate": 78.6,
+        "cycles": 14,
+        "assignments": 2
+      },
+      {
+        "ticker": "MSFT",
+        "return_pct": 3.49,
+        "annualized": 3.62,
+        "premium": 11607.86,
+        "sharpe": 0.35,
+        "max_dd": -9.94,
+        "win_rate": 64.3,
+        "cycles": 14,
+        "assignments": 3
+      },
+      {
+        "ticker": "T",
+        "return_pct": 0.28,
+        "annualized": 0.29,
+        "premium": 597.44,
+        "sharpe": 0.73,
+        "max_dd": -0.35,
+        "win_rate": 85.7,
+        "cycles": 14,
+        "assignments": 1
+      },
+      {
+        "ticker": "CVX",
+        "return_pct": 4.01,
+        "annualized": 4.15,
+        "premium": 3719.98,
+        "sharpe": 1.24,
+        "max_dd": -1.95,
+        "win_rate": 85.7,
+        "cycles": 14,
+        "assignments": 1
+      },
+      {
+        "ticker": "META",
+        "return_pct": 25.27,
+        "annualized": 26.21,
+        "premium": 25788.5,
+        "sharpe": 1.54,
+        "max_dd": -7.75,
+        "win_rate": 71.4,
+        "cycles": 14,
+        "assignments": 2
+      },
+      {
+        "ticker": "NEE",
+        "return_pct": 2.05,
+        "annualized": 2.13,
+        "premium": 1866.35,
+        "sharpe": 3.14,
+        "max_dd": -0.16,
+        "win_rate": 85.7,
+        "cycles": 14,
+        "assignments": 1
+      },
+      {
+        "ticker": "CL",
+        "return_pct": 1.34,
+        "annualized": 1.39,
+        "premium": 1858.45,
+        "sharpe": 0.73,
+        "max_dd": -1.1,
+        "win_rate": 85.7,
+        "cycles": 14,
+        "assignments": 1
+      }
+    ]
+  },
+  {
+    "config": {
+      "csp_delta": 0.35,
+      "cc_delta": 0.4,
+      "target_dte": 14,
+      "label": "Aggressive 14DTE"
+    },
+    "avg_return": 5.64,
+    "avg_sharpe": 1.26,
+    "avg_win_rate": 67.8,
+    "avg_max_dd": -3.84,
+    "total_premium": 91129.16,
+    "tickers": [
+      {
+        "ticker": "AAPL",
+        "return_pct": 6.42,
+        "annualized": 6.66,
+        "premium": 10602.48,
+        "sharpe": 1.49,
+        "max_dd": -2.19,
+        "win_rate": 75.0,
+        "cycles": 28,
+        "assignments": 4
+      },
+      {
+        "ticker": "AMZN",
+        "return_pct": 8.75,
+        "annualized": 9.07,
+        "premium": 11676.76,
+        "sharpe": 1.77,
+        "max_dd": -3.18,
+        "win_rate": 57.1,
+        "cycles": 28,
+        "assignments": 6
+      },
+      {
+        "ticker": "MSFT",
+        "return_pct": 3.75,
+        "annualized": 3.89,
+        "premium": 17477.38,
+        "sharpe": 0.46,
+        "max_dd": -8.66,
+        "win_rate": 71.4,
+        "cycles": 28,
+        "assignments": 4
+      },
+      {
+        "ticker": "T",
+        "return_pct": 0.54,
+        "annualized": 0.56,
+        "premium": 1069.28,
+        "sharpe": 1.11,
+        "max_dd": -0.35,
+        "win_rate": 64.3,
+        "cycles": 28,
+        "assignments": 5
+      },
+      {
+        "ticker": "CVX",
+        "return_pct": 3.01,
+        "annualized": 3.12,
+        "premium": 5634.17,
+        "sharpe": 0.95,
+        "max_dd": -2.71,
+        "win_rate": 64.3,
+        "cycles": 28,
+        "assignments": 5
+      },
+      {
+        "ticker": "META",
+        "return_pct": 18.89,
+        "annualized": 19.59,
+        "premium": 38528.8,
+        "sharpe": 1.23,
+        "max_dd": -12.19,
+        "win_rate": 67.9,
+        "cycles": 28,
+        "assignments": 5
+      },
+      {
+        "ticker": "NEE",
+        "return_pct": 2.41,
+        "annualized": 2.5,
+        "premium": 3131.95,
+        "sharpe": 2.07,
+        "max_dd": -0.54,
+        "win_rate": 60.7,
+        "cycles": 28,
+        "assignments": 6
+      },
+      {
+        "ticker": "CL",
+        "return_pct": 1.34,
+        "annualized": 1.39,
+        "premium": 3008.34,
+        "sharpe": 1.01,
+        "max_dd": -0.88,
+        "win_rate": 82.1,
+        "cycles": 28,
+        "assignments": 3
+      }
+    ]
+  },
+  {
+    "config": {
+      "csp_delta": 0.25,
+      "cc_delta": 0.3,
+      "target_dte": 35,
+      "label": "Conservative 35DTE"
+    },
+    "avg_return": 4.62,
+    "avg_sharpe": 1.02,
+    "avg_win_rate": 83.3,
+    "avg_max_dd": -3.51,
+    "total_premium": 41938.86,
+    "tickers": [
+      {
+        "ticker": "AAPL",
+        "return_pct": 4.25,
+        "annualized": 4.41,
+        "premium": 4719.8,
+        "sharpe": 1.44,
+        "max_dd": -2.1,
+        "win_rate": 91.7,
+        "cycles": 12,
+        "assignments": 1
+      },
+      {
+        "ticker": "AMZN",
+        "return_pct": 8.45,
+        "annualized": 8.77,
+        "premium": 5444.88,
+        "sharpe": 1.59,
+        "max_dd": -2.1,
+        "win_rate": 75.0,
+        "cycles": 12,
+        "assignments": 2
+      },
+      {
+        "ticker": "MSFT",
+        "return_pct": -0.94,
+        "annualized": -0.98,
+        "premium": 8472.92,
+        "sharpe": -0.12,
+        "max_dd": -12.57,
+        "win_rate": 91.7,
+        "cycles": 12,
+        "assignments": 1
+      },
+      {
+        "ticker": "T",
+        "return_pct": 0.14,
+        "annualized": 0.14,
+        "premium": 448.6,
+        "sharpe": 0.21,
+        "max_dd": -0.39,
+        "win_rate": 83.3,
+        "cycles": 12,
+        "assignments": 1
+      },
+      {
+        "ticker": "CVX",
+        "return_pct": 1.19,
+        "annualized": 1.23,
+        "premium": 2399.65,
+        "sharpe": 0.53,
+        "max_dd": -1.63,
+        "win_rate": 83.3,
+        "cycles": 12,
+        "assignments": 1
+      },
+      {
+        "ticker": "META",
+        "return_pct": 21.53,
+        "annualized": 22.32,
+        "premium": 17652.85,
+        "sharpe": 1.48,
+        "max_dd": -7.93,
+        "win_rate": 75.0,
+        "cycles": 12,
+        "assignments": 2
+      },
+      {
+        "ticker": "NEE",
+        "return_pct": 1.59,
+        "annualized": 1.64,
+        "premium": 1397.16,
+        "sharpe": 2.43,
+        "max_dd": -0.29,
+        "win_rate": 83.3,
+        "cycles": 12,
+        "assignments": 1
+      },
+      {
+        "ticker": "CL",
+        "return_pct": 0.79,
+        "annualized": 0.82,
+        "premium": 1403.0,
+        "sharpe": 0.56,
+        "max_dd": -1.05,
+        "win_rate": 83.3,
+        "cycles": 12,
+        "assignments": 1
+      }
+    ]
+  },
+  {
+    "config": {
+      "csp_delta": 0.35,
+      "cc_delta": 0.4,
+      "target_dte": 21,
+      "label": "Aggressive 21DTE"
+    },
+    "avg_return": 3.79,
+    "avg_sharpe": 0.81,
+    "avg_win_rate": 67.8,
+    "avg_max_dd": -4.24,
+    "total_premium": 77361.68,
+    "tickers": [
+      {
+        "ticker": "AAPL",
+        "return_pct": 2.26,
+        "annualized": 2.34,
+        "premium": 8834.22,
+        "sharpe": 0.35,
+        "max_dd": -3.12,
+        "win_rate": 73.7,
+        "cycles": 19,
+        "assignments": 3
+      },
+      {
+        "ticker": "AMZN",
+        "return_pct": 7.83,
+        "annualized": 8.12,
+        "premium": 9923.75,
+        "sharpe": 1.3,
+        "max_dd": -3.71,
+        "win_rate": 73.7,
+        "cycles": 19,
+        "assignments": 3
+      },
+      {
+        "ticker": "MSFT",
+        "return_pct": 1.41,
+        "annualized": 1.46,
+        "premium": 15233.05,
+        "sharpe": 0.14,
+        "max_dd": -10.54,
+        "win_rate": 73.7,
+        "cycles": 19,
+        "assignments": 3
+      },
+      {
+        "ticker": "T",
+        "return_pct": 0.41,
+        "annualized": 0.43,
+        "premium": 829.43,
+        "sharpe": 0.72,
+        "max_dd": -0.31,
+        "win_rate": 68.4,
+        "cycles": 19,
+        "assignments": 3
+      },
+      {
+        "ticker": "CVX",
+        "return_pct": 3.39,
+        "annualized": 3.51,
+        "premium": 4804.45,
+        "sharpe": 0.92,
+        "max_dd": -2.23,
+        "win_rate": 78.9,
+        "cycles": 19,
+        "assignments": 2
+      },
+      {
+        "ticker": "META",
+        "return_pct": 11.55,
+        "annualized": 11.98,
+        "premium": 32585.38,
+        "sharpe": 0.57,
+        "max_dd": -12.22,
+        "win_rate": 42.1,
+        "cycles": 19,
+        "assignments": 6
+      },
+      {
+        "ticker": "NEE",
+        "return_pct": 2.13,
+        "annualized": 2.2,
+        "premium": 2644.81,
+        "sharpe": 1.28,
+        "max_dd": -1.0,
+        "win_rate": 57.9,
+        "cycles": 19,
+        "assignments": 4
+      },
+      {
+        "ticker": "CL",
+        "return_pct": 1.34,
+        "annualized": 1.39,
+        "premium": 2506.59,
+        "sharpe": 1.18,
+        "max_dd": -0.8,
+        "win_rate": 73.7,
+        "cycles": 19,
+        "assignments": 3
+      }
+    ]
+  },
+  {
+    "config": {
+      "csp_delta": 0.3,
+      "cc_delta": 0.35,
+      "target_dte": 21,
+      "label": "Moderate Weekly-ish"
+    },
+    "avg_return": 3.52,
+    "avg_sharpe": 0.71,
+    "avg_win_rate": 72.4,
+    "avg_max_dd": -4.15,
+    "total_premium": 62874.35,
+    "tickers": [
+      {
+        "ticker": "AAPL",
+        "return_pct": 1.94,
+        "annualized": 2.01,
+        "premium": 7214.75,
+        "sharpe": 0.3,
+        "max_dd": -3.02,
+        "win_rate": 73.7,
+        "cycles": 19,
+        "assignments": 3
+      },
+      {
+        "ticker": "AMZN",
+        "return_pct": 6.54,
+        "annualized": 6.79,
+        "premium": 8241.13,
+        "sharpe": 1.06,
+        "max_dd": -3.84,
+        "win_rate": 84.2,
+        "cycles": 19,
+        "assignments": 2
+      },
+      {
+        "ticker": "MSFT",
+        "return_pct": 0.21,
+        "annualized": 0.22,
+        "premium": 12536.08,
+        "sharpe": 0.03,
+        "max_dd": -10.7,
+        "win_rate": 73.7,
+        "cycles": 19,
+        "assignments": 3
+      },
+      {
+        "ticker": "T",
+        "return_pct": 0.26,
+        "annualized": 0.27,
+        "premium": 679.76,
+        "sharpe": 0.47,
+        "max_dd": -0.31,
+        "win_rate": 78.9,
+        "cycles": 19,
+        "assignments": 2
+      },
+      {
+        "ticker": "CVX",
+        "return_pct": 2.89,
+        "annualized": 3.0,
+        "premium": 3912.03,
+        "sharpe": 0.8,
+        "max_dd": -2.19,
+        "win_rate": 78.9,
+        "cycles": 19,
+        "assignments": 2
+      },
+      {
+        "ticker": "META",
+        "return_pct": 13.04,
+        "annualized": 13.52,
+        "premium": 26155.72,
+        "sharpe": 0.67,
+        "max_dd": -11.35,
+        "win_rate": 47.4,
+        "cycles": 19,
+        "assignments": 5
+      },
+      {
+        "ticker": "NEE",
+        "return_pct": 2.31,
+        "annualized": 2.39,
+        "premium": 2128.4,
+        "sharpe": 1.52,
+        "max_dd": -0.9,
+        "win_rate": 57.9,
+        "cycles": 19,
+        "assignments": 4
+      },
+      {
+        "ticker": "CL",
+        "return_pct": 0.94,
+        "annualized": 0.98,
+        "premium": 2006.48,
+        "sharpe": 0.81,
+        "max_dd": -0.87,
+        "win_rate": 84.2,
+        "cycles": 19,
+        "assignments": 2
+      }
+    ]
+  },
+  {
+    "config": {
+      "csp_delta": 0.25,
+      "cc_delta": 0.3,
+      "target_dte": 45,
+      "label": "Conservative 45DTE"
+    },
+    "avg_return": 2.02,
+    "avg_sharpe": 0.96,
+    "avg_win_rate": 83.4,
+    "avg_max_dd": -3.25,
+    "total_premium": 35101.11,
+    "tickers": [
+      {
+        "ticker": "AAPL",
+        "return_pct": 2.84,
+        "annualized": 2.94,
+        "premium": 4000.0,
+        "sharpe": 0.88,
+        "max_dd": -2.12,
+        "win_rate": 88.9,
+        "cycles": 9,
+        "assignments": 1
+      },
+      {
+        "ticker": "AMZN",
+        "return_pct": 2.86,
+        "annualized": 2.96,
+        "premium": 4346.65,
+        "sharpe": 1.55,
+        "max_dd": -0.93,
+        "win_rate": 88.9,
+        "cycles": 9,
+        "assignments": 1
+      },
+      {
+        "ticker": "MSFT",
+        "return_pct": -4.25,
+        "annualized": -4.4,
+        "premium": 7067.45,
+        "sharpe": -0.63,
+        "max_dd": -11.39,
+        "win_rate": 88.9,
+        "cycles": 9,
+        "assignments": 1
+      },
+      {
+        "ticker": "T",
+        "return_pct": 0.09,
+        "annualized": 0.1,
+        "premium": 403.94,
+        "sharpe": 0.15,
+        "max_dd": -0.41,
+        "win_rate": 77.8,
+        "cycles": 9,
+        "assignments": 1
+      },
+      {
+        "ticker": "CVX",
+        "return_pct": 2.74,
+        "annualized": 2.85,
+        "premium": 2152.92,
+        "sharpe": 1.2,
+        "max_dd": -1.49,
+        "win_rate": 77.8,
+        "cycles": 9,
+        "assignments": 1
+      },
+      {
+        "ticker": "META",
+        "return_pct": 9.76,
+        "annualized": 10.12,
+        "premium": 14883.62,
+        "sharpe": 0.9,
+        "max_dd": -8.78,
+        "win_rate": 66.7,
+        "cycles": 9,
+        "assignments": 2
+      },
+      {
+        "ticker": "NEE",
+        "return_pct": 1.09,
+        "annualized": 1.13,
+        "premium": 1098.82,
+        "sharpe": 2.86,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 9,
+        "assignments": 0
+      },
+      {
+        "ticker": "CL",
+        "return_pct": 1.04,
+        "annualized": 1.08,
+        "premium": 1147.71,
+        "sharpe": 0.8,
+        "max_dd": -0.85,
+        "win_rate": 77.8,
+        "cycles": 9,
+        "assignments": 1
+      }
+    ]
+  }
+]

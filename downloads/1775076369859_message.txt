@@ -1,0 +1,245 @@
+Event-Driven MBO Trading Model — Hybrid Architecture Report
+1. Problem Definition
+
+We model order flow from raw Market-by-Order (MBO) data to predict:
+
+Short-horizon price direction (100ms → 30s)
+Microstructure-driven move probability
+Trade quality / expectancy score for execution decisions
+
+This is not HFT alpha arbitrage, but microstructure-aware directional scalping under realistic latency (~50ms RTT).
+
+2. Data Pipeline
+2.1 Raw Input
+MBO event stream:
+Add / cancel / modify / trade prints
+Full depth updates if available
+Time-stamped at event level (irregular intervals)
+2.2 Microbatching (Critical Design Choice)
+
+Instead of pure event-by-event modeling:
+
+Aggregate into micro-events windows:
+50–200 events OR
+10–50 ms windows
+Features per microbatch:
+Order Flow Imbalance (OFI)
+Aggressor volume (buy/sell trades)
+Bid/ask liquidity gradient
+Spread + mid-price changes
+Depth pressure (top N levels)
+Volatility micro-estimate
+Short-term event intensity
+Why microbatching:
+Reduces noise amplification from raw event sparsity
+Stabilizes sequence models (Mamba / CNN)
+Keeps near-event fidelity without HFT-level compute burden
+3. Core Modeling Philosophy
+
+We explicitly decompose market behavior into 3 learned components:
+
+Component	Role
+Mamba	temporal state evolution + regime + drift
+1D CNN	local event pattern detection
+MLP Fusion Layer	decision boundary + trade scoring
+4. Model Architecture
+4.1 Path A — Mamba Sequence Model
+Purpose:
+
+Captures:
+
+Temporal dependency over microbatches
+Market regime drift
+Hidden liquidity state
+Long-short memory effects
+Input:
+
+Sequence of microbatches:
+
+X_t = [features_t-k ... features_t]
+Output:
+S_t ∈ R^32–64 latent state embedding
+P(move) = probability of meaningful price displacement
+Role:
+
+👉 “Market memory + timing engine”
+
+4.2 Path B — 1D CNN (Local Microstructure Detector)
+Purpose:
+
+Detects:
+
+Immediate order flow shocks
+Burst imbalance events
+Liquidity vacuum / sweep patterns
+Short-lived momentum ignition
+Input:
+
+Same microbatch sequence (shorter receptive field)
+
+Output:
+D_t ∈ R^32–64
+P(direction) = up/down probability
+Role:
+
+👉 “Pattern + directional impulse detector”
+
+4.3 Fusion Layer — MLP Decision Engine
+Input:
+P(move) (from Mamba)
+P(direction) (from CNN)
+S_t (state embedding)
+D_t (pattern embedding)
+Output:
+Trade Score ∈ [-1, 1] or [0,1]
+Optional: position size recommendation
+Role:
+
+👉 “Final trade decision boundary”
+
+5. Optional / Rejected Architectures (Design Rationale)
+5.1 Transformers
+Strong but:
+Expensive for dense event streams
+Overkill for low-latency scalping
+Mamba preferred due to:
+Linear-time sequence modeling
+Better long-context efficiency
+5.2 Hawkes Processes (IMPORTANT)
+
+Previously considered for event intensity modeling.
+
+Why not primary model:
+Excellent for:
+Arrival intensity modeling
+Self-exciting trade clustering
+Weak for:
+Directional prediction
+Feature-rich state learning
+Best use (optional):
+Feature generator only:
+event intensity spike score
+liquidity shock likelihood
+5.3 LSTM / GRU
+Superseded by:
+Mamba (better long memory + efficiency)
+Still viable baseline but not optimal
+5.4 GNNs (Order Book Graphs)
+Potential but:
+Overcomplex for marginal gain
+Useful only if modeling:
+full L2-L3 cross-venue relationships
+5.5 2D / 3D CNNs
+Not ideal here because:
+Order book is not spatial-image structured in a stable grid
+Only useful if:
+You explicitly encode L2 depth as image-like tensor
+6. Target Variables (Training Labels)
+6.1 Direction Classification
+y_dir ∈ {-1, 0, +1}
+Defined as:
++1 = mid-price up move ≥ threshold
+-1 = down move ≥ threshold
+0 = noise band
+
+Threshold: configurable (e.g. 1–5 ticks or volatility-scaled)
+
+6.2 Move Probability Target
+y_move ∈ {0,1}
+1 if price moves beyond threshold within horizon
+
+Horizons:
+
+100ms
+500ms
+1s
+5s
+30s (primary scalp horizon)
+6.3 Expected Value / Magnitude
+y_return = (mid_{t+h} - mid_t)
+optionally normalized by volatility
+6.4 Optional Execution Label (Advanced)
+Fill probability proxy
+Adverse selection score
+Slippage estimate
+7. Time Horizon Strategy
+
+Recommended regime:
+
+Horizon	Role
+100–500ms	noise + microstructure detection
+1–5s	primary signal generation
+5–30s	scalp trade confirmation
+
+You explicitly stated:
+
+not HFT
+RTT ~50ms
+willing to hold seconds-scale trades
+
+👉 This fits perfectly into microstructure + short momentum regime
+
+8. Final System Architecture
+Raw MBO Stream
+      ↓
+Microbatching Layer
+(50–200 events / 10–50ms)
+      ↓
+Feature Engine
+(OFI, aggressor flow, liquidity gradient, etc.)
+      ↓
+────────────────────────────
+      ↓                    ↓
+Path A                  Path B
+Mamba Model            1D CNN
+(state + timing)       (local patterns)
+      ↓                    ↓
+S_t embedding          D_t embedding
+P(move)                P(direction)
+      ↓                    ↓
+──────────── Fusion Layer (MLP) ────────────
+          Trade Score + Position Signal
+9. Execution Layer (Out of Model Scope but Critical)
+Linear scaling position sizing initially
+Start: 1 contract baseline
+Scale with:
+rolling Sharpe
+hit rate stability
+drawdown constraints
+
+Execution gating:
+
+spread filter
+volatility filter
+liquidity threshold
+regime filter (optional extension)
+10. Key Design Conclusions
+Core Stack:
+Mamba = temporal state + drift + timing
+1D CNN = local directional impulse detection
+MLP = decision boundary / trade scoring
+What is NOT needed (initially):
+Transformers (too heavy)
+Full GNNs (overkill)
+3D CNNs (poor fit for structure)
+LSTMs (dominated by Mamba)
+Hawkes:
+Not primary predictor
+Optional intensity feature generator only
+11. Engineering Next Steps (IMPORTANT)
+
+If you proceed, the next optimization layer is NOT model choice but:
+
+Feature Engineering (highest ROI)
+Multi-scale OFI (1s / 5s / 30s)
+Liquidity vacuum detection
+Sweep detection (aggressive trade bursts)
+Hidden liquidity inference (pull/stack behavior)
+Label Engineering
+volatility-adjusted thresholds
+regime-segmented labeling
+imbalance-conditioned targets
+Training Strategy
+walk-forward validation
+non-stationary split (critical)
+event-decimated sampling to reduce redundancy

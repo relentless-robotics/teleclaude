@@ -31,6 +31,11 @@ const CHANNELS_FILE = path.join(BRIDGE_DIR, 'trading_agents', 'data', 'discord_c
 const LOGS_DIR = path.join(BRIDGE_DIR, 'logs');
 const LOG_FILE = path.join(LOGS_DIR, `mcp-discord-${new Date().toISOString().split('T')[0]}.log`);
 
+// MCP activity heartbeat — written on every tool call so bridge knows Claude is alive
+const MCP_HEARTBEAT_FILE = isWindows
+  ? path.join(os.tmpdir(), 'claude-mcp-heartbeat')
+  : '/tmp/claude-mcp-heartbeat';
+
 // Ensure directories exist
 if (!fs.existsSync(LOGS_DIR)) fs.mkdirSync(LOGS_DIR, { recursive: true });
 const tempDir = path.dirname(OUTPUT_FILE);
@@ -294,6 +299,9 @@ rl.on('line', async (line) => {
     else if (method === 'tools/call') {
       const { name, arguments: args } = params;
       log('INFO', `Tool call: ${name}`, { args: args ? JSON.stringify(args).slice(0, 200) : null });
+
+      // Write heartbeat so bridge knows Claude is alive (prevents idle-freeze kill)
+      try { fs.writeFileSync(MCP_HEARTBEAT_FILE, Date.now().toString(), 'utf8'); } catch (_) {}
 
       // === send_to_discord (DM via output file) ===
       if (name === 'send_to_discord') {

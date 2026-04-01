@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-02-20T21:30:50.483Z",
+  "date": "2026-02-20",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90401.14,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "cash": 90401.14,
+    "buyingPower": 361604.56,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Feb 11: 3 trades, 0 wins, -$4,757 — you continued trading after multiple consecutive losses on the same day. No circuit breaker fired.",
+      "AVOID: Feb 10: 1 trade, -$2,870 — a single trade with that much damage relative to account size suggests oversizing or no hard stop.",
+      "AVOID: Win rate of 37.9% across 29 trades is structurally below acceptable levels unless backed by consistent 3:1+ R:R. No evidence of that ratio in the data.",
+      "AVOID: Lumpy activity (8 trades on busy days, 0 on others) suggests reactivity to market noise rather than a systematic approach."
+    ],
+    "tomorrowRules": [
+      "Only trade if market regime shifts from NEUTRAL — wait for a clear TRENDING or HIGH_MOMENTUM signal before taking any position.",
+      "Hard daily loss limit: if you lose 2 trades back-to-back, stop for the day. No exceptions. Feb 11 style days are account killers.",
+      "Before entering any trade, define your exact stop and target. R:R must be at least 2:1 minimum, ideally 3:1, to compensate for your current 37.9% win rate.",
+      "Max 3 trades per day until win rate climbs above 45%. High trade volume at low accuracy is how Feb 12 (-$845 on 6 trades) happens.",
+      "Do not chase the Feb 6 outlier. Treat each trade as a routine, process-driven execution. Seeking the next big score leads to oversizing and the Feb 10-11 disasters."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades taken in a NEUTRAL market regime — that is disciplined, not lazy. Sitting on your hands when conditions are not favorable is a skill. However, the grade is not an A because the broader context shows serious unresolved issues: a 37.9% win rate, a catastrophic losing streak Feb 10-13 (-$10,430 in 4 days), and heavy reliance on one outlier day (Feb 6: +$20,632) to keep cumulative P&L positive. Today was clean, but the overall picture demands attention.",
+    "keyLessons": [
+      "Selective inactivity is a legitimate edge — you correctly identified NEUTRAL conditions and took no trades, avoiding unnecessary exposure. Protect this habit.",
+      "Your cumulative win rate of 37.9% (11W/18L) means you are losing more often than you win. At this rate, you MUST be cutting losses quickly and letting winners run hard — even a 2:1 R:R barely keeps you breakeven. Review whether your average win is significantly larger than your average loss.",
+      "Feb 10-13 cost you roughly $10,430 across 7 trades (0 wins in 4 of those trades). That stretch nearly erased the Feb 6 outlier. You need a hard daily loss limit that pulls you out before drawdowns compound like that.",
+      "Your P&L is effectively one trade: Feb 6's +$20,632 accounts for 172% of your total cumulative gain. Strip that out and you are down over $8,600. That is not a sustainable edge — that is a lottery ticket masking a losing strategy."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Correctly sat out on Feb 18, 19, and 20 during NEUTRAL market regimes — showing improved selectivity after the Feb 10-13 drawdown.",
+        "Feb 17: took 1 trade, 1 win, +$224. Small, clean, disciplined execution after a brutal stretch.",
+        "Feb 9: 8 trades, 50% win rate, +$1,720 — your best multi-trade day recently, suggesting you can execute well in favorable conditions."
+      ],
+      "badPatterns": [
+        "Feb 11: 3 trades, 0 wins, -$4,757 — you continued trading after multiple consecutive losses on the same day. No circuit breaker fired.",
+        "Feb 10: 1 trade, -$2,870 — a single trade with that much damage relative to account size suggests oversizing or no hard stop.",
+        "Win rate of 37.9% across 29 trades is structurally below acceptable levels unless backed by consistent 3:1+ R:R. No evidence of that ratio in the data.",
+        "Lumpy activity (8 trades on busy days, 0 on others) suggests reactivity to market noise rather than a systematic approach."
+      ]
+    },
+    "tomorrowRules": [
+      "Only trade if market regime shifts from NEUTRAL — wait for a clear TRENDING or HIGH_MOMENTUM signal before taking any position.",
+      "Hard daily loss limit: if you lose 2 trades back-to-back, stop for the day. No exceptions. Feb 11 style days are account killers.",
+      "Before entering any trade, define your exact stop and target. R:R must be at least 2:1 minimum, ideally 3:1, to compensate for your current 37.9% win rate.",
+      "Max 3 trades per day until win rate climbs above 45%. High trade volume at low accuracy is how Feb 12 (-$845 on 6 trades) happens.",
+      "Do not chase the Feb 6 outlier. Treat each trade as a routine, process-driven execution. Seeking the next big score leads to oversizing and the Feb 10-11 disasters."
+    ],
+    "riskAssessment": "Today: risk managed perfectly — zero exposure in unfavorable conditions. Cumulative risk management: poor. The Feb 10-11 stretch shows no daily stop-loss discipline was enforced. A $4,757 single-day loss on a ~$90K account is a 5.3% drawdown in one session — that is above acceptable thresholds for most systematic approaches. The account survived because of the Feb 6 windfall, not because of sound risk controls. Risk management infrastructure (daily loss limit, position sizing rules) needs to be formalized and enforced before the next active trading period.",
+    "emotionalCheck": "Strong signs of revenge trading on Feb 11 — 0 wins across 3 trades suggests you kept re-entering after losses trying to recover. Feb 12 (6 trades, 4 losses) shows the same pattern bleeding into the next day. The abrupt halt to trading on Feb 18-20 could reflect two things: healthy recalibration OR avoidance/fear after the drawdown. The fact that you correctly identified NEUTRAL conditions as a reason not to trade suggests it is the former. Watch closely when conditions improve — the first active trading day after a break is the highest-risk session for FOMO and oversizing to 'make back' the Feb 10-13 losses."
+  },
+  "errors": []
+}

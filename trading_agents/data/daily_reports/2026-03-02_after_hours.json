@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-03-02T21:30:09.608Z",
+  "date": "2026-03-02",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90401.14,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "cash": 90401.14,
+    "buyingPower": 361604.56,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Overconcentration of P&L in a single outlier day (Feb 6) masks the true state of your edge — this is dangerous for confidence calibration",
+      "AVOID: The Feb 10-13 loss cluster shows a pattern of continuing to trade through losing sessions instead of stopping early",
+      "AVOID: Win rate of 37.9% with no evidence of a compensating large win-to-loss ratio suggests the current strategy has unclear or unproven edge",
+      "AVOID: Extended no-trade periods with no documented reasoning makes it impossible to coach or improve"
+    ],
+    "tomorrowRules": [
+      "Before placing any trade, write down the market regime, your specific setup trigger, and your max loss for the day. Do not trade without this written.",
+      "If you hit -$500 on the day, stop trading. No exceptions. The Feb 10-13 disaster was preventable with a daily stop.",
+      "Do not take more than 3 trades in a single session until your rolling 20-trade win rate improves above 45%.",
+      "If market regime is NEUTRAL, require your setup to be textbook-perfect — no borderline entries."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades executed today. In isolation, sitting out on a NEUTRAL regime day is disciplined — no losses is a valid outcome. However, this continues a multi-week pattern of near-zero activity, making it impossible to distinguish intentional restraint from avoidance or system issues. Grade capped at B pending clarity on why no trades are being taken.",
+    "keyLessons": [
+      "Your cumulative P&L of ~$11,947 is almost entirely explained by a single day (Feb 6: +$20,632). Remove that day and you are down roughly $8,685 across 21 remaining trades. You are not yet a consistently profitable trader — you are a trader who had one exceptional day.",
+      "Your win rate of 37.9% across 29 trades is below the minimum threshold for profitability unless your average win is significantly larger than your average loss. The data does not support that is currently the case given the Feb 10-13 drawdown cluster.",
+      "The Feb 10-13 stretch (-$10,630 across 4 days, 7 losses vs 1 win) suggests a failure to stop trading after early losses. Each of those days should have had a hard daily loss limit that triggered a shutdown.",
+      "Zero trades across 5+ consecutive days (Feb 25 through today) raises a flag. Either the system has no valid setups in current conditions — which is fine — or you have stopped trading out of fear following Feb losses. You must know which one it is."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Correctly sitting out on NEUTRAL market regime with no forced trades",
+        "Day trade account equity of $90,401 is intact, meaning you have not blown up despite the rough February stretch",
+        "Cumulative P&L remains positive, which means capital preservation has held"
+      ],
+      "badPatterns": [
+        "Overconcentration of P&L in a single outlier day (Feb 6) masks the true state of your edge — this is dangerous for confidence calibration",
+        "The Feb 10-13 loss cluster shows a pattern of continuing to trade through losing sessions instead of stopping early",
+        "Win rate of 37.9% with no evidence of a compensating large win-to-loss ratio suggests the current strategy has unclear or unproven edge",
+        "Extended no-trade periods with no documented reasoning makes it impossible to coach or improve"
+      ]
+    },
+    "tomorrowRules": [
+      "Before placing any trade, write down the market regime, your specific setup trigger, and your max loss for the day. Do not trade without this written.",
+      "If you hit -$500 on the day, stop trading. No exceptions. The Feb 10-13 disaster was preventable with a daily stop.",
+      "Do not take more than 3 trades in a single session until your rolling 20-trade win rate improves above 45%.",
+      "If market regime is NEUTRAL, require your setup to be textbook-perfect — no borderline entries."
+    ],
+    "riskAssessment": "Risk was technically managed today via inaction, which is acceptable. However, the broader risk picture is concerning: your account profitability is fragile and dependent on one outlier day. The Feb loss cluster shows that when things go wrong, position sizing or trade frequency was not being cut. You need a documented daily max-loss rule enforced before markets open, not in the moment.",
+    "emotionalCheck": "No trades today makes emotional assessment difficult. However, the behavioral fingerprint of Feb 10-13 — increasing losses over 4 consecutive days with no reduction in trade frequency — is a classic revenge/recoup pattern. The current extended no-trade period could be healthy reset, or it could be loss aversion paralysis. You need to honestly answer: are you not trading because conditions are poor, or because you are afraid? If it is the latter, start with 1 small size trade to rebuild confidence, not zero trades indefinitely."
+  },
+  "errors": []
+}

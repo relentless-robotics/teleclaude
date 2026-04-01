@@ -1,0 +1,522 @@
+{
+  "ticker": "BRK-B",
+  "downloaded": "2026-03-09T10:03:15.537792",
+  "cik": "0001067983",
+  "company_name": "BERKSHIRE HATHAWAY INC",
+  "sic": "6331",
+  "sic_description": "Fire, Marine & Casualty Insurance",
+  "filings_13f": [
+    {
+      "form": "13F-HR",
+      "date": "2026-02-17",
+      "accession": "0001193125-26-054580",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-11-14",
+      "accession": "0001193125-25-282901",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2025-08-14",
+      "accession": "0000950123-25-008361",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-08-14",
+      "accession": "0000950123-25-008343",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-05-15",
+      "accession": "0000950123-25-005701",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-02-14",
+      "accession": "0000950123-25-002701",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2024-11-14",
+      "accession": "0000950123-24-011775",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2024-08-14",
+      "accession": "0000950123-24-008740",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2024-05-15",
+      "accession": "0000950123-24-005664",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2024-05-15",
+      "accession": "0000950123-24-005653",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2024-05-15",
+      "accession": "0000950123-24-005622",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2024-02-14",
+      "accession": "0000950123-24-002518",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2023-11-16",
+      "accession": "0000950123-23-011029",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2023-11-14",
+      "accession": "0000950123-23-010898",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2023-08-14",
+      "accession": "0000950123-23-008074",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2023-05-15",
+      "accession": "0000950123-23-005270",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2023-02-14",
+      "accession": "0000950123-23-002585",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2022-11-14",
+      "accession": "0000950123-22-012275",
+      "document": "xslForm13F_X01/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2022-08-15",
+      "accession": "0000950123-22-009450",
+      "document": "xslForm13F_X01/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2022-05-16",
+      "accession": "0000950123-22-006442",
+      "document": "xslForm13F_X01/primary_doc.xml"
+    }
+  ],
+  "filings_form4": [
+    {
+      "form": "4",
+      "date": "2026-03-05",
+      "accession": "0001193125-26-092556",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-17",
+      "accession": "0001193125-26-054947",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-02",
+      "accession": "0001193125-26-033900",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-12",
+      "accession": "0001193125-25-277658",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-05",
+      "accession": "0001193125-25-267252",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-29",
+      "accession": "0001193125-25-256858",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-24",
+      "accession": "0001728451-25-000009",
+      "document": "xslF345X05/primary_doc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-09-26",
+      "accession": "0001728451-25-000008",
+      "document": "xslF345X05/primary_doc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-09-26",
+      "accession": "0001728451-25-000007",
+      "document": "xslF345X05/primary_doc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-08",
+      "accession": "0001728451-25-000006",
+      "document": "xslF345X05/primary_doc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-04",
+      "accession": "0000950170-25-102306",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-04",
+      "accession": "0000950170-25-102303",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-01",
+      "accession": "0000950170-25-101546",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-16",
+      "accession": "0000950170-25-096373",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-06-30",
+      "accession": "0000950170-25-091838",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-05-27",
+      "accession": "0000950170-25-078056",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-05-15",
+      "accession": "0000950170-25-072923",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-05-12",
+      "accession": "0000950170-25-069150",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-04-09",
+      "accession": "0000950170-25-052621",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-04-04",
+      "accession": "0001728451-25-000003",
+      "document": "xslF345X05/primary_doc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-03-21",
+      "accession": "0000950170-25-043423",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-03-14",
+      "accession": "0001728451-25-000002",
+      "document": "xslF345X05/primary_doc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-03-04",
+      "accession": "0000919574-25-001778",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4/A",
+      "date": "2025-02-25",
+      "accession": "0000919574-25-001652",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-02-19",
+      "accession": "0000950170-25-023556",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-02-13",
+      "accession": "0000950170-25-020189",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-02-11",
+      "accession": "0000950170-25-018266",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-02-03",
+      "accession": "0000950170-25-012600",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-01-17",
+      "accession": "0001728451-25-000001",
+      "document": "xslF345X05/primary_doc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-01-03",
+      "accession": "0000950170-25-001533",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-01-03",
+      "accession": "0000950170-25-001530",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-12-30",
+      "accession": "0000950170-24-141263",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-12-27",
+      "accession": "0000950170-24-140795",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-12-26",
+      "accession": "0000950170-24-140587",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-12-19",
+      "accession": "0000950170-24-138717",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-12-19",
+      "accession": "0000950170-24-138712",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-12-19",
+      "accession": "0000950170-24-138710",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-12-11",
+      "accession": "0000950170-24-135465",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-12-04",
+      "accession": "0000950170-24-133370",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-11-25",
+      "accession": "0000950170-24-130514",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-11-22",
+      "accession": "0001728451-24-000006",
+      "document": "xslF345X05/primary_doc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-11-07",
+      "accession": "0000950170-24-123605",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-10-31",
+      "accession": "0000950170-24-119748",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-10-18",
+      "accession": "0000950170-24-115720",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-10-17",
+      "accession": "0000950170-24-115415",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-10-11",
+      "accession": "0000950170-24-114414",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-10-10",
+      "accession": "0000950170-24-114125",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-10-07",
+      "accession": "0000950170-24-113350",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-10-02",
+      "accession": "0000950170-24-111799",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2024-09-27",
+      "accession": "0000950170-24-110123",
+      "document": "xslF345X05/ownership.xml"
+    }
+  ],
+  "yf_institutional_holders": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Vanguard Group Inc",
+      "pctHeld": 0.11310001,
+      "Shares": 157103196,
+      "Value": 77521787700,
+      "pctChange": 0.018
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.0872,
+      "Shares": 121193733,
+      "Value": 59802442467,
+      "pctChange": 0.0573
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.053200003,
+      "Shares": 73925068,
+      "Value": 36477955720,
+      "pctChange": 0.0153
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.028800001,
+      "Shares": 40022166,
+      "Value": 19748737995,
+      "pctChange": 0.0015
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0189,
+      "Shares": 26280201,
+      "Value": 12967833974,
+      "pctChange": -0.011
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Gates Foundation Trust",
+      "pctHeld": 0.0139999995,
+      "Shares": 19406764,
+      "Value": 9576170804,
+      "pctChange": -0.1084
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Northern Trust Corporation",
+      "pctHeld": 0.0112,
+      "Shares": 15528328,
+      "Value": 7662375923,
+      "pctChange": -0.0198
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "JPMORGAN CHASE & CO",
+      "pctHeld": 0.0093,
+      "Shares": 12883585,
+      "Value": 6357340694,
+      "pctChange": -0.48810002
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Bank Of New York Mellon Corporation",
+      "pctHeld": 0.008,
+      "Shares": 11167907,
+      "Value": 5510747951,
+      "pctChange": 0.0045
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Charles Schwab Investment Management, Inc.",
+      "pctHeld": 0.007900001,
+      "Shares": 11044013,
+      "Value": 5449613075,
+      "pctChange": 0.0069
+    }
+  ],
+  "yf_major_holders": {
+    "Value": {
+      "insidersPercentHeld": 0.00389,
+      "institutionsPercentHeld": 0.66283995,
+      "institutionsFloatPercentHeld": 0.66543,
+      "institutionsCount": 5836.0
+    }
+  }
+}

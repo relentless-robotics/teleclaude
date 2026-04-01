@@ -1,0 +1,154 @@
+{
+  "timestamp": "2026-02-08T21:30:59.825Z",
+  "date": "2026-02-08",
+  "dailySummary": {
+    "equity": 4970.25,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 5,
+    "winners": 2,
+    "losers": 3,
+    "biggestWinner": {
+      "symbol": "SMCI",
+      "pct": 7.184
+    },
+    "biggestLoser": {
+      "symbol": "SNAP",
+      "pct": -10.264
+    },
+    "cash": 2209.01
+  },
+  "dayTradeSummary": {
+    "equity": 99449.23,
+    "dailyPL": -112,
+    "dailyPLPct": -0.11249358811657913,
+    "cash": 94849.23,
+    "buyingPower": 398244.92,
+    "positionCount": 1,
+    "posWinners": 1,
+    "posLosers": 0,
+    "biggestWinner": {
+      "symbol": "AMD260213C00210000",
+      "pct": 6.481000000000001
+    },
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [
+    {
+      "symbol": "AMD",
+      "qty": 2,
+      "avgEntry": 200.78,
+      "currentPrice": 208.44,
+      "unrealizedPL": 15.32,
+      "unrealizedPLPct": 3.8150000000000004,
+      "marketValue": 416.88,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    },
+    {
+      "symbol": "ANF",
+      "qty": 2,
+      "avgEntry": 99.04,
+      "currentPrice": 97.66,
+      "unrealizedPL": -2.76,
+      "unrealizedPLPct": -1.393,
+      "marketValue": 195.32,
+      "thesis": "Retail turnaround, 62% P/E discount to peers",
+      "ptLow": 123,
+      "ptHigh": 128,
+      "daysHeld": null,
+      "recommendation": "✅ Hold - Thesis intact",
+      "distanceToTarget": 25.947163628916652
+    },
+    {
+      "symbol": "FOA",
+      "qty": 11,
+      "avgEntry": 21.91,
+      "currentPrice": 21.88,
+      "unrealizedPL": -0.33,
+      "unrealizedPLPct": -0.13699999999999998,
+      "marketValue": 240.68,
+      "thesis": "Reverse mortgage leader, Blue Owl $2.5B partnership",
+      "ptLow": 42,
+      "ptHigh": 76,
+      "daysHeld": null,
+      "recommendation": "✅ Hold - Thesis intact",
+      "distanceToTarget": 91.95612431444242
+    },
+    {
+      "symbol": "SMCI",
+      "qty": 30,
+      "avgEntry": 32.075667,
+      "currentPrice": 34.38,
+      "unrealizedPL": 69.13,
+      "unrealizedPLPct": 7.184,
+      "marketValue": 1031.4,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    },
+    {
+      "symbol": "SNAP",
+      "qty": 168,
+      "avgEntry": 5.817083,
+      "currentPrice": 5.22,
+      "unrealizedPL": -100.31,
+      "unrealizedPLPct": -10.264,
+      "marketValue": 876.96,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    }
+  ],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Two consecutive sessions with vanishing volume/edge; edge may be fading or regime shift underway.",
+      "AVOID: Win rate under 40% on recent trades; strategy expectancy needs review."
+    ],
+    "tomorrowRules": [
+      "Pre-market: rerun back-test on neutral-regime setups; if expectancy < 0.2R skip the day-trade book completely.",
+      "Post-entry: hard cap of three day-trades; after third loss, screen turns off to prevent revenge trading."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "Zero trades means zero mistakes, but also zero alpha; capital preservation is good, execution is nil.",
+    "keyLessons": [
+      "If no high-conviction setup appears, flat is fine—document the filter criteria that kept you out so the process is repeatable.",
+      "Swing book still has five open positions; define a max heat plan (e.g., 1.5×ATR stop or 2% equity risk per swing) before market open tomorrow."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "No forced trades in a neutral regime; protected yesterday’s green day.",
+        "Equity drawdown held to –0.11% on the day-trade book."
+      ],
+      "badPatterns": [
+        "Two consecutive sessions with vanishing volume/edge; edge may be fading or regime shift underway.",
+        "Win rate under 40% on recent trades; strategy expectancy needs review."
+      ]
+    },
+    "tomorrowRules": [
+      "Pre-market: rerun back-test on neutral-regime setups; if expectancy < 0.2R skip the day-trade book completely.",
+      "Post-entry: hard cap of three day-trades; after third loss, screen turns off to prevent revenge trading."
+    ],
+    "riskAssessment": "Excellent on the day-trade side (no risk taken); swing side lacks updated stop data—risk unknown.",
+    "emotionalCheck": "No trades, so no tilt, but monitor for FOMO if market breaks range overnight."
+  },
+  "errors": []
+}

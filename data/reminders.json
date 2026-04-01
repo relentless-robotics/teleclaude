@@ -1,0 +1,23 @@
+{
+  "reminders": [
+    {
+      "id": 3,
+      "message": "**LIVE PIPELINE CHECK**\n\nPaper engine status, card positions, signal flow, trade execution.\nThis is an automated check — results posted to #system-status if issues found.",
+      "recurring": true,
+      "intervalMinutes": 30,
+      "tags": [
+        "live-pipeline",
+        "paper-engine",
+        "monitoring"
+      ],
+      "enabled": true,
+      "marketHoursOnly": true,
+      "createdAt": "2026-03-26T15:00:00.000Z",
+      "lastTriggered": null,
+      "triggerCount": 0,
+      "nextTrigger": null,
+      "routeTo": "system-status"
+    }
+  ],
+  "lastId": 3
+}

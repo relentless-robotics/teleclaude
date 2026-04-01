@@ -1,0 +1,438 @@
+{
+  "ticker": "GS",
+  "downloaded": "2026-03-09T09:59:39.598245",
+  "cik": "0000886982",
+  "company_name": "GOLDMAN SACHS GROUP INC",
+  "sic": "6211",
+  "sic_description": "Security Brokers, Dealers & Flotation Companies",
+  "filings_13f": [
+    {
+      "form": "13F-HR",
+      "date": "2026-02-10",
+      "accession": "0000886982-26-000052",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-11-14",
+      "accession": "0000886982-25-001521",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-08-14",
+      "accession": "0000769993-25-000537",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2025-06-27",
+      "accession": "0000769993-25-000340",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2025-05-16",
+      "accession": "0000769993-25-000301",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-05-09",
+      "accession": "0000769993-25-000253",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    }
+  ],
+  "filings_form4": [
+    {
+      "form": "4",
+      "date": "2026-02-26",
+      "accession": "0001193125-26-077683",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-13",
+      "accession": "0001517277-26-000003",
+      "document": "xslF345X05/wk-form4_1771017794.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-11",
+      "accession": "0001900188-26-000009",
+      "document": "xslF345X05/wk-form4_1770843936.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-11",
+      "accession": "0002050849-26-000009",
+      "document": "xslF345X05/wk-form4_1770843793.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-02",
+      "accession": "0001140361-26-003287",
+      "document": "xslF345X05/form4.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-02",
+      "accession": "0001140361-26-003283",
+      "document": "xslF345X05/form4.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-29",
+      "accession": "0001900188-26-000006",
+      "document": "xslF345X05/wk-form4_1769721321.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-29",
+      "accession": "0002021544-26-000010",
+      "document": "xslF345X05/wk-form4_1769721156.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-29",
+      "accession": "0001693709-26-000003",
+      "document": "xslF345X05/wk-form4_1769720980.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-27",
+      "accession": "0001850865-26-000003",
+      "document": "xslF345X05/wk-form4_1769548372.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-27",
+      "accession": "0001900188-26-000003",
+      "document": "xslF345X05/wk-form4_1769548250.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-27",
+      "accession": "0001792653-26-000006",
+      "document": "xslF345X05/wk-form4_1769548120.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-27",
+      "accession": "0002050849-26-000006",
+      "document": "xslF345X05/wk-form4_1769547913.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-27",
+      "accession": "0002021544-26-000007",
+      "document": "xslF345X05/wk-form4_1769547753.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001090352-26-000019",
+      "document": "xslF345X05/wk-form4_1769031823.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001090352-26-000017",
+      "document": "xslF345X05/wk-form4_1769031707.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001762375-26-000005",
+      "document": "xslF345X05/wk-form4_1769031576.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001214107-26-000003",
+      "document": "xslF345X05/wk-form4_1769031491.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001442039-26-000003",
+      "document": "xslF345X05/wk-form4_1769031405.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001438783-26-000003",
+      "document": "xslF345X05/wk-form4_1769031325.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001764707-26-000003",
+      "document": "xslF345X05/wk-form4_1769031230.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001303141-26-000003",
+      "document": "xslF345X05/wk-form4_1769031151.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001193107-26-000003",
+      "document": "xslF345X05/wk-form4_1769031038.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001087997-26-000003",
+      "document": "xslF345X05/wk-form4_1769030878.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001864341-26-000003",
+      "document": "xslF345X05/wk-form4_1769030796.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001520700-26-000003",
+      "document": "xslF345X05/wk-form4_1769030701.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001197664-26-000003",
+      "document": "xslF345X05/wk-form4_1769030603.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0002050849-26-000003",
+      "document": "xslF345X05/wk-form4_1769030515.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0001792653-26-000003",
+      "document": "xslF345X05/wk-form4_1769030420.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-21",
+      "accession": "0002021544-26-000003",
+      "document": "xslF345X05/wk-form4_1769030280.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-26",
+      "accession": "0001517277-25-000014",
+      "document": "xslF345X05/wk-form4_1764191048.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-17",
+      "accession": "0001214107-25-000013",
+      "document": "xslF345X05/wk-form4_1760731933.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-17",
+      "accession": "0001520700-25-000015",
+      "document": "xslF345X05/wk-form4_1760731896.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-17",
+      "accession": "0001087997-25-000012",
+      "document": "xslF345X05/wk-form4_1760731861.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-17",
+      "accession": "0001764707-25-000014",
+      "document": "xslF345X05/wk-form4_1760731825.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-17",
+      "accession": "0001438783-25-000014",
+      "document": "xslF345X05/wk-form4_1760731779.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-17",
+      "accession": "0001193107-25-000013",
+      "document": "xslF345X05/wk-form4_1760731710.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-29",
+      "accession": "0001754399-25-000012",
+      "document": "xslF345X05/wk-form4_1756497865.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-21",
+      "accession": "0001693709-25-000020",
+      "document": "xslF345X05/wk-form4_1755806675.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-15",
+      "accession": "0001090352-25-000010",
+      "document": "xslF345X05/wk-form4_1755288262.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-25",
+      "accession": "0001693709-25-000016",
+      "document": "xslF345X05/wk-form4_1753477783.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-25",
+      "accession": "0001517277-25-000011",
+      "document": "xslF345X05/wk-form4_1753477697.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-25",
+      "accession": "0001900188-25-000010",
+      "document": "xslF345X05/wk-form4_1753477587.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-21",
+      "accession": "0001087997-25-000010",
+      "document": "xslF345X05/wk-form4_1753128507.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-21",
+      "accession": "0001214107-25-000012",
+      "document": "xslF345X05/wk-form4_1753128466.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-21",
+      "accession": "0001438783-25-000013",
+      "document": "xslF345X05/wk-form4_1753128417.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-21",
+      "accession": "0001764707-25-000013",
+      "document": "xslF345X05/wk-form4_1753128366.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-21",
+      "accession": "0001520700-25-000014",
+      "document": "xslF345X05/wk-form4_1753128304.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-21",
+      "accession": "0001193107-25-000012",
+      "document": "xslF345X05/wk-form4_1753128213.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-05-15",
+      "accession": "0001693709-25-000010",
+      "document": "xslF345X05/wk-form4_1747339449.xml"
+    }
+  ],
+  "yf_institutional_holders": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Vanguard Group Inc",
+      "pctHeld": 0.097799994,
+      "Shares": 29014431,
+      "Value": 23294525647,
+      "pctChange": 0.0146
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.0784,
+      "Shares": 23251559,
+      "Value": 18667746318,
+      "pctChange": 0.0068
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.0659,
+      "Shares": 19564783,
+      "Value": 15707781392,
+      "pctChange": 0.020599999
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "JPMORGAN CHASE & CO",
+      "pctHeld": 0.026500002,
+      "Shares": 7874962,
+      "Value": 6322491875,
+      "pctChange": -0.4374
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0251,
+      "Shares": 7462643,
+      "Value": 5991457449,
+      "pctChange": -0.0298
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Fisher Asset Management, LLC",
+      "pctHeld": 0.0228,
+      "Shares": 6771556,
+      "Value": 5436611350,
+      "pctChange": 0.0165
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.0227,
+      "Shares": 6726721,
+      "Value": 5400615123,
+      "pctChange": 0.0068
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Bank of America Corporation",
+      "pctHeld": 0.0201,
+      "Shares": 5978034,
+      "Value": 4799524289,
+      "pctChange": 0.025799999
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "FMR, LLC",
+      "pctHeld": 0.0136,
+      "Shares": 4050198,
+      "Value": 3251741906,
+      "pctChange": 0.1344
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Capital World Investors",
+      "pctHeld": 0.0126,
+      "Shares": 3737815,
+      "Value": 3000942096,
+      "pctChange": -0.1014
+    }
+  ],
+  "yf_major_holders": {
+    "Value": {
+      "insidersPercentHeld": 0.0053600003,
+      "institutionsPercentHeld": 0.7565,
+      "institutionsFloatPercentHeld": 0.76058,
+      "institutionsCount": 3725.0
+    }
+  }
+}

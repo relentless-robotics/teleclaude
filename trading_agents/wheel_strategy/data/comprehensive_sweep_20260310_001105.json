@@ -1,0 +1,1452 @@
+[
+  {
+    "label": "d=0.40 DTE=7 10pos ultra",
+    "csp_delta": 0.4,
+    "cc_delta": 0.45,
+    "dte": 7,
+    "n_positions": 10,
+    "portfolio_return_pct": 195.9,
+    "total_premium": 497738.0,
+    "weekly_premium": 9572.0,
+    "avg_sharpe": 3.23,
+    "avg_dd": -17.2,
+    "worst_dd": -29.4,
+    "avg_wr": 74.0,
+    "total_assignments": 47,
+    "total_cycles": 344,
+    "best": "RIOT(+322%)",
+    "worst": "PLTR(+17%)",
+    "stocks": [
+      {
+        "ticker": "HOOD",
+        "return_pct": 191.68,
+        "premium": 45015.48,
+        "sharpe": 3.45,
+        "max_dd": -14.06,
+        "win_rate": 78.9,
+        "cycles": 38,
+        "assignments": 4
+      },
+      {
+        "ticker": "PLTR",
+        "return_pct": 17.45,
+        "premium": 3492.29,
+        "sharpe": 0.77,
+        "max_dd": -8.79,
+        "win_rate": 66.7,
+        "cycles": 6,
+        "assignments": 1
+      },
+      {
+        "ticker": "AMD",
+        "return_pct": 265.53,
+        "premium": 51914.34,
+        "sharpe": 5.52,
+        "max_dd": -9.14,
+        "win_rate": 86.2,
+        "cycles": 29,
+        "assignments": 2
+      },
+      {
+        "ticker": "SOFI",
+        "return_pct": 281.63,
+        "premium": 66780.55,
+        "sharpe": 3.68,
+        "max_dd": -17.62,
+        "win_rate": 77.5,
+        "cycles": 40,
+        "assignments": 5
+      },
+      {
+        "ticker": "MARA",
+        "return_pct": 205.19,
+        "premium": 58113.32,
+        "sharpe": 2.37,
+        "max_dd": -28.56,
+        "win_rate": 60.5,
+        "cycles": 43,
+        "assignments": 9
+      },
+      {
+        "ticker": "RIOT",
+        "return_pct": 322.45,
+        "premium": 94677.78,
+        "sharpe": 3.11,
+        "max_dd": -29.35,
+        "win_rate": 67.5,
+        "cycles": 40,
+        "assignments": 7
+      },
+      {
+        "ticker": "F",
+        "return_pct": 93.2,
+        "premium": 28824.38,
+        "sharpe": 3.17,
+        "max_dd": -13.92,
+        "win_rate": 78.4,
+        "cycles": 37,
+        "assignments": 4
+      },
+      {
+        "ticker": "INTC",
+        "return_pct": 301.93,
+        "premium": 61537.41,
+        "sharpe": 4.05,
+        "max_dd": -19.3,
+        "win_rate": 72.1,
+        "cycles": 43,
+        "assignments": 6
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 118.4,
+        "premium": 35863.14,
+        "sharpe": 3.13,
+        "max_dd": -18.16,
+        "win_rate": 71.9,
+        "cycles": 32,
+        "assignments": 5
+      },
+      {
+        "ticker": "AAL",
+        "return_pct": 161.81,
+        "premium": 51518.95,
+        "sharpe": 3.02,
+        "max_dd": -13.18,
+        "win_rate": 80.6,
+        "cycles": 36,
+        "assignments": 4
+      }
+    ]
+  },
+  {
+    "label": "d=0.35 DTE=14 7pos agg",
+    "csp_delta": 0.35,
+    "cc_delta": 0.4,
+    "dte": 14,
+    "n_positions": 7,
+    "portfolio_return_pct": 76.9,
+    "total_premium": 165674.0,
+    "weekly_premium": 3186.0,
+    "avg_sharpe": 1.95,
+    "avg_dd": -22.8,
+    "worst_dd": -38.9,
+    "avg_wr": 74.0,
+    "total_assignments": 19,
+    "total_cycles": 137,
+    "best": "RIOT(+138%)",
+    "worst": "F(+37%)",
+    "stocks": [
+      {
+        "ticker": "HOOD",
+        "return_pct": 68.07,
+        "premium": 19890.82,
+        "sharpe": 2.13,
+        "max_dd": -19.03,
+        "win_rate": 81.0,
+        "cycles": 21,
+        "assignments": 2
+      },
+      {
+        "ticker": "PLTR",
+        "return_pct": 56.67,
+        "premium": 17915.55,
+        "sharpe": 1.79,
+        "max_dd": -19.87,
+        "win_rate": 72.7,
+        "cycles": 22,
+        "assignments": 3
+      },
+      {
+        "ticker": "AMD",
+        "return_pct": 70.87,
+        "premium": 14321.66,
+        "sharpe": 1.7,
+        "max_dd": -25.94,
+        "win_rate": 77.8,
+        "cycles": 18,
+        "assignments": 2
+      },
+      {
+        "ticker": "SOFI",
+        "return_pct": 87.95,
+        "premium": 26149.89,
+        "sharpe": 2.28,
+        "max_dd": -18.19,
+        "win_rate": 85.0,
+        "cycles": 20,
+        "assignments": 2
+      },
+      {
+        "ticker": "MARA",
+        "return_pct": 79.34,
+        "premium": 35573.29,
+        "sharpe": 1.39,
+        "max_dd": -38.93,
+        "win_rate": 52.9,
+        "cycles": 17,
+        "assignments": 4
+      },
+      {
+        "ticker": "RIOT",
+        "return_pct": 137.86,
+        "premium": 37455.89,
+        "sharpe": 1.9,
+        "max_dd": -26.98,
+        "win_rate": 57.1,
+        "cycles": 21,
+        "assignments": 5
+      },
+      {
+        "ticker": "F",
+        "return_pct": 37.3,
+        "premium": 14366.64,
+        "sharpe": 2.43,
+        "max_dd": -10.92,
+        "win_rate": 94.4,
+        "cycles": 18,
+        "assignments": 1
+      }
+    ]
+  },
+  {
+    "label": "d=0.30 DTE=21 7pos tech-heavy",
+    "csp_delta": 0.3,
+    "cc_delta": 0.35,
+    "dte": 21,
+    "n_positions": 7,
+    "portfolio_return_pct": 62.0,
+    "total_premium": 95067.0,
+    "weekly_premium": 1828.0,
+    "avg_sharpe": 2.14,
+    "avg_dd": -15.0,
+    "worst_dd": -25.8,
+    "avg_wr": 82.0,
+    "total_assignments": 11,
+    "total_cycles": 102,
+    "best": "INTC(+117%)",
+    "worst": "HOOD(+29%)",
+    "stocks": [
+      {
+        "ticker": "PLTR",
+        "return_pct": 37.19,
+        "premium": 10604.21,
+        "sharpe": 1.19,
+        "max_dd": -21.46,
+        "win_rate": 73.3,
+        "cycles": 15,
+        "assignments": 2
+      },
+      {
+        "ticker": "INTC",
+        "return_pct": 117.47,
+        "premium": 19295.82,
+        "sharpe": 2.92,
+        "max_dd": -10.81,
+        "win_rate": 73.3,
+        "cycles": 15,
+        "assignments": 2
+      },
+      {
+        "ticker": "HOOD",
+        "return_pct": 28.66,
+        "premium": 11090.66,
+        "sharpe": 0.95,
+        "max_dd": -24.24,
+        "win_rate": 93.8,
+        "cycles": 16,
+        "assignments": 1
+      },
+      {
+        "ticker": "SOFI",
+        "return_pct": 68.12,
+        "premium": 18296.87,
+        "sharpe": 1.72,
+        "max_dd": -25.76,
+        "win_rate": 78.6,
+        "cycles": 14,
+        "assignments": 2
+      },
+      {
+        "ticker": "AMD",
+        "return_pct": 91.63,
+        "premium": 14810.89,
+        "sharpe": 3.05,
+        "max_dd": -8.28,
+        "win_rate": 84.6,
+        "cycles": 13,
+        "assignments": 1
+      },
+      {
+        "ticker": "F",
+        "return_pct": 32.55,
+        "premium": 7971.99,
+        "sharpe": 3.14,
+        "max_dd": -4.23,
+        "win_rate": 93.8,
+        "cycles": 16,
+        "assignments": 1
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 58.16,
+        "premium": 12996.22,
+        "sharpe": 2.04,
+        "max_dd": -10.48,
+        "win_rate": 76.9,
+        "cycles": 13,
+        "assignments": 2
+      }
+    ]
+  },
+  {
+    "label": "d=0.30 DTE=21 10pos mix",
+    "csp_delta": 0.3,
+    "cc_delta": 0.35,
+    "dte": 21,
+    "n_positions": 10,
+    "portfolio_return_pct": 40.8,
+    "total_premium": 74285.0,
+    "weekly_premium": 1429.0,
+    "avg_sharpe": 1.77,
+    "avg_dd": -12.2,
+    "worst_dd": -32.5,
+    "avg_wr": 82.0,
+    "total_assignments": 16,
+    "total_cycles": 130,
+    "best": "INTC(+106%)",
+    "worst": "T(+7%)",
+    "stocks": [
+      {
+        "ticker": "BAC",
+        "return_pct": 10.36,
+        "premium": 3574.53,
+        "sharpe": 0.66,
+        "max_dd": -8.91,
+        "win_rate": 80.0,
+        "cycles": 15,
+        "assignments": 2
+      },
+      {
+        "ticker": "C",
+        "return_pct": 39.72,
+        "premium": 7964.44,
+        "sharpe": 2.79,
+        "max_dd": -4.45,
+        "win_rate": 72.7,
+        "cycles": 11,
+        "assignments": 2
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 54.38,
+        "premium": 8562.07,
+        "sharpe": 2.01,
+        "max_dd": -10.25,
+        "win_rate": 76.9,
+        "cycles": 13,
+        "assignments": 2
+      },
+      {
+        "ticker": "AAL",
+        "return_pct": 42.5,
+        "premium": 10927.66,
+        "sharpe": 1.37,
+        "max_dd": -18.22,
+        "win_rate": 72.7,
+        "cycles": 11,
+        "assignments": 2
+      },
+      {
+        "ticker": "HOOD",
+        "return_pct": 28.96,
+        "premium": 8999.64,
+        "sharpe": 0.77,
+        "max_dd": -32.49,
+        "win_rate": 94.1,
+        "cycles": 17,
+        "assignments": 1
+      },
+      {
+        "ticker": "F",
+        "return_pct": 31.93,
+        "premium": 5494.97,
+        "sharpe": 3.13,
+        "max_dd": -4.21,
+        "win_rate": 93.8,
+        "cycles": 16,
+        "assignments": 1
+      },
+      {
+        "ticker": "PLTR",
+        "return_pct": 21.29,
+        "premium": 2261.27,
+        "sharpe": 1.78,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 3,
+        "assignments": 0
+      },
+      {
+        "ticker": "INTC",
+        "return_pct": 106.27,
+        "premium": 12248.12,
+        "sharpe": 2.85,
+        "max_dd": -10.76,
+        "win_rate": 73.3,
+        "cycles": 15,
+        "assignments": 2
+      },
+      {
+        "ticker": "SOFI",
+        "return_pct": 66.15,
+        "premium": 11855.24,
+        "sharpe": 1.82,
+        "max_dd": -22.91,
+        "win_rate": 78.6,
+        "cycles": 14,
+        "assignments": 2
+      },
+      {
+        "ticker": "T",
+        "return_pct": 6.77,
+        "premium": 2397.02,
+        "sharpe": 0.49,
+        "max_dd": -9.33,
+        "win_rate": 73.3,
+        "cycles": 15,
+        "assignments": 2
+      }
+    ]
+  },
+  {
+    "label": "d=0.25 DTE=21 7pos std",
+    "csp_delta": 0.25,
+    "cc_delta": 0.3,
+    "dte": 21,
+    "n_positions": 7,
+    "portfolio_return_pct": 36.3,
+    "total_premium": 65757.0,
+    "weekly_premium": 1265.0,
+    "avg_sharpe": 2.3,
+    "avg_dd": -10.8,
+    "worst_dd": -21.8,
+    "avg_wr": 90.0,
+    "total_assignments": 8,
+    "total_cycles": 100,
+    "best": "PLTR(+58%)",
+    "worst": "AAL(+24%)",
+    "stocks": [
+      {
+        "ticker": "BAC",
+        "return_pct": 24.21,
+        "premium": 5462.64,
+        "sharpe": 1.64,
+        "max_dd": -6.92,
+        "win_rate": 78.6,
+        "cycles": 14,
+        "assignments": 2
+      },
+      {
+        "ticker": "C",
+        "return_pct": 27.28,
+        "premium": 6553.06,
+        "sharpe": 3.35,
+        "max_dd": 0.0,
+        "win_rate": 93.3,
+        "cycles": 15,
+        "assignments": 1
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 56.24,
+        "premium": 11703.67,
+        "sharpe": 3.68,
+        "max_dd": -2.69,
+        "win_rate": 92.3,
+        "cycles": 13,
+        "assignments": 1
+      },
+      {
+        "ticker": "AAL",
+        "return_pct": 24.1,
+        "premium": 10937.17,
+        "sharpe": 1.15,
+        "max_dd": -21.8,
+        "win_rate": 92.9,
+        "cycles": 14,
+        "assignments": 1
+      },
+      {
+        "ticker": "HOOD",
+        "return_pct": 33.91,
+        "premium": 11356.37,
+        "sharpe": 1.42,
+        "max_dd": -21.31,
+        "win_rate": 92.9,
+        "cycles": 14,
+        "assignments": 1
+      },
+      {
+        "ticker": "F",
+        "return_pct": 30.09,
+        "premium": 7619.73,
+        "sharpe": 2.99,
+        "max_dd": -4.31,
+        "win_rate": 93.8,
+        "cycles": 16,
+        "assignments": 1
+      },
+      {
+        "ticker": "PLTR",
+        "return_pct": 58.06,
+        "premium": 12124.53,
+        "sharpe": 1.84,
+        "max_dd": -18.31,
+        "win_rate": 85.7,
+        "cycles": 14,
+        "assignments": 1
+      }
+    ]
+  },
+  {
+    "label": "d=0.30 DTE=30 7pos std",
+    "csp_delta": 0.3,
+    "cc_delta": 0.35,
+    "dte": 30,
+    "n_positions": 7,
+    "portfolio_return_pct": 35.1,
+    "total_premium": 62002.0,
+    "weekly_premium": 1192.0,
+    "avg_sharpe": 1.64,
+    "avg_dd": -12.7,
+    "worst_dd": -27.3,
+    "avg_wr": 77.0,
+    "total_assignments": 11,
+    "total_cycles": 74,
+    "best": "DAL(+65%)",
+    "worst": "BAC(+17%)",
+    "stocks": [
+      {
+        "ticker": "BAC",
+        "return_pct": 16.96,
+        "premium": 4888.22,
+        "sharpe": 1.03,
+        "max_dd": -6.9,
+        "win_rate": 62.5,
+        "cycles": 8,
+        "assignments": 2
+      },
+      {
+        "ticker": "C",
+        "return_pct": 33.0,
+        "premium": 7245.07,
+        "sharpe": 1.7,
+        "max_dd": -7.84,
+        "win_rate": 72.7,
+        "cycles": 11,
+        "assignments": 2
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 65.32,
+        "premium": 10456.94,
+        "sharpe": 3.4,
+        "max_dd": -4.41,
+        "win_rate": 70.0,
+        "cycles": 10,
+        "assignments": 2
+      },
+      {
+        "ticker": "AAL",
+        "return_pct": 31.51,
+        "premium": 10252.57,
+        "sharpe": 0.91,
+        "max_dd": -18.3,
+        "win_rate": 70.0,
+        "cycles": 10,
+        "assignments": 2
+      },
+      {
+        "ticker": "HOOD",
+        "return_pct": 19.33,
+        "premium": 9060.89,
+        "sharpe": 0.56,
+        "max_dd": -27.32,
+        "win_rate": 92.3,
+        "cycles": 13,
+        "assignments": 1
+      },
+      {
+        "ticker": "F",
+        "return_pct": 27.94,
+        "premium": 7247.09,
+        "sharpe": 2.48,
+        "max_dd": -3.88,
+        "win_rate": 91.7,
+        "cycles": 12,
+        "assignments": 1
+      },
+      {
+        "ticker": "PLTR",
+        "return_pct": 51.31,
+        "premium": 12850.75,
+        "sharpe": 1.41,
+        "max_dd": -20.48,
+        "win_rate": 80.0,
+        "cycles": 10,
+        "assignments": 1
+      }
+    ]
+  },
+  {
+    "label": "d=0.30 DTE=21 7pos balanced",
+    "csp_delta": 0.3,
+    "cc_delta": 0.35,
+    "dte": 21,
+    "n_positions": 7,
+    "portfolio_return_pct": 26.0,
+    "total_premium": 49579.0,
+    "weekly_premium": 953.0,
+    "avg_sharpe": 1.63,
+    "avg_dd": -9.2,
+    "worst_dd": -21.5,
+    "avg_wr": 79.0,
+    "total_assignments": 12,
+    "total_cycles": 98,
+    "best": "DAL(+58%)",
+    "worst": "T(+7%)",
+    "stocks": [
+      {
+        "ticker": "PLTR",
+        "return_pct": 37.19,
+        "premium": 10604.21,
+        "sharpe": 1.19,
+        "max_dd": -21.46,
+        "win_rate": 73.3,
+        "cycles": 15,
+        "assignments": 2
+      },
+      {
+        "ticker": "BAC",
+        "return_pct": 12.83,
+        "premium": 4618.71,
+        "sharpe": 0.85,
+        "max_dd": -7.84,
+        "win_rate": 80.0,
+        "cycles": 15,
+        "assignments": 2
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 58.16,
+        "premium": 12996.22,
+        "sharpe": 2.04,
+        "max_dd": -10.48,
+        "win_rate": 76.9,
+        "cycles": 13,
+        "assignments": 2
+      },
+      {
+        "ticker": "KO",
+        "return_pct": 16.66,
+        "premium": 4101.1,
+        "sharpe": 1.95,
+        "max_dd": -4.18,
+        "win_rate": 76.9,
+        "cycles": 13,
+        "assignments": 2
+      },
+      {
+        "ticker": "XOM",
+        "return_pct": 17.4,
+        "premium": 5355.07,
+        "sharpe": 1.78,
+        "max_dd": -5.68,
+        "win_rate": 81.8,
+        "cycles": 11,
+        "assignments": 1
+      },
+      {
+        "ticker": "T",
+        "return_pct": 7.46,
+        "premium": 3931.34,
+        "sharpe": 0.48,
+        "max_dd": -10.74,
+        "win_rate": 73.3,
+        "cycles": 15,
+        "assignments": 2
+      },
+      {
+        "ticker": "F",
+        "return_pct": 32.55,
+        "premium": 7971.99,
+        "sharpe": 3.14,
+        "max_dd": -4.23,
+        "win_rate": 93.8,
+        "cycles": 16,
+        "assignments": 1
+      }
+    ]
+  },
+  {
+    "label": "d=0.25 DTE=30 7pos std",
+    "csp_delta": 0.25,
+    "cc_delta": 0.3,
+    "dte": 30,
+    "n_positions": 7,
+    "portfolio_return_pct": 23.8,
+    "total_premium": 46728.0,
+    "weekly_premium": 899.0,
+    "avg_sharpe": 1.93,
+    "avg_dd": -8.3,
+    "worst_dd": -30.0,
+    "avg_wr": 92.0,
+    "total_assignments": 6,
+    "total_cycles": 82,
+    "best": "DAL(+47%)",
+    "worst": "BAC(+7%)",
+    "stocks": [
+      {
+        "ticker": "BAC",
+        "return_pct": 7.44,
+        "premium": 3795.93,
+        "sharpe": 0.82,
+        "max_dd": -6.56,
+        "win_rate": 90.0,
+        "cycles": 10,
+        "assignments": 1
+      },
+      {
+        "ticker": "C",
+        "return_pct": 18.5,
+        "premium": 3315.98,
+        "sharpe": 2.95,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 13,
+        "assignments": 0
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 46.54,
+        "premium": 8818.79,
+        "sharpe": 2.97,
+        "max_dd": 0.0,
+        "win_rate": 90.0,
+        "cycles": 10,
+        "assignments": 1
+      },
+      {
+        "ticker": "AAL",
+        "return_pct": 25.72,
+        "premium": 10332.74,
+        "sharpe": 1.29,
+        "max_dd": -13.93,
+        "win_rate": 90.0,
+        "cycles": 10,
+        "assignments": 1
+      },
+      {
+        "ticker": "HOOD",
+        "return_pct": 7.6,
+        "premium": 6771.83,
+        "sharpe": 0.22,
+        "max_dd": -29.98,
+        "win_rate": 92.9,
+        "cycles": 14,
+        "assignments": 1
+      },
+      {
+        "ticker": "F",
+        "return_pct": 22.68,
+        "premium": 6357.51,
+        "sharpe": 2.31,
+        "max_dd": -3.74,
+        "win_rate": 91.7,
+        "cycles": 12,
+        "assignments": 1
+      },
+      {
+        "ticker": "PLTR",
+        "return_pct": 38.29,
+        "premium": 7334.73,
+        "sharpe": 2.95,
+        "max_dd": -4.2,
+        "win_rate": 92.3,
+        "cycles": 13,
+        "assignments": 1
+      }
+    ]
+  },
+  {
+    "label": "d=0.25 DTE=30 10pos",
+    "csp_delta": 0.25,
+    "cc_delta": 0.3,
+    "dte": 30,
+    "n_positions": 10,
+    "portfolio_return_pct": 25.4,
+    "total_premium": 45696.0,
+    "weekly_premium": 879.0,
+    "avg_sharpe": 1.8,
+    "avg_dd": -8.2,
+    "worst_dd": -29.2,
+    "avg_wr": 93.0,
+    "total_assignments": 7,
+    "total_cycles": 104,
+    "best": "INTC(+64%)",
+    "worst": "T(+3%)",
+    "stocks": [
+      {
+        "ticker": "BAC",
+        "return_pct": 8.54,
+        "premium": 2337.49,
+        "sharpe": 1.19,
+        "max_dd": -4.73,
+        "win_rate": 90.0,
+        "cycles": 10,
+        "assignments": 1
+      },
+      {
+        "ticker": "C",
+        "return_pct": 18.99,
+        "premium": 2240.13,
+        "sharpe": 3.33,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 12,
+        "assignments": 0
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 50.31,
+        "premium": 6995.17,
+        "sharpe": 3.05,
+        "max_dd": 0.0,
+        "win_rate": 90.0,
+        "cycles": 10,
+        "assignments": 1
+      },
+      {
+        "ticker": "AAL",
+        "return_pct": 25.26,
+        "premium": 7134.34,
+        "sharpe": 1.28,
+        "max_dd": -13.84,
+        "win_rate": 90.0,
+        "cycles": 10,
+        "assignments": 1
+      },
+      {
+        "ticker": "HOOD",
+        "return_pct": 20.43,
+        "premium": 6021.53,
+        "sharpe": 0.64,
+        "max_dd": -29.23,
+        "win_rate": 92.3,
+        "cycles": 13,
+        "assignments": 1
+      },
+      {
+        "ticker": "F",
+        "return_pct": 22.04,
+        "premium": 4303.49,
+        "sharpe": 2.33,
+        "max_dd": -3.58,
+        "win_rate": 91.7,
+        "cycles": 12,
+        "assignments": 1
+      },
+      {
+        "ticker": "PLTR",
+        "return_pct": 9.17,
+        "premium": 918.89,
+        "sharpe": 1.02,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 2,
+        "assignments": 0
+      },
+      {
+        "ticker": "INTC",
+        "return_pct": 63.71,
+        "premium": 7545.48,
+        "sharpe": 3.54,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 10,
+        "assignments": 0
+      },
+      {
+        "ticker": "SOFI",
+        "return_pct": 32.83,
+        "premium": 6965.4,
+        "sharpe": 1.35,
+        "max_dd": -18.58,
+        "win_rate": 90.9,
+        "cycles": 11,
+        "assignments": 1
+      },
+      {
+        "ticker": "T",
+        "return_pct": 2.92,
+        "premium": 1233.85,
+        "sharpe": 0.24,
+        "max_dd": -11.78,
+        "win_rate": 85.7,
+        "cycles": 14,
+        "assignments": 1
+      }
+    ]
+  },
+  {
+    "label": "d=0.25 DTE=21 12pos wide",
+    "csp_delta": 0.25,
+    "cc_delta": 0.3,
+    "dte": 21,
+    "n_positions": 12,
+    "portfolio_return_pct": 25.0,
+    "total_premium": 44327.0,
+    "weekly_premium": 852.0,
+    "avg_sharpe": 1.86,
+    "avg_dd": -8.8,
+    "worst_dd": -24.6,
+    "avg_wr": 83.0,
+    "total_assignments": 11,
+    "total_cycles": 136,
+    "best": "INTC(+63%)",
+    "worst": "PEP(+0%)",
+    "stocks": [
+      {
+        "ticker": "BAC",
+        "return_pct": 30.12,
+        "premium": 2991.96,
+        "sharpe": 1.96,
+        "max_dd": -7.21,
+        "win_rate": 78.6,
+        "cycles": 14,
+        "assignments": 2
+      },
+      {
+        "ticker": "C",
+        "return_pct": 13.19,
+        "premium": 1570.58,
+        "sharpe": 2.31,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 6,
+        "assignments": 0
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 33.23,
+        "premium": 4040.64,
+        "sharpe": 3.74,
+        "max_dd": -1.82,
+        "win_rate": 92.3,
+        "cycles": 13,
+        "assignments": 1
+      },
+      {
+        "ticker": "AAL",
+        "return_pct": 23.79,
+        "premium": 6094.19,
+        "sharpe": 1.2,
+        "max_dd": -20.47,
+        "win_rate": 92.9,
+        "cycles": 14,
+        "assignments": 1
+      },
+      {
+        "ticker": "HOOD",
+        "return_pct": 41.05,
+        "premium": 5680.46,
+        "sharpe": 1.25,
+        "max_dd": -19.7,
+        "win_rate": 92.9,
+        "cycles": 14,
+        "assignments": 1
+      },
+      {
+        "ticker": "F",
+        "return_pct": 28.57,
+        "premium": 4192.15,
+        "sharpe": 3.01,
+        "max_dd": -4.04,
+        "win_rate": 93.8,
+        "cycles": 16,
+        "assignments": 1
+      },
+      {
+        "ticker": "PLTR",
+        "return_pct": 10.56,
+        "premium": 1101.56,
+        "sharpe": 1.02,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 1,
+        "assignments": 0
+      },
+      {
+        "ticker": "INTC",
+        "return_pct": 62.82,
+        "premium": 5903.22,
+        "sharpe": 1.96,
+        "max_dd": -16.59,
+        "win_rate": 88.2,
+        "cycles": 17,
+        "assignments": 1
+      },
+      {
+        "ticker": "SOFI",
+        "return_pct": 38.21,
+        "premium": 8337.92,
+        "sharpe": 1.36,
+        "max_dd": -24.59,
+        "win_rate": 92.9,
+        "cycles": 14,
+        "assignments": 1
+      },
+      {
+        "ticker": "T",
+        "return_pct": 4.37,
+        "premium": 1934.71,
+        "sharpe": 0.27,
+        "max_dd": -11.3,
+        "win_rate": 75.0,
+        "cycles": 16,
+        "assignments": 2
+      },
+      {
+        "ticker": "KO",
+        "return_pct": 13.69,
+        "premium": 2479.16,
+        "sharpe": 4.29,
+        "max_dd": 0.0,
+        "win_rate": 90.9,
+        "cycles": 11,
+        "assignments": 1
+      },
+      {
+        "ticker": "PEP",
+        "return_pct": 0.0,
+        "premium": 0,
+        "sharpe": 0,
+        "max_dd": 0.0,
+        "win_rate": 0,
+        "cycles": 0,
+        "assignments": 0
+      }
+    ]
+  },
+  {
+    "label": "d=0.25 DTE=45 7pos std",
+    "csp_delta": 0.25,
+    "cc_delta": 0.3,
+    "dte": 45,
+    "n_positions": 7,
+    "portfolio_return_pct": 26.6,
+    "total_premium": 42669.0,
+    "weekly_premium": 821.0,
+    "avg_sharpe": 1.62,
+    "avg_dd": -7.7,
+    "worst_dd": -23.4,
+    "avg_wr": 87.0,
+    "total_assignments": 7,
+    "total_cycles": 56,
+    "best": "AAL(+39%)",
+    "worst": "HOOD(+14%)",
+    "stocks": [
+      {
+        "ticker": "BAC",
+        "return_pct": 15.34,
+        "premium": 5705.24,
+        "sharpe": 1.59,
+        "max_dd": -3.81,
+        "win_rate": 85.7,
+        "cycles": 7,
+        "assignments": 1
+      },
+      {
+        "ticker": "C",
+        "return_pct": 17.86,
+        "premium": 3022.63,
+        "sharpe": 2.17,
+        "max_dd": 0.0,
+        "win_rate": 87.5,
+        "cycles": 8,
+        "assignments": 1
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 37.56,
+        "premium": 6014.55,
+        "sharpe": 2.04,
+        "max_dd": 0.0,
+        "win_rate": 85.7,
+        "cycles": 7,
+        "assignments": 1
+      },
+      {
+        "ticker": "AAL",
+        "return_pct": 39.07,
+        "premium": 10267.49,
+        "sharpe": 1.71,
+        "max_dd": -6.54,
+        "win_rate": 87.5,
+        "cycles": 8,
+        "assignments": 1
+      },
+      {
+        "ticker": "HOOD",
+        "return_pct": 14.35,
+        "premium": 6185.64,
+        "sharpe": 0.41,
+        "max_dd": -23.43,
+        "win_rate": 87.5,
+        "cycles": 8,
+        "assignments": 1
+      },
+      {
+        "ticker": "F",
+        "return_pct": 23.42,
+        "premium": 5132.5,
+        "sharpe": 2.05,
+        "max_dd": -3.0,
+        "win_rate": 88.9,
+        "cycles": 9,
+        "assignments": 1
+      },
+      {
+        "ticker": "PLTR",
+        "return_pct": 38.89,
+        "premium": 6340.86,
+        "sharpe": 1.36,
+        "max_dd": -16.82,
+        "win_rate": 88.9,
+        "cycles": 9,
+        "assignments": 1
+      }
+    ]
+  },
+  {
+    "label": "d=0.20 DTE=30 7pos std",
+    "csp_delta": 0.2,
+    "cc_delta": 0.25,
+    "dte": 30,
+    "n_positions": 7,
+    "portfolio_return_pct": 18.3,
+    "total_premium": 35270.0,
+    "weekly_premium": 678.0,
+    "avg_sharpe": 1.59,
+    "avg_dd": -9.1,
+    "worst_dd": -27.9,
+    "avg_wr": 94.0,
+    "total_assignments": 5,
+    "total_cycles": 85,
+    "best": "PLTR(+34%)",
+    "worst": "BAC(+4%)",
+    "stocks": [
+      {
+        "ticker": "BAC",
+        "return_pct": 4.24,
+        "premium": 2821.54,
+        "sharpe": 0.46,
+        "max_dd": -6.98,
+        "win_rate": 90.9,
+        "cycles": 11,
+        "assignments": 1
+      },
+      {
+        "ticker": "C",
+        "return_pct": 15.9,
+        "premium": 2745.06,
+        "sharpe": 2.62,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 13,
+        "assignments": 0
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 31.68,
+        "premium": 4768.52,
+        "sharpe": 2.65,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 13,
+        "assignments": 0
+      },
+      {
+        "ticker": "AAL",
+        "return_pct": 14.34,
+        "premium": 7502.88,
+        "sharpe": 0.79,
+        "max_dd": -14.11,
+        "win_rate": 90.9,
+        "cycles": 11,
+        "assignments": 1
+      },
+      {
+        "ticker": "HOOD",
+        "return_pct": 8.35,
+        "premium": 7088.02,
+        "sharpe": 0.3,
+        "max_dd": -27.92,
+        "win_rate": 91.7,
+        "cycles": 12,
+        "assignments": 1
+      },
+      {
+        "ticker": "F",
+        "return_pct": 19.91,
+        "premium": 5960.96,
+        "sharpe": 2.09,
+        "max_dd": -3.82,
+        "win_rate": 91.7,
+        "cycles": 12,
+        "assignments": 1
+      },
+      {
+        "ticker": "PLTR",
+        "return_pct": 33.69,
+        "premium": 4383.47,
+        "sharpe": 2.21,
+        "max_dd": -11.06,
+        "win_rate": 92.3,
+        "cycles": 13,
+        "assignments": 1
+      }
+    ]
+  },
+  {
+    "label": "d=0.25 DTE=30 12pos",
+    "csp_delta": 0.25,
+    "cc_delta": 0.3,
+    "dte": 30,
+    "n_positions": 12,
+    "portfolio_return_pct": 19.9,
+    "total_premium": 35149.0,
+    "weekly_premium": 676.0,
+    "avg_sharpe": 1.64,
+    "avg_dd": -5.8,
+    "worst_dd": -18.0,
+    "avg_wr": 85.0,
+    "total_assignments": 8,
+    "total_cycles": 104,
+    "best": "INTC(+59%)",
+    "worst": "PEP(+0%)",
+    "stocks": [
+      {
+        "ticker": "BAC",
+        "return_pct": 6.36,
+        "premium": 1986.77,
+        "sharpe": 0.73,
+        "max_dd": -5.73,
+        "win_rate": 90.0,
+        "cycles": 10,
+        "assignments": 1
+      },
+      {
+        "ticker": "C",
+        "return_pct": 9.27,
+        "premium": 1105.51,
+        "sharpe": 1.83,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 4,
+        "assignments": 0
+      },
+      {
+        "ticker": "DAL",
+        "return_pct": 31.51,
+        "premium": 3609.32,
+        "sharpe": 3.21,
+        "max_dd": 0.0,
+        "win_rate": 90.0,
+        "cycles": 10,
+        "assignments": 1
+      },
+      {
+        "ticker": "AAL",
+        "return_pct": 26.02,
+        "premium": 5822.12,
+        "sharpe": 1.37,
+        "max_dd": -12.97,
+        "win_rate": 90.0,
+        "cycles": 10,
+        "assignments": 1
+      },
+      {
+        "ticker": "HOOD",
+        "return_pct": 26.11,
+        "premium": 3953.84,
+        "sharpe": 0.96,
+        "max_dd": -15.47,
+        "win_rate": 90.9,
+        "cycles": 11,
+        "assignments": 1
+      },
+      {
+        "ticker": "F",
+        "return_pct": 22.07,
+        "premium": 3596.37,
+        "sharpe": 2.3,
+        "max_dd": -3.76,
+        "win_rate": 91.7,
+        "cycles": 12,
+        "assignments": 1
+      },
+      {
+        "ticker": "PLTR",
+        "return_pct": 11.0,
+        "premium": 918.89,
+        "sharpe": 1.02,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 2,
+        "assignments": 0
+      },
+      {
+        "ticker": "INTC",
+        "return_pct": 59.03,
+        "premium": 5810.03,
+        "sharpe": 3.55,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 10,
+        "assignments": 0
+      },
+      {
+        "ticker": "SOFI",
+        "return_pct": 32.08,
+        "premium": 5625.31,
+        "sharpe": 1.34,
+        "max_dd": -18.02,
+        "win_rate": 90.9,
+        "cycles": 11,
+        "assignments": 1
+      },
+      {
+        "ticker": "T",
+        "return_pct": 3.13,
+        "premium": 1201.57,
+        "sharpe": 0.23,
+        "max_dd": -13.98,
+        "win_rate": 85.7,
+        "cycles": 14,
+        "assignments": 1
+      },
+      {
+        "ticker": "KO",
+        "return_pct": 12.68,
+        "premium": 1519.28,
+        "sharpe": 3.12,
+        "max_dd": 0.0,
+        "win_rate": 90.0,
+        "cycles": 10,
+        "assignments": 1
+      },
+      {
+        "ticker": "PEP",
+        "return_pct": 0.0,
+        "premium": 0,
+        "sharpe": 0,
+        "max_dd": 0.0,
+        "win_rate": 0,
+        "cycles": 0,
+        "assignments": 0
+      }
+    ]
+  },
+  {
+    "label": "d=0.15 DTE=30 7pos safe",
+    "csp_delta": 0.15,
+    "cc_delta": 0.2,
+    "dte": 30,
+    "n_positions": 7,
+    "portfolio_return_pct": 7.6,
+    "total_premium": 12143.0,
+    "weekly_premium": 234.0,
+    "avg_sharpe": 2.07,
+    "avg_dd": -2.5,
+    "worst_dd": -11.5,
+    "avg_wr": 96.0,
+    "total_assignments": 2,
+    "total_cycles": 74,
+    "best": "PEP(+16%)",
+    "worst": "JNJ(+2%)",
+    "stocks": [
+      {
+        "ticker": "BAC",
+        "return_pct": 4.64,
+        "premium": 2406.95,
+        "sharpe": 0.57,
+        "max_dd": -5.79,
+        "win_rate": 90.9,
+        "cycles": 11,
+        "assignments": 1
+      },
+      {
+        "ticker": "C",
+        "return_pct": 11.74,
+        "premium": 2281.11,
+        "sharpe": 2.41,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 13,
+        "assignments": 0
+      },
+      {
+        "ticker": "KO",
+        "return_pct": 5.18,
+        "premium": 765.67,
+        "sharpe": 3.59,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 14,
+        "assignments": 0
+      },
+      {
+        "ticker": "PEP",
+        "return_pct": 15.65,
+        "premium": 2529.77,
+        "sharpe": 3.24,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 10,
+        "assignments": 0
+      },
+      {
+        "ticker": "JNJ",
+        "return_pct": 1.61,
+        "premium": 232.56,
+        "sharpe": 1.45,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 2,
+        "assignments": 0
+      },
+      {
+        "ticker": "T",
+        "return_pct": 4.53,
+        "premium": 1544.77,
+        "sharpe": 0.33,
+        "max_dd": -11.54,
+        "win_rate": 84.6,
+        "cycles": 13,
+        "assignments": 1
+      },
+      {
+        "ticker": "XOM",
+        "return_pct": 10.05,
+        "premium": 2382.0,
+        "sharpe": 2.92,
+        "max_dd": 0.0,
+        "win_rate": 100.0,
+        "cycles": 11,
+        "assignments": 0
+      }
+    ]
+  }
+]

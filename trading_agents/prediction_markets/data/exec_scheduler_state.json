@@ -1,0 +1,110 @@
+{
+  "last_morning_scan": "2026-04-01T12:01:06.505090+00:00",
+  "last_evening_report": null,
+  "last_overnight_scan": null,
+  "today": "2026-04-01",
+  "morning_opportunities": [
+    {
+      "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "market_price": 0.247,
+      "fair_value": 0.347,
+      "side": "YES",
+      "action": "BUY_YES"
+    },
+    {
+      "fair_value": 0.1874,
+      "action": "SELL_NO"
+    },
+    {
+      "fair_value": 0.1874,
+      "action": "SELL_NO"
+    },
+    {
+      "question": "Will Argentina win the 2026 FIFA World Cup?",
+      "market_price": 0.093,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will Brazil win the 2026 FIFA World Cup?",
+      "market_price": 0.0865,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will Portugal win the 2026 FIFA World Cup?",
+      "market_price": 0.0685,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will China invade Taiwan by end of 2026?",
+      "market_price": 0.0985,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will Trump acquire Greenland before 2027?",
+      "market_price": 0.0855,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Xi Jinping out before 2027?",
+      "market_price": 0.0815,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will Germany win the 2026 FIFA World Cup?",
+      "market_price": 0.0535,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will the Detroit Pistons win the 2026 NBA Finals?",
+      "market_price": 0.0455,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will Luka Doncic win the 2025\u20132026 NBA MVP?",
+      "market_price": 0.0505,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will the Minnesota Wild win the 2026 NHL Stanley Cup?",
+      "market_price": 0.0495,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will the Los Angeles Lakers win the 2026 NBA Finals?",
+      "market_price": 0.0395,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "market_price": 0.0345,
+      "action": "BUY_NO"
+    },
+    {
+      "fair_value": 0.043,
+      "action": "SELL_YES"
+    },
+    {
+      "fair_value": 0.043,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will Norway win the 2026 FIFA World Cup?",
+      "market_price": 0.0295,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will Atletico Madrid win the 2025\u201326 Champions League?",
+      "market_price": 0.034,
+      "action": "BUY_NO"
+    },
+    {
+      "question": "Will Jesus Christ return before 2027?",
+      "market_price": 0.0385,
+      "action": "BUY_NO"
+    }
+  ],
+  "daily_trades": 0,
+  "daily_pnl": 0.0,
+  "status": "running",
+  "last_updated": "2026-04-01T16:01:22.829000+00:00"
+}

@@ -1,0 +1,165 @@
+{
+  "timestamp": "2026-02-10T21:30:23.824Z",
+  "date": "2026-02-10",
+  "dailySummary": {
+    "equity": 4941.63,
+    "dailyPL": -7.809999999999491,
+    "dailyPLPct": -0.1577956294045284,
+    "positionCount": 4,
+    "winners": 3,
+    "losers": 1,
+    "biggestWinner": {
+      "symbol": "AMD",
+      "pct": 6.171
+    },
+    "biggestLoser": {
+      "symbol": "SNAP",
+      "pct": -10.091
+    },
+    "cash": 2397.29
+  },
+  "dayTradeSummary": {
+    "equity": 100669.91,
+    "dailyPL": -2870.5599999999977,
+    "dailyPLPct": -2.7724038726113545,
+    "cash": 100669.91,
+    "buyingPower": 414161.32,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 2,
+    "closedTradesCount": 1,
+    "winsToday": 0,
+    "lossesToday": 1,
+    "winRate": "0%",
+    "reasoningCount": 47,
+    "todayLessons": [
+      {
+        "symbol": "AMD260213C00217500",
+        "outcome": "LOSS",
+        "plPct": "-32.80%",
+        "entry": 6.25,
+        "exit": 4.2,
+        "reason": "Position down -34% ($3,010 loss) hits my daily stop ($3,016). Thesis broken: AMD gapped to $242 on tariff news but immediately reversed to $215 - no follow-through despite bullish catalyst. Put/call ratio spiked to 2.98 (bearish), IV jumped to 58% (fear premium), stock below VWAP. This was a momentum continuation play that failed. Accept loss, preserve capital ($94,790 + $5,740 = $100,530). Cannot let winner from yesterday turn into bigger loser.",
+        "lesson": "AMD260213C00217500 LOSS (-32.8%): Position down -34% ($3,010 loss) hits my daily stop ($3,016). Thesis broken: AMD gapped to $242 on tariff news but immediately reversed to $215 - no follow-through despite bullish catalyst. Put/call ratio spiked to 2.98 (bearish), IV jumped to 58% (fear premium), stock below VWAP. This was a momentum continuation play that failed. Accept loss, preserve capital ($94,790 + $5,740 = $100,530). Cannot let winner from yesterday turn into bigger loser.",
+        "rule": {
+          "underlying": "AMD",
+          "todayTradesOnSymbol": 0,
+          "todayLossesOnSymbol": 0,
+          "todayWinsOnSymbol": 0,
+          "patterns": [
+            "STOPPED_OUT"
+          ],
+          "actionableRule": "CAUTION on AMD: STOPPED_OUT"
+        },
+        "time": "2026-02-10T15:31:02.113Z"
+      }
+    ]
+  },
+  "positionAnalysis": [
+    {
+      "symbol": "AMD",
+      "qty": 2,
+      "avgEntry": 200.78,
+      "currentPrice": 213.17,
+      "unrealizedPL": 24.78,
+      "unrealizedPLPct": 6.171,
+      "marketValue": 426.34,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    },
+    {
+      "symbol": "FOA",
+      "qty": 11,
+      "avgEntry": 21.91,
+      "currentPrice": 22.04,
+      "unrealizedPL": 1.43,
+      "unrealizedPLPct": 0.5930000000000001,
+      "marketValue": 242.44,
+      "thesis": "Reverse mortgage leader, Blue Owl $2.5B partnership",
+      "ptLow": 42,
+      "ptHigh": 76,
+      "daysHeld": null,
+      "recommendation": "✅ Hold - Thesis intact",
+      "distanceToTarget": 90.56261343012704
+    },
+    {
+      "symbol": "SMCI",
+      "qty": 30,
+      "avgEntry": 32.075667,
+      "currentPrice": 33.23,
+      "unrealizedPL": 34.63,
+      "unrealizedPLPct": 3.599,
+      "marketValue": 996.9,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    },
+    {
+      "symbol": "SNAP",
+      "qty": 168,
+      "avgEntry": 5.817083,
+      "currentPrice": 5.2301,
+      "unrealizedPL": -98.6132,
+      "unrealizedPLPct": -10.091,
+      "marketValue": 878.6568,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    }
+  ],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Entry timing on gap plays - need to wait for confirmation (VWAP reclaim, volume surge, consolidation break) rather than chasing opening momentum",
+      "AVOID: Over-reliance on single catalyst (tariff news) - should have cross-checked with technical confirmation (price action, options flow, breadth indicators)"
+    ],
+    "tomorrowRules": [
+      "NO AMD trades until multi-day VWAP reclaim and P/C ratio below 1.0 - stock is on CAUTION list after gap-and-fade failure",
+      "Gap plays require 30-minute confirmation: must hold VWAP, sustain volume >50% of 5d avg, and show consolidation before entry - no more chasing opening bell spikes",
+      "First trade of the day = highest conviction only - if no A+ setup by 10:30 AM, stay flat until power hour. Quality > quantity after big loss days",
+      "Pre-market due diligence: check overnight options flow, P/C ratio, and IV changes before entering gap continuation plays - structural shifts (like AMD's bearish P/C spike) invalidate bullish thesis"
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "A",
+    "gradingReason": "Perfect execution of risk management after yesterday's AMD disaster. Took the -$2,870 loss at predetermined stop, recognized broken thesis immediately, and showed elite discipline by sitting on hands all day despite FOMO pressure from SPY making new ATHs. Zero revenge trading, zero forced setups. This is A+ trader psychology.",
+    "keyLessons": [
+      "Momentum continuation plays require follow-through - AMD gapped on tariff news but immediately reversed. No follow-through = no trade validity, even with bullish catalyst. P/C ratio spike to 2.98 and IV jump to 58% were clear warning signs the thesis was broken.",
+      "Discipline is more profitable than activity - sitting out an entire day after a big loss takes more courage than forcing trades. You preserved $100K+ capital by not revenge trading into a market that offered no quality setups. Sometimes the best trade is no trade.",
+      "Pre-market gap plays fade more often than extend - CRDO, BE, and AMD all faded or chopped after gap moves. Waiting for 10:00-10:30 confirmation would have saved the AMD loss. Gap-and-go requires sustained volume and VWAP reclaim, not just initial spike."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Honored daily stop loss immediately at -$3,010 (within $6 of $3,016 limit) - no hoping, no averaging down",
+        "Recognized broken thesis in real-time: 'no follow-through despite bullish catalyst' - this is elite pattern recognition",
+        "Sat on hands for 10+ decision cycles despite SPY at ATHs - resisted FOMO and forced trades",
+        "Used 'clean slate' framing after loss - forward-looking mindset, not dwelling on yesterday",
+        "Required fresh catalysts within 30-minute window - high standards prevent chasing stale setups"
+      ],
+      "badPatterns": [
+        "Entry timing on gap plays - need to wait for confirmation (VWAP reclaim, volume surge, consolidation break) rather than chasing opening momentum",
+        "Over-reliance on single catalyst (tariff news) - should have cross-checked with technical confirmation (price action, options flow, breadth indicators)"
+      ]
+    },
+    "tomorrowRules": [
+      "NO AMD trades until multi-day VWAP reclaim and P/C ratio below 1.0 - stock is on CAUTION list after gap-and-fade failure",
+      "Gap plays require 30-minute confirmation: must hold VWAP, sustain volume >50% of 5d avg, and show consolidation before entry - no more chasing opening bell spikes",
+      "First trade of the day = highest conviction only - if no A+ setup by 10:30 AM, stay flat until power hour. Quality > quantity after big loss days",
+      "Pre-market due diligence: check overnight options flow, P/C ratio, and IV changes before entering gap continuation plays - structural shifts (like AMD's bearish P/C spike) invalidate bullish thesis"
+    ],
+    "riskAssessment": "Flawless risk management today. Stopped out of AMD exactly as planned (-32.8% at daily stop limit), preserved remaining capital by avoiding revenge trades, and maintained strict entry criteria throughout the session. The AMD loss was unavoidable given the thesis breakdown, but the response was textbook professional: accept, adjust, move on. Risk/reward discipline is currently operating at institutional level.",
+    "emotionalCheck": "Zero signs of emotional trading. The repeated 'Clean slate today ($0 P&L)' framing shows healthy psychological reset after yesterday's loss. Sat through 10 consecutive NO_TRADE decisions while SPY made new ATHs - this is elite impulse control. No FOMO, no revenge trading, no forcing setups. The only concern is potential over-caution: you had 5 day trades available but used none. Tomorrow, don't overcorrect - discipline means taking A+ setups when they appear, not avoiding all risk."
+  },
+  "errors": []
+}

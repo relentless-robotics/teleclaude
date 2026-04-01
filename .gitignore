@@ -62,6 +62,9 @@ utils/password_manager.js
 password-cli.js
 config/webhooks.json
 config/cyber_authorized_targets.json
+config/api_keys.json
+config/embedding.json
+config/security_config.json
 
 # OAuth credentials
 *_credentials.json
@@ -90,7 +93,8 @@ pending_notifications.json
 AUDIT_SUMMARY_QUICKSTART.txt
 CREDENTIAL_MIGRATION_REPORT.md
 EXPOSED_SECRETS_SUMMARY.csv
-SECURITY_AUDIT_2026_02_04.md
+SECURITY_AUDIT_*.md
+security/AUDIT_REPORT.md
 
 # Runtime data
 task_checkpoints/
@@ -101,6 +105,43 @@ data/substack/
 .vault_key
 vault_key.txt
 master_key.txt
+
+# One-off root-level scripts (automation, analysis, testing)
+alpaca_login*.js
+alpaca_mfa.js
+analyze_*.js
+check_*.js
+execute_*.js
+fetch_*.js
+find_swing*.js
+get_quotes*.js
+run_trading*.js
+substack_*.js
+swing_check*.js
+swing_monitor.js
+test_vault.js
+test_yahoo*.js
+test_media*.js
+test_cyber*.js
+tradier_*.js
+trading_wrapper.js
+verify_content.js
+
+# PowerShell temp/utility scripts
+*.ps1
+
+# Python utility scripts in root
+utils/ssh_remote.py
+utils/enable_ics.ps1
+utils/monitor_arp.ps1
+utils/scan_subnet.ps1
+utils/setup_ics.ps1
+utils/example_improved_script.js
+
+# Trading agent data files (runtime generated)
+trading_agents/data/performance_log.json
+trading_agents/data/trade_journal.json
+trading_agents/data/trade_lessons.json
 
 # Temp OAuth/auth scripts (one-off scripts with credentials)
 *_oauth*.js
@@ -217,3 +258,194 @@ yarn-error.log*
 nul
 tools/SysinternalsSuite.zip
 tools/sysinternals/RDCMan*.exe
+
+# Auto-added by Security Sentinel
+trading_agents\agents\security_sentinel.js
+trading_agents\data\security_sentinel_state.json
+final_get_secret.js
+find_secret_element.js
+get_github_secret.js
+get_secret_with_pause.js
+github_oauth_credentials.json
+manual_get_secret.js
+screenshots/page_with_secret.txt
+secrets/.salt
+secrets/passwords.enc
+secure/teleclaude_passwords.kdbx
+
+# Auto-added by Security Sentinel
+test_jupiter_aeroforge.js
+
+# Auto-added by Security Sentinel
+experiments\get_results.js
+experiments\jupiter_f16_test.js
+experiments\poll_job.js
+experiments\quick_check.js
+
+# Auto-added by Security Sentinel
+diagnose_jupiter_network.js
+test_saturn.js
+test_saturn_ssh.js
+
+# Auto-added by Security Sentinel
+fix_saturn_cnn.js
+setup_saturn_cnn.js
+
+# Auto-added by Security Sentinel
+aggregate_card57_simple.js
+
+# Auto-added by Security Sentinel
+scripts\populate_qcc.js
+
+# Auto-added by Security Sentinel
+qcc\orchestrator.js
+
+# Auto-added by Security Sentinel
+razer_check_data.js
+razer_check_progress.js
+razer_deploy_confluence.js
+razer_diag.js
+razer_fix_queue.js
+razer_launch_confluence_direct.js
+razer_monitor.js
+razer_read_agent.js
+razer_read_outputs.js
+razer_read_scripts.js
+razer_status_check.js
+razer_survey.js
+razer_survey2.js
+razer_write_strategy.js
+
+# Auto-added by Security Sentinel
+compute\researchers\shared.js
+
+# Runtime state files
+.compute_monitor_state.json
+.discord_pending.json
+.neptune_guardian_state.json
+.paper_watchdog_state.json
+.watchdog-state.json
+data/health.json
+data/compute_alerts.json
+
+# Temp files
+tmp_*
+*.pyc
+__pycache__/
+
+# Old researcher state
+compute/researchers/state_*.json
+
+# Runtime files
+*.pid
+
+# Native monitoring binaries (use Docker instead)
+monitoring/prometheus-*/
+monitoring/grafana-*/
+
+# Auto-added by Security Sentinel
+compute\persistent_researcher.js
+
+# Auto-added by Security Sentinel
+razer_api_check.js
+razer_check_and_fix.js
+razer_discover2.js
+razer_discover3.js
+razer_discover4.js
+razer_discover5.js
+razer_discover6.js
+razer_discover7.js
+razer_discover8.js
+razer_discover9.js
+razer_getlaunch.js
+razer_launch.js
+razer_launch2.js
+razer_node_launch.js
+razer_setup.js
+razer_status.js
+razer_status2.js
+razer_taskscheduler.js
+
+# Auto-added by Security Sentinel
+razer_checklog.js
+razer_checkrunning.js
+razer_debug_python.js
+razer_final.js
+razer_fix_exp2.js
+razer_get_results.js
+razer_node_launch2.js
+razer_pid_check.js
+razer_pyspawn.js
+razer_pyspawn2.js
+razer_pyspawn3.js
+razer_relaunch_exp2.js
+razer_spawn_v2.js
+razer_spawn_v3.js
+razer_spawn_v4.js
+razer_testspawn.js
+razer_testspawn2.js
+
+# Auto-added by Security Sentinel
+compute\ecosystem.config.js
+
+# Auto-added by Security Sentinel
+monitoring\grafana-v11.5.2\storybook\1685.88252d16.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\2227.db88e5ba.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\2459.5861460d.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\2581.e62908b9.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\2709.afb429ae.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\2725.ce0eb30a.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\295.d72dfe29.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\3245.45babb00.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\3275.165163ec.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\3505.f3079359.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\3605.ad58dba8.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\3725.d2d3c5d5.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\4541.e3f12a93.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\4697.a065a6ac.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\4809.77520fb4.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\485.dddda793.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\4933.506dcdf7.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\4997.02331be7.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\5157.0ac19bde.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\5205.c2bc78ca.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\5259.a078e871.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\5325.9bdcf605.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\5381.86fdbc49.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\5497.bc7acb26.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\5701.6c0637f7.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\5763.e7255665.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\5793.b5eeafda.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\5821.18e9fcf1.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\653.c4307529.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\6693.4e34a2c1.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\6729.9dc2dfc8.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\6961.605209fc.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\7089.25ac42b9.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\7445.c061637d.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\7509.8fc67590.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\7663.c222708b.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\7733.f712621f.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\7861.4e8e1ef3.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\7863.46a6dd54.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\7925.f8f1dc5e.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\8059.8e640c3f.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\8079.a8221028.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\8433.35e36413.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\8453.789925b4.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\8577.668c32f5.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\8761.ac2161d9.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\8917.22108e73.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\9141.beef960e.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\933.5a9893c9.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\9485.2a97500f.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\9653.c28f7c12.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\9773.9ce0d89d.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\9849.1b0d64ba.iframe.bundle.js
+monitoring\grafana-v11.5.2\storybook\DataSourceSettings-DataSourceHttpSettings-story.cf8506c4.iframe.bundle.js
+
+# Auto-added by Security Sentinel
+mcp\fillsim-server.js
+
+# Auto-added by Security Sentinel
+scripts\deploy_research_jobs.js

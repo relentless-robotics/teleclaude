@@ -1,0 +1,26 @@
+{
+  "neptune": [],
+  "uranus": [
+    {
+      "command": "schtasks /run /tn CleanEnriched 2>/dev/null || echo TASK_NOT_FOUND",
+      "description": "Clean enriched E1+E2 (34 features, leakage-fixed)",
+      "priority": 1,
+      "added_at": "2026-03-26T22:51:24.830Z",
+      "status": "queued"
+    }
+  ],
+  "razer": [
+    {
+      "command": "cd C:UsersclaudeLvl3Quantscripts && python confluence_strategy.py",
+      "description": "Confluence strategy (1728 configs, multi-signal)",
+      "priority": 1,
+      "added_at": "2026-03-26T22:51:24.830Z"
+    },
+    {
+      "command": "cd C:UsersclaudeLvl3Quantscripts && python lightgbm_feature_research.py",
+      "description": "LGBM feature importance screen",
+      "priority": 2,
+      "added_at": "2026-03-26T22:51:24.830Z"
+    }
+  ]
+}

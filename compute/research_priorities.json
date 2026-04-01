@@ -1,0 +1,79 @@
+{
+  "neptune": [
+    {
+      "command": "python launch_wider_cnn_expanding.py",
+      "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+      "description": "WF CNN expanding window fold 73+",
+      "priority": 1,
+      "type": "training",
+      "log_pattern": "wider_cnn*.log",
+      "completion_markers": [
+        "All folds finished",
+        "WalkForward complete",
+        "TRAINING FINISHED"
+      ],
+      "metrics_regex": "IC[=:]\\s*([0-9.]+)"
+    }
+  ],
+  "uranus": [
+    {
+      "command": "C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python311\\python.exe scripts/hybrid_v3_enriched.py --clean-features",
+      "cwd": "C:\\Users\\nick\\Lvl3Quant",
+      "description": "Clean enriched features experiment",
+      "priority": 1,
+      "type": "training",
+      "log_pattern": "hybrid_v3*.log",
+      "completion_markers": [
+        "Experiment complete",
+        "All folds finished",
+        "TRAINING FINISHED"
+      ],
+      "metrics_regex": "IC[=:]\\s*([0-9.]+)"
+    }
+  ],
+  "razer": [
+    {
+      "command": "C:\\Python311\\python.exe confluence_strategy.py",
+      "cwd": "C:\\Users\\claude\\Documents\\Lvl3Quant",
+      "description": "Multi-signal confluence (1728 configs)",
+      "priority": 1,
+      "type": "research",
+      "log_pattern": "confluence*.log",
+      "completion_markers": [
+        "Sweep complete",
+        "All configs tested",
+        "=== DONE ==="
+      ],
+      "metrics_regex": "Sortino[=:]\\s*([0-9.]+)"
+    },
+    {
+      "command": "C:\\Python311\\python.exe lightgbm_feature_research.py",
+      "cwd": "C:\\Users\\claude\\Documents\\Lvl3Quant",
+      "description": "LGBM feature importance research",
+      "priority": 2,
+      "type": "research",
+      "log_pattern": "lgbm*.log",
+      "completion_markers": [
+        "Feature importance complete",
+        "=== DONE ==="
+      ],
+      "metrics_regex": "AUC[=:]\\s*([0-9.]+)"
+    }
+  ],
+  "jupiter": [
+    {
+      "command": "python3 scripts/adverse_selection_analysis.py",
+      "cwd": "/home/jupiter/Lvl3Quant",
+      "description": "Adverse selection analysis",
+      "priority": 1,
+      "type": "analysis",
+      "log_pattern": "adverse_selection*.log",
+      "completion_markers": [
+        "Analysis complete",
+        "=== DONE ==="
+      ],
+      "metrics_regex": ""
+    }
+  ],
+  "saturn": []
+}

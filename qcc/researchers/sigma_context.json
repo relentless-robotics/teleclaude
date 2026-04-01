@@ -1,0 +1,65 @@
+{
+  "name": "Dr. Sigma",
+  "role": "Strategy Research — math strategies, statistical signals, order flow, parameter optimization",
+  "node_primary": "razer",
+  "node_secondary": [
+    "saturn",
+    "uranus_cpu"
+  ],
+  "context": {
+    "key_findings": [
+      "Individual features too weak for standalone strategies after costs",
+      "Best individual IC: count_imb_top1 at 0.088",
+      "LightGBM IC=0.079 on 111 features — stable but not tradeable alone",
+      "Stacked imbalance, delta reversal, volume absorption signals generated",
+      "All math strategies negative in janky sim — NEED fill sim validation",
+      "Razer now has fill_sim_cli + 110 MBO dates for local validation",
+      "Trade features are a major gap — cum delta, absorption, trade imbalance"
+    ],
+    "next_experiments": [
+      "Run ALL existing signal NPZs through local fill sim on Razer",
+      "Iterate OFI strategy with vol gates, time filters, momentum confirmation",
+      "Stacked imbalance with trend gate variations",
+      "Cumulative delta divergence strategies",
+      "Multi-signal ensemble (combine top 5 signals)",
+      "Polarity ATI methodology testing",
+      "LightGBM/XGBoost GPU-accelerated feature combo search"
+    ],
+    "strategies_tested": {
+      "OFI": "negative at 1.0 tick cost",
+      "mean_reversion": "negative",
+      "depth_ratio": "negative",
+      "spread_scalp": "15 trades, not significant",
+      "level_depletion": "negative",
+      "vol_breakout": "negative",
+      "tick_momentum": "negative",
+      "stacked_imbalance": "signals generated, awaiting fill sim"
+    }
+  },
+  "task_queue": [],
+  "completed_experiments": [],
+  "iteration_history": [],
+  "daily_logs": [
+    {
+      "date": "2026-03-26",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-03-30",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-03-31",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-04-01",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    }
+  ],
+  "last_consolidation": "2026-04-01"
+}

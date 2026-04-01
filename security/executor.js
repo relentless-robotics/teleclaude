@@ -66,7 +66,8 @@ class SecureExecutor {
     return new Promise((resolve, reject) => {
       const proc = spawn('node', [tempFile], {
         env: { ...process.env },
-        timeout: options.timeout || 60000
+        timeout: options.timeout || 60000,
+        windowsHide: true,
       });
 
       let stdout = '';
@@ -128,7 +129,7 @@ class SecureExecutor {
     const env = this.getSecureEnv(secretNames);
 
     return new Promise((resolve, reject) => {
-      const proc = spawn(command, args, { env, shell: true });
+      const proc = spawn(command, args, { env, shell: true, windowsHide: true });
 
       let stdout = '';
       let stderr = '';

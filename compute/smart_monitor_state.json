@@ -1,0 +1,35 @@
+{
+  "started_at": "2026-03-27T20:23:40.980Z",
+  "poll_count": 1,
+  "last_alert": {},
+  "rolling_gpu": {
+    "neptune": [
+      {
+        "util": 100,
+        "power_w": null,
+        "temp_c": null,
+        "ts": "2026-03-27T20:23:41.002Z"
+      }
+    ],
+    "uranus": [
+      {
+        "util": 94,
+        "power_w": null,
+        "temp_c": null,
+        "ts": "2026-03-27T20:23:41.003Z"
+      }
+    ],
+    "razer": [
+      {
+        "util": 0,
+        "power_w": null,
+        "temp_c": null,
+        "ts": "2026-03-27T20:23:41.003Z"
+      }
+    ]
+  },
+  "last_log_sizes": {},
+  "last_mlflow_run": null,
+  "alerts_fired": 0,
+  "total_checks": 1
+}

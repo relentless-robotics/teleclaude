@@ -135,10 +135,6 @@ function getService(service) {
     kimi: {
       apiKey: get('KIMI_API_KEY')
     },
-    groq: {
-      apiKey: get('GROQ_API_KEY')
-    },
-
     // Google
     google: {
       email: get('DEFAULT_EMAIL'),
@@ -307,7 +303,6 @@ function checkStatus() {
     openai: has('OPENAI_API_KEY'),
     anthropic: has('ANTHROPIC_API_KEY'),
     kimi: has('KIMI_API_KEY'),
-    groq: has('GROQ_API_KEY'),
     gmail: has('GMAIL_APP_PASSWORD'),
     alpaca: has('ALPACA_API_KEY'),
     telegram: has('TELEGRAM_TOKEN'),

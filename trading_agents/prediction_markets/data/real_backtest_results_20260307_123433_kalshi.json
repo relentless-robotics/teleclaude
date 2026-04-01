@@ -1,0 +1,181 @@
+{
+  "timestamp": "2026-03-07T12:34:33.123013",
+  "source": "kalshi",
+  "result": {
+    "config": {
+      "starting_capital": 10000,
+      "max_position_per_market": 50,
+      "max_daily_risk": 1000.0,
+      "min_net_edge": 0.008,
+      "min_gross_edge": 0.015,
+      "vol_model_ic": 0.644,
+      "student_t_df": 4.0,
+      "kelly_fraction": 0.15,
+      "adverse_selection": 0.5,
+      "partial_fill_threshold": 10,
+      "hours_to_close": 5.0,
+      "use_taker_fees": true
+    },
+    "data_sources": [
+      "kalshi_trades"
+    ],
+    "n_trading_days": 1,
+    "n_trades": 4,
+    "n_wins": 3,
+    "n_losses": 1,
+    "win_rate": 0.75,
+    "total_pnl": 0.24,
+    "avg_pnl_per_trade": 0.06,
+    "avg_pnl_per_day": 0.23,
+    "monthly_pnl_estimate": 4.89,
+    "annual_pnl_estimate": 58.63,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 3.69,
+    "total_fees": 0.1,
+    "total_adverse_selection_cost": 0.4,
+    "avg_fill_rate": 1.0,
+    "edge_by_bracket_type": {
+      "atm": {
+        "trades": 4,
+        "pnl": 0.24
+      },
+      "wing": {
+        "trades": 0,
+        "pnl": 0
+      }
+    },
+    "daily_pnl": [
+      0.23
+    ],
+    "equity_curve": [
+      10000,
+      10000.23
+    ],
+    "trades": [
+      {
+        "date": "2026-03-07",
+        "ticker": "KXINXU-26MAR09H1600-T6624.9999",
+        "side": "BUY_YES",
+        "entry_price": 0.91,
+        "fair_value": 0.9625,
+        "edge_gross": 0.0525,
+        "edge_after_adverse": 0.0263,
+        "fee": 0.01,
+        "edge_net": 0.0163,
+        "settled_value": 1.0,
+        "pnl_gross": 0.16,
+        "pnl_net": 0.11,
+        "contracts": 2,
+        "fill_rate": 1.0,
+        "source": "kalshi_trade",
+        "spx_ref": 6740.02,
+        "model_vol": 18.25
+      },
+      {
+        "date": "2026-03-07",
+        "ticker": "KXINXU-26MAR09H1600-T6749.9999",
+        "side": "BUY_YES",
+        "entry_price": 0.34,
+        "fair_value": 0.4215,
+        "edge_gross": 0.0815,
+        "edge_after_adverse": 0.0407,
+        "fee": 0.01,
+        "edge_net": 0.0307,
+        "settled_value": 0.0,
+        "pnl_gross": -0.35,
+        "pnl_net": -0.39,
+        "contracts": 1,
+        "fill_rate": 1.0,
+        "source": "kalshi_trade",
+        "spx_ref": 6740.02,
+        "model_vol": 17.93
+      },
+      {
+        "date": "2026-03-07",
+        "ticker": "KXINXU-26MAR09H1600-T6799.9999",
+        "side": "BUY_NO",
+        "entry_price": 0.78,
+        "fair_value": 0.8592,
+        "edge_gross": 0.0792,
+        "edge_after_adverse": 0.0396,
+        "fee": 0.01,
+        "edge_net": 0.0296,
+        "settled_value": 1.0,
+        "pnl_gross": 0.42,
+        "pnl_net": 0.34,
+        "contracts": 2,
+        "fill_rate": 1.0,
+        "source": "kalshi_trade",
+        "spx_ref": 6740.02,
+        "model_vol": 18.32
+      },
+      {
+        "date": "2026-03-07",
+        "ticker": "KXINXY-26DEC31H1600-B7300",
+        "side": "BUY_NO",
+        "entry_price": 0.91,
+        "fair_value": 1.0,
+        "edge_gross": 0.09,
+        "edge_after_adverse": 0.045,
+        "fee": 0.01,
+        "edge_net": 0.035,
+        "settled_value": 1.0,
+        "pnl_gross": 0.4,
+        "pnl_net": 0.18,
+        "contracts": 5,
+        "fill_rate": 1.0,
+        "source": "kalshi_trade",
+        "spx_ref": 6740.02,
+        "model_vol": 18.76
+      }
+    ],
+    "comparison_vs_synthetic": {
+      "synthetic_file": "bracket_backtest_results_20260307_041953.json",
+      "metrics": {
+        "total_pnl": {
+          "synthetic": 94.9,
+          "real": 0.24,
+          "ratio": 0.003,
+          "interpretation": "WORSE"
+        },
+        "sharpe_ratio": {
+          "synthetic": 4.78,
+          "real": 3.69,
+          "ratio": 0.772,
+          "interpretation": "WORSE"
+        },
+        "win_rate": {
+          "synthetic": 0.5592,
+          "real": 0.75,
+          "ratio": 1.341,
+          "interpretation": "BETTER"
+        },
+        "avg_pnl_per_trade": {
+          "synthetic": 0.103,
+          "real": 0.06,
+          "ratio": 0.583,
+          "interpretation": "WORSE"
+        },
+        "monthly_pnl_estimate": {
+          "synthetic": 8.63,
+          "real": 4.89,
+          "ratio": 0.567,
+          "interpretation": "WORSE"
+        },
+        "max_drawdown": {
+          "synthetic": -0.0007,
+          "real": 0.0,
+          "ratio": -0.0,
+          "interpretation": "SIMILAR"
+        },
+        "total_fees": {
+          "synthetic": 24.34,
+          "real": 0.1,
+          "ratio": 0.004,
+          "interpretation": "WORSE"
+        }
+      },
+      "verdict": "CONSISTENT \u2014 real results within 30% of synthetic"
+    }
+  }
+}

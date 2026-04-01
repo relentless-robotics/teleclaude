@@ -1,0 +1,10 @@
+{
+  "lastRun": null,
+  "machines": {
+    "pc": { "status": "unknown", "cpu": 0, "mem": 0, "gpu": 0, "disk": 0, "activeJobs": [], "lastChecked": null },
+    "jupiter": { "status": "unknown", "cpu": 0, "mem": 0, "disk": 0, "activeJobs": [], "lastChecked": null },
+    "saturn": { "status": "unknown", "cpu": 0, "mem": 0, "disk": 0, "activeJobs": [], "lastChecked": null }
+  },
+  "alerts": [],
+  "idleTracking": {}
+}

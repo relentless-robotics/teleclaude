@@ -1,0 +1,166 @@
+{
+  "lastMorningRun": "2026-03-30T13:46:25.971Z",
+  "lastDailyRun": "2026-04-01T14:03:52.568Z",
+  "lastFridayRun": "2026-03-27T19:03:51.062Z",
+  "lastWeeklyReport": null,
+  "lastStatusCheck": "2026-03-10T16:18:13.821Z",
+  "runHistory": [
+    {
+      "timestamp": "2026-03-09T13:46:17.175Z",
+      "mode": "morning",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-09T14:04:36.668Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-10T14:03:48.701Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-10T16:18:13.821Z",
+      "mode": "status",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-11T14:07:12.006Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-12T14:07:36.638Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-13T14:12:40.206Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-13T19:07:08.983Z",
+      "mode": "friday",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-16T13:46:17.301Z",
+      "mode": "morning",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-16T14:05:53.327Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-17T14:03:23.474Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-18T14:06:58.689Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-19T14:03:51.066Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-20T14:09:05.941Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-20T19:04:09.100Z",
+      "mode": "friday",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-23T13:45:36.884Z",
+      "mode": "morning",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-23T14:03:05.580Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-24T14:03:44.890Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-25T14:03:54.354Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-26T14:08:10.389Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-27T14:03:58.543Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-27T19:03:51.062Z",
+      "mode": "friday",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-30T13:46:25.971Z",
+      "mode": "morning",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-30T14:03:36.480Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-03-31T14:03:01.864Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    },
+    {
+      "timestamp": "2026-04-01T14:03:52.568Z",
+      "mode": "daily",
+      "success": true,
+      "detail": ""
+    }
+  ],
+  "lastUpdated": "2026-04-01T14:03:52.568Z"
+}

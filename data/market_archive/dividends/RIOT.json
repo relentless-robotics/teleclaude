@@ -1,0 +1,11 @@
+{
+  "ticker": "RIOT",
+  "downloaded": "2026-03-09T09:57:41.761435",
+  "dividends": [
+    {
+      "date": "2017-10-12",
+      "dividend": 1.0
+    }
+  ],
+  "splits": []
+}

@@ -1,0 +1,1360 @@
+{
+  "date": "2026-02-07",
+  "createdAt": "2026-02-07T05:00:34.400Z",
+  "lastUpdated": "2026-02-08T04:00:50.734Z",
+  "overnight": {
+    "futures": {
+      "S&P 500": {
+        "price": 6952.75,
+        "change": 1.935271047905289,
+        "threshold": 0.5,
+        "significant": true
+      },
+      "NASDAQ": {
+        "price": 25163.25,
+        "change": 2.078009005719849,
+        "threshold": 0.7,
+        "significant": true
+      },
+      "Dow Jones": {
+        "price": 50205,
+        "change": 2.4633658516674153,
+        "threshold": 0.5,
+        "significant": true
+      },
+      "Russell 2000": {
+        "price": 2677.9,
+        "change": 3.5217256842430764,
+        "threshold": 0.7,
+        "significant": true
+      },
+      "Crude Oil": {
+        "price": 63.55,
+        "change": 0.4108073945330985,
+        "threshold": 2,
+        "significant": false
+      },
+      "Gold": {
+        "price": 4979.8,
+        "change": 2.4355124038342977,
+        "threshold": 1,
+        "significant": true
+      },
+      "30Y Bonds": {
+        "price": 115.5,
+        "change": 0.10834236186348861,
+        "threshold": 0.5,
+        "significant": false
+      }
+    },
+    "globalMarkets": {
+      "Asia": [
+        {
+          "name": "Nikkei (Japan)",
+          "price": 54253.68,
+          "change": 0.8094683492747031
+        },
+        {
+          "name": "Hang Seng (HK)",
+          "price": 26559.95,
+          "change": -1.0703861688987915
+        },
+        {
+          "name": "Shanghai (China)",
+          "price": 4065.5835,
+          "change": -0.25352577101054147
+        }
+      ],
+      "Europe": [
+        {
+          "name": "FTSE 100 (UK)",
+          "price": 10369.75,
+          "change": -0.31291156763407396
+        },
+        {
+          "name": "DAX (Germany)",
+          "price": 24721.46,
+          "change": 0.4813226333005931
+        },
+        {
+          "name": "CAC 40 (France)",
+          "price": 8273.84,
+          "change": 0.4329845099093618
+        }
+      ]
+    },
+    "crypto": {
+      "Bitcoin": {
+        "price": 69033.836,
+        "change": -0.38753919235998835
+      },
+      "Ethereum": {
+        "price": 2076.5308,
+        "change": -0.6071561020317863
+      }
+    },
+    "significantMoves": [
+      {
+        "market": "S&P 500",
+        "change": 1.935271047905289,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "NASDAQ",
+        "change": 2.078009005719849,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Dow Jones",
+        "change": 2.4633658516674153,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Russell 2000",
+        "change": 3.5217256842430764,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Gold",
+        "change": 2.4355124038342977,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      }
+    ],
+    "riskSentiment": "RISK_ON",
+    "updatedAt": "2026-02-08T04:00:50.734Z"
+  },
+  "preMarket": {
+    "futures": {
+      "S&P 500": {
+        "price": 6952.75,
+        "change": 1.935271047905289,
+        "direction": "up"
+      },
+      "NASDAQ": {
+        "price": 25163.25,
+        "change": 2.078009005719849,
+        "direction": "up"
+      },
+      "Dow Jones": {
+        "price": 50205,
+        "change": 2.4633658516674153,
+        "direction": "up"
+      },
+      "Russell 2000": {
+        "price": 2677.9,
+        "change": 3.5217256842430764,
+        "direction": "up"
+      }
+    },
+    "gappers": [
+      {
+        "symbol": "CRDO",
+        "change": 14.904589994842704,
+        "direction": "UP"
+      },
+      {
+        "symbol": "ANF",
+        "change": -7.483895414929903,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "AMD",
+        "change": 4.121084969279185,
+        "direction": "UP"
+      },
+      {
+        "symbol": "FOA",
+        "change": -4.035087719298254,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "MU",
+        "change": 4.030047443331582,
+        "direction": "UP"
+      }
+    ],
+    "movers": [
+      {
+        "symbol": "CRDO",
+        "price": 111.4,
+        "change": 14.904589994842704
+      },
+      {
+        "symbol": "ANF",
+        "price": 97.66,
+        "change": -7.483895414929903
+      },
+      {
+        "symbol": "AMD",
+        "price": 208.44,
+        "change": 4.121084969279185
+      },
+      {
+        "symbol": "FOA",
+        "price": 21.88,
+        "change": -4.035087719298254
+      },
+      {
+        "symbol": "MU",
+        "price": 394.69,
+        "change": 4.030047443331582
+      },
+      {
+        "symbol": "RIVN",
+        "price": 14.8,
+        "change": 2.9923451635351532
+      },
+      {
+        "symbol": "BE",
+        "price": 143.03,
+        "change": -2.931795045809293
+      }
+    ],
+    "watchlistAlerts": [
+      {
+        "symbol": "CRDO",
+        "action": "GAP_UP",
+        "change": 14.904589994842704,
+        "note": "Pre-market gap up of 14.9%"
+      },
+      {
+        "symbol": "ANF",
+        "action": "GAP_DOWN",
+        "change": -7.483895414929903,
+        "note": "Pre-market gap down of -7.5%"
+      }
+    ],
+    "newsHighlights": [],
+    "updatedAt": "2026-02-07T14:15:43.070Z"
+  },
+  "market": {
+    "indices": {},
+    "vix": null,
+    "regime": "RISK_OFF",
+    "sectorLeaders": [
+      "GLD (Gold) 6.63%",
+      "XLE (Energy) 6.39%",
+      "XLP (Consumer Staples) 4.07%",
+      "XLB (Materials) 3.75%",
+      "XLI (Industrials) 3.37%"
+    ],
+    "sectorLaggards": [
+      "XLC (Communications) -3.27%",
+      "XLY (Consumer Disc) -3.26%",
+      "XLK (Technology) -2.84%",
+      "SMH (Semiconductors) -1.55%",
+      "XBI (Biotech) -1.44%"
+    ],
+    "updatedAt": "2026-02-07T22:00:47.550Z"
+  },
+  "sentiment": {
+    "overall": null,
+    "trending": [],
+    "socialMomentum": [
+      {
+        "symbol": "MSFT",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "SPY",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "AMZN",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "HIMS",
+        "score": 3,
+        "source": "StockTwits+Reddit"
+      },
+      {
+        "symbol": "RDDT",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "MSTR",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "NVDA",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "MU",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "DTE",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "SLV",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "GOOG",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "HOPPY.X",
+        "score": 2,
+        "source": "StockTwits"
+      },
+      {
+        "symbol": "GOLDCOIN.X",
+        "score": 2,
+        "source": "StockTwits"
+      },
+      {
+        "symbol": "OTGLY",
+        "score": 2,
+        "source": "StockTwits"
+      },
+      {
+        "symbol": "PENGU.X",
+        "score": 2,
+        "source": "StockTwits"
+      }
+    ],
+    "updatedAt": "2026-02-07T22:00:47.552Z"
+  },
+  "catalysts": {
+    "earningsToday": [],
+    "earningsThisWeek": [],
+    "economicEvents": [],
+    "newsBreaking": [
+      {
+        "headline": "Buy the Dip in Amazon Stock After Mixed Q4 Results &amp; CapEx Concerns?",
+        "url": "/news/303458/buy-the-dip-in-amazon-stock-after-mixed-q4-results-capex-concerns",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:38.990Z",
+        "symbols": [
+          "MSFT",
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stocks rebound after a dramatic week sparked by ongoing AI uncertainty",
+        "url": "https://finance.yahoo.com/m/77e26f50-92b3-3cb6-8f5c-01a438e44f5b/stocks-rebound-after-a.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:38.990Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stock Market Today: Dow Closes Above 50,000 As Nvidia Lands Atop Blue Chips (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/d5f6d70b-adbf-3412-b185-ebea8f943d91/stock-market-today%3A-dow.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:38.990Z",
+        "symbols": [
+          "MSFT",
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "An AI Fight Is Threatening the Market. How to Avoid Getting Hurt.",
+        "url": "https://finance.yahoo.com/m/0b7e9b54-d972-39d4-b962-280200b544dc/an-ai-fight-is-threatening.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:38.990Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Dow Jones Sets Record and Breaks Past 50,000",
+        "url": "https://finance.yahoo.com/m/381e08a9-39c5-3e50-8071-1780420c60a8/dow-jones-sets-record-and.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:38.990Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Patriots Vs. Seahawks: Super Bowl Indicator Says Investors Should Root For This Team",
+        "url": "/news/303284/patriots-vs-seahawks-super-bowl-indicator-says-investors-should-root-for-this-team",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:39.597Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Forget JEPI: This 1 Covered Call ETF Yields Over 20% With Uncapped Gains",
+        "url": "https://finance.yahoo.com/m/9a8f4484-6312-3c4e-b814-8e0e07b1fb8b/forget-jepi%3A-this-1-covered.html",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:39.597Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stock Market Today: Dow Rises, Bitcoin Bounces; Amazon Dives On Earnings (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/d5f6d70b-adbf-3412-b185-ebea8f943d91/stock-market-today%3A-dow.html",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:39.597Z",
+        "symbols": [
+          "SPY",
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stock Market Today: Dow Jones, S&amp;P 500 Futures Advance After Sharp Sell-Off-Roblox, Amazon, Reddit, Strategy In Focus",
+        "url": "/news/302450/stock-market-today-dow-jones-sp-500-futures-advance-after-sharp-sell-off-roblox-amazon-reddit-strategy-in-focus",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:39.597Z",
+        "symbols": [
+          "SPY",
+          "AMZN"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "Will the S&amp;P 500 Hit 8000? A Smart Way to Play It.",
+        "url": "https://finance.yahoo.com/m/749c3f87-bcec-37a4-abf3-ecfde60a6291/will-the-s%26p-500-hit-8000%3F-a.html",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:39.597Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stocks to Watch Friday: Amazon, Roblox, Stellantis, Strategy",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-02-06-2026/card/stocks-to-watch-friday-amazon-stellantis-strategy-WPPW6nTOwYY9y72KAHVm?mod=wsj_FV",
+        "symbol": "MSTR",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:40.203Z",
+        "symbols": [
+          "MSTR",
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Crypto stocks rally up to 25% after big relief",
+        "url": "https://finance.yahoo.com/m/d5497f76-e7df-3358-a4b7-151fa3e39874/crypto-stocks-rally-up-to-25%25.html",
+        "symbol": "MSTR",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:40.203Z",
+        "symbols": [
+          "MSTR"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Tech, Media &amp; Telecom Roundup: Market Talk",
+        "url": "https://finance.yahoo.com/m/cde8890b-f1f9-35da-acb5-4bb1c8f5018b/tech%2C-media-%26-telecom.html",
+        "symbol": "MSTR",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:40.203Z",
+        "symbols": [
+          "MSTR"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Amazon, Strategy, Robinhood, Novo Nordisk, Molina, Stellantis, Hub Group, and More Stock Market Movers",
+        "url": "https://finance.yahoo.com/m/c18863ff-041f-35f2-8054-0ec3d92baa4a/amazon%2C-strategy%2C-robinhood%2C.html",
+        "symbol": "MSTR",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:40.203Z",
+        "symbols": [
+          "MSTR",
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "MSTYs 102% Yield Collapses Alongside Bitcoins Meltdown",
+        "url": "https://finance.yahoo.com/m/46c15500-f146-32f3-8e64-14531d1c9fc2/msty%E2%80%99s-102%25-yield-collapses.html",
+        "symbol": "MSTR",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:40.203Z",
+        "symbols": [
+          "MSTR"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Wealthy Families Are Worried About Geopolitics. But They're Not Rushing to AI, Crypto, or Gold",
+        "url": "https://www.barrons.com/articles/wealthy-families-are-worried-about-geopolitics-but-they-arent-rushing-to-ai-crypto-or-gold-62ce6f59?mod=bar_FV",
+        "symbol": "AMZN",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:40.790Z",
+        "symbols": [
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Alphabet CEO Sundar Pichai Says AI Capacity Is What 'Keeps Us Up At Night' As Power, Land And Supply Chain Limits Test Growth",
+        "url": "https://finance.yahoo.com/news/alphabet-ceo-sundar-pichai-says-023155412.html",
+        "symbol": "AMZN",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:40.790Z",
+        "symbols": [
+          "AMZN",
+          "GOOGL"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Review &amp; Preview: 50,000 Sighs of Relief",
+        "url": "https://www.barrons.com/articles/dow-hits-50000-stocks-today-e7592566?mod=bar_FV",
+        "symbol": "AMZN",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:40.790Z",
+        "symbols": [
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Breaking Down Mag 7 Earnings: Good or Bad?",
+        "url": "/news/303461/breaking-down-mag-7-earnings-good-or-bad",
+        "symbol": "AMZN",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:40.790Z",
+        "symbols": [
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Dow closes above 50,000, Nvidia soars as traders focus on AI spending",
+        "url": "https://finance.yahoo.com/video/dow-closes-above-50-000-235453952.html",
+        "symbol": "AMZN",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:40.790Z",
+        "symbols": [
+          "AMZN",
+          "NVDA"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "How Nvidia became the first $5 trillion company, in 4 charts",
+        "url": "https://finance.yahoo.com/m/1a58ea56-efc6-35ea-93a2-500457d18f71/how-nvidia-became-the-first.html",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:41.394Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Benchmark raises $225M in special funds to double down on Cerebras",
+        "url": "https://finance.yahoo.com/news/benchmark-raises-225m-special-funds-052304517.html",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:41.394Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Goldman Sachs Teams Up With Anthropic To Deploy AI For Core Banking Tasks",
+        "url": "/news/303464/goldman-sachs-teams-up-with-anthropic-to-deploy-ai-for-core-banking-tasks",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:41.394Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "IQVIA Q4 Earnings Call Highlights",
+        "url": "https://finance.yahoo.com/m/9577f0f3-54ab-3cbc-b6db-8a6e4e653212/iqvia-q4-earnings-call.html",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:41.394Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "NVIDIA CEO Jensen Huang Unveils Biggest-Ever Dassault Partnership to Power AI Virtual Twins",
+        "url": "https://finance.yahoo.com/m/4ee86ed7-dc52-3dfe-b1b8-df35bc8bf622/nvidia-ceo-jensen-huang.html",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:41.394Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Reddit Q4 Earnings Call Highlights",
+        "url": "https://finance.yahoo.com/m/e16cc652-cef3-3a82-9c5a-ac6a479246ac/reddit-q4-earnings-call.html",
+        "symbol": "RDDT",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:42.013Z",
+        "symbols": [
+          "RDDT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "I'm 27 With $385K Saved And Aiming For Early Retirement  Am I On Track?",
+        "url": "https://finance.yahoo.com/news/im-27-385k-saved-aiming-220204331.html",
+        "symbol": "RDDT",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:42.013Z",
+        "symbols": [
+          "RDDT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Reddit Stock Falls Despite Earnings Beat, $1 Billion Buyback Authorization",
+        "url": "https://finance.yahoo.com/m/8bade3fb-8a02-3992-bd26-2e7ff7d08071/reddit-stock-falls-despite.html",
+        "symbol": "RDDT",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:42.013Z",
+        "symbols": [
+          "RDDT"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Reddit Stock Reverses While The Market Rips Higher: Here's Why",
+        "url": "/news/303192/reddit-stock-reverses-while-the-market-rips-higher-heres-why",
+        "symbol": "RDDT",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:42.013Z",
+        "symbols": [
+          "RDDT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Reddit says its looking for more acquisitions in adtech and elsewhere",
+        "url": "https://finance.yahoo.com/news/reddit-says-looking-more-acquisitions-183336301.html",
+        "symbol": "RDDT",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:42.013Z",
+        "symbols": [
+          "RDDT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Is It Too Late to Buy Micron Stock? Not According to This Bull",
+        "url": "https://finance.yahoo.com/m/a859b698-0e54-3c4b-91af-cd06ed89c995/is-it-too-late-to-buy-micron.html",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:42.639Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Micron Is on an Epic Run. Don't Fear the Memory-Chip Cycle.",
+        "url": "https://www.barrons.com/articles/micron-stock-price-memory-chips-e1755fa0?mod=bar_FV",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:42.639Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Micron (MU) CEO Saw What Was Coming, Says Jim Cramer",
+        "url": "/news/302694/micron-mu-ceo-saw-what-was-coming-says-jim-cramer",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:42.639Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "5 Growth Stocks to Buy in February to Enhance Your Portfolio Returns",
+        "url": "/news/302751/5-growth-stocks-to-buy-in-february-to-enhance-your-portfolio-returns",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:42.639Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Qualys Q4 Earnings Surpass Expectations, Revenues Increase Y/Y",
+        "url": "/news/302746/qualys-q4-earnings-surpass-expectations-revenues-increase-yy",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:42.639Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "A Tech Bust Gave Way to a Broader Rally. What Comes Next Could Be Ugly.",
+        "url": "https://www.barrons.com/articles/tech-bust-broader-rally-crypto-silver-fde38403?mod=bar_FV",
+        "symbol": "SLV",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:43.232Z",
+        "symbols": [
+          "SLV"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Billionaire Chinese trader bets on silver collapse with $300 million wager",
+        "url": "https://finance.yahoo.com/news/billionaire-chinese-trader-bets-silver-154954492.html",
+        "symbol": "SLV",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:43.232Z",
+        "symbols": [
+          "SLV"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "SLV Plunged 35.6% in Five Days After Fed Chair Nomination Rattled Silver Markets",
+        "url": "https://finance.yahoo.com/m/e75bcefc-abe7-3823-ad57-38457d154c66/slv-plunged-35.6%25-in-five.html",
+        "symbol": "SLV",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:43.232Z",
+        "symbols": [
+          "SLV"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "Silver Prices Go on Another Wild Ride",
+        "url": "https://finance.yahoo.com/m/2a4b51c1-a2f9-38be-a7da-2b150aec99b5/silver-prices-go-on-another.html",
+        "symbol": "SLV",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:43.232Z",
+        "symbols": [
+          "SLV"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Why GLDs 74% Rally Turned Into a Mousetrap and What the Fed Chair Pick Means Now",
+        "url": "https://finance.yahoo.com/m/fd206287-a85b-3fc2-a6e8-4fa912457e35/why-gld%E2%80%99s-74%25-rally-turned.html",
+        "symbol": "SLV",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:43.232Z",
+        "symbols": [
+          "SLV"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Health Regulators Ask DOJ to Investigate Hims &amp; Hers. The Stock Plunges.",
+        "url": "https://www.barrons.com/articles/hims-hers-novo-nordisk-wegovy-doj-89163100?mod=bar_FV",
+        "symbol": "HIMS",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:43.834Z",
+        "symbols": [
+          "HIMS"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "Health Agency Refers Knockoff GLP-1 Provider Hims &amp; Hers to Justice Department",
+        "url": "https://finance.yahoo.com/m/c3651a8d-66ba-339b-b8f2-d950adfd249b/health-agency-refers-knockoff.html",
+        "symbol": "HIMS",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:43.834Z",
+        "symbols": [
+          "HIMS"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "FDA scrutiny rattles Hims &amp; Hers stock",
+        "url": "https://finance.yahoo.com/news/fda-scrutiny-rattles-hims-hers-224533212.html",
+        "symbol": "HIMS",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:43.834Z",
+        "symbols": [
+          "HIMS"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Eli Lilly Booms, Then Busts: Stellar Guidance vs Hims Undercut",
+        "url": "/news/303416/eli-lilly-booms-then-busts-stellar-guidance-vs-hims-undercut",
+        "symbol": "HIMS",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:43.834Z",
+        "symbols": [
+          "HIMS"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Hims &amp; Hers Is Offering a New Cancer Test. It May Not Be Ready for Prime Time.",
+        "url": "https://www.barrons.com/articles/hims-cancer-screening-test-effectiveness-5fb94e50?mod=bar_FV",
+        "symbol": "HIMS",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:43.834Z",
+        "symbols": [
+          "HIMS"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Bessent Walks Back Tariff Inflation Claim",
+        "url": "https://finance.yahoo.com/news/bessent-walks-back-tariff-inflation-171009128.html",
+        "symbol": "QQQ",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:44.457Z",
+        "symbols": [
+          "QQQ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "AI Software Fears Hit Private Credit as Blue Owl Slides 26%",
+        "url": "https://finance.yahoo.com/news/ai-software-fears-hit-private-165851194.html",
+        "symbol": "QQQ",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:44.457Z",
+        "symbols": [
+          "QQQ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Inflation Worries Drop To Lowest Level Since Trump's 2nd Term Began - Dow Jones Hits Record Highs",
+        "url": "/news/302954/inflation-worries-drop-to-lowest-level-since-trumps-2nd-term-began-dow-jones-hits-record-highs",
+        "symbol": "QQQ",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:44.457Z",
+        "symbols": [
+          "QQQ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Risk Trades Unwind as Silver Slides 20% and Bitcoin Drops 13%",
+        "url": "https://finance.yahoo.com/news/risk-trades-unwind-silver-slides-120437490.html",
+        "symbol": "QQQ",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:44.457Z",
+        "symbols": [
+          "QQQ"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "Is This the End of the Road for Google Stock? Plus, QQQs 100-Day Moving Average Break",
+        "url": "https://finance.yahoo.com/m/dfd51cf0-3f84-3624-bfd2-528216b0fcfd/is-this-the-end-of-the-road.html",
+        "symbol": "QQQ",
+        "source": "finviz",
+        "time": "2026-02-07T06:49:44.457Z",
+        "symbols": [
+          "QQQ",
+          "GOOGL"
+        ],
+        "sentiment": "NEUTRAL"
+      }
+    ],
+    "updatedAt": "2026-02-07T22:00:47.551Z"
+  },
+  "technicals": {
+    "oversold": [],
+    "overbought": [],
+    "breakouts": [],
+    "volumeSpikes": [],
+    "updatedAt": "2026-02-07T22:00:47.552Z"
+  },
+  "optionsFlow": {
+    "unusualActivity": [],
+    "putCallRatio": null,
+    "ivRank": {},
+    "updatedAt": "2026-02-07T22:00:47.553Z"
+  },
+  "dayWatchlist": [
+    {
+      "symbol": "MSFT",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 102 mentions across wallstreetbets,stocks,options",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T22:00:47.544Z"
+    },
+    {
+      "symbol": "SPY",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 93 mentions across wallstreetbets,stocks,options",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T22:00:47.545Z"
+    },
+    {
+      "symbol": "MSTR",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 81 mentions across wallstreetbets,options",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T22:00:47.547Z"
+    },
+    {
+      "symbol": "AMZN",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 56 mentions across wallstreetbets,stocks,options",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T22:00:47.546Z"
+    },
+    {
+      "symbol": "NVDA",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 64 mentions across wallstreetbets,stocks",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T22:00:47.548Z"
+    },
+    {
+      "symbol": "RDDT",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 110 mentions across wallstreetbets,stocks",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T22:00:47.546Z"
+    },
+    {
+      "symbol": "MU",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 49 mentions across wallstreetbets,stocks",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T22:00:47.548Z"
+    },
+    {
+      "symbol": "SLV",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 102 mentions across options,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T12:30:43.123Z"
+    },
+    {
+      "symbol": "HIMS",
+      "reason": "Social Trending: StockTwits+Reddit",
+      "source": "research_dispatcher",
+      "conviction": 2,
+      "sourceCount": 1,
+      "addedAt": "2026-02-07T22:00:47.549Z"
+    },
+    {
+      "symbol": "CRDO",
+      "reason": "Pre-market UP 14.9%",
+      "source": "pre-market",
+      "conviction": "HIGH"
+    },
+    {
+      "symbol": "ANF",
+      "reason": "Pre-market DOWN -7.5%",
+      "source": "pre-market",
+      "conviction": "MEDIUM"
+    },
+    {
+      "symbol": "QQQ",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 120 mentions across options,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T12:30:43.122Z"
+    },
+    {
+      "symbol": "DTE",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 58 mentions across options,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T17:00:57.898Z"
+    }
+  ],
+  "swingTrader": {
+    "positions": [
+      {
+        "symbol": "AMD",
+        "qty": 2,
+        "avgEntry": 200.78,
+        "currentPrice": 208.44,
+        "marketValue": 416.88,
+        "unrealizedPL": 15.32,
+        "unrealizedPLPct": 3.8150000000000004
+      },
+      {
+        "symbol": "ANF",
+        "qty": 2,
+        "avgEntry": 99.04,
+        "currentPrice": 97.66,
+        "marketValue": 195.32,
+        "unrealizedPL": -2.76,
+        "unrealizedPLPct": -1.393
+      },
+      {
+        "symbol": "FOA",
+        "qty": 11,
+        "avgEntry": 21.91,
+        "currentPrice": 21.88,
+        "marketValue": 240.68,
+        "unrealizedPL": -0.33,
+        "unrealizedPLPct": -0.13699999999999998
+      },
+      {
+        "symbol": "SMCI",
+        "qty": 30,
+        "avgEntry": 32.075667,
+        "currentPrice": 34.38,
+        "marketValue": 1031.4,
+        "unrealizedPL": 69.13,
+        "unrealizedPLPct": 7.184
+      },
+      {
+        "symbol": "SNAP",
+        "qty": 168,
+        "avgEntry": 5.817083,
+        "currentPrice": 5.22,
+        "marketValue": 876.96,
+        "unrealizedPL": -100.31,
+        "unrealizedPLPct": -10.264
+      }
+    ],
+    "pendingOrders": [],
+    "signals": [],
+    "account": {
+      "equity": 4970.25,
+      "cash": 2209.01,
+      "buyingPower": 7179.26
+    },
+    "updatedAt": "2026-02-07T20:30:55.824Z"
+  },
+  "dayTrader": {
+    "positions": [],
+    "trades": [],
+    "pnlToday": 0,
+    "tradesCount": 0,
+    "account": null,
+    "reasoning": [],
+    "updatedAt": null
+  },
+  "agentLog": [
+    {
+      "agent": "overnight",
+      "time": "00:00:34",
+      "timestamp": "2026-02-07T05:00:34.400Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "00:06:11",
+      "timestamp": "2026-02-07T05:06:11.694Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "01:00:05",
+      "timestamp": "2026-02-07T06:00:05.676Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "01:49:44",
+      "timestamp": "2026-02-07T06:49:44.983Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "02:00:39",
+      "timestamp": "2026-02-07T07:00:39.787Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "03:00:40",
+      "timestamp": "2026-02-07T08:00:40.166Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "04:00:40",
+      "timestamp": "2026-02-07T09:00:40.657Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "05:00:41",
+      "timestamp": "2026-02-07T10:00:41.047Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "06:00:41",
+      "timestamp": "2026-02-07T11:00:41.510Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:00:41",
+      "timestamp": "2026-02-07T12:00:41.993Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:15:42",
+      "timestamp": "2026-02-07T12:15:42.066Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:30:42",
+      "timestamp": "2026-02-07T12:30:42.146Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "research_dispatcher",
+      "time": "07:30:43",
+      "timestamp": "2026-02-07T12:30:43.126Z",
+      "action": "Deep research scan completed",
+      "summary": "10 opportunities scored"
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:45:42",
+      "timestamp": "2026-02-07T12:45:42.358Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:00:42",
+      "timestamp": "2026-02-07T13:00:42.524Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:15:42",
+      "timestamp": "2026-02-07T13:15:42.509Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:30:42",
+      "timestamp": "2026-02-07T13:30:42.768Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:45:42",
+      "timestamp": "2026-02-07T13:45:42.937Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "09:00:42",
+      "timestamp": "2026-02-07T14:00:42.896Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "09:15:43",
+      "timestamp": "2026-02-07T14:15:43.070Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "09:30:52",
+      "timestamp": "2026-02-07T14:30:52.696Z",
+      "action": "LLM: Market is rebounding after AI-driven volatility with Dow above 50k; risk-on tone favors swing longs in beaten-down names with clear catalysts over next 1-3 weeks.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "10:00:52",
+      "timestamp": "2026-02-07T15:00:52.325Z",
+      "action": "LLM: Market is consolidating after AI-driven volatility; defensive rotation likely next few weeks while mega-cap earnings settle.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "10:30:54",
+      "timestamp": "2026-02-07T15:30:54.034Z",
+      "action": "LLM: Market is rebounding after AI-driven volatility with Dow >50k; risk-on flows returning but VIX still elevated—favors selective swing trades into confirmed catalysts over the next 1-3 weeks.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "11:00:54",
+      "timestamp": "2026-02-07T16:00:54.353Z",
+      "action": "LLM: Market is consolidating after AI-driven volatility; defensive positioning with selective risk-on in niche themes while we wait for next earnings cycle.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "11:30:53",
+      "timestamp": "2026-02-07T16:30:53.714Z",
+      "action": "LLM: Market is consolidating after a volatile AI-driven week; VIX near 22 signals elevated but not panic-level fear, creating favorable risk/reward for swing setups into next macro catalysts.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "12:00:55",
+      "timestamp": "2026-02-07T17:00:55.618Z",
+      "action": "LLM: Market bouncing after AI-driven selloff with VIX still elevated; risk-on pockets emerging but macro overhang remains—ideal for selective swing setups with clear catalysts.",
+      "summary": ""
+    },
+    {
+      "agent": "research_dispatcher",
+      "time": "12:00:57",
+      "timestamp": "2026-02-07T17:00:57.901Z",
+      "action": "Deep research scan completed",
+      "summary": "8 opportunities scored"
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "12:30:53",
+      "timestamp": "2026-02-07T17:30:53.929Z",
+      "action": "LLM: Market is rebounding after AI-driven volatility with Dow at 50k; risk-on tone favors swing longs into next macro data.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "13:00:53",
+      "timestamp": "2026-02-07T18:00:53.929Z",
+      "action": "LLM: Market is rebounding after AI-driven volatility with Dow >50k; risk-on flows returning but VIX still elevated—favorable for swing trades with clear catalysts.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "13:30:55",
+      "timestamp": "2026-02-07T18:30:55.343Z",
+      "action": "LLM: Market is consolidating after AI-driven volatility; risk-off regime with VIX near 22 favors selective swing trades with clear catalysts rather than broad beta exposure.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "14:00:54",
+      "timestamp": "2026-02-07T19:00:54.831Z",
+      "action": "LLM: Market is rebounding after AI-driven volatility with Dow >50k; risk-on sentiment returning but VIX still elevated suggests chop ahead—favor selective swing setups with clear catalysts over broad exposure.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "14:30:55",
+      "timestamp": "2026-02-07T19:30:55.523Z",
+      "action": "LLM: Market is rebounding after AI-driven volatility with Dow back above 50k; risk-on tone favors swing longs into month-end rebalancing.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:00:56",
+      "timestamp": "2026-02-07T20:00:56.273Z",
+      "action": "LLM: Market regime flips between risk-on/risk-off while mega-cap earnings uncertainty lingers; swing focus shifts to idiosyncratic micro-catalysts with 1-4 week timeframes rather than broad beta.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:30:55",
+      "timestamp": "2026-02-07T20:30:55.694Z",
+      "action": "LLM: Market is consolidating after AI-driven volatility; defensive positioning with yield curve normalization favors selective swing setups over broad risk-on bets.",
+      "summary": ""
+    },
+    {
+      "agent": "research_dispatcher",
+      "time": "17:00:47",
+      "timestamp": "2026-02-07T22:00:47.554Z",
+      "action": "Deep research scan completed",
+      "summary": "8 opportunities scored"
+    },
+    {
+      "agent": "overnight",
+      "time": "20:00:49",
+      "timestamp": "2026-02-08T01:00:49.362Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "21:00:49",
+      "timestamp": "2026-02-08T02:00:49.906Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "22:00:50",
+      "timestamp": "2026-02-08T03:00:50.341Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "23:00:50",
+      "timestamp": "2026-02-08T04:00:50.734Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "ticker": "ABNB",
+  "downloaded": "2026-03-09T10:00:06.685634",
+  "cik": "0001559720",
+  "company_name": "Airbnb, Inc.",
+  "sic": "7340",
+  "sic_description": "Services-To Dwellings & Other Buildings",
+  "filings_13f": [],
+  "filings_form4": [
+    {
+      "form": "4",
+      "date": "2026-03-04",
+      "accession": "0001193125-26-091777",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-25",
+      "accession": "0001193125-26-071768",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-24",
+      "accession": "0001193125-26-067831",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-24",
+      "accession": "0001193125-26-067585",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-23",
+      "accession": "0001193125-26-064769",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-23",
+      "accession": "0001193125-26-064768",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-23",
+      "accession": "0001193125-26-064757",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-11",
+      "accession": "0001193125-26-046760",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-04",
+      "accession": "0001193125-26-037674",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-28",
+      "accession": "0001193125-26-027291",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-14",
+      "accession": "0001193125-26-012915",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-06",
+      "accession": "0001193125-26-004805",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-31",
+      "accession": "0001193125-25-338296",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-23",
+      "accession": "0001193125-25-330844",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-19",
+      "accession": "0001193125-25-326800",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-17",
+      "accession": "0001193125-25-322689",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-16",
+      "accession": "0001193125-25-321207",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-16",
+      "accession": "0001193125-25-321203",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-16",
+      "accession": "0001193125-25-321199",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-11",
+      "accession": "0001193125-25-315911",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-11",
+      "accession": "0001193125-25-315909",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-10",
+      "accession": "0001193125-25-314277",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-09",
+      "accession": "0001193125-25-313216",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-09",
+      "accession": "0001193125-25-313021",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-05",
+      "accession": "0001193125-25-309617",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-04",
+      "accession": "0001193125-25-308064",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-03",
+      "accession": "0001193125-25-306659",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-02",
+      "accession": "0001193125-25-305512",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-02",
+      "accession": "0001193125-25-305461",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-02",
+      "accession": "0001193125-25-305445",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-26",
+      "accession": "0001193125-25-300494",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-24",
+      "accession": "0001193125-25-293670",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-21",
+      "accession": "0001193125-25-291600",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-21",
+      "accession": "0001193125-25-291597",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-21",
+      "accession": "0001193125-25-291595",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-21",
+      "accession": "0001193125-25-291593",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-18",
+      "accession": "0001607841-25-000004",
+      "document": "xslF345X05/form4.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-17",
+      "accession": "0001193125-25-284728",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-13",
+      "accession": "0001193125-25-280129",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-10",
+      "accession": "0001193125-25-274189",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-03",
+      "accession": "0001193125-25-262635",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-30",
+      "accession": "0001193125-25-258505",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-29",
+      "accession": "0001193125-25-256523",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-28",
+      "accession": "0001193125-25-253476",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-27",
+      "accession": "0001193125-25-251569",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-20",
+      "accession": "0001193125-25-243554",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-15",
+      "accession": "0001193125-25-240276",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-14",
+      "accession": "0001193125-25-238997",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-06",
+      "accession": "0001193125-25-231859",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-01",
+      "accession": "0001193125-25-226743",
+      "document": "xslF345X05/ownership.xml"
+    }
+  ],
+  "yf_institutional_holders": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Vanguard Group Inc",
+      "pctHeld": 0.0904,
+      "Shares": 38283087,
+      "Value": 4941198319,
+      "pctChange": -0.00029999999
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.0744,
+      "Shares": 31504726,
+      "Value": 4066315215,
+      "pctChange": -0.0196
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Harris Associates L.P.",
+      "pctHeld": 0.044099998,
+      "Shares": 18694408,
+      "Value": 2412887377,
+      "pctChange": 0.20969999
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.0423,
+      "Shares": 17922560,
+      "Value": 2313264950,
+      "pctChange": -0.0031
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0312,
+      "Shares": 13234861,
+      "Value": 1708223606,
+      "pctChange": 0.057600003
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.0238,
+      "Shares": 10076465,
+      "Value": 1300569411,
+      "pctChange": 0.0047999998
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "FMR, LLC",
+      "pctHeld": 0.0216,
+      "Shares": 9145617,
+      "Value": 1180424853,
+      "pctChange": -0.10560001
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "AQR Capital Management, LLC",
+      "pctHeld": 0.016,
+      "Shares": 6762784,
+      "Value": 872872580,
+      "pctChange": 0.5838
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "ClearBridge Investments, LLC",
+      "pctHeld": 0.0143,
+      "Shares": 6073947,
+      "Value": 783964383,
+      "pctChange": 0.037
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Invesco Ltd.",
+      "pctHeld": 0.0136,
+      "Shares": 5756523,
+      "Value": 742994465,
+      "pctChange": 0.0484
+    }
+  ],
+  "yf_major_holders": {
+    "Value": {
+      "insidersPercentHeld": 0.013660001,
+      "institutionsPercentHeld": 0.86529,
+      "institutionsFloatPercentHeld": 0.87727,
+      "institutionsCount": 1807.0
+    }
+  }
+}

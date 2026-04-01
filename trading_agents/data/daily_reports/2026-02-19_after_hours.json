@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-02-19T21:30:51.155Z",
+  "date": "2026-02-19",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90401.14,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "cash": 90401.14,
+    "buyingPower": 361604.56,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Feb 10–13: four consecutive losing days totaling -$10,430 — that is a 10.3% drawdown on the day-trade account in four sessions. A hard daily loss limit rule must be enforced.",
+      "AVOID: Feb 11: 0-for-3 on the day, -$4,757. Three losses in one session without stopping is a major discipline failure.",
+      "AVOID: Feb 12: 2-for-6 wins, -$845 — six trades on a losing day signals overtrading and refusal to accept a bad day early.",
+      "AVOID: VIX data is missing for several recent days, suggesting the regime-detection system has gaps that may be contributing to poor entry timing."
+    ],
+    "tomorrowRules": [
+      "Define your market regime before placing any order. If regime reads NEUTRAL or CHOPPY, reduce max trade count to 2 and cut size by 50%.",
+      "Hard stop: if first trade of the day is a loss and exceeds 0.5% of account ($452), close the platform and do not re-enter until next session.",
+      "Maximum 3 trades per day until win rate climbs above 45% over a rolling 20-trade sample.",
+      "Before entry, write down your invalidation level. If price hits it, exit — no averaging down, no hope trades.",
+      "Do not take a new trade within 15 minutes of a closed loss. Reset, review, then decide."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades taken today in a NEUTRAL market regime. Sitting on hands when conditions don't favor your edge is disciplined, not lazy. However, five consecutive zero-trade days raises a question: is this patience or avoidance? The grade holds at B because capital was preserved.",
+    "keyLessons": [
+      "No-trade days in choppy/neutral regimes ARE a valid outcome — your job is to protect the $90K day-trade account, not force activity.",
+      "Your cumulative win rate of 37.9% across 29 trades demands that your winners dwarf your losers. Feb 6 (+$20,632) proves you can do it, but Feb 10–13 (-$10,430 combined) shows your losses can cascade badly.",
+      "Five days of zero day-trading activity in a row suggests either a lack of qualifying setups (good) or a confidence dip after the Feb 10–13 drawdown streak (needs honest self-assessment).",
+      "With 18 losses versus 11 wins, your positive cumulative PnL (+$11,947) is entirely dependent on a small number of large wins. One bad sizing day can erase that edge — size discipline is non-negotiable."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Recognized NEUTRAL regime and did not force trades — this aligns with a regime-filtered strategy.",
+        "No revenge trading following the Feb 10–13 losing streak; you stopped rather than doubled down.",
+        "Cumulative PnL is positive despite a sub-40% win rate, indicating you are cutting losers and letting winners run at least some of the time."
+      ],
+      "badPatterns": [
+        "Feb 10–13: four consecutive losing days totaling -$10,430 — that is a 10.3% drawdown on the day-trade account in four sessions. A hard daily loss limit rule must be enforced.",
+        "Feb 11: 0-for-3 on the day, -$4,757. Three losses in one session without stopping is a major discipline failure.",
+        "Feb 12: 2-for-6 wins, -$845 — six trades on a losing day signals overtrading and refusal to accept a bad day early.",
+        "VIX data is missing for several recent days, suggesting the regime-detection system has gaps that may be contributing to poor entry timing."
+      ]
+    },
+    "tomorrowRules": [
+      "Define your market regime before placing any order. If regime reads NEUTRAL or CHOPPY, reduce max trade count to 2 and cut size by 50%.",
+      "Hard stop: if first trade of the day is a loss and exceeds 0.5% of account ($452), close the platform and do not re-enter until next session.",
+      "Maximum 3 trades per day until win rate climbs above 45% over a rolling 20-trade sample.",
+      "Before entry, write down your invalidation level. If price hits it, exit — no averaging down, no hope trades.",
+      "Do not take a new trade within 15 minutes of a closed loss. Reset, review, then decide."
+    ],
+    "riskAssessment": "Today: risk was perfectly managed — zero exposure, zero loss. Cumulative risk management is a serious concern. The Feb 10–13 streak represents unacceptable drawdown for a four-day window. A maximum daily loss rule of 1–1.5% of account equity ($900–$1,350) was clearly not enforced on Feb 11 (-$4,757 = ~5.3% of current equity). This must be addressed structurally, not just mentally.",
+    "emotionalCheck": "Today shows no emotional trading. The more important flag is the cluster of overtrading on bad days (Feb 11: 3 trades all losers, Feb 12: 6 trades mostly losers, Feb 13: 2 trades following a -$4,757 day). This pattern — continuing to trade aggressively after early losses — is a textbook revenge-trading signature. The current 5-day pause may reflect healthy restraint or emotional shutdown; journal your internal state to distinguish between the two."
+  },
+  "errors": []
+}

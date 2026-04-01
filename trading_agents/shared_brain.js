@@ -120,6 +120,33 @@ function createFreshContext() {
       updatedAt: null,
     },
 
+    // MacroStrategy V9 alpha scores (written by v9_macro_loader.js)
+    macroAlpha: {
+      version: null,         // 'V9'
+      predictionDate: null,  // Date the predictions are for
+      generatedAt: null,     // When the export was created
+      freshness: null,       // { ageDays, isStale, staleDays }
+      topPicks: [],          // [{ symbol, alpha, rank, sectorGroup }]
+      bottomPicks: [],       // [{ symbol, alpha, rank, sectorGroup }]
+      metadata: null,        // { featureCount, universeSize, bestCombo }
+      modelInfo: null,       // Full model performance context (from model_info in JSON export)
+      scores: {},            // { symbol: { alpha, rank, percentile, quintile, sectorGroup } }
+      updatedAt: null,
+    },
+
+    // IASM Intraday Alpha Signals (written by iasm_loader.js)
+    iasmSignals: {
+      timestamp: null,       // When signals were generated
+      signals: [],           // [{ symbol, direction, magnitude, confidence, timeframe, expected_return_pct, features, context }]
+      model_metrics: {},     // { recent_ic, recent_hit_rate, retrain_date }
+      market_context: {},    // { spy_direction, spy_momentum, vix_level, regime }
+      freshness: null,       // { ageMinutes, isFresh, isStale }
+      updatedAt: null,
+    },
+
+    // Failed setups tracker (prevents repeating mistakes)
+    failedSetups: [],      // [{ symbol, setupType, reason, timestamp, count }]
+
     // Agent activity log
     agentLog: [],          // [{ agent, time, action, summary }]
   };
@@ -241,6 +268,153 @@ class SharedBrain {
     this.save();
   }
 
+  // --- MacroStrategy V9 Alpha ---
+  writeMacroAlpha(data) {
+    // Ensure macroAlpha section exists (for contexts persisted before V9 integration)
+    if (!this.ctx.macroAlpha) {
+      this.ctx.macroAlpha = {
+        version: null, predictionDate: null, generatedAt: null, freshness: null,
+        topPicks: [], bottomPicks: [], metadata: null, modelInfo: null,
+        scores: {}, updatedAt: null,
+      };
+    }
+    Object.assign(this.ctx.macroAlpha, data, { updatedAt: new Date().toISOString() });
+    this.logAgent('v9-macro', `Updated V9 alpha scores (${Object.keys(data.scores || {}).length} symbols)`);
+    this.save();
+  }
+
+  /**
+   * Get macro alpha for specific symbols.
+   * @param {string|string[]} symbols - Single symbol or array of symbols
+   * @returns {object} { symbol: { alpha, rank, percentile, quintile, sectorGroup } | null }
+   */
+  getMacroAlpha(symbols) {
+    const scores = (this.ctx.macroAlpha && this.ctx.macroAlpha.scores) || {};
+    if (typeof symbols === 'string') {
+      return scores[symbols] || null;
+    }
+    const result = {};
+    for (const sym of symbols) {
+      result[sym] = scores[sym] || null;
+    }
+    return result;
+  }
+
+  /**
+   * Check if macro alpha data is available and fresh.
+   * @returns {object} { available: bool, isStale: bool, ageDays: number, predictionDate: string }
+   */
+  getMacroAlphaStatus() {
+    const ma = this.ctx.macroAlpha;
+    if (!ma || !ma.updatedAt) {
+      return { available: false, isStale: true, ageDays: null, predictionDate: null };
+    }
+    const freshness = ma.freshness || {};
+    return {
+      available: true,
+      isStale: freshness.isStale || false,
+      ageDays: freshness.ageDays || null,
+      predictionDate: ma.predictionDate || null,
+    };
+  }
+
+  /**
+   * Get full model performance context for LLM prompts.
+   * Returns model_info object with raw metrics, execution metrics,
+   * audit notes, and interpretation guide for enriched LLM reasoning.
+   *
+   * @returns {object|null} model_info object or null if unavailable
+   */
+  getMacroAlphaModelInfo() {
+    const ma = this.ctx.macroAlpha;
+    if (!ma || !ma.modelInfo) return null;
+    return ma.modelInfo;
+  }
+
+  /**
+   * Format model_info into a concise string block for LLM prompt injection.
+   * This provides the LLM with full context on model performance and limitations.
+   *
+   * @returns {string} Formatted model info block for LLM prompts
+   */
+  formatModelInfoForLLM() {
+    const mi = this.getMacroAlphaModelInfo();
+    if (!mi) return '';
+
+    const lines = [];
+    lines.push('--- MACROSTRATEGY V9 MODEL PERFORMANCE ---');
+    lines.push(`Model: ${mi.version} | OOS Period: ${mi.oos_period}`);
+    lines.push(`Best Combo: ${mi.best_combo}`);
+
+    if (mi.execution_metrics) {
+      const em = mi.execution_metrics;
+      lines.push(`Backtest: ${em.oos_return} return, ${em.sharpe} Sharpe, ${em.max_drawdown} max DD`);
+      lines.push(`vs SPY: ${em.vs_spy} outperformance`);
+      lines.push(`Monthly: ${em.avg_monthly_return}% avg, ${em.monthly_win_rate}% win rate (${em.positive_months}W/${em.negative_months}L)`);
+    }
+
+    if (mi.spy_benchmark) {
+      lines.push(`SPY Benchmark: ${mi.spy_benchmark.return} return, ${mi.spy_benchmark.sharpe} Sharpe, ${mi.spy_benchmark.max_drawdown} DD`);
+    }
+
+    if (mi.raw_model_metrics) {
+      const modelSummary = Object.entries(mi.raw_model_metrics)
+        .sort((a, b) => b[1].cv_ic_avg - a[1].cv_ic_avg)
+        .map(([k, v]) => `${k}: IC=${v.cv_ic_avg.toFixed(4)}${v.reliable ? '' : ' (weak)'}`)
+        .join(', ');
+      lines.push(`Model ICs: ${modelSummary}`);
+    }
+
+    if (mi.feature_selection) {
+      lines.push(`Features: ${mi.feature_selection.selected}/${mi.feature_selection.total_candidates} selected`);
+    }
+
+    if (mi.audit_notes && mi.audit_notes.length > 0) {
+      lines.push(`Audit: ${mi.audit_notes.length} checks passed. Key: execution config frozen, all leakage vectors fixed.`);
+    }
+
+    if (mi.interpretation_guide) {
+      lines.push(`Guide: ${mi.interpretation_guide}`);
+    }
+
+    return lines.join('\n');
+  }
+
+  // --- IASM Intraday Signals ---
+  writeIASMSignals(data) {
+    if (!this.ctx.iasmSignals) {
+      this.ctx.iasmSignals = {
+        timestamp: null, signals: [], model_metrics: {}, market_context: {},
+        freshness: null, updatedAt: null,
+      };
+    }
+    Object.assign(this.ctx.iasmSignals, data, { updatedAt: new Date().toISOString() });
+    this.logAgent('iasm', `Updated IASM signals (${(data.signals || []).length} signals)`);
+    this.save();
+  }
+
+  getIASMSignals(symbols) {
+    const signals = (this.ctx.iasmSignals && this.ctx.iasmSignals.signals) || [];
+    if (!symbols) return signals;
+    const symSet = new Set(Array.isArray(symbols) ? symbols : [symbols]);
+    return signals.filter(s => symSet.has(s.symbol));
+  }
+
+  getIASMStatus() {
+    const iasm = this.ctx.iasmSignals;
+    if (!iasm || !iasm.updatedAt) {
+      return { available: false, isStale: true, ageMinutes: null, signalCount: 0 };
+    }
+    const freshness = iasm.freshness || {};
+    return {
+      available: true,
+      isStale: freshness.isStale || false,
+      isFresh: freshness.isFresh || false,
+      ageMinutes: freshness.ageMinutes || null,
+      signalCount: (iasm.signals || []).length,
+    };
+  }
+
   // --- Day Watchlist ---
   addToWatchlist(item) {
     // Avoid duplicates
@@ -251,6 +425,56 @@ class SharedBrain {
       this.ctx.dayWatchlist.push(item);
     }
     this.save();
+  }
+
+  /**
+   * FIX 1: Write research picks to persistent file for swing scanner
+   * @param {Array} picks - Array of research opportunities with full DD
+   */
+  writeResearchPicks(picks) {
+    const researchFile = path.join(DATA_DIR, 'research_picks.json');
+    try {
+      const data = {
+        timestamp: new Date().toISOString(),
+        date: getTodayET(),
+        picks: picks.map(p => ({
+          symbol: p.symbol,
+          score: p.score,
+          sourceCount: p.sourceCount,
+          sources: p.sources,
+          signals: p.signals,
+          conviction: Math.min(5, Math.round(p.score)),
+          ta: p.ta,
+          options: p.options,
+          revisions: p.revisions,
+          sectorStrength: p.sectorStrength,
+          quote: p.quote,
+        })),
+      };
+      fs.writeFileSync(researchFile, JSON.stringify(data, null, 2));
+      console.log(`[SharedBrain] Wrote ${picks.length} research picks to file`);
+    } catch (e) {
+      console.error('[SharedBrain] Failed to write research picks:', e.message);
+    }
+  }
+
+  /**
+   * Read research picks from file (for swing scanner to consume)
+   */
+  readResearchPicks() {
+    const researchFile = path.join(DATA_DIR, 'research_picks.json');
+    if (!fs.existsSync(researchFile)) return [];
+
+    try {
+      const data = JSON.parse(fs.readFileSync(researchFile, 'utf8'));
+      // Check if still today's picks
+      if (data.date === getTodayET()) {
+        return data.picks || [];
+      }
+    } catch (e) {
+      console.error('[SharedBrain] Failed to read research picks:', e.message);
+    }
+    return [];
   }
 
   // --- Swing Trader ---
@@ -278,6 +502,54 @@ class SharedBrain {
       decision,
     });
     this.save();
+  }
+
+  /**
+   * Record a failed setup to prevent repeating the same mistake
+   * @param {string} symbol - Stock symbol
+   * @param {string} setupType - Type of setup (e.g., "puts", "calls", "long", "short")
+   * @param {string} reason - Why it failed
+   */
+  recordFailedSetup(symbol, setupType, reason) {
+    if (!this.ctx.failedSetups) this.ctx.failedSetups = [];
+
+    // Check if this symbol+setupType combo already exists today
+    const existing = this.ctx.failedSetups.find(f =>
+      f.symbol === symbol && f.setupType === setupType
+    );
+
+    if (existing) {
+      // Increment count and update reason
+      existing.count++;
+      existing.lastReason = reason;
+      existing.timestamp = new Date().toISOString();
+    } else {
+      // New failed setup
+      this.ctx.failedSetups.push({
+        symbol,
+        setupType,
+        reason,
+        timestamp: new Date().toISOString(),
+        count: 1,
+      });
+    }
+
+    this.save();
+  }
+
+  /**
+   * Get failed setups for a symbol (or all if no symbol specified)
+   * @param {string} symbol - Optional symbol filter
+   * @returns {Array} Failed setups
+   */
+  getFailedSetups(symbol = null) {
+    if (!this.ctx.failedSetups) return [];
+
+    if (symbol) {
+      return this.ctx.failedSetups.filter(f => f.symbol === symbol);
+    }
+
+    return this.ctx.failedSetups;
   }
 
   // --- Agent Log ---
@@ -331,6 +603,13 @@ class SharedBrain {
       todayPnL: c.dayTrader.pnlToday,
       todayTrades: c.dayTrader.tradesCount,
       previousReasoning: c.dayTrader.reasoning?.slice(-5),
+      // V9 MacroStrategy alpha scores (monthly horizon tilt for day trader context)
+      macroAlpha: c.macroAlpha?.updatedAt ? {
+        predictionDate: c.macroAlpha.predictionDate,
+        freshness: c.macroAlpha.freshness,
+        topPicks: (c.macroAlpha.topPicks || []).slice(0, 5),
+        bottomPicks: (c.macroAlpha.bottomPicks || []).slice(0, 3),
+      } : null,
     };
   }
 
@@ -348,6 +627,14 @@ class SharedBrain {
       earningsThisWeek: c.catalysts.earningsThisWeek,
       currentPositions: c.swingTrader.positions,
       signals: c.swingTrader.signals,
+      // V9 MacroStrategy alpha scores (monthly horizon - HIGH relevance for swing trades)
+      macroAlpha: c.macroAlpha?.updatedAt ? {
+        predictionDate: c.macroAlpha.predictionDate,
+        freshness: c.macroAlpha.freshness,
+        topPicks: c.macroAlpha.topPicks || [],       // Full top 10 for swing
+        bottomPicks: c.macroAlpha.bottomPicks || [],  // Full bottom 10 for swing
+        metadata: c.macroAlpha.metadata,
+      } : null,
     };
   }
 
@@ -364,6 +651,7 @@ class SharedBrain {
         positions: c.dayTrader.positions,
         reasoning: c.dayTrader.reasoning,
       },
+      macroAlphaStatus: this.getMacroAlphaStatus(),
       agentLog: c.agentLog,
     };
   }
@@ -371,6 +659,78 @@ class SharedBrain {
   /** Check if context has been updated today by a specific section */
   hasData(section) {
     return this.ctx[section]?.updatedAt != null;
+  }
+
+  /**
+   * Load recent daily history for green/red day context.
+   * Returns last N days of archived data (daily P&L, trades, market regime).
+   */
+  getRecentDailyHistory(days = 7) {
+    const history = [];
+    const today = getTodayET();
+
+    try {
+      const files = fs.readdirSync(HISTORY_DIR)
+        .filter(f => f.endsWith('.json') && f < `${today}.json`)
+        .sort()
+        .reverse()
+        .slice(0, days);
+
+      for (const file of files) {
+        try {
+          const data = JSON.parse(fs.readFileSync(path.join(HISTORY_DIR, file), 'utf8'));
+          history.push({
+            date: data.date,
+            dayPnL: data.dayTrader?.pnlToday || 0,
+            dayTrades: data.dayTrader?.tradesCount || 0,
+            swingPnL: data.swingTrader?.account?.equity ? 'tracked' : 'N/A',
+            marketRegime: data.market?.regime || 'unknown',
+            riskSentiment: data.overnight?.riskSentiment || 'unknown',
+            vix: data.market?.vix || null,
+            greenDay: (data.dayTrader?.pnlToday || 0) >= 0,
+          });
+        } catch (e) { /* skip corrupt files */ }
+      }
+    } catch (e) { /* history dir may not exist yet */ }
+
+    return history;
+  }
+
+  /**
+   * Get performance context from the trade journal's performance_log.json
+   */
+  getPerformanceContext() {
+    try {
+      const perfFile = path.join(DATA_DIR, 'performance_log.json');
+      if (!fs.existsSync(perfFile)) return null;
+      const perf = JSON.parse(fs.readFileSync(perfFile, 'utf8'));
+
+      const dailyEntries = Object.values(perf.dailyPnL || {}).sort((a, b) => b.date?.localeCompare(a.date));
+      const recentDays = dailyEntries.slice(0, 7);
+
+      return {
+        cumulativePnL: perf.cumulativePnL || 0,
+        totalTrades: perf.totalTrades || 0,
+        wins: perf.wins || 0,
+        losses: perf.losses || 0,
+        winRate: perf.totalTrades > 0 ? ((perf.wins / perf.totalTrades) * 100).toFixed(1) + '%' : 'N/A',
+        recentDays,
+        currentStreak: this._calculateStreak(recentDays),
+      };
+    } catch (e) { return null; }
+  }
+
+  _calculateStreak(recentDays) {
+    if (!recentDays || recentDays.length === 0) return { type: 'none', count: 0 };
+    const first = recentDays[0];
+    const type = first.grossPL >= 0 ? 'green' : 'red';
+    let count = 0;
+    for (const day of recentDays) {
+      if ((type === 'green' && day.grossPL >= 0) || (type === 'red' && day.grossPL < 0)) {
+        count++;
+      } else break;
+    }
+    return { type, count };
   }
 }
 

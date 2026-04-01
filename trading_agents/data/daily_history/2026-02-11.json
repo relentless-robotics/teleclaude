@@ -1,0 +1,1764 @@
+{
+  "date": "2026-02-11",
+  "createdAt": "2026-02-11T05:00:27.970Z",
+  "lastUpdated": "2026-02-12T04:00:57.318Z",
+  "overnight": {
+    "futures": {
+      "S&P 500": {
+        "price": 6977,
+        "change": 0.2226531638296344,
+        "threshold": 0.5,
+        "significant": false
+      },
+      "NASDAQ": {
+        "price": 25315.25,
+        "change": 0.384642074687974,
+        "threshold": 0.7,
+        "significant": false
+      },
+      "Dow Jones": {
+        "price": 50324,
+        "change": 0.10144610427068208,
+        "threshold": 0.5,
+        "significant": false
+      },
+      "Russell 2000": {
+        "price": 2684.8,
+        "change": -0.1301938027749879,
+        "threshold": 0.7,
+        "significant": false
+      },
+      "Crude Oil": {
+        "price": 64.91,
+        "change": 1.4853033145716006,
+        "threshold": 2,
+        "significant": false
+      },
+      "Gold": {
+        "price": 5081.1,
+        "change": 1.5448259322914621,
+        "threshold": 1,
+        "significant": true
+      },
+      "30Y Bonds": {
+        "price": 116.25,
+        "change": -0.18781862087469814,
+        "threshold": 0.5,
+        "significant": false
+      }
+    },
+    "globalMarkets": {
+      "Asia": [
+        {
+          "name": "Nikkei (Japan)",
+          "price": 57723.99,
+          "change": 0.1274055715696628
+        },
+        {
+          "name": "Hang Seng (HK)",
+          "price": 27031.78,
+          "change": -0.556852314761176
+        },
+        {
+          "name": "Shanghai (China)",
+          "price": 4137.057,
+          "change": 0.12274971956578054
+        }
+      ],
+      "Europe": [
+        {
+          "name": "FTSE 100 (UK)",
+          "price": 10472.11,
+          "change": 0.827155263715313
+        },
+        {
+          "name": "DAX (Germany)",
+          "price": 24856.15,
+          "change": -0.6345025978547861
+        },
+        {
+          "name": "CAC 40 (France)",
+          "price": 8313.24,
+          "change": -0.17579504027434856
+        }
+      ]
+    },
+    "crypto": {
+      "Bitcoin": {
+        "price": 67509.73,
+        "change": 0.72237372745366
+      },
+      "Ethereum": {
+        "price": 1967.1075,
+        "change": 1.329611901493836
+      }
+    },
+    "significantMoves": [
+      {
+        "market": "Gold",
+        "change": 1.5448259322914621,
+        "type": "FUTURES",
+        "severity": "MEDIUM"
+      }
+    ],
+    "riskSentiment": "RISK_ON",
+    "updatedAt": "2026-02-12T04:00:57.317Z"
+  },
+  "preMarket": {
+    "futures": {
+      "S&P 500": {
+        "price": 7001.25,
+        "change": 0.5709976298211592,
+        "direction": "up"
+      },
+      "NASDAQ": {
+        "price": 25428.25,
+        "change": 0.8327302647883972,
+        "direction": "up"
+      },
+      "Dow Jones": {
+        "price": 50513,
+        "change": 0.4773934318620333,
+        "direction": "up"
+      },
+      "Russell 2000": {
+        "price": 2713.5,
+        "change": 0.9373953799799061,
+        "direction": "up"
+      }
+    },
+    "gappers": [
+      {
+        "symbol": "CRDO",
+        "change": 20.93357271095152,
+        "direction": "UP"
+      },
+      {
+        "symbol": "ANF",
+        "change": -5.764898627892685,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "MU",
+        "change": -5.4321112772048945,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "BE",
+        "change": 3.964203313990063,
+        "direction": "UP"
+      },
+      {
+        "symbol": "CCJ",
+        "change": 3.9250198011088693,
+        "direction": "UP"
+      },
+      {
+        "symbol": "SMCI",
+        "change": -3.054101221640501,
+        "direction": "DOWN"
+      }
+    ],
+    "movers": [
+      {
+        "symbol": "CRDO",
+        "price": 134.72,
+        "change": 20.93357271095152
+      },
+      {
+        "symbol": "ANF",
+        "price": 92.03,
+        "change": -5.764898627892685
+      },
+      {
+        "symbol": "MU",
+        "price": 373.25,
+        "change": -5.4321112772048945
+      },
+      {
+        "symbol": "BE",
+        "price": 148.7,
+        "change": 3.964203313990063
+      },
+      {
+        "symbol": "CCJ",
+        "price": 118.09,
+        "change": 3.9250198011088693
+      },
+      {
+        "symbol": "SMCI",
+        "price": 33.33,
+        "change": -3.054101221640501
+      },
+      {
+        "symbol": "AMD",
+        "price": 213.57,
+        "change": 2.461139896373055
+      }
+    ],
+    "watchlistAlerts": [
+      {
+        "symbol": "CRDO",
+        "action": "GAP_UP",
+        "change": 20.93357271095152,
+        "note": "Pre-market gap up of 20.9%"
+      },
+      {
+        "symbol": "ANF",
+        "action": "GAP_DOWN",
+        "change": -5.764898627892685,
+        "note": "Pre-market gap down of -5.8%"
+      },
+      {
+        "symbol": "MU",
+        "action": "GAP_DOWN",
+        "change": -5.4321112772048945,
+        "note": "Pre-market gap down of -5.4%"
+      }
+    ],
+    "newsHighlights": [],
+    "updatedAt": "2026-02-11T14:15:51.205Z"
+  },
+  "market": {
+    "indices": {
+      "SPY": {
+        "symbol": "SPY",
+        "price": 694.45,
+        "prevClose": 686.19,
+        "change": 694.45,
+        "changePct": null,
+        "volume": 11339742,
+        "high": 697.1300048828125,
+        "low": 693.8049926757812,
+        "fiftyTwoHigh": 697.84,
+        "fiftyTwoLow": 481.8,
+        "open": 696.3900146484375
+      },
+      "QQQ": {
+        "symbol": "QQQ",
+        "price": 614.09,
+        "prevClose": 605.75,
+        "change": 614.09,
+        "changePct": null,
+        "volume": 10458756,
+        "high": 617.52001953125,
+        "low": 613.2999877929688,
+        "fiftyTwoHigh": 637.01,
+        "fiftyTwoLow": 402.39,
+        "open": 616.3980102539062
+      }
+    },
+    "vix": 17.02,
+    "regime": "RISK_ON",
+    "sectorLeaders": [
+      "SMH (Semiconductors) 8.85%",
+      "XLB (Materials) 6.18%",
+      "GLD (Gold) 5.83%",
+      "XLK (Technology) 5.41%",
+      "XLE (Energy) 5.31%"
+    ],
+    "sectorLaggards": [
+      "XLF (Financials) -1.03%",
+      "XLY (Consumer Disc) 0.21%",
+      "XLC (Communications) 0.46%",
+      "TLT (Bonds 20Y) 0.66%",
+      "XLV (Healthcare) 0.91%"
+    ],
+    "updatedAt": "2026-02-11T22:00:54.482Z"
+  },
+  "sentiment": {
+    "overall": null,
+    "trending": [
+      {
+        "symbol": "SPY",
+        "title": "SPDR S&P 500 ETF Trust",
+        "watchlistCount": 624464
+      },
+      {
+        "symbol": "U",
+        "title": "Unity Software Inc",
+        "watchlistCount": 36864
+      },
+      {
+        "symbol": "HOOD",
+        "title": "Robinhood Markets Inc",
+        "watchlistCount": 93912
+      },
+      {
+        "symbol": "QQQ",
+        "title": "Invesco QQQ Trust Series 1",
+        "watchlistCount": 267112
+      },
+      {
+        "symbol": "SHOP",
+        "title": "Shopify Inc",
+        "watchlistCount": 138025
+      },
+      {
+        "symbol": "VRT",
+        "title": "Vertiv Holdings Co",
+        "watchlistCount": 14325
+      },
+      {
+        "symbol": "DUOL",
+        "title": "Duolingo Inc",
+        "watchlistCount": 8488
+      },
+      {
+        "symbol": "TLT",
+        "title": "iShares 20+ Year Treasury Bond ETF",
+        "watchlistCount": 30074
+      },
+      {
+        "symbol": "UPST",
+        "title": "Upstart Holdings Inc",
+        "watchlistCount": 47785
+      },
+      {
+        "symbol": "LYFT",
+        "title": "Lyft Inc",
+        "watchlistCount": 42739
+      },
+      {
+        "symbol": "HUM",
+        "title": "Humana Inc",
+        "watchlistCount": 7238
+      },
+      {
+        "symbol": "F",
+        "title": "Ford Motor Co",
+        "watchlistCount": 186015
+      },
+      {
+        "symbol": "MNTN",
+        "title": "MNTN, Inc.",
+        "watchlistCount": 694
+      },
+      {
+        "symbol": "CCCX",
+        "title": "Churchill Capital Corp X ",
+        "watchlistCount": 5634
+      },
+      {
+        "symbol": "ALAB",
+        "title": "Astera Labs Inc",
+        "watchlistCount": 9002
+      }
+    ],
+    "socialMomentum": [
+      {
+        "symbol": "APP",
+        "score": 4,
+        "source": "StockTwits+Reddit"
+      },
+      {
+        "symbol": "MSFT",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "AMZN",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "SPY",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "MU",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "RDDT",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "NVDA",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "TSLA",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "GOOG",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "TSM",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "SHOP",
+        "score": 2,
+        "source": "StockTwits"
+      },
+      {
+        "symbol": "QS",
+        "score": 2,
+        "source": "StockTwits"
+      },
+      {
+        "symbol": "VKTX",
+        "score": 2,
+        "source": "StockTwits"
+      },
+      {
+        "symbol": "FSLY",
+        "score": 2,
+        "source": "StockTwits"
+      },
+      {
+        "symbol": "MCD",
+        "score": 2,
+        "source": "StockTwits"
+      }
+    ],
+    "updatedAt": "2026-02-11T22:00:54.483Z"
+  },
+  "catalysts": {
+    "earningsToday": [],
+    "earningsThisWeek": [],
+    "economicEvents": [],
+    "newsBreaking": [
+      {
+        "headline": "Micron stock rises 5.5% after CFO clarifies HBM4 production status",
+        "url": "https://finance.yahoo.com/news/micron-stock-rises-5-5-145139606.html",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:43.540Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Vanguards 0.04% ETF Is Outperforming The S&amp;P 500",
+        "url": "https://finance.yahoo.com/m/f30a2777-d460-3e22-b828-8af51a0014c2/vanguard%E2%80%99s-0.04%25-etf-is.html",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:44.167Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Stocks Climb as January Jobs Growth Eases Economic Concerns",
+        "url": "https://finance.yahoo.com/m/decee8f6-85ee-32ab-b554-c741fa1a1f9b/stocks-climb-as-january-jobs.html",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:44.167Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "A Big Correction Would Cost Dow 10,000 Points",
+        "url": "https://finance.yahoo.com/m/7d67e345-90de-3981-9df7-9ea8e5cd0630/a-big-correction-would-cost.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:44.762Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Nvidia Partner Surges After Earnings Beat; Expects 'Momentum' To Continue In 2026",
+        "url": "https://www.investors.com/news/nvidia-partner-vertiv-earnings-momentum-continue-2026?mod=IBD_FV",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:46.024Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "TikTok Parent ByteDance Unveils Google Nano Banana Rival At Affordable Price",
+        "url": "/news/307373/tiktok-parent-bytedance-unveils-google-nano-banana-rival-at-affordable-price",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:46.024Z",
+        "symbols": [
+          "NVDA",
+          "GOOGL"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Vertiv Stock Soars. Earnings Shake Off Concerns the AI Trade Is Losing Steam.",
+        "url": "https://www.barrons.com/articles/vertiv-earnings-stock-price-b5c45c67?mod=bar_FV",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:46.024Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Broadcom Is Closing the Gap With Nvidia, Analyst Says",
+        "url": "https://finance.yahoo.com/m/cfb73838-395d-32a2-89e4-d024ee241937/broadcom-is-closing-the-gap.html",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:46.024Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "U.S. Says Nvidia Must Follow Rules on China AI Chip Sales",
+        "url": "https://finance.yahoo.com/news/u-says-nvidia-must-rules-130402411.html",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:46.024Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "They Found $10,000 In Silver By Accident. You Can Buy In Precious Metals On Purpose",
+        "url": "https://finance.yahoo.com/news/found-10-000-silver-accident-180116794.html",
+        "symbol": "RDDT",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:46.622Z",
+        "symbols": [
+          "RDDT",
+          "META"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Dove lets Redditors do the talking in transparency-focused campaign",
+        "url": "https://finance.yahoo.com/m/651a77d5-1720-3dfc-badf-2dc0d8e662cc/dove-lets-redditors-do-the.html",
+        "symbol": "RDDT",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:46.622Z",
+        "symbols": [
+          "RDDT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Ive Never Seen A More Hated Investment Than AGQ",
+        "url": "https://finance.yahoo.com/m/22692ee2-81cd-312e-bad0-f6d6d72e43ec/i%E2%80%99ve-never-seen-a-more-hated.html",
+        "symbol": "RDDT",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:46.622Z",
+        "symbols": [
+          "RDDT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Baird Adjusts Reddit (RDDT) PT to $200 Following Strong Results, Positive Outlook",
+        "url": "/news/304655/baird-adjusts-reddit-rddt-pt-to-200-following-strong-results-positive-outlook",
+        "symbol": "RDDT",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:46.622Z",
+        "symbols": [
+          "RDDT"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "After Years Of Paying Taxes Instead Of Getting A Refund, They Filed On Their Own And Got Back Over $4K. 'My CPA Has Been Robbing Me For Years'",
+        "url": "https://finance.yahoo.com/news/years-paying-taxes-instead-getting-164609355.html",
+        "symbol": "RDDT",
+        "source": "finviz",
+        "time": "2026-02-11T15:01:46.622Z",
+        "symbols": [
+          "RDDT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stock Market Today: Dow Rises On Jobs Report Surprise; Astera, Robinhood Sink On Earnings (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/fb9c2099-1ec4-30d7-b65c-60bf920a9fce/stock-market-today%3A-dow-rises.html",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-11T14:50:54.901Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Micron Stock Is Rising. Competition Fears Are Easing.",
+        "url": "https://www.barrons.com/articles/micron-stock-price-hbm4-samsung-9804fd1c?mod=bar_FV",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-11T14:50:54.901Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Michael Burry Warns Alphabet's 100-Year Bond Move Mirrors Motorola's 1997 Decline",
+        "url": "https://finance.yahoo.com/news/michael-burry-warns-alphabets-100-143117905.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-11T14:40:56.714Z",
+        "symbols": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "3 Reasons We Love AMD (AMD)",
+        "url": "/news/307204/3-reasons-we-love-amd-amd",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:15.933Z",
+        "symbols": [
+          "AMD"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Finance of America Appoints Angela Tribelli as Chief Marketing Officer",
+        "url": "https://www.businesswire.com/news/home/20260106942290/en/Angela",
+        "symbol": "FOA",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:16.550Z",
+        "symbols": [
+          "FOA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Finance of America Announces $2.5 Billion Strategic Partnership with Funds Managed by Blue Owl to Expand FOA's Home Equity Lending",
+        "url": "https://www.businesswire.com/news/home/20251211161188/en",
+        "symbol": "FOA",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:16.550Z",
+        "symbols": [
+          "FOA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Finance of America to Acquire Reverse Mortgage Assets from Onity Group Subsidiary PHH Mortgage",
+        "url": "https://www.businesswire.com/news/home/20251118612663/en",
+        "symbol": "FOA",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:16.550Z",
+        "symbols": [
+          "FOA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Finance of America Companies Inc (FOA) Q3 2025 Earnings Call Highlights: Strong Growth Amidst ...",
+        "url": "https://finance.yahoo.com/news/finance-america-companies-inc-foa-051314350.html",
+        "symbol": "FOA",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:16.550Z",
+        "symbols": [
+          "FOA"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Finance of America Reports Third Quarter 2025 Results",
+        "url": "https://www.businesswire.com/news/home/20251104887925/en/",
+        "symbol": "FOA",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:16.550Z",
+        "symbols": [
+          "FOA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Super Micro (SMCI) Is One of the AI Stocks Analysts Are Watching After Q2 Blowout",
+        "url": "/news/305291/super-micro-smci-is-one-of-the-ai-stocks-analysts-are-watching-after-q2-blowout",
+        "symbol": "SMCI",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:17.151Z",
+        "symbols": [
+          "SMCI"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "The Top 5 Analyst Questions From Super Micro's Q4 Earnings Call",
+        "url": "/news/306241/the-top-5-analyst-questions-from-super-micros-q4-earnings-call",
+        "symbol": "SMCI",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:17.151Z",
+        "symbols": [
+          "SMCI"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Kyndryl Stock Drops 55%. Its So Much Worse Than an Earnings Miss.",
+        "url": "https://finance.yahoo.com/m/f642f024-e869-32ae-8c21-9a3e09ece83a/kyndryl-stock-drops-55%25.-it%E2%80%99s.html",
+        "symbol": "SMCI",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:17.151Z",
+        "symbols": [
+          "SMCI"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "Super Micro Computer (SMCI) Shares Pull Back After Earnings Rally: What Investors Need To Know",
+        "url": "/news/304573/super-micro-computer-smci-shares-pull-back-after-earnings-rally-what-investors-need-to-know",
+        "symbol": "SMCI",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:17.151Z",
+        "symbols": [
+          "SMCI"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Investors Heavily Search Super Micro Computer, Inc. (SMCI): Here is What You Need to Know",
+        "url": "/news/304318/investors-heavily-search-super-micro-computer-inc-smci-here-is-what-you-need-to-know",
+        "symbol": "SMCI",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:17.151Z",
+        "symbols": [
+          "SMCI"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "5 Revealing Analyst Questions From Snap's Q4 Earnings Call",
+        "url": "/news/306824/5-revealing-analyst-questions-from-snaps-q4-earnings-call",
+        "symbol": "SNAP",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:17.748Z",
+        "symbols": [
+          "SNAP"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "2 Oversold Stocks Set for a Comeback and 1 We Ignore",
+        "url": "/news/307220/2-oversold-stocks-set-for-a-comeback-and-1-we-ignore",
+        "symbol": "SNAP",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:17.748Z",
+        "symbols": [
+          "SNAP"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Here Are Tuesdays Top Wall Street Analyst Research Calls: Booking Holdings, On Semi, Palantir Technologies, Snap, Spotify, Qualcomm, Vistra Corp., and More",
+        "url": "https://finance.yahoo.com/m/7d20092b-cdfd-3806-ac6c-8d0c6ee05225/here-are-tuesday%E2%80%99s-top-wall.html",
+        "symbol": "SNAP",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:17.748Z",
+        "symbols": [
+          "SNAP",
+          "PLTR"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Don't Overlook Snap (SNAP) International Revenue Trends While Assessing the Stock",
+        "url": "/news/304440/dont-overlook-snap-snap-international-revenue-trends-while-assessing-the-stock",
+        "symbol": "SNAP",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:17.748Z",
+        "symbols": [
+          "SNAP"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Barclays Lowers Snap (SNAP) PT to $15 Following Q4 Earnings",
+        "url": "/news/303743/barclays-lowers-snap-snap-pt-to-15-following-q4-earnings",
+        "symbol": "SNAP",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:17.748Z",
+        "symbols": [
+          "SNAP"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Credo Technology Group (CRDO) Soars 9.2%: Is Further Upside Left in the Stock?",
+        "url": "/news/306897/credo-technology-group-crdo-soars-92-is-further-upside-left-in-the-stock",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:18.334Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Stock Market Today: Dow Closes At Another Record High; Nasdaq Breaks Win Streak (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/63afefbd-05fc-3709-99a9-cdb08e73e002/stock-market-today%3A-dow.html",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:18.334Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Stock Market Today: Dow Hits Record High; Chip Equipment Name Soars (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/63afefbd-05fc-3709-99a9-cdb08e73e002/stock-market-today%3A-dow-hits.html",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:18.334Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Credo Stock Soars -- Revenue Outlook Jump Is Driving the Move",
+        "url": "https://finance.yahoo.com/news/credo-stock-soars-revenue-outlook-161328267.html",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:18.334Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Credo's stock soars as new numbers score the chip company some points in a key debate",
+        "url": "https://www.marketwatch.com/story/credos-stock-soars-as-new-numbers-score-the-chip-company-some-points-in-a-key-debate-ba3a16a2?mod=mw_FV",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:18.334Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "abercrombie kids Launches Baby &amp; Toddler Collection, Expanding its Offerings to Include Newborn to 5T Sizes",
+        "url": "/news/306935/abercrombie-kids-launches-baby-toddler-collection-expanding-its-offerings-to-include-newborn-to-5t-sizes",
+        "symbol": "ANF",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:18.925Z",
+        "symbols": [
+          "ANF"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Abercrombie &amp; Fitch (ANF) Stock Dips While Market Gains: Key Facts",
+        "url": "/news/303435/abercrombie-fitch-anf-stock-dips-while-market-gains-key-facts",
+        "symbol": "ANF",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:18.925Z",
+        "symbols": [
+          "ANF"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Abercrombie &amp; Fitch Co. to Report Fourth Quarter and Full Year 2025 Results on March 4, 2026",
+        "url": "/news/302586/abercrombie-fitch-co-to-report-fourth-quarter-and-full-year-2025-results-on-march-4-2026",
+        "symbol": "ANF",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:18.925Z",
+        "symbols": [
+          "ANF"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Is Trending Stock Abercrombie &amp; Fitch Company (ANF) a Buy Now?",
+        "url": "/news/301439/is-trending-stock-abercrombie-fitch-company-anf-a-buy-now",
+        "symbol": "ANF",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:18.925Z",
+        "symbols": [
+          "ANF"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Why Investors Need to Take Advantage of These 2 Retail and Wholesale Stocks Now",
+        "url": "/news/301433/why-investors-need-to-take-advantage-of-these-2-retail-and-wholesale-stocks-now",
+        "symbol": "ANF",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:18.925Z",
+        "symbols": [
+          "ANF"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Cloudflare Stock Gains 15% as Q4 Earnings and Revenues Beat Estimates",
+        "url": "/news/307352/cloudflare-stock-gains-15-as-q4-earnings-and-revenues-beat-estimates",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:19.509Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Deutsche Bank Lifts Micron Target to $500 on Surging HBM Demand",
+        "url": "https://finance.yahoo.com/news/deutsche-bank-lifts-micron-target-131514477.html",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:19.509Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Morgan Stanley just poured through 3,600 stocks and says these are the best opportunities from the AI shakeout",
+        "url": "https://www.marketwatch.com/story/morgan-stanley-just-poured-through-3-600-stocks-and-says-these-are-the-best-opportunities-from-the-ai-shakeout-ccb8975a?mod=mw_FV",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:19.509Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "SMIC CEO Says Industry Panicked About Memory Supply Shortage",
+        "url": "https://finance.yahoo.com/m/a6f760c5-9132-3eb7-a197-60fdf76175f6/smic-ceo-says-industry.html",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:19.509Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Here's how Micron's stock can hit $500, according to Deutsche Bank",
+        "url": "https://www.marketwatch.com/story/heres-how-microns-stock-can-hit-500-according-to-deutsche-bank-282b14a5?mod=mw_FV",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:19.509Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stock Market Today: Dow Rises On Surprise Jobs Report; Astera, Robinhood Plunge On Earnings (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/fb9c2099-1ec4-30d7-b65c-60bf920a9fce/stock-market-today%3A-dow-rises.html",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:20.139Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "VV Handidly Beat the S&amp;P 500, And Only Charges 0.04%",
+        "url": "https://finance.yahoo.com/m/4c430c16-8f71-317d-b9f9-b44616731d92/vv-handidly-beat-the-s%26p-500%2C.html",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-02-11T14:32:20.139Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "BULLISH"
+      }
+    ],
+    "updatedAt": "2026-02-11T22:00:54.483Z"
+  },
+  "technicals": {
+    "oversold": [],
+    "overbought": [],
+    "breakouts": [],
+    "volumeSpikes": [],
+    "updatedAt": "2026-02-11T22:00:54.484Z",
+    "swingOpportunities": [
+      {
+        "symbol": "SPY",
+        "price": 692.14,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: StockTwits+Reddit | Reddit Multi-Sub: 570 mentions across stocks,options,wallstreetbets"
+      },
+      {
+        "symbol": "MSFT",
+        "price": 403.76,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 267 mentions across stocks,options,wallstreetbets"
+      },
+      {
+        "symbol": "TSLA",
+        "price": 425.92,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 124 mentions across stocks,options,wallstreetbets"
+      },
+      {
+        "symbol": "NVDA",
+        "price": 191.09,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 104 mentions across stocks,options,wallstreetbets"
+      },
+      {
+        "symbol": "RDDT",
+        "price": 139.225,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 117 mentions across stocks,wallstreetbets"
+      },
+      {
+        "symbol": "HOOD",
+        "price": 76.844,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: StockTwits+Reddit"
+      },
+      {
+        "symbol": "ANF",
+        "price": 91.547,
+        "signal": "STRONG_BUY",
+        "thesis": "Retail turnaround, 62% P/E discount to peers"
+      },
+      {
+        "symbol": "FOA",
+        "price": 21.57,
+        "signal": "STRONG_BUY",
+        "thesis": "Reverse mortgage leader, Blue Owl $2.5B partnership"
+      }
+    ]
+  },
+  "optionsFlow": {
+    "unusualActivity": [],
+    "putCallRatio": "0.50",
+    "ivRank": {
+      "ANF": "67.2%",
+      "CRDO": "3.5%",
+      "MU": "86.6%"
+    },
+    "updatedAt": "2026-02-11T22:00:54.484Z"
+  },
+  "dayWatchlist": [
+    {
+      "symbol": "CRDO",
+      "reason": "Pre-market UP 20.9%",
+      "source": "pre-market",
+      "conviction": "HIGH"
+    },
+    {
+      "symbol": "ANF",
+      "reason": "Pre-market DOWN -5.8%",
+      "source": "pre-market",
+      "conviction": "MEDIUM"
+    },
+    {
+      "symbol": "MU",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 270 mentions across wallstreetbets,stocks",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-11T22:00:54.479Z"
+    },
+    {
+      "symbol": "SPY",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 482 mentions across options,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-11T22:00:54.479Z"
+    },
+    {
+      "symbol": "MSFT",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 328 mentions across options,wallstreetbets,stocks",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-11T22:00:54.478Z"
+    },
+    {
+      "symbol": "TSLA",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 92 mentions across options,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-11T22:00:54.481Z"
+    },
+    {
+      "symbol": "NVDA",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 114 mentions across wallstreetbets,stocks",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-11T22:00:54.480Z"
+    },
+    {
+      "symbol": "RDDT",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 163 mentions across wallstreetbets,stocks",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-11T22:00:54.480Z"
+    },
+    {
+      "symbol": "HOOD",
+      "reason": "Social Trending: StockTwits+Reddit",
+      "source": "research_dispatcher",
+      "conviction": 2,
+      "sourceCount": 1,
+      "addedAt": "2026-02-11T17:01:43.172Z"
+    },
+    {
+      "symbol": "AMZN",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 96 mentions across options,wallstreetbets,stocks",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-11T22:00:54.478Z"
+    },
+    {
+      "symbol": "APP",
+      "reason": "Social Trending: StockTwits+Reddit",
+      "source": "research_dispatcher",
+      "conviction": 2,
+      "sourceCount": 1,
+      "addedAt": "2026-02-11T22:00:54.482Z"
+    }
+  ],
+  "swingTrader": {
+    "positions": [],
+    "pendingOrders": [],
+    "signals": [],
+    "account": {
+      "equity": 4923.84,
+      "cash": 4923.84,
+      "buyingPower": 9847.68,
+      "lastEquity": 4945.41,
+      "dailyPL": -21.56999999999971
+    },
+    "updatedAt": "2026-02-11T20:31:50.027Z"
+  },
+  "dayTrader": {
+    "positions": [],
+    "trades": [
+      {
+        "symbol": "NVDA260211C00192500",
+        "underlying": "NVDA",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "CALL",
+        "strike": "192.5",
+        "expiry": "2026-02-11",
+        "qty": 7,
+        "reason": "NVDA gapped +10.4% to $192 on strong AI/datacenter momentum. Stock at $192.30, above VWAP, with 10M volume already (massive). Catalyst: Sector rotation into semiconductors with MU +7%, AMD +8.6%. P/C ratio 0.97 (neutral), IV 3.2% (low - good for buying options). RSI 51 (neutral, room to run). Entry at pullback from HOD $193.20 to $192.30 - NOT chasing. Target $200+ (ATM strikes for gamma exposure).",
+        "conviction": "HIGH",
+        "target": "$200 (195 calls worth $8-10, +30-50%)",
+        "stop": "$189 on underlying (195 calls worth ~$3.50, -45%)",
+        "timeframe": "1-3 days",
+        "orderId": "5e1c6551-84c9-4220-9bbd-f28e21f7e876",
+        "tradeType": "CATALYST",
+        "thesis": "Semiconductor sector breakout with NVDA leading. MU earnings beat expectations driving sector-wide rally. NVDA breaking above $190 resistance with strong volume confirms trend continuation. AI/datacenter demand thesis intact - this is sector rotation INTO tech, not just a gap-fill.",
+        "invalidation": "NVDA closes below $189 (breaks intraday support) OR SPY reverses below 693 (market-wide shift)",
+        "stopLevel": 189,
+        "maxHoldCycles": 288,
+        "cyclesHeld": 0,
+        "time": "2026-02-11T14:33:02.824Z"
+      },
+      {
+        "symbol": "MU260213C00400000",
+        "underlying": "MU",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "CALL",
+        "strike": "400",
+        "expiry": "2026-02-13",
+        "qty": 2,
+        "reason": "MU gapped +7% from $379 to $395 open, now at $406 (consolidating near HOD $410). Catalyst: Likely earnings beat or positive sector news driving semiconductor rally (NVDA +10%, AMD +8.6% confirm). Volume 5.5M already (2x normal). IV 3.2% low, P/C 0.97 neutral. RSI 51 (room to run). VWAP $374, price well above = institutional support. This is NOT a chase - entry on consolidation pullback from $410 to $406.",
+        "conviction": "HIGH",
+        "target": "$420+ on underlying (410 calls worth $30+, +60%)",
+        "stop": "$395 on underlying (breaks opening gap support)",
+        "timeframe": "1-3 days",
+        "orderId": "4e0e3421-1a53-407b-b4b3-da275e54ab96",
+        "tradeType": "CATALYST",
+        "thesis": "MU breaking out on likely positive earnings/guidance catalyst (not yet in news feed but price action + sector strength confirms). Memory/semiconductor demand thesis strong. Entry on first pullback from HOD, not chasing the gap. 5d +6.9%, 20d +20% = established uptrend. Position in 30d range: 61% (room to ATHs).",
+        "invalidation": "MU breaks below $395 (opening gap support) OR semiconductor sector reverses (NVDA/AMD down >3%)",
+        "stopLevel": 395,
+        "maxHoldCycles": 288,
+        "cyclesHeld": 0,
+        "time": "2026-02-11T14:33:04.656Z"
+      },
+      {
+        "symbol": "MU260213C00400000",
+        "action": "SAFETY_CLOSE",
+        "reason": "CATASTROPHIC LOSS: Down -24.6% - emergency exit",
+        "time": "2026-02-11T14:40:50.752Z"
+      },
+      {
+        "symbol": "NVDA260211C00192500",
+        "action": "SAFETY_CLOSE",
+        "reason": "CATASTROPHIC LOSS: Down -33.0% - emergency exit",
+        "time": "2026-02-11T14:40:51.040Z"
+      },
+      {
+        "symbol": "MU260213C00397500",
+        "underlying": "MU",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "CALL",
+        "strike": "397.5",
+        "expiry": "2026-02-13",
+        "qty": 5,
+        "reason": "MU consolidated at $398 after CFO clarified HBM4 production status (bullish catalyst per news feed). Stock gapped from $379 to $395, now holding above $395 support with 12.5M volume (2.5x normal). VWAP at $374, price $398 = strong institutional buying. RSI 57.8 (neutral, room to run). IV 86.6% is elevated but expected move ±10% provides cushion. NOT chasing - entering on consolidation after initial fade from $410 HOD. Semiconductor sector strength confirmed (NVDA +9.8%, AMD +7.7%). P/C ratio 1.76 shows bearish positioning that could squeeze higher on continued strength.",
+        "conviction": "HIGH",
+        "target": "$415+ (4% move = $9k gain)",
+        "stop": "$390 (2% below entry)",
+        "timeframe": "1-3 days",
+        "orderId": "5eda4fb8-00d0-4968-bafa-dca7db65ffde",
+        "tradeType": "CATALYST",
+        "thesis": "MU CFO clarified HBM4 production status (news catalyst) + semiconductor sector rally + consolidation at $398 after gap from $379. Market initially sold the news but finding support - likely institutional accumulation into strength.",
+        "invalidation": "Closes below $390 (breaks consolidation support) or semiconductors reverse (NVDA/AMD turn red)",
+        "stopLevel": 390,
+        "maxHoldCycles": 288,
+        "cyclesHeld": 0,
+        "time": "2026-02-11T15:02:22.256Z"
+      }
+    ],
+    "pnlToday": 0,
+    "tradesCount": 5,
+    "account": {
+      "equity": null,
+      "cash": 99723.67,
+      "buyingPower": null,
+      "lastEquity": null,
+      "dailyPL": null,
+      "dayTradesRemaining": 3,
+      "status": "ACTIVE"
+    },
+    "reasoning": [
+      {
+        "time": "09:31:56",
+        "thought": "MONITOR: SMCI ENTRY_THRESHOLD - LLM: WATCH: Position is barely 5% profitable with no stop protection. Set a stop at $32.50 (just above entry) to lock in break-even, then monitor for confirmation of uptrend before trailing higher.",
+        "decision": "WATCH"
+      },
+      {
+        "time": "09:32:03",
+        "thought": "MONITOR: SNAP NEW_LOW - LLM: CLOSE: Position is down -11.67% with no stop loss protection and making new intraday lows. SNAP has broken below $5.19 support level. Without a defined risk management plan in place, the loss could accelerate further.",
+        "decision": "CLOSE"
+      },
+      {
+        "time": "09:33:02",
+        "thought": "LLM (Claude CLI (Sonnet)): Market opening strong with SPY +1.6% to 697, QQQ +1.9% to 617, futures green across the board. VIX at 16.97 indicates low fear. Major movers: CRDO +35.5% (pre-market spike continuation), MU +7% bounce, SHOP +16.3%, VRT +28.7%. Risk-on environment with breadth supporting continuation.",
+        "decision": "2 trade(s)"
+      },
+      {
+        "time": "09:34:06",
+        "thought": "LLM wants more data: MU earnings release confirmation (price action suggests positive catalyst but not yet in news), NVDA intraday options chain for tighter strike selection if pullback continues",
+        "decision": "DATA_REQUEST"
+      },
+      {
+        "time": "09:34:57",
+        "thought": "MONITOR: MU260213C00400000 RAPID_MOVE - LLM: HOLD: Down 27% but still above stop at $7.10. MU holding $406 (up from $395 open). Options decay fast but underlying thesis (semiconductor rally) remains intact with MU +7% on day. Normal intraday volatility for 0DTE options.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:35:03",
+        "thought": "MONITOR: NVDA260211C00192500 NEW_HIGH - LLM: HOLD: Position only -7.55% down, thesis intact (NVDA still up 10%+ on AI momentum), and intraday high just made ($0.98) shows recovery attempt. Normal option volatility - no reason to exit yet.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:37:56",
+        "thought": "MONITOR: MU260213C00400000 RAPID_MOVE - LLM: HOLD: Down 27% but underlying MU still up 7% on day at $406 vs entry at $395. Normal options decay on consolidation after gap. Thesis intact - semiconductor rally continuing. Stop at $8.50 provides reasonable protection. Not a thesis break, just volatility.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:38:57",
+        "thought": "MONITOR: NVDA260211C00192500 RAPID_MOVE - LLM: HOLD: Position down 27% but still above stop at $0.53. Thesis (NVDA momentum on AI/datacenter strength) remains intact - no negative NVDA news. Normal intraday volatility for 0DTE options. Stock likely consolidating after gap up.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:41:17",
+        "thought": "LLM (Claude CLI (Sonnet)): Market gapped up strongly (SPY +1.6%, QQQ +1.8%, NVDA +9.8%) but showing early profit-taking - multiple positions hit safety stops from reversal after gap. This is a TRAP - gappers are fading, not extending. WAIT mode.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "09:45:58",
+        "thought": "MONITOR: AMD NEW_HIGH - LLM: HOLD: Position hitting new highs with strong +9% gain and thesis intact. No stop currently set - normal volatility expected. Consider setting trailing stop around $210-212 to protect gains.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:51:15",
+        "thought": "LLM (Claude CLI (Sonnet)): Market gapping up nicely (SPY +1.3%, QQQ +1.5%) on strong risk-on sentiment. However, I got stopped out of both early positions (NVDA, MU) this morning - likely entered too early into the gap before consolidation. Currently in OPENING RANGE phase (9:51 AM) which is trappy. Need to wait for cleaner action after 10 AM before re-entering. Watching for setups but NOT forcing trades in this dangerous window.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "10:02:21",
+        "thought": "LLM (Claude CLI (Sonnet)): Market gapped up strongly (SPY +1.3%, QQQ +1.4%) on risk-on sentiment but I got burned early - entered NVDA/MU calls right at the open into the gap, both stopped out for -33% and -25% losses when gappers faded. Classic gap-and-fade trap. Now 10:01 AM, past the opening range chaos - THIS is when cleaner setups form. MU showing strength, consolidating at $398 after CFO clarified HBM4 production (bullish catalyst). NVDA faded from $193 to $191 but still holding gains. Market structure improving - no more chasing gaps, waiting for pullbacks to VWAP or support.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "10:03:57",
+        "thought": "MONITOR: MU260213C00397500 NEW_HIGH - LLM: HOLD: New intraday high ($10.15) shows momentum stabilizing after entry drawdown. Thesis intact: MU holding $398 support, sector strength continues, IV elevated but expected. -10.57% loss is within normal option volatility range for this timeframe.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "10:07:56",
+        "thought": "MONITOR: MU260213C00397500 NEW_HIGH - LLM: HOLD: New intraday high of $10.35 shows momentum recovery from $9.90 low. Position down only 8.81% on consolidation after strong gap up - thesis intact with semiconductor sector strength and HBM4 catalyst. Normal options volatility.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "10:11:56",
+        "thought": "MONITOR: MU260213C00397500 RAPID_MOVE - LLM: HOLD: Down 11.9% but within expected option volatility given 86.6% IV. Thesis intact - MU consolidated at $398 after HBM4 clarity, holding above $395 support. Normal intraday swing for 0DTE options.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "10:12:53",
+        "thought": "STOP TRIGGERED: MU260213C00397500 closed at $9.00 (stop: $9.00)",
+        "decision": "CLOSE"
+      },
+      {
+        "time": "10:13:53",
+        "thought": "STOP TRIGGERED: AMD closed at $211.54 (stop: $212.00)",
+        "decision": "CLOSE"
+      },
+      {
+        "time": "10:36:57",
+        "thought": "MONITOR: FOA NEW_LOW - LLM: WATCH: Position only down -1.42% with no stop set. This is normal intraday volatility, not a thesis break. Need to establish initial stop before considering exits.",
+        "decision": "WATCH"
+      },
+      {
+        "time": "10:47:57",
+        "thought": "MONITOR: FOA NEW_LOW - LLM: HOLD: Position is only -2.19% from entry with stop at $21.35 just 8 cents below current price. Normal intraday volatility - no thesis break evident.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "10:58:53",
+        "thought": "STOP TRIGGERED: FOA closed at $21.32 (stop: $21.35)",
+        "decision": "CLOSE"
+      }
+    ],
+    "updatedAt": "2026-02-11T15:02:54.040Z"
+  },
+  "failedSetups": [],
+  "agentLog": [
+    {
+      "agent": "overnight",
+      "time": "00:00:27",
+      "timestamp": "2026-02-11T05:00:27.971Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "00:00:28",
+      "timestamp": "2026-02-11T05:00:28.472Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "00:00:30",
+      "timestamp": "2026-02-11T05:00:30.823Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "01:00:31",
+      "timestamp": "2026-02-11T06:00:31.327Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "02:00:31",
+      "timestamp": "2026-02-11T07:00:31.788Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "03:00:31",
+      "timestamp": "2026-02-11T08:00:31.483Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "06:28:55",
+      "timestamp": "2026-02-11T11:28:55.311Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:00:50",
+      "timestamp": "2026-02-11T12:00:50.081Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:15:50",
+      "timestamp": "2026-02-11T12:15:50.319Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:30:50",
+      "timestamp": "2026-02-11T12:30:50.333Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "research_dispatcher",
+      "time": "07:30:51",
+      "timestamp": "2026-02-11T12:30:51.452Z",
+      "action": "Deep research scan completed",
+      "summary": "6 opportunities scored"
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:45:50",
+      "timestamp": "2026-02-11T12:45:50.471Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:00:50",
+      "timestamp": "2026-02-11T13:00:50.570Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:15:50",
+      "timestamp": "2026-02-11T13:15:50.709Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:30:50",
+      "timestamp": "2026-02-11T13:30:50.971Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:45:51",
+      "timestamp": "2026-02-11T13:45:51.067Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "09:00:51",
+      "timestamp": "2026-02-11T14:00:51.157Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "09:15:51",
+      "timestamp": "2026-02-11T14:15:51.205Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "09:31:44",
+      "timestamp": "2026-02-11T14:31:44.312Z",
+      "action": "LLM: Risk-on sentiment with futures up modestly. Gold's +1.5% move signals some hedging despite equity optimism. Social buzz heavy on mega-caps and meme names, but lacking specific catalysts for swing trades.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "09:32:15",
+      "timestamp": "2026-02-11T14:32:15.088Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 1 executions"
+    },
+    {
+      "agent": "news-feed",
+      "time": "09:32:21",
+      "timestamp": "2026-02-11T14:32:21.832Z",
+      "action": "Fetched 46 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "09:34:06",
+      "timestamp": "2026-02-11T14:34:06.636Z",
+      "action": "Scan complete: 0 positions, 2 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "09:40:57",
+      "timestamp": "2026-02-11T14:40:57.987Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "09:41:18",
+      "timestamp": "2026-02-11T14:41:18.045Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "09:50:57",
+      "timestamp": "2026-02-11T14:50:57.197Z",
+      "action": "Fetched 2 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "09:51:15",
+      "timestamp": "2026-02-11T14:51:15.823Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "10:01:39",
+      "timestamp": "2026-02-11T15:01:39.274Z",
+      "action": "LLM: RISK_ON regime with gold surge (+1.46%) signals safe-haven flow despite equity strength. Futures up modestly across indices - favorable for swing continuation but watch for macro rotation.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "10:01:39",
+      "timestamp": "2026-02-11T15:01:39.285Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "news-feed",
+      "time": "10:01:47",
+      "timestamp": "2026-02-11T15:01:47.142Z",
+      "action": "Fetched 14 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "10:02:54",
+      "timestamp": "2026-02-11T15:02:54.041Z",
+      "action": "Scan complete: 0 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "10:31:43",
+      "timestamp": "2026-02-11T15:31:43.241Z",
+      "action": "LLM: RISK_ON environment with futures modestly green. Gold spiking +1.5% signals macro uncertainty despite equity strength. Prefer idiosyncratic catalysts over broad index plays in this mixed regime.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "10:31:43",
+      "timestamp": "2026-02-11T15:31:43.380Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "11:01:37",
+      "timestamp": "2026-02-11T16:01:37.454Z",
+      "action": "LLM: RISK_ON regime with modest futures gains. Gold up 1.5% signals defensive hedge despite equity strength. Lack of major earnings catalysts this week reduces volatility risk but limits high-conviction setups.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "11:01:37",
+      "timestamp": "2026-02-11T16:01:37.604Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "11:31:39",
+      "timestamp": "2026-02-11T16:31:39.118Z",
+      "action": "LLM: Risk-on environment with futures up modestly, gold gaining 1.5% signals some hedge demand. Choppy regime suggests waiting for clear catalyst triggers rather than chasing momentum.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "11:31:39",
+      "timestamp": "2026-02-11T16:31:39.297Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "12:01:41",
+      "timestamp": "2026-02-11T17:01:41.267Z",
+      "action": "LLM: Risk-on environment with futures slightly up. Gold spiking +1.46% suggests some defensive positioning despite overall bullish sentiment. Focus on actionable catalysts with defined timeframes, not social media noise.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "12:01:41",
+      "timestamp": "2026-02-11T17:01:41.425Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "research_dispatcher",
+      "time": "12:01:43",
+      "timestamp": "2026-02-11T17:01:43.175Z",
+      "action": "Deep research scan completed",
+      "summary": "6 opportunities scored"
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "12:31:44",
+      "timestamp": "2026-02-11T17:31:44.803Z",
+      "action": "LLM: Risk-on environment with futures marginally higher and gold spiking 1.5% (safe haven bid despite equities strength suggests underlying uncertainty). Multi-week swing window open but need clear catalysts beyond social buzz.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "12:31:44",
+      "timestamp": "2026-02-11T17:31:44.981Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "13:01:50",
+      "timestamp": "2026-02-11T18:01:50.878Z",
+      "action": "LLM: RISK_ON environment with futures up modestly. Gold spiking +1.46% signals some hedging activity despite positive equity sentiment. Retail social buzz concentrated in mega-caps and meme stocks, but lacking clear catalysts for swing timeframes.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "13:01:51",
+      "timestamp": "2026-02-11T18:01:51.010Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "13:31:40",
+      "timestamp": "2026-02-11T18:31:40.891Z",
+      "action": "LLM: Risk-on environment with futures modestly green and VIX sub-18. Gold's 1.5% move signals macro uncertainty despite equity strength - prefer selective catalysts over broad indexing.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "13:31:41",
+      "timestamp": "2026-02-11T18:31:41.064Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "14:02:02",
+      "timestamp": "2026-02-11T19:02:02.176Z",
+      "action": "LLM: Risk-on regime with futures up modestly, gold surging 1.5% signals defensive positioning despite equity strength. Rotation opportunity from mega-caps into catalyst-driven names with specific events.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "14:02:02",
+      "timestamp": "2026-02-11T19:02:02.367Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "14:31:49",
+      "timestamp": "2026-02-11T19:31:49.413Z",
+      "action": "LLM: Risk-on environment with futures modestly green and VIX sub-18. Gold spike suggests safe-haven flow despite equity strength - watching for rotation signals. Multi-week holding environment favors quality names with earnings catalysts.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "14:31:49",
+      "timestamp": "2026-02-11T19:31:49.547Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:01:52",
+      "timestamp": "2026-02-11T20:01:52.070Z",
+      "action": "LLM: Risk-on environment with futures up modestly. Gold spiking +1.46% signals potential macro uncertainty despite equity strength. Lack of earnings catalysts this week shifts focus to technical setups and social momentum plays.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:01:52",
+      "timestamp": "2026-02-11T20:01:52.072Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:31:50",
+      "timestamp": "2026-02-11T20:31:50.026Z",
+      "action": "LLM: Risk-on environment with futures flat to slightly positive. Gold strength suggests defensive hedging despite equity optimism. No major catalysts today - focus on overnight movers with clear thesis.",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:31:50",
+      "timestamp": "2026-02-11T20:31:50.028Z",
+      "action": "Scan completed",
+      "summary": "8 opps, 0 executions"
+    },
+    {
+      "agent": "research_dispatcher",
+      "time": "17:00:54",
+      "timestamp": "2026-02-11T22:00:54.485Z",
+      "action": "Deep research scan completed",
+      "summary": "8 opportunities scored"
+    },
+    {
+      "agent": "overnight",
+      "time": "20:00:56",
+      "timestamp": "2026-02-12T01:00:56.096Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "21:00:56",
+      "timestamp": "2026-02-12T02:00:56.469Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "22:00:56",
+      "timestamp": "2026-02-12T03:00:56.872Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "23:00:57",
+      "timestamp": "2026-02-12T04:00:57.318Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    }
+  ]
+}

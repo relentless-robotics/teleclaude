@@ -2,7 +2,72 @@
   "startedAt": null,
   "agents": {
     "overnight": {
-      "lastRun": "2026-02-06T04:19:34.808Z",
+      "lastRun": "2026-04-01T10:03:23.090Z",
+      "status": "success",
+      "error": null
+    },
+    "preMarket": {
+      "lastRun": "2026-03-13T13:15:11.754Z",
+      "status": "success",
+      "error": null
+    },
+    "swingScanner": {
+      "lastRun": "2026-03-13T19:31:56.388Z",
+      "status": "success",
+      "error": null
+    },
+    "dayTrader": {
+      "lastRun": "2026-03-13T19:50:59.147Z",
+      "status": "success",
+      "error": null
+    },
+    "afterHours": {
+      "lastRun": "2026-03-13T20:31:26.661Z",
+      "status": "success",
+      "error": null
+    },
+    "volRegime": {
+      "lastRun": "2026-03-13T19:32:04.894Z",
+      "status": "success",
+      "error": null
+    },
+    "esMicro": {
+      "lastRun": "2026-03-13T19:55:52.140Z",
+      "status": "success",
+      "error": null
+    },
+    "quantSwing": {
+      "lastRun": "2026-03-13T19:16:20.740Z",
+      "status": "success",
+      "error": null
+    },
+    "memoryManager": {
+      "lastRun": "2026-04-01T23:05:22.749Z",
+      "status": "success",
+      "error": null
+    },
+    "securitySentinel": {
+      "lastRun": "2026-04-01T23:07:05.639Z",
+      "status": "success",
+      "error": null
+    },
+    "cnnMonitor": {
+      "lastRun": "2026-03-06T04:45:13.451Z",
+      "status": "success",
+      "error": null
+    },
+    "predMarkets": {
+      "lastRun": "2026-04-01T12:01:27.592Z",
+      "status": "success",
+      "error": null
+    },
+    "predMarketsScanner": {
+      "lastRun": "2026-04-01T22:08:58.666Z",
+      "status": "success",
+      "error": null
+    },
+    "wheelStrategy": {
+      "lastRun": "2026-04-01T23:18:53.425Z",
       "status": "success",
       "error": null
     }

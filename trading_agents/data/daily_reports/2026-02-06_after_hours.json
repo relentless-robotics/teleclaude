@@ -1,0 +1,173 @@
+{
+  "timestamp": "2026-02-06T22:26:30.022Z",
+  "date": "2026-02-06",
+  "dailySummary": null,
+  "dayTradeSummary": {
+    "equity": 99453.69,
+    "dailyPL": -546.3099999999977,
+    "dailyPLPct": -0.5463099999999976,
+    "cash": 94853.69,
+    "buyingPower": 189707.38,
+    "positionCount": 1,
+    "posWinners": 1,
+    "posLosers": 0,
+    "biggestWinner": {
+      "symbol": "AMD260213C00210000",
+      "pct": 6.481000000000001
+    },
+    "biggestLoser": null,
+    "todayTradesCount": 14,
+    "closedTradesCount": 3,
+    "winsToday": 0,
+    "lossesToday": 3,
+    "winRate": "0%",
+    "reasoningCount": 95,
+    "todayLessons": [
+      {
+        "symbol": "AMD260213P00200000",
+        "outcome": "LOSS",
+        "plPct": "-4.11%",
+        "entry": 3.65,
+        "exit": 3.5,
+        "reason": "Taking profits on AMD puts as position is down 5.5% and AMD finding support at 207. With futures green and risk sentiment potentially shifting, closing to preserve capital and reassess",
+        "lesson": "AMD260213P00200000 LOSS (-4.1%): Taking profits on AMD puts as position is down 5.5% and AMD finding support at 207. With futures green and risk sentiment potentially shifting, closing to preserve capital and reassess",
+        "time": "2026-02-06T17:15:54.347Z"
+      },
+      {
+        "symbol": "AMD260213P00200000",
+        "outcome": "LOSS",
+        "plPct": "-1.47%",
+        "entry": 3.4,
+        "exit": 3.35,
+        "reason": "Closing AMD puts for small loss after multiple re-entries. AMD finding support at 208 with massive volume suggesting oversold bounce potential. Green futures and VIX at 17.9 indicate risk sentiment may shift. Preserve capital after choppy action.",
+        "lesson": "AMD260213P00200000 LOSS (-1.5%): Closing AMD puts for small loss after multiple re-entries. AMD finding support at 208 with massive volume suggesting oversold bounce potential. Green futures and VIX at 17.9 indicate risk sentiment may shift. Preserve capital after choppy action.",
+        "time": "2026-02-06T17:45:51.555Z"
+      },
+      {
+        "symbol": "QQQ260213P00595000",
+        "outcome": "LOSS",
+        "plPct": "-3.39%",
+        "entry": 3.54,
+        "exit": 3.42,
+        "reason": "Closing QQQ puts as tech sell-off may be nearing exhaustion. QQQ holding 598 support with Dow up 0.5% showing sector rotation rather than broad market weakness. Small loss acceptable to avoid theta decay into weekend.",
+        "lesson": "QQQ260213P00595000 LOSS (-3.4%): Closing QQQ puts as tech sell-off may be nearing exhaustion. QQQ holding 598 support with Dow up 0.5% showing sector rotation rather than broad market weakness. Small loss acceptable to avoid theta decay into weekend.",
+        "time": "2026-02-06T17:45:51.861Z"
+      }
+    ]
+  },
+  "positionAnalysis": [
+    {
+      "symbol": "AMD",
+      "qty": 2,
+      "avgEntry": 200.78,
+      "currentPrice": 207.6,
+      "unrealizedPL": 13.64,
+      "unrealizedPLPct": 3.3970000000000002,
+      "marketValue": 415.2,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    },
+    {
+      "symbol": "ANF",
+      "qty": 2,
+      "avgEntry": 99.04,
+      "currentPrice": 97.66,
+      "unrealizedPL": -2.76,
+      "unrealizedPLPct": -1.393,
+      "marketValue": 195.32,
+      "thesis": "Retail turnaround, 62% P/E discount to peers",
+      "ptLow": 123,
+      "ptHigh": 128,
+      "daysHeld": null,
+      "recommendation": "✅ Hold - Thesis intact",
+      "distanceToTarget": 25.947163628916652
+    },
+    {
+      "symbol": "FOA",
+      "qty": 11,
+      "avgEntry": 21.91,
+      "currentPrice": 21.88,
+      "unrealizedPL": -0.33,
+      "unrealizedPLPct": -0.13699999999999998,
+      "marketValue": 240.68,
+      "thesis": "Reverse mortgage leader, Blue Owl $2.5B partnership",
+      "ptLow": 42,
+      "ptHigh": 76,
+      "daysHeld": null,
+      "recommendation": "✅ Hold - Thesis intact",
+      "distanceToTarget": 91.95612431444242
+    },
+    {
+      "symbol": "SMCI",
+      "qty": 30,
+      "avgEntry": 32.075667,
+      "currentPrice": 34.08,
+      "unrealizedPL": 60.13,
+      "unrealizedPLPct": 6.249,
+      "marketValue": 1022.4,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    },
+    {
+      "symbol": "SNAP",
+      "qty": 168,
+      "avgEntry": 5.817083,
+      "currentPrice": 5.25,
+      "unrealizedPL": -95.27,
+      "unrealizedPLPct": -9.748999999999999,
+      "marketValue": 882,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    }
+  ],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Multiple re-entries on identical thesis (AMD puts)",
+      "AVOID: Exiting profitable longs too early—AMD calls closed +7 % intraday while the stock ran to 215 after hours",
+      "AVOID: No winners booked on a day when you had a 20 % gap-down name reversing"
+    ],
+    "tomorrowRules": [
+      "One shot per symbol per session—no re-entry within 30 min unless new technical level breaks",
+      "Only short puts/short calls when VIX > 20 or confirmed break of prior day’s low/high with 1.5× relative volume",
+      "Take 25 % of option position off at +15 % to cover risk; trail remainder with 10 % stop"
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "C",
+    "gradingReason": "You dodged a bullet: 0-for-3 on closed trades yet you kept every loss <4 % and walked away with only –0.5 % of equity. Good risk control, but you’re still bleeding on the day and haven’t proved an edge.",
+    "keyLessons": [
+      "Stop flipping direction on the same symbol within minutes—three separate AMD-put entries that all lost means the first click was wrong; wait for a new setup or move on.",
+      "When VIX is sub-18 and futures are green, buying puts because the stock is \"down a lot\" is a low-probability counter-trend trade; wait for momentum confirmation or sell call strength instead."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Cut losers quickly (avg –2.9 %) before theta crushed you into the weekend",
+        "Respected max-single-loss ceiling of ~0.4 % of account"
+      ],
+      "badPatterns": [
+        "Multiple re-entries on identical thesis (AMD puts)",
+        "Exiting profitable longs too early—AMD calls closed +7 % intraday while the stock ran to 215 after hours",
+        "No winners booked on a day when you had a 20 % gap-down name reversing"
+      ]
+    },
+    "tomorrowRules": [
+      "One shot per symbol per session—no re-entry within 30 min unless new technical level breaks",
+      "Only short puts/short calls when VIX > 20 or confirmed break of prior day’s low/high with 1.5× relative volume",
+      "Take 25 % of option position off at +15 % to cover risk; trail remainder with 10 % stop"
+    ],
+    "riskAssessment": "Position sizing was sound; max risk per trade stayed under 0.5 % of equity, but frequency of trades (14) without a single win shows over-trading in a low-vol environment.",
+    "emotionalCheck": "No revenge size-ups, yet constant re-entry on AMD after small losses hints at \"scratch-itch\" trading rather than plan-based setups—work on patience."
+  },
+  "errors": []
+}

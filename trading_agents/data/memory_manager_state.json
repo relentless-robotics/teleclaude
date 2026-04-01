@@ -1,0 +1,608 @@
+{
+  "lastRun": "2026-04-01T23:05:22.747Z",
+  "healthScore": 39,
+  "pendingProposals": [],
+  "lastReport": {
+    "timestamp": "2026-04-01T23:03:52.707Z",
+    "healthScore": 39,
+    "summary": {
+      "totalFiles": 215,
+      "totalLines": 12984,
+      "sessionLogs": 7,
+      "sessionLogLines": 707
+    },
+    "staleness": {
+      "staleCount": 24,
+      "sections": [
+        {
+          "file": "aeroforge_cad.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-06T05:00:00.000Z",
+          "hoursStale": 642,
+          "line": 2
+        },
+        {
+          "file": "autonomous_mode.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-11T03:00:00.000Z",
+          "hoursStale": 524,
+          "line": 2
+        },
+        {
+          "file": "backtest_results.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-02T21:00:00.000Z",
+          "hoursStale": 722,
+          "line": 2
+        },
+        {
+          "file": "compute_allocation.md",
+          "section": "Key Decisions",
+          "lastUpdated": "2026-03-13T01:45:00.000Z",
+          "hoursStale": 477,
+          "line": 43
+        },
+        {
+          "file": "INDEX.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-03T03:45:00.000Z",
+          "hoursStale": 715,
+          "line": 2
+        },
+        {
+          "file": "infra_session_1_2026_03_26.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-26T20:26:00.000Z",
+          "hoursStale": 147,
+          "line": 7
+        },
+        {
+          "file": "lvl3quant.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-03T03:45:00.000Z",
+          "hoursStale": 715,
+          "line": 2
+        },
+        {
+          "file": "lvl3quant.md",
+          "section": "CURRENT STATUS",
+          "lastUpdated": "2026-03-03T03:45:00.000Z",
+          "hoursStale": 715,
+          "line": 9
+        },
+        {
+          "file": "lvl3quant.md",
+          "section": "VOLATILITY PREDICTION (NOT directional — predicts magnitude)",
+          "lastUpdated": "2026-03-03T03:45:00.000Z",
+          "hoursStale": 715,
+          "line": 67
+        },
+        {
+          "file": "per_project_context.md",
+          "section": "Status: PLANNED — not yet implemented",
+          "lastUpdated": "2026-03-13T01:55:00.000Z",
+          "hoursStale": 477,
+          "line": 25
+        },
+        {
+          "file": "project_conviction_threshold_2026_03_27.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-27T04:00:00.000Z",
+          "hoursStale": 139,
+          "line": 9
+        },
+        {
+          "file": "project_fold76_leakage_confirmed_2026_03_28.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-28T04:00:00.000Z",
+          "hoursStale": 115,
+          "line": 9
+        },
+        {
+          "file": "project_nextgen_architecture_2026_03_28.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-28T04:00:00.000Z",
+          "hoursStale": 115,
+          "line": 9
+        },
+        {
+          "file": "project_session33_status.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-27T04:00:00.000Z",
+          "hoursStale": 139,
+          "line": 12
+        },
+        {
+          "file": "project_signal_edge_analysis_2026_03_27.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-27T13:55:00.000Z",
+          "hoursStale": 129,
+          "line": 2
+        },
+        {
+          "file": "project_temporal_research_findings_2026_03_29.md",
+          "section": "Next Steps",
+          "lastUpdated": "2026-03-29T04:00:00.000Z",
+          "hoursStale": 91,
+          "line": 57
+        },
+        {
+          "file": "quant_research_ideas.md",
+          "section": "Sources",
+          "lastUpdated": "2026-03-13T02:45:00.000Z",
+          "hoursStale": 476,
+          "line": 37
+        },
+        {
+          "file": "researcher_execution_lead.md",
+          "section": "MANDATORY: QUEUE OBLIGATION",
+          "lastUpdated": "2026-03-27T04:00:00.000Z",
+          "hoursStale": 139,
+          "line": 13
+        },
+        {
+          "file": "researcher_infra_ops.md",
+          "section": "Priority 3 — Cleanup",
+          "lastUpdated": "2026-03-26T04:00:00.000Z",
+          "hoursStale": 163,
+          "line": 32
+        },
+        {
+          "file": "researcher_ml_lead.md",
+          "section": "MANDATORY: QUEUE OBLIGATION",
+          "lastUpdated": "2026-03-27T04:00:00.000Z",
+          "hoursStale": 139,
+          "line": 13
+        },
+        {
+          "file": "researcher_quant_lead.md",
+          "section": "MANDATORY: QUEUE OBLIGATION",
+          "lastUpdated": "2026-03-27T04:00:00.000Z",
+          "hoursStale": 139,
+          "line": 13
+        },
+        {
+          "file": "teleclaude.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-03T03:45:00.000Z",
+          "hoursStale": 715,
+          "line": 2
+        },
+        {
+          "file": "validation_protocol.md",
+          "section": "User Quote",
+          "lastUpdated": "2026-03-13T01:45:00.000Z",
+          "hoursStale": 477,
+          "line": 46
+        },
+        {
+          "file": "wf_training.md",
+          "section": "(top-level)",
+          "lastUpdated": "2026-03-12T18:30:00.000Z",
+          "hoursStale": 485,
+          "line": 8
+        }
+      ]
+    },
+    "dedup": {
+      "contradictionCount": 2,
+      "duplicateCount": 6,
+      "error": false
+    },
+    "fileSizes": {
+      "oversizedCount": 5,
+      "files": [
+        {
+          "file": "INDEX.md",
+          "lineCount": 293,
+          "limit": 150,
+          "overage": 143
+        },
+        {
+          "file": "plan_qcc_research_optimization.md",
+          "lineCount": 317,
+          "limit": 300,
+          "overage": 17
+        },
+        {
+          "file": "project_experiment_history.md",
+          "lineCount": 321,
+          "limit": 300,
+          "overage": 21
+        },
+        {
+          "file": "researcher_ml_lead.md",
+          "lineCount": 1858,
+          "limit": 300,
+          "overage": 1558
+        },
+        {
+          "file": "researcher_quant_lead.md",
+          "lineCount": 1285,
+          "limit": 300,
+          "overage": 985
+        }
+      ]
+    },
+    "index": {
+      "missingCount": 9,
+      "orphanCount": 0,
+      "missingFiles": [
+        {
+          "file": "feedback_ssh_pooling.md",
+          "reason": "Referenced in INDEX.md but not found on disk"
+        },
+        {
+          "file": "feedback_use_qcc.md",
+          "reason": "Referenced in INDEX.md but not found on disk"
+        },
+        {
+          "file": "feedback_no_training_without_qcc.md",
+          "reason": "Referenced in INDEX.md but not found on disk"
+        },
+        {
+          "file": "feedback_use_flask_http_not_ssh.md",
+          "reason": "Referenced in INDEX.md but not found on disk"
+        },
+        {
+          "file": "feedback_use_infrastructure.md",
+          "reason": "Referenced in INDEX.md but not found on disk"
+        },
+        {
+          "file": "feedback_ray_replaces_homebrew.md",
+          "reason": "Referenced in INDEX.md but not found on disk"
+        },
+        {
+          "file": "feedback_ray_always_ssh_last.md",
+          "reason": "Referenced in INDEX.md but not found on disk"
+        },
+        {
+          "file": "feedback_never_ssh_use_ray_mlflow.md",
+          "reason": "Referenced in INDEX.md but not found on disk"
+        },
+        {
+          "file": "feedback_ray_not_ssh_absolute.md",
+          "reason": "Referenced in INDEX.md but not found on disk"
+        }
+      ],
+      "orphanFiles": []
+    },
+    "sessions": {
+      "totalLogs": 7,
+      "archiveCandidateCount": 0,
+      "archiveCandidates": []
+    },
+    "tasksAndJobs": {
+      "agentCount": 14,
+      "agentsRunning": 14,
+      "agentsErrored": 0,
+      "agentsIdle": 0,
+      "dataFilesTracked": 13,
+      "unpersistedCount": 0,
+      "unpersisted": []
+    },
+    "recommendations": [
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "aeroforge_cad.md section \"(top-level)\" is 642h stale (line 2)",
+        "action": "Update timestamp and verify content in aeroforge_cad.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "autonomous_mode.md section \"(top-level)\" is 524h stale (line 2)",
+        "action": "Update timestamp and verify content in autonomous_mode.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "backtest_results.md section \"(top-level)\" is 722h stale (line 2)",
+        "action": "Update timestamp and verify content in backtest_results.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "compute_allocation.md section \"Key Decisions\" is 477h stale (line 43)",
+        "action": "Update timestamp and verify content in compute_allocation.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "INDEX.md section \"(top-level)\" is 715h stale (line 2)",
+        "action": "Update timestamp and verify content in INDEX.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "infra_session_1_2026_03_26.md section \"(top-level)\" is 147h stale (line 7)",
+        "action": "Update timestamp and verify content in infra_session_1_2026_03_26.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "lvl3quant.md section \"(top-level)\" is 715h stale (line 2)",
+        "action": "Update timestamp and verify content in lvl3quant.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "lvl3quant.md section \"CURRENT STATUS\" is 715h stale (line 9)",
+        "action": "Update timestamp and verify content in lvl3quant.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "lvl3quant.md section \"VOLATILITY PREDICTION (NOT directional — predicts magnitude)\" is 715h stale (line 67)",
+        "action": "Update timestamp and verify content in lvl3quant.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "per_project_context.md section \"Status: PLANNED — not yet implemented\" is 477h stale (line 25)",
+        "action": "Update timestamp and verify content in per_project_context.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "project_conviction_threshold_2026_03_27.md section \"(top-level)\" is 139h stale (line 9)",
+        "action": "Update timestamp and verify content in project_conviction_threshold_2026_03_27.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "project_fold76_leakage_confirmed_2026_03_28.md section \"(top-level)\" is 115h stale (line 9)",
+        "action": "Update timestamp and verify content in project_fold76_leakage_confirmed_2026_03_28.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "project_nextgen_architecture_2026_03_28.md section \"(top-level)\" is 115h stale (line 9)",
+        "action": "Update timestamp and verify content in project_nextgen_architecture_2026_03_28.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "project_session33_status.md section \"(top-level)\" is 139h stale (line 12)",
+        "action": "Update timestamp and verify content in project_session33_status.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "project_signal_edge_analysis_2026_03_27.md section \"(top-level)\" is 129h stale (line 2)",
+        "action": "Update timestamp and verify content in project_signal_edge_analysis_2026_03_27.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "project_temporal_research_findings_2026_03_29.md section \"Next Steps\" is 91h stale (line 57)",
+        "action": "Update timestamp and verify content in project_temporal_research_findings_2026_03_29.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "quant_research_ideas.md section \"Sources\" is 476h stale (line 37)",
+        "action": "Update timestamp and verify content in quant_research_ideas.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "researcher_execution_lead.md section \"MANDATORY: QUEUE OBLIGATION\" is 139h stale (line 13)",
+        "action": "Update timestamp and verify content in researcher_execution_lead.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "researcher_infra_ops.md section \"Priority 3 — Cleanup\" is 163h stale (line 32)",
+        "action": "Update timestamp and verify content in researcher_infra_ops.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "researcher_ml_lead.md section \"MANDATORY: QUEUE OBLIGATION\" is 139h stale (line 13)",
+        "action": "Update timestamp and verify content in researcher_ml_lead.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "researcher_quant_lead.md section \"MANDATORY: QUEUE OBLIGATION\" is 139h stale (line 13)",
+        "action": "Update timestamp and verify content in researcher_quant_lead.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "teleclaude.md section \"(top-level)\" is 715h stale (line 2)",
+        "action": "Update timestamp and verify content in teleclaude.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "validation_protocol.md section \"User Quote\" is 477h stale (line 46)",
+        "action": "Update timestamp and verify content in validation_protocol.md"
+      },
+      {
+        "type": "STALE",
+        "severity": "HIGH",
+        "message": "wf_training.md section \"(top-level)\" is 485h stale (line 8)",
+        "action": "Update timestamp and verify content in wf_training.md"
+      },
+      {
+        "type": "CONTRADICTION",
+        "severity": "HIGH",
+        "message": "\"Jupiter Tailscale IP\" has conflicting values across files",
+        "action": "Resolve: MEMORY.md:111 = \"100.109.245.73\" vs project_overnight_2026_03_16.md:34 = \"100.102.215.75\" vs project_session48_handoff.md:80 = \"100.71.253.30\""
+      },
+      {
+        "type": "CONTRADICTION",
+        "severity": "HIGH",
+        "message": "\"RT cost\" has conflicting values across files",
+        "action": "Resolve: feedback_fillsim_only_no_backtests.md:14 = \"4.70\" vs INDEX.md:55 = \"3.00\" vs lvl3quant.md:30 = \"3.00\" vs lvl3quant.md:50 = \"3.00\""
+      },
+      {
+        "type": "OVERSIZED",
+        "severity": "HIGH",
+        "message": "INDEX.md is 293 lines (limit: 150, over by 143)",
+        "action": "Archive or consolidate content in INDEX.md to bring under 150 lines"
+      },
+      {
+        "type": "OVERSIZED",
+        "severity": "MEDIUM",
+        "message": "plan_qcc_research_optimization.md is 317 lines (limit: 300, over by 17)",
+        "action": "Archive or consolidate content in plan_qcc_research_optimization.md to bring under 300 lines"
+      },
+      {
+        "type": "OVERSIZED",
+        "severity": "MEDIUM",
+        "message": "project_experiment_history.md is 321 lines (limit: 300, over by 21)",
+        "action": "Archive or consolidate content in project_experiment_history.md to bring under 300 lines"
+      },
+      {
+        "type": "OVERSIZED",
+        "severity": "HIGH",
+        "message": "researcher_ml_lead.md is 1858 lines (limit: 300, over by 1558)",
+        "action": "Archive or consolidate content in researcher_ml_lead.md to bring under 300 lines"
+      },
+      {
+        "type": "OVERSIZED",
+        "severity": "HIGH",
+        "message": "researcher_quant_lead.md is 1285 lines (limit: 300, over by 985)",
+        "action": "Archive or consolidate content in researcher_quant_lead.md to bring under 300 lines"
+      },
+      {
+        "type": "MISSING_FILE",
+        "severity": "MEDIUM",
+        "message": "feedback_ssh_pooling.md: Referenced in INDEX.md but not found on disk",
+        "action": "Remove stale reference from INDEX.md or restore the file"
+      },
+      {
+        "type": "MISSING_FILE",
+        "severity": "MEDIUM",
+        "message": "feedback_use_qcc.md: Referenced in INDEX.md but not found on disk",
+        "action": "Remove stale reference from INDEX.md or restore the file"
+      },
+      {
+        "type": "MISSING_FILE",
+        "severity": "MEDIUM",
+        "message": "feedback_no_training_without_qcc.md: Referenced in INDEX.md but not found on disk",
+        "action": "Remove stale reference from INDEX.md or restore the file"
+      },
+      {
+        "type": "MISSING_FILE",
+        "severity": "MEDIUM",
+        "message": "feedback_use_flask_http_not_ssh.md: Referenced in INDEX.md but not found on disk",
+        "action": "Remove stale reference from INDEX.md or restore the file"
+      },
+      {
+        "type": "MISSING_FILE",
+        "severity": "MEDIUM",
+        "message": "feedback_use_infrastructure.md: Referenced in INDEX.md but not found on disk",
+        "action": "Remove stale reference from INDEX.md or restore the file"
+      },
+      {
+        "type": "MISSING_FILE",
+        "severity": "MEDIUM",
+        "message": "feedback_ray_replaces_homebrew.md: Referenced in INDEX.md but not found on disk",
+        "action": "Remove stale reference from INDEX.md or restore the file"
+      },
+      {
+        "type": "MISSING_FILE",
+        "severity": "MEDIUM",
+        "message": "feedback_ray_always_ssh_last.md: Referenced in INDEX.md but not found on disk",
+        "action": "Remove stale reference from INDEX.md or restore the file"
+      },
+      {
+        "type": "MISSING_FILE",
+        "severity": "MEDIUM",
+        "message": "feedback_never_ssh_use_ray_mlflow.md: Referenced in INDEX.md but not found on disk",
+        "action": "Remove stale reference from INDEX.md or restore the file"
+      },
+      {
+        "type": "MISSING_FILE",
+        "severity": "MEDIUM",
+        "message": "feedback_ray_not_ssh_absolute.md: Referenced in INDEX.md but not found on disk",
+        "action": "Remove stale reference from INDEX.md or restore the file"
+      },
+      {
+        "type": "AGENT_STALE",
+        "severity": "LOW",
+        "message": "Agent \"preMarket\" last ran 466h ago",
+        "action": "Check if preMarket should be running — may need restart"
+      },
+      {
+        "type": "AGENT_STALE",
+        "severity": "LOW",
+        "message": "Agent \"swingScanner\" last ran 460h ago",
+        "action": "Check if swingScanner should be running — may need restart"
+      },
+      {
+        "type": "AGENT_STALE",
+        "severity": "LOW",
+        "message": "Agent \"dayTrader\" last ran 459h ago",
+        "action": "Check if dayTrader should be running — may need restart"
+      },
+      {
+        "type": "AGENT_STALE",
+        "severity": "LOW",
+        "message": "Agent \"afterHours\" last ran 459h ago",
+        "action": "Check if afterHours should be running — may need restart"
+      },
+      {
+        "type": "AGENT_STALE",
+        "severity": "LOW",
+        "message": "Agent \"volRegime\" last ran 460h ago",
+        "action": "Check if volRegime should be running — may need restart"
+      },
+      {
+        "type": "AGENT_STALE",
+        "severity": "LOW",
+        "message": "Agent \"esMicro\" last ran 459h ago",
+        "action": "Check if esMicro should be running — may need restart"
+      },
+      {
+        "type": "AGENT_STALE",
+        "severity": "LOW",
+        "message": "Agent \"quantSwing\" last ran 460h ago",
+        "action": "Check if quantSwing should be running — may need restart"
+      },
+      {
+        "type": "AGENT_STALE",
+        "severity": "LOW",
+        "message": "Agent \"cnnMonitor\" last ran 642h ago",
+        "action": "Check if cnnMonitor should be running — may need restart"
+      }
+    ],
+    "recommendationCount": 48,
+    "llmRecommendations": {
+      "overallAssessment": "Memory system is critically degraded at health score 39/100, with unresolved contradictions posing immediate decision risk and severely oversized role files (researcher_ml_lead.md at 6x limit) likely burying critical operational context. The 9 unindexed feedback files mean hard-won behavioral rules are invisible to the system.",
+      "topPriority": "Resolve the 2 contradictions immediately — conflicting state in a trading AI memory system can directly cause wrong strategy or infrastructure decisions.",
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Locate and resolve both contradictions by auditing conflicting files, then document the authoritative resolution with a timestamp.",
+          "reason": "Contradictions are the only issue class that can cause actively wrong decisions rather than merely stale or missing ones. In a trading context this means potential misallocated compute, wrong signals, or incorrect strategy parameters."
+        },
+        {
+          "priority": 2,
+          "action": "Add all 9 missing feedback files (feedback_ssh_pooling.md, feedback_use_qcc.md, feedback_ray_*, etc.) to INDEX.md immediately.",
+          "reason": "Feedback files encode behavioral rules the system must follow. All 9 are completely invisible to navigation, meaning SSH/Ray/infrastructure constraints are being silently ignored on every session that doesn't happen to load those files directly."
+        },
+        {
+          "priority": 3,
+          "action": "Split researcher_ml_lead.md (1858 lines, 6x limit) and researcher_quant_lead.md (1285 lines, 4x limit) into role-summary + appendix or archive files.",
+          "reason": "Files this far over the 300-line limit degrade retrieval quality and likely contain months of mixed active/stale content. The MANDATORY QUEUE OBLIGATION sections in both are also 139h stale, meaning active task queues may be wrong."
+        },
+        {
+          "priority": 4,
+          "action": "Audit and refresh the 8 stale files with ages over 477h (backtest_results.md, INDEX.md, lvl3quant.md, teleclaude.md, wf_training.md, aeroforge_cad.md, autonomous_mode.md, lvl3quant sections), archiving any that are no longer actionable.",
+          "reason": "Compute allocation, backtest results, and training workflow docs that are 20-30 days stale will cause the system to plan against infrastructure and strategy state that no longer exists."
+        },
+        {
+          "priority": 5,
+          "action": "Deduplicate the 6 duplicate entries and trim INDEX.md from 293 to under 150 lines by removing stale or redundant pointers.",
+          "reason": "INDEX.md is the navigation hub with a hard 200-line render limit; at 293 lines the bottom ~100 lines are truncated every session, making those references permanently inaccessible regardless of their content quality."
+        }
+      ]
+    },
+    "remediations": []
+  }
+}

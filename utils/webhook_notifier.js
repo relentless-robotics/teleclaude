@@ -12,6 +12,8 @@ const fs = require('fs');
 const path = require('path');
 
 const CONFIG_FILE = path.join(__dirname, '..', 'config', 'webhooks.json');
+const MAIN_CONFIG = path.join(__dirname, '..', 'config.json');
+const CHANNELS_FILE = path.join(__dirname, '..', 'trading_agents', 'data', 'discord_channels.json');
 
 /**
  * Load webhook configuration
@@ -116,25 +118,93 @@ function createEmbed(type, title, description, fields = []) {
 }
 
 /**
+ * Send message to Discord channel via Bot API (fallback when no webhook URL configured)
+ */
+async function sendViaBotToken(channelId, payload) {
+  let botToken = null;
+  try {
+    const config = JSON.parse(fs.readFileSync(MAIN_CONFIG, 'utf-8'));
+    botToken = config.discordToken;
+  } catch (e) { /* no config */ }
+  if (!botToken) throw new Error('No bot token in config.json');
+
+  return new Promise((resolve, reject) => {
+    const data = JSON.stringify(payload);
+    const options = {
+      hostname: 'discord.com',
+      path: `/api/v10/channels/${channelId}/messages`,
+      method: 'POST',
+      headers: {
+        'Authorization': `Bot ${botToken}`,
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(data),
+      }
+    };
+    const req = https.request(options, (res) => {
+      let body = '';
+      res.on('data', chunk => body += chunk);
+      res.on('end', () => {
+        if (res.statusCode >= 200 && res.statusCode < 300) {
+          resolve({ success: true, statusCode: res.statusCode });
+        } else {
+          reject(new Error(`Bot API failed: ${res.statusCode} - ${body}`));
+        }
+      });
+    });
+    req.on('error', reject);
+    req.write(data);
+    req.end();
+  });
+}
+
+/**
+ * Resolve target channel ID for a notification type
+ */
+function resolveChannelId(notifType) {
+  try {
+    const channels = JSON.parse(fs.readFileSync(CHANNELS_FILE, 'utf-8'));
+    // Route alerts/errors to #alerts, everything else to #system-status
+    if (['error', 'task_failed', 'auth_failed', 'rate_limit'].includes(notifType)) {
+      return channels.channels?.alerts || channels.channels?.systemStatus || null;
+    }
+    return channels.channels?.systemStatus || null;
+  } catch (e) { return null; }
+}
+
+/**
  * Send notification to configured webhook
+ * Falls back to Discord Bot API if no webhook URL is set but a bot token exists.
  */
 async function notify(type, title, description, fields = []) {
   const config = loadConfig();
   const webhookUrl = config.webhooks?.default || config.webhooks?.notifications;
+  const payload = createEmbed(type, title, description, fields);
 
-  if (!webhookUrl) {
-    console.log('[Webhook] No webhook configured. Notification:', title);
-    return { success: false, reason: 'No webhook configured' };
+  // Try webhook URL first
+  if (webhookUrl) {
+    try {
+      await sendWebhook(webhookUrl, payload);
+      return { success: true };
+    } catch (e) {
+      console.error('[Webhook] Failed to send:', e.message);
+      return { success: false, error: e.message };
+    }
   }
 
-  try {
-    const payload = createEmbed(type, title, description, fields);
-    await sendWebhook(webhookUrl, payload);
-    return { success: true };
-  } catch (e) {
-    console.error('[Webhook] Failed to send:', e.message);
-    return { success: false, error: e.message };
+  // Fallback: use Discord Bot token + channel ID
+  const channelId = resolveChannelId(type);
+  if (channelId) {
+    try {
+      await sendViaBotToken(channelId, payload);
+      return { success: true, via: 'bot_api' };
+    } catch (e) {
+      console.error('[Webhook] Bot API fallback failed:', e.message);
+      return { success: false, error: e.message };
+    }
   }
+
+  console.log('[Webhook] No webhook or bot token configured. Notification:', title);
+  return { success: false, reason: 'No webhook or bot token configured' };
 }
 
 /**

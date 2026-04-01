@@ -1,0 +1,15 @@
+{
+  "positions": [],
+  "dailyPnL": 0,
+  "dailyPnLPct": 0,
+  "tradesExecuted": 0,
+  "tradesVetoed": 0,
+  "signalsProcessed": 0,
+  "signalsFiltered": 0,
+  "tradingHalted": false,
+  "haltReason": null,
+  "symbolCooldowns": {},
+  "lastLoopTime": "2026-03-13T13:45:48.966Z",
+  "date": "2026-03-13",
+  "errors": []
+}

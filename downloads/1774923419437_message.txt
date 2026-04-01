@@ -1,0 +1,165 @@
+"*Accomplishing…",
+  "outputLength": 15
+}
+PTY: *Accomplishing…
+[claude] [2026-03-31T02:07:45.696Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l",
+  "outputLength": 16
+}
+PTY:
+[claude] [2026-03-31T02:07:45.697Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "✶Accomplishing…",
+  "outputLength": 15
+}
+PTY: ✶Accomplishing…
+[claude] [2026-03-31T02:07:45.760Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l",
+  "outputLength": 16
+}
+PTY:
+[claude] [2026-03-31T02:07:45.761Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "Accomplishing…",
+  "outputLength": 14
+}
+PTY: Accomplishing…
+[claude] [2026-03-31T02:07:45.839Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l",
+  "outputLength": 16
+}
+PTY:
+[claude] [2026-03-31T02:07:45.839Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "●✻Accomplishing…",
+  "outputLength": 16
+}
+PTY: ●✻Accomplishing…
+[claude] [2026-03-31T02:07:45.902Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l",
+  "outputLength": 16
+}
+PTY:
+[claude] [2026-03-31T02:07:45.903Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "Accomplishing…",
+  "outputLength": 14
+}
+PTY: Accomplishing…
+[claude] [2026-03-31T02:07:45.968Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l",
+  "outputLength": 16
+}
+PTY:
+[claude] [2026-03-31T02:07:45.968Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "✽Accomplishing…",
+  "outputLength": 15
+}
+PTY: ✽Accomplishing…
+[claude] [2026-03-31T02:07:46.046Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l",
+  "outputLength": 16
+}
+PTY:
+[claude] [2026-03-31T02:07:46.047Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "Accomplishing…",
+  "outputLength": 14
+}
+PTY: Accomplishing…
+[claude] [2026-03-31T02:07:46.163Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l",
+  "outputLength": 16
+}
+PTY:
+[claude] [2026-03-31T02:07:46.164Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "✻",
+  "outputLength": 1
+}
+PTY: ✻
+[claude] [2026-03-31T02:07:46.228Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l225",
+  "outputLength": 19
+}
+PTY: 225
+[claude] [2026-03-31T02:07:46.249Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l",
+  "outputLength": 16
+}
+PTY:
+[claude] [2026-03-31T02:07:46.263Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "Accomplishing…",
+  "outputLength": 14
+}
+PTY: Accomplishing…
+[claude] [2026-03-31T02:07:46.298Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l\r✶Accomplishing…",
+  "outputLength": 32
+}
+✶Accomplishing…
+[claude] [2026-03-31T02:07:46.361Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026lAccomplishing…",
+  "outputLength": 30
+}
+PTY: Accomplishing…
+[claude] [2026-03-31T02:07:46.390Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b]0;⠐ Recover from crash and resume Discord tasks\u0007",
+  "outputLength": 50
+}
+PTY:
+[claude] [2026-03-31T02:07:46.423Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l",
+  "outputLength": 16
+}
+PTY:
+[claude] [2026-03-31T02:07:46.424Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "*Accomplishing…",
+  "outputLength": 15
+}
+PTY: *Accomplishing…
+[claude] [2026-03-31T02:07:46.439Z] [DEBUG] OUTPUT from Claude PTY
+  DATA: {
+  "output": "\u001b[?2026h\u001b[?2026l",
+  "outputLength": 16
+}
+PTY:
+
+C:\Users\Footb\Documents\Github\teleclaude-main>npm start
+
+> teleclaude@1.0.0 start
+> node watchdog.js
+
+[2026-03-31T02:16:25.640Z] === TeleClaude Watchdog Starting ===
+[2026-03-31T02:16:25.642Z] Bridge script: C:\Users\Footb\Documents\Github\teleclaude-main\index.js
+[2026-03-31T02:16:25.642Z] Heartbeat timeout: 120s
+[2026-03-31T02:16:25.643Z] Crash loop threshold: 3 in 300s
+[2026-03-31T02:16:25.643Z] Resuming from previous state (50 total starts)
+[2026-03-31T02:16:25.644Z] RESTARTING bridge (attempt #51)...
+[2026-03-31T02:16:25.650Z] Bridge PID: 29808
+[system] [2026-03-31T02:16:26.536Z] [INFO] Discord bridge starting
+[system] [2026-03-31T02:16:26.538Z] [INFO] Allowed Discord users
+  DATA: {
+  "allowedUsers": [
+    "279359669716385793"
+  ]
+}
+Claude Discord Bridge starting...
+Allowed users: 279359669716385793
+Discord bot logged in as bot1466614557777727620#

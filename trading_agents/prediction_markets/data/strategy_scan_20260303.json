@@ -1,0 +1,292 @@
+{
+  "timestamp": "2026-03-03T12:22:39.315276+00:00",
+  "total_opportunities": 59,
+  "strategies": {
+    "spx_bracket_vol": {
+      "count": 0,
+      "total_edge": 0
+    },
+    "fomc_divergence": {
+      "count": 1,
+      "total_edge": 0.025
+    },
+    "event_driven_macro": {
+      "count": 0,
+      "total_edge": 0
+    },
+    "favorite_longshot": {
+      "count": 38,
+      "total_edge": 0.27060000000000006
+    },
+    "combinatorial_arb": {
+      "count": 20,
+      "total_edge": 8.1047
+    },
+    "cross_platform_arb": {
+      "count": 0,
+      "total_edge": 0
+    },
+    "political_policy": {
+      "count": 0,
+      "total_edge": 0
+    },
+    "crypto_events": {
+      "count": 0,
+      "total_edge": 0
+    }
+  },
+  "top_opportunities": [
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "khamenei-out-as",
+      "probability_sum": 1.999,
+      "direction": "overpriced",
+      "net_edge_after_fees": 0.4945,
+      "action": "SELL",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-the-next",
+      "probability_sum": 0.015,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.4875,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-tim-walz",
+      "probability_sum": 0.017,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.4865,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-michelle-obama",
+      "probability_sum": 0.02,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.485,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-zohran-mamdani",
+      "probability_sum": 0.022,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.484,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-tulsi-gabbard",
+      "probability_sum": 0.022,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.484,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-greg-abbott",
+      "probability_sum": 0.023,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.4835,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-the-los",
+      "probability_sum": 0.024,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.483,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-elon-musk",
+      "probability_sum": 0.0275,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.4813,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-vivek-ramaswamy",
+      "probability_sum": 0.029,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.4805,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-gretchen-whitmer",
+      "probability_sum": 0.0305,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.4798,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-the-toronto",
+      "probability_sum": 0.0365,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.4768,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-alexandria-ocasio",
+      "probability_sum": 0.146,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.422,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-the-us",
+      "probability_sum": 0.34,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.325,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-lebron-james",
+      "probability_sum": 0.0185,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.3222,
+      "action": "BUY",
+      "markets_count": 3
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-the-fed",
+      "probability_sum": 0.0235,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.3205,
+      "action": "BUY",
+      "markets_count": 3
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-kim-kardashian",
+      "probability_sum": 0.0285,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.3188,
+      "action": "BUY",
+      "markets_count": 3
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "russia-x-ukraine",
+      "probability_sum": 0.436,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.277,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-jesus-christ",
+      "probability_sum": 0.5225,
+      "direction": "underpriced",
+      "net_edge_after_fees": 0.2338,
+      "action": "BUY",
+      "markets_count": 2
+    },
+    {
+      "strategy": "combinatorial_arb",
+      "weight": 0.1,
+      "platform": "polymarket",
+      "type": "probability_sum",
+      "group": "will-there-be",
+      "probability_sum": 1.168,
+      "direction": "overpriced",
+      "net_edge_after_fees": 0.079,
+      "action": "SELL",
+      "markets_count": 2
+    }
+  ],
+  "summary": {
+    "verdict": "OPPORTUNITIES_FOUND",
+    "actionable_count": 59,
+    "total_estimated_edge": 8.4003,
+    "avg_edge_per_trade": 0.1424,
+    "best_strategy": "combinatorial_arb",
+    "platforms": {
+      "kalshi": 1,
+      "polymarket": 58
+    },
+    "message": "59 actionable opportunities across 3 strategies. Best edge: combinatorial arb."
+  }
+}

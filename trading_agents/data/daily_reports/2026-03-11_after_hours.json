@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-03-11T20:30:44.838Z",
+  "date": "2026-03-11",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90544.9,
+    "dailyPL": 7.959999999991851,
+    "dailyPLPct": 0.008791991423602178,
+    "cash": 90544.9,
+    "buyingPower": 362387.72,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 1,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Cumulative win rate of 37.9% is low — the profitable days rely heavily on outlier wins (Feb 6: +$20,632) to offset a consistent pattern of small frequent losses.",
+      "AVOID: Feb 11 (-$4,757) and Feb 10 (-$2,870) suggest a two-day drawdown sequence that needs a circuit breaker rule — consecutive loss days should trigger reduced size or a mandatory pause.",
+      "AVOID: Swing account shows zero tracked P&L with $4,923 deployed — no visibility into whether that capital is working efficiently."
+    ],
+    "tomorrowRules": [
+      "If market regime remains NEUTRAL, keep day trade count to 0-2 maximum. Only trade setups with A+ conviction — no boredom trades.",
+      "On the INTC short put remainder: if the option approaches $0.10 or less, close it entirely. Don't give back gains chasing last penny of max profit.",
+      "Before entering any new position, check VIX level. Currently at 25.05 — elevated vol means options premiums are rich for selling, but also means fast adverse moves. Size accordingly, not at full position."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No day trades executed, preserving capital in a NEUTRAL market regime. The agent correctly identified a TRIM opportunity on the INTC put position at 75.93% profit, showing disciplined profit-taking. However, the $7.96 P&L is essentially flat, and the swing account has zero activity. Grade reflects solid discipline and process adherence rather than profit generation.",
+    "keyLessons": [
+      "Profit-taking at 75%+ gains on short options is correct mechanics — locking in half while letting the rest ride toward max profit (expiration worthless) is textbook risk management for this setup.",
+      "Zero day trades in a NEUTRAL regime is the right call. Forcing trades in directionless markets is how the cumulative loss days (-$4,757, -$2,870, -$2,157) happen. Sitting out IS a position.",
+      "Your 37.9% win rate means your winners must be significantly larger than your losers to be net profitable — the $11,947 cumulative P&L with only 11 wins out of 29 trades confirms this math is working, but it requires iron discipline to hold winners and cut losers hard."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "No overtrading in a NEUTRAL market — activity was appropriately minimal.",
+        "Agent flagged and trimmed the INTC short put at 75.93% profit rather than holding for full max gain and risking reversal.",
+        "Five consecutive green days on the recent days log, suggesting current regime management is sound."
+      ],
+      "badPatterns": [
+        "Cumulative win rate of 37.9% is low — the profitable days rely heavily on outlier wins (Feb 6: +$20,632) to offset a consistent pattern of small frequent losses.",
+        "Feb 11 (-$4,757) and Feb 10 (-$2,870) suggest a two-day drawdown sequence that needs a circuit breaker rule — consecutive loss days should trigger reduced size or a mandatory pause.",
+        "Swing account shows zero tracked P&L with $4,923 deployed — no visibility into whether that capital is working efficiently."
+      ]
+    },
+    "tomorrowRules": [
+      "If market regime remains NEUTRAL, keep day trade count to 0-2 maximum. Only trade setups with A+ conviction — no boredom trades.",
+      "On the INTC short put remainder: if the option approaches $0.10 or less, close it entirely. Don't give back gains chasing last penny of max profit.",
+      "Before entering any new position, check VIX level. Currently at 25.05 — elevated vol means options premiums are rich for selling, but also means fast adverse moves. Size accordingly, not at full position."
+    ],
+    "riskAssessment": "Risk management today was solid. No new positions opened in a directionless market, existing profitable position was trimmed at a rational level. The agent reasoning log shows a methodical decision process rather than reactive trading. The one concern is the INTC position had 'no stop set' per the log — any open position without a defined stop is a risk management gap that needs addressing.",
+    "emotionalCheck": "No signs of emotional trading today — zero trades in a neutral market suggests patience and discipline are intact. However, the broader pattern warrants monitoring: the Feb 10-13 cluster of losses (-$10,382 across 4 days) followed by a clean exit period suggests the system correctly shut down after drawdown. Watch for FOMO if the market breaks direction tomorrow — after 5 quiet days, there can be pressure to 'make something happen.' Resist it unless the setup is genuinely there."
+  },
+  "errors": []
+}

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-03-18T08:22:27.389077",
+  "severity": "INFO",
+  "machine": "ALL",
+  "message": "**Compute Status Report** -- 2026-03-18 08:22\n\n**Neptune** (RTX 3090) | GPU: 100% @ 72C / 335.2W | VRAM: 21.3/24.0 GB | Procs: 2 Python | Task: GPU Active (unknown task)\n**Uranus** (RTX 5090) | GPU: 92% @ 59C / 472.9W | VRAM: 15.0/31.8 GB | Procs: 1 Python | Task: GPU Active (unknown task)\n**Razer** (RTX 3070) | GPU: 100% @ 85C / 67.1W | VRAM: 7.8/8.0 GB | RAM: 9.4/15.4 GB (61%) | Disk: 24% free | Procs: 2 Python | Task: Training\n**Jupiter** (CPU) | RAM: 0.7/47.0 GB (1%) | Disk: 79% free | Procs: 11 Python | Results: 483,418 | Task: Inference\n**Saturn** (CPU) | RAM: 37.0/39.1 GB (95%) | Disk: 27% free | Procs: 51 Python, 71 fill_sim | Results: 747,466 | Task: Fill Sim (71 workers), Sweep",
+  "type": "hourly_report"
+}

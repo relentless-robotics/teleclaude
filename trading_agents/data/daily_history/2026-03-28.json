@@ -1,0 +1,1761 @@
+{
+  "date": "2026-03-28",
+  "createdAt": "2026-03-28T05:45:06.994Z",
+  "lastUpdated": "2026-03-29T00:00:02.916Z",
+  "overnight": {
+    "futures": {
+      "S&P 500": {
+        "price": 6412.25,
+        "change": -1.7279693486590038,
+        "threshold": 0.5,
+        "significant": true
+      },
+      "NASDAQ": {
+        "price": 23328.5,
+        "change": -1.9574056757409877,
+        "threshold": 0.7,
+        "significant": true
+      },
+      "Dow Jones": {
+        "price": 45424,
+        "change": -1.7434566298940084,
+        "threshold": 0.5,
+        "significant": true
+      },
+      "Russell 2000": {
+        "price": 2464,
+        "change": -1.7622199186667658,
+        "threshold": 0.7,
+        "significant": true
+      },
+      "Crude Oil": {
+        "price": 99.64,
+        "change": 5.461473327688396,
+        "threshold": 2,
+        "significant": true
+      },
+      "Gold": {
+        "price": 4524.3,
+        "change": 3.400754199520059,
+        "threshold": 1,
+        "significant": true
+      },
+      "30Y Bonds": {
+        "price": 112.1875,
+        "change": -0.44370493621741547,
+        "threshold": 0.5,
+        "significant": false
+      }
+    },
+    "globalMarkets": {
+      "Asia": [
+        {
+          "name": "Nikkei (Japan)",
+          "price": 53373.07,
+          "change": -0.4301572747378243
+        },
+        {
+          "name": "Hang Seng (HK)",
+          "price": 24951.88,
+          "change": -1.5159092120090216
+        },
+        {
+          "name": "Shanghai (China)",
+          "price": 3913.724,
+          "change": 0.6335940888893365
+        }
+      ],
+      "Europe": [
+        {
+          "name": "FTSE 100 (UK)",
+          "price": 9967.35,
+          "change": -1.37976411920686
+        },
+        {
+          "name": "DAX (Germany)",
+          "price": 22300.75,
+          "change": -2.8589437332622514
+        },
+        {
+          "name": "CAC 40 (France)",
+          "price": 7701.95,
+          "change": -0.8670010592961355
+        }
+      ]
+    },
+    "crypto": {
+      "Bitcoin": {
+        "price": 66340.89,
+        "change": -0.03394038769615573
+      },
+      "Ethereum": {
+        "price": 1993.5311,
+        "change": 0.09395178363533939
+      }
+    },
+    "significantMoves": [
+      {
+        "market": "S&P 500",
+        "change": -1.7279693486590038,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "NASDAQ",
+        "change": -1.9574056757409877,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Dow Jones",
+        "change": -1.7434566298940084,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Russell 2000",
+        "change": -1.7622199186667658,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Crude Oil",
+        "change": 5.461473327688396,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Gold",
+        "change": 3.400754199520059,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Hang Seng (HK)",
+        "change": -1.5159092120090216,
+        "type": "ASIA",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "DAX (Germany)",
+        "change": -2.8589437332622514,
+        "type": "EUROPE",
+        "severity": "MEDIUM"
+      }
+    ],
+    "riskSentiment": "RISK_OFF",
+    "updatedAt": "2026-03-29T00:00:02.916Z"
+  },
+  "preMarket": {
+    "futures": {},
+    "gappers": [],
+    "movers": [],
+    "watchlistAlerts": [],
+    "newsHighlights": [],
+    "updatedAt": null
+  },
+  "market": {
+    "indices": {},
+    "vix": null,
+    "regime": null,
+    "sectorLeaders": [],
+    "sectorLaggards": [],
+    "updatedAt": null
+  },
+  "sentiment": {
+    "overall": null,
+    "trending": [],
+    "socialMomentum": [],
+    "updatedAt": null
+  },
+  "catalysts": {
+    "earningsToday": [],
+    "earningsThisWeek": [],
+    "economicEvents": [],
+    "newsBreaking": [],
+    "updatedAt": null
+  },
+  "technicals": {
+    "oversold": [],
+    "overbought": [],
+    "breakouts": [],
+    "volumeSpikes": [],
+    "updatedAt": null
+  },
+  "optionsFlow": {
+    "unusualActivity": [],
+    "putCallRatio": null,
+    "ivRank": {},
+    "updatedAt": null
+  },
+  "dayWatchlist": [],
+  "swingTrader": {
+    "positions": [],
+    "pendingOrders": [],
+    "signals": [],
+    "account": null,
+    "updatedAt": null
+  },
+  "dayTrader": {
+    "positions": [],
+    "trades": [],
+    "pnlToday": 0,
+    "tradesCount": 0,
+    "account": null,
+    "reasoning": [],
+    "updatedAt": null
+  },
+  "macroAlpha": {
+    "version": null,
+    "predictionDate": null,
+    "generatedAt": null,
+    "freshness": null,
+    "topPicks": [],
+    "bottomPicks": [],
+    "metadata": null,
+    "modelInfo": null,
+    "scores": {},
+    "updatedAt": null
+  },
+  "iasmSignals": {
+    "timestamp": "2026-03-13T15:44:53.768462",
+    "signals": [],
+    "freshness": {
+      "ageMinutes": 21594.1,
+      "isFresh": false,
+      "isStale": true,
+      "signalTime": "2026-03-13T15:44:53.768462"
+    },
+    "updatedAt": "2026-03-28T19:38:59.098Z"
+  },
+  "failedSetups": [],
+  "agentLog": [
+    {
+      "agent": "iasm",
+      "time": "01:45:07",
+      "timestamp": "2026-03-28T05:45:07.123Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:38:59",
+      "timestamp": "2026-03-28T19:38:59.098Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "20:00:02",
+      "timestamp": "2026-03-29T00:00:02.916Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    }
+  ],
+  "modelSignals": {
+    "v9_macro": {
+      "timestamp": "2026-03-24T09:30:48.332774",
+      "predictions": null,
+      "xgb_predictions": {
+        "model": "XGB + Weekly_Momentum_Kelly",
+        "description": "Best single model",
+        "predictions": [
+          {
+            "symbol": "XOM",
+            "score": 0.17895705997943878,
+            "rank": 1,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "CVX",
+            "score": 0.17594905197620392,
+            "rank": 2,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "EOG",
+            "score": 0.17215852439403534,
+            "rank": 3,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "MU",
+            "score": 0.11727076023817062,
+            "rank": 4,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "LRCX",
+            "score": 0.1162189319729805,
+            "rank": 5,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "NFLX",
+            "score": 0.11361526697874069,
+            "rank": 6,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "SLB",
+            "score": 0.10693260282278061,
+            "rank": 7,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "AMAT",
+            "score": 0.0894928053021431,
+            "rank": 8,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "EQIX",
+            "score": 0.08015389740467072,
+            "rank": 9,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "VZ",
+            "score": 0.07530578970909119,
+            "rank": 10,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "INTC",
+            "score": 0.052082955837249756,
+            "rank": 11,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "CAT",
+            "score": 0.046181537210941315,
+            "rank": 12,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "JNJ",
+            "score": 0.043055083602666855,
+            "rank": 13,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "NEE",
+            "score": 0.04250461235642433,
+            "rank": 14,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "DUK",
+            "score": 0.04036230966448784,
+            "rank": 15,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "SO",
+            "score": 0.03544909879565239,
+            "rank": 16,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "COST",
+            "score": 0.024304838851094246,
+            "rank": 17,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "RTX",
+            "score": 0.023668520152568817,
+            "rank": 18,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "SBUX",
+            "score": 0.023495571687817574,
+            "rank": 19,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "IBM",
+            "score": 0.021055029705166817,
+            "rank": 20,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "WMT",
+            "score": 0.016784001141786575,
+            "rank": 21,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PGR",
+            "score": 0.014110621064901352,
+            "rank": 22,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "LIN",
+            "score": 0.012162470258772373,
+            "rank": 23,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "INTU",
+            "score": 0.00961468555033207,
+            "rank": 24,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "AVGO",
+            "score": 0.008318866603076458,
+            "rank": 25,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "MO",
+            "score": 0.00788838043808937,
+            "rank": 26,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "C",
+            "score": 0.007538693491369486,
+            "rank": 27,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "DE",
+            "score": 0.00345050822943449,
+            "rank": 28,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "ADI",
+            "score": 0.0014031634200364351,
+            "rank": 29,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "BKNG",
+            "score": 0.00012341851834207773,
+            "rank": 30,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "AMGN",
+            "score": 0.00009318204683950171,
+            "rank": 31,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "CSCO",
+            "score": -0.0006260471418499947,
+            "rank": 32,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "CRM",
+            "score": -0.0015198087785393,
+            "rank": 33,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "HON",
+            "score": -0.002713665599003434,
+            "rank": 34,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "MRK",
+            "score": -0.002975926734507084,
+            "rank": 35,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "CB",
+            "score": -0.003174959681928158,
+            "rank": 36,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "KO",
+            "score": -0.006420278921723366,
+            "rank": 37,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "MS",
+            "score": -0.007746781222522259,
+            "rank": 38,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "TJX",
+            "score": -0.01091488916426897,
+            "rank": 39,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "GOOGL",
+            "score": -0.015436163172125816,
+            "rank": 40,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "SPGI",
+            "score": -0.017674261704087257,
+            "rank": 41,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "BMY",
+            "score": -0.019852930679917336,
+            "rank": 42,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "BRK-B",
+            "score": -0.021026000380516052,
+            "rank": 43,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "ICE",
+            "score": -0.024607565253973007,
+            "rank": 44,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "SCHW",
+            "score": -0.024934282526373863,
+            "rank": 45,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "CVS",
+            "score": -0.029365649446845055,
+            "rank": 46,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "GILD",
+            "score": -0.031002381816506386,
+            "rank": 47,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "AMZN",
+            "score": -0.031066041439771652,
+            "rank": 48,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "UNH",
+            "score": -0.031225057318806648,
+            "rank": 49,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "AMT",
+            "score": -0.03181510791182518,
+            "rank": 50,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "PYPL",
+            "score": -0.03226205334067345,
+            "rank": 51,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "PLD",
+            "score": -0.03606397286057472,
+            "rank": 52,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "PNC",
+            "score": -0.039573173969984055,
+            "rank": 53,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "ORCL",
+            "score": -0.04155755415558815,
+            "rank": 54,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "PM",
+            "score": -0.041771482676267624,
+            "rank": 55,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "TXN",
+            "score": -0.043534353375434875,
+            "rank": 56,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "NOW",
+            "score": -0.04529661312699318,
+            "rank": 57,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "AAPL",
+            "score": -0.04609332233667374,
+            "rank": 58,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "AMD",
+            "score": -0.04624591022729874,
+            "rank": 59,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "CI",
+            "score": -0.04897984489798546,
+            "rank": 60,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "PEP",
+            "score": -0.05277015268802643,
+            "rank": 61,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "JPM",
+            "score": -0.05462326854467392,
+            "rank": 62,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "CMCSA",
+            "score": -0.05538025498390198,
+            "rank": 63,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ABT",
+            "score": -0.056832168251276016,
+            "rank": 64,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "V",
+            "score": -0.057686541229486465,
+            "rank": 65,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "REGN",
+            "score": -0.057863056659698486,
+            "rank": 66,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ZTS",
+            "score": -0.05827803909778595,
+            "rank": 67,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "NVDA",
+            "score": -0.05852396413683891,
+            "rank": 68,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "APH",
+            "score": -0.05930514633655548,
+            "rank": 69,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MA",
+            "score": -0.061534881591796875,
+            "rank": 70,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MCD",
+            "score": -0.06216498464345932,
+            "rank": 71,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MDLZ",
+            "score": -0.0634414479136467,
+            "rank": 72,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "DHR",
+            "score": -0.06445981562137604,
+            "rank": 73,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "GS",
+            "score": -0.06498760730028152,
+            "rank": 74,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "META",
+            "score": -0.0673266127705574,
+            "rank": 75,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ISRG",
+            "score": -0.06877624243497849,
+            "rank": 76,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ACN",
+            "score": -0.06951601803302765,
+            "rank": 77,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "BAC",
+            "score": -0.07157378643751144,
+            "rank": 78,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "BA",
+            "score": -0.07284241169691086,
+            "rank": 79,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "VRTX",
+            "score": -0.07594951242208481,
+            "rank": 80,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "GE",
+            "score": -0.07597173750400543,
+            "rank": 81,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "WFC",
+            "score": -0.07878118753433228,
+            "rank": 82,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "PG",
+            "score": -0.07921858131885529,
+            "rank": 83,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "MSFT",
+            "score": -0.08198367804288864,
+            "rank": 84,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ABBV",
+            "score": -0.08251041173934937,
+            "rank": 85,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "AXP",
+            "score": -0.0836993083357811,
+            "rank": 86,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "HD",
+            "score": -0.08708971738815308,
+            "rank": 87,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "DIS",
+            "score": -0.08766010403633118,
+            "rank": 88,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "LOW",
+            "score": -0.08996162563562393,
+            "rank": 89,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "UNP",
+            "score": -0.09157171100378036,
+            "rank": 90,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "TMO",
+            "score": -0.09449684619903564,
+            "rank": 91,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ADBE",
+            "score": -0.09601688385009766,
+            "rank": 92,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "SYK",
+            "score": -0.09786367416381836,
+            "rank": 93,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "TSLA",
+            "score": -0.09818454831838608,
+            "rank": 94,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "BLK",
+            "score": -0.0986473336815834,
+            "rank": 95,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "NKE",
+            "score": -0.11068703234195709,
+            "rank": 96,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "LLY",
+            "score": -0.11585327237844467,
+            "rank": 97,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "QCOM",
+            "score": -0.14546793699264526,
+            "rank": 98,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "BX",
+            "score": -0.15331415832042694,
+            "rank": 99,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          }
+        ],
+        "top_longs": [
+          "XOM",
+          "CVX",
+          "EOG",
+          "MU",
+          "LRCX",
+          "NFLX",
+          "SLB",
+          "AMAT",
+          "EQIX",
+          "VZ",
+          "INTC",
+          "CAT",
+          "JNJ",
+          "NEE",
+          "DUK"
+        ],
+        "avoid": [
+          "VRTX",
+          "GE",
+          "WFC",
+          "PG",
+          "MSFT",
+          "ABBV",
+          "AXP",
+          "HD",
+          "DIS",
+          "LOW"
+        ]
+      },
+      "ensemble_predictions": {
+        "model": "Full Ensemble (ET+RF+XGB+ENET)",
+        "description": "Consensus view",
+        "predictions": [
+          {
+            "symbol": "CVX",
+            "score": 0.17074178097798093,
+            "rank": 1,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "EOG",
+            "score": 0.17055148206880816,
+            "rank": 2,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "XOM",
+            "score": 0.16969070802483938,
+            "rank": 3,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "MU",
+            "score": 0.11637239916604128,
+            "rank": 4,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "LRCX",
+            "score": 0.10927611839828535,
+            "rank": 5,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "SLB",
+            "score": 0.09560567373891737,
+            "rank": 6,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "NFLX",
+            "score": 0.09183264573361177,
+            "rank": 7,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "AMAT",
+            "score": 0.09110528104053989,
+            "rank": 8,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "VZ",
+            "score": 0.08338802549250446,
+            "rank": 9,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "EQIX",
+            "score": 0.08237107455207397,
+            "rank": 10,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "INTC",
+            "score": 0.04465779085631553,
+            "rank": 11,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "CAT",
+            "score": 0.04060404455865711,
+            "rank": 12,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "DUK",
+            "score": 0.037477833021330176,
+            "rank": 13,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "JNJ",
+            "score": 0.03640746310788298,
+            "rank": 14,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "NEE",
+            "score": 0.036345397616897354,
+            "rank": 15,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "SO",
+            "score": 0.030735141960276557,
+            "rank": 16,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "COST",
+            "score": 0.021958512882771886,
+            "rank": 17,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "SBUX",
+            "score": 0.020632577184637672,
+            "rank": 18,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "RTX",
+            "score": 0.017092400726593973,
+            "rank": 19,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "IBM",
+            "score": 0.016210723006395037,
+            "rank": 20,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "WMT",
+            "score": 0.012061141334906593,
+            "rank": 21,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "INTU",
+            "score": 0.01144128697941766,
+            "rank": 22,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "LIN",
+            "score": 0.01062329237598067,
+            "rank": 23,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PGR",
+            "score": 0.007902818482469709,
+            "rank": 24,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "MO",
+            "score": 0.005715413938499224,
+            "rank": 25,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "MRK",
+            "score": 0.0052322604734913025,
+            "rank": 26,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "DE",
+            "score": 0.0037385467187540326,
+            "rank": 27,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "C",
+            "score": 0.0018174745187403275,
+            "rank": 28,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "CSCO",
+            "score": 0.0009050620927308336,
+            "rank": 29,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "CB",
+            "score": -0.0009690733882600974,
+            "rank": 30,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "AVGO",
+            "score": -0.002126561227517488,
+            "rank": 31,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "BKNG",
+            "score": -0.004623831086724963,
+            "rank": 32,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "ADI",
+            "score": -0.004757261609529563,
+            "rank": 33,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "HON",
+            "score": -0.006021722501814637,
+            "rank": 34,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "KO",
+            "score": -0.007245684300583345,
+            "rank": 35,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "TJX",
+            "score": -0.0077401661008368065,
+            "rank": 36,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "AMGN",
+            "score": -0.008387225790875051,
+            "rank": 37,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "CRM",
+            "score": -0.008946702944757107,
+            "rank": 38,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "SCHW",
+            "score": -0.015962634654527172,
+            "rank": 39,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "MS",
+            "score": -0.01721032599357283,
+            "rank": 40,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "GOOGL",
+            "score": -0.017609756023148446,
+            "rank": 41,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "SPGI",
+            "score": -0.01781788932027692,
+            "rank": 42,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "BMY",
+            "score": -0.021163137628812285,
+            "rank": 43,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "GILD",
+            "score": -0.023136742408881535,
+            "rank": 44,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "BRK-B",
+            "score": -0.02335332298922569,
+            "rank": 45,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "ICE",
+            "score": -0.02410016745180329,
+            "rank": 46,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "AMZN",
+            "score": -0.028360102486690714,
+            "rank": 47,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "AMT",
+            "score": -0.030445042637458855,
+            "rank": 48,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "PLD",
+            "score": -0.03229305819095053,
+            "rank": 49,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "CVS",
+            "score": -0.03519892614143499,
+            "rank": 50,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "PYPL",
+            "score": -0.03537188335440404,
+            "rank": 51,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "UNH",
+            "score": -0.03710360139676527,
+            "rank": 52,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "ORCL",
+            "score": -0.037251607154507885,
+            "rank": 53,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "PNC",
+            "score": -0.04119038736885247,
+            "rank": 54,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "TXN",
+            "score": -0.04141042488468524,
+            "rank": 55,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "AMD",
+            "score": -0.04191076787323542,
+            "rank": 56,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "PM",
+            "score": -0.04260543544306228,
+            "rank": 57,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "CMCSA",
+            "score": -0.04367270753000341,
+            "rank": 58,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "NOW",
+            "score": -0.04384209361267459,
+            "rank": 59,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "CI",
+            "score": -0.04700000665903397,
+            "rank": 60,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "AAPL",
+            "score": -0.04750466900580488,
+            "rank": 61,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "PEP",
+            "score": -0.049355358672305734,
+            "rank": 62,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MA",
+            "score": -0.04957644197742047,
+            "rank": 63,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "JPM",
+            "score": -0.05022872668860252,
+            "rank": 64,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "V",
+            "score": -0.052430930140905004,
+            "rank": 65,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MDLZ",
+            "score": -0.05339516693676633,
+            "rank": 66,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "REGN",
+            "score": -0.05373041811956174,
+            "rank": 67,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MCD",
+            "score": -0.05518487808766291,
+            "rank": 68,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ZTS",
+            "score": -0.05655047626711756,
+            "rank": 69,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "NVDA",
+            "score": -0.05833431048034975,
+            "rank": 70,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "GS",
+            "score": -0.05990826796851885,
+            "rank": 71,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "APH",
+            "score": -0.06022577003579888,
+            "rank": 72,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "META",
+            "score": -0.06298937538665593,
+            "rank": 73,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ISRG",
+            "score": -0.06512624707074036,
+            "rank": 74,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ABT",
+            "score": -0.0661522875738666,
+            "rank": 75,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ACN",
+            "score": -0.06684500618367262,
+            "rank": 76,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "VRTX",
+            "score": -0.06916757220184903,
+            "rank": 77,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "BAC",
+            "score": -0.06930738020547274,
+            "rank": 78,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "PG",
+            "score": -0.07130946110027189,
+            "rank": 79,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "DHR",
+            "score": -0.07362290748372018,
+            "rank": 80,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "MSFT",
+            "score": -0.07426120323846538,
+            "rank": 81,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "BA",
+            "score": -0.07589023897777801,
+            "rank": 82,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "UNP",
+            "score": -0.07628748478814111,
+            "rank": 83,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "GE",
+            "score": -0.07778281182566218,
+            "rank": 84,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "WFC",
+            "score": -0.08026562506720279,
+            "rank": 85,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "AXP",
+            "score": -0.08040960323481361,
+            "rank": 86,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ABBV",
+            "score": -0.08139751678801391,
+            "rank": 87,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "HD",
+            "score": -0.08277878497321348,
+            "rank": 88,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "DIS",
+            "score": -0.0848004616869065,
+            "rank": 89,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "LOW",
+            "score": -0.08722742317892823,
+            "rank": 90,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "BLK",
+            "score": -0.08893541967511234,
+            "rank": 91,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "TMO",
+            "score": -0.09300304371546048,
+            "rank": 92,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "SYK",
+            "score": -0.09482662384877956,
+            "rank": 93,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ADBE",
+            "score": -0.09572233586912077,
+            "rank": 94,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "TSLA",
+            "score": -0.09784722898370703,
+            "rank": 95,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "NKE",
+            "score": -0.10772978584619089,
+            "rank": 96,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "LLY",
+            "score": -0.11361421935236232,
+            "rank": 97,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "QCOM",
+            "score": -0.1339306913852543,
+            "rank": 98,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "BX",
+            "score": -0.14569618759403358,
+            "rank": 99,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          }
+        ],
+        "top_longs": [
+          "CVX",
+          "EOG",
+          "XOM",
+          "MU",
+          "LRCX",
+          "SLB",
+          "NFLX",
+          "AMAT",
+          "VZ",
+          "EQIX",
+          "INTC",
+          "CAT",
+          "DUK",
+          "JNJ",
+          "NEE"
+        ],
+        "avoid": [
+          "DHR",
+          "MSFT",
+          "BA",
+          "UNP",
+          "GE",
+          "WFC",
+          "AXP",
+          "ABBV",
+          "HD",
+          "DIS"
+        ]
+      },
+      "agreement": {
+        "both_strong_buy": [
+          "AMAT",
+          "CAT",
+          "CVX",
+          "DUK",
+          "EOG",
+          "EQIX",
+          "INTC",
+          "JNJ",
+          "LRCX",
+          "MU",
+          "NEE",
+          "NFLX",
+          "SLB",
+          "VZ",
+          "XOM"
+        ],
+        "both_avoid": [
+          "ABBV",
+          "AXP",
+          "DIS",
+          "GE",
+          "HD",
+          "MSFT",
+          "WFC"
+        ],
+        "divergent": []
+      },
+      "model_metrics": {
+        "return": "73.80%",
+        "sharpe": 3.98,
+        "max_dd": "-8.64%",
+        "period": "2023-2025 (full V9)"
+      },
+      "execution_config": "Weekly_Momentum_Kelly",
+      "next_rebalance": "2026-03-30",
+      "freshness": {
+        "ageDays": 4.3,
+        "isFresh": false,
+        "isStale": false,
+        "predictionTime": "2026-03-24T09:30:48.332774"
+      },
+      "updatedAt": "2026-03-28T19:38:58.866Z"
+    }
+  }
+}

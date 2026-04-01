@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-02-27T21:30:43.245Z",
+  "date": "2026-02-27",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90401.14,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "cash": 90401.14,
+    "buyingPower": 361604.56,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Overconcentration of P&L in one day (Feb 6 = 173% of total cumulative P&L) — one bad outlier day in the other direction could wipe the account.",
+      "AVOID: Feb 11 had 3 trades, 0 wins: never take a third trade on a day where the first two are already losses without a hard reset.",
+      "AVOID: Win rate below 40% is sustainable only with strict R-multiple discipline — there is no evidence that stop losses are being honored consistently.",
+      "AVOID: 5+ day trading hiatus with no logged reasoning suggests reactive behavior rather than systematic rule-following."
+    ],
+    "tomorrowRules": [
+      "Before entering any trade, state the market regime. Do not trade RISK_OFF regime with full size — cut position size by at least 50%.",
+      "Two losses in a single session = mandatory stop for the day. No exceptions. Feb 11 proved what happens when you ignore this.",
+      "Every trade requires a pre-defined stop. If you cannot articulate your exit before entry, do not enter.",
+      "Log your reasoning for NOT trading on flat days — silence in the log is not discipline, it's opacity. Build the habit of documenting the pass."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades taken on a NEUTRAL market regime day — disciplined inaction is correct behavior here. However, the broader context reveals a dangerous dependency: the account is profitable solely due to one outlier day (Feb 6: +$20,632). Strip that day out and the cumulative P&L is deeply negative. Today's restraint earns credit, but the systemic issues are real.",
+    "keyLessons": [
+      "Sitting out a NEUTRAL regime day is a skill, not a failure — you preserved capital correctly today.",
+      "Your 37.9% win rate with 18 losses vs 11 wins means your edge lives entirely in your winners being larger than your losers. If that ratio ever breaks, the account bleeds fast.",
+      "Feb 10 (-$2,870) into Feb 11 (-$4,757 across 3 straight losses) is a textbook revenge trading sequence — that $7,600+ two-day drawdown should be your personal stop rule benchmark.",
+      "You have had zero day trades across 5 consecutive sessions (Feb 22-27). Clarify if this is intentional selective waiting or avoidance behavior — the distinction matters for your psychology."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Correctly identified NEUTRAL market today and did not force trades into low-probability conditions.",
+        "Feb 6 and Feb 9 show you can execute size when conditions align — the capability exists.",
+        "Swing account is being tracked separately, showing structural discipline in separating trade styles."
+      ],
+      "badPatterns": [
+        "Overconcentration of P&L in one day (Feb 6 = 173% of total cumulative P&L) — one bad outlier day in the other direction could wipe the account.",
+        "Feb 11 had 3 trades, 0 wins: never take a third trade on a day where the first two are already losses without a hard reset.",
+        "Win rate below 40% is sustainable only with strict R-multiple discipline — there is no evidence that stop losses are being honored consistently.",
+        "5+ day trading hiatus with no logged reasoning suggests reactive behavior rather than systematic rule-following."
+      ]
+    },
+    "tomorrowRules": [
+      "Before entering any trade, state the market regime. Do not trade RISK_OFF regime with full size — cut position size by at least 50%.",
+      "Two losses in a single session = mandatory stop for the day. No exceptions. Feb 11 proved what happens when you ignore this.",
+      "Every trade requires a pre-defined stop. If you cannot articulate your exit before entry, do not enter.",
+      "Log your reasoning for NOT trading on flat days — silence in the log is not discipline, it's opacity. Build the habit of documenting the pass."
+    ],
+    "riskAssessment": "Today: Risk managed perfectly — zero exposure on a low-conviction day. Cumulative risk management: Poor. The Feb 10-13 sequence destroyed approximately 65% of the gains built on Feb 6 and Feb 9 in just 3 sessions. The account's survival depends on not repeating that pattern. With $90K equity, a single unmanaged losing streak could cause severe drawdown. Daily loss limits need to be enforced mechanically, not discretionarily.",
+    "emotionalCheck": "No emotional signals today given zero activity. However, the Feb 10-13 data strongly suggests revenge trading: a loss on Feb 10 (-$2,870) was followed by the worst single day on record (Feb 11: 3 trades, 0 wins, -$4,757). That is the fingerprint of doubling down after pain. The current 5-day trading halt may also reflect the opposite extreme — emotional shutdown after losses rather than systematic rule-based selectivity. Monitor for FOMO when the market eventually moves strongly, particularly after this period of inactivity."
+  },
+  "errors": []
+}

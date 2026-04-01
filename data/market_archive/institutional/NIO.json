@@ -1,0 +1,100 @@
+{
+  "ticker": "NIO",
+  "downloaded": "2026-03-09T10:01:28.088138",
+  "cik": "0001736541",
+  "company_name": "NIO Inc.",
+  "sic": "3711",
+  "sic_description": "Motor Vehicles & Passenger Car Bodies",
+  "filings_13f": [],
+  "filings_form4": [],
+  "yf_institutional_holders": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Shaw D.E. & Co., Inc.",
+      "pctHeld": 0.0247,
+      "Shares": 48172443,
+      "Value": 232913763,
+      "pctChange": 2.4796
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "UBS Group AG",
+      "pctHeld": 0.0126,
+      "Shares": 24549713,
+      "Value": 118697863,
+      "pctChange": -0.1469
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "BNP Paribas Financial Markets",
+      "pctHeld": 0.0111,
+      "Shares": 21619358,
+      "Value": 104529596,
+      "pctChange": 0.162
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Jane Street Group, LLC",
+      "pctHeld": 0.01,
+      "Shares": 19532583,
+      "Value": 94440039,
+      "pctChange": 0.0156
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0078,
+      "Shares": 15269286,
+      "Value": 73826998,
+      "pctChange": -0.0555
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Goldman Sachs Group Inc",
+      "pctHeld": 0.0074,
+      "Shares": 14367913,
+      "Value": 69468859,
+      "pctChange": 0.5778
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Voloridge Investment Management, LLC",
+      "pctHeld": 0.0069,
+      "Shares": 13498709,
+      "Value": 65266258,
+      "pctChange": 0.1435
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Aspex Management (HK) Ltd",
+      "pctHeld": 0.0068,
+      "Shares": 13141609,
+      "Value": 63539680,
+      "pctChange": -0.62450004
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "WT Asset Management Ltd",
+      "pctHeld": 0.0064999997,
+      "Shares": 12611190,
+      "Value": 60975104,
+      "pctChange": -0.3238
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "JPMORGAN CHASE & CO",
+      "pctHeld": 0.0064999997,
+      "Shares": 12694945,
+      "Value": 61380059,
+      "pctChange": 0.84129995
+    }
+  ],
+  "yf_major_holders": {
+    "Value": {
+      "insidersPercentHeld": 0.02108,
+      "institutionsPercentHeld": 0.14784999,
+      "institutionsFloatPercentHeld": 0.15103,
+      "institutionsCount": 556.0
+    }
+  }
+}

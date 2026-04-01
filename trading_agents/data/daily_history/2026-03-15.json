@@ -1,0 +1,202 @@
+{
+  "date": "2026-03-15",
+  "createdAt": "2026-03-16T00:00:44.274Z",
+  "lastUpdated": "2026-03-16T00:00:44.276Z",
+  "overnight": {
+    "futures": {
+      "S&P 500": {
+        "price": 6651,
+        "change": 0.22603978300180833,
+        "threshold": 0.5,
+        "significant": false
+      },
+      "NASDAQ": {
+        "price": 24458.5,
+        "change": 0.263381739549279,
+        "threshold": 0.7,
+        "significant": false
+      },
+      "Dow Jones": {
+        "price": 46674,
+        "change": 0.17599587912087913,
+        "threshold": 0.5,
+        "significant": false
+      },
+      "Russell 2000": {
+        "price": 2490.1,
+        "change": 0.37083316538352284,
+        "threshold": 0.7,
+        "significant": false
+      },
+      "Crude Oil": {
+        "price": 98.89,
+        "change": 0.1823523452537806,
+        "threshold": 2,
+        "significant": false
+      },
+      "Gold": {
+        "price": 4980,
+        "change": -1.4349332013854528,
+        "threshold": 1,
+        "significant": true
+      },
+      "30Y Bonds": {
+        "price": 113.9375,
+        "change": -0.21893814997263275,
+        "threshold": 0.5,
+        "significant": false
+      }
+    },
+    "globalMarkets": {
+      "Asia": [
+        {
+          "name": "Nikkei (Japan)",
+          "price": 53819.61,
+          "change": 0
+        },
+        {
+          "name": "Hang Seng (HK)",
+          "price": 25465.6,
+          "change": -1.6725125063902668
+        },
+        {
+          "name": "Shanghai (China)",
+          "price": 4095.448,
+          "change": -0.8150680668416409
+        }
+      ],
+      "Europe": [
+        {
+          "name": "FTSE 100 (UK)",
+          "price": 10261.15,
+          "change": -0.8948405416368834
+        },
+        {
+          "name": "DAX (Germany)",
+          "price": 23447.29,
+          "change": -0.8153119941049058
+        },
+        {
+          "name": "CAC 40 (France)",
+          "price": 7911.53,
+          "change": -0.9131510788483583
+        }
+      ]
+    },
+    "crypto": {
+      "Bitcoin": {
+        "price": 72779,
+        "change": 2.196984515638203
+      },
+      "Ethereum": {
+        "price": 2176.6665,
+        "change": 3.815674667278674
+      }
+    },
+    "significantMoves": [
+      {
+        "market": "Gold",
+        "change": -1.4349332013854528,
+        "type": "FUTURES",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "Hang Seng (HK)",
+        "change": -1.6725125063902668,
+        "type": "ASIA",
+        "severity": "MEDIUM"
+      }
+    ],
+    "riskSentiment": "RISK_OFF",
+    "updatedAt": "2026-03-16T00:00:44.275Z"
+  },
+  "preMarket": {
+    "futures": {},
+    "gappers": [],
+    "movers": [],
+    "watchlistAlerts": [],
+    "newsHighlights": [],
+    "updatedAt": null
+  },
+  "market": {
+    "indices": {},
+    "vix": null,
+    "regime": null,
+    "sectorLeaders": [],
+    "sectorLaggards": [],
+    "updatedAt": null
+  },
+  "sentiment": {
+    "overall": null,
+    "trending": [],
+    "socialMomentum": [],
+    "updatedAt": null
+  },
+  "catalysts": {
+    "earningsToday": [],
+    "earningsThisWeek": [],
+    "economicEvents": [],
+    "newsBreaking": [],
+    "updatedAt": null
+  },
+  "technicals": {
+    "oversold": [],
+    "overbought": [],
+    "breakouts": [],
+    "volumeSpikes": [],
+    "updatedAt": null
+  },
+  "optionsFlow": {
+    "unusualActivity": [],
+    "putCallRatio": null,
+    "ivRank": {},
+    "updatedAt": null
+  },
+  "dayWatchlist": [],
+  "swingTrader": {
+    "positions": [],
+    "pendingOrders": [],
+    "signals": [],
+    "account": null,
+    "updatedAt": null
+  },
+  "dayTrader": {
+    "positions": [],
+    "trades": [],
+    "pnlToday": 0,
+    "tradesCount": 0,
+    "account": null,
+    "reasoning": [],
+    "updatedAt": null
+  },
+  "macroAlpha": {
+    "version": null,
+    "predictionDate": null,
+    "generatedAt": null,
+    "freshness": null,
+    "topPicks": [],
+    "bottomPicks": [],
+    "metadata": null,
+    "modelInfo": null,
+    "scores": {},
+    "updatedAt": null
+  },
+  "iasmSignals": {
+    "timestamp": null,
+    "signals": [],
+    "model_metrics": {},
+    "market_context": {},
+    "freshness": null,
+    "updatedAt": null
+  },
+  "failedSetups": [],
+  "agentLog": [
+    {
+      "agent": "overnight",
+      "time": "20:00:44",
+      "timestamp": "2026-03-16T00:00:44.276Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    }
+  ]
+}

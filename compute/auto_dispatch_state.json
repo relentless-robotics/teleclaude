@@ -1,0 +1,36 @@
+{
+  "crash_suspects": {},
+  "last_handled_job": {
+    "neptune": "job_mn8gx3me_6un6"
+  },
+  "completed_jobs": [
+    183,
+    187,
+    191,
+    192,
+    195,
+    197,
+    199,
+    200,
+    201,
+    204,
+    203,
+    206,
+    208,
+    210,
+    213,
+    215,
+    219,
+    221,
+    223,
+    225,
+    227,
+    229,
+    231,
+    239,
+    243
+  ],
+  "total_restarts": 0,
+  "total_dispatches": 3,
+  "started_at": "2026-03-26T19:02:09.264Z"
+}

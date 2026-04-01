@@ -1,0 +1,15 @@
+{
+  "gpu_idle_since": {},
+  "last_training_log_size": {},
+  "last_alert_ts": {
+    "queue_low:uranus": "2026-04-01T23:15:06.237Z",
+    "queue_low:saturn": "2026-03-30T00:53:35.698Z",
+    "gpu_idle:neptune": "2026-04-01T10:44:17.377Z"
+  },
+  "gpu_checks": 1347,
+  "training_checks": 676,
+  "queue_checks": 676,
+  "auto_launches": 0,
+  "auto_restarts": 0,
+  "updated_at": "2026-04-01T23:16:26.545Z"
+}

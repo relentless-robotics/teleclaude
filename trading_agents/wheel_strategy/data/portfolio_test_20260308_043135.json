@@ -1,0 +1,112 @@
+[
+  {
+    "ticker": "AAPL",
+    "return_pct": 3.78,
+    "premium": 4247.82,
+    "sharpe": 1.31,
+    "max_dd": -2.1,
+    "win_rate": 91.7,
+    "cycles": 12,
+    "assignments": 1,
+    "bh_return": 0
+  },
+  {
+    "ticker": "MSFT",
+    "return_pct": -1.79,
+    "premium": 7625.63,
+    "sharpe": -0.22,
+    "max_dd": -12.8,
+    "win_rate": 91.7,
+    "cycles": 12,
+    "assignments": 1,
+    "bh_return": 0
+  },
+  {
+    "ticker": "T",
+    "return_pct": 0.09,
+    "premium": 403.74,
+    "sharpe": 0.13,
+    "max_dd": -0.4,
+    "win_rate": 83.3,
+    "cycles": 12,
+    "assignments": 1,
+    "bh_return": 0
+  },
+  {
+    "ticker": "CVX",
+    "return_pct": 0.95,
+    "premium": 2159.69,
+    "sharpe": 0.41,
+    "max_dd": -1.67,
+    "win_rate": 83.3,
+    "cycles": 12,
+    "assignments": 1,
+    "bh_return": 0
+  },
+  {
+    "ticker": "COST",
+    "return_pct": 13.3,
+    "premium": 12613.01,
+    "sharpe": 1.32,
+    "max_dd": -7.36,
+    "win_rate": 83.3,
+    "cycles": 12,
+    "assignments": 1,
+    "bh_return": 0
+  },
+  {
+    "ticker": "KO",
+    "return_pct": 0.91,
+    "premium": 722.5,
+    "sharpe": 1.58,
+    "max_dd": -0.32,
+    "win_rate": 83.3,
+    "cycles": 12,
+    "assignments": 1,
+    "bh_return": 0
+  },
+  {
+    "ticker": "JNJ",
+    "return_pct": 2.36,
+    "premium": 2072.62,
+    "sharpe": 1.21,
+    "max_dd": -1.06,
+    "win_rate": 83.3,
+    "cycles": 12,
+    "assignments": 1,
+    "bh_return": 0
+  },
+  {
+    "ticker": "META",
+    "return_pct": 19.76,
+    "premium": 15887.56,
+    "sharpe": 1.36,
+    "max_dd": -8.02,
+    "win_rate": 75.0,
+    "cycles": 12,
+    "assignments": 2,
+    "bh_return": 0
+  },
+  {
+    "ticker": "AMZN",
+    "return_pct": 7.91,
+    "premium": 4900.39,
+    "sharpe": 1.5,
+    "max_dd": -2.11,
+    "win_rate": 75.0,
+    "cycles": 12,
+    "assignments": 2,
+    "bh_return": 0
+  },
+  {
+    "ticker": "NEE",
+    "return_pct": 1.45,
+    "premium": 1257.45,
+    "sharpe": 2.27,
+    "max_dd": -0.29,
+    "win_rate": 83.3,
+    "cycles": 12,
+    "assignments": 1,
+    "bh_return": 0
+  }
+]

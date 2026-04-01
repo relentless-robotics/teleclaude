@@ -1,0 +1,323 @@
+================================================================================
+                    SOLUVO LLC — 2025 FEDERAL TAX RETURN
+                         FORM 1065 (U.S. Return of Partnership Income)
+                         Tax Year: January 1 – December 31, 2025
+================================================================================
+                         PREPARED: March 9, 2026
+                         ⚠️  FILING DEADLINE: March 15, 2026
+================================================================================
+
+DISCLAIMER: This was prepared by an AI assistant. Have a CPA or tax
+professional review before filing. For a zero-revenue LLC with ~$1,234 in
+expenses, this is very straightforward but professional review is recommended.
+
+================================================================================
+                              FORM 1065 — PAGE 1
+================================================================================
+
+HEADER INFORMATION:
+  A  Tax year beginning:           01/01/2025    Ending: 12/31/2025
+  B  Principal business activity:  Manufacturing (Crafts/3D Printing)
+  C  Principal product/service:    Handmade goods, 3D printed items
+  D  Business code (NAICS):        339999 (All Other Misc. Manufacturing)
+  E  Employer ID Number (EIN):     39-2788370
+  F  Date business started:        05/05/2025
+  G  Total assets at end of year:  $1,234 (approximate, in supplies/inventory)
+
+  Name:     SOLUVO
+  Address:  17606 79TH CT N
+  City:     LOXAHATCHEE       State: FL      ZIP: 33470
+
+  H  Check applicable boxes:
+     [X] Initial return (first year of filing)
+     [ ] Final return
+     [ ] Name change
+     [ ] Address change
+     [ ] Amended return
+
+  I  Number of Schedules K-1 attached: 2
+
+  J  Check if partnership:
+     [X] Domestic limited liability company
+
+--------------------------------------------------------------------------------
+INCOME
+--------------------------------------------------------------------------------
+  Line  1a  Gross receipts or sales ................... $        0
+  Line  1b  Returns and allowances .................... $        0
+  Line  1c  Balance (1a minus 1b) ..................... $        0
+  Line   2  Cost of goods sold (Schedule A) ........... $        0
+  Line   3  Gross profit (1c minus 2) ................. $        0
+  Line   4  Ordinary income from other partnerships ... $        0
+  Line   5  Net farm profit (loss) .................... $        0
+  Line   6  Net gain (loss) Form 4797 ................. $        0
+  Line   7  Other income (loss) ....................... $        0
+  Line   8  TOTAL INCOME (LOSS) ....................... $        0
+
+--------------------------------------------------------------------------------
+DEDUCTIONS
+--------------------------------------------------------------------------------
+  Line   9  Salaries & wages .......................... $        0
+  Line  10  Guaranteed payments to partners ........... $        0
+  Line  11  Repairs and maintenance ................... $        0
+  Line  12  Bad debts ................................. $        0
+  Line  13  Rent ...................................... $        0
+  Line  14  Taxes and licenses ........................ $        0
+  Line  15  Interest .................................. $        0
+  Line  16a Depreciation .............................. $        0
+  Line  17  Depletion ................................. $        0
+  Line  18  Retirement plans .......................... $        0
+  Line  19  Employee benefit programs ................. $        0
+  Line  20  Other deductions (see attached) ........... $    1,234
+  Line  21  TOTAL DEDUCTIONS .......................... $    1,234
+  Line  22  ORDINARY BUSINESS INCOME (LOSS)
+            (Line 8 minus Line 21) .................... $   (1,234)
+
+  → This is a NET LOSS of $1,234.15 which passes through to partners.
+
+--------------------------------------------------------------------------------
+LINE 20 — OTHER DEDUCTIONS (Itemized Statement)
+--------------------------------------------------------------------------------
+
+  SUPPLIES & MATERIALS:                                        $    1,005.44
+    - 3D Printer Filament (Bambu, 10 rolls) .......... $  175.15
+    - 3D Printer Filament (Amazon, 3 rolls) ........... $   60.69
+    - 3D Printer Filament (Amazon, 5 rolls) ........... $   80.44
+    - Plants & super glue (Home Depot) ................ $   48.99
+    - Baltic birch & lumber (Rockler Wood) ............ $   22.45
+    - Acrylic sheets, cut to order (Laird Plastics) ... $  318.44
+    - Pots, metal wire, glue (Home Depot) ............. $  115.50
+    - Pot chains, 250 units (Alibaba) ................. $  183.78
+
+  ORGANIZATIONAL/FILING COSTS:                                 $      160.00
+    - Florida LLC filing fee (SunBiz) ................. $  160.00
+    (Deductible under IRC §709 — under $5,000 threshold,
+     fully deductible in first year)
+
+  SELLING EXPENSES:                                            $       30.00
+    - Etsy marketplace signup fee ..................... $   30.00
+
+  TRANSPORTATION:                                              $       38.71
+    - Gas — pickup of 3D printers, South FL ........... $   38.71
+    (Business use of personal vehicle — actual expense method)
+
+  ─────────────────────────────────────────────────────────────────
+  TOTAL OTHER DEDUCTIONS (Line 20):                            $    1,234.15
+  ─────────────────────────────────────────────────────────────────
+
+--------------------------------------------------------------------------------
+SIGNATURE SECTION
+--------------------------------------------------------------------------------
+  Sign here:  ________________________________  Date: ___________
+              Nicholas Joel Liautaud, Member-Manager
+
+  Paid preparer: [ ] Self-prepared
+
+================================================================================
+                         SCHEDULE B — OTHER INFORMATION
+================================================================================
+
+  1  Partnership type: Domestic LLC (default partnership classification)
+  2  Partnership is NOT a publicly traded partnership
+  3  Partnership is NOT a tax shelter
+  4  Any foreign partners?  NO
+  5  Is this a Sec. 761(a) election?  NO
+  6  Total partners at end of tax year: 2
+  7  Are all partners domestic?  YES
+  8  Does the partnership meet ALL of the following?
+     a. Total receipts < $250,000?  YES ($0)
+     b. Total assets < $1,000,000?  YES (~$1,234)
+     c. K-1s filed on time?  YES
+     → If YES to all: Schedule L, M-1, M-2 are NOT REQUIRED ✓
+
+================================================================================
+                    SCHEDULE K — PARTNERS' DISTRIBUTIVE SHARE
+================================================================================
+
+  Line  1   Ordinary business income (loss) .......... $   (1,234)
+  Lines 2-12  (All other items) ...................... $        0
+  Line 18a  Tax-exempt income ........................ $        0
+  Line 18b  Nondeductible expenses .................. $        0
+  Line 21   Total income (loss) ...................... $   (1,234)
+
+  ANALYSIS OF NET INCOME (LOSS):
+  (Split based on each partner's capital contributions)
+
+                                    Income (Loss)    Ownership %
+  a. Nicholas Joel Liautaud          $    (796)        64.5%
+  b. William Swann                   $    (438)        35.5%
+     TOTAL                           $  (1,234)        100%
+
+================================================================================
+                    SCHEDULE K-1 (FORM 1065) — PARTNER #1
+                    NICHOLAS JOEL LIAUTAUD
+================================================================================
+
+  PART I — INFORMATION ABOUT THE PARTNERSHIP
+    A  Partnership's EIN:            39-2788370
+    B  Partnership's name:           SOLUVO
+       Address:                      17606 79TH CT N
+                                     LOXAHATCHEE, FL 33470
+    C  IRS Center:                   Ogden, UT (for FL partnerships)
+    D  [X] Check if this is a publicly traded partnership: NO
+
+  PART II — INFORMATION ABOUT THE PARTNER
+    E  Partner's SSN:                XXX-XX-XXXX (Nick fills in his SSN)
+    F  Partner's name:               NICHOLAS JOEL LIAUTAUD
+       Address:                      17606 79TH CT N
+                                     LOXAHATCHEE, FL 33470
+    G  [X] General partner or LLC member-manager
+    H  [X] Domestic partner
+    I1 What type of entity?          Individual
+    I2 If retired partner, date:     N/A
+    J  Partner's share of profit, loss, and capital:
+                                     Beginning    Ending
+       Profit                          64.5%       64.5%
+       Loss                            64.5%       64.5%
+       Capital                         64.5%       64.5%
+    K  Partner's share of liabilities:
+       Nonrecourse:                  $    0
+       Qualified nonrecourse:        $    0
+       Other:                        $    0
+    L  Partner's capital account:
+       Beginning capital:            $    0
+       Current year increase:        $  796   (capital contributions from personal cards)
+       Current year decrease:        $ (796)  (share of loss)
+       Withdrawals:                  $    0
+       Ending capital:               $    0
+       Tax basis method:             [X] Tax basis
+
+  PART III — PARTNER'S SHARE OF CURRENT YEAR INCOME, DEDUCTIONS, ETC.
+    Line  1  Ordinary business income (loss) ......... $    (796)
+    Lines 2-20  (all other items) .................... $       0
+
+  → Nick reports $(796) loss on Schedule E, Part II of his Form 1040.
+    This loss offsets other income (W-2, etc.) dollar for dollar,
+    subject to passive activity and at-risk rules.
+
+  NOTE ON PASSIVE ACTIVITY:
+    If Nick materially participated in the business (worked >100 hours
+    or it was his principal activity), the loss is NOT passive and
+    fully deductible against ordinary income. Given he's a member-manager
+    who purchased materials and set up the business, this likely qualifies.
+
+================================================================================
+                    SCHEDULE K-1 (FORM 1065) — PARTNER #2
+                    WILLIAM SWANN
+================================================================================
+
+  PART I — INFORMATION ABOUT THE PARTNERSHIP
+    A  Partnership's EIN:            39-2788370
+    B  Partnership's name:           SOLUVO
+       Address:                      17606 79TH CT N
+                                     LOXAHATCHEE, FL 33470
+    C  IRS Center:                   Ogden, UT
+    D  [X] Check if this is a publicly traded partnership: NO
+
+  PART II — INFORMATION ABOUT THE PARTNER
+    E  Partner's SSN:                XXX-XX-XXXX (William fills in his SSN)
+    F  Partner's name:               WILLIAM SWANN
+       Address:                      ________________________________
+                                     ________________________________
+                                     (William's home address needed here)
+    G  [X] General partner or LLC member
+    H  [X] Domestic partner
+    I1 What type of entity?          Individual
+    J  Partner's share of profit, loss, and capital:
+                                     Beginning    Ending
+       Profit                          35.5%       35.5%
+       Loss                            35.5%       35.5%
+       Capital                         35.5%       35.5%
+    K  Partner's share of liabilities:
+       Nonrecourse:                  $    0
+       Qualified nonrecourse:        $    0
+       Other:                        $    0
+    L  Partner's capital account:
+       Beginning capital:            $    0
+       Current year increase:        $  438   (capital contributions from personal cards)
+       Current year decrease:        $ (438)  (share of loss)
+       Withdrawals:                  $    0
+       Ending capital:               $    0
+       Tax basis method:             [X] Tax basis
+
+  PART III — PARTNER'S SHARE OF CURRENT YEAR INCOME, DEDUCTIONS, ETC.
+    Line  1  Ordinary business income (loss) ......... $    (438)
+    Lines 2-20  (all other items) .................... $       0
+
+  → William reports $(438) loss on Schedule E, Part II of his Form 1040.
+
+================================================================================
+                         FILING INSTRUCTIONS
+================================================================================
+
+  WHAT TO FILE:
+    1. Form 1065 (2 pages)
+    2. Schedule K (page 4-5 of Form 1065)
+    3. Schedule K-1 × 2 (one for each partner)
+    4. Statement for Line 20 (Other Deductions breakdown)
+    — Schedule L, M-1, M-2 are NOT required (under $250K receipts + assets)
+
+  WHERE TO FILE (paper):
+    Department of the Treasury
+    Internal Revenue Service
+    Ogden, UT 84201-0011
+    (For FL partnerships with no payment enclosed)
+
+  DEADLINE: March 15, 2026 (or file Form 7004 for automatic 6-month extension)
+
+  E-FILE OPTIONS (FREE or cheap):
+    - FreeTaxUSA Business ($49.95) — easiest for simple 1065
+    - TaxAct Business ($109.95)
+    - TurboTax Business ($169)
+    - Or file paper forms — download from irs.gov/forms-pubs
+
+  FLORIDA STATE FILING:
+    Florida does NOT have a state income tax, so NO state partnership
+    return is required. You're done with just the federal filing.
+
+  WHAT EACH PARTNER DOES WITH THEIR K-1:
+    - Each partner attaches their K-1 to their personal Form 1040
+    - Report the $(617) loss on Schedule E, Part II, line 32
+    - This reduces your personal taxable income by $617
+    - At a ~22% marginal tax rate, that's ~$136 tax savings each
+
+  IF YOU NEED AN EXTENSION:
+    File Form 7004 by March 15, 2026
+    This gives you until September 15, 2026
+    Form 7004 is a one-page form — just EIN, name, address, check box 09 (Form 1065)
+    E-file free at irs.gov Free File
+
+================================================================================
+                         NOTES & CONSIDERATIONS
+================================================================================
+
+  1. CAPITAL CONTRIBUTIONS: The expenses were paid from personal cards
+     (Nick's Capitol One Savor/Venture X, Billy's Robinhood card). These
+     are treated as capital contributions to the partnership. Each partner
+     contributed the amounts they personally paid:
+       Nick's contributions:  $160 + $60.69 + $80.44 + $38.71 + $22.45
+                              + $318.44 + $115.50 = $796.23
+       Billy's contributions: $175.15 + $48.99 + $30 + $183.78 = $437.92
+
+     The loss is split proportionally to contributions (64.5% / 35.5%),
+     so each partner writes off exactly what they spent:
+       Nick's loss:   $796.23 → ~$175 tax savings (at ~22% rate)
+       Billy's loss:  $437.92 → ~$96 tax savings (at ~22% rate)
+
+  2. INVENTORY: If any of the purchased materials (filament, acrylic,
+     chains, etc.) are still unsold/unused at year end, technically they
+     should be inventory, not expensed. However, for a small business
+     under $25M revenue, you can use the cash method and expense supplies
+     when purchased (IRC §471(c)). Recommended: expense everything.
+
+  3. SELF-EMPLOYMENT TAX: Since the partnership had a LOSS, there is
+     NO self-employment tax for either partner. SE tax only applies
+     to partnership income, not losses.
+
+  4. YOUR SPREADSHEET TOTAL: The sheet shows $1,050.37 but that appears
+     to exclude the Alibaba order ($183.78). True total of all 11 items
+     is $1,234.15. I included all items in the return.
+
+================================================================================
+                         END OF TAX RETURN PREPARATION
+================================================================================

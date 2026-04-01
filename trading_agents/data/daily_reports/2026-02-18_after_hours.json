@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-02-18T21:30:22.876Z",
+  "date": "2026-02-18",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90401.21,
+    "dailyPL": 57.29000000000815,
+    "dailyPLPct": 0.06341323245660377,
+    "cash": 90401.21,
+    "buyingPower": 348414.94,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Feb 10-13 represents a catastrophic 4-day losing streak (-$10,382) — this suggests no hard daily loss limit was enforced or respected.",
+      "AVOID: Win rate of 37.9% over 29 trades is a structural problem, not a variance problem — the system or trade selection criteria needs reassessment.",
+      "AVOID: Losses of -$4,757 and -$2,870 on single days indicate position sizing is not being scaled to account risk properly.",
+      "AVOID: Multiple days show 0 day trades but the data still logs them — ensure your tracking is capturing all activity accurately, including swing account moves."
+    ],
+    "tomorrowRules": [
+      "Before placing any trade, confirm market regime is TRENDING or clearly directional — do NOT trade NEUTRAL or CHOPPY opens without a specific, pre-defined setup trigger.",
+      "Set a hard daily loss limit of $500 max for tomorrow. If hit, close the platform. No exceptions — the Feb 10-13 data shows what happens without this rule.",
+      "Only take trades that match the Feb 6 setup profile — high-conviction, regime-aligned, with defined entry and target before execution.",
+      "If you take a loss on the first trade, reduce size by 50% for the remainder of the session — do not size up to recover.",
+      "Log the specific reason for every trade entry in real time — if you cannot articulate the edge in one sentence before entry, do not take the trade."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades executed today in a NEUTRAL market regime — this is disciplined capital preservation, not inaction. The $57.29 P&L gain in the day trade account with zero trades suggests unrealized position movement or fees/adjustments. Sitting out on a low-conviction day is correct behavior. However, the broader cumulative picture (37.9% win rate, -$10k+ in losses from Feb 10-13) demands attention and pulls the grade below A.",
+    "keyLessons": [
+      "Staying flat on a NEUTRAL market day is a valid and profitable strategy — you avoided unnecessary risk when edge was unclear.",
+      "Your cumulative win rate of 37.9% is below the 50% threshold needed without a strong R:R ratio advantage — audit your average winner vs. average loser immediately.",
+      "Feb 10-13 produced -$10,382 across 7 trades — identify whether those losses share a common setup, time of day, or market condition so you can create a hard filter.",
+      "Feb 6 produced +$20,632 in 8 trades — reverse-engineer that day. What conditions were present? That setup profile should be your primary target going forward.",
+      "You have 29 total trades with 18 losses — your system is currently losing more often than it wins, which means your winners MUST be significantly larger than your losers to stay profitable long-term."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Correctly identified today's NEUTRAL regime and chose not to force trades — capital preservation executed properly.",
+        "Coming off a green day on Feb 17 (+$224) without overtrading into Feb 18 shows you are not chasing momentum blindly.",
+        "Current streak is green — you are not in a revenge-trading spiral despite the brutal Feb 10-13 drawdown."
+      ],
+      "badPatterns": [
+        "Feb 10-13 represents a catastrophic 4-day losing streak (-$10,382) — this suggests no hard daily loss limit was enforced or respected.",
+        "Win rate of 37.9% over 29 trades is a structural problem, not a variance problem — the system or trade selection criteria needs reassessment.",
+        "Losses of -$4,757 and -$2,870 on single days indicate position sizing is not being scaled to account risk properly.",
+        "Multiple days show 0 day trades but the data still logs them — ensure your tracking is capturing all activity accurately, including swing account moves."
+      ]
+    },
+    "tomorrowRules": [
+      "Before placing any trade, confirm market regime is TRENDING or clearly directional — do NOT trade NEUTRAL or CHOPPY opens without a specific, pre-defined setup trigger.",
+      "Set a hard daily loss limit of $500 max for tomorrow. If hit, close the platform. No exceptions — the Feb 10-13 data shows what happens without this rule.",
+      "Only take trades that match the Feb 6 setup profile — high-conviction, regime-aligned, with defined entry and target before execution.",
+      "If you take a loss on the first trade, reduce size by 50% for the remainder of the session — do not size up to recover.",
+      "Log the specific reason for every trade entry in real time — if you cannot articulate the edge in one sentence before entry, do not take the trade."
+    ],
+    "riskAssessment": "Today's risk management was good by omission — no trades meant no exposure in a low-edge environment. However, the cumulative data reveals a serious risk management failure in prior weeks. Losses of -$4,757 and -$2,870 on individual days indicate either no stop losses, stops too wide, or position sizing that does not account for account equity percentage. With $90k equity, a single-day loss of -$4,757 represents a 5.3% drawdown — far beyond acceptable 1-2% daily risk thresholds for a disciplined trader.",
+    "emotionalCheck": "No direct evidence of revenge trading or FOMO today — flat day in flat market shows restraint. However, the Feb 10-13 sequence is a red flag: four consecutive losing days with escalating losses suggests emotional escalation (doubling down or revenge trading) rather than systematic stop-outs. Watch carefully tomorrow — coming off a winning day can create overconfidence bias. The prior losing streak may also create an urge to 'make it back quickly.' Stay process-focused, not P&L-focused."
+  },
+  "errors": []
+}

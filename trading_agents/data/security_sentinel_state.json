@@ -1,0 +1,538 @@
+{
+  "lastRun": "2026-04-01T23:07:05.415Z",
+  "lastFullScan": "2026-04-01T23:07:05.415Z",
+  "securityScore": 0,
+  "activeAlerts": [
+    {
+      "id": "credential_in_recent_file_compute\\ecosystem.config.js_1775084825415",
+      "type": "credential_in_recent_file",
+      "severity": "WARNING",
+      "detail": "Hardcoded API key",
+      "file": "compute\\ecosystem.config.js",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "credential_in_recent_file_qcc\\orchestrator.js_1775084825415",
+      "type": "credential_in_recent_file",
+      "severity": "WARNING",
+      "detail": "Hardcoded password",
+      "file": "qcc\\orchestrator.js",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "credential_in_recent_file_trading_agents\\data\\security_sentinel_state.json_1775084825415",
+      "type": "credential_in_recent_file",
+      "severity": "WARNING",
+      "detail": "Bearer token",
+      "file": "trading_agents\\data\\security_sentinel_state.json",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_utils/credentials.js_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "utils/credentials.js",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_final_get_secret.js_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "final_get_secret.js",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_find_secret_element.js_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "find_secret_element.js",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_get_github_secret.js_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "get_github_secret.js",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_get_secret_with_pause.js_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "get_secret_with_pause.js",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_github_oauth_credentials.json_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "github_oauth_credentials.json",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_manual_get_secret.js_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "manual_get_secret.js",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_password-cli.js_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "password-cli.js",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_screenshots/page_with_secret.txt_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "screenshots/page_with_secret.txt",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_secrets/.salt_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "secrets/.salt",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_secrets/passwords.enc_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "secrets/passwords.enc",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_secure/teleclaude_passwords.kdbx_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "secure/teleclaude_passwords.kdbx",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_utils/credentials.js_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "utils/credentials.js",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "sensitive_file_in_history_utils/password_manager.js_1775084825415",
+      "type": "sensitive_file_in_history",
+      "severity": "WARNING",
+      "detail": "Potentially sensitive file in recent git history",
+      "file": "utils/password_manager.js",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "env_not_gitignored_dashboard-app\\.env.local_1775084825415",
+      "type": "env_not_gitignored",
+      "severity": "WARNING",
+      "detail": ".env file not covered by .gitignore",
+      "file": "dashboard-app\\.env.local",
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    },
+    {
+      "id": "unexpected_listener_unknown_1775084825415",
+      "type": "unexpected_listener",
+      "severity": "WARNING",
+      "detail": "Unexpected listener on port 22: TCP    127.0.0.1:22           0.0.0.0:0              LISTENING",
+      "file": null,
+      "firstSeen": "2026-04-01T23:07:05.415Z",
+      "lastSeen": "2026-04-01T23:07:05.415Z"
+    }
+  ],
+  "suppressedAlerts": [],
+  "scanHistory": [
+    {
+      "timestamp": "2026-03-30T20:02:35.036Z",
+      "severity": "WARNING",
+      "findingsCount": 26,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-30T21:02:33.261Z",
+      "severity": "WARNING",
+      "findingsCount": 26,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-30T22:02:32.905Z",
+      "severity": "WARNING",
+      "findingsCount": 26,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-30T23:02:35.254Z",
+      "severity": "WARNING",
+      "findingsCount": 24,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T00:02:34.425Z",
+      "severity": "WARNING",
+      "findingsCount": 24,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T01:02:38.464Z",
+      "severity": "WARNING",
+      "findingsCount": 24,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T02:02:37.628Z",
+      "severity": "WARNING",
+      "findingsCount": 24,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T02:16:51.363Z",
+      "severity": "WARNING",
+      "findingsCount": 24,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T03:01:58.020Z",
+      "severity": "WARNING",
+      "findingsCount": 24,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T04:01:47.602Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T05:01:52.377Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T06:01:48.571Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T07:01:47.630Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T08:01:49.763Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T09:01:53.540Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T10:01:52.247Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T11:01:51.754Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T12:01:50.375Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T13:01:53.513Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T14:01:55.880Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T15:01:59.918Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T16:01:50.538Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T17:01:50.855Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T18:01:58.371Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T19:02:01.907Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T20:01:50.689Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T21:01:53.542Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T22:01:55.461Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-03-31T23:01:52.027Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T00:01:51.205Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T01:01:50.730Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T02:01:49.042Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T03:01:51.404Z",
+      "severity": "WARNING",
+      "findingsCount": 22,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T04:01:56.905Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T05:01:52.021Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T06:01:53.755Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T07:01:56.459Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T08:02:01.712Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T09:01:52.210Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T10:01:55.440Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T11:01:54.552Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T12:01:54.126Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T13:01:58.344Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T13:31:19.211Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T14:01:13.454Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T15:01:18.975Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T16:01:17.059Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T20:39:07.368Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T21:04:19.325Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T22:05:22.841Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    },
+    {
+      "timestamp": "2026-04-01T23:05:23.097Z",
+      "severity": "WARNING",
+      "findingsCount": 23,
+      "score": 0,
+      "errors": 0
+    }
+  ]
+}

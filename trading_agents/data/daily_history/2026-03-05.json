@@ -1,0 +1,5829 @@
+{
+  "date": "2026-03-05",
+  "createdAt": "2026-03-05T05:00:10.808Z",
+  "lastUpdated": "2026-03-06T04:00:14.279Z",
+  "overnight": {
+    "futures": {
+      "S&P 500": {
+        "price": 6844.75,
+        "change": -0.45447934845840604,
+        "threshold": 0.5,
+        "significant": false
+      },
+      "NASDAQ": {
+        "price": 25098.75,
+        "change": -0.11739774954483499,
+        "threshold": 0.7,
+        "significant": false
+      },
+      "Dow Jones": {
+        "price": 48082,
+        "change": -1.4632346913681449,
+        "threshold": 0.5,
+        "significant": true
+      },
+      "Russell 2000": {
+        "price": 2598.7,
+        "change": -1.4748255990294243,
+        "threshold": 0.7,
+        "significant": true
+      },
+      "Crude Oil": {
+        "price": 80.03,
+        "change": 7.192606482721678,
+        "threshold": 2,
+        "significant": true
+      },
+      "Gold": {
+        "price": 5141.1,
+        "change": 0.4081871801882846,
+        "threshold": 1,
+        "significant": false
+      },
+      "30Y Bonds": {
+        "price": 116.25,
+        "change": -1.0375099760574622,
+        "threshold": 0.5,
+        "significant": true
+      }
+    },
+    "globalMarkets": {
+      "Asia": [
+        {
+          "name": "Nikkei (Japan)",
+          "price": 55354.21,
+          "change": 0.13775809064211272
+        },
+        {
+          "name": "Hang Seng (HK)",
+          "price": 25794.29,
+          "change": 2.1577078022993
+        },
+        {
+          "name": "Shanghai (China)",
+          "price": 4118.683,
+          "change": 0.24621723340522342
+        }
+      ],
+      "Europe": [
+        {
+          "name": "FTSE 100 (UK)",
+          "price": 10413.94,
+          "change": -0.6692038420083731
+        },
+        {
+          "name": "DAX (Germany)",
+          "price": 23815.75,
+          "change": 0.10550363272965868
+        },
+        {
+          "name": "CAC 40 (France)",
+          "price": 8045.8,
+          "change": -1.4928260361201875
+        }
+      ]
+    },
+    "crypto": {
+      "Bitcoin": {
+        "price": 71074.914,
+        "change": 0.2768872887833952
+      },
+      "Ethereum": {
+        "price": 2081.551,
+        "change": 0.4206807018999522
+      }
+    },
+    "significantMoves": [
+      {
+        "market": "Dow Jones",
+        "change": -1.4632346913681449,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Russell 2000",
+        "change": -1.4748255990294243,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Crude Oil",
+        "change": 7.192606482721678,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "30Y Bonds",
+        "change": -1.0375099760574622,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Hang Seng (HK)",
+        "change": 2.1577078022993,
+        "type": "ASIA",
+        "severity": "MEDIUM"
+      }
+    ],
+    "riskSentiment": "RISK_OFF",
+    "updatedAt": "2026-03-06T04:00:14.279Z"
+  },
+  "preMarket": {
+    "futures": {
+      "S&P 500": {
+        "price": 6843.5,
+        "change": -0.4726585223967423,
+        "direction": "down"
+      },
+      "NASDAQ": {
+        "price": 24990.25,
+        "change": -0.5491826927860077,
+        "direction": "down"
+      },
+      "Dow Jones": {
+        "price": 48427,
+        "change": -0.756209525370932,
+        "direction": "down"
+      },
+      "Russell 2000": {
+        "price": 2608.2,
+        "change": -1.114649681528666,
+        "direction": "down"
+      }
+    },
+    "gappers": [
+      {
+        "symbol": "CRDO",
+        "change": -10.22587988093153,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "FOA",
+        "change": -4.647519582245415,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "CCJ",
+        "change": -4.374105296643868,
+        "direction": "DOWN"
+      }
+    ],
+    "movers": [
+      {
+        "symbol": "CRDO",
+        "price": 102.54,
+        "change": -10.22587988093153
+      },
+      {
+        "symbol": "FOA",
+        "price": 18.26,
+        "change": -4.647519582245415
+      },
+      {
+        "symbol": "CCJ",
+        "price": 120.24,
+        "change": -4.374105296643868
+      },
+      {
+        "symbol": "MU",
+        "price": 400.77,
+        "change": -2.8836600673661845
+      },
+      {
+        "symbol": "SMCI",
+        "price": 32.65,
+        "change": 2.5761859880615785
+      },
+      {
+        "symbol": "ANF",
+        "price": 95.65,
+        "change": -2.248339294839028
+      }
+    ],
+    "watchlistAlerts": [
+      {
+        "symbol": "CRDO",
+        "action": "GAP_DOWN",
+        "change": -10.22587988093153,
+        "note": "Pre-market gap down of -10.2%"
+      }
+    ],
+    "newsHighlights": [],
+    "updatedAt": "2026-03-05T14:15:18.681Z"
+  },
+  "market": {
+    "indices": {
+      "SPY": {
+        "symbol": "SPY",
+        "price": 681.125,
+        "prevClose": 689.3,
+        "change": 681.125,
+        "changePct": null,
+        "volume": 85116657,
+        "high": 685.530029296875,
+        "low": 675.6099853515625,
+        "fiftyTwoHigh": 697.84,
+        "fiftyTwoLow": 481.8,
+        "open": 682.0800170898438
+      }
+    },
+    "vix": 23.72,
+    "regime": "RISK_ON",
+    "sectorLeaders": [
+      "XLK (Technology) 1.02%",
+      "XLE (Energy) 1.00%",
+      "XLC (Communications) 0.33%",
+      "XLY (Consumer Disc) -0.27%",
+      "XLF (Financials) -0.39%"
+    ],
+    "sectorLaggards": [
+      "XLP (Consumer Staples) -5.11%",
+      "XLB (Materials) -4.83%",
+      "XLV (Healthcare) -3.93%",
+      "GLD (Gold) -3.64%",
+      "XLI (Industrials) -2.87%"
+    ],
+    "updatedAt": "2026-03-05T22:00:22.069Z",
+    "volRegime": {
+      "regime": "NEUTRAL",
+      "confidence": 0.3,
+      "since": null,
+      "signals": {
+        "vix": 24.23,
+        "vixChange": 0,
+        "vix5dAvg": 22.05,
+        "vix20dAvg": 20.148000144958495,
+        "vixPercentile": 100,
+        "spyPrice": 679.25,
+        "spyChange": 0,
+        "spy5dReturn": -1.4536426336196664,
+        "spy20dReturn": 0,
+        "qqqChange": 0
+      }
+    }
+  },
+  "sentiment": {
+    "overall": null,
+    "trending": [],
+    "socialMomentum": [
+      {
+        "symbol": "SPY",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "NVDA",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "MSFT",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "QQQ",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "TSLA",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "AMZN",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "ASTS",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "DTE",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "MU",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "TTD",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "RDDT",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "GOOG",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "MRVL",
+        "score": 2,
+        "source": "StockTwits"
+      },
+      {
+        "symbol": "RUM",
+        "score": 2,
+        "source": "StockTwits"
+      },
+      {
+        "symbol": "VG",
+        "score": 2,
+        "source": "StockTwits"
+      }
+    ],
+    "updatedAt": "2026-03-05T22:00:22.071Z"
+  },
+  "catalysts": {
+    "earningsToday": [],
+    "earningsThisWeek": [],
+    "economicEvents": [],
+    "newsBreaking": [
+      {
+        "headline": "Credo (CRDO) Soars 12% on Earnings Blowout; Poised to Triple FY26 Revenues",
+        "url": "/news/331726/credo-crdo-soars-12-on-earnings-blowout-poised-to-triple-fy26-revenues",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:08.328Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Credo Shares Jump 10% as Broadcom Backs Copper Over Optical Tech",
+        "url": "https://finance.yahoo.com/news/credo-shares-jump-10-broadcom-200029682.html",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:08.328Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Earnings Estimates Rising for Credo Technology Group (CRDO): Will It Gain?",
+        "url": "/news/331308/earnings-estimates-rising-for-credo-technology-group-crdo-will-it-gain",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:08.328Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Wall Street Analysts See a 95.05% Upside in Credo Technology Group (CRDO): Can the Stock Really Move This High?",
+        "url": "/news/331047/wall-street-analysts-see-a-9505-upside-in-credo-technology-group-crdo-can-the-stock-really-move-this-high",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:08.328Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Credo Technology Leans on Inorganic Push to Strengthen AI Edge",
+        "url": "/news/330882/credo-technology-leans-on-inorganic-push-to-strengthen-ai-edge",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:08.328Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Broadcom well placed for 'generational' AI investment, CIO says",
+        "url": "https://finance.yahoo.com/video/broadcom-well-placed-generational-ai-021549075.html",
+        "symbol": "AVGO",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:09.300Z",
+        "symbols": [
+          "AVGO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Oil Prices Fall After Latest Spike, Dow Jones Futures Rise; Broadcom, Nvidia In Focus",
+        "url": "https://finance.yahoo.com/m/103238a9-fa23-3913-9385-d5807c83cd2f/oil-prices-fall-after-latest.html",
+        "symbol": "AVGO",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:09.300Z",
+        "symbols": [
+          "AVGO",
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Buy Broadcom Stock After AI Fuels Record Q1 Sales &amp; Positive Guidance?",
+        "url": "/news/331735/buy-broadcom-stock-after-ai-fuels-record-q1-sales-positive-guidance",
+        "symbol": "AVGO",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:09.300Z",
+        "symbols": [
+          "AVGO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Earnings live: Marvell stock surges after hours, Costco sinks after earnings beat",
+        "url": "https://finance.yahoo.com/news/live/earnings-live-marvell-stock-surges-after-hours-costco-sinks-after-earnings-beat-220732797.html",
+        "symbol": "AVGO",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:09.300Z",
+        "symbols": [
+          "AVGO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Dow Jones Futures: Stock Market Skids On Surging Oil Prices, Pare Losses As Broadcom, Nvidia Rise",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-broadcom-nvidia-jobs-report?mod=IBD_FV",
+        "symbol": "AVGO",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:09.300Z",
+        "symbols": [
+          "AVGO",
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Energy Stocks Are Flashing A Signal Markets Haven't Seen Since The 2022 Oil Crisis",
+        "url": "/news/331373/energy-stocks-are-flashing-a-signal-markets-havent-seen-since-the-2022-oil-crisis",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:10.058Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "ETF Path To 401(k) Millionaire: How Index ETFs Can Power Retirement Wealth During Volatility",
+        "url": "/news/331366/etf-path-to-401k-millionaire-how-index-etfs-can-power-retirement-wealth-during-volatility",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:10.058Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "The Top High Yield ETFs Every Retiree Should Own",
+        "url": "https://finance.yahoo.com/m/6c7c0b93-95d1-39f9-b6b5-146dc3ad3227/the-top-high-yield-etfs-every.html",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:10.058Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "These stocks are set for high-stakes earnings moves. Here's your trading playbook.",
+        "url": "https://www.marketwatch.com/story/these-stocks-are-set-for-high-stakes-earnings-moves-heres-your-trading-playbook-7351d705?mod=mw_FV",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:10.058Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Buy the Dip in These Top-Ranked ETFs",
+        "url": "/news/331280/buy-the-dip-in-these-top-ranked-etfs",
+        "symbol": "SPY",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:10.058Z",
+        "symbols": [
+          "SPY"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Marvell Technology Q4 Earnings Call Highlights",
+        "url": "https://finance.yahoo.com/m/c570d516-6611-356e-abcd-5a3e01dbce73/marvell-technology-q4.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:10.829Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Anthropic CEO Dario Amodei Says 'No Choice' But To Challenge US Government In Court After Claude Provider Labeled 'Supply Chain Risk'",
+        "url": "/news/331736/anthropic-ceo-dario-amodei-says-no-choice-but-to-challenge-us-government-in-court-after-claude-provider-labeled-supply-chain-risk",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:10.829Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Apples latest product is a game-changer",
+        "url": "https://finance.yahoo.com/m/9236b6c7-319e-3019-bf89-047f57e08d36/apple%E2%80%99s-latest-product-is-a.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:10.829Z",
+        "symbols": [
+          "MSFT",
+          "AAPL"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Analyst Report: NetEase, Inc.",
+        "url": "https://finance.yahoo.com/m/fd021325-5c70-387b-9609-a9d9c431aae0/analyst-report%3A-netease%2C-inc..html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:10.829Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Microsoft (MSFT) Gains As Market Dips: What You Should Know",
+        "url": "/news/331656/microsoft-msft-gains-as-market-dips-what-you-should-know",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:10.829Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Trump Admin Weighs New Export Rules That Ties Chip Purchase From Likes Of Nvidia, AMD To Investments In US Data Centers: Report",
+        "url": "/news/331759/trump-admin-weighs-new-export-rules-that-ties-chip-purchase-from-likes-of-nvidia-amd-to-investments-in-us-data-centers-report",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:11.583Z",
+        "symbols": [
+          "NVDA",
+          "AMD"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Foxconn says Iran conflict having limited impact so far",
+        "url": "https://finance.yahoo.com/news/foxconn-says-iran-conflict-having-030345801.html",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:11.583Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "US Considers Requiring Permits for Nvidia, AMD Global AI Chip Sales",
+        "url": "https://finance.yahoo.com/news/us-mulls-requiring-permits-global-174126617.html",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:11.583Z",
+        "symbols": [
+          "NVDA",
+          "AMD"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "U.S. considers global licensing regime for AI chips, tying exports to investment pledges",
+        "url": "https://www.digitimes.com/news/a20260306VL201/chips-exports-investment-nvidia-government.html",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:11.583Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Grid Dynamics Q4 Earnings Call Highlights",
+        "url": "https://finance.yahoo.com/m/2dc5ce68-9d8a-3ffe-9690-09d66e6db32e/grid-dynamics-q4-earnings.html",
+        "symbol": "NVDA",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:11.583Z",
+        "symbols": [
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "The Nasdaq-100® (NDX®) Ecosystem: The Evolution to Power Investor Choice Worldwide",
+        "url": "https://finance.yahoo.com/m/7184e6ce-ceba-3cdc-880c-47cf6c35fad6/the-nasdaq-100%C2%AE-%28ndx%C2%AE%29.html",
+        "symbol": "QQQ",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:12.378Z",
+        "symbols": [
+          "QQQ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Beware the IVES of March: Why This Rookie ETF May Be a Shakespearean Tragedy in the Making",
+        "url": "https://finance.yahoo.com/m/86c468af-dede-3522-a3b2-c2c8fe0e75dc/beware-the-ives-of-march%3A-why.html",
+        "symbol": "QQQ",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:12.378Z",
+        "symbols": [
+          "QQQ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Momentum, Small-Caps Are Getting Crushed, But Risk Is Holding Up",
+        "url": "https://finance.yahoo.com/m/f9361acc-86a4-39f6-b652-6d8e23219028/momentum%2C-small-caps-are.html",
+        "symbol": "QQQ",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:12.378Z",
+        "symbols": [
+          "QQQ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Senate Backs Trump On Iran Strikes",
+        "url": "https://finance.yahoo.com/m/2b91d199-9d42-31ea-a86b-811667fff725/senate-backs-trump-on-iran.html",
+        "symbol": "QQQ",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:12.378Z",
+        "symbols": [
+          "QQQ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Iran Diplomacy Hopes, Bitcoin Surge Power Relief Rally: What's Moving Markets Wednesday?",
+        "url": "/news/329868/iran-diplomacy-hopes-bitcoin-surge-power-relief-rally-whats-moving-markets-wednesday",
+        "symbol": "QQQ",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:12.378Z",
+        "symbols": [
+          "QQQ"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Elon Musk's Starlink Escalates The 5G War In Space As Amazon Locks In Vodafone",
+        "url": "https://finance.yahoo.com/news/elon-musks-starlink-escalates-5g-003021698.html",
+        "symbol": "AMZN",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:13.090Z",
+        "symbols": [
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Analyst Report: Shopify Inc.",
+        "url": "https://finance.yahoo.com/m/41000fe1-5507-38bd-91bd-615282ed6023/analyst-report%3A-shopify-inc..html",
+        "symbol": "AMZN",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:13.090Z",
+        "symbols": [
+          "AMZN",
+          "SHOP"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "SoundHound Is One of the Most Short Stocks Right Now. Should You Bet on a SOUN Squeeze?",
+        "url": "https://finance.yahoo.com/m/ee6fe93d-f544-3853-9e8f-1cd559971e39/soundhound-is-one-of-the-most.html",
+        "symbol": "AMZN",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:13.090Z",
+        "symbols": [
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Robinhood launches premium credit card to rival top rewards cards",
+        "url": "https://finance.yahoo.com/video/robinhood-launches-premium-credit-card-213009988.html",
+        "symbol": "AMZN",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:13.090Z",
+        "symbols": [
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Trade Desk Stock Jumps Nearly 20%. Why the Shares Are Getting a Big Boost.",
+        "url": "https://finance.yahoo.com/m/4b7a8327-6e4a-3c78-8472-74e0a00b9b82/trade-desk-stock-jumps-nearly.html",
+        "symbol": "AMZN",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:13.090Z",
+        "symbols": [
+          "AMZN"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Roundhill Launches Space ETF Ahead of SpaceX IPO - One Holding Already Owns A Piece Of Musk's Rocket Company",
+        "url": "/news/331694/roundhill-launches-space-etf-ahead-of-spacex-ipo-one-holding-already-owns-a-piece-of-musks-rocket-company",
+        "symbol": "ASTS",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:13.994Z",
+        "symbols": [
+          "ASTS"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Top Analyst Reports for Exxon Mobil, Palantir &amp; AstraZeneca",
+        "url": "/news/331622/top-analyst-reports-for-exxon-mobil-palantir-astrazeneca",
+        "symbol": "ASTS",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:13.994Z",
+        "symbols": [
+          "ASTS",
+          "PLTR"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "ASTS Rides on Expanding Partner Base: Will it Drive Revenue Growth?",
+        "url": "/news/331089/asts-rides-on-expanding-partner-base-will-it-drive-revenue-growth",
+        "symbol": "ASTS",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:13.994Z",
+        "symbols": [
+          "ASTS"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Bloomberg 500 (B500) Index Adds Eleven Securities Following March Reconstitution",
+        "url": "/news/330656/bloomberg-500-b500-index-adds-eleven-securities-following-march-reconstitution",
+        "symbol": "ASTS",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:13.994Z",
+        "symbols": [
+          "ASTS"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "AST SpaceMobile (ASTS) Soars 13% on Telus Backing",
+        "url": "/news/330271/ast-spacemobile-asts-soars-13-on-telus-backing",
+        "symbol": "ASTS",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:13.994Z",
+        "symbols": [
+          "ASTS"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Deutsche Telekom Q4 Earnings Call Highlights",
+        "url": "https://finance.yahoo.com/m/5ae8e3e8-aca4-3c9b-a6f8-df35eb8c1381/deutsche-telekom-q4-earnings.html",
+        "symbol": "DTE",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:14.697Z",
+        "symbols": [
+          "DTE"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "DTE's Stargate Deal Turns Power Into Profits",
+        "url": "/news/317166/dtes-stargate-deal-turns-power-into-profits",
+        "symbol": "DTE",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:14.697Z",
+        "symbols": [
+          "DTE"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Edison International Q4 Earnings Top Estimates, Sales Increase Y/Y",
+        "url": "/news/316179/edison-international-q4-earnings-top-estimates-sales-increase-yy",
+        "symbol": "DTE",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:14.697Z",
+        "symbols": [
+          "DTE"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "CenterPoint Energy Q4 Earnings Lag Estimates, Revenues Rise Y/Y",
+        "url": "/news/316163/centerpoint-energy-q4-earnings-lag-estimates-revenues-rise-yy",
+        "symbol": "DTE",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:14.697Z",
+        "symbols": [
+          "DTE"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "DTE Energy Company Q4 2025 Earnings Call Summary",
+        "url": "https://finance.yahoo.com/m/010358c6-41de-3e75-94b9-784494f2ebb3/dte-energy-company-q4-2025.html",
+        "symbol": "DTE",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:14.697Z",
+        "symbols": [
+          "DTE"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Webull Stock Could Soar 100% This Year, Analyst Says",
+        "url": "/news/331339/webull-stock-could-soar-100-this-year-analyst-says",
+        "symbol": "BULL",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:15.436Z",
+        "symbols": [
+          "BULL"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Webull Partners with Solidus Labs to Power Next-Generation Trade Surveillance",
+        "url": "https://www.businesswire.com/news/home/20260305186383/en/",
+        "symbol": "BULL",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:15.436Z",
+        "symbols": [
+          "BULL"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Webull Corporation Class A Ordinary Shares Q4 2025 Earnings Call Summary",
+        "url": "https://finance.yahoo.com/m/015dc6aa-0bc6-3d42-950e-0f77dc0cdbd5/webull-corporation-class-a.html",
+        "symbol": "BULL",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:15.436Z",
+        "symbols": [
+          "BULL"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "EXCLUSIVE: Bull in the ArenaWebull CEO Says Serious Retail Traders are the Moat",
+        "url": "https://finance.yahoo.com/news/exclusive-bull-arena-webull-ceo-123105104.html",
+        "symbol": "BULL",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:15.436Z",
+        "symbols": [
+          "BULL"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "What's Going On With Webull Stock Thursday?",
+        "url": "/news/330443/whats-going-on-with-webull-stock-thursday",
+        "symbol": "BULL",
+        "source": "finviz",
+        "time": "2026-03-06T03:41:15.436Z",
+        "symbols": [
+          "BULL"
+        ],
+        "sentiment": "NEUTRAL"
+      }
+    ],
+    "updatedAt": "2026-03-06T03:41:15.943Z"
+  },
+  "technicals": {
+    "oversold": [],
+    "overbought": [],
+    "breakouts": [],
+    "volumeSpikes": [],
+    "updatedAt": "2026-03-05T22:00:22.072Z",
+    "swingOpportunities": [
+      {
+        "symbol": "AVGO",
+        "price": 328.32,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: StockTwits+Reddit | Reddit Multi-Sub: 320 mentions across stocks,wallstreetbets"
+      },
+      {
+        "symbol": "MSFT",
+        "price": 409.88,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 139 mentions across stocks,options,wallstreetbets"
+      },
+      {
+        "symbol": "NVDA",
+        "price": 181.92,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 123 mentions across stocks,options,wallstreetbets"
+      },
+      {
+        "symbol": "QQQ",
+        "price": 606.79,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 100 mentions across stocks,options,wallstreetbets"
+      },
+      {
+        "symbol": "GOOG",
+        "price": 300.145,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 54 mentions across stocks,options,wallstreetbets"
+      },
+      {
+        "symbol": "SPY",
+        "price": 679.6,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 450 mentions across options,wallstreetbets"
+      },
+      {
+        "symbol": "ASTS",
+        "price": 93.65,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 77 mentions across stocks,wallstreetbets"
+      },
+      {
+        "symbol": "DTE",
+        "price": 148.915,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 52 mentions across options,wallstreetbets"
+      },
+      {
+        "symbol": "AMZN",
+        "price": 218.83,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: Reddit | Reddit Multi-Sub: 54 mentions across options,stocks,wallstreetbets"
+      },
+      {
+        "symbol": "TTD",
+        "price": 29.97,
+        "signal": "STRONG_BUY",
+        "thesis": "Social Trending: StockTwits+Reddit"
+      }
+    ],
+    "quantScores": {
+      "topBuys": [],
+      "topSells": [],
+      "sectorLeaders": [
+        "XLE",
+        "XLC",
+        "XLU"
+      ],
+      "sectorLaggards": [
+        "XLB",
+        "XLP",
+        "XLI"
+      ],
+      "updatedAt": "2026-03-05T20:15:50.294Z"
+    }
+  },
+  "optionsFlow": {
+    "unusualActivity": [],
+    "putCallRatio": null,
+    "ivRank": {},
+    "updatedAt": "2026-03-05T22:00:22.073Z"
+  },
+  "dayWatchlist": [
+    {
+      "symbol": "CRDO",
+      "reason": "Pre-market DOWN -10.2%",
+      "source": "pre-market",
+      "conviction": "HIGH"
+    },
+    {
+      "symbol": "AVGO",
+      "reason": "Social Trending: StockTwits+Reddit | Reddit Multi-Sub: 320 mentions across stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 4,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T17:00:43.788Z"
+    },
+    {
+      "symbol": "SPY",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 509 mentions across stocks,wallstreetbets,options",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T22:00:22.058Z"
+    },
+    {
+      "symbol": "MSFT",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 117 mentions across stocks,wallstreetbets,options",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T22:00:22.061Z"
+    },
+    {
+      "symbol": "NVDA",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 158 mentions across stocks,wallstreetbets,options",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T22:00:22.060Z"
+    },
+    {
+      "symbol": "QQQ",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 91 mentions across stocks,wallstreetbets,options",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T22:00:22.063Z"
+    },
+    {
+      "symbol": "AMZN",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 54 mentions across options,stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T12:30:16.942Z"
+    },
+    {
+      "symbol": "ASTS",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 73 mentions across stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T22:00:22.065Z"
+    },
+    {
+      "symbol": "DTE",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 66 mentions across wallstreetbets,options",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T22:00:22.066Z"
+    },
+    {
+      "symbol": "BULL",
+      "reason": "Social Trending: StockTwits+Reddit",
+      "source": "research_dispatcher",
+      "conviction": 2,
+      "sourceCount": 1,
+      "addedAt": "2026-03-05T17:00:43.796Z"
+    },
+    {
+      "symbol": "GOOG",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 54 mentions across stocks,options,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T17:00:43.792Z"
+    },
+    {
+      "symbol": "TTD",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 52 mentions across stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T22:00:22.068Z"
+    },
+    {
+      "symbol": "TSLA",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 51 mentions across stocks,wallstreetbets,options",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T22:00:22.064Z"
+    },
+    {
+      "symbol": "MU",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 55 mentions across stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-03-05T22:00:22.067Z"
+    }
+  ],
+  "swingTrader": {
+    "positions": [],
+    "pendingOrders": [],
+    "signals": [],
+    "account": {
+      "equity": 4923.79,
+      "cash": 4923.79,
+      "buyingPower": 9847.58,
+      "lastEquity": 4923.79,
+      "dailyPL": 0
+    },
+    "updatedAt": "2026-03-05T20:30:31.274Z"
+  },
+  "dayTrader": {
+    "positions": [],
+    "trades": [],
+    "pnlToday": 0,
+    "tradesCount": 0,
+    "account": {
+      "equity": null,
+      "cash": 90401.14,
+      "buyingPower": null,
+      "lastEquity": null,
+      "dailyPL": null,
+      "dayTradesRemaining": 3,
+      "status": "ACTIVE"
+    },
+    "reasoning": [],
+    "updatedAt": "2026-03-05T20:50:28.115Z"
+  },
+  "macroAlpha": {
+    "version": "V9",
+    "predictionDate": "2026-01-16",
+    "generatedAt": "2026-02-11T16:43:25.228472",
+    "freshness": {
+      "ageDays": 22.2,
+      "isStale": false,
+      "staleDays": 30,
+      "generatedAt": "2026-02-11T16:43:25.228472",
+      "predictionDate": "2026-01-16"
+    },
+    "topPicks": [
+      {
+        "symbol": "PATH",
+        "alpha": 11.829175,
+        "rank": 1,
+        "sectorGroup": "BROAD"
+      },
+      {
+        "symbol": "SE",
+        "alpha": 10.401147,
+        "rank": 2,
+        "sectorGroup": "BROAD"
+      },
+      {
+        "symbol": "V",
+        "alpha": 6.087333,
+        "rank": 3,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "TRV",
+        "alpha": 5.557183,
+        "rank": 4,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "ASML",
+        "alpha": 3.670013,
+        "rank": 5,
+        "sectorGroup": "BROAD"
+      },
+      {
+        "symbol": "MTDR",
+        "alpha": 3.044625,
+        "rank": 6,
+        "sectorGroup": "BROAD"
+      },
+      {
+        "symbol": "PYPL",
+        "alpha": 2.869889,
+        "rank": 7,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "MA",
+        "alpha": 2.043854,
+        "rank": 8,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "AIG",
+        "alpha": 1.259505,
+        "rank": 9,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "DIS",
+        "alpha": 1,
+        "rank": 10,
+        "sectorGroup": "DEFENSIVE"
+      }
+    ],
+    "bottomPicks": [
+      {
+        "symbol": "HBAN",
+        "alpha": -27.462305,
+        "rank": 286,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "SPGI",
+        "alpha": -7.656168,
+        "rank": 285,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "BLK",
+        "alpha": -7.172895,
+        "rank": 284,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "GS",
+        "alpha": -6.963527,
+        "rank": 283,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "CB",
+        "alpha": -4.725756,
+        "rank": 282,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "PGR",
+        "alpha": -3.500138,
+        "rank": 281,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "BX",
+        "alpha": -3.430243,
+        "rank": 280,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "KMX",
+        "alpha": -3.193418,
+        "rank": 279,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "MMC",
+        "alpha": -3.081945,
+        "rank": 278,
+        "sectorGroup": "FINANCE"
+      },
+      {
+        "symbol": "BNTX",
+        "alpha": -2.999896,
+        "rank": 277,
+        "sectorGroup": "BROAD"
+      }
+    ],
+    "metadata": {
+      "featureCount": 21,
+      "universeSize": 286,
+      "bestCombo": {
+        "model": "XGB",
+        "execution": "Weekly_Momentum_Kelly",
+        "return": "71.73%",
+        "sharpe": "3.81",
+        "maxDD": "-9.21%",
+        "vsSPY": "+57.44%"
+      }
+    },
+    "modelInfo": null,
+    "scores": {
+      "PATH": {
+        "alpha": 11.829175,
+        "rank": 1,
+        "totalRanked": 286,
+        "percentile": 99.7,
+        "sectorGroup": "BROAD",
+        "quintile": 1
+      },
+      "SE": {
+        "alpha": 10.401147,
+        "rank": 2,
+        "totalRanked": 286,
+        "percentile": 99.3,
+        "sectorGroup": "BROAD",
+        "quintile": 1
+      },
+      "V": {
+        "alpha": 6.087333,
+        "rank": 3,
+        "totalRanked": 286,
+        "percentile": 99,
+        "sectorGroup": "FINANCE",
+        "quintile": 1
+      },
+      "TRV": {
+        "alpha": 5.557183,
+        "rank": 4,
+        "totalRanked": 286,
+        "percentile": 98.6,
+        "sectorGroup": "FINANCE",
+        "quintile": 1
+      },
+      "ASML": {
+        "alpha": 3.670013,
+        "rank": 5,
+        "totalRanked": 286,
+        "percentile": 98.3,
+        "sectorGroup": "BROAD",
+        "quintile": 1
+      },
+      "MTDR": {
+        "alpha": 3.044625,
+        "rank": 6,
+        "totalRanked": 286,
+        "percentile": 97.9,
+        "sectorGroup": "BROAD",
+        "quintile": 1
+      },
+      "PYPL": {
+        "alpha": 2.869889,
+        "rank": 7,
+        "totalRanked": 286,
+        "percentile": 97.6,
+        "sectorGroup": "FINANCE",
+        "quintile": 1
+      },
+      "MA": {
+        "alpha": 2.043854,
+        "rank": 8,
+        "totalRanked": 286,
+        "percentile": 97.2,
+        "sectorGroup": "FINANCE",
+        "quintile": 1
+      },
+      "AIG": {
+        "alpha": 1.259505,
+        "rank": 9,
+        "totalRanked": 286,
+        "percentile": 96.9,
+        "sectorGroup": "FINANCE",
+        "quintile": 1
+      },
+      "DIS": {
+        "alpha": 1,
+        "rank": 10,
+        "totalRanked": 286,
+        "percentile": 96.5,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "JNJ": {
+        "alpha": 1,
+        "rank": 11,
+        "totalRanked": 286,
+        "percentile": 96.2,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "PFE": {
+        "alpha": 1,
+        "rank": 12,
+        "totalRanked": 286,
+        "percentile": 95.8,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "UNH": {
+        "alpha": 1,
+        "rank": 13,
+        "totalRanked": 286,
+        "percentile": 95.5,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "ABBV": {
+        "alpha": 1,
+        "rank": 14,
+        "totalRanked": 286,
+        "percentile": 95.1,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "LLY": {
+        "alpha": 1,
+        "rank": 15,
+        "totalRanked": 286,
+        "percentile": 94.8,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "MRK": {
+        "alpha": 1,
+        "rank": 16,
+        "totalRanked": 286,
+        "percentile": 94.4,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "TMO": {
+        "alpha": 1,
+        "rank": 17,
+        "totalRanked": 286,
+        "percentile": 94.1,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "DHR": {
+        "alpha": 1,
+        "rank": 18,
+        "totalRanked": 286,
+        "percentile": 93.7,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "ISRG": {
+        "alpha": 1,
+        "rank": 19,
+        "totalRanked": 286,
+        "percentile": 93.4,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "GILD": {
+        "alpha": 1,
+        "rank": 20,
+        "totalRanked": 286,
+        "percentile": 93,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "BMY": {
+        "alpha": 1,
+        "rank": 21,
+        "totalRanked": 286,
+        "percentile": 92.7,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "AMGN": {
+        "alpha": 1,
+        "rank": 22,
+        "totalRanked": 286,
+        "percentile": 92.3,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "CVS": {
+        "alpha": 1,
+        "rank": 23,
+        "totalRanked": 286,
+        "percentile": 92,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "SYK": {
+        "alpha": 1,
+        "rank": 24,
+        "totalRanked": 286,
+        "percentile": 91.6,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "ZTS": {
+        "alpha": 1,
+        "rank": 25,
+        "totalRanked": 286,
+        "percentile": 91.3,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "BDX": {
+        "alpha": 1,
+        "rank": 26,
+        "totalRanked": 286,
+        "percentile": 90.9,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "BSX": {
+        "alpha": 1,
+        "rank": 27,
+        "totalRanked": 286,
+        "percentile": 90.6,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "VRTX": {
+        "alpha": 1,
+        "rank": 28,
+        "totalRanked": 286,
+        "percentile": 90.2,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "REGN": {
+        "alpha": 1,
+        "rank": 29,
+        "totalRanked": 286,
+        "percentile": 89.9,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "HCA": {
+        "alpha": 1,
+        "rank": 30,
+        "totalRanked": 286,
+        "percentile": 89.5,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "IQV": {
+        "alpha": 1,
+        "rank": 31,
+        "totalRanked": 286,
+        "percentile": 89.2,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "ILMN": {
+        "alpha": 1,
+        "rank": 32,
+        "totalRanked": 286,
+        "percentile": 88.8,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "EW": {
+        "alpha": 1,
+        "rank": 33,
+        "totalRanked": 286,
+        "percentile": 88.5,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "PG": {
+        "alpha": 1,
+        "rank": 34,
+        "totalRanked": 286,
+        "percentile": 88.1,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "KO": {
+        "alpha": 1,
+        "rank": 35,
+        "totalRanked": 286,
+        "percentile": 87.8,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "PEP": {
+        "alpha": 1,
+        "rank": 36,
+        "totalRanked": 286,
+        "percentile": 87.4,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "COST": {
+        "alpha": 1,
+        "rank": 37,
+        "totalRanked": 286,
+        "percentile": 87.1,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "WMT": {
+        "alpha": 1,
+        "rank": 38,
+        "totalRanked": 286,
+        "percentile": 86.7,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "NKE": {
+        "alpha": 1,
+        "rank": 39,
+        "totalRanked": 286,
+        "percentile": 86.4,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "MCD": {
+        "alpha": 1,
+        "rank": 40,
+        "totalRanked": 286,
+        "percentile": 86,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "HD": {
+        "alpha": 1,
+        "rank": 41,
+        "totalRanked": 286,
+        "percentile": 85.7,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "LOW": {
+        "alpha": 1,
+        "rank": 42,
+        "totalRanked": 286,
+        "percentile": 85.3,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "SBUX": {
+        "alpha": 1,
+        "rank": 43,
+        "totalRanked": 286,
+        "percentile": 85,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "TJX": {
+        "alpha": 1,
+        "rank": 44,
+        "totalRanked": 286,
+        "percentile": 84.6,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "EL": {
+        "alpha": 1,
+        "rank": 45,
+        "totalRanked": 286,
+        "percentile": 84.3,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "CL": {
+        "alpha": 1,
+        "rank": 46,
+        "totalRanked": 286,
+        "percentile": 83.9,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "MDLZ": {
+        "alpha": 1,
+        "rank": 47,
+        "totalRanked": 286,
+        "percentile": 83.6,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "PM": {
+        "alpha": 1,
+        "rank": 48,
+        "totalRanked": 286,
+        "percentile": 83.2,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "MO": {
+        "alpha": 1,
+        "rank": 49,
+        "totalRanked": 286,
+        "percentile": 82.9,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "TGT": {
+        "alpha": 1,
+        "rank": 50,
+        "totalRanked": 286,
+        "percentile": 82.5,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "DG": {
+        "alpha": 1,
+        "rank": 51,
+        "totalRanked": 286,
+        "percentile": 82.2,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "ROST": {
+        "alpha": 1,
+        "rank": 52,
+        "totalRanked": 286,
+        "percentile": 81.8,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "YUM": {
+        "alpha": 1,
+        "rank": 53,
+        "totalRanked": 286,
+        "percentile": 81.5,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "DRI": {
+        "alpha": 1,
+        "rank": 54,
+        "totalRanked": 286,
+        "percentile": 81.1,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "LULU": {
+        "alpha": 1,
+        "rank": 55,
+        "totalRanked": 286,
+        "percentile": 80.8,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "ETSY": {
+        "alpha": 1,
+        "rank": 56,
+        "totalRanked": 286,
+        "percentile": 80.4,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "CHWY": {
+        "alpha": 1,
+        "rank": 57,
+        "totalRanked": 286,
+        "percentile": 80.1,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 1
+      },
+      "NEE": {
+        "alpha": 1,
+        "rank": 58,
+        "totalRanked": 286,
+        "percentile": 79.7,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "DUK": {
+        "alpha": 1,
+        "rank": 59,
+        "totalRanked": 286,
+        "percentile": 79.4,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "SO": {
+        "alpha": 1,
+        "rank": 60,
+        "totalRanked": 286,
+        "percentile": 79,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "D": {
+        "alpha": 1,
+        "rank": 61,
+        "totalRanked": 286,
+        "percentile": 78.7,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "AEP": {
+        "alpha": 1,
+        "rank": 62,
+        "totalRanked": 286,
+        "percentile": 78.3,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "EXC": {
+        "alpha": 1,
+        "rank": 63,
+        "totalRanked": 286,
+        "percentile": 78,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "XEL": {
+        "alpha": 1,
+        "rank": 64,
+        "totalRanked": 286,
+        "percentile": 77.6,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "SRE": {
+        "alpha": 1,
+        "rank": 65,
+        "totalRanked": 286,
+        "percentile": 77.3,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "WEC": {
+        "alpha": 1,
+        "rank": 66,
+        "totalRanked": 286,
+        "percentile": 76.9,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "ES": {
+        "alpha": 1,
+        "rank": 67,
+        "totalRanked": 286,
+        "percentile": 76.6,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "DTE": {
+        "alpha": 1,
+        "rank": 68,
+        "totalRanked": 286,
+        "percentile": 76.2,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "FE": {
+        "alpha": 1,
+        "rank": 69,
+        "totalRanked": 286,
+        "percentile": 75.9,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "ETR": {
+        "alpha": 1,
+        "rank": 70,
+        "totalRanked": 286,
+        "percentile": 75.5,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "AWK": {
+        "alpha": 1,
+        "rank": 71,
+        "totalRanked": 286,
+        "percentile": 75.2,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "CMS": {
+        "alpha": 1,
+        "rank": 72,
+        "totalRanked": 286,
+        "percentile": 74.8,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "PPL": {
+        "alpha": 1,
+        "rank": 73,
+        "totalRanked": 286,
+        "percentile": 74.5,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "PLD": {
+        "alpha": 1,
+        "rank": 74,
+        "totalRanked": 286,
+        "percentile": 74.1,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "AMT": {
+        "alpha": 1,
+        "rank": 75,
+        "totalRanked": 286,
+        "percentile": 73.8,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "CCI": {
+        "alpha": 1,
+        "rank": 76,
+        "totalRanked": 286,
+        "percentile": 73.4,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "EQIX": {
+        "alpha": 1,
+        "rank": 77,
+        "totalRanked": 286,
+        "percentile": 73.1,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "WY": {
+        "alpha": 1,
+        "rank": 78,
+        "totalRanked": 286,
+        "percentile": 72.7,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "PSA": {
+        "alpha": 1,
+        "rank": 79,
+        "totalRanked": 286,
+        "percentile": 72.4,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "DLR": {
+        "alpha": 1,
+        "rank": 80,
+        "totalRanked": 286,
+        "percentile": 72,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "O": {
+        "alpha": 1,
+        "rank": 81,
+        "totalRanked": 286,
+        "percentile": 71.7,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "VICI": {
+        "alpha": 1,
+        "rank": 82,
+        "totalRanked": 286,
+        "percentile": 71.3,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "CBRE": {
+        "alpha": 1,
+        "rank": 83,
+        "totalRanked": 286,
+        "percentile": 71,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "AVB": {
+        "alpha": 1,
+        "rank": 84,
+        "totalRanked": 286,
+        "percentile": 70.6,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "EQR": {
+        "alpha": 1,
+        "rank": 85,
+        "totalRanked": 286,
+        "percentile": 70.3,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "EXR": {
+        "alpha": 1,
+        "rank": 86,
+        "totalRanked": 286,
+        "percentile": 69.9,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "WELL": {
+        "alpha": 1,
+        "rank": 87,
+        "totalRanked": 286,
+        "percentile": 69.6,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "SPG": {
+        "alpha": 1,
+        "rank": 88,
+        "totalRanked": 286,
+        "percentile": 69.2,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "ARE": {
+        "alpha": 1,
+        "rank": 89,
+        "totalRanked": 286,
+        "percentile": 68.9,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "IRM": {
+        "alpha": 1,
+        "rank": 90,
+        "totalRanked": 286,
+        "percentile": 68.5,
+        "sectorGroup": "DEFENSIVE",
+        "quintile": 2
+      },
+      "CE": {
+        "alpha": 0.998078,
+        "rank": 91,
+        "totalRanked": 286,
+        "percentile": 68.2,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 2
+      },
+      "LMT": {
+        "alpha": 0.988483,
+        "rank": 92,
+        "totalRanked": 286,
+        "percentile": 67.8,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 2
+      },
+      "CMI": {
+        "alpha": 0.976506,
+        "rank": 93,
+        "totalRanked": 286,
+        "percentile": 67.5,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 2
+      },
+      "CAT": {
+        "alpha": 0.968491,
+        "rank": 94,
+        "totalRanked": 286,
+        "percentile": 67.1,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 2
+      },
+      "VMC": {
+        "alpha": 0.895834,
+        "rank": 95,
+        "totalRanked": 286,
+        "percentile": 66.8,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 2
+      },
+      "SNAP": {
+        "alpha": 0.790155,
+        "rank": 96,
+        "totalRanked": 286,
+        "percentile": 66.4,
+        "sectorGroup": "GROWTH",
+        "quintile": 2
+      },
+      "BAC": {
+        "alpha": 0.762755,
+        "rank": 97,
+        "totalRanked": 286,
+        "percentile": 66.1,
+        "sectorGroup": "FINANCE",
+        "quintile": 2
+      },
+      "SCHW": {
+        "alpha": 0.703721,
+        "rank": 98,
+        "totalRanked": 286,
+        "percentile": 65.7,
+        "sectorGroup": "FINANCE",
+        "quintile": 2
+      },
+      "PINS": {
+        "alpha": 0.703198,
+        "rank": 99,
+        "totalRanked": 286,
+        "percentile": 65.4,
+        "sectorGroup": "GROWTH",
+        "quintile": 2
+      },
+      "T": {
+        "alpha": 0.691612,
+        "rank": 100,
+        "totalRanked": 286,
+        "percentile": 65,
+        "sectorGroup": "GROWTH",
+        "quintile": 2
+      },
+      "LVMUY": {
+        "alpha": 0.661703,
+        "rank": 101,
+        "totalRanked": 286,
+        "percentile": 64.7,
+        "sectorGroup": "BROAD",
+        "quintile": 2
+      },
+      "ALL": {
+        "alpha": 0.642708,
+        "rank": 102,
+        "totalRanked": 286,
+        "percentile": 64.3,
+        "sectorGroup": "FINANCE",
+        "quintile": 2
+      },
+      "MRNA": {
+        "alpha": 0.621537,
+        "rank": 103,
+        "totalRanked": 286,
+        "percentile": 64,
+        "sectorGroup": "BROAD",
+        "quintile": 2
+      },
+      "VZ": {
+        "alpha": 0.596764,
+        "rank": 104,
+        "totalRanked": 286,
+        "percentile": 63.6,
+        "sectorGroup": "GROWTH",
+        "quintile": 2
+      },
+      "SHW": {
+        "alpha": 0.572383,
+        "rank": 105,
+        "totalRanked": 286,
+        "percentile": 63.3,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 2
+      },
+      "FNKO": {
+        "alpha": 0.565553,
+        "rank": 106,
+        "totalRanked": 286,
+        "percentile": 62.9,
+        "sectorGroup": "BROAD",
+        "quintile": 2
+      },
+      "NVO": {
+        "alpha": 0.517307,
+        "rank": 107,
+        "totalRanked": 286,
+        "percentile": 62.6,
+        "sectorGroup": "BROAD",
+        "quintile": 2
+      },
+      "VALE": {
+        "alpha": 0.479809,
+        "rank": 108,
+        "totalRanked": 286,
+        "percentile": 62.2,
+        "sectorGroup": "BROAD",
+        "quintile": 2
+      },
+      "HUBS": {
+        "alpha": 0.456591,
+        "rank": 109,
+        "totalRanked": 286,
+        "percentile": 61.9,
+        "sectorGroup": "BROAD",
+        "quintile": 2
+      },
+      "PH": {
+        "alpha": 0.384034,
+        "rank": 110,
+        "totalRanked": 286,
+        "percentile": 61.5,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 2
+      },
+      "NUE": {
+        "alpha": 0.334294,
+        "rank": 111,
+        "totalRanked": 286,
+        "percentile": 61.2,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 2
+      },
+      "GTLB": {
+        "alpha": 0.331079,
+        "rank": 112,
+        "totalRanked": 286,
+        "percentile": 60.8,
+        "sectorGroup": "BROAD",
+        "quintile": 2
+      },
+      "TEAM": {
+        "alpha": 0.26542,
+        "rank": 113,
+        "totalRanked": 286,
+        "percentile": 60.5,
+        "sectorGroup": "GROWTH",
+        "quintile": 2
+      },
+      "TLT": {
+        "alpha": 0.259739,
+        "rank": 114,
+        "totalRanked": 286,
+        "percentile": 60.1,
+        "sectorGroup": "BROAD",
+        "quintile": 2
+      },
+      "LYB": {
+        "alpha": 0.254527,
+        "rank": 115,
+        "totalRanked": 286,
+        "percentile": 59.8,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "CTVA": {
+        "alpha": 0.240064,
+        "rank": 116,
+        "totalRanked": 286,
+        "percentile": 59.4,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "PCAR": {
+        "alpha": 0.228345,
+        "rank": 117,
+        "totalRanked": 286,
+        "percentile": 59.1,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "HYG": {
+        "alpha": 0.215137,
+        "rank": 118,
+        "totalRanked": 286,
+        "percentile": 58.7,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "TWLO": {
+        "alpha": 0.20801,
+        "rank": 119,
+        "totalRanked": 286,
+        "percentile": 58.4,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "UNP": {
+        "alpha": 0.203272,
+        "rank": 120,
+        "totalRanked": 286,
+        "percentile": 58,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "ETN": {
+        "alpha": 0.195218,
+        "rank": 121,
+        "totalRanked": 286,
+        "percentile": 57.7,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "DE": {
+        "alpha": 0.195038,
+        "rank": 122,
+        "totalRanked": 286,
+        "percentile": 57.3,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "IFF": {
+        "alpha": 0.194163,
+        "rank": 123,
+        "totalRanked": 286,
+        "percentile": 57,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "BA": {
+        "alpha": 0.180755,
+        "rank": 124,
+        "totalRanked": 286,
+        "percentile": 56.6,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "WFC": {
+        "alpha": 0.172603,
+        "rank": 125,
+        "totalRanked": 286,
+        "percentile": 56.3,
+        "sectorGroup": "FINANCE",
+        "quintile": 3
+      },
+      "ECL": {
+        "alpha": 0.172277,
+        "rank": 126,
+        "totalRanked": 286,
+        "percentile": 55.9,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "SMCI": {
+        "alpha": 0.165139,
+        "rank": 127,
+        "totalRanked": 286,
+        "percentile": 55.6,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "IWM": {
+        "alpha": 0.16059,
+        "rank": 128,
+        "totalRanked": 286,
+        "percentile": 55.2,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "MOS": {
+        "alpha": 0.154289,
+        "rank": 129,
+        "totalRanked": 286,
+        "percentile": 54.9,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "CHTR": {
+        "alpha": 0.1537,
+        "rank": 130,
+        "totalRanked": 286,
+        "percentile": 54.5,
+        "sectorGroup": "GROWTH",
+        "quintile": 3
+      },
+      "DD": {
+        "alpha": 0.151566,
+        "rank": 131,
+        "totalRanked": 286,
+        "percentile": 54.2,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "MLM": {
+        "alpha": 0.147898,
+        "rank": 132,
+        "totalRanked": 286,
+        "percentile": 53.8,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "IR": {
+        "alpha": 0.145991,
+        "rank": 133,
+        "totalRanked": 286,
+        "percentile": 53.5,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "GE": {
+        "alpha": 0.144229,
+        "rank": 134,
+        "totalRanked": 286,
+        "percentile": 53.1,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "PARA": {
+        "alpha": 0.142454,
+        "rank": 135,
+        "totalRanked": 286,
+        "percentile": 52.8,
+        "sectorGroup": "GROWTH",
+        "quintile": 3
+      },
+      "NOW": {
+        "alpha": 0.139271,
+        "rank": 136,
+        "totalRanked": 286,
+        "percentile": 52.4,
+        "sectorGroup": "GROWTH",
+        "quintile": 3
+      },
+      "STLA": {
+        "alpha": 0.137195,
+        "rank": 137,
+        "totalRanked": 286,
+        "percentile": 52.1,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "ITW": {
+        "alpha": 0.13017,
+        "rank": 138,
+        "totalRanked": 286,
+        "percentile": 51.7,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "NSC": {
+        "alpha": 0.129688,
+        "rank": 139,
+        "totalRanked": 286,
+        "percentile": 51.4,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "C": {
+        "alpha": 0.121314,
+        "rank": 140,
+        "totalRanked": 286,
+        "percentile": 51,
+        "sectorGroup": "FINANCE",
+        "quintile": 3
+      },
+      "SPSM": {
+        "alpha": 0.114047,
+        "rank": 141,
+        "totalRanked": 286,
+        "percentile": 50.7,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "NEM": {
+        "alpha": 0.101568,
+        "rank": 142,
+        "totalRanked": 286,
+        "percentile": 50.3,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "DDOG": {
+        "alpha": 0.095424,
+        "rank": 143,
+        "totalRanked": 286,
+        "percentile": 50,
+        "sectorGroup": "GROWTH",
+        "quintile": 3
+      },
+      "TT": {
+        "alpha": 0.093785,
+        "rank": 144,
+        "totalRanked": 286,
+        "percentile": 49.7,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "MMM": {
+        "alpha": 0.086279,
+        "rank": 145,
+        "totalRanked": 286,
+        "percentile": 49.3,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "EMN": {
+        "alpha": 0.079998,
+        "rank": 146,
+        "totalRanked": 286,
+        "percentile": 49,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "EMR": {
+        "alpha": 0.074858,
+        "rank": 147,
+        "totalRanked": 286,
+        "percentile": 48.6,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "RTX": {
+        "alpha": 0.072187,
+        "rank": 148,
+        "totalRanked": 286,
+        "percentile": 48.3,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "GD": {
+        "alpha": 0.069669,
+        "rank": 149,
+        "totalRanked": 286,
+        "percentile": 47.9,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "RSG": {
+        "alpha": 0.063257,
+        "rank": 150,
+        "totalRanked": 286,
+        "percentile": 47.6,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "UL": {
+        "alpha": 0.061371,
+        "rank": 151,
+        "totalRanked": 286,
+        "percentile": 47.2,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "ROKU": {
+        "alpha": 0.061359,
+        "rank": 152,
+        "totalRanked": 286,
+        "percentile": 46.9,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "ALB": {
+        "alpha": 0.056119,
+        "rank": 153,
+        "totalRanked": 286,
+        "percentile": 46.5,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "HON": {
+        "alpha": 0.055346,
+        "rank": 154,
+        "totalRanked": 286,
+        "percentile": 46.2,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "UPS": {
+        "alpha": 0.042303,
+        "rank": 155,
+        "totalRanked": 286,
+        "percentile": 45.8,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "CNI": {
+        "alpha": 0.042235,
+        "rank": 156,
+        "totalRanked": 286,
+        "percentile": 45.5,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "WM": {
+        "alpha": 0.041963,
+        "rank": 157,
+        "totalRanked": 286,
+        "percentile": 45.1,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "CP": {
+        "alpha": 0.034677,
+        "rank": 158,
+        "totalRanked": 286,
+        "percentile": 44.8,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "TMUS": {
+        "alpha": 0.031428,
+        "rank": 159,
+        "totalRanked": 286,
+        "percentile": 44.4,
+        "sectorGroup": "GROWTH",
+        "quintile": 3
+      },
+      "LIN": {
+        "alpha": 0.031278,
+        "rank": 160,
+        "totalRanked": 286,
+        "percentile": 44.1,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "MANH": {
+        "alpha": 0.030459,
+        "rank": 161,
+        "totalRanked": 286,
+        "percentile": 43.7,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "SNY": {
+        "alpha": 0.023724,
+        "rank": 162,
+        "totalRanked": 286,
+        "percentile": 43.4,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "ROK": {
+        "alpha": 0.022341,
+        "rank": 163,
+        "totalRanked": 286,
+        "percentile": 43,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "BLL": {
+        "alpha": 0.019673,
+        "rank": 164,
+        "totalRanked": 286,
+        "percentile": 42.7,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "NSRGY": {
+        "alpha": 0.018813,
+        "rank": 165,
+        "totalRanked": 286,
+        "percentile": 42.3,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "RY": {
+        "alpha": 0.018592,
+        "rank": 166,
+        "totalRanked": 286,
+        "percentile": 42,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "UBS": {
+        "alpha": 0.017597,
+        "rank": 167,
+        "totalRanked": 286,
+        "percentile": 41.6,
+        "sectorGroup": "BROAD",
+        "quintile": 3
+      },
+      "APD": {
+        "alpha": 0.014302,
+        "rank": 168,
+        "totalRanked": 286,
+        "percentile": 41.3,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "CF": {
+        "alpha": 0.013649,
+        "rank": 169,
+        "totalRanked": 286,
+        "percentile": 40.9,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "FDX": {
+        "alpha": 0.01242,
+        "rank": 170,
+        "totalRanked": 286,
+        "percentile": 40.6,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "FCX": {
+        "alpha": 0.011433,
+        "rank": 171,
+        "totalRanked": 286,
+        "percentile": 40.2,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 3
+      },
+      "VWO": {
+        "alpha": 0.011162,
+        "rank": 172,
+        "totalRanked": 286,
+        "percentile": 39.9,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "SAP": {
+        "alpha": 0.008661,
+        "rank": 173,
+        "totalRanked": 286,
+        "percentile": 39.5,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "BIL": {
+        "alpha": 0.008374,
+        "rank": 174,
+        "totalRanked": 286,
+        "percentile": 39.2,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "SSRM": {
+        "alpha": 0.008031,
+        "rank": 175,
+        "totalRanked": 286,
+        "percentile": 38.8,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 4
+      },
+      "INCY": {
+        "alpha": 0.007683,
+        "rank": 176,
+        "totalRanked": 286,
+        "percentile": 38.5,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "BCS": {
+        "alpha": 0.006343,
+        "rank": 177,
+        "totalRanked": 286,
+        "percentile": 38.1,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "SHV": {
+        "alpha": 0.005862,
+        "rank": 178,
+        "totalRanked": 286,
+        "percentile": 37.8,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "ULTA": {
+        "alpha": 0.001582,
+        "rank": 179,
+        "totalRanked": 286,
+        "percentile": 37.4,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "ANET": {
+        "alpha": 0.000585,
+        "rank": 180,
+        "totalRanked": 286,
+        "percentile": 37.1,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "DEO": {
+        "alpha": 0.000497,
+        "rank": 181,
+        "totalRanked": 286,
+        "percentile": 36.7,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "FAST": {
+        "alpha": 0.000215,
+        "rank": 182,
+        "totalRanked": 286,
+        "percentile": 36.4,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "ITUB": {
+        "alpha": 0.000198,
+        "rank": 183,
+        "totalRanked": 286,
+        "percentile": 36,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "HMC": {
+        "alpha": 0.000153,
+        "rank": 184,
+        "totalRanked": 286,
+        "percentile": 35.7,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "JCI": {
+        "alpha": 0.0001,
+        "rank": 185,
+        "totalRanked": 286,
+        "percentile": 35.3,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "SONY": {
+        "alpha": 0.000019,
+        "rank": 186,
+        "totalRanked": 286,
+        "percentile": 35,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "ZION": {
+        "alpha": 0.000005,
+        "rank": 187,
+        "totalRanked": 286,
+        "percentile": 34.6,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "DOW": {
+        "alpha": 0,
+        "rank": 188,
+        "totalRanked": 286,
+        "percentile": 34.3,
+        "sectorGroup": "REAL_ASSETS",
+        "quintile": 4
+      },
+      "AAPL": {
+        "alpha": 0,
+        "rank": 189,
+        "totalRanked": 286,
+        "percentile": 33.9,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "MSFT": {
+        "alpha": 0,
+        "rank": 190,
+        "totalRanked": 286,
+        "percentile": 33.6,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "NVDA": {
+        "alpha": 0,
+        "rank": 191,
+        "totalRanked": 286,
+        "percentile": 33.2,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "GOOGL": {
+        "alpha": 0,
+        "rank": 192,
+        "totalRanked": 286,
+        "percentile": 32.9,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "META": {
+        "alpha": 0,
+        "rank": 193,
+        "totalRanked": 286,
+        "percentile": 32.5,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "AMZN": {
+        "alpha": 0,
+        "rank": 194,
+        "totalRanked": 286,
+        "percentile": 32.2,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "TSLA": {
+        "alpha": 0,
+        "rank": 195,
+        "totalRanked": 286,
+        "percentile": 31.8,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "AVGO": {
+        "alpha": 0,
+        "rank": 196,
+        "totalRanked": 286,
+        "percentile": 31.5,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "ORCL": {
+        "alpha": 0,
+        "rank": 197,
+        "totalRanked": 286,
+        "percentile": 31.1,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "CRM": {
+        "alpha": 0,
+        "rank": 198,
+        "totalRanked": 286,
+        "percentile": 30.8,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "ADBE": {
+        "alpha": 0,
+        "rank": 199,
+        "totalRanked": 286,
+        "percentile": 30.4,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "AMD": {
+        "alpha": 0,
+        "rank": 200,
+        "totalRanked": 286,
+        "percentile": 30.1,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "NFLX": {
+        "alpha": 0,
+        "rank": 201,
+        "totalRanked": 286,
+        "percentile": 29.7,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "INTC": {
+        "alpha": 0,
+        "rank": 202,
+        "totalRanked": 286,
+        "percentile": 29.4,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "CSCO": {
+        "alpha": 0,
+        "rank": 203,
+        "totalRanked": 286,
+        "percentile": 29,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "QCOM": {
+        "alpha": 0,
+        "rank": 204,
+        "totalRanked": 286,
+        "percentile": 28.7,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "TXN": {
+        "alpha": 0,
+        "rank": 205,
+        "totalRanked": 286,
+        "percentile": 28.3,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "MU": {
+        "alpha": 0,
+        "rank": 206,
+        "totalRanked": 286,
+        "percentile": 28,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "PANW": {
+        "alpha": 0,
+        "rank": 207,
+        "totalRanked": 286,
+        "percentile": 27.6,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "SNOW": {
+        "alpha": 0,
+        "rank": 208,
+        "totalRanked": 286,
+        "percentile": 27.3,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "AMAT": {
+        "alpha": 0,
+        "rank": 209,
+        "totalRanked": 286,
+        "percentile": 26.9,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "LRCX": {
+        "alpha": 0,
+        "rank": 210,
+        "totalRanked": 286,
+        "percentile": 26.6,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "KLAC": {
+        "alpha": 0,
+        "rank": 211,
+        "totalRanked": 286,
+        "percentile": 26.2,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "MDB": {
+        "alpha": 0,
+        "rank": 212,
+        "totalRanked": 286,
+        "percentile": 25.9,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "NET": {
+        "alpha": 0,
+        "rank": 213,
+        "totalRanked": 286,
+        "percentile": 25.5,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "CRWD": {
+        "alpha": 0,
+        "rank": 214,
+        "totalRanked": 286,
+        "percentile": 25.2,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "ZS": {
+        "alpha": 0,
+        "rank": 215,
+        "totalRanked": 286,
+        "percentile": 24.8,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "OKTA": {
+        "alpha": 0,
+        "rank": 216,
+        "totalRanked": 286,
+        "percentile": 24.5,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "SHOP": {
+        "alpha": 0,
+        "rank": 217,
+        "totalRanked": 286,
+        "percentile": 24.1,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "U": {
+        "alpha": 0,
+        "rank": 218,
+        "totalRanked": 286,
+        "percentile": 23.8,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "SQ": {
+        "alpha": 0,
+        "rank": 219,
+        "totalRanked": 286,
+        "percentile": 23.4,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "PLTR": {
+        "alpha": 0,
+        "rank": 220,
+        "totalRanked": 286,
+        "percentile": 23.1,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "CMCSA": {
+        "alpha": 0,
+        "rank": 221,
+        "totalRanked": 286,
+        "percentile": 22.7,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "WBD": {
+        "alpha": 0,
+        "rank": 222,
+        "totalRanked": 286,
+        "percentile": 22.4,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "EA": {
+        "alpha": 0,
+        "rank": 223,
+        "totalRanked": 286,
+        "percentile": 22,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "TTWO": {
+        "alpha": 0,
+        "rank": 224,
+        "totalRanked": 286,
+        "percentile": 21.7,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "SPOT": {
+        "alpha": 0,
+        "rank": 225,
+        "totalRanked": 286,
+        "percentile": 21.3,
+        "sectorGroup": "GROWTH",
+        "quintile": 4
+      },
+      "SHEL": {
+        "alpha": -0.000003,
+        "rank": 226,
+        "totalRanked": 286,
+        "percentile": 21,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "OLED": {
+        "alpha": -0.000004,
+        "rank": 227,
+        "totalRanked": 286,
+        "percentile": 20.6,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "HSBC": {
+        "alpha": -0.00053,
+        "rank": 228,
+        "totalRanked": 286,
+        "percentile": 20.3,
+        "sectorGroup": "BROAD",
+        "quintile": 4
+      },
+      "IJR": {
+        "alpha": -0.001697,
+        "rank": 229,
+        "totalRanked": 286,
+        "percentile": 19.9,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "OTIS": {
+        "alpha": -0.001909,
+        "rank": 230,
+        "totalRanked": 286,
+        "percentile": 19.6,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "ICE": {
+        "alpha": -0.003673,
+        "rank": 231,
+        "totalRanked": 286,
+        "percentile": 19.2,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "LQD": {
+        "alpha": -0.008619,
+        "rank": 232,
+        "totalRanked": 286,
+        "percentile": 18.9,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "TD": {
+        "alpha": -0.018378,
+        "rank": 233,
+        "totalRanked": 286,
+        "percentile": 18.5,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "GSK": {
+        "alpha": -0.020691,
+        "rank": 234,
+        "totalRanked": 286,
+        "percentile": 18.2,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "PBR": {
+        "alpha": -0.022665,
+        "rank": 235,
+        "totalRanked": 286,
+        "percentile": 17.8,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "SCHA": {
+        "alpha": -0.046043,
+        "rank": 236,
+        "totalRanked": 286,
+        "percentile": 17.5,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "ALLY": {
+        "alpha": -0.046048,
+        "rank": 237,
+        "totalRanked": 286,
+        "percentile": 17.1,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "ATI": {
+        "alpha": -0.046486,
+        "rank": 238,
+        "totalRanked": 286,
+        "percentile": 16.8,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "BBD": {
+        "alpha": -0.086284,
+        "rank": 239,
+        "totalRanked": 286,
+        "percentile": 16.4,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "TM": {
+        "alpha": -0.090374,
+        "rank": 240,
+        "totalRanked": 286,
+        "percentile": 16.1,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "CFG": {
+        "alpha": -0.095566,
+        "rank": 241,
+        "totalRanked": 286,
+        "percentile": 15.7,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "FSLY": {
+        "alpha": -0.118499,
+        "rank": 242,
+        "totalRanked": 286,
+        "percentile": 15.4,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "MELI": {
+        "alpha": -0.137559,
+        "rank": 243,
+        "totalRanked": 286,
+        "percentile": 15,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "DIA": {
+        "alpha": -0.147966,
+        "rank": 244,
+        "totalRanked": 286,
+        "percentile": 14.7,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "SAIA": {
+        "alpha": -0.166613,
+        "rank": 245,
+        "totalRanked": 286,
+        "percentile": 14.3,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "CDNS": {
+        "alpha": -0.198654,
+        "rank": 246,
+        "totalRanked": 286,
+        "percentile": 14,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "VEA": {
+        "alpha": -0.215788,
+        "rank": 247,
+        "totalRanked": 286,
+        "percentile": 13.6,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "AZN": {
+        "alpha": -0.275181,
+        "rank": 248,
+        "totalRanked": 286,
+        "percentile": 13.3,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "ENPH": {
+        "alpha": -0.303724,
+        "rank": 249,
+        "totalRanked": 286,
+        "percentile": 12.9,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "CBOE": {
+        "alpha": -0.306148,
+        "rank": 250,
+        "totalRanked": 286,
+        "percentile": 12.6,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "BIIB": {
+        "alpha": -0.322184,
+        "rank": 251,
+        "totalRanked": 286,
+        "percentile": 12.2,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "NVS": {
+        "alpha": -0.345318,
+        "rank": 252,
+        "totalRanked": 286,
+        "percentile": 11.9,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "NVR": {
+        "alpha": -0.375348,
+        "rank": 253,
+        "totalRanked": 286,
+        "percentile": 11.5,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "BP": {
+        "alpha": -0.388695,
+        "rank": 254,
+        "totalRanked": 286,
+        "percentile": 11.2,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "VB": {
+        "alpha": -0.554423,
+        "rank": 255,
+        "totalRanked": 286,
+        "percentile": 10.8,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "DPZ": {
+        "alpha": -0.58493,
+        "rank": 256,
+        "totalRanked": 286,
+        "percentile": 10.5,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "EME": {
+        "alpha": -0.740312,
+        "rank": 257,
+        "totalRanked": 286,
+        "percentile": 10.1,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "EFA": {
+        "alpha": -0.778401,
+        "rank": 258,
+        "totalRanked": 286,
+        "percentile": 9.8,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "PNC": {
+        "alpha": -0.779029,
+        "rank": 259,
+        "totalRanked": 286,
+        "percentile": 9.4,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "TSM": {
+        "alpha": -0.826053,
+        "rank": 260,
+        "totalRanked": 286,
+        "percentile": 9.1,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "ALGM": {
+        "alpha": -0.843832,
+        "rank": 261,
+        "totalRanked": 286,
+        "percentile": 8.7,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "SNPS": {
+        "alpha": -0.966615,
+        "rank": 262,
+        "totalRanked": 286,
+        "percentile": 8.4,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "SPY": {
+        "alpha": -1.053722,
+        "rank": 263,
+        "totalRanked": 286,
+        "percentile": 8,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "QQQ": {
+        "alpha": -1.242922,
+        "rank": 264,
+        "totalRanked": 286,
+        "percentile": 7.7,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "MET": {
+        "alpha": -1.267348,
+        "rank": 265,
+        "totalRanked": 286,
+        "percentile": 7.3,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "MS": {
+        "alpha": -1.817705,
+        "rank": 266,
+        "totalRanked": 286,
+        "percentile": 7,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "AXP": {
+        "alpha": -1.826169,
+        "rank": 267,
+        "totalRanked": 286,
+        "percentile": 6.6,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "PRU": {
+        "alpha": -1.882706,
+        "rank": 268,
+        "totalRanked": 286,
+        "percentile": 6.3,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "FITB": {
+        "alpha": -2.062667,
+        "rank": 269,
+        "totalRanked": 286,
+        "percentile": 5.9,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "CMA": {
+        "alpha": -2.163984,
+        "rank": 270,
+        "totalRanked": 286,
+        "percentile": 5.6,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "AXON": {
+        "alpha": -2.443565,
+        "rank": 271,
+        "totalRanked": 286,
+        "percentile": 5.2,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "JPM": {
+        "alpha": -2.446784,
+        "rank": 272,
+        "totalRanked": 286,
+        "percentile": 4.9,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "AON": {
+        "alpha": -2.44977,
+        "rank": 273,
+        "totalRanked": 286,
+        "percentile": 4.5,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "RF": {
+        "alpha": -2.50437,
+        "rank": 274,
+        "totalRanked": 286,
+        "percentile": 4.2,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "KEY": {
+        "alpha": -2.630815,
+        "rank": 275,
+        "totalRanked": 286,
+        "percentile": 3.8,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "TROW": {
+        "alpha": -2.98714,
+        "rank": 276,
+        "totalRanked": 286,
+        "percentile": 3.5,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "BNTX": {
+        "alpha": -2.999896,
+        "rank": 277,
+        "totalRanked": 286,
+        "percentile": 3.1,
+        "sectorGroup": "BROAD",
+        "quintile": 5
+      },
+      "MMC": {
+        "alpha": -3.081945,
+        "rank": 278,
+        "totalRanked": 286,
+        "percentile": 2.8,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "KMX": {
+        "alpha": -3.193418,
+        "rank": 279,
+        "totalRanked": 286,
+        "percentile": 2.4,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "BX": {
+        "alpha": -3.430243,
+        "rank": 280,
+        "totalRanked": 286,
+        "percentile": 2.1,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "PGR": {
+        "alpha": -3.500138,
+        "rank": 281,
+        "totalRanked": 286,
+        "percentile": 1.7,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "CB": {
+        "alpha": -4.725756,
+        "rank": 282,
+        "totalRanked": 286,
+        "percentile": 1.4,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "GS": {
+        "alpha": -6.963527,
+        "rank": 283,
+        "totalRanked": 286,
+        "percentile": 1,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "BLK": {
+        "alpha": -7.172895,
+        "rank": 284,
+        "totalRanked": 286,
+        "percentile": 0.7,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "SPGI": {
+        "alpha": -7.656168,
+        "rank": 285,
+        "totalRanked": 286,
+        "percentile": 0.3,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      },
+      "HBAN": {
+        "alpha": -27.462305,
+        "rank": 286,
+        "totalRanked": 286,
+        "percentile": 0,
+        "sectorGroup": "FINANCE",
+        "quintile": 5
+      }
+    },
+    "updatedAt": "2026-03-06T03:41:06.330Z"
+  },
+  "iasmSignals": {
+    "timestamp": "2026-03-05T15:39:21.620517",
+    "signals": [],
+    "freshness": {
+      "ageMinutes": 421.7,
+      "isFresh": false,
+      "isStale": true,
+      "signalTime": "2026-03-05T15:39:21.620517"
+    },
+    "updatedAt": "2026-03-06T03:41:06.332Z"
+  },
+  "failedSetups": [],
+  "agentLog": [
+    {
+      "agent": "iasm",
+      "time": "14:50:20",
+      "timestamp": "2026-03-05T19:50:20.248Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "14:50:20",
+      "timestamp": "2026-03-05T19:50:20.260Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "14:50:27",
+      "timestamp": "2026-03-05T19:50:27.336Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "14:50:27",
+      "timestamp": "2026-03-05T19:50:27.948Z",
+      "action": "Monitor scan: 0 positions, 0 alerts",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "14:51:21",
+      "timestamp": "2026-03-05T19:51:21.370Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "14:52:20",
+      "timestamp": "2026-03-05T19:52:20.280Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "14:53:20",
+      "timestamp": "2026-03-05T19:53:20.288Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "14:54:20",
+      "timestamp": "2026-03-05T19:54:20.293Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "14:55:20",
+      "timestamp": "2026-03-05T19:55:20.306Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "es-micro",
+      "time": "14:55:20",
+      "timestamp": "2026-03-05T19:55:20.694Z",
+      "action": "ES: $6788.25 | Vol Gate: ACTIVE | Trades: 2",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "14:56:20",
+      "timestamp": "2026-03-05T19:56:20.320Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "14:57:21",
+      "timestamp": "2026-03-05T19:57:21.422Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "14:58:20",
+      "timestamp": "2026-03-05T19:58:20.324Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "14:59:20",
+      "timestamp": "2026-03-05T19:59:20.325Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:00:20",
+      "timestamp": "2026-03-05T20:00:20.334Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:00:31",
+      "timestamp": "2026-03-05T20:00:31.515Z",
+      "action": "LLM: No view",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:00:31",
+      "timestamp": "2026-03-05T20:00:31.517Z",
+      "action": "Scan completed",
+      "summary": "13 opps, 0 executions"
+    },
+    {
+      "agent": "iasm",
+      "time": "15:00:31",
+      "timestamp": "2026-03-05T20:00:31.688Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:00:38",
+      "timestamp": "2026-03-05T20:00:38.830Z",
+      "action": "Monitor scan: 0 positions, 0 alerts",
+      "summary": ""
+    },
+    {
+      "agent": "vol-regime",
+      "time": "15:00:40",
+      "timestamp": "2026-03-05T20:00:40.260Z",
+      "action": "Regime: NEUTRAL | Signal: none | Execution: none",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:01:20",
+      "timestamp": "2026-03-05T20:01:20.342Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:02:20",
+      "timestamp": "2026-03-05T20:02:20.351Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:03:21",
+      "timestamp": "2026-03-05T20:03:21.455Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:04:20",
+      "timestamp": "2026-03-05T20:04:20.373Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:05:20",
+      "timestamp": "2026-03-05T20:05:20.375Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "es-micro",
+      "time": "15:05:20",
+      "timestamp": "2026-03-05T20:05:20.748Z",
+      "action": "ES: $6786.00 | Vol Gate: ACTIVE | Trades: 2",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:06:20",
+      "timestamp": "2026-03-05T20:06:20.378Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:07:20",
+      "timestamp": "2026-03-05T20:07:20.387Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:08:20",
+      "timestamp": "2026-03-05T20:08:20.388Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:09:21",
+      "timestamp": "2026-03-05T20:09:21.481Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:10:20",
+      "timestamp": "2026-03-05T20:10:20.391Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:10:20",
+      "timestamp": "2026-03-05T20:10:20.398Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "15:10:27",
+      "timestamp": "2026-03-05T20:10:27.200Z",
+      "action": "Fetched 3 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:10:27",
+      "timestamp": "2026-03-05T20:10:27.703Z",
+      "action": "Monitor scan: 0 positions, 0 alerts",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:11:20",
+      "timestamp": "2026-03-05T20:11:20.403Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:12:20",
+      "timestamp": "2026-03-05T20:12:20.416Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:13:20",
+      "timestamp": "2026-03-05T20:13:20.416Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:14:20",
+      "timestamp": "2026-03-05T20:14:20.418Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:15:21",
+      "timestamp": "2026-03-05T20:15:21.520Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "quant-swing",
+      "time": "15:15:50",
+      "timestamp": "2026-03-05T20:15:50.294Z",
+      "action": "Scan: 0 buys, 0 sells from 59 symbols",
+      "summary": ""
+    },
+    {
+      "agent": "es-micro",
+      "time": "15:15:50",
+      "timestamp": "2026-03-05T20:15:50.793Z",
+      "action": "ES: $6795.50 | Vol Gate: ACTIVE | Trades: 2",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:16:20",
+      "timestamp": "2026-03-05T20:16:20.431Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:17:20",
+      "timestamp": "2026-03-05T20:17:20.443Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:18:20",
+      "timestamp": "2026-03-05T20:18:20.449Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:19:20",
+      "timestamp": "2026-03-05T20:19:20.453Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:20:20",
+      "timestamp": "2026-03-05T20:20:20.443Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:20:20",
+      "timestamp": "2026-03-05T20:20:20.454Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "15:20:27",
+      "timestamp": "2026-03-05T20:20:27.330Z",
+      "action": "Fetched 2 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:20:27",
+      "timestamp": "2026-03-05T20:20:27.879Z",
+      "action": "Monitor scan: 0 positions, 0 alerts",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:21:21",
+      "timestamp": "2026-03-05T20:21:21.553Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:22:20",
+      "timestamp": "2026-03-05T20:22:20.469Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:23:20",
+      "timestamp": "2026-03-05T20:23:20.479Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:24:20",
+      "timestamp": "2026-03-05T20:24:20.484Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:25:20",
+      "timestamp": "2026-03-05T20:25:20.498Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "es-micro",
+      "time": "15:25:20",
+      "timestamp": "2026-03-05T20:25:20.921Z",
+      "action": "ES: $6812.00 | Vol Gate: ACTIVE | Trades: 2",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:26:20",
+      "timestamp": "2026-03-05T20:26:20.499Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:27:21",
+      "timestamp": "2026-03-05T20:27:21.619Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:28:20",
+      "timestamp": "2026-03-05T20:28:20.511Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:29:20",
+      "timestamp": "2026-03-05T20:29:20.523Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:30:20",
+      "timestamp": "2026-03-05T20:30:20.529Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:30:31",
+      "timestamp": "2026-03-05T20:30:31.274Z",
+      "action": "LLM: No view",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:30:31",
+      "timestamp": "2026-03-05T20:30:31.276Z",
+      "action": "Scan completed",
+      "summary": "13 opps, 0 executions"
+    },
+    {
+      "agent": "iasm",
+      "time": "15:30:31",
+      "timestamp": "2026-03-05T20:30:31.542Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:30:38",
+      "timestamp": "2026-03-05T20:30:38.825Z",
+      "action": "Monitor scan: 0 positions, 0 alerts",
+      "summary": ""
+    },
+    {
+      "agent": "vol-regime",
+      "time": "15:30:40",
+      "timestamp": "2026-03-05T20:30:40.627Z",
+      "action": "Regime: NEUTRAL | Signal: none | Execution: none",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:31:20",
+      "timestamp": "2026-03-05T20:31:20.536Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:32:20",
+      "timestamp": "2026-03-05T20:32:20.544Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:33:21",
+      "timestamp": "2026-03-05T20:33:21.659Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:34:20",
+      "timestamp": "2026-03-05T20:34:20.574Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:35:20",
+      "timestamp": "2026-03-05T20:35:20.577Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "es-micro",
+      "time": "15:35:20",
+      "timestamp": "2026-03-05T20:35:20.944Z",
+      "action": "ES: $6823.25 | Vol Gate: ACTIVE | Trades: 2",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:36:20",
+      "timestamp": "2026-03-05T20:36:20.588Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:37:20",
+      "timestamp": "2026-03-05T20:37:20.598Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:38:20",
+      "timestamp": "2026-03-05T20:38:20.607Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:39:21",
+      "timestamp": "2026-03-05T20:39:21.708Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:40:20",
+      "timestamp": "2026-03-05T20:40:20.609Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:40:20",
+      "timestamp": "2026-03-05T20:40:20.616Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "15:40:27",
+      "timestamp": "2026-03-05T20:40:27.546Z",
+      "action": "Fetched 2 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:40:28",
+      "timestamp": "2026-03-05T20:40:28.062Z",
+      "action": "Monitor scan: 0 positions, 0 alerts",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:41:20",
+      "timestamp": "2026-03-05T20:41:20.629Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:42:20",
+      "timestamp": "2026-03-05T20:42:20.638Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:43:20",
+      "timestamp": "2026-03-05T20:43:20.645Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:44:20",
+      "timestamp": "2026-03-05T20:44:20.652Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "es-micro",
+      "time": "15:45:21",
+      "timestamp": "2026-03-05T20:45:21.034Z",
+      "action": "ES: $6821.75 | Vol Gate: ACTIVE | Trades: 2",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "15:50:20",
+      "timestamp": "2026-03-05T20:50:20.695Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "15:50:27",
+      "timestamp": "2026-03-05T20:50:27.470Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:50:28",
+      "timestamp": "2026-03-05T20:50:28.116Z",
+      "action": "Monitor scan: 0 positions, 0 alerts",
+      "summary": ""
+    },
+    {
+      "agent": "es-micro",
+      "time": "15:55:21",
+      "timestamp": "2026-03-05T20:55:21.223Z",
+      "action": "ES: $6821.25 | Vol Gate: ACTIVE | Trades: 2",
+      "summary": ""
+    },
+    {
+      "agent": "v9-macro",
+      "time": "17:54:52",
+      "timestamp": "2026-03-05T22:54:52.873Z",
+      "action": "Updated V9 alpha scores (286 symbols)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "17:54:52",
+      "timestamp": "2026-03-05T22:54:52.875Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "17:55:00",
+      "timestamp": "2026-03-05T22:55:00.759Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "20:00:55",
+      "timestamp": "2026-03-06T01:00:55.174Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "21:00:55",
+      "timestamp": "2026-03-06T02:00:55.783Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "22:00:56",
+      "timestamp": "2026-03-06T03:00:56.009Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "v9-macro",
+      "time": "22:28:13",
+      "timestamp": "2026-03-06T03:28:13.247Z",
+      "action": "Updated V9 alpha scores (286 symbols)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "22:28:13",
+      "timestamp": "2026-03-06T03:28:13.249Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "v9-macro",
+      "time": "22:41:06",
+      "timestamp": "2026-03-06T03:41:06.330Z",
+      "action": "Updated V9 alpha scores (286 symbols)",
+      "summary": ""
+    },
+    {
+      "agent": "iasm",
+      "time": "22:41:06",
+      "timestamp": "2026-03-06T03:41:06.332Z",
+      "action": "Updated IASM signals (0 signals)",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "22:41:15",
+      "timestamp": "2026-03-06T03:41:15.945Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "23:00:14",
+      "timestamp": "2026-03-06T04:00:14.279Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    }
+  ],
+  "predictionMarkets": {
+    "lastScan": "2026-03-05T17:00:40.131Z",
+    "opportunities": 0,
+    "topOpportunity": null,
+    "fomcSignal": "active",
+    "volSignalAge": null,
+    "volSignalStale": false,
+    "updatedAt": "2026-03-05T17:00:40.754Z"
+  },
+  "modelSignals": {
+    "v9_macro": {
+      "timestamp": "2026-02-17T19:35:45.671915",
+      "predictions": null,
+      "xgb_predictions": {
+        "model": "XGB + Weekly_Momentum_Kelly",
+        "description": "Best single model",
+        "predictions": [
+          {
+            "symbol": "MU",
+            "score": 0.2335924208164215,
+            "rank": 1,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "TXN",
+            "score": 0.2252911478281021,
+            "rank": 2,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "GILD",
+            "score": 0.2084713876247406,
+            "rank": 3,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "LRCX",
+            "score": 0.20041953027248383,
+            "rank": 4,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "CAT",
+            "score": 0.1997600942850113,
+            "rank": 5,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "AMAT",
+            "score": 0.19902242720127106,
+            "rank": 6,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "ADI",
+            "score": 0.19174791872501373,
+            "rank": 7,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "VZ",
+            "score": 0.17388580739498138,
+            "rank": 8,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "DE",
+            "score": 0.16777949035167694,
+            "rank": 9,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "MRK",
+            "score": 0.16146880388259888,
+            "rank": 10,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "SLB",
+            "score": 0.15738900005817413,
+            "rank": 11,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "BMY",
+            "score": 0.15143978595733643,
+            "rank": 12,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "XOM",
+            "score": 0.1480637490749359,
+            "rank": 13,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "CMCSA",
+            "score": 0.14415670931339264,
+            "rank": 14,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "EQIX",
+            "score": 0.14396421611309052,
+            "rank": 15,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "UNP",
+            "score": 0.12283109128475189,
+            "rank": 16,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "WMT",
+            "score": 0.11915399879217148,
+            "rank": 17,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "HON",
+            "score": 0.11582235991954803,
+            "rank": 18,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "JNJ",
+            "score": 0.11503306776285172,
+            "rank": 19,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "EOG",
+            "score": 0.1105666235089302,
+            "rank": 20,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "CB",
+            "score": 0.10258509963750839,
+            "rank": 21,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "REGN",
+            "score": 0.09929044544696808,
+            "rank": 22,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PEP",
+            "score": 0.09695863723754883,
+            "rank": 23,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "KO",
+            "score": 0.09252344816923141,
+            "rank": 24,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "LIN",
+            "score": 0.08995736390352249,
+            "rank": 25,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "CVX",
+            "score": 0.08918844163417816,
+            "rank": 26,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PG",
+            "score": 0.08813215792179108,
+            "rank": 27,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "AMGN",
+            "score": 0.08768628537654877,
+            "rank": 28,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PM",
+            "score": 0.08453483134508133,
+            "rank": 29,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PNC",
+            "score": 0.08310594409704208,
+            "rank": 30,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "NEE",
+            "score": 0.08298099040985107,
+            "rank": 31,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "CI",
+            "score": 0.08044213056564331,
+            "rank": 32,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "INTC",
+            "score": 0.07445690035820007,
+            "rank": 33,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PLD",
+            "score": 0.07306943833827972,
+            "rank": 34,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "MO",
+            "score": 0.07278779149055481,
+            "rank": 35,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "AMT",
+            "score": 0.07154154777526855,
+            "rank": 36,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "BA",
+            "score": 0.05757778882980347,
+            "rank": 37,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "MCD",
+            "score": 0.048398207873106,
+            "rank": 38,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "COST",
+            "score": 0.045735493302345276,
+            "rank": 39,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "MDLZ",
+            "score": 0.04515574872493744,
+            "rank": 40,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "RTX",
+            "score": 0.044731080532073975,
+            "rank": 41,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "GE",
+            "score": 0.04353783652186394,
+            "rank": 42,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "LOW",
+            "score": 0.042021241039037704,
+            "rank": 43,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "SBUX",
+            "score": 0.04016922414302826,
+            "rank": 44,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "HD",
+            "score": 0.03923645243048668,
+            "rank": 45,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "DUK",
+            "score": 0.0387304462492466,
+            "rank": 46,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "VRTX",
+            "score": 0.036187853664159775,
+            "rank": 47,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "TJX",
+            "score": 0.03216654807329178,
+            "rank": 48,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "ABBV",
+            "score": 0.031187836080789566,
+            "rank": 49,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "BRK-B",
+            "score": 0.03110170178115368,
+            "rank": 50,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "BAC",
+            "score": 0.022533614188432693,
+            "rank": 51,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "WFC",
+            "score": 0.019283639267086983,
+            "rank": 52,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "CSCO",
+            "score": 0.01792389526963234,
+            "rank": 53,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "C",
+            "score": 0.017114728689193726,
+            "rank": 54,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "SO",
+            "score": 0.015677113085985184,
+            "rank": 55,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "AAPL",
+            "score": 0.014706537127494812,
+            "rank": 56,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "NKE",
+            "score": 0.01469194795936346,
+            "rank": 57,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "PGR",
+            "score": 0.013317884877324104,
+            "rank": 58,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "APH",
+            "score": 0.010931148193776608,
+            "rank": 59,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "SYK",
+            "score": 0.0075875441543757915,
+            "rank": 60,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "ZTS",
+            "score": 0.007070528343319893,
+            "rank": 61,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "META",
+            "score": 0.0066881245002150536,
+            "rank": 62,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "LLY",
+            "score": 0.006103550083935261,
+            "rank": 63,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "CVS",
+            "score": -0.0010729760397225618,
+            "rank": 64,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "GS",
+            "score": -0.0014105915324762464,
+            "rank": 65,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "AXP",
+            "score": -0.003606443526223302,
+            "rank": 66,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "GOOGL",
+            "score": -0.008920704014599323,
+            "rank": 67,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "AVGO",
+            "score": -0.013120543211698532,
+            "rank": 68,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "JPM",
+            "score": -0.014615016989409924,
+            "rank": 69,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "BLK",
+            "score": -0.01680264063179493,
+            "rank": 70,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MS",
+            "score": -0.01960808038711548,
+            "rank": 71,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MA",
+            "score": -0.024386122822761536,
+            "rank": 72,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "NVDA",
+            "score": -0.036093469709157944,
+            "rank": 73,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "TSLA",
+            "score": -0.037663716822862625,
+            "rank": 74,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "DIS",
+            "score": -0.0383908711373806,
+            "rank": 75,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "SCHW",
+            "score": -0.03945041075348854,
+            "rank": 76,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MMC",
+            "score": -0.040128663182258606,
+            "rank": 77,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ICE",
+            "score": -0.04311062768101692,
+            "rank": 78,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "V",
+            "score": -0.051509734243154526,
+            "rank": 79,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "UNH",
+            "score": -0.07494243234395981,
+            "rank": 80,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ISRG",
+            "score": -0.08130666613578796,
+            "rank": 81,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ABT",
+            "score": -0.08625364303588867,
+            "rank": 82,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "QCOM",
+            "score": -0.09260077029466629,
+            "rank": 83,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "BX",
+            "score": -0.0976669117808342,
+            "rank": 84,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "DHR",
+            "score": -0.10531891137361526,
+            "rank": 85,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "AMD",
+            "score": -0.10962244123220444,
+            "rank": 86,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ACN",
+            "score": -0.11431723833084106,
+            "rank": 87,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "MSFT",
+            "score": -0.11668382585048676,
+            "rank": 88,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "IBM",
+            "score": -0.11802071332931519,
+            "rank": 89,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "AMZN",
+            "score": -0.12224464863538742,
+            "rank": 90,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "TMO",
+            "score": -0.1422625631093979,
+            "rank": 91,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "NFLX",
+            "score": -0.14267848432064056,
+            "rank": 92,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "SPGI",
+            "score": -0.1452653706073761,
+            "rank": 93,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ADBE",
+            "score": -0.15405447781085968,
+            "rank": 94,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ORCL",
+            "score": -0.17507599294185638,
+            "rank": 95,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "CRM",
+            "score": -0.18869848549365997,
+            "rank": 96,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "BKNG",
+            "score": -0.19772709906101227,
+            "rank": 97,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "NOW",
+            "score": -0.22109924256801605,
+            "rank": 98,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "PYPL",
+            "score": -0.22377993166446686,
+            "rank": 99,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "INTU",
+            "score": -0.24898973107337952,
+            "rank": 100,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          }
+        ],
+        "top_longs": [
+          "MU",
+          "TXN",
+          "GILD",
+          "LRCX",
+          "CAT",
+          "AMAT",
+          "ADI",
+          "VZ",
+          "DE",
+          "MRK",
+          "SLB",
+          "BMY",
+          "XOM",
+          "CMCSA",
+          "EQIX"
+        ],
+        "avoid": [
+          "ISRG",
+          "ABT",
+          "QCOM",
+          "BX",
+          "DHR",
+          "AMD",
+          "ACN",
+          "MSFT",
+          "IBM",
+          "AMZN"
+        ]
+      },
+      "ensemble_predictions": {
+        "model": "Full Ensemble (ET+RF+XGB+ENET)",
+        "description": "Consensus view",
+        "predictions": [
+          {
+            "symbol": "MU",
+            "score": 0.23372000879958385,
+            "rank": 1,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "TXN",
+            "score": 0.2176616719049149,
+            "rank": 2,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "AMAT",
+            "score": 0.20428959134889707,
+            "rank": 3,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "CAT",
+            "score": 0.20052346712300062,
+            "rank": 4,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "GILD",
+            "score": 0.1959971265707724,
+            "rank": 5,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "LRCX",
+            "score": 0.19169991372372666,
+            "rank": 6,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "ADI",
+            "score": 0.1903868753234941,
+            "rank": 7,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "VZ",
+            "score": 0.17251074906977049,
+            "rank": 8,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "DE",
+            "score": 0.16393844573925803,
+            "rank": 9,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "MRK",
+            "score": 0.15840144272462492,
+            "rank": 10,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "SLB",
+            "score": 0.1512459537800724,
+            "rank": 11,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "BMY",
+            "score": 0.14697909560481165,
+            "rank": 12,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "EQIX",
+            "score": 0.14686178638322353,
+            "rank": 13,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "XOM",
+            "score": 0.14212175081317185,
+            "rank": 14,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "CMCSA",
+            "score": 0.14160781683819917,
+            "rank": 15,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "UNP",
+            "score": 0.12286497108076774,
+            "rank": 16,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "JNJ",
+            "score": 0.12109950818748311,
+            "rank": 17,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "HON",
+            "score": 0.11916478698931697,
+            "rank": 18,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "WMT",
+            "score": 0.1182050106244853,
+            "rank": 19,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "EOG",
+            "score": 0.10775185140241425,
+            "rank": 20,
+            "quintile": 1,
+            "signal": "STRONG_BUY"
+          },
+          {
+            "symbol": "CB",
+            "score": 0.09923943571285485,
+            "rank": 21,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "KO",
+            "score": 0.09552803899329756,
+            "rank": 22,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PEP",
+            "score": 0.09548517110565902,
+            "rank": 23,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "REGN",
+            "score": 0.0946454576867784,
+            "rank": 24,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "AMGN",
+            "score": 0.0940343424322938,
+            "rank": 25,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "LIN",
+            "score": 0.09022657236125925,
+            "rank": 26,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "CVX",
+            "score": 0.0881842887741908,
+            "rank": 27,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PNC",
+            "score": 0.08702079443332979,
+            "rank": 28,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PG",
+            "score": 0.08674031456295103,
+            "rank": 29,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PM",
+            "score": 0.08408958023205282,
+            "rank": 30,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "NEE",
+            "score": 0.0840402721728804,
+            "rank": 31,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "MO",
+            "score": 0.07620763688299112,
+            "rank": 32,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "INTC",
+            "score": 0.07498884641697291,
+            "rank": 33,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "PLD",
+            "score": 0.07442078382398082,
+            "rank": 34,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "CI",
+            "score": 0.07364253803491246,
+            "rank": 35,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "AMT",
+            "score": 0.06323002774437549,
+            "rank": 36,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "BA",
+            "score": 0.05768188415964275,
+            "rank": 37,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "LOW",
+            "score": 0.05306917216864501,
+            "rank": 38,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "MCD",
+            "score": 0.05083923504497634,
+            "rank": 39,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "VRTX",
+            "score": 0.048241527140279114,
+            "rank": 40,
+            "quintile": 2,
+            "signal": "BUY"
+          },
+          {
+            "symbol": "COST",
+            "score": 0.047882635580748546,
+            "rank": 41,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "RTX",
+            "score": 0.04625242051790537,
+            "rank": 42,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "MDLZ",
+            "score": 0.044019766095150584,
+            "rank": 43,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "SBUX",
+            "score": 0.04337373075598522,
+            "rank": 44,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "DUK",
+            "score": 0.04185537546779687,
+            "rank": 45,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "GE",
+            "score": 0.03843932979742806,
+            "rank": 46,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "ABBV",
+            "score": 0.037904508370109,
+            "rank": 47,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "HD",
+            "score": 0.0351411594597662,
+            "rank": 48,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "TJX",
+            "score": 0.029548598751295903,
+            "rank": 49,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "BRK-B",
+            "score": 0.02402348832614764,
+            "rank": 50,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "SO",
+            "score": 0.018092946500801968,
+            "rank": 51,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "C",
+            "score": 0.01609411777327533,
+            "rank": 52,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "BAC",
+            "score": 0.01579130724661379,
+            "rank": 53,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "CSCO",
+            "score": 0.015492195487724307,
+            "rank": 54,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "WFC",
+            "score": 0.014529284583485838,
+            "rank": 55,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "NKE",
+            "score": 0.013532453750378152,
+            "rank": 56,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "META",
+            "score": 0.013377208791529668,
+            "rank": 57,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "PGR",
+            "score": 0.012002472764716679,
+            "rank": 58,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "AAPL",
+            "score": 0.011726370452959236,
+            "rank": 59,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "APH",
+            "score": 0.011400265672117441,
+            "rank": 60,
+            "quintile": 3,
+            "signal": "HOLD"
+          },
+          {
+            "symbol": "ZTS",
+            "score": 0.010087817347388364,
+            "rank": 61,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "SYK",
+            "score": 0.009647597110903006,
+            "rank": 62,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "LLY",
+            "score": 0.004827836043823021,
+            "rank": 63,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "GS",
+            "score": 0.003209763206160991,
+            "rank": 64,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "CVS",
+            "score": 0.0014569049869677638,
+            "rank": 65,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "JPM",
+            "score": -0.01109851715554177,
+            "rank": 66,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "GOOGL",
+            "score": -0.012317998264920502,
+            "rank": 67,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "AXP",
+            "score": -0.014776337744202835,
+            "rank": 68,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "AVGO",
+            "score": -0.02019151831340716,
+            "rank": 69,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "BLK",
+            "score": -0.021120806982322445,
+            "rank": 70,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MS",
+            "score": -0.02219175196038506,
+            "rank": 71,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MA",
+            "score": -0.026365048398236487,
+            "rank": 72,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "NVDA",
+            "score": -0.02854165661264689,
+            "rank": 73,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "TSLA",
+            "score": -0.03358874984317579,
+            "rank": 74,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "MMC",
+            "score": -0.03466425450889875,
+            "rank": 75,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "DIS",
+            "score": -0.03513129866920844,
+            "rank": 76,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "V",
+            "score": -0.041543766278958505,
+            "rank": 77,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "SCHW",
+            "score": -0.04164673409309917,
+            "rank": 78,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ICE",
+            "score": -0.047072347893019506,
+            "rank": 79,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "ISRG",
+            "score": -0.07806065970356106,
+            "rank": 80,
+            "quintile": 4,
+            "signal": "SELL"
+          },
+          {
+            "symbol": "UNH",
+            "score": -0.08126579380195992,
+            "rank": 81,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ABT",
+            "score": -0.08377071062689939,
+            "rank": 82,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "QCOM",
+            "score": -0.09540175936985468,
+            "rank": 83,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "BX",
+            "score": -0.0984208169079711,
+            "rank": 84,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "DHR",
+            "score": -0.09903933795316988,
+            "rank": 85,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "AMD",
+            "score": -0.11701795301724655,
+            "rank": 86,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "IBM",
+            "score": -0.11837154676634143,
+            "rank": 87,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "MSFT",
+            "score": -0.12220248608479402,
+            "rank": 88,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "AMZN",
+            "score": -0.12252063996632738,
+            "rank": 89,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ACN",
+            "score": -0.12320960739515047,
+            "rank": 90,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "TMO",
+            "score": -0.13813972516209372,
+            "rank": 91,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "NFLX",
+            "score": -0.14448326247670729,
+            "rank": 92,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ADBE",
+            "score": -0.1463008074039512,
+            "rank": 93,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "SPGI",
+            "score": -0.15300891819044618,
+            "rank": 94,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "ORCL",
+            "score": -0.17740540099723479,
+            "rank": 95,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "CRM",
+            "score": -0.17843347542470744,
+            "rank": 96,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "BKNG",
+            "score": -0.18019655664886836,
+            "rank": 97,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "NOW",
+            "score": -0.20791844966163162,
+            "rank": 98,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "PYPL",
+            "score": -0.22187740341303275,
+            "rank": 99,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          },
+          {
+            "symbol": "INTU",
+            "score": -0.2549028057470065,
+            "rank": 100,
+            "quintile": 5,
+            "signal": "STRONG_SELL"
+          }
+        ],
+        "top_longs": [
+          "MU",
+          "TXN",
+          "AMAT",
+          "CAT",
+          "GILD",
+          "LRCX",
+          "ADI",
+          "VZ",
+          "DE",
+          "MRK",
+          "SLB",
+          "BMY",
+          "EQIX",
+          "XOM",
+          "CMCSA"
+        ],
+        "avoid": [
+          "UNH",
+          "ABT",
+          "QCOM",
+          "BX",
+          "DHR",
+          "AMD",
+          "IBM",
+          "MSFT",
+          "AMZN",
+          "ACN"
+        ]
+      },
+      "agreement": {
+        "both_strong_buy": [
+          "ADI",
+          "AMAT",
+          "BMY",
+          "CAT",
+          "CMCSA",
+          "DE",
+          "EQIX",
+          "GILD",
+          "LRCX",
+          "MRK",
+          "MU",
+          "SLB",
+          "TXN",
+          "VZ",
+          "XOM"
+        ],
+        "both_avoid": [
+          "ABT",
+          "ACN",
+          "AMD",
+          "AMZN",
+          "BX",
+          "DHR",
+          "IBM",
+          "MSFT",
+          "QCOM"
+        ],
+        "divergent": []
+      },
+      "model_metrics": {
+        "return": "73.80%",
+        "sharpe": 3.98,
+        "max_dd": "-8.64%",
+        "period": "2023-2025 (full V9)"
+      },
+      "execution_config": "Weekly_Momentum_Kelly",
+      "next_rebalance": "2026-02-23",
+      "freshness": {
+        "ageDays": 16.1,
+        "isFresh": false,
+        "isStale": true,
+        "predictionTime": "2026-02-17T19:35:45.671915"
+      },
+      "updatedAt": "2026-03-06T03:41:05.440Z"
+    }
+  }
+}

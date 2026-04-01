@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-03-13T20:30:51.928Z",
+  "date": "2026-03-13",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90544.84,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "cash": 90544.84,
+    "buyingPower": 362179.36,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Feb 10-13 shows a dangerous pattern: large loss on Feb 10 (-$2,870), then 3 consecutive losing days through Feb 13 with escalating trade count (1 → 3 → 6 → 2) — classic revenge trading signature.",
+      "AVOID: 18 losses vs 11 wins in total history — at 37.9% win rate you cannot afford average losses to approach average wins in size.",
+      "AVOID: Multiple days with 3, 6, and 8 trades suggest overtrading when setups aren't clean — high trade count days skew negative (Feb 12: 6 trades, -$845; Feb 11: 3 trades, -$4,757)."
+    ],
+    "tomorrowRules": [
+      "VIX is still elevated (26+) and regime is NEUTRAL — require a clear catalyst or strong technical setup before entering any day trade. No setup = no trade.",
+      "Set a hard daily loss limit of $1,500 on the day trade account. If hit, close the platform for the day — do not negotiate with yourself.",
+      "If your first trade of the day loses, wait at least 30 minutes before considering a second entry. Breaking this rule was likely a factor in the Feb 10-13 drawdown sequence.",
+      "Before placing any trade, write down: entry reason, target, and stop. If you cannot articulate all three, do not enter."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades taken today in a NEUTRAL market regime with VIX elevated around recent highs (~26). Sitting out is a valid and disciplined decision when conditions don't offer a clear edge. Grade is not an A because there's no active evidence of strategy refinement or preparation work, and the cumulative record shows significant room for improvement.",
+    "keyLessons": [
+      "Patience is a position — not trading in a NEUTRAL/RISK_OFF environment with VIX at 26 is correct risk management, not missed opportunity.",
+      "Your cumulative win rate is 37.9% across 29 trades, which means your profitability depends entirely on your winners being significantly larger than your losers — review your average win size vs. average loss size immediately.",
+      "Feb 11 (-$4,757, 0/3 wins) and Feb 13 (-$2,157) back-to-back losing days suggest a pattern of continuing to trade through drawdown — identify what triggered those sessions.",
+      "Feb 6 produced $20,632 on 8 trades (3W/5L) — a losing win rate day that was hugely profitable means your best days come from letting winners run, not from being right more often. Protect that edge."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Correctly sat out today with no clear directional market regime and elevated VIX — capital preservation is active risk management.",
+        "5-day streak of $0 day-trade losses shows discipline in not forcing trades during an ambiguous macro environment.",
+        "Overall cumulative PnL is positive ($11,947) despite a sub-40% win rate, indicating awareness of asymmetric risk/reward on at least some trades."
+      ],
+      "badPatterns": [
+        "Feb 10-13 shows a dangerous pattern: large loss on Feb 10 (-$2,870), then 3 consecutive losing days through Feb 13 with escalating trade count (1 → 3 → 6 → 2) — classic revenge trading signature.",
+        "18 losses vs 11 wins in total history — at 37.9% win rate you cannot afford average losses to approach average wins in size.",
+        "Multiple days with 3, 6, and 8 trades suggest overtrading when setups aren't clean — high trade count days skew negative (Feb 12: 6 trades, -$845; Feb 11: 3 trades, -$4,757)."
+      ]
+    },
+    "tomorrowRules": [
+      "VIX is still elevated (26+) and regime is NEUTRAL — require a clear catalyst or strong technical setup before entering any day trade. No setup = no trade.",
+      "Set a hard daily loss limit of $1,500 on the day trade account. If hit, close the platform for the day — do not negotiate with yourself.",
+      "If your first trade of the day loses, wait at least 30 minutes before considering a second entry. Breaking this rule was likely a factor in the Feb 10-13 drawdown sequence.",
+      "Before placing any trade, write down: entry reason, target, and stop. If you cannot articulate all three, do not enter."
+    ],
+    "riskAssessment": "Risk management today was solid by default — no trades, no exposure. However, the historical record raises real concerns: the Feb 10-13 cluster shows $7,627 in losses over 4 days with increasing trade frequency, which is the definition of poor risk management under drawdown. The $20,632 single-period gain on Feb 6 may be masking systematic overtrading and loss-chasing behavior that will erode the account over time.",
+    "emotionalCheck": "No trades today so no emotional flags in today's session. However, the historical pattern from Feb 10-13 — escalating trade count following losses, zero wins on Feb 11 yet continuing to trade — is a textbook revenge trading sequence. This needs to be addressed structurally with hard rules, not willpower. The fact that you are now in a 5-day no-trade streak during elevated VIX may indicate overcorrection to the downside (fear/paralysis). Monitor for FOMO when volatility compresses and regime shifts back to RISK_ON."
+  },
+  "errors": []
+}

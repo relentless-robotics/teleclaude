@@ -340,7 +340,8 @@ app.get('/math-captcha', (req, res) => {
   const b = Math.floor(Math.random() * 10) + 1;
   const operators = ['+', '-', '*'];
   const op = operators[Math.floor(Math.random() * operators.length)];
-  const answer = eval(`${a} ${op} ${b}`);
+  const mathOps = { '+': (x, y) => x + y, '-': (x, y) => x - y, '*': (x, y) => x * y };
+  const answer = mathOps[op](a, b);
 
   textCaptchas.set(captchaId, { text: String(answer), created: Date.now() });
 

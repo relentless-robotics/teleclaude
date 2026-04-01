@@ -1,0 +1,401 @@
+{
+  "ticker": "MARA",
+  "downloaded": "2026-03-09T10:01:31.320773",
+  "cik": "0001507605",
+  "company_name": "MARA Holdings, Inc.",
+  "sic": "6199",
+  "sic_description": "Finance Services",
+  "filings_13f": [],
+  "filings_form4": [
+    {
+      "form": "4",
+      "date": "2026-02-24",
+      "accession": "0001493152-26-007946",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-24",
+      "accession": "0001493152-26-007944",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-24",
+      "accession": "0001493152-26-007945",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-20",
+      "accession": "0001493152-26-007662",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-20",
+      "accession": "0001493152-26-007661",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-20",
+      "accession": "0001493152-26-007660",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-19",
+      "accession": "0001493152-26-007517",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-19",
+      "accession": "0001493152-26-007516",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-19",
+      "accession": "0001493152-26-007515",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-13",
+      "accession": "0001493152-26-006858",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-13",
+      "accession": "0001493152-26-006857",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-13",
+      "accession": "0001493152-26-006856",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-13",
+      "accession": "0001493152-26-006855",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-13",
+      "accession": "0001493152-26-006854",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-13",
+      "accession": "0001493152-26-006852",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-06",
+      "accession": "0001493152-26-005663",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-06",
+      "accession": "0001493152-26-005662",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-06",
+      "accession": "0001493152-26-005661",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-03",
+      "accession": "0001493152-26-004948",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-03",
+      "accession": "0001493152-26-004949",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-03",
+      "accession": "0001493152-26-004947",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-22",
+      "accession": "0001493152-26-003275",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-09",
+      "accession": "0001493152-26-001164",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-09",
+      "accession": "0001493152-26-001163",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-09",
+      "accession": "0001493152-26-001162",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-19",
+      "accession": "0001493152-25-028616",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-17",
+      "accession": "0001493152-25-028231",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-19",
+      "accession": "0001493152-25-024352",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-19",
+      "accession": "0001493152-25-024351",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-12",
+      "accession": "0001493152-25-022044",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-10",
+      "accession": "0001493152-25-021592",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-10",
+      "accession": "0001493152-25-021590",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-04",
+      "accession": "0001493152-25-020778",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-04",
+      "accession": "0001493152-25-020777",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-04",
+      "accession": "0001493152-25-020776",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-20",
+      "accession": "0001493152-25-018703",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-17",
+      "accession": "0001493152-25-018535",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-08",
+      "accession": "0001493152-25-017491",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-08",
+      "accession": "0001493152-25-017490",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-03",
+      "accession": "0001493152-25-016971",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-03",
+      "accession": "0001493152-25-016969",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-03",
+      "accession": "0001493152-25-016967",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-09-18",
+      "accession": "0001493152-25-014118",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-09-17",
+      "accession": "0001493152-25-013932",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-09-11",
+      "accession": "0001493152-25-013106",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-09-10",
+      "accession": "0001493152-25-013014",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-19",
+      "accession": "0001641172-25-024890",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-19",
+      "accession": "0001641172-25-024889",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-08",
+      "accession": "0001641172-25-022854",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-08",
+      "accession": "0001641172-25-022851",
+      "document": "xslF345X05/ownership.xml"
+    }
+  ],
+  "yf_institutional_holders": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.154,
+      "Shares": 58557697,
+      "Value": 474317368,
+      "pctChange": 0.0191
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Vanguard Group Inc",
+      "pctHeld": 0.1228,
+      "Shares": 46706277,
+      "Value": 378320861,
+      "pctChange": 0.0308
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.0388,
+      "Shares": 14764985,
+      "Value": 119596384,
+      "pctChange": 0.0572
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Marex Group Plc",
+      "pctHeld": 0.026700001,
+      "Shares": 10137713,
+      "Value": 82115479,
+      "pctChange": 0.026199998
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.026199998,
+      "Shares": 9957766,
+      "Value": 80657908,
+      "pctChange": 0.025899999
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "UBS Group AG",
+      "pctHeld": 0.0252,
+      "Shares": 9591069,
+      "Value": 77687662,
+      "pctChange": -0.20729999
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0167,
+      "Shares": 6338225,
+      "Value": 51339624,
+      "pctChange": 0.078200005
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "NORGES BANK",
+      "pctHeld": 0.0116,
+      "Shares": 4397792,
+      "Value": 35622116,
+      "pctChange": 0.16370001
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Charles Schwab Investment Management, Inc.",
+      "pctHeld": 0.0115,
+      "Shares": 4390797,
+      "Value": 35565457,
+      "pctChange": 0.0833
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Goldman Sachs Group Inc",
+      "pctHeld": 0.0098,
+      "Shares": 3740715,
+      "Value": 30299792,
+      "pctChange": -0.1783
+    }
+  ],
+  "yf_major_holders": {
+    "Value": {
+      "insidersPercentHeld": 0.013300001,
+      "institutionsPercentHeld": 0.69246,
+      "institutionsFloatPercentHeld": 0.7018,
+      "institutionsCount": 547.0
+    }
+  }
+}

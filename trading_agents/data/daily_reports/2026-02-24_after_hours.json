@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-02-24T21:30:53.335Z",
+  "date": "2026-02-24",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90401.14,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "cash": 90401.14,
+    "buyingPower": 361604.56,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Extreme P&L concentration: one day (Feb 6) accounts for 173% of total profits — everything else net-negative",
+      "AVOID: Losing days show large individual losses (Feb 11 alone: -$4,757 on 3 trades = ~$1,586 avg loss), suggesting stops are too wide or not respected",
+      "AVOID: Low win rate (37.9%) combined with large drawdown days is a dangerous combination — requires exceptionally high reward:risk to survive long-term",
+      "AVOID: Extended non-trading period creates risk of either over-trading to 'make up' for lost time, or missing a strong setup due to residual gun-shyness"
+    ],
+    "tomorrowRules": [
+      "Before placing any trade, define your max daily loss limit explicitly — given recent -$4,757 single-day losses, set a hard stop at $500-$750 max daily loss and honor it with no exceptions",
+      "Do not trade the first 15 minutes regardless of how strong the setup looks — let the market show its hand given NEUTRAL regime transitioning",
+      "Only take setups that meet ALL of your criteria, not 'close enough' setups — your 37.9% win rate suggests you are entering marginal trades",
+      "If you take 2 losses in a row tomorrow, stop for the day. Do not attempt to recover intraday.",
+      "Before the open, write down: (1) the specific setup you are hunting, (2) your entry trigger, (3) your exact stop, (4) your target. No trades that do not match this plan."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades taken in a NEUTRAL market regime — capital was preserved, which is a valid outcome. However, this is day 6 of zero activity following a brutal losing streak (Feb 10-13: -$10,630 total). Grade penalized because extended inaction after losses often signals emotional paralysis rather than disciplined selectivity. Cannot distinguish good patience from fear-based freezing without more context.",
+    "keyLessons": [
+      "Your cumulative P&L of +$11,947 is almost entirely built on ONE day (Feb 6: +$20,632). Remove that outlier and you are deeply underwater. This is not a sustainable edge — it is variance. You must confront this honestly.",
+      "Your win rate is 37.9% across 29 trades. At that rate, your average winner must be at least 1.6x your average loser just to break even. Right now your losers are outsizing your winners on most days (Feb 10-13 wiped out nearly 2 months of gains in 4 days).",
+      "Six consecutive zero-trade days following heavy losses is a red flag. Either the market has genuinely offered nothing tradeable, or you are psychologically stuck. You need to know which one it is before tomorrow.",
+      "The VIX at 21.28 yesterday with a RISK_OFF regime the day prior signals elevated uncertainty. Sitting out choppy, elevated-volatility conditions is correct. But make sure this was an active decision, not default avoidance."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Did not force trades in a NEUTRAL regime — preserved the $90,401 day-trade account from unnecessary exposure",
+        "No revenge trading observed after the Feb 10-13 drawdown period",
+        "Current streak technically green (no losses = no red)"
+      ],
+      "badPatterns": [
+        "Extreme P&L concentration: one day (Feb 6) accounts for 173% of total profits — everything else net-negative",
+        "Losing days show large individual losses (Feb 11 alone: -$4,757 on 3 trades = ~$1,586 avg loss), suggesting stops are too wide or not respected",
+        "Low win rate (37.9%) combined with large drawdown days is a dangerous combination — requires exceptionally high reward:risk to survive long-term",
+        "Extended non-trading period creates risk of either over-trading to 'make up' for lost time, or missing a strong setup due to residual gun-shyness"
+      ]
+    },
+    "tomorrowRules": [
+      "Before placing any trade, define your max daily loss limit explicitly — given recent -$4,757 single-day losses, set a hard stop at $500-$750 max daily loss and honor it with no exceptions",
+      "Do not trade the first 15 minutes regardless of how strong the setup looks — let the market show its hand given NEUTRAL regime transitioning",
+      "Only take setups that meet ALL of your criteria, not 'close enough' setups — your 37.9% win rate suggests you are entering marginal trades",
+      "If you take 2 losses in a row tomorrow, stop for the day. Do not attempt to recover intraday.",
+      "Before the open, write down: (1) the specific setup you are hunting, (2) your entry trigger, (3) your exact stop, (4) your target. No trades that do not match this plan."
+    ],
+    "riskAssessment": "Today: risk management was effectively zero because no trades were taken — capital safe by default. Historically: risk management is the core problem in your data. The Feb 10-13 stretch shows unacceptable single-day drawdowns on small trade counts, meaning individual position sizing or stop discipline broke down. A $90K account losing $4,757 in one day on 3 trades means average loss per trade was $1,586. That is too large unless you are trading very high-conviction, wide-range setups with appropriate sizing. Review whether you held losers past your original stop on those days.",
+    "emotionalCheck": "High probability of emotional suppression rather than true neutrality. Six days of zero activity after the worst losing streak in your logged history is a textbook freeze response. You are not in revenge-trading mode, which is good — but you may be in avoidance mode, which leads to missed opportunities and then FOMO-driven poor entries when you do return. Recommended: do a written pre-market routine tomorrow to re-engage with structure and rebuild confidence through process, not outcome. One small, well-executed trade — win or lose — is worth more right now than another zero day."
+  },
+  "errors": []
+}

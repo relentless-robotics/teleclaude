@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-02-23T21:30:07.889Z",
+  "date": "2026-02-23",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90401.14,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "cash": 90401.14,
+    "buyingPower": 361604.56,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Catastrophic single-day losses: Feb 11 (-$4,757 on 3 trades, 0 wins) and Feb 10 (-$2,870 on 1 trade) — no stop discipline evident",
+      "AVOID: Feb 13: lost $2,157 the day after Feb 12's loss — classic next-day revenge pattern",
+      "AVOID: Over-reliance on one outlier day to carry P&L — not a repeatable edge, it's a survivorship distortion",
+      "AVOID: 18 losses vs 11 wins across 29 trades — losing more than winning AND losing more money than you make per trade is a compounding problem"
+    ],
+    "tomorrowRules": [
+      "Define market regime criteria before the open — only take setups if regime shifts away from NEUTRAL or a clear directional catalyst emerges",
+      "Hard max loss per trade: size positions so no single trade can lose more than 1-1.5% of account ($904-$1,356). Feb 10 and 11 violated this badly.",
+      "If you take a loss on your first trade, mandatory 30-minute pause before any second trade — breaks the revenge cycle that destroyed Feb 12-13",
+      "Write down your re-entry thesis tonight: what specific setup or market condition ends your no-trade period? Vague patience becomes avoidance without a trigger defined in advance",
+      "Daily max loss hard stop: $1,500. Feb 11's -$4,757 would have been cut to -$1,500 under this rule — that single rule change saves $3,257 on one day alone"
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades taken today in a NEUTRAL market regime, which shows discipline. Sitting out uncertain conditions is a skill. However, 6 consecutive no-trade days (Feb 18-23) raises a question: is this strategic patience or avoidance behavior following the brutal Feb 10-13 stretch (-$10,472 combined)? The inactivity itself is not penalized, but the context demands scrutiny.",
+    "keyLessons": [
+      "Your entire cumulative P&L ($11,947) is carried by a single day — Feb 6 (+$20,632). Strip that out and you are down -$8,685 on all other trading. This is a critical structural problem, not a minor issue.",
+      "Win rate of 37.9% is workable ONLY if your average winner is significantly larger than your average loser. The Feb 10-11 data (-$2,870 and -$4,757 on just 4 trades total) suggests your loss sizes are uncontrolled and dwarf your wins.",
+      "The current 6-day no-trade streak following your worst losing cluster is worth examining honestly — healthy reset or fear-driven paralysis? Either way, you need a clear re-entry criteria written down before tomorrow.",
+      "NEUTRAL market regime today was a legitimate reason to stand aside. Respecting regime is correct. Make sure this is the actual reason and not post-loss gun-shyness."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Correctly identified NEUTRAL regime and took no trades — protecting capital in low-conviction environments",
+        "Feb 6 and Feb 9 show you CAN trade well when conditions align — the skill exists",
+        "Equity base of $90,401 in day trade account suggests you have not blown up despite the losing stretch"
+      ],
+      "badPatterns": [
+        "Catastrophic single-day losses: Feb 11 (-$4,757 on 3 trades, 0 wins) and Feb 10 (-$2,870 on 1 trade) — no stop discipline evident",
+        "Feb 13: lost $2,157 the day after Feb 12's loss — classic next-day revenge pattern",
+        "Over-reliance on one outlier day to carry P&L — not a repeatable edge, it's a survivorship distortion",
+        "18 losses vs 11 wins across 29 trades — losing more than winning AND losing more money than you make per trade is a compounding problem"
+      ]
+    },
+    "tomorrowRules": [
+      "Define market regime criteria before the open — only take setups if regime shifts away from NEUTRAL or a clear directional catalyst emerges",
+      "Hard max loss per trade: size positions so no single trade can lose more than 1-1.5% of account ($904-$1,356). Feb 10 and 11 violated this badly.",
+      "If you take a loss on your first trade, mandatory 30-minute pause before any second trade — breaks the revenge cycle that destroyed Feb 12-13",
+      "Write down your re-entry thesis tonight: what specific setup or market condition ends your no-trade period? Vague patience becomes avoidance without a trigger defined in advance",
+      "Daily max loss hard stop: $1,500. Feb 11's -$4,757 would have been cut to -$1,500 under this rule — that single rule change saves $3,257 on one day alone"
+    ],
+    "riskAssessment": "Risk management today was technically perfect — $0 at risk, $0 lost. But the broader risk picture is concerning. The data shows at least two days (Feb 10, Feb 11) where position sizing or stop placement was completely absent or ignored. A 37.9% win rate is sustainable only with strict R:R discipline. Evidence suggests that discipline broke down under pressure in early February. The swing account at $4,923 also warrants a check — is that position sized appropriately for current market conditions?",
+    "emotionalCheck": "The Feb 10-13 sequence is a textbook emotional spiral: large loss on Feb 10, then 6 trades on Feb 11 with 0 wins (overtrading to recover), then two more trades on Feb 12 still losing, then back again on Feb 13. That 4-day cluster cost $10,472 and almost certainly involved revenge trading and position-size escalation. The current 6-day pause may be a necessary reset — but if it extends beyond a clear market opportunity, it flips from discipline to fear. The silence after a storm is worth respecting briefly, not indefinitely."
+  },
+  "errors": []
+}

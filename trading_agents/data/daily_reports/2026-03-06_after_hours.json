@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-03-06T21:30:04.722Z",
+  "date": "2026-03-06",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90401.14,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "cash": 90401.14,
+    "buyingPower": 361604.56,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Feb 11: 0 wins on 3 trades (-$4,757) — likely averaging down or ignoring stop losses. This single day erased multiple good days.",
+      "AVOID: Feb 13: 2 trades after a bad Feb 12 — high risk of revenge trading. One loss of ~$2,381 on that day suggests oversizing.",
+      "AVOID: Cumulative loss count (18) nearly double win count (11) — selection criteria or entry timing needs refinement"
+    ],
+    "tomorrowRules": [
+      "Check market regime before opening the platform — only engage in RISK_ON or clearly trending conditions. Vix is at 23.72, elevated — size down 25-50% from normal.",
+      "Hard daily loss limit: if down more than $1,500 in day account, close platform for the day. Feb 11's $4,757 loss is what happens without this rule.",
+      "Require 2 confluent signals before entry — regime alignment + price action setup. No single-signal trades.",
+      "If first trade of the day loses, pause 30 minutes before considering a second trade. Do not immediately re-enter to 'get it back.'"
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades today in a NEUTRAL market regime — this is actually disciplined behavior. Sitting out when conditions don't present a clear edge is a skill, not a failure. However, the underlying cumulative stats (37.9% win rate, 18 losses vs 11 wins) remain a concern that needs addressing.",
+    "keyLessons": [
+      "Discipline to stay flat in NEUTRAL market conditions is correct — not every day needs a trade. Protect capital by only engaging when the regime and setup align.",
+      "Your cumulative win rate of 37.9% is below the threshold needed to be profitable unless your average win significantly exceeds your average loss. Review your recent losing trades (Feb 10-13: -$7,627 combined) to identify if you're cutting winners too early or letting losers run.",
+      "Feb 11 (-$4,757, 0/3) and Feb 10 (-$2,870, 0/1) followed by Feb 12 (-$845, 2/6) shows a pattern of consecutive loss days — identify what market condition or personal state triggered overtrading on Feb 12 after two bad days."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Stayed flat today in a NEUTRAL regime — no forced trades, no FOMO entries",
+        "Feb 6 produced $20,632 on 8 trades (3W/5L) — large wins can overcome low win rate, but this is risky to rely on",
+        "Feb 9 was balanced: 4W/4L producing +$1,720, showing that disciplined execution with proper sizing can be profitable even at 50% win rate"
+      ],
+      "badPatterns": [
+        "Feb 11: 0 wins on 3 trades (-$4,757) — likely averaging down or ignoring stop losses. This single day erased multiple good days.",
+        "Feb 13: 2 trades after a bad Feb 12 — high risk of revenge trading. One loss of ~$2,381 on that day suggests oversizing.",
+        "Cumulative loss count (18) nearly double win count (11) — selection criteria or entry timing needs refinement"
+      ]
+    },
+    "tomorrowRules": [
+      "Check market regime before opening the platform — only engage in RISK_ON or clearly trending conditions. Vix is at 23.72, elevated — size down 25-50% from normal.",
+      "Hard daily loss limit: if down more than $1,500 in day account, close platform for the day. Feb 11's $4,757 loss is what happens without this rule.",
+      "Require 2 confluent signals before entry — regime alignment + price action setup. No single-signal trades.",
+      "If first trade of the day loses, pause 30 minutes before considering a second trade. Do not immediately re-enter to 'get it back.'"
+    ],
+    "riskAssessment": "Today: excellent — zero exposure in an unfavorable regime. Cumulative risk management is the real concern. Losing days in Feb averaged -$2,600 per losing day while winning days averaged +$2,050 per winning day, meaning losses are outpacing wins on a per-day basis. Stop losses are either too wide or not being honored.",
+    "emotionalCheck": "No trades today eliminates emotional risk for this session. However, the Feb 10-13 sequence (four consecutive losing days totaling ~-$10,472) is a red flag for a previous emotional spiral. Watch for FOMO if the market makes a strong move tomorrow — the urge to 'make back' losses from two weeks ago may still be present subconsciously. The $20,632 day on Feb 6 may also be creating unrealistic daily expectations, leading to oversizing on subsequent days."
+  },
+  "errors": []
+}

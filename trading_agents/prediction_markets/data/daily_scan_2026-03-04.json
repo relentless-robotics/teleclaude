@@ -1,0 +1,593 @@
+{
+  "scan_timestamp": "2026-03-04T05:52:35.013364+00:00",
+  "spx": 5900.0,
+  "hours": 4.0,
+  "vol_signal": {
+    "status": "MISSING",
+    "annualized_vol": 0.18,
+    "raw_prediction_pct": 18.0,
+    "z_score": 0.0,
+    "trailing_rvol_pct": 18.0,
+    "model_ic": 0.0,
+    "confidence": 0.1,
+    "horizon": "30min",
+    "source": "MISSING"
+  },
+  "fomc": {
+    "status": "OK",
+    "result": {
+      "timestamp": "2026-03-04T00:52:40.530010",
+      "cme": {
+        "date": "2026-03-04",
+        "meeting": "2026-03-18",
+        "source": "CME FedWatch (FRED-derived)",
+        "current_range_upper": 3.75,
+        "current_range_lower": 3.5,
+        "current_range_mid": 3.625,
+        "probabilities": {
+          "cut_50bp": 0.01,
+          "cut_25bp": 0.17,
+          "hold": 0.79,
+          "hike_25bp": 0.03
+        },
+        "implied_rate": 3.585,
+        "note": "Probabilities derived from FRED rate targets + macro context model"
+      },
+      "kalshi": {
+        "date": "2026-03-04",
+        "meeting": "2026-03-18",
+        "source": "Kalshi (FRED-derived + Kalshi bias)",
+        "current_range_mid": 3.625,
+        "probabilities": {
+          "cut_50bp": 0.018,
+          "cut_25bp": 0.21,
+          "hold": 0.746,
+          "hike_25bp": 0.026
+        },
+        "implied_rate": 3.57,
+        "note": "FRED-derived with empirical Kalshi dovish bias applied"
+      },
+      "divergence": {
+        "date": "2026-03-04 00:52",
+        "meeting": "2026-03-18",
+        "days_to_meeting": 13,
+        "outcomes": {
+          "cut_50bp": {
+            "cme": 0.01,
+            "kalshi": 0.018,
+            "divergence": 0.007999999999999998,
+            "abs_divergence": 0.007999999999999998
+          },
+          "cut_25bp": {
+            "cme": 0.17,
+            "kalshi": 0.21,
+            "divergence": 0.03999999999999998,
+            "abs_divergence": 0.03999999999999998
+          },
+          "hold": {
+            "cme": 0.79,
+            "kalshi": 0.746,
+            "divergence": -0.04400000000000004,
+            "abs_divergence": 0.04400000000000004
+          },
+          "hike_25bp": {
+            "cme": 0.03,
+            "kalshi": 0.026,
+            "divergence": -0.004,
+            "abs_divergence": 0.004
+          }
+        },
+        "max_divergence": 0.044,
+        "rate_divergence_bps": 1.5,
+        "signal": "NO_SIGNAL"
+      },
+      "recommendation": {
+        "action": "NO_TRADE",
+        "reason": "Markets agree \u2014 divergence: 4.4%"
+      }
+    },
+    "days_to_meeting": 13,
+    "next_meeting": "2026-03-18"
+  },
+  "brackets": {
+    "status": "OK",
+    "result": {
+      "vol_used": 0.18,
+      "vol_info": {
+        "source": "FALLBACK",
+        "confidence": 0.3,
+        "horizon": "4hr",
+        "model_ic": 0.40578942750282243
+      },
+      "n_brackets": 13,
+      "n_opportunities": 12,
+      "opportunities": [
+        {
+          "ticker": "INXD-SIM-B5825-5850",
+          "floor": 5825,
+          "cap": 5850,
+          "fair_value": 0.0679,
+          "yes_ask": 0.22,
+          "no_ask": 0.8,
+          "yes_bid": 0.2,
+          "no_bid": 0.78,
+          "edge": 0.1321,
+          "net_edge_after_fees": 0.1221,
+          "action": "SELL_YES",
+          "entry_price": 0.2,
+          "fee": 0.01
+        },
+        {
+          "ticker": "INXD-SIM-B5950-5975",
+          "floor": 5950,
+          "cap": 5975,
+          "fair_value": 0.0679,
+          "yes_ask": 0.22,
+          "no_ask": 0.8,
+          "yes_bid": 0.2,
+          "no_bid": 0.78,
+          "edge": 0.1321,
+          "net_edge_after_fees": 0.1221,
+          "action": "SELL_YES",
+          "entry_price": 0.2,
+          "fee": 0.01
+        },
+        {
+          "ticker": "INXD-SIM-B5800-5825",
+          "floor": 5800,
+          "cap": 5825,
+          "fair_value": 0.0295,
+          "yes_ask": 0.17,
+          "no_ask": 0.85,
+          "yes_bid": 0.15,
+          "no_bid": 0.83,
+          "edge": 0.1205,
+          "net_edge_after_fees": 0.1105,
+          "action": "BUY_NO",
+          "entry_price": 0.85,
+          "fee": 0.01
+        },
+        {
+          "ticker": "INXD-SIM-B5975-6000",
+          "floor": 5975,
+          "cap": 6000,
+          "fair_value": 0.0295,
+          "yes_ask": 0.17,
+          "no_ask": 0.85,
+          "yes_bid": 0.15,
+          "no_bid": 0.83,
+          "edge": 0.1205,
+          "net_edge_after_fees": 0.1105,
+          "action": "BUY_NO",
+          "entry_price": 0.85,
+          "fee": 0.01
+        },
+        {
+          "ticker": "INXD-SIM-B5850-5875",
+          "floor": 5850,
+          "cap": 5875,
+          "fair_value": 0.1442,
+          "yes_ask": 0.28,
+          "no_ask": 0.74,
+          "yes_bid": 0.26,
+          "no_bid": 0.72,
+          "edge": 0.1158,
+          "net_edge_after_fees": 0.1058,
+          "action": "SELL_YES",
+          "entry_price": 0.26,
+          "fee": 0.01
+        },
+        {
+          "ticker": "INXD-SIM-B5925-5950",
+          "floor": 5925,
+          "cap": 5950,
+          "fair_value": 0.1442,
+          "yes_ask": 0.28,
+          "no_ask": 0.74,
+          "yes_bid": 0.26,
+          "no_bid": 0.72,
+          "edge": 0.1158,
+          "net_edge_after_fees": 0.1058,
+          "action": "BUY_NO",
+          "entry_price": 0.74,
+          "fee": 0.01
+        },
+        {
+          "ticker": "INXD-SIM-B5875-5900",
+          "floor": 5875,
+          "cap": 5900,
+          "fair_value": 0.2313,
+          "yes_ask": 0.33,
+          "no_ask": 0.69,
+          "yes_bid": 0.31,
+          "no_bid": 0.67,
+          "edge": 0.0787,
+          "net_edge_after_fees": 0.0687,
+          "action": "BUY_NO",
+          "entry_price": 0.69,
+          "fee": 0.01
+        },
+        {
+          "ticker": "INXD-SIM-B5900-5925",
+          "floor": 5900,
+          "cap": 5925,
+          "fair_value": 0.2313,
+          "yes_ask": 0.33,
+          "no_ask": 0.69,
+          "yes_bid": 0.31,
+          "no_bid": 0.67,
+          "edge": 0.0787,
+          "net_edge_after_fees": 0.0687,
+          "action": "BUY_NO",
+          "entry_price": 0.69,
+          "fee": 0.01
+        },
+        {
+          "ticker": "INXD-SIM-B5775-5800",
+          "floor": 5775,
+          "cap": 5800,
+          "fair_value": 0.0132,
+          "yes_ask": 0.11,
+          "no_ask": 0.91,
+          "yes_bid": 0.09,
+          "no_bid": 0.89,
+          "edge": 0.0768,
+          "net_edge_after_fees": 0.0668,
+          "action": "SELL_YES",
+          "entry_price": 0.09,
+          "fee": 0.01
+        },
+        {
+          "ticker": "INXD-SIM-B6000-6025",
+          "floor": 6000,
+          "cap": 6025,
+          "fair_value": 0.0132,
+          "yes_ask": 0.11,
+          "no_ask": 0.91,
+          "yes_bid": 0.09,
+          "no_bid": 0.89,
+          "edge": 0.0768,
+          "net_edge_after_fees": 0.0668,
+          "action": "SELL_YES",
+          "entry_price": 0.09,
+          "fee": 0.01
+        },
+        {
+          "ticker": "INXD-SIM-B5750-5775",
+          "floor": 5750,
+          "cap": 5775,
+          "fair_value": 0.0063,
+          "yes_ask": 0.06,
+          "no_ask": 0.96,
+          "yes_bid": 0.04,
+          "no_bid": 0.94,
+          "edge": 0.0337,
+          "net_edge_after_fees": 0.0237,
+          "action": "BUY_NO",
+          "entry_price": 0.96,
+          "fee": 0.01
+        },
+        {
+          "ticker": "INXD-SIM-B6025-6050",
+          "floor": 6025,
+          "cap": 6050,
+          "fair_value": 0.0063,
+          "yes_ask": 0.06,
+          "no_ask": 0.96,
+          "yes_bid": 0.04,
+          "no_bid": 0.94,
+          "edge": 0.0337,
+          "net_edge_after_fees": 0.0237,
+          "action": "BUY_NO",
+          "entry_price": 0.96,
+          "fee": 0.01
+        }
+      ],
+      "vol_source": "auto",
+      "spx_used": 5900.0,
+      "hours_used": 4.0
+    }
+  },
+  "engine": {
+    "status": "OK",
+    "result": {
+      "timestamp": "2026-03-04T05:53:11.512938+00:00",
+      "total_opportunities": 64,
+      "strategies": {
+        "spx_bracket_vol": {
+          "count": 4,
+          "total_edge": 0.0644
+        },
+        "fomc_divergence": {
+          "count": 0,
+          "total_edge": 0
+        },
+        "event_driven_macro": {
+          "count": 0,
+          "total_edge": 0
+        },
+        "favorite_longshot": {
+          "count": 40,
+          "total_edge": 0.28590000000000004
+        },
+        "combinatorial_arb": {
+          "count": 20,
+          "total_edge": 7.4295
+        },
+        "cross_platform_arb": {
+          "count": 0,
+          "total_edge": 0
+        },
+        "political_policy": {
+          "count": 0,
+          "total_edge": 0
+        },
+        "crypto_events": {
+          "count": 0,
+          "total_edge": 0
+        }
+      },
+      "top_opportunities": [
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-the-next",
+          "probability_sum": 0.016,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.487,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-tim-walz",
+          "probability_sum": 0.017,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.4865,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-michelle-obama",
+          "probability_sum": 0.02,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.485,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-the-los",
+          "probability_sum": 0.02,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.485,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-zohran-mamdani",
+          "probability_sum": 0.022,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.484,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-tulsi-gabbard",
+          "probability_sum": 0.022,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.484,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-greg-abbott",
+          "probability_sum": 0.025,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.4825,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-vivek-ramaswamy",
+          "probability_sum": 0.028,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.481,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-elon-musk",
+          "probability_sum": 0.0295,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.4803,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-gretchen-whitmer",
+          "probability_sum": 0.03,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.48,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-the-toronto",
+          "probability_sum": 0.039,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.4755,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-alexandria-ocasio",
+          "probability_sum": 0.1415,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.4243,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-lebron-james",
+          "probability_sum": 0.0185,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.3222,
+          "action": "BUY",
+          "markets_count": 3
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-the-fed",
+          "probability_sum": 0.0265,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.3195,
+          "action": "BUY",
+          "markets_count": 3
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-kim-kardashian",
+          "probability_sum": 0.0275,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.3192,
+          "action": "BUY",
+          "markets_count": 3
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "russia-x-ukraine",
+          "probability_sum": 0.429,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.2805,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-jesus-christ",
+          "probability_sum": 0.5225,
+          "direction": "underpriced",
+          "net_edge_after_fees": 0.2338,
+          "action": "BUY",
+          "markets_count": 2
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-the-us",
+          "probability_sum": 1.3395,
+          "direction": "overpriced",
+          "net_edge_after_fees": 0.1082,
+          "action": "SELL",
+          "markets_count": 3
+        },
+        {
+          "strategy": "combinatorial_arb",
+          "weight": 0.1,
+          "platform": "polymarket",
+          "type": "probability_sum",
+          "group": "will-there-be",
+          "probability_sum": 1.165,
+          "direction": "overpriced",
+          "net_edge_after_fees": 0.0775,
+          "action": "SELL",
+          "markets_count": 2
+        },
+        {
+          "ticker": "INXD-SIM-B5875-5900",
+          "floor": 5875.0,
+          "cap": 5900.0,
+          "fair_value": 0.2313,
+          "yes_ask": 0.1997,
+          "no_ask": 0.8203,
+          "yes_bid": 0.1797,
+          "no_bid": 0.8003,
+          "edge": 0.0316,
+          "net_edge_after_fees": 0.0216,
+          "action": "BUY_YES",
+          "entry_price": 0.1997,
+          "fee": 0.01,
+          "strategy": "spx_bracket_vol",
+          "weight": 0.3,
+          "platform": "kalshi"
+        }
+      ],
+      "summary": {
+        "verdict": "OPPORTUNITIES_FOUND",
+        "actionable_count": 64,
+        "total_estimated_edge": 7.7798,
+        "avg_edge_per_trade": 0.1216,
+        "best_strategy": "combinatorial_arb",
+        "platforms": {
+          "kalshi": 4,
+          "polymarket": 60
+        },
+        "message": "64 actionable opportunities across 3 strategies. Best edge: combinatorial arb."
+      }
+    }
+  },
+  "scan_duration_seconds": 36.501573
+}

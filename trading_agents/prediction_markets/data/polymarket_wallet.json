@@ -1,0 +1,8 @@
+{
+  "address": "0xd44a5C3aa4b5223A84759EB3cd4CEC3E28c4f40A",
+  "mnemonic_hash": "973427b5efcbc5c7",
+  "created_at": "2026-03-08T20:02:27.449682+00:00",
+  "network": "polygon",
+  "chain_id": 137,
+  "note": "Private key stored in POLYMARKET_PRIVATE_KEY env var. Mnemonic printed once at setup \u2014 save it offline."
+}

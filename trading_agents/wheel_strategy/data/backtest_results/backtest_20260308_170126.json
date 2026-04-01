@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-03-08T17:01:26.335811",
+  "parameters": {
+    "capital": 10000,
+    "delta": 0.3,
+    "dte": 7,
+    "early_close": null,
+    "months": 6
+  },
+  "results": [
+    {
+      "ticker": "INTC",
+      "period": {
+        "start": "2025-09-10",
+        "end": "2026-03-06",
+        "trading_days": 123,
+        "weeks": 24.6
+      },
+      "parameters": {
+        "capital": 10000,
+        "csp_delta": 0.3,
+        "cc_delta": 0.35,
+        "target_dte": 7,
+        "early_close_pct": null,
+        "iv_source": "calibrated",
+        "base_iv": 0.7329
+      },
+      "performance": {
+        "final_value": 10724.58,
+        "total_return_pct": 7.25,
+        "cagr_pct": 15.41,
+        "weekly_yield_pct": 0.295,
+        "total_premium": 2103.38,
+        "total_commissions": 20.8,
+        "sharpe": 1.08,
+        "max_drawdown_pct": -3.99
+      },
+      "cycles": {
+        "total": 32,
+        "expired_otm": 27,
+        "assigned": 3,
+        "called_away": 2,
+        "early_closed": 0,
+        "win_rate_pct": 84.4,
+        "assignment_rate_pct": 9.4
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 75.29,
+        "buy_hold_final": 17529.27,
+        "wheel_vs_bnh_pct": -68.05
+      },
+      "final_state": {
+        "phase": "CC",
+        "shares_held": 100,
+        "cost_basis": 43.17,
+        "cash": 6382.58
+      }
+    }
+  ]
+}

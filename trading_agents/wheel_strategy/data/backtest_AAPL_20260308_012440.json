@@ -1,0 +1,280 @@
+{
+  "ticker": "AAPL",
+  "period": {
+    "start": "2025-03-19",
+    "end": "2026-03-06",
+    "trading_days": 243,
+    "months": 11.6
+  },
+  "parameters": {
+    "initial_capital": 100000,
+    "csp_delta": 0.25,
+    "cc_delta": 0.3,
+    "target_dte": 35,
+    "iv_premium": 1.2
+  },
+  "performance": {
+    "final_value": 104253.8,
+    "total_return_pct": 4.25,
+    "annualized_return_pct": 4.41,
+    "total_premium_collected": 4719.8,
+    "total_commissions": 12.0,
+    "sharpe_ratio": 1.44,
+    "max_drawdown_pct": -2.1
+  },
+  "trade_stats": {
+    "total_option_cycles": 12,
+    "assignments": 1,
+    "called_away": 0,
+    "expired_otm": 11,
+    "win_rate_pct": 91.7,
+    "avg_premium_per_cycle": 393.32
+  },
+  "benchmark": {
+    "buy_hold_return_pct": 20.14,
+    "buy_hold_final_value": 120136.65,
+    "wheel_vs_bnh_pct": -15.88
+  },
+  "current_state": {
+    "phase": "CC",
+    "shares_held": 100,
+    "cost_basis": 246.82,
+    "cash": 78507.8
+  },
+  "trades": [
+    {
+      "action": "SELL_CSP",
+      "date": "2025-03-19",
+      "ticker": "AAPL",
+      "strike": 202,
+      "premium": 3.42,
+      "delta": -0.249,
+      "iv": 0.33,
+      "stock_price": 214.31
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2025-04-23",
+      "ticker": "AAPL",
+      "type": "CSP",
+      "strike": 202,
+      "stock_price": 203.71,
+      "premium_kept": 3.42
+    },
+    {
+      "action": "SELL_CSP",
+      "date": "2025-04-23",
+      "ticker": "AAPL",
+      "strike": 179,
+      "premium": 8.44,
+      "delta": -0.251,
+      "iv": 0.786,
+      "stock_price": 203.71
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2025-05-28",
+      "ticker": "AAPL",
+      "type": "CSP",
+      "strike": 179,
+      "stock_price": 199.81,
+      "premium_kept": 8.44
+    },
+    {
+      "action": "SELL_CSP",
+      "date": "2025-05-28",
+      "ticker": "AAPL",
+      "strike": 186,
+      "premium": 3.9,
+      "delta": -0.248,
+      "iv": 0.4,
+      "stock_price": 199.81
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2025-07-02",
+      "ticker": "AAPL",
+      "type": "CSP",
+      "strike": 186,
+      "stock_price": 211.8,
+      "premium_kept": 3.9
+    },
+    {
+      "action": "SELL_CSP",
+      "date": "2025-07-02",
+      "ticker": "AAPL",
+      "strike": 203,
+      "premium": 2.78,
+      "delta": -0.262,
+      "iv": 0.256,
+      "stock_price": 211.8
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2025-08-06",
+      "ticker": "AAPL",
+      "type": "CSP",
+      "strike": 203,
+      "stock_price": 212.6,
+      "premium_kept": 2.78
+    },
+    {
+      "action": "SELL_CSP",
+      "date": "2025-08-06",
+      "ticker": "AAPL",
+      "strike": 203,
+      "premium": 2.46,
+      "delta": -0.243,
+      "iv": 0.25,
+      "stock_price": 212.6
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2025-09-10",
+      "ticker": "AAPL",
+      "type": "CSP",
+      "strike": 203,
+      "stock_price": 226.36,
+      "premium_kept": 2.46
+    },
+    {
+      "action": "SELL_CSP",
+      "date": "2025-09-10",
+      "ticker": "AAPL",
+      "strike": 213,
+      "premium": 3.91,
+      "delta": -0.254,
+      "iv": 0.348,
+      "stock_price": 226.36
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2025-10-14",
+      "ticker": "AAPL",
+      "type": "CSP",
+      "strike": 213,
+      "stock_price": 247.3,
+      "premium_kept": 3.91
+    },
+    {
+      "action": "SELL_CSP",
+      "date": "2025-10-14",
+      "ticker": "AAPL",
+      "strike": 234,
+      "premium": 3.87,
+      "delta": -0.254,
+      "iv": 0.316,
+      "stock_price": 247.3
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2025-11-17",
+      "ticker": "AAPL",
+      "type": "CSP",
+      "strike": 234,
+      "stock_price": 267.21,
+      "premium_kept": 3.87
+    },
+    {
+      "action": "SELL_CSP",
+      "date": "2025-11-17",
+      "ticker": "AAPL",
+      "strike": 255,
+      "premium": 3.24,
+      "delta": -0.246,
+      "iv": 0.257,
+      "stock_price": 267.21
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2025-12-22",
+      "ticker": "AAPL",
+      "type": "CSP",
+      "strike": 255,
+      "stock_price": 270.72,
+      "premium_kept": 3.24
+    },
+    {
+      "action": "SELL_CSP",
+      "date": "2025-12-22",
+      "ticker": "AAPL",
+      "strike": 262,
+      "premium": 2.28,
+      "delta": -0.244,
+      "iv": 0.182,
+      "stock_price": 270.72
+    },
+    {
+      "action": "ASSIGNED",
+      "date": "2026-01-28",
+      "ticker": "AAPL",
+      "strike": 262,
+      "stock_price": 256.2,
+      "cost_basis": 259.72,
+      "shares": 100
+    },
+    {
+      "action": "SELL_CC",
+      "date": "2026-01-28",
+      "ticker": "AAPL",
+      "strike": 267,
+      "premium": 2.88,
+      "delta": 0.293,
+      "iv": 0.204,
+      "stock_price": 256.2,
+      "cost_basis": 259.72
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2026-03-04",
+      "ticker": "AAPL",
+      "type": "CC",
+      "strike": 267,
+      "stock_price": 262.52,
+      "premium_kept": 2.88,
+      "new_cost_basis": 256.84
+    },
+    {
+      "action": "SELL_CC",
+      "date": "2026-03-04",
+      "ticker": "AAPL",
+      "strike": 280,
+      "premium": 5.18,
+      "delta": 0.306,
+      "iv": 0.344,
+      "stock_price": 262.52,
+      "cost_basis": 256.84
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2026-03-06",
+      "ticker": "AAPL",
+      "type": "CC",
+      "strike": 280,
+      "stock_price": 257.46,
+      "premium_kept": 5.18,
+      "new_cost_basis": 251.66
+    },
+    {
+      "action": "SELL_CC",
+      "date": "2026-03-06",
+      "ticker": "AAPL",
+      "strike": 276,
+      "premium": 4.84,
+      "delta": 0.293,
+      "iv": 0.349,
+      "stock_price": 257.46,
+      "cost_basis": 251.66
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2026-03-06",
+      "ticker": "AAPL",
+      "type": "CC",
+      "strike": 276,
+      "stock_price": 257.46,
+      "premium_kept": 4.84,
+      "new_cost_basis": 246.82
+    }
+  ]
+}

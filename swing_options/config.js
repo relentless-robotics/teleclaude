@@ -13,14 +13,15 @@ module.exports = {
             rateLimit: 300 // calls per minute (Pro tier)
         },
         fred: {
-            key: '09ec97a79c3e93445b817f2614956697',
+            key: process.env.FRED_API_KEY || '09ec97a79c3e93445b817f2614956697', // Use env var first, fallback to hardcoded
             baseUrl: 'https://api.stlouisfed.org/fred',
             rateLimit: 120
         },
         alphaVantage: {
             key: process.env.ALPHA_VANTAGE_KEY || 'demo', // Get free key at alphavantage.co
             baseUrl: 'https://www.alphavantage.co/query',
-            rateLimit: 5 // 5 calls/min on free tier, 75/min on premium
+            rateLimit: 5, // 5 calls/min on free tier, 75/min on premium
+            isDemo: (process.env.ALPHA_VANTAGE_KEY || 'demo') === 'demo'
         },
         finnhub: {
             key: process.env.FINNHUB_KEY || '', // Get free key at finnhub.io

@@ -1,0 +1,11 @@
+{
+  "ticker": "USO",
+  "downloaded": "2026-03-09T09:57:34.982359",
+  "dividends": [],
+  "splits": [
+    {
+      "date": "2020-04-29",
+      "ratio": 0.125
+    }
+  ]
+}

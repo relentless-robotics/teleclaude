@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-03-10T20:30:28.571Z",
+  "date": "2026-03-10",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90532.94,
+    "dailyPL": 22,
+    "dailyPLPct": 0.02430645400434467,
+    "cash": 90596.94,
+    "buyingPower": 330387.76,
+    "positionCount": 1,
+    "posWinners": 1,
+    "posLosers": 0,
+    "biggestWinner": {
+      "symbol": "INTC260320P00040000",
+      "pct": 70.37
+    },
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 7,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [],
+    "tomorrowRules": []
+  },
+  "dailyLessons": null,
+  "errors": []
+}

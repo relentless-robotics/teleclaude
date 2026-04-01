@@ -1,0 +1,25 @@
+{
+  "ticker": "SQ",
+  "downloaded": "2026-03-09T09:47:23.740164",
+  "income_quarterly": null,
+  "income_annual": null,
+  "balance_quarterly": null,
+  "balance_annual": null,
+  "cashflow_quarterly": null,
+  "cashflow_annual": null,
+  "info": {
+    "quoteType": "NONE",
+    "symbol": "SQ",
+    "language": "en-US",
+    "region": "US",
+    "triggerable": false,
+    "customPriceAlertConfidence": "NONE",
+    "tradeable": false,
+    "cryptoTradeable": false,
+    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "financialCurrency": "USD",
+    "trailingPegRatio": null
+  },
+  "recommendations": null
+}

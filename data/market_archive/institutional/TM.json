@@ -1,0 +1,228 @@
+{
+  "ticker": "TM",
+  "downloaded": "2026-03-09T10:03:02.576605",
+  "cik": "0001094517",
+  "company_name": "TOYOTA MOTOR CORP/",
+  "sic": "3711",
+  "sic_description": "Motor Vehicles & Passenger Car Bodies",
+  "filings_13f": [
+    {
+      "form": "13F-HR",
+      "date": "2026-02-13",
+      "accession": "0000947871-26-000142",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2026-02-13",
+      "accession": "0000947871-26-000137",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2026-02-13",
+      "accession": "0000947871-26-000136",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2026-02-13",
+      "accession": "0000947871-26-000135",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2026-02-13",
+      "accession": "0000947871-26-000134",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2026-02-13",
+      "accession": "0000947871-26-000133",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2026-02-13",
+      "accession": "0000947871-26-000132",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2026-02-13",
+      "accession": "0000947871-26-000131",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR/A",
+      "date": "2026-02-13",
+      "accession": "0000947871-26-000130",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-11-05",
+      "accession": "0000947871-25-000949",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-08-07",
+      "accession": "0000947871-25-000723",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-05-13",
+      "accession": "0000947871-25-000500",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-04-17",
+      "accession": "0000947871-25-000414",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-04-17",
+      "accession": "0000947871-25-000413",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-04-17",
+      "accession": "0000947871-25-000412",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-04-17",
+      "accession": "0000947871-25-000411",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-04-17",
+      "accession": "0000947871-25-000410",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-04-17",
+      "accession": "0000947871-25-000409",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-04-17",
+      "accession": "0000947871-25-000408",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "form": "13F-HR",
+      "date": "2025-04-17",
+      "accession": "0000947871-25-000407",
+      "document": "xslForm13F_X02/primary_doc.xml"
+    }
+  ],
+  "filings_form4": [
+    {
+      "form": "4",
+      "date": "2025-05-27",
+      "accession": "0000947871-25-000568",
+      "document": "xslF345X05/ownership.xml"
+    }
+  ],
+  "yf_institutional_holders": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Fisher Asset Management, LLC",
+      "pctHeld": 0.0044,
+      "Shares": 6995672,
+      "Value": 1504594134,
+      "pctChange": 0.0125
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0015,
+      "Shares": 2421645,
+      "Value": 520835290,
+      "pctChange": 0.1303
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Goldman Sachs Group Inc",
+      "pctHeld": 0.0007,
+      "Shares": 1149698,
+      "Value": 247271293,
+      "pctChange": -0.0629
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Northern Trust Corporation",
+      "pctHeld": 0.0007,
+      "Shares": 1047133,
+      "Value": 225212126,
+      "pctChange": -0.0041
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.00059999997,
+      "Shares": 893741,
+      "Value": 192221342,
+      "pctChange": 0.0070999996
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Bank of America Corporation",
+      "pctHeld": 0.00059999997,
+      "Shares": 928662,
+      "Value": 199731976,
+      "pctChange": -0.3664
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "FMR, LLC",
+      "pctHeld": 0.00059999997,
+      "Shares": 883462,
+      "Value": 190010586,
+      "pctChange": 0.14039999
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Natixis Advisors, LLC",
+      "pctHeld": 0.00029999999,
+      "Shares": 532334,
+      "Value": 114491733,
+      "pctChange": 0.1432
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Stifel Financial Corporation",
+      "pctHeld": 0.00029999999,
+      "Shares": 439107,
+      "Value": 94440936,
+      "pctChange": 0.045300003
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Clark Capital Management Group, Inc.",
+      "pctHeld": 0.00029999999,
+      "Shares": 424296,
+      "Value": 91255460,
+      "pctChange": 0.2841
+    }
+  ],
+  "yf_major_holders": {
+    "Value": {
+      "insidersPercentHeld": 0.0,
+      "institutionsPercentHeld": 0.01859,
+      "institutionsFloatPercentHeld": 0.01859,
+      "institutionsCount": 798.0
+    }
+  }
+}

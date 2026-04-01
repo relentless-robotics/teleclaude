@@ -1,0 +1,169 @@
+{
+  "ticker": "COIN",
+  "downloaded": "2026-03-09T09:53:26.299159",
+  "earnings_dates": [
+    {
+      "date": "2026-05-07 16:00:00-04:00",
+      "EPS Estimate": 0.5,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "date": "2026-02-12 16:00:00-05:00",
+      "EPS Estimate": 0.94,
+      "Reported EPS": -2.49,
+      "Surprise(%)": -364.89
+    },
+    {
+      "date": "2025-10-30 16:00:00-04:00",
+      "EPS Estimate": 1.13,
+      "Reported EPS": 1.5,
+      "Surprise(%)": 32.96
+    },
+    {
+      "date": "2025-07-31 16:00:00-04:00",
+      "EPS Estimate": 1.49,
+      "Reported EPS": 5.14,
+      "Surprise(%)": 245.59
+    },
+    {
+      "date": "2025-05-08 16:00:00-04:00",
+      "EPS Estimate": 1.9,
+      "Reported EPS": 0.24,
+      "Surprise(%)": -87.38
+    },
+    {
+      "date": "2025-02-13 16:00:00-05:00",
+      "EPS Estimate": 2.04,
+      "Reported EPS": 4.68,
+      "Surprise(%)": 128.96
+    },
+    {
+      "date": "2024-10-30 16:00:00-04:00",
+      "EPS Estimate": 0.42,
+      "Reported EPS": 0.28,
+      "Surprise(%)": -33.33
+    },
+    {
+      "date": "2024-08-01 16:00:00-04:00",
+      "EPS Estimate": 0.8,
+      "Reported EPS": 0.14,
+      "Surprise(%)": -82.45
+    },
+    {
+      "date": "2024-05-02 16:00:00-04:00",
+      "EPS Estimate": 1.27,
+      "Reported EPS": 4.4,
+      "Surprise(%)": 245.1
+    },
+    {
+      "date": "2024-02-15 16:00:00-05:00",
+      "EPS Estimate": 0.2,
+      "Reported EPS": 1.04,
+      "Surprise(%)": 420.0
+    },
+    {
+      "date": "2023-11-02 16:00:00-04:00",
+      "EPS Estimate": -0.53,
+      "Reported EPS": -0.01,
+      "Surprise(%)": 98.13
+    },
+    {
+      "date": "2023-08-03 16:00:00-04:00",
+      "EPS Estimate": -0.76,
+      "Reported EPS": -0.42,
+      "Surprise(%)": 44.98
+    },
+    {
+      "date": "2023-05-04 16:00:00-04:00",
+      "EPS Estimate": -1.76,
+      "Reported EPS": -0.34,
+      "Surprise(%)": 80.68
+    },
+    {
+      "date": "2023-02-21 16:00:00-05:00",
+      "EPS Estimate": -1.41,
+      "Reported EPS": -2.65,
+      "Surprise(%)": -88.88
+    },
+    {
+      "date": "2022-11-03 16:00:00-04:00",
+      "EPS Estimate": -1.47,
+      "Reported EPS": -2.15,
+      "Surprise(%)": -45.79
+    },
+    {
+      "date": "2022-08-09 16:00:00-04:00",
+      "EPS Estimate": -1.23,
+      "Reported EPS": -2.43,
+      "Surprise(%)": -96.6
+    },
+    {
+      "date": "2022-05-10 16:00:00-04:00",
+      "EPS Estimate": 0.91,
+      "Reported EPS": -1.25,
+      "Surprise(%)": -237.69
+    },
+    {
+      "date": "2022-02-24 16:00:00-05:00",
+      "EPS Estimate": 2.25,
+      "Reported EPS": 3.35,
+      "Surprise(%)": 48.53
+    },
+    {
+      "date": "2021-11-09 16:00:00-05:00",
+      "EPS Estimate": 1.72,
+      "Reported EPS": 1.85,
+      "Surprise(%)": 7.6
+    },
+    {
+      "date": "2021-08-10 16:00:00-04:00",
+      "EPS Estimate": 2.69,
+      "Reported EPS": 6.78,
+      "Surprise(%)": 152.23
+    },
+    {
+      "date": "2021-05-13 16:00:00-04:00",
+      "EPS Estimate": 3.2,
+      "Reported EPS": 3.05,
+      "Surprise(%)": -4.51
+    }
+  ],
+  "earnings_history": {
+    "epsActual": {
+      "2025-03-31 00:00:00": 0.24,
+      "2025-06-30 00:00:00": 5.14,
+      "2025-09-30 00:00:00": 1.5,
+      "2025-12-31 00:00:00": -2.49
+    },
+    "epsEstimate": {
+      "2025-03-31 00:00:00": 1.90116,
+      "2025-06-30 00:00:00": 1.48733,
+      "2025-09-30 00:00:00": 1.12817,
+      "2025-12-31 00:00:00": 0.94
+    },
+    "epsDifference": {
+      "2025-03-31 00:00:00": -1.66,
+      "2025-06-30 00:00:00": 3.65,
+      "2025-09-30 00:00:00": 0.37,
+      "2025-12-31 00:00:00": -3.43
+    },
+    "surprisePercent": {
+      "2025-03-31 00:00:00": -0.8738,
+      "2025-06-30 00:00:00": 2.4559,
+      "2025-09-30 00:00:00": 0.32959998,
+      "2025-12-31 00:00:00": -3.6489
+    }
+  },
+  "calendar": {
+    "Earnings Date": [
+      "2026-05-07"
+    ],
+    "Earnings High": 0.96,
+    "Earnings Low": 0.18,
+    "Earnings Average": 0.4983,
+    "Revenue High": 1771700000,
+    "Revenue Low": 1439000000,
+    "Revenue Average": 1582536230
+  }
+}

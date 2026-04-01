@@ -1,0 +1,158 @@
+{
+  "ticker": "SQ",
+  "downloaded": "2026-03-09T09:52:24.598325",
+  "earnings_dates": [
+    {
+      "date": "2024-11-07 16:00:00-05:00",
+      "EPS Estimate": 0.89,
+      "Reported EPS": 0.88,
+      "Surprise(%)": -1.33
+    },
+    {
+      "date": "2024-08-01 16:00:00-04:00",
+      "EPS Estimate": 0.84,
+      "Reported EPS": 0.93,
+      "Surprise(%)": 11.36
+    },
+    {
+      "date": "2024-05-02 16:00:00-04:00",
+      "EPS Estimate": 0.73,
+      "Reported EPS": 0.85,
+      "Surprise(%)": 16.43
+    },
+    {
+      "date": "2024-02-22 16:00:00-05:00",
+      "EPS Estimate": 0.57,
+      "Reported EPS": 0.45,
+      "Surprise(%)": -21.07
+    },
+    {
+      "date": "2023-11-02 16:00:00-04:00",
+      "EPS Estimate": 0.46,
+      "Reported EPS": 0.55,
+      "Surprise(%)": 18.75
+    },
+    {
+      "date": "2023-08-03 16:00:00-04:00",
+      "EPS Estimate": 0.37,
+      "Reported EPS": 0.39,
+      "Surprise(%)": 5.66
+    },
+    {
+      "date": "2023-05-04 16:00:00-04:00",
+      "EPS Estimate": 0.34,
+      "Reported EPS": 0.4,
+      "Surprise(%)": 17.42
+    },
+    {
+      "date": "2023-02-23 16:00:00-05:00",
+      "EPS Estimate": 0.3,
+      "Reported EPS": 0.22,
+      "Surprise(%)": -27.01
+    },
+    {
+      "date": "2022-11-03 16:00:00-04:00",
+      "EPS Estimate": 0.23,
+      "Reported EPS": 0.42,
+      "Surprise(%)": 83.29
+    },
+    {
+      "date": "2022-08-04 16:00:00-04:00",
+      "EPS Estimate": 0.16,
+      "Reported EPS": 0.18,
+      "Surprise(%)": 12.25
+    },
+    {
+      "date": "2022-05-05 16:00:00-04:00",
+      "EPS Estimate": 0.2,
+      "Reported EPS": 0.18,
+      "Surprise(%)": -10.62
+    },
+    {
+      "date": "2022-02-24 16:00:00-05:00",
+      "EPS Estimate": 0.23,
+      "Reported EPS": 0.27,
+      "Surprise(%)": 16.23
+    },
+    {
+      "date": "2021-11-04 21:00:00-04:00",
+      "EPS Estimate": 0.38,
+      "Reported EPS": 0.37,
+      "Surprise(%)": -3.04
+    },
+    {
+      "date": "2021-08-02 06:00:00-04:00",
+      "EPS Estimate": 0.31,
+      "Reported EPS": 0.66,
+      "Surprise(%)": 113.04
+    },
+    {
+      "date": "2021-05-06 16:00:00-04:00",
+      "EPS Estimate": 0.16,
+      "Reported EPS": 0.41,
+      "Surprise(%)": 149.85
+    },
+    {
+      "date": "2021-02-23 16:00:00-05:00",
+      "EPS Estimate": 0.24,
+      "Reported EPS": 0.32,
+      "Surprise(%)": 33.27
+    },
+    {
+      "date": "2020-11-05 16:00:00-05:00",
+      "EPS Estimate": 0.16,
+      "Reported EPS": 0.34,
+      "Surprise(%)": 112.74
+    },
+    {
+      "date": "2020-08-05 06:00:00-04:00",
+      "EPS Estimate": -0.05,
+      "Reported EPS": 0.18,
+      "Surprise(%)": 453.43
+    },
+    {
+      "date": "2020-05-06 16:00:00-04:00",
+      "EPS Estimate": 0.13,
+      "Reported EPS": -0.02,
+      "Surprise(%)": -115.59
+    },
+    {
+      "date": "2020-02-26 16:00:00-05:00",
+      "EPS Estimate": 0.21,
+      "Reported EPS": 0.23,
+      "Surprise(%)": 9.82
+    },
+    {
+      "date": "2019-11-06 16:00:00-05:00",
+      "EPS Estimate": 0.2,
+      "Reported EPS": 0.25,
+      "Surprise(%)": 23.48
+    },
+    {
+      "date": "2019-08-01 16:00:00-04:00",
+      "EPS Estimate": 0.16,
+      "Reported EPS": 0.21,
+      "Surprise(%)": 28.68
+    },
+    {
+      "date": "2019-05-01 16:00:00-04:00",
+      "EPS Estimate": 0.08,
+      "Reported EPS": 0.11,
+      "Surprise(%)": 40.45
+    },
+    {
+      "date": "2019-02-27 16:00:00-05:00",
+      "EPS Estimate": 0.13,
+      "Reported EPS": 0.14,
+      "Surprise(%)": 3.91
+    },
+    {
+      "date": "2018-11-07 16:00:00-05:00",
+      "EPS Estimate": 0.11,
+      "Reported EPS": 0.13,
+      "Surprise(%)": 16.45
+    }
+  ],
+  "earnings_history": null,
+  "calendar": {}
+}

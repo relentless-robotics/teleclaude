@@ -1,0 +1,61 @@
+{
+  "name": "Dr. Theta",
+  "role": "Execution Research — fill sim validation, TP/SL optimization, Monte Carlo, risk metrics",
+  "node_primary": "jupiter",
+  "node_secondary": "neptune",
+  "context": {
+    "fill_sim_validated": {
+      "best_config": "A_tp13_sl40_t050",
+      "best_pnl": 14110,
+      "best_sortino": 2.2,
+      "best_pf": 1.07,
+      "monte_carlo_pass": false,
+      "sortino_p5": -0.5,
+      "prob_ruin": 0.08
+    },
+    "key_findings": [
+      "TP13/SL40 is ONLY profitable config across 79 days",
+      "ALL time-decay SL variants lose money",
+      "ALL trailing stop variants lose money",
+      "Threshold 0.5 doubles PnL vs 1.0 (+$14K vs +$7K)",
+      "LONG side profitable (+$8,290), SHORT negative (-$1,344)",
+      "Fails Monte Carlo (Sortino p5 negative, prob ruin 8%)",
+      "Per-card optimization not yet done"
+    ],
+    "next_experiments": [
+      "Per-card TP/SL optimization through fill sim",
+      "Signal-strength position sizing (bigger on strong signals)",
+      "Time-of-day weighting",
+      "Regime filtering (sit out unfavorable periods)",
+      "Run MBO strategy signals through fill sim when available",
+      "Monte Carlo on per-card results",
+      "Conviction-based threshold sweep per card"
+    ]
+  },
+  "task_queue": [],
+  "completed_experiments": [],
+  "iteration_history": [],
+  "daily_logs": [
+    {
+      "date": "2026-03-26",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-03-30",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-03-31",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-04-01",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    }
+  ],
+  "last_consolidation": "2026-04-01"
+}

@@ -1,0 +1,68 @@
+{
+  "collected_at": "2026-03-08T17:03:34.547718",
+  "months": 12,
+  "tickers": [
+    "INTC",
+    "SOFI",
+    "PLTR",
+    "HOOD",
+    "DAL",
+    "AAL",
+    "RIVN",
+    "AMD",
+    "BAC",
+    "C"
+  ],
+  "summary": {
+    "INTC": {
+      "days": 292,
+      "iv_source": "alpaca_calibrated",
+      "calibrated_iv": 0.7329
+    },
+    "SOFI": {
+      "days": 292,
+      "iv_source": "alpaca_calibrated",
+      "calibrated_iv": 0.751
+    },
+    "PLTR": {
+      "days": 292,
+      "iv_source": "alpaca_calibrated",
+      "calibrated_iv": 0.6293
+    },
+    "HOOD": {
+      "days": 292,
+      "iv_source": "alpaca_calibrated",
+      "calibrated_iv": 0.7659
+    },
+    "DAL": {
+      "days": 292,
+      "iv_source": "alpaca_calibrated",
+      "calibrated_iv": 0.679
+    },
+    "AAL": {
+      "days": 292,
+      "iv_source": "alpaca_calibrated",
+      "calibrated_iv": 0.7252
+    },
+    "RIVN": {
+      "days": 292,
+      "iv_source": "alpaca_calibrated",
+      "calibrated_iv": 0.7632
+    },
+    "AMD": {
+      "days": 292,
+      "iv_source": "alpaca_calibrated",
+      "calibrated_iv": 0.6957
+    },
+    "BAC": {
+      "days": 292,
+      "iv_source": "alpaca_calibrated",
+      "calibrated_iv": 0.4043
+    },
+    "C": {
+      "days": 292,
+      "iv_source": "alpaca_calibrated",
+      "calibrated_iv": 0.465
+    }
+  }
+}

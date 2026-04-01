@@ -1,0 +1,11 @@
+{
+  "ticker": "SLV",
+  "downloaded": "2026-03-09T09:57:32.780873",
+  "dividends": [],
+  "splits": [
+    {
+      "date": "2008-07-24",
+      "ratio": 10.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "ticker": "PYPL",
+  "downloaded": "2026-03-09T09:56:21.248270",
+  "dividends": [
+    {
+      "date": "2025-11-19",
+      "dividend": 0.14
+    },
+    {
+      "date": "2026-03-04",
+      "dividend": 0.14
+    }
+  ],
+  "splits": []
+}

@@ -1,0 +1,39 @@
+{
+  "gamingMode": false,
+  "machines": {
+    "pc": {
+      "name": "PC",
+      "host": "localhost",
+      "capabilities": [
+        "gpu",
+        "cpu",
+        "fast_single_thread"
+      ],
+      "gpu": "RTX 3090",
+      "ram_gb": 34,
+      "status": "available",
+      "maxConcurrent": 1,
+      "activeJobs": []
+    },
+    "server": {
+      "name": "Jupiter",
+      "host_env": "JUPITER_HOST",
+      "username_env": "JUPITER_USER",
+      "password_env": "JUPITER_PASS",
+      "capabilities": [
+        "cpu",
+        "high_ram"
+      ],
+      "gpu": null,
+      "ram_gb": 46,
+      "status": "available",
+      "maxConcurrent": 2,
+      "activeJobs": []
+    }
+  },
+  "queue": [],
+  "running": {},
+  "completed": {},
+  "failed": {},
+  "lastUpdated": "2026-02-22T22:14:17.209Z"
+}

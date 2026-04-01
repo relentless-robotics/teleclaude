@@ -1,0 +1,22 @@
+{
+  "enabledMcpjsonServers": [
+    "discord",
+    "memory",
+    "qcc"
+  ],
+  "enableAllProjectMcpServers": true,
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash scripts/startup_infra.sh",
+            "timeout": 30,
+            "statusMessage": "Starting infrastructure (PM2, QCC, Ray)..."
+          }
+        ]
+      }
+    ]
+  }
+}

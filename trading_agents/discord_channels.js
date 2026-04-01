@@ -54,6 +54,12 @@ const CHANNEL_KEY_MAP = {
   research: 'general',
   optionsFlow: 'alerts',
   mainChat: 'general',
+  macrostrategyV9: 'macrostrategyV9',
+  iasmSignals: 'iasmSignals',
+  security: 'security',
+  memoryHealth: 'memoryHealth',
+  predictionMarkets: 'predictionMarkets',
+  wheelStrategy: 'wheelStrategy',
 };
 
 /**
@@ -153,13 +159,46 @@ class DiscordChannels {
   }
 
   /**
+   * Load webhooks from file (no-op, uses REST API instead)
+   */
+  loadWebhooksFromFile() {
+    // REST API with bot token is used instead of webhooks
+  }
+
+  /**
    * Send to a specific channel by key name
    */
   async send(channel, message) {
+    // Hot-reload channel IDs on every send so file changes take effect without restart
+    loadChannelIds();
     const configKey = CHANNEL_KEY_MAP[channel] || channel;
     const channelId = channelIds[configKey];
 
-    // 1. Try direct Discord REST API (primary method)
+    // Channels that must NEVER fall back to general/DM — dedicated channel or silence
+    const channelOnlyKeys = new Set([
+      'memoryHealth', 'security', 'systemStatus', 'iasmSignals', 'macrostrategyV9',
+      'pnl', 'tradeExecutions', 'alerts', 'swingScanner', 'preMarket',
+      'afterHours', 'overnight', 'predictionMarkets', 'wheelStrategy',
+    ]);
+    const isChannelOnly = channelOnlyKeys.has(configKey);
+
+    // 1. channelOnly check FIRST — these channels NEVER fall through to DM/general
+    //    regardless of REST API success or failure
+    if (isChannelOnly) {
+      if (botToken && channelId) {
+        try {
+          await sendToChannelById(channelId, message);
+          return { success: true, method: 'rest-api', channel: configKey };
+        } catch (e) {
+          console.error(`[discord_channels] REST API failed for ${configKey} (channelOnly, NOT falling back):`, e.message);
+        }
+      }
+      // channelOnly: console-only if REST failed or unavailable — NEVER fallback to DM
+      console.log(`[${configKey}] (channelOnly, no delivery) ${message.slice(0, 120)}`);
+      return { success: false, method: 'console-only', channel: configKey };
+    }
+
+    // 2. Non-channelOnly: try REST API first
     if (botToken && channelId) {
       try {
         await sendToChannelById(channelId, message);
@@ -169,14 +208,14 @@ class DiscordChannels {
       }
     }
 
-    // 2. Fallback to main send function (DM)
+    // 3. Fallback to main send function (DM) — only for general/mainChat messages
     if (this.fallbackSend) {
       const prefix = this.getChannelPrefix(channel);
       await this.fallbackSend(`${prefix}\n${message}`);
       return { success: true, method: 'fallback-dm', channel: configKey };
     }
 
-    // 3. Console only
+    // 4. Console only
     console.log(`[${channel}] ${message}`);
     return { success: true, method: 'console', channel: configKey };
   }
@@ -199,6 +238,12 @@ class DiscordChannels {
       research: '📚 **[RESEARCH]**',
       optionsFlow: '🎯 **[OPTIONS]**',
       errors: '❌ **[ERROR]**',
+      macrostrategyV9: '🧬 **[MACRO V9]**',
+      iasmSignals: '⚡ **[IASM]**',
+      security: '🔒 **[SECURITY]**',
+      memoryHealth: '🧠 **[MEMORY HEALTH]**',
+      predictionMarkets: '🎲 **[PREDICTION MARKETS]**',
+      wheelStrategy: '🎡 **[WHEEL STRATEGY]**',
     };
     return prefixes[channel] || `[${channel.toUpperCase()}]`;
   }
@@ -219,6 +264,10 @@ class DiscordChannels {
   async research(message) { return this.send('research', message); }
   async optionsFlow(message) { return this.send('optionsFlow', message); }
   async error(message) { return this.send('errors', message); }
+  async macrostrategyV9(message) { return this.send('macrostrategyV9', message); }
+  async iasmSignals(message) { return this.send('iasmSignals', message); }
+  async predictionMarkets(message) { return this.send('predictionMarkets', message); }
+  async wheelStrategy(message) { return this.send('wheelStrategy', message); }
 
   /**
    * Check connectivity

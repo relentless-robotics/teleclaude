@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-02-11T21:30:53.434Z",
+  "date": "2026-02-11",
+  "dailySummary": {
+    "equity": 4923.84,
+    "dailyPL": -21.56999999999971,
+    "dailyPLPct": -0.436162016900514,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.84
+  },
+  "dayTradeSummary": {
+    "equity": 98548.47,
+    "dailyPL": -2120.5599999999977,
+    "dailyPLPct": -2.106467103139861,
+    "cash": 98548.47,
+    "buyingPower": 402675.56,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 5,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 20,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Impatience: Waiting only 11 minutes past your own 'wait until 10 AM' rule shows you know the theory but can't execute the patience",
+      "AVOID: Confirmation bias: At 10:02 you saw 'market structure improving' and 'MU showing strength' but ignored that it was still consolidating, not breaking out",
+      "AVOID: Tight stops on high IV: 11% stop loss on 86.6% IV options is asking to get stopped out by noise, not thesis invalidation",
+      "AVOID: Pattern repetition: Gap-and-fade losses on consecutive days (2/10 and 2/11) means you're not adapting your strategy to market behavior"
+    ],
+    "tomorrowRules": [
+      "NO TRADES before 10:30 AM on gap-up days (>1% SPY/QQQ). This isn't negotiable. Set a hard timer. Your 10:02 entry today proves you can't trust yourself to 'feel' when it's safe.",
+      "Gap-up entries require pullback confirmation: If market gaps >1%, wait for first pullback to VWAP or previous resistance, then enter on the bounce. No entries into elevated prices. MU at $398 after gapping was elevated, not pulled back.",
+      "Match stop width to IV: For options with IV >70%, use 15-20% stops minimum, or trade smaller size. Your 11% stop on 86.6% IV was structural mismatch.",
+      "Two-loss rule: After two consecutive red days, reduce position size by 50% on day three. You're down -$7,627 in 2 days (7.7% of account). That's not variance, that's a strategy problem. Tomorrow should be half-size positions until you prove you can read opening action correctly.",
+      "Write down 'I will not chase gaps' on your desk. You've now lost money on gap-chasing two days in a row. This is becoming a expensive bad habit."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "D",
+    "gradingReason": "Three consecutive stop-outs with -$4,757 loss. Two-day losing streak now at -$7,627. The pattern is clear: chasing gap-ups during opening range volatility. You acknowledged the mistake at 9:51 AM ('got stopped out...entered too early into the gap') but then made the EXACT same error again at 10:02 AM. That's not learning, that's repeating.",
+    "keyLessons": [
+      "Opening range violation: You knew at 9:51 that 'OPENING RANGE phase is trappy' and needed to 'wait for cleaner action after 10 AM', yet entered MU at 10:02 - barely past the danger zone. The opening range extends to 10:15-10:30 AM for gap-up days. You jumped the gun by 13-28 minutes.",
+      "Gap-and-fade is a pattern, not bad luck: This is the second day you've been caught in gap fades (yesterday NVDA -$2,870, today MU/AMD/FOA -$4,757). Strong gaps need 30-60 minutes to establish whether they'll hold or fade. Your 10:02 entry was premature - MU was still in consolidation mode, not confirmed strength.",
+      "Stop placement reveals overconfidence: MU stop at $9.00 on a $10.15 entry (11% risk) for a 0DTE option with 86.6% IV is too tight. You got stopped out at exactly $9.00 at 10:12 - just 10 minutes after entry. High IV options need wider stops or you're paying premium to get shaken out by normal volatility.",
+      "Entry timing contradiction: Your reasoning log shows awareness ('no more chasing gaps, waiting for pullbacks to VWAP or support') but your actions show the opposite. Where was the pullback to VWAP? MU was still elevated from the gap. You entered into strength, not weakness."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Self-awareness at 9:51 AM - you correctly identified the trap and knew to wait",
+        "Recognized the gap-and-fade pattern from your morning losses (NVDA, MU early stops)"
+      ],
+      "badPatterns": [
+        "Impatience: Waiting only 11 minutes past your own 'wait until 10 AM' rule shows you know the theory but can't execute the patience",
+        "Confirmation bias: At 10:02 you saw 'market structure improving' and 'MU showing strength' but ignored that it was still consolidating, not breaking out",
+        "Tight stops on high IV: 11% stop loss on 86.6% IV options is asking to get stopped out by noise, not thesis invalidation",
+        "Pattern repetition: Gap-and-fade losses on consecutive days (2/10 and 2/11) means you're not adapting your strategy to market behavior"
+      ]
+    },
+    "tomorrowRules": [
+      "NO TRADES before 10:30 AM on gap-up days (>1% SPY/QQQ). This isn't negotiable. Set a hard timer. Your 10:02 entry today proves you can't trust yourself to 'feel' when it's safe.",
+      "Gap-up entries require pullback confirmation: If market gaps >1%, wait for first pullback to VWAP or previous resistance, then enter on the bounce. No entries into elevated prices. MU at $398 after gapping was elevated, not pulled back.",
+      "Match stop width to IV: For options with IV >70%, use 15-20% stops minimum, or trade smaller size. Your 11% stop on 86.6% IV was structural mismatch.",
+      "Two-loss rule: After two consecutive red days, reduce position size by 50% on day three. You're down -$7,627 in 2 days (7.7% of account). That's not variance, that's a strategy problem. Tomorrow should be half-size positions until you prove you can read opening action correctly.",
+      "Write down 'I will not chase gaps' on your desk. You've now lost money on gap-chasing two days in a row. This is becoming a expensive bad habit."
+    ],
+    "riskAssessment": "Poor. The 2-day loss of -$7,627 (7.7% of $98,548 account) is approaching drawdown territory. More concerning is the pattern: you're taking the same trade (gap-up semiconductor calls in opening range) that keeps losing. Risk management isn't just stop placement - it's avoiding setups that aren't working. You haven't adapted. Also, three separate positions today suggests you're spreading capital across multiple gap plays instead of focusing on one high-conviction setup.",
+    "emotionalCheck": "Signs of impatience and FOMO. The 10:02 entry shows you couldn't wait the full 30 minutes you knew you needed. You saw the gap, knew it was dangerous, waited barely 11 minutes past your own rule, then jumped in anyway. That's not discipline breakdown - that's knowing the right thing but choosing to do the wrong thing because you didn't want to miss the move. The revenge trading isn't overt, but entering three positions today after yesterday's -$2,870 loss suggests you're trying to 'get it back' rather than waiting for the perfect setup. You're trading to make money, not waiting to make money. Fix that tomorrow."
+  },
+  "errors": []
+}

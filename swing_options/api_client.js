@@ -94,6 +94,11 @@ const alphaVantage = {
     key: config.apis.alphaVantage.key || 'demo',
 
     async _get(params) {
+        // Warn if using demo key
+        if (this.key === 'demo') {
+            console.warn('⚠️ WARNING: Alpha Vantage using demo API key - data may be unreliable');
+        }
+
         const queryParams = new URLSearchParams({ ...params, apikey: this.key });
         const url = `${this.baseUrl}?${queryParams}`;
         return cachedRequest(`av:${JSON.stringify(params)}`, url);

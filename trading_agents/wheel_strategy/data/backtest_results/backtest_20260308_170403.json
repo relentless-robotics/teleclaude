@@ -1,0 +1,492 @@
+{
+  "timestamp": "2026-03-08T17:04:03.381133",
+  "parameters": {
+    "capital": 10000,
+    "delta": 0.3,
+    "dte": 7,
+    "early_close": null,
+    "months": 12
+  },
+  "results": [
+    {
+      "ticker": "INTC",
+      "period": {
+        "start": "2025-03-13",
+        "end": "2026-03-06",
+        "trading_days": 247,
+        "weeks": 49.4
+      },
+      "parameters": {
+        "capital": 10000,
+        "csp_delta": 0.3,
+        "cc_delta": 0.35,
+        "target_dte": 7,
+        "early_close_pct": null,
+        "iv_source": "calibrated",
+        "base_iv": 0.7329
+      },
+      "performance": {
+        "final_value": 11270.67,
+        "total_return_pct": 12.71,
+        "cagr_pct": 12.98,
+        "weekly_yield_pct": 0.257,
+        "total_premium": 3119.62,
+        "total_commissions": 40.95,
+        "sharpe": 1.1,
+        "max_drawdown_pct": -4.17
+      },
+      "cycles": {
+        "total": 63,
+        "expired_otm": 50,
+        "assigned": 7,
+        "called_away": 6,
+        "early_closed": 0,
+        "win_rate_pct": 79.4,
+        "assignment_rate_pct": 11.1
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 83.21,
+        "buy_hold_final": 18320.67,
+        "wheel_vs_bnh_pct": -70.5
+      },
+      "final_state": {
+        "phase": "CC",
+        "shares_held": 100,
+        "cost_basis": 43.17,
+        "cash": 6928.67
+      }
+    },
+    {
+      "ticker": "SOFI",
+      "period": {
+        "start": "2025-03-13",
+        "end": "2026-03-06",
+        "trading_days": 247,
+        "weeks": 49.4
+      },
+      "parameters": {
+        "capital": 10000,
+        "csp_delta": 0.3,
+        "cc_delta": 0.35,
+        "target_dte": 7,
+        "early_close_pct": null,
+        "iv_source": "calibrated",
+        "base_iv": 0.751
+      },
+      "performance": {
+        "final_value": 11765.47,
+        "total_return_pct": 17.65,
+        "cagr_pct": 18.04,
+        "weekly_yield_pct": 0.357,
+        "total_premium": 3066.42,
+        "total_commissions": 40.95,
+        "sharpe": 2.27,
+        "max_drawdown_pct": -4.91
+      },
+      "cycles": {
+        "total": 63,
+        "expired_otm": 50,
+        "assigned": 7,
+        "called_away": 6,
+        "early_closed": 0,
+        "win_rate_pct": 79.4,
+        "assignment_rate_pct": 11.1
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 65.94,
+        "buy_hold_final": 16593.5,
+        "wheel_vs_bnh_pct": -48.28
+      },
+      "final_state": {
+        "phase": "CC",
+        "shares_held": 100,
+        "cost_basis": 22.17,
+        "cash": 9875.47
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "period": {
+        "start": "2025-03-13",
+        "end": "2026-03-06",
+        "trading_days": 247,
+        "weeks": 49.4
+      },
+      "parameters": {
+        "capital": 10000,
+        "csp_delta": 0.3,
+        "cc_delta": 0.35,
+        "target_dte": 7,
+        "early_close_pct": null,
+        "iv_source": "calibrated",
+        "base_iv": 0.6293
+      },
+      "performance": {
+        "final_value": 10630.92,
+        "total_return_pct": 6.31,
+        "cagr_pct": 6.44,
+        "weekly_yield_pct": 0.128,
+        "total_premium": 1986.77,
+        "total_commissions": 5.85,
+        "sharpe": 0.3,
+        "max_drawdown_pct": -12.88
+      },
+      "cycles": {
+        "total": 9,
+        "expired_otm": 7,
+        "assigned": 1,
+        "called_away": 1,
+        "early_closed": 0,
+        "win_rate_pct": 77.8,
+        "assignment_rate_pct": 11.1
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 97.39,
+        "buy_hold_final": 19738.76,
+        "wheel_vs_bnh_pct": -91.08
+      },
+      "final_state": {
+        "phase": "CSP",
+        "shares_held": 0,
+        "cost_basis": 0.0,
+        "cash": 10630.92
+      }
+    },
+    {
+      "ticker": "HOOD",
+      "period": {
+        "start": "2025-03-13",
+        "end": "2026-03-06",
+        "trading_days": 247,
+        "weeks": 49.4
+      },
+      "parameters": {
+        "capital": 10000,
+        "csp_delta": 0.3,
+        "cc_delta": 0.35,
+        "target_dte": 7,
+        "early_close_pct": null,
+        "iv_source": "calibrated",
+        "base_iv": 0.7659
+      },
+      "performance": {
+        "final_value": 11203.72,
+        "total_return_pct": 12.04,
+        "cagr_pct": 12.3,
+        "weekly_yield_pct": 0.244,
+        "total_premium": 8441.42,
+        "total_commissions": 37.7,
+        "sharpe": 0.48,
+        "max_drawdown_pct": -30.36
+      },
+      "cycles": {
+        "total": 58,
+        "expired_otm": 46,
+        "assigned": 6,
+        "called_away": 6,
+        "early_closed": 0,
+        "win_rate_pct": 79.3,
+        "assignment_rate_pct": 10.3
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 114.02,
+        "buy_hold_final": 21402.0,
+        "wheel_vs_bnh_pct": -101.98
+      },
+      "final_state": {
+        "phase": "CSP",
+        "shares_held": 0,
+        "cost_basis": 0.0,
+        "cash": 11203.72
+      }
+    },
+    {
+      "ticker": "DAL",
+      "period": {
+        "start": "2025-03-13",
+        "end": "2026-03-06",
+        "trading_days": 247,
+        "weeks": 49.4
+      },
+      "parameters": {
+        "capital": 10000,
+        "csp_delta": 0.3,
+        "cc_delta": 0.35,
+        "target_dte": 7,
+        "early_close_pct": null,
+        "iv_source": "calibrated",
+        "base_iv": 0.679
+      },
+      "performance": {
+        "final_value": 14652.72,
+        "total_return_pct": 46.53,
+        "cagr_pct": 47.66,
+        "weekly_yield_pct": 0.942,
+        "total_premium": 5942.67,
+        "total_commissions": 40.95,
+        "sharpe": 2.37,
+        "max_drawdown_pct": -7.91
+      },
+      "cycles": {
+        "total": 63,
+        "expired_otm": 50,
+        "assigned": 7,
+        "called_away": 6,
+        "early_closed": 0,
+        "win_rate_pct": 79.4,
+        "assignment_rate_pct": 11.1
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 36.01,
+        "buy_hold_final": 13600.93,
+        "wheel_vs_bnh_pct": 10.52
+      },
+      "final_state": {
+        "phase": "CC",
+        "shares_held": 100,
+        "cost_basis": 64.23,
+        "cash": 8751.72
+      }
+    },
+    {
+      "ticker": "AAL",
+      "period": {
+        "start": "2025-03-13",
+        "end": "2026-03-06",
+        "trading_days": 247,
+        "weeks": 49.4
+      },
+      "parameters": {
+        "capital": 10000,
+        "csp_delta": 0.3,
+        "cc_delta": 0.35,
+        "target_dte": 7,
+        "early_close_pct": null,
+        "iv_source": "calibrated",
+        "base_iv": 0.7252
+      },
+      "performance": {
+        "final_value": 10828.4,
+        "total_return_pct": 8.28,
+        "cagr_pct": 8.46,
+        "weekly_yield_pct": 0.168,
+        "total_premium": 1451.35,
+        "total_commissions": 40.95,
+        "sharpe": 1.54,
+        "max_drawdown_pct": -2.51
+      },
+      "cycles": {
+        "total": 63,
+        "expired_otm": 50,
+        "assigned": 7,
+        "called_away": 6,
+        "early_closed": 0,
+        "win_rate_pct": 79.4,
+        "assignment_rate_pct": 11.1
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 4.78,
+        "buy_hold_final": 10477.98,
+        "wheel_vs_bnh_pct": 3.5
+      },
+      "final_state": {
+        "phase": "CC",
+        "shares_held": 100,
+        "cost_basis": 12.71,
+        "cash": 9710.4
+      }
+    },
+    {
+      "ticker": "RIVN",
+      "period": {
+        "start": "2025-03-13",
+        "end": "2026-03-06",
+        "trading_days": 247,
+        "weeks": 49.4
+      },
+      "parameters": {
+        "capital": 10000,
+        "csp_delta": 0.3,
+        "cc_delta": 0.35,
+        "target_dte": 7,
+        "early_close_pct": null,
+        "iv_source": "calibrated",
+        "base_iv": 0.7632
+      },
+      "performance": {
+        "final_value": 10192.91,
+        "total_return_pct": 1.93,
+        "cagr_pct": 1.97,
+        "weekly_yield_pct": 0.039,
+        "total_premium": 1396.86,
+        "total_commissions": 40.95,
+        "sharpe": 0.36,
+        "max_drawdown_pct": -3.86
+      },
+      "cycles": {
+        "total": 63,
+        "expired_otm": 48,
+        "assigned": 8,
+        "called_away": 7,
+        "early_closed": 0,
+        "win_rate_pct": 76.2,
+        "assignment_rate_pct": 12.7
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 44.86,
+        "buy_hold_final": 14486.33,
+        "wheel_vs_bnh_pct": -42.93
+      },
+      "final_state": {
+        "phase": "CC",
+        "shares_held": 100,
+        "cost_basis": 14.93,
+        "cash": 8655.91
+      }
+    },
+    {
+      "ticker": "AMD",
+      "period": {
+        "start": "2025-03-13",
+        "end": "2026-03-06",
+        "trading_days": 247,
+        "weeks": 49.4
+      },
+      "parameters": {
+        "capital": 10000,
+        "csp_delta": 0.3,
+        "cc_delta": 0.35,
+        "target_dte": 7,
+        "early_close_pct": null,
+        "iv_source": "calibrated",
+        "base_iv": 0.6957
+      },
+      "performance": {
+        "final_value": 12676.63,
+        "total_return_pct": 26.77,
+        "cagr_pct": 27.38,
+        "weekly_yield_pct": 0.542,
+        "total_premium": 2537.03,
+        "total_commissions": 10.4,
+        "sharpe": 0.9,
+        "max_drawdown_pct": -20.41
+      },
+      "cycles": {
+        "total": 16,
+        "expired_otm": 10,
+        "assigned": 3,
+        "called_away": 3,
+        "early_closed": 0,
+        "win_rate_pct": 62.5,
+        "assignment_rate_pct": 18.8
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 96.14,
+        "buy_hold_final": 19613.7,
+        "wheel_vs_bnh_pct": -69.37
+      },
+      "final_state": {
+        "phase": "CSP",
+        "shares_held": 0,
+        "cost_basis": 0.0,
+        "cash": 12676.63
+      }
+    },
+    {
+      "ticker": "BAC",
+      "period": {
+        "start": "2025-03-13",
+        "end": "2026-03-06",
+        "trading_days": 247,
+        "weeks": 49.4
+      },
+      "parameters": {
+        "capital": 10000,
+        "csp_delta": 0.3,
+        "cc_delta": 0.35,
+        "target_dte": 7,
+        "early_close_pct": null,
+        "iv_source": "calibrated",
+        "base_iv": 0.4043
+      },
+      "performance": {
+        "final_value": 11814.17,
+        "total_return_pct": 18.14,
+        "cagr_pct": 18.54,
+        "weekly_yield_pct": 0.367,
+        "total_premium": 2641.12,
+        "total_commissions": 40.95,
+        "sharpe": 1.78,
+        "max_drawdown_pct": -6.48
+      },
+      "cycles": {
+        "total": 63,
+        "expired_otm": 46,
+        "assigned": 9,
+        "called_away": 8,
+        "early_closed": 0,
+        "win_rate_pct": 73.0,
+        "assignment_rate_pct": 14.3
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 25.37,
+        "buy_hold_final": 12536.93,
+        "wheel_vs_bnh_pct": -7.23
+      },
+      "final_state": {
+        "phase": "CC",
+        "shares_held": 100,
+        "cost_basis": 51.9,
+        "cash": 6950.17
+      }
+    },
+    {
+      "ticker": "C",
+      "period": {
+        "start": "2025-03-13",
+        "end": "2026-03-06",
+        "trading_days": 247,
+        "weeks": 49.4
+      },
+      "parameters": {
+        "capital": 10000,
+        "csp_delta": 0.3,
+        "cc_delta": 0.35,
+        "target_dte": 7,
+        "early_close_pct": null,
+        "iv_source": "calibrated",
+        "base_iv": 0.465
+      },
+      "performance": {
+        "final_value": 13016.59,
+        "total_return_pct": 30.17,
+        "cagr_pct": 30.86,
+        "weekly_yield_pct": 0.611,
+        "total_premium": 5354.54,
+        "total_commissions": 40.95,
+        "sharpe": 1.5,
+        "max_drawdown_pct": -11.94
+      },
+      "cycles": {
+        "total": 63,
+        "expired_otm": 46,
+        "assigned": 9,
+        "called_away": 8,
+        "early_closed": 0,
+        "win_rate_pct": 73.0,
+        "assignment_rate_pct": 14.3
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 61.73,
+        "buy_hold_final": 16173.22,
+        "wheel_vs_bnh_pct": -31.57
+      },
+      "final_state": {
+        "phase": "CC",
+        "shares_held": 100,
+        "cost_basis": 107.36,
+        "cash": 2363.59
+      }
+    }
+  ]
+}

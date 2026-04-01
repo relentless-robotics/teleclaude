@@ -1,0 +1,56 @@
+{
+  "name": "Dr. Alpha",
+  "role": "Model Research — architecture search, training optimization, feature engineering for models",
+  "node_primary": "uranus",
+  "node_secondary": "neptune",
+  "context": {
+    "current_best_model": "Standard CNN win20, IC=0.137 (4 feat baseline)",
+    "registry_best": "Window 100 standard CNN, IC=0.201 (61 WF folds)",
+    "wider_cnn_wf": "IC=0.175 avg, fold 74/167, running on Neptune",
+    "key_findings": [
+      "4 raw book features: CNN IC=0.137",
+      "42 enriched features via MLP: IC=0.121 (below baseline)",
+      "Flat enriched features kill CNN spatial: IC=0.095",
+      "Temporal features (vol, momentum) complement CNN per LightGBM",
+      "25 days training optimal, 90 days overfits",
+      "3 epochs optimal before overfitting",
+      "num_workers=16 mandatory for Uranus",
+      "E4 Transformer crashed — needs lazy window dataset"
+    ],
+    "next_experiments": [
+      "Fix E4 lazy window dataset and rerun Transformer",
+      "Test raw features direct to Transformer (no MLP compression)",
+      "CNN + raw features concat → Transformer (v4 approach)",
+      "Wider CNN with 16 features (trade proxies added)",
+      "Window 100 with proper num_workers (the registry best)",
+      "Expanding window with decay weighting",
+      "60-day training window for Transformer"
+    ]
+  },
+  "task_queue": [],
+  "completed_experiments": [],
+  "iteration_history": [],
+  "daily_logs": [
+    {
+      "date": "2026-03-26",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-03-30",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-03-31",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    },
+    {
+      "date": "2026-04-01",
+      "note": "Overnight consolidation complete. Check experiment_results table for indexed results.",
+      "automated": true
+    }
+  ],
+  "last_consolidation": "2026-04-01"
+}

@@ -1,0 +1,401 @@
+{
+  "ticker": "PYPL",
+  "downloaded": "2026-03-09T10:00:10.061215",
+  "cik": "0001633917",
+  "company_name": "PayPal Holdings, Inc.",
+  "sic": "7389",
+  "sic_description": "Services-Business Services, NEC",
+  "filings_13f": [],
+  "filings_form4": [
+    {
+      "form": "4",
+      "date": "2026-03-04",
+      "accession": "0001633917-26-000052",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-03-04",
+      "accession": "0001633917-26-000050",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-03-04",
+      "accession": "0001633917-26-000048",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-03-03",
+      "accession": "0001633917-26-000046",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-03-03",
+      "accession": "0001633917-26-000044",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-03-03",
+      "accession": "0001633917-26-000042",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-03-03",
+      "accession": "0001633917-26-000040",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-03-03",
+      "accession": "0001633917-26-000038",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-03-03",
+      "accession": "0001633917-26-000036",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-03-03",
+      "accession": "0001633917-26-000034",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-03-03",
+      "accession": "0001193125-26-089168",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-19",
+      "accession": "0001633917-26-000032",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-18",
+      "accession": "0001633917-26-000030",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-17",
+      "accession": "0001633917-26-000028",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-09",
+      "accession": "0001633917-26-000026",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-02-04",
+      "accession": "0001193125-26-037471",
+      "document": "xslF345X05/ownership.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-16",
+      "accession": "0001633917-26-000016",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-16",
+      "accession": "0001633917-26-000014",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-16",
+      "accession": "0001633917-26-000012",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-16",
+      "accession": "0001633917-26-000010",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-16",
+      "accession": "0001633917-26-000008",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-05",
+      "accession": "0001633917-26-000006",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-05",
+      "accession": "0001633917-26-000004",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2026-01-05",
+      "accession": "0001633917-26-000002",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-16",
+      "accession": "0001633917-25-000217",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-16",
+      "accession": "0001633917-25-000215",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-12-01",
+      "accession": "0001633917-25-000213",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-20",
+      "accession": "0001633917-25-000211",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-17",
+      "accession": "0001633917-25-000209",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-12",
+      "accession": "0001633917-25-000207",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-11-04",
+      "accession": "0001633917-25-000205",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-31",
+      "accession": "0001633917-25-000203",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-31",
+      "accession": "0001633917-25-000201",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-31",
+      "accession": "0001633917-25-000199",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-16",
+      "accession": "0001633917-25-000190",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-16",
+      "accession": "0001633917-25-000188",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-16",
+      "accession": "0001633917-25-000186",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-16",
+      "accession": "0001633917-25-000184",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-10-16",
+      "accession": "0001633917-25-000182",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-09-15",
+      "accession": "0001633917-25-000180",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-09-15",
+      "accession": "0001633917-25-000178",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-09-02",
+      "accession": "0001633917-25-000175",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-20",
+      "accession": "0001633917-25-000173",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-18",
+      "accession": "0001633917-25-000171",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-01",
+      "accession": "0001633917-25-000167",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-08-01",
+      "accession": "0001633917-25-000166",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-16",
+      "accession": "0001633917-25-000147",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-16",
+      "accession": "0001633917-25-000145",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-16",
+      "accession": "0001633917-25-000143",
+      "document": "xslF345X05/edgardoc.xml"
+    },
+    {
+      "form": "4",
+      "date": "2025-07-16",
+      "accession": "0001633917-25-000141",
+      "document": "xslF345X05/edgardoc.xml"
+    }
+  ],
+  "yf_institutional_holders": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Vanguard Group Inc",
+      "pctHeld": 0.09819999,
+      "Shares": 90376927,
+      "Value": 4096786266,
+      "pctChange": 0.0652
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.0792,
+      "Shares": 72943220,
+      "Value": 3306516296,
+      "pctChange": -0.0214
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.0464,
+      "Shares": 42760937,
+      "Value": 1938353352,
+      "pctChange": -0.0107
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Capital Research Global Investors",
+      "pctHeld": 0.0295,
+      "Shares": 27131594,
+      "Value": 1229875205,
+      "pctChange": -0.0294
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Comprehensive Financial Management, LLC",
+      "pctHeld": 0.028499998,
+      "Shares": 26219118,
+      "Value": 1188512666,
+      "pctChange": -0.0332
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.0233,
+      "Shares": 21472335,
+      "Value": 973340984,
+      "pctChange": -0.0135
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "NORGES BANK",
+      "pctHeld": 0.0177,
+      "Shares": 16268558,
+      "Value": 737453763,
+      "pctChange": 0.312
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Bank of America Corporation",
+      "pctHeld": 0.0166,
+      "Shares": 15258464,
+      "Value": 691666201,
+      "pctChange": 0.2569
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.015700001,
+      "Shares": 14466364,
+      "Value": 655760306,
+      "pctChange": -0.0318
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Invesco Ltd.",
+      "pctHeld": 0.013300001,
+      "Shares": 12215792,
+      "Value": 553741873,
+      "pctChange": 0.097399995
+    }
+  ],
+  "yf_major_holders": {
+    "Value": {
+      "insidersPercentHeld": 0.0014,
+      "institutionsPercentHeld": 0.82302004,
+      "institutionsFloatPercentHeld": 0.82417,
+      "institutionsCount": 2433.0
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "_version": 3,
+  "_updated": "2026-04-01T12:50:00Z",
+  "_description": "Persistent research queue. Event-driven MBO models ONLY. Updated post-audit session 53.",
+  "_phase": "EARLY RESEARCH — testing which EVENT architectures show promise",
+
+  "event_architectures_gpu": {
+    "priority": "CRITICAL",
+    "status": "in_progress",
+    "goal": "Find which event-driven architecture beats CNN1D baseline (concat IC_10s=0.132). Each GPU runs a DIFFERENT untested architecture.",
+    "baseline": "EventCNN1D concat_ic_10s=0.132 (champion, 10+ runs, DO NOT RERUN)",
+    "experiments": [
+      {
+        "id": "EA1", "name": "Event Mamba SSM (w=500, b=16)",
+        "arch": "SelectiveSSM", "data": "MBO events",
+        "node": "neptune", "status": "RUNNING",
+        "description": "Time-aware selective state space model. O(n) complexity, longer context than transformer. Pure PyTorch (no mamba_ssm package). Prior runs all OOM'd — fixed with batch=16.",
+        "script": "train_event_mamba.py",
+        "mlflow_experiment": "EventDriven_Mamba",
+        "params": {"window": 500, "batch": 16, "folds": 5}
+      },
+      {
+        "id": "EA2", "name": "Event 3D CNN",
+        "arch": "Event3DCNN", "data": "MBO events",
+        "node": "any_gpu", "status": "queued",
+        "description": "Event windows binned into 2D orderbook activity images (T=20 time bins x P=40 price bins x 5 feature channels). Conv2d with residual blocks. ~500K-1M params.",
+        "script": "train_event_3d_cnn.py",
+        "mlflow_experiment": "EventDriven_3DCNN",
+        "params": {"t_bins": 20, "p_bins": 40, "channels": 64, "layers": 4, "window": 500, "batch": 64, "folds": 5}
+      },
+      {
+        "id": "EA3", "name": "Hawkes / Temporal Point Process",
+        "arch": "NeuralHawkes", "data": "MBO events",
+        "node": "uranus", "status": "RUNNING",
+        "description": "Model inter-event arrival times + event types. Self-exciting process with continuous-time GRU. Exponential decay between events, discrete update on each event. ~302K params.",
+        "script": "train_event_hawkes.py",
+        "mlflow_experiment": "EventDriven_Hawkes",
+        "params": {"hidden_dim": 128, "n_layers": 2, "window": 500, "batch": 128, "folds": 5}
+      },
+      {
+        "id": "EA4", "name": "Neural ODE on event stream",
+        "arch": "NeuralODE", "data": "MBO events",
+        "node": "any_gpu", "status": "needs_script",
+        "description": "Continuous-time dynamics between MBO events. State evolves continuously, updates discretely on each event. torchdiffeq required.",
+        "script": "NEEDS CREATION — train_event_neural_ode.py"
+      },
+      {
+        "id": "EA5", "name": "Variable-resolution event encoder",
+        "arch": "VarResEncoder", "data": "MBO events",
+        "node": "any_gpu", "status": "needs_script",
+        "description": "Adaptive resolution: high-res during sweeps/bursts, low-res during calm. Learns when to zoom in. Attention-based resolution selection.",
+        "script": "NEEDS CREATION — train_event_varres.py"
+      },
+      {
+        "id": "EA6", "name": "Event CNN1D wider (channels=256, layers=8)",
+        "arch": "EventCNN1D_Wide", "data": "MBO events",
+        "node": "any_gpu", "status": "queued",
+        "description": "Wider/deeper variant of champion CNN1D. Test if more capacity improves IC. Uses existing script with env var overrides.",
+        "script": "train_event_cnn_1d.py",
+        "params": {"CNN_CHANNELS": 256, "CNN_LAYERS": 8, "window": 500, "batch": 64}
+      },
+      {
+        "id": "EA7", "name": "Event Transformer with longer context (w=1000)",
+        "arch": "EventTransformer_Long", "data": "MBO events",
+        "node": "uranus_only", "status": "DEPRIORITIZED",
+        "description": "MLflow shows TF DEGRADES with larger windows: ws=500→0.104, ws=750→0.060, ws=1000→0.043. Longer context HURTS transformer. Low priority unless architecture changes.",
+        "script": "train_event_transformer_fast.py",
+        "params": {"window": 1000, "batch": 32, "folds": 5},
+        "note": "DEPRIORITIZED: IC drops 60% at ws=1000 vs ws=500"
+      }
+    ]
+  },
+
+  "completed_architectures": {
+    "_description": "DO NOT RERUN THESE. Results are established.",
+    "event_cnn_1d": {
+      "concat_ic_10s": 0.132, "runs": "10+", "status": "CHAMPION",
+      "note": "Proven baseline. Multiple configs tested. No need to rerun unless new data added."
+    },
+    "event_transformer_fast": {
+      "concat_ic_10s": 0.095, "runs": "5+", "status": "TESTED_BELOW_BASELINE",
+      "note": "Below CNN1D. w=500 default config. Longer context (w=1000) still untested on Uranus."
+    },
+    "bar_3d_cnn": {
+      "status": "TESTED_BAR_DATA",
+      "note": "Uses 100ms BAR snapshots, NOT event data. Already run. Do NOT rerun."
+    },
+    "bar_cnn_wider": {
+      "concat_ic_10s": 0.131, "status": "TESTED_BAR_DATA",
+      "note": "Bar-based wider CNN. The original champion. Superseded by event-driven pivot."
+    },
+    "bar_temporal_lstm_tft": {
+      "concat_ic_10s": "~0 (inflated per-fold)", "status": "TESTED_FAILED",
+      "note": "All temporal bar models had inflated per-fold IC but ~0 concat IC. Dead end."
+    }
+  },
+
+  "orderflow_features_cpu": {
+    "priority": "HIGH",
+    "status": "queued",
+    "goal": "Engineer MBO-based features for LGBM input. Run on CPU nodes (Jupiter/Saturn).",
+    "experiments": [
+      {
+        "id": "OF1", "name": "Volume Profile features (POC, VA, HVN/LVN)",
+        "node": "jupiter", "status": "queued",
+        "description": "Compute session volume profiles, value area, POC from MBO events. Test IC as LGBM features."
+      },
+      {
+        "id": "OF2", "name": "Footprint delta/imbalance features",
+        "node": "jupiter", "status": "queued",
+        "description": "Per-level delta, cumulative delta divergence, stacked imbalance detection from MBO."
+      },
+      {
+        "id": "OF3", "name": "Large order tracking features",
+        "node": "saturn", "status": "queued",
+        "description": "Track large orders via MBO unique IDs. Absorption, iceberg, spoofing detection."
+      },
+      {
+        "id": "OF4", "name": "DOM heatmap / depth features",
+        "node": "saturn", "status": "queued",
+        "description": "Depth clustering, wall detection, time-weighted depth, depth imbalance over time."
+      }
+    ]
+  },
+
+  "data_quality": {
+    "priority": "HIGH",
+    "status": "needs_investigation",
+    "issues": [
+      {
+        "id": "DQ1", "name": "MBO initial book state",
+        "description": "MBO events don't include initial order book snapshot. Orders placed before recording starts are invisible. First N minutes of each day have incomplete book reconstruction. Need to check if our data pipeline accounts for this (opening snapshot or warm-up period)."
+      }
+    ]
+  },
+
+  "node_details": {
+    "neptune": {"gpu": "RTX 3090 24GB", "ram": "64GB", "os": "windows", "lvl3_root": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant"},
+    "uranus": {"gpu": "RTX 5090 32GB", "ram": "128GB", "os": "windows", "ssh_user": "nick", "host": "100.100.83.37", "lvl3_root": "C:\\Users\\nick\\Lvl3Quant"},
+    "razer": {"gpu": "RTX 3070 8GB", "ram": "16GB", "os": "windows", "ssh_user": "claude", "host": "100.102.215.75", "lvl3_root": "C:\\Users\\claude\\Lvl3Quant"},
+    "jupiter": {"gpu": "none", "ram": "64GB", "os": "windows_wsl", "ssh_user": "jupiter", "host": "192.168.0.108", "lvl3_root": "/home/jupiter/Lvl3Quant"},
+    "saturn": {"gpu": "none", "ram": "32GB", "os": "linux", "ssh_user": "saturn", "host": "10.0.0.2", "hop": "jupiter", "lvl3_root": "/home/saturn/Lvl3Quant"}
+  }
+}

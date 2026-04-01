@@ -1,0 +1,418 @@
+{
+  "timestamp": "2026-03-27T16:43:32.746159+00:00",
+  "duration_seconds": 638.3,
+  "total_markets": 200,
+  "analyzed": 30,
+  "opportunities_found": 8,
+  "min_score_used": 70,
+  "llm_enabled": true,
+  "opportunities": [
+    {
+      "slug": "will-jesus-christ-return-before-gta-vi-665",
+      "question": "Will Jesus Christ return before GTA VI?",
+      "category": "general",
+      "yes_price": 0.485,
+      "volume": 10305304.522484088,
+      "end_date": "2026-07-31",
+      "composite_score": 97,
+      "direction": "BUY_NO",
+      "edge_estimate": 0.47,
+      "active_signals": [
+        "llm_mispricing"
+      ],
+      "strategies": {
+        "momentum": {
+          "signal": "NO_MOMENTUM",
+          "score": 0,
+          "total_move": 0.0,
+          "consistency": 0.0
+        },
+        "mean_reversion": {
+          "signal": "LOW_VOL",
+          "score": 0,
+          "avg": 0.4845,
+          "std": 0.0022
+        },
+        "volume_anomaly": {
+          "signal": "NORMAL_VOLUME",
+          "score": 0,
+          "vol_ratio": 1.01
+        },
+        "llm_mispricing": {
+          "signal": "LLM_MISPRICING",
+          "direction": "BUY_NO",
+          "score": 97,
+          "llm_probability": 0.01,
+          "market_price": 0.485,
+          "edge_raw": 0.475,
+          "edge_net": 0.47,
+          "fee": 0.005,
+          "confidence": 9,
+          "reasoning": "The base rate for the second coming of Jesus Christ is extremely low, and there is no current evidence to suggest it will occur before the release of GTA VI, making the current odds of 48% YES a significant overvaluation."
+        }
+      },
+      "yes_token": "90435811253665578014957380826505992530054077692143838383981805324273750424057",
+      "no_token": "92388629082681805622801622703528982922543286352927708208755887536971583436902",
+      "history_points": 101,
+      "timestamp": "2026-03-27T16:37:09.022596+00:00"
+    },
+    {
+      "slug": "will-the-us-confirm-that-aliens-exist-before-2027-789",
+      "question": "Will the US confirm that aliens exist before 2027?",
+      "category": "general",
+      "yes_price": 0.155,
+      "volume": 19991353.245274536,
+      "end_date": "2026-12-31",
+      "composite_score": 94,
+      "direction": "BUY_NO",
+      "edge_estimate": 0.1024,
+      "active_signals": [
+        "llm_mispricing"
+      ],
+      "strategies": {
+        "momentum": {
+          "signal": "NO_MOMENTUM",
+          "score": 0,
+          "total_move": 0.0,
+          "consistency": 0.0
+        },
+        "mean_reversion": {
+          "signal": "LOW_VOL",
+          "score": 0,
+          "avg": 0.155,
+          "std": 0.0
+        },
+        "volume_anomaly": {
+          "signal": "NORMAL_VOLUME",
+          "score": 0,
+          "vol_ratio": 1.01
+        },
+        "llm_mispricing": {
+          "signal": "LLM_MISPRICING",
+          "direction": "BUY_NO",
+          "score": 94,
+          "llm_probability": 0.05,
+          "market_price": 0.155,
+          "edge_raw": 0.105,
+          "edge_net": 0.1024,
+          "fee": 0.0026,
+          "confidence": 8,
+          "reasoning": "The current odds of 16% YES appear to be overpriced given the lack of credible evidence supporting the existence of aliens, and the base rate for such extraordinary claims is extremely low. The market's efficiency and the absence of compelling recent evidence suggest that the NO outcome is more likely than the current odds suggest."
+        }
+      },
+      "yes_token": "107505882767731489358349912513945399560393482969656700824895970500493757150417",
+      "no_token": "7305630249804085635496399869905769372294302716159034447326228509068694952392",
+      "history_points": 101,
+      "timestamp": "2026-03-27T16:33:17.360987+00:00"
+    },
+    {
+      "slug": "will-bitcoin-dip-to-65k-in-march-2026",
+      "question": "Will Bitcoin dip to $65,000 in March?",
+      "category": "crypto",
+      "yes_price": 0.7825,
+      "volume": 8589768.297525024,
+      "end_date": "2026-04-01",
+      "composite_score": 84,
+      "direction": "BUY_NO",
+      "edge_estimate": 0.4357,
+      "active_signals": [
+        "momentum",
+        "mean_reversion"
+      ],
+      "strategies": {
+        "momentum": {
+          "signal": "MOMENTUM_UP",
+          "direction": "BUY_YES",
+          "score": 85,
+          "total_move": 0.47,
+          "consistency": 0.63,
+          "consecutive": 4,
+          "edge_estimate": 0.141,
+          "trend_strength": 29.68
+        },
+        "mean_reversion": {
+          "signal": "MEAN_REVERT_SHORT",
+          "direction": "BUY_NO",
+          "score": 83,
+          "z_score": 2.27,
+          "avg": 0.3468,
+          "current": 0.7825,
+          "deviation_pct": 1.2561,
+          "expected_revert": 0.4428,
+          "edge_estimate": 0.4357,
+          "data_points": 97
+        },
+        "volume_anomaly": {
+          "signal": "NORMAL_VOLUME",
+          "score": 0,
+          "vol_ratio": 1.07
+        },
+        "llm_mispricing": {
+          "signal": "LLM_ERROR",
+          "score": 0,
+          "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions"
+        }
+      },
+      "yes_token": "112493481455469093769281852159558847572704253342416714876781522096078968514094",
+      "no_token": "64087619211543545431479218048939484178441767712621033463416084593776314629222",
+      "history_points": 97,
+      "timestamp": "2026-03-27T16:38:48.757290+00:00"
+    },
+    {
+      "slug": "will-the-iranian-regime-fall-by-june-30",
+      "question": "Will the Iranian regime fall by June 30?",
+      "category": "general",
+      "yes_price": 0.205,
+      "volume": 21794837.450989384,
+      "end_date": "2026-06-30",
+      "composite_score": 75,
+      "direction": "BUY_NO",
+      "edge_estimate": 0.0517,
+      "active_signals": [
+        "mean_reversion",
+        "llm_mispricing"
+      ],
+      "strategies": {
+        "momentum": {
+          "signal": "NO_MOMENTUM",
+          "score": 0,
+          "total_move": -0.01,
+          "consistency": 0.05
+        },
+        "mean_reversion": {
+          "signal": "MEAN_REVERT_LONG",
+          "direction": "BUY_YES",
+          "score": 77,
+          "z_score": -2.45,
+          "avg": 0.2211,
+          "current": 0.205,
+          "deviation_pct": 0.073,
+          "expected_revert": 0.2178,
+          "edge_estimate": 0.0161,
+          "data_points": 101
+        },
+        "volume_anomaly": {
+          "signal": "NORMAL_VOLUME",
+          "score": 0,
+          "vol_ratio": 1.01
+        },
+        "llm_mispricing": {
+          "signal": "LLM_MISPRICING",
+          "direction": "BUY_NO",
+          "score": 74,
+          "llm_probability": 0.15,
+          "market_price": 0.205,
+          "edge_raw": 0.055,
+          "edge_net": 0.0517,
+          "fee": 0.0033,
+          "confidence": 8,
+          "reasoning": "The current odds of 20% YES seem high given the base rate of regime change in Iran, and the lack of strong current evidence supporting an imminent collapse, suggesting the market may be overestimating the likelihood of the event."
+        }
+      },
+      "yes_token": "38397507750621893057346880033441136112987238933685677349709401910643842844855",
+      "no_token": "95949957895141858444199258452803633110472396604599808168788254125381075552218",
+      "history_points": 101,
+      "timestamp": "2026-03-27T16:33:03.790042+00:00"
+    },
+    {
+      "slug": "will-crude-oil-cl-hit-high-100-by-end-of-march-658-396-769-971",
+      "question": "Will Crude Oil (CL) hit (HIGH) $100 by end of March?",
+      "category": "general",
+      "yes_price": 0.5525,
+      "volume": 12615736.896452093,
+      "end_date": "2026-03-31",
+      "composite_score": 73,
+      "direction": "BUY_NO",
+      "edge_estimate": 0.1521,
+      "active_signals": [
+        "momentum",
+        "mean_reversion"
+      ],
+      "strategies": {
+        "momentum": {
+          "signal": "MOMENTUM_UP",
+          "direction": "BUY_YES",
+          "score": 71,
+          "total_move": 0.1885,
+          "consistency": 0.47,
+          "consecutive": 3,
+          "edge_estimate": 0.0565,
+          "trend_strength": 8.93
+        },
+        "mean_reversion": {
+          "signal": "MEAN_REVERT_SHORT",
+          "direction": "BUY_NO",
+          "score": 76,
+          "z_score": 1.79,
+          "avg": 0.4004,
+          "current": 0.5525,
+          "deviation_pct": 0.38,
+          "expected_revert": 0.4428,
+          "edge_estimate": 0.1521,
+          "data_points": 101
+        },
+        "volume_anomaly": {
+          "signal": "NORMAL_VOLUME",
+          "score": 0,
+          "vol_ratio": 1.05
+        },
+        "llm_mispricing": {
+          "signal": "LLM_ERROR",
+          "score": 0,
+          "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions"
+        }
+      },
+      "yes_token": "79605660806991457811890435537160628976099500543939220857753925926896831621219",
+      "no_token": "92274168594309301674860132535303917340223623966677593281435938105131107664927",
+      "history_points": 101,
+      "timestamp": "2026-03-27T16:35:47.053091+00:00"
+    },
+    {
+      "slug": "will-trump-acquire-greenland-before-2027",
+      "question": "Will Trump acquire Greenland before 2027?",
+      "category": "politics",
+      "yes_price": 0.0925,
+      "volume": 30819238.21224513,
+      "end_date": "2026-12-31",
+      "composite_score": 70,
+      "direction": "BUY_NO",
+      "edge_estimate": 0.0408,
+      "active_signals": [
+        "llm_mispricing"
+      ],
+      "strategies": {
+        "momentum": {
+          "signal": "NO_MOMENTUM",
+          "score": 0,
+          "total_move": 0.002,
+          "consistency": 0.05
+        },
+        "mean_reversion": {
+          "signal": "LOW_VOL",
+          "score": 0,
+          "avg": 0.0909,
+          "std": 0.0007
+        },
+        "volume_anomaly": {
+          "signal": "NORMAL_VOLUME",
+          "score": 0,
+          "vol_ratio": 1.0
+        },
+        "llm_mispricing": {
+          "signal": "LLM_MISPRICING",
+          "direction": "BUY_NO",
+          "score": 70,
+          "llm_probability": 0.05,
+          "market_price": 0.0925,
+          "edge_raw": 0.0425,
+          "edge_net": 0.0408,
+          "fee": 0.0017,
+          "confidence": 8,
+          "reasoning": "The current odds of 9% YES are likely overpriced given the extremely low base rate of countries being acquired, and lack of concrete evidence supporting a Trump-Greenland acquisition, suggesting an edge in buying NO."
+        }
+      },
+      "yes_token": "5161623255678193352839985156330393796378434470119114669671615782853260939535",
+      "no_token": "57216272564529548464686463691236811991956032201293786790337952253964682584376",
+      "history_points": 102,
+      "timestamp": "2026-03-27T16:32:56.276716+00:00"
+    },
+    {
+      "slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878-439-519",
+      "question": "US forces enter Iran by March 31?",
+      "category": "general",
+      "yes_price": 0.195,
+      "volume": 25361988.97782443,
+      "end_date": "2026-03-31",
+      "composite_score": 70,
+      "direction": "BUY_NO",
+      "edge_estimate": 0.0419,
+      "active_signals": [
+        "llm_mispricing"
+      ],
+      "strategies": {
+        "momentum": {
+          "signal": "NO_MOMENTUM",
+          "score": 0,
+          "total_move": 0.03,
+          "consistency": 0.26
+        },
+        "mean_reversion": {
+          "signal": "NO_SIGNAL",
+          "score": 0,
+          "z_score": -0.19,
+          "avg": 0.2009
+        },
+        "volume_anomaly": {
+          "signal": "NORMAL_VOLUME",
+          "score": 0,
+          "vol_ratio": 1.12
+        },
+        "llm_mispricing": {
+          "signal": "LLM_MISPRICING",
+          "direction": "BUY_NO",
+          "score": 70,
+          "llm_probability": 0.15,
+          "market_price": 0.195,
+          "edge_raw": 0.045,
+          "edge_net": 0.0419,
+          "fee": 0.0031,
+          "confidence": 8,
+          "reasoning": "The current odds of 20% YES seem high given the base rates for US military interventions and the lack of strong current evidence supporting an imminent invasion, suggesting the market may be overestimating the likelihood of this event."
+        }
+      },
+      "yes_token": "42750054381142639205639663180818682570869285140532640407891991570656047928885",
+      "no_token": "81697486240392901899167649997008736380137911909662773455994395620863894931973",
+      "history_points": 102,
+      "timestamp": "2026-03-27T16:32:59.904328+00:00"
+    },
+    {
+      "slug": "will-jd-vance-win-the-2028-republican-presidential-nomination",
+      "question": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "category": "politics",
+      "yes_price": 0.367,
+      "volume": 6663618.404476865,
+      "end_date": "2028-11-07",
+      "composite_score": 70,
+      "direction": "BUY_YES",
+      "edge_estimate": 0.0424,
+      "active_signals": [
+        "llm_mispricing"
+      ],
+      "strategies": {
+        "momentum": {
+          "signal": "NO_MOMENTUM",
+          "score": 0,
+          "total_move": 0.0,
+          "consistency": 0.05
+        },
+        "mean_reversion": {
+          "signal": "LOW_VOL",
+          "score": 0,
+          "avg": 0.3665,
+          "std": 0.0006
+        },
+        "volume_anomaly": {
+          "signal": "NORMAL_VOLUME",
+          "score": 0,
+          "vol_ratio": 1.01
+        },
+        "llm_mispricing": {
+          "signal": "LLM_MISPRICING",
+          "direction": "BUY_YES",
+          "score": 70,
+          "llm_probability": 0.32,
+          "market_price": 0.367,
+          "edge_raw": 0.047,
+          "edge_net": 0.0424,
+          "fee": 0.0046,
+          "confidence": 8,
+          "reasoning": "The current odds of 37% seem undervalued given J.D. Vance's rising political profile and the historical unpredictability of Republican presidential nominations, suggesting a potential buying opportunity."
+        }
+      },
+      "yes_token": "40081275558852222228080198821361202017557872256707631666334039001378518619916",
+      "no_token": "78633590736077251574794513664747155551297291244492840448622550955320930591622",
+      "history_points": 95,
+      "timestamp": "2026-03-27T16:41:00.469747+00:00"
+    }
+  ]
+}

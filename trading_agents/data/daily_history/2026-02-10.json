@@ -1,0 +1,1995 @@
+{
+  "date": "2026-02-10",
+  "createdAt": "2026-02-10T05:00:17.807Z",
+  "lastUpdated": "2026-02-11T04:00:29.664Z",
+  "overnight": {
+    "futures": {
+      "S&P 500": {
+        "price": 6984.25,
+        "change": 0.014319979952028068,
+        "threshold": 0.5,
+        "significant": false
+      },
+      "NASDAQ": {
+        "price": 25335.5,
+        "change": -0.07296679025005917,
+        "threshold": 0.7,
+        "significant": false
+      },
+      "Dow Jones": {
+        "price": 50397,
+        "change": 0.35444751986300005,
+        "threshold": 0.5,
+        "significant": false
+      },
+      "Russell 2000": {
+        "price": 2697,
+        "change": 0.03338155112941252,
+        "threshold": 0.7,
+        "significant": false
+      },
+      "Crude Oil": {
+        "price": 64.49,
+        "change": 0.20198881292727697,
+        "threshold": 2,
+        "significant": false
+      },
+      "Gold": {
+        "price": 5082.1,
+        "change": 0.6177116949454697,
+        "threshold": 1,
+        "significant": false
+      },
+      "30Y Bonds": {
+        "price": 116.625,
+        "change": 0.9194159004867496,
+        "threshold": 0.5,
+        "significant": true
+      }
+    },
+    "globalMarkets": {
+      "Asia": [
+        {
+          "name": "Nikkei (Japan)",
+          "price": 57650.54,
+          "change": 2.2826651224169185
+        },
+        {
+          "name": "Hang Seng (HK)",
+          "price": 27281.04,
+          "change": 0.9393513783912221
+        },
+        {
+          "name": "Shanghai (China)",
+          "price": 4137.547,
+          "change": 0.22221829277538582
+        }
+      ],
+      "Europe": [
+        {
+          "name": "FTSE 100 (UK)",
+          "price": 10353.84,
+          "change": -0.1539084649655647
+        },
+        {
+          "name": "DAX (Germany)",
+          "price": 24987.85,
+          "change": 1.077565807197469
+        },
+        {
+          "name": "CAC 40 (France)",
+          "price": 8327.88,
+          "change": 0.055266673715152495
+        }
+      ]
+    },
+    "crypto": {
+      "Bitcoin": {
+        "price": 68245.69,
+        "change": -0.7929650283655415
+      },
+      "Ethereum": {
+        "price": 2011.3937,
+        "change": -0.443659170764449
+      }
+    },
+    "significantMoves": [
+      {
+        "market": "30Y Bonds",
+        "change": 0.9194159004867496,
+        "type": "FUTURES",
+        "severity": "MEDIUM"
+      },
+      {
+        "market": "Nikkei (Japan)",
+        "change": 2.2826651224169185,
+        "type": "ASIA",
+        "severity": "MEDIUM"
+      }
+    ],
+    "riskSentiment": "RISK_ON",
+    "updatedAt": "2026-02-11T04:00:29.664Z"
+  },
+  "preMarket": {
+    "futures": {
+      "S&P 500": {
+        "price": 6985,
+        "change": 0.025059964916049116,
+        "direction": "up"
+      },
+      "NASDAQ": {
+        "price": 25373.75,
+        "change": 0.07789697878046857,
+        "direction": "up"
+      },
+      "Dow Jones": {
+        "price": 50219,
+        "change": 0,
+        "direction": "up"
+      },
+      "Russell 2000": {
+        "price": 2696.6,
+        "change": 0.01854530618300508,
+        "direction": "up"
+      }
+    },
+    "gappers": [
+      {
+        "symbol": "CRDO",
+        "change": 25.85151947787068,
+        "direction": "UP"
+      },
+      {
+        "symbol": "BE",
+        "change": 13.594436310395311,
+        "direction": "UP"
+      },
+      {
+        "symbol": "AMD",
+        "change": 12.207792207792208,
+        "direction": "UP"
+      },
+      {
+        "symbol": "CCJ",
+        "change": 10.431918008784779,
+        "direction": "UP"
+      },
+      {
+        "symbol": "SMCI",
+        "change": 8.687196110210696,
+        "direction": "UP"
+      },
+      {
+        "symbol": "RIVN",
+        "change": 6.991988346686082,
+        "direction": "UP"
+      },
+      {
+        "symbol": "ANF",
+        "change": -6.367305751765881,
+        "direction": "DOWN"
+      }
+    ],
+    "movers": [
+      {
+        "symbol": "CRDO",
+        "price": 123.41,
+        "change": 25.85151947787068
+      },
+      {
+        "symbol": "BE",
+        "price": 155.17,
+        "change": 13.594436310395311
+      },
+      {
+        "symbol": "AMD",
+        "price": 216,
+        "change": 12.207792207792208
+      },
+      {
+        "symbol": "CCJ",
+        "price": 120.68,
+        "change": 10.431918008784779
+      },
+      {
+        "symbol": "SMCI",
+        "price": 33.53,
+        "change": 8.687196110210696
+      },
+      {
+        "symbol": "RIVN",
+        "price": 14.69,
+        "change": 6.991988346686082
+      },
+      {
+        "symbol": "ANF",
+        "price": 92.79,
+        "change": -6.367305751765881
+      }
+    ],
+    "watchlistAlerts": [
+      {
+        "symbol": "CRDO",
+        "action": "GAP_UP",
+        "change": 25.85151947787068,
+        "note": "Pre-market gap up of 25.9%"
+      },
+      {
+        "symbol": "BE",
+        "action": "GAP_UP",
+        "change": 13.594436310395311,
+        "note": "Pre-market gap up of 13.6%"
+      },
+      {
+        "symbol": "AMD",
+        "action": "GAP_UP",
+        "change": 12.207792207792208,
+        "note": "Pre-market gap up of 12.2%"
+      },
+      {
+        "symbol": "CCJ",
+        "action": "GAP_UP",
+        "change": 10.431918008784779,
+        "note": "Pre-market gap up of 10.4%"
+      },
+      {
+        "symbol": "SMCI",
+        "action": "GAP_UP",
+        "change": 8.687196110210696,
+        "note": "Pre-market gap up of 8.7%"
+      },
+      {
+        "symbol": "RIVN",
+        "action": "GAP_UP",
+        "change": 6.991988346686082,
+        "note": "Pre-market gap up of 7.0%"
+      },
+      {
+        "symbol": "ANF",
+        "action": "GAP_DOWN",
+        "change": -6.367305751765881,
+        "note": "Pre-market gap down of -6.4%"
+      }
+    ],
+    "newsHighlights": [],
+    "updatedAt": "2026-02-10T14:15:22.192Z"
+  },
+  "market": {
+    "indices": {
+      "SPY": {
+        "symbol": "SPY",
+        "price": 693.01,
+        "prevClose": 689.53,
+        "change": 693.01,
+        "changePct": null,
+        "volume": 48598685,
+        "high": 696.5399780273438,
+        "low": 692.8499755859375,
+        "fiftyTwoHigh": 697.84,
+        "fiftyTwoLow": 481.8,
+        "open": 694.9500122070312
+      }
+    },
+    "vix": 17.57,
+    "regime": "NEUTRAL",
+    "sectorLeaders": [
+      "SMH (Semiconductors) 5.95%",
+      "XLRE (Real Estate) 3.33%",
+      "XLK (Technology) 3.21%",
+      "XLI (Industrials) 2.67%",
+      "XLU (Utilities) 2.60%"
+    ],
+    "sectorLaggards": [
+      "XLY (Consumer Disc) -1.47%",
+      "XLF (Financials) -0.76%",
+      "XLV (Healthcare) -0.45%",
+      "XBI (Biotech) 0.04%",
+      "XLP (Consumer Staples) 0.18%"
+    ],
+    "updatedAt": "2026-02-10T22:00:34.048Z"
+  },
+  "sentiment": {
+    "overall": null,
+    "trending": [
+      {
+        "symbol": "HIMS",
+        "title": "Hims & Hers Health Inc",
+        "watchlistCount": 51520
+      },
+      {
+        "symbol": "CCCX",
+        "title": "Churchill Capital Corp X ",
+        "watchlistCount": 5533
+      },
+      {
+        "symbol": "NIO",
+        "title": "NIO Inc",
+        "watchlistCount": 389544
+      },
+      {
+        "symbol": "SCHW",
+        "title": "Charles Schwab Corp.",
+        "watchlistCount": 11404
+      },
+      {
+        "symbol": "EVMN",
+        "title": "Evommune Inc",
+        "watchlistCount": 298
+      },
+      {
+        "symbol": "UPST",
+        "title": "Upstart Holdings Inc",
+        "watchlistCount": 47679
+      },
+      {
+        "symbol": "JMIA",
+        "title": "Jumia Technologies Ag - ADR",
+        "watchlistCount": 39141
+      },
+      {
+        "symbol": "SPOT",
+        "title": "Spotify Technology S.A.",
+        "watchlistCount": 40939
+      },
+      {
+        "symbol": "NKTR",
+        "title": "Nektar Therapeutics",
+        "watchlistCount": 8745
+      },
+      {
+        "symbol": "PGY",
+        "title": "Pagaya Technologies Ltd",
+        "watchlistCount": 8039
+      },
+      {
+        "symbol": "ES_F",
+        "title": "E-Mini S&P 500 Futures",
+        "watchlistCount": 14893
+      },
+      {
+        "symbol": "ICHR",
+        "title": "Ichor Holdings Ltd",
+        "watchlistCount": 3166
+      },
+      {
+        "symbol": "Z",
+        "title": "Zillow Group Inc Class C",
+        "watchlistCount": 18891
+      },
+      {
+        "symbol": "MPT",
+        "title": "Medical Properties Trust Inc",
+        "watchlistCount": 8640
+      },
+      {
+        "symbol": "SPGI",
+        "title": "S&P Global Inc",
+        "watchlistCount": 2754
+      }
+    ],
+    "socialMomentum": [
+      {
+        "symbol": "SPY",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "MSFT",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "TSLA",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "AMZN",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "HOOD",
+        "score": 3,
+        "source": "StockTwits+Reddit"
+      },
+      {
+        "symbol": "HIMS",
+        "score": 3,
+        "source": "StockTwits+Reddit"
+      },
+      {
+        "symbol": "MU",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "NVDA",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "RDDT",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "SNDK",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "GOOG",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "DTE",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "CCCX",
+        "score": 2,
+        "source": "StockTwits"
+      },
+      {
+        "symbol": "EVMN",
+        "score": 2,
+        "source": "StockTwits"
+      },
+      {
+        "symbol": "PGY",
+        "score": 2,
+        "source": "StockTwits"
+      }
+    ],
+    "updatedAt": "2026-02-10T22:00:34.048Z"
+  },
+  "catalysts": {
+    "earningsToday": [],
+    "earningsThisWeek": [],
+    "economicEvents": [],
+    "newsBreaking": [
+      {
+        "headline": "Rise of AI agents has some worried about security",
+        "url": "https://finance.yahoo.com/video/rise-ai-agents-worried-security-203129024.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T20:45:32.090Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Major Wall Street Firm Issues Warning on Tech Stocks: What It Means for Investors",
+        "url": "https://finance.yahoo.com/m/dff71f82-15d3-367f-acba-ac33ee288c21/major-wall-street-firm-issues.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T20:45:32.090Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "This Stock Will Be Bigger Than Nvidia By the End of 2026",
+        "url": "https://finance.yahoo.com/m/42059705-3c95-3843-aa8e-5a297aa5c859/this-stock-will-be-bigger.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-10T20:15:26.400Z",
+        "symbols": [
+          "AMD",
+          "BE",
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Google turns to century-long debt to build AI",
+        "url": "https://finance.yahoo.com/news/google-turns-century-long-debt-200409062.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T20:15:31.828Z",
+        "symbols": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stock Market Today: Dow Weakens After Hitting A High; Medical Name Breaks Out (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/63afefbd-05fc-3709-99a9-cdb08e73e002/stock-market-today%3A-dow.html",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-10T20:00:37.979Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "The Stock Market Is Finally Broadening Out. The S&amp;P 500 Will Suffer.",
+        "url": "https://www.barrons.com/articles/stock-market-tech-sp-500-problem-286cdf11?mod=bar_FV",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T20:00:40.958Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "4 charts show why massive AI spending has started to weigh on Big Tech",
+        "url": "https://www.marketwatch.com/story/4-charts-show-why-massive-ai-spending-has-started-to-weigh-on-big-tech-8ec7b6cb?mod=mw_FV",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T20:00:40.958Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stocks are Mixed After Weak Retail Sales Data Released",
+        "url": "https://finance.yahoo.com/m/9657ae77-8383-31e1-a05c-91abdd191d9e/stocks-are-mixed-after-weak.html",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-10T19:45:29.138Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "UBS Downgrades U.S. Information Technology Sector on Software, Capex Risks",
+        "url": "https://www.barrons.com/articles/s-p500-information-technology-sector-downgrade-76292bac?mod=bar_FV",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-10T19:30:35.346Z",
+        "symbols": [
+          "AMD"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "Rivian Stock Jumps 5% Ahead of Key Earnings Report",
+        "url": "https://finance.yahoo.com/news/rivian-stock-jumps-5-ahead-190219529.html",
+        "symbol": "RIVN",
+        "source": "finviz",
+        "time": "2026-02-10T19:15:30.746Z",
+        "symbols": [
+          "RIVN"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "UBS Eyes Healthcare And Banks, Not Mag 7",
+        "url": "/news/306306/ubs-eyes-healthcare-and-banks-not-mag-7",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T19:15:31.937Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Why Nvidia Stock Is Stuck in a Holding Patternand How It Gets Out",
+        "url": "https://finance.yahoo.com/m/cef160fd-2b3e-37ed-9d86-969f0e92239b/why-nvidia-stock-is-stuck-in.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-10T18:45:25.711Z",
+        "symbols": [
+          "AMD",
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Datadog Earnings Top Views. Software Stocks Rally On Results.",
+        "url": "https://finance.yahoo.com/m/107d9bfc-f53d-3781-9358-de1df466c18e/datadog-earnings-top-views..html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T18:45:31.089Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Microsoft drops support for key devices",
+        "url": "https://finance.yahoo.com/m/9d27e91f-2288-3a9e-8705-d984649648f8/microsoft-drops-support-for.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T18:45:31.089Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "Microsoft and 18 More Software Stocks That Can Be AI Survivors",
+        "url": "https://finance.yahoo.com/m/490013f2-0019-30a3-80e7-13b7261168cd/microsoft-and-18-more.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T18:45:31.089Z",
+        "symbols": [
+          "MSFT",
+          "BE"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "S&amp;P 500 Struggles to Break Through Closing High Ahead of Jobs Report",
+        "url": "https://finance.yahoo.com/m/43847eac-82af-36a3-bbd9-bbbe2a5dd821/s%26p-500-struggles-to-break.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T18:45:31.089Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "The Top 5 Analyst Questions From Super Micro's Q4 Earnings Call",
+        "url": "/news/306241/the-top-5-analyst-questions-from-super-micros-q4-earnings-call",
+        "symbol": "SMCI",
+        "source": "finviz",
+        "time": "2026-02-10T18:30:37.384Z",
+        "symbols": [
+          "SMCI"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stock Market Today: Dow Hits Record High; Chip Equipment Name Soars (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/63afefbd-05fc-3709-99a9-cdb08e73e002/stock-market-today%3A-dow-hits.html",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-10T18:30:38.567Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Superhuman CEO says AI isn't taking jobs, it's giving every human 100 digital agents",
+        "url": "https://finance.yahoo.com/news/superhuman-ceo-says-ai-isnt-taking-jobs-its-giving-every-human-100-digital-agents-182106329.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T18:30:41.778Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Microsoft and 18 More Software Stocks That Can Survive AI",
+        "url": "https://www.barrons.com/articles/microsoft-stock-price-ai-survivors-software-servicenow-6781fc99?mod=bar_FV",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T18:15:30.836Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Amazon Explores AI Content Marketplace",
+        "url": "https://finance.yahoo.com/news/amazon-explores-ai-content-marketplace-174752802.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T18:15:30.836Z",
+        "symbols": [
+          "MSFT",
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "AI disruption fears create buying chance in US software stocks, strategists say",
+        "url": "https://finance.yahoo.com/news/ai-disruption-fears-create-buying-174109629.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T18:00:40.728Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "AMD Plunges 11% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
+        "url": "/news/306084/amd-plunges-11-post-q4-earnings-buy-sell-or-hold-the-stock",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-10T17:15:24.992Z",
+        "symbols": [
+          "AMD"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "From $11B To $70B: Alphabet's Debt Explosion Signals The End Of 'Capital-Light' Tech",
+        "url": "/news/306096/from-11b-to-70b-alphabets-debt-explosion-signals-the-end-of-capital-light-tech",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T17:15:30.427Z",
+        "symbols": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Nvidia Stock Slips. It Could Get Relief From Chip-Levy Fears.",
+        "url": "https://finance.yahoo.com/m/cef160fd-2b3e-37ed-9d86-969f0e92239b/nvidia-stock-slips.-it-could.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-10T17:00:34.216Z",
+        "symbols": [
+          "AMD",
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Can Criminal IP Integration Boost IBM's QRadar Growth Prospects?",
+        "url": "/news/306069/can-criminal-ip-integration-boost-ibms-qradar-growth-prospects",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T17:00:39.687Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Stock Market Today: Dow Rallies To A High; Credo Explodes On Updated Outlook (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/63afefbd-05fc-3709-99a9-cdb08e73e002/stock-market-today%3A-dow.html",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-10T16:45:27.385Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Credo Stock Soars -- Revenue Outlook Jump Is Driving the Move",
+        "url": "https://finance.yahoo.com/news/credo-stock-soars-revenue-outlook-161328267.html",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-10T16:45:27.385Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Tesla proves it truly is a tech (not car) company with latest move",
+        "url": "https://finance.yahoo.com/m/8540b69c-3124-3252-a1cf-dbd36c8f71e6/tesla-proves-it-truly-is-a.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T16:45:30.460Z",
+        "symbols": [
+          "MSFT",
+          "TSLA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Salesforce Stock Down 17% in Six Months: Should Investors Buy the Dip?",
+        "url": "/news/306063/salesforce-stock-down-17-in-six-months-should-investors-buy-the-dip",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T16:45:30.460Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Ahead of Q4 Earnings, CoreWeave Is Up 142% Over the Past Year",
+        "url": "/news/306048/ahead-of-q4-earnings-coreweave-is-up-142-over-the-past-year",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T16:30:39.608Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Credo's stock soars as new numbers score the chip company some points in a key debate",
+        "url": "https://www.marketwatch.com/story/credos-stock-soars-as-new-numbers-score-the-chip-company-some-points-in-a-key-debate-ba3a16a2?mod=mw_FV",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-10T16:15:26.854Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Microsoft, CrowdStrike, and 17 Software Stocks That Can Survive AI",
+        "url": "https://www.barrons.com/articles/microsoft-crowdstrike-ai-resilient-software-stocks-6781fc99?mod=bar_FV",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T16:15:29.871Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Microsoft exploring using advanced power lines to make data centers more energy-efficient",
+        "url": "https://finance.yahoo.com/news/microsoft-exploring-using-advanced-power-160548887.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T16:15:29.871Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "As AI agents take over, security is becoming a bigger concern",
+        "url": "https://finance.yahoo.com/news/as-ai-agents-take-over-security-is-becoming-a-bigger-concern-160109297.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T16:15:29.871Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "UiPath Declines 25% in a Month: Has the Buying Level Been Reached Yet?",
+        "url": "/news/306025/uipath-declines-25-in-a-month-has-the-buying-level-been-reached-yet",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T16:15:29.871Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "BEARISH"
+      },
+      {
+        "headline": "Here's Why Advanced Micro Devices (AMD) is a Strong Momentum Stock",
+        "url": "/news/305946/heres-why-advanced-micro-devices-amd-is-a-strong-momentum-stock",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-10T16:00:34.439Z",
+        "symbols": [
+          "AMD"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Chip Stock Extends Rebound on Preliminary Revenue Beat",
+        "url": "/news/305956/chip-stock-extends-rebound-on-preliminary-revenue-beat",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-10T16:00:36.855Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Google secures EU antitrust approval for $32 billion Wiz acquisition",
+        "url": "https://finance.yahoo.com/news/google-secures-eu-antitrust-approval-153537098.html",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T16:00:39.827Z",
+        "symbols": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Jim Cramer on Microsoft (MSFT): \"I Think They Need to Explain Their Story Better\"",
+        "url": "/news/305684/jim-cramer-on-microsoft-msft-i-think-they-need-to-explain-their-story-better",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T16:00:39.827Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Buy 4 Cloud Computing Stocks as Digital Transformation Gains Traction",
+        "url": "/news/305827/buy-4-cloud-computing-stocks-as-digital-transformation-gains-traction",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T16:00:39.827Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Taiwan Semiconductor Shares Jump as January Sales Surge 37%",
+        "url": "https://finance.yahoo.com/news/taiwan-semiconductor-shares-jump-january-152345057.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-10T15:45:24.903Z",
+        "symbols": [
+          "AMD"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "TSMC Stock Hits Record High As Chip Foundry Posts Strong Sales",
+        "url": "https://finance.yahoo.com/m/0ac38884-37c5-39a3-b7eb-e70edad94392/tsmc-stock-hits-record-high.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-10T15:45:24.903Z",
+        "symbols": [
+          "AMD"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Earnings Growth &amp; Price Strength Make Advanced Micro Devices (AMD) a Stock to Watch",
+        "url": "/news/305863/earnings-growth-price-strength-make-advanced-micro-devices-amd-a-stock-to-watch",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-10T15:45:24.903Z",
+        "symbols": [
+          "AMD"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Bloom Energy Stock Slips As Investors Digest AI-Driven Rally",
+        "url": "/news/305925/bloom-energy-stock-slips-as-investors-digest-ai-driven-rally",
+        "symbol": "BE",
+        "source": "finviz",
+        "time": "2026-02-10T15:45:27.961Z",
+        "symbols": [
+          "BE"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "5 Insightful Analyst Questions From AMD's Q4 Earnings Call",
+        "url": "/news/305767/5-insightful-analyst-questions-from-amds-q4-earnings-call",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-10T15:30:35.063Z",
+        "symbols": [
+          "AMD"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Under Armour cut to Sell, Snap upgraded: Wall Street's top analyst calls",
+        "url": "https://finance.yahoo.com/news/under-armour-cut-sell-snap-144520009.html",
+        "symbol": "SNAP",
+        "source": "finviz",
+        "time": "2026-02-10T15:30:36.857Z",
+        "symbols": [
+          "SNAP"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Why Credo Is Jumping Premarket Today",
+        "url": "https://finance.yahoo.com/news/why-credo-jumping-premarket-today-144516077.html",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-10T15:30:37.468Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "CRDO Up on Preliminary Q3 Revenue Beat: What it Signals for FY26 &amp; FY27",
+        "url": "/news/305658/crdo-up-on-preliminary-q3-revenue-beat-what-it-signals-for-fy26-fy27",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-10T14:45:24.258Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Below-Expected Azure Growth Hurt Microsoft's (MSFT) Performance in Q4",
+        "url": "/news/305660/below-expected-azure-growth-hurt-microsofts-msft-performance-in-q4",
+        "symbol": "MSFT",
+        "source": "finviz",
+        "time": "2026-02-10T14:45:27.289Z",
+        "symbols": [
+          "MSFT"
+        ],
+        "sentiment": "BULLISH"
+      }
+    ],
+    "updatedAt": "2026-02-10T22:00:34.048Z"
+  },
+  "technicals": {
+    "oversold": [],
+    "overbought": [],
+    "breakouts": [],
+    "volumeSpikes": [],
+    "updatedAt": "2026-02-10T22:00:34.049Z"
+  },
+  "optionsFlow": {
+    "unusualActivity": [],
+    "putCallRatio": "1.01",
+    "ivRank": {
+      "CRDO": "93.8%",
+      "BE": "126.2%",
+      "AMD": "54.9%"
+    },
+    "updatedAt": "2026-02-10T22:00:34.050Z"
+  },
+  "dayWatchlist": [
+    {
+      "symbol": "CRDO",
+      "reason": "Pre-market UP 25.9%",
+      "source": "pre-market",
+      "conviction": "HIGH"
+    },
+    {
+      "symbol": "BE",
+      "reason": "Pre-market UP 13.6%",
+      "source": "pre-market",
+      "conviction": "HIGH"
+    },
+    {
+      "symbol": "AMD",
+      "reason": "Pre-market UP 12.2%",
+      "source": "pre-market",
+      "conviction": "HIGH"
+    },
+    {
+      "symbol": "CCJ",
+      "reason": "Pre-market UP 10.4%",
+      "source": "pre-market",
+      "conviction": "HIGH"
+    },
+    {
+      "symbol": "SMCI",
+      "reason": "Pre-market UP 8.7%",
+      "source": "pre-market",
+      "conviction": "MEDIUM"
+    },
+    {
+      "symbol": "RIVN",
+      "reason": "Pre-market UP 7.0%",
+      "source": "pre-market",
+      "conviction": "MEDIUM"
+    },
+    {
+      "symbol": "ANF",
+      "reason": "Pre-market DOWN -6.4%",
+      "source": "pre-market",
+      "conviction": "MEDIUM"
+    },
+    {
+      "symbol": "MSFT",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 228 mentions across options,stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-10T22:00:34.043Z"
+    },
+    {
+      "symbol": "RDDT",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 124 mentions across stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-10T22:00:34.046Z"
+    },
+    {
+      "symbol": "SPY",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 519 mentions across options,stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-10T22:00:34.042Z"
+    },
+    {
+      "symbol": "MU",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 243 mentions across stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-10T22:00:34.045Z"
+    },
+    {
+      "symbol": "NVDA",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 132 mentions across stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-10T22:00:34.045Z"
+    },
+    {
+      "symbol": "AMZN",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 67 mentions across options,stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-10T22:00:34.044Z"
+    },
+    {
+      "symbol": "TSLA",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 136 mentions across options,stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-10T22:00:34.044Z"
+    },
+    {
+      "symbol": "HOOD",
+      "reason": "Social Trending: StockTwits+Reddit",
+      "source": "research_dispatcher",
+      "conviction": 2,
+      "sourceCount": 1,
+      "addedAt": "2026-02-10T22:00:34.046Z"
+    },
+    {
+      "symbol": "HIMS",
+      "reason": "Social Trending: StockTwits+Reddit",
+      "source": "research_dispatcher",
+      "conviction": 2,
+      "sourceCount": 1,
+      "addedAt": "2026-02-10T22:00:34.047Z"
+    }
+  ],
+  "swingTrader": {
+    "positions": [
+      {
+        "symbol": "AMD",
+        "qty": 2,
+        "avgEntry": 200.78,
+        "currentPrice": 213.57,
+        "marketValue": 427.14,
+        "unrealizedPL": 25.58,
+        "unrealizedPLPct": 6.370000000000001
+      },
+      {
+        "symbol": "FOA",
+        "qty": 11,
+        "avgEntry": 21.91,
+        "currentPrice": 22.11,
+        "marketValue": 243.21,
+        "unrealizedPL": 2.2,
+        "unrealizedPLPct": 0.9129999999999999
+      },
+      {
+        "symbol": "SMCI",
+        "qty": 30,
+        "avgEntry": 32.075667,
+        "currentPrice": 33.07,
+        "marketValue": 992.1,
+        "unrealizedPL": 29.83,
+        "unrealizedPLPct": 3.1
+      },
+      {
+        "symbol": "SNAP",
+        "qty": 168,
+        "avgEntry": 5.817083,
+        "currentPrice": 5.285,
+        "marketValue": 887.88,
+        "unrealizedPL": -89.39,
+        "unrealizedPLPct": -9.147
+      }
+    ],
+    "pendingOrders": [],
+    "signals": [
+      {
+        "symbol": "AMD",
+        "type": "TARGET_HIT",
+        "message": "Target $212 reached! Current: $213.57",
+        "action": "CONSIDER_EXIT",
+        "gain": 6.370000000000001
+      }
+    ],
+    "account": {
+      "equity": 4947.62,
+      "cash": 2397.29,
+      "buyingPower": 7344.91
+    },
+    "updatedAt": "2026-02-10T20:30:31.321Z"
+  },
+  "dayTrader": {
+    "positions": [],
+    "trades": [
+      {
+        "symbol": "AMD260213C00217500",
+        "underlying": "AMD",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "CALL",
+        "strike": "217.5",
+        "expiry": "2026-02-13",
+        "qty": 14,
+        "reason": "AMD gapping up 12% pre-market on AI momentum and tariff relief news. Stock is 33% off 30-day high at $216 vs $267 peak, offering continuation room. IV only 3.2% - cheap options. Risk-on sentiment strong with NASDAQ futures up 7.8%. Entry near VWAP at $216.85 with target $225-230.",
+        "conviction": "HIGH",
+        "target": "$225 or +4%",
+        "stop": "$212 or -2.2%",
+        "timeframe": "intraday",
+        "orderId": "b9672008-6191-476a-8ba9-b6d19d1a9306",
+        "time": "2026-02-10T14:30:45.437Z"
+      },
+      {
+        "symbol": "AMD260213C00217500",
+        "action": "CLOSE",
+        "reason": "Position down -34% ($3,010 loss) hits my daily stop ($3,016). Thesis broken: AMD gapped to $242 on tariff news but immediately reversed to $215 - no follow-through despite bullish catalyst. Put/call ratio spiked to 2.98 (bearish), IV jumped to 58% (fear premium), stock below VWAP. This was a momentum continuation play that failed. Accept loss, preserve capital ($94,790 + $5,740 = $100,530). Cannot let winner from yesterday turn into bigger loser.",
+        "time": "2026-02-10T15:31:02.112Z"
+      }
+    ],
+    "pnlToday": -2870.5599999999977,
+    "tradesCount": 2,
+    "account": {
+      "equity": 100669.91,
+      "cash": 100669.91,
+      "buyingPower": 414161.32,
+      "lastEquity": 103540.47,
+      "dailyPL": -2870.5599999999977,
+      "optionsLevel": 3,
+      "daytradeCount": 18,
+      "status": "ACTIVE"
+    },
+    "reasoning": [
+      {
+        "time": "09:30:22",
+        "thought": "MONITOR: SNAP RAPID_MOVE - LLM: HOLD: Position is down but bouncing off intraday low; thesis intact until $4.90 stop is hit.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:30:45",
+        "thought": "LLM (Groq (Kimi K2)): Strong risk-on sentiment with NASDAQ futures up 7.8% and multiple tech names gapping up 10-25% pre-market. VIX at 17.4 is elevated but not panicky. Best opportunity is in AMD which is up 12% pre-market but still 33% off its 30-day high, offering room for continuation.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "09:32:22",
+        "thought": "MONITOR: AMD260213C00217500 RAPID_MOVE - LLM: HOLD: Thesis intact: AMD gapped 12% on tariff relief/AI momentum, still 33% off recent high with room to $225-230; IV cheap at 3.2%. Quick 4% dip is normal choppy action, not a break.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:35:22",
+        "thought": "MONITOR: AMD260213C00217500 RAPID_MOVE - LLM: HOLD: Thesis intact—AMD still gapping on tariff relief/AI tailwinds, option IV cheap, underlying only 33% off highs with room to $225-230; 4.5% 60-sec chop is normal options noise.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:38:22",
+        "thought": "MONITOR: AMD260213C00217500 RAPID_MOVE - LLM: HOLD: Position is down 15% but thesis intact—AMD still gapping on tariff relief, IV low, and stop at $3.13 gives room for normal options chop.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:41:22",
+        "thought": "MONITOR: AMD260213C00217500 RAPID_MOVE - LLM: HOLD: Thesis intact: AMD still gapping up on tariff relief and AI momentum, underlying holding above entry VWAP, IV cheap, position within normal option chop.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:45:22",
+        "thought": "MONITOR: AMD260213C00217500 RAPID_MOVE - LLM: HOLD: Thesis intact - AMD still gapping up on AI/tariff relief, options cheap IV 3.2%, target $225-230 unchanged despite choppy action.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:45:58",
+        "thought": "LLM (Claude CLI (Sonnet)): Risk-on continues with SPY at 695 (near ATH 697), NASDAQ futures +7.8%, VIX at 17.35. Tech strong - NVDA +4.9%, MSFT +1.6%. AMD position down -24.8% but thesis intact - stock still up 12% pre-market on tariff relief, IV cheap at 3.2%, room to $225-230 target. Will monitor but hold for now.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "09:45:58",
+        "thought": "HOLD AMD260213C00217500: Down 24.8% but thesis STILL valid: AMD gapped 12% on AI/tariff relief, still 33% below 30d high ($267) with room to run to $225-230. Currently at $216.38 vs entry VWAP $216.85 - minimal slippage. IV remains cheap at 3.2% (no decay concern). Put/call ratio 0.63 = bullish. 5d trend -10.7% but 20d +4.1% = short-term pullback in uptrend. Position in 30d range at 34% = not extended. Stock above VWAP on 5min bars = intraday strength. Options chop is NORMAL - not breaking stop at $3.13 ($4380 total). Conviction HIGH on continuation to target.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:49:22",
+        "thought": "MONITOR: AMD260213C00217500 RAPID_MOVE - LLM: HOLD: Thesis intact—AMD still gapping up on AI/tariff relief, option IV remains low, and stop at $3.50 is below current low; no need to realize -38% loss into choppy but supportive backdrop.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:50:22",
+        "thought": "MONITOR: FOA NEW_HIGH - LLM: HOLD: Fresh breakout to new intraday high on no news; thesis intact, only 1.6% gain—let it run.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "10:01:06",
+        "thought": "LLM (Claude CLI (Sonnet)): AMD position down -32.8% ($2,870 unrealized loss) after initial thesis played out but reversed. Stock faded from $242 to $215 despite strong open, invalidating momentum continuation. Down $2,870 on day approaches risk limit ($3,020). Market shows strength (SPY new highs, VIX 17.63, RISK_ON) but AMD-specific weakness dominates - put/call ratio spiked to 2.98 (bearish), 5d trend -11% overrides 20d +3.7%. Stop at $3.13 ($4,382) nearly triggered. Need to cut and preserve capital.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "10:31:01",
+        "thought": "LLM (Claude CLI (Sonnet)): Down -$3,010 on day (hit my stop limit). AMD calls bleeding -34% as stock faded from $242 to $215 despite strong open. Need to close position, preserve remaining capital, and reassess. Market still risk-on but AMD-specific weakness (P/C 2.98 bearish, IV spiked) invalidates momentum thesis.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "10:45:49",
+        "thought": "LLM (Claude CLI (Sonnet)): Down -$2,870 today after AMD momentum failure. Hit daily loss limit ($3,020). SPY making new highs (696 vs 689 close), VIX 17.32 = RISK_ON, but tech choppy. NVDA +5%, SPOT +3.3%, FISV +7.4% showing leadership rotation. Must preserve capital - no new trades until tomorrow reset.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "11:00:56",
+        "thought": "LLM (Claude CLI (Sonnet)): Down -$2,870 today after AMD momentum failure hit daily loss limit. Market strong (SPY 696 new highs, VIX 17.29 RISK_ON) but I need to preserve capital. No new trades - stop trading per risk rules.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "11:15:45",
+        "thought": "LLM (Claude CLI (Sonnet)): Down -$2,870 today (hit daily loss limit at -3%). Market strong (SPY 695, new highs, VIX 17.35 RISK_ON) but must preserve capital per risk rules. No new trades.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "11:30:56",
+        "thought": "LLM (Claude CLI (Sonnet)): Down $2,870 today (hit daily loss limit at -3%). Per risk rules: STOP TRADING. SPY at new highs (695), VIX 17.45 RISK_ON, but I must preserve capital. No new trades until tomorrow reset.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "11:45:49",
+        "thought": "LLM (Claude CLI (Sonnet)): Down $2,870 today - DAILY LOSS LIMIT HIT at -3% ($3,020). Per risk rules: STOP TRADING. SPY at new highs (695), VIX 17.5 RISK_ON environment, but I must preserve remaining capital ($100,669). No new positions until tomorrow's reset.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "12:00:54",
+        "thought": "LLM (Claude CLI (Sonnet)): Hit daily loss limit at -$2,870 (near -3% threshold of $3,020). Per risk rules: STOP TRADING. SPY at new highs (695), VIX 17.47 RISK_ON, but capital preservation takes priority. Resume tomorrow with fresh $100,669 account.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "12:15:47",
+        "thought": "LLM (Claude CLI (Sonnet)): Hit -$2,870 loss limit today (near -3% threshold). Per risk rules: STOP TRADING. SPY at new highs (695), VIX 17.47 RISK_ON, strong market internals, but capital preservation takes absolute priority. Resume tomorrow with fresh capital.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "12:30:57",
+        "thought": "LLM (Claude CLI (Sonnet)): Hit daily loss limit ($-2,870 of $-3,020 threshold) after AMD reversal. Per risk rules: STOP TRADING. SPY at new highs (695), VIX 17.31 RISK_ON, but capital preservation is absolute priority. Resume tomorrow.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "12:45:49",
+        "thought": "LLM (Claude CLI (Sonnet)): Already hit -$2,870 loss today (near -3% daily stop at $3,020) after AMD reversal stopped me out. Per risk rules: STOP TRADING until tomorrow's reset. SPY at new ATH (695.58), VIX 17.28 RISK_ON, strong market internals, but capital preservation is absolute priority. Resume tomorrow with full $100,669.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "13:00:59",
+        "thought": "LLM (Claude CLI (Sonnet)): Already down $2,870 today (95% of $3,020 daily stop) after AMD reversal stopped me out. SPY at new ATH (695), VIX 17.2 RISK_ON, but I'm near my daily loss limit. Per risk rules: evaluate carefully if resuming or preserving capital.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "13:15:46",
+        "thought": "LLM (Claude CLI (Sonnet)): Already down $2,870 today (95% of $3,020 daily stop) from AMD reversal trade. SPY at new ATH (695), VIX 17.23 RISK_ON, but I'm at my daily loss limit. Per risk rules: STOP TRADING to preserve capital.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "13:30:59",
+        "thought": "LLM (Claude CLI (Sonnet)): Already down $2,870 today (95% of $3,020 daily stop) from AMD reversal trade. Per risk rules: STOP TRADING to preserve capital. SPY at ATH 694.63, VIX 17.42 RISK_ON, but I've hit my loss limit.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "13:45:47",
+        "thought": "LLM (Claude CLI (Sonnet)): Down $2,870 today (95% of $3,020 daily stop) from AMD reversal. Per risk rules: STOP TRADING. SPY at new ATH (693.59), VIX 17.74 RISK_ON, but capital preservation is absolute priority after hitting loss limit.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "14:00:59",
+        "thought": "LLM (Claude CLI (Sonnet)): Down $2,870 today (95% of $3,020 daily stop) from AMD reversal trade. Per risk rules: STOP TRADING to preserve capital. SPY at ATH 693.45, VIX 17.69 RISK_ON, strong futures, but I've hit my loss limit.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "14:15:48",
+        "thought": "LLM (Claude CLI (Sonnet)): Down $2,870 today (95% of daily stop) after AMD gap-fade stopped me out. SPY at new ATH 693.52, VIX 17.67 RISK_ON, futures green across the board. Per risk rules: when down 3% on the day, STOP TRADING to preserve capital. Market is strong but I've hit my loss limit - no trades warranted.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "14:30:59",
+        "thought": "LLM (Claude CLI (Sonnet)): Down $2,870 today (95% of $3,020 stop limit). SPY at new ATH 693.52, VIX 17.69 RISK_ON, strong futures across the board. Per risk rules: when down 3% on the day, STOP TRADING to preserve capital. Market is strong but I've hit my loss limit - no trades warranted.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "14:45:48",
+        "thought": "LLM (Claude CLI (Sonnet)): Down $2,870 today (95% of $3,020 daily stop) after AMD gap-fade failure. Per risk rules: STOP TRADING when down 3% on day. SPY at new ATH 693.93, VIX 17.59 RISK_ON, strong power hour setup, but capital preservation is absolute priority after hitting loss limit.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "15:00:58",
+        "thought": "LLM (Claude CLI (Sonnet)): Down $2,870 today (95% of $3,020 daily stop) after AMD gap-fade failure. Per risk rules: STOP TRADING when down 3% on day. SPY at new ATH 693.73, VIX 17.63 RISK_ON, strong power hour setup with green futures across the board, but capital preservation is absolute priority after hitting loss limit.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "15:15:48",
+        "thought": "LLM (Claude CLI (Sonnet)): Down $2,870 today (95% of $3,020 daily stop limit) after AMD gap-fade failure. Per risk rules: when down 3% on the day, STOP TRADING to preserve capital. SPY at new ATH 693.73, VIX 17.53 RISK_ON, strong power hour setup with green futures, but I have hit my absolute loss limit and must preserve capital.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "15:30:54",
+        "thought": "LLM (Claude CLI (Sonnet)): Down $2,870 today (95% of $3,020 daily stop limit). Per ACCOUNT CONSTRAINTS: 'If down 3% on the day ($3,020), stop trading.' I am essentially AT my daily loss limit after the AMD gap-fade failure this morning. Market is strong (SPY new ATH 693.22, VIX 17.61 RISK_ON, green futures), but capital preservation is absolute priority. NO trades.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "15:45:50",
+        "thought": "LLM (Claude CLI (Sonnet)): Down $2,870 today (95% of $3,020 daily stop limit). SPY at new ATH 693.40, VIX 17.57 RISK_ON, strong power hour setup. Per ACCOUNT CONSTRAINTS: 'If down 3% on the day ($3,020), stop trading.' I am essentially AT my absolute daily loss limit after AMD gap-fade failure. Capital preservation is mandatory - NO trades.",
+        "decision": "NO_TRADE"
+      }
+    ],
+    "updatedAt": "2026-02-10T20:45:50.169Z"
+  },
+  "agentLog": [
+    {
+      "agent": "overnight",
+      "time": "00:00:17",
+      "timestamp": "2026-02-10T05:00:17.808Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "01:00:18",
+      "timestamp": "2026-02-10T06:00:18.380Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "02:00:18",
+      "timestamp": "2026-02-10T07:00:18.813Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "03:00:19",
+      "timestamp": "2026-02-10T08:00:19.352Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "04:00:19",
+      "timestamp": "2026-02-10T09:00:19.826Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "05:00:20",
+      "timestamp": "2026-02-10T10:00:20.225Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "06:00:20",
+      "timestamp": "2026-02-10T11:00:20.569Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:00:21",
+      "timestamp": "2026-02-10T12:00:21.131Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:15:21",
+      "timestamp": "2026-02-10T12:15:21.206Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:30:21",
+      "timestamp": "2026-02-10T12:30:21.467Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "research_dispatcher",
+      "time": "07:30:23",
+      "timestamp": "2026-02-10T12:30:23.611Z",
+      "action": "Deep research scan completed",
+      "summary": "7 opportunities scored"
+    },
+    {
+      "agent": "pre-market",
+      "time": "07:45:21",
+      "timestamp": "2026-02-10T12:45:21.452Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:00:21",
+      "timestamp": "2026-02-10T13:00:21.545Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:15:21",
+      "timestamp": "2026-02-10T13:15:21.685Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:30:21",
+      "timestamp": "2026-02-10T13:30:21.959Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "08:45:22",
+      "timestamp": "2026-02-10T13:45:22.015Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "09:00:22",
+      "timestamp": "2026-02-10T14:00:22.055Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "09:15:22",
+      "timestamp": "2026-02-10T14:15:22.192Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "09:30:30",
+      "timestamp": "2026-02-10T14:30:30.756Z",
+      "action": "LLM: Risk-on tape with yields still benign; perfect for letting tech/consumer turnaround stories run into month-end rebalancing flows.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "09:30:37",
+      "timestamp": "2026-02-10T14:30:37.589Z",
+      "action": "Fetched 33 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "09:30:49",
+      "timestamp": "2026-02-10T14:30:49.043Z",
+      "action": "Scan complete: 0 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "09:45:27",
+      "timestamp": "2026-02-10T14:45:27.800Z",
+      "action": "Fetched 3 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "09:45:58",
+      "timestamp": "2026-02-10T14:45:58.007Z",
+      "action": "Scan complete: 1 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "10:00:30",
+      "timestamp": "2026-02-10T15:00:30.798Z",
+      "action": "LLM: Choppy tape with VIX 17.3 keeps swing risk/reward balanced; AI chip names firm into tariff relief chatter, but no macro catalysts until CPI next week.",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "10:01:07",
+      "timestamp": "2026-02-10T15:01:07.185Z",
+      "action": "Scan complete: 1 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "10:30:33",
+      "timestamp": "2026-02-10T15:30:33.438Z",
+      "action": "LLM: Choppy tape with risk-on pockets; AI names consolidating post-earnings while retail turnaround stories emerging as next rotation candidate.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "10:30:40",
+      "timestamp": "2026-02-10T15:30:40.394Z",
+      "action": "Fetched 3 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "10:31:02",
+      "timestamp": "2026-02-10T15:31:02.530Z",
+      "action": "Scan complete: 1 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "10:45:30",
+      "timestamp": "2026-02-10T15:45:30.263Z",
+      "action": "Fetched 4 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "10:45:49",
+      "timestamp": "2026-02-10T15:45:49.293Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "11:00:33",
+      "timestamp": "2026-02-10T16:00:33.513Z",
+      "action": "LLM: Choppy tape but semis still hot on TSMC's blow-out Jan sales; retail turnaround names quietly basing while momentum chases AI chips.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "11:00:40",
+      "timestamp": "2026-02-10T16:00:40.342Z",
+      "action": "Fetched 5 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "11:00:56",
+      "timestamp": "2026-02-10T16:00:56.348Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "11:15:30",
+      "timestamp": "2026-02-10T16:15:30.380Z",
+      "action": "Fetched 5 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "11:15:45",
+      "timestamp": "2026-02-10T16:15:45.192Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "11:30:33",
+      "timestamp": "2026-02-10T16:30:33.191Z",
+      "action": "LLM: Choppy tape with risk-on pockets; chips bouncing (CRDO beat) while retail turnaround names quietly basing—ideal for swing setups with defined catalysts inside 1-3 week windows.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "11:30:40",
+      "timestamp": "2026-02-10T16:30:40.110Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "11:30:56",
+      "timestamp": "2026-02-10T16:30:56.941Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "11:45:30",
+      "timestamp": "2026-02-10T16:45:30.966Z",
+      "action": "Fetched 4 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "11:45:49",
+      "timestamp": "2026-02-10T16:45:49.928Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "12:00:33",
+      "timestamp": "2026-02-10T17:00:33.224Z",
+      "action": "LLM: Choppy tape with pockets of AI-adjacent momentum; VIX 17.5 keeps swing risk/reward balanced while we wait for next macro or sector catalyst.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "12:00:40",
+      "timestamp": "2026-02-10T17:00:40.204Z",
+      "action": "Fetched 2 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "12:00:54",
+      "timestamp": "2026-02-10T17:00:54.521Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "research_dispatcher",
+      "time": "12:00:55",
+      "timestamp": "2026-02-10T17:00:55.538Z",
+      "action": "Deep research scan completed",
+      "summary": "7 opportunities scored"
+    },
+    {
+      "agent": "news-feed",
+      "time": "12:15:30",
+      "timestamp": "2026-02-10T17:15:30.944Z",
+      "action": "Fetched 2 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "12:15:47",
+      "timestamp": "2026-02-10T17:15:47.272Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "12:30:34",
+      "timestamp": "2026-02-10T17:30:34.330Z",
+      "action": "LLM: Choppy tape with pockets of AI-adjacent strength; retail turnaround names showing relative strength while mega-cap tech consolidates post-earnings.",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "12:30:57",
+      "timestamp": "2026-02-10T17:30:57.463Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "12:45:49",
+      "timestamp": "2026-02-10T17:45:49.702Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "13:00:34",
+      "timestamp": "2026-02-10T18:00:34.374Z",
+      "action": "LLM: Choppy tape with pockets of AI-adjacent momentum (CRDO) and retail turnaround stories; VIX 17 suggests no panic but limited follow-through, ideal for selective swing setups.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "13:00:41",
+      "timestamp": "2026-02-10T18:00:41.242Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "13:00:59",
+      "timestamp": "2026-02-10T18:00:59.685Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "13:15:31",
+      "timestamp": "2026-02-10T18:15:31.348Z",
+      "action": "Fetched 2 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "13:15:46",
+      "timestamp": "2026-02-10T18:15:46.728Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "13:30:34",
+      "timestamp": "2026-02-10T18:30:34.864Z",
+      "action": "LLM: Choppy tape with VIX ~17; AI/software names consolidating after mixed earnings while retail/discretionary quietly perking up—ideal for catalyst-driven swing rotation.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "13:30:42",
+      "timestamp": "2026-02-10T18:30:42.295Z",
+      "action": "Fetched 3 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "13:30:59",
+      "timestamp": "2026-02-10T18:30:59.333Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "13:45:31",
+      "timestamp": "2026-02-10T18:45:31.605Z",
+      "action": "Fetched 5 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "13:45:47",
+      "timestamp": "2026-02-10T18:45:47.920Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "14:00:34",
+      "timestamp": "2026-02-10T19:00:34.494Z",
+      "action": "LLM: Choppy tape with VIX ~18 keeps swing setups tight; AI-adjacent names consolidating while retail turnaround stories quietly perking up.",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "14:00:59",
+      "timestamp": "2026-02-10T19:00:59.002Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "14:15:32",
+      "timestamp": "2026-02-10T19:15:32.450Z",
+      "action": "Fetched 2 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "14:15:48",
+      "timestamp": "2026-02-10T19:15:48.269Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "14:30:34",
+      "timestamp": "2026-02-10T19:30:34.298Z",
+      "action": "LLM: Choppy tape with VIX 17.7 keeps swing risk/reward balanced; no macro shocks until CPI next week, so focus on single-stock catalysts.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "14:30:41",
+      "timestamp": "2026-02-10T19:30:41.266Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "14:30:59",
+      "timestamp": "2026-02-10T19:30:59.457Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "14:45:32",
+      "timestamp": "2026-02-10T19:45:32.612Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "14:45:48",
+      "timestamp": "2026-02-10T19:45:48.019Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:00:34",
+      "timestamp": "2026-02-10T20:00:34.523Z",
+      "action": "LLM: Choppy tape with sector rotation out of tech (UBS downgrade) into retail/consumer turnarounds; VIX 17.6 keeps swing timeframe viable.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "15:00:41",
+      "timestamp": "2026-02-10T20:00:41.472Z",
+      "action": "Fetched 3 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:00:58",
+      "timestamp": "2026-02-10T20:00:58.069Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "15:15:32",
+      "timestamp": "2026-02-10T20:15:32.339Z",
+      "action": "Fetched 2 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:15:48",
+      "timestamp": "2026-02-10T20:15:48.072Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:30:31",
+      "timestamp": "2026-02-10T20:30:31.189Z",
+      "action": "LLM: Choppy tape with sector rotation out of mega-cap tech into healthcare/banks; VIX 17.5 keeps swing timeframe valid, but need clear catalysts.",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:30:54",
+      "timestamp": "2026-02-10T20:30:54.015Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "15:45:32",
+      "timestamp": "2026-02-10T20:45:32.605Z",
+      "action": "Fetched 2 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:45:50",
+      "timestamp": "2026-02-10T20:45:50.171Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "research_dispatcher",
+      "time": "17:00:34",
+      "timestamp": "2026-02-10T22:00:34.050Z",
+      "action": "Deep research scan completed",
+      "summary": "9 opportunities scored"
+    },
+    {
+      "agent": "overnight",
+      "time": "20:00:29",
+      "timestamp": "2026-02-11T01:00:29.491Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "21:00:29",
+      "timestamp": "2026-02-11T02:00:29.581Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "22:00:30",
+      "timestamp": "2026-02-11T03:00:30.012Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "23:00:29",
+      "timestamp": "2026-02-11T04:00:29.664Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    }
+  ]
+}

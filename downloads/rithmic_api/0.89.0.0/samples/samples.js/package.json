@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "protobufjs": "^7.5.4",
+    "ws": "^8.19.0"
+  }
+}

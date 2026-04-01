@@ -1,0 +1,38 @@
+{
+  "neptune": {
+    "alertedDown": false,
+    "downSince": 1775083578642,
+    "attempts": 1,
+    "lastAttempt": 1775083578642,
+    "lastSuccess": 1775083586305,
+    "lastFailure": 1774873289728,
+    "lastOutput": "ray start did not confirm runtime started",
+    "lastRecovered": 1774873449482
+  },
+  "uranus": {
+    "alertedDown": true,
+    "downSince": 1774874476529,
+    "attempts": 628,
+    "lastAttempt": 1775085506600,
+    "lastSuccess": null,
+    "lastFailure": 1775085512249,
+    "lastOutput": "are not supported on Windows and OSX. Restart the Ray cluster with the environment variable `RAY_ENABLE_WINDOWS_OR_OSX_CLUSTER=1` to proceed anyway.\r\nError: Multi-node Ray clusters are not supported on Windows and OSX. Restart the Ray cluster with the environment variable `{}=1` to proceed anyway.\r\n"
+  },
+  "razer": {
+    "alertedDown": true,
+    "downSince": 1775084876683,
+    "attempts": 3,
+    "lastAttempt": 1775085512250,
+    "lastSuccess": null,
+    "lastFailure": 1775085524436,
+    "lastOutput": "Razer Flask API unreachable on both Tailscale and LAN",
+    "lastRecovered": 1774921564525
+  },
+  "saturn": {
+    "alertedDown": false,
+    "downSince": 1774886133723,
+    "attempts": 1,
+    "lastAttempt": 1774886133723,
+    "lastSuccess": 1774886142341
+  }
+}

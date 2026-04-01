@@ -1,0 +1,934 @@
+{
+  "portfolio": {
+    "tickers": [
+      "UNP",
+      "CL",
+      "SO",
+      "META",
+      "CRM"
+    ],
+    "initial_capital": 100000,
+    "per_stock_capital": 20000.0,
+    "months": 12
+  },
+  "performance": {
+    "final_value": 105152.31,
+    "total_return_pct": 5.15,
+    "total_premium_collected": 6287.31
+  },
+  "trade_stats": {
+    "total_cycles": 35,
+    "assignments": 2,
+    "called_away": 2,
+    "expired_otm": 31,
+    "win_rate_pct": 88.6
+  },
+  "per_stock": [
+    {
+      "ticker": "UNP",
+      "period": {
+        "start": "2025-03-19",
+        "end": "2026-03-06",
+        "trading_days": 243,
+        "months": 11.6
+      },
+      "parameters": {
+        "initial_capital": 20000.0,
+        "csp_delta": 0.25,
+        "cc_delta": 0.3,
+        "target_dte": 35,
+        "iv_premium": 1.2
+      },
+      "performance": {
+        "final_value": 22281.76,
+        "total_return_pct": 11.41,
+        "annualized_return_pct": 11.83,
+        "total_premium_collected": 2289.76,
+        "total_commissions": 8.0,
+        "sharpe_ratio": 2.81,
+        "max_drawdown_pct": 0.0
+      },
+      "trade_stats": {
+        "total_option_cycles": 8,
+        "assignments": 0,
+        "called_away": 0,
+        "expired_otm": 8,
+        "win_rate_pct": 100.0,
+        "avg_premium_per_cycle": 286.22
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 10.03,
+        "buy_hold_final_value": 22006.28,
+        "wheel_vs_bnh_pct": 1.38
+      },
+      "current_state": {
+        "phase": "CSP",
+        "shares_held": 0,
+        "cost_basis": 0,
+        "cash": 22281.76
+      },
+      "trades": [
+        {
+          "action": "SELL_CSP",
+          "date": "2025-04-04",
+          "ticker": "UNP",
+          "strike": 195,
+          "premium": 3.36,
+          "delta": -0.239,
+          "iv": 0.35,
+          "stock_price": 208.35
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-05-09",
+          "ticker": "UNP",
+          "type": "CSP",
+          "strike": 195,
+          "stock_price": 211.34,
+          "premium_kept": 3.36
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-05-09",
+          "ticker": "UNP",
+          "strike": 196,
+          "premium": 4.58,
+          "delta": -0.253,
+          "iv": 0.432,
+          "stock_price": 211.34
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-06-13",
+          "ticker": "UNP",
+          "type": "CSP",
+          "strike": 196,
+          "stock_price": 219.55,
+          "premium_kept": 4.58
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-06-17",
+          "ticker": "UNP",
+          "strike": 206,
+          "premium": 3.0,
+          "delta": -0.25,
+          "iv": 0.286,
+          "stock_price": 216.81
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-07-23",
+          "ticker": "UNP",
+          "type": "CSP",
+          "strike": 206,
+          "stock_price": 227.04,
+          "premium_kept": 3.0
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-07-24",
+          "ticker": "UNP",
+          "strike": 208,
+          "premium": 2.58,
+          "delta": -0.256,
+          "iv": 0.24,
+          "stock_price": 216.74
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-08-27",
+          "ticker": "UNP",
+          "type": "CSP",
+          "strike": 208,
+          "stock_price": 217.17,
+          "premium_kept": 2.58
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-08-27",
+          "ticker": "UNP",
+          "strike": 206,
+          "premium": 2.8,
+          "delta": -0.24,
+          "iv": 0.281,
+          "stock_price": 217.17
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-10-01",
+          "ticker": "UNP",
+          "type": "CSP",
+          "strike": 206,
+          "stock_price": 232.16,
+          "premium_kept": 2.8
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-10-10",
+          "ticker": "UNP",
+          "strike": 215,
+          "premium": 2.1,
+          "delta": -0.246,
+          "iv": 0.202,
+          "stock_price": 222.97
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-11-13",
+          "ticker": "UNP",
+          "type": "CSP",
+          "strike": 215,
+          "stock_price": 219.05,
+          "premium_kept": 2.1
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-11-13",
+          "ticker": "UNP",
+          "strike": 211,
+          "premium": 2.11,
+          "delta": -0.245,
+          "iv": 0.207,
+          "stock_price": 219.05
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-12-18",
+          "ticker": "UNP",
+          "type": "CSP",
+          "strike": 211,
+          "stock_price": 233.2,
+          "premium_kept": 2.11
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2026-01-07",
+          "ticker": "UNP",
+          "strike": 215,
+          "premium": 2.37,
+          "delta": -0.253,
+          "iv": 0.219,
+          "stock_price": 223.31
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2026-02-11",
+          "ticker": "UNP",
+          "type": "CSP",
+          "strike": 215,
+          "stock_price": 261.44,
+          "premium_kept": 2.37
+        }
+      ]
+    },
+    {
+      "ticker": "CL",
+      "period": {
+        "start": "2025-03-19",
+        "end": "2026-03-06",
+        "trading_days": 243,
+        "months": 11.6
+      },
+      "parameters": {
+        "initial_capital": 20000.0,
+        "csp_delta": 0.25,
+        "cc_delta": 0.3,
+        "target_dte": 35,
+        "iv_premium": 1.2
+      },
+      "performance": {
+        "final_value": 20791.0,
+        "total_return_pct": 3.96,
+        "annualized_return_pct": 4.1,
+        "total_premium_collected": 1403.0,
+        "total_commissions": 12.0,
+        "sharpe_ratio": 0.58,
+        "max_drawdown_pct": -5.15
+      },
+      "trade_stats": {
+        "total_option_cycles": 12,
+        "assignments": 1,
+        "called_away": 1,
+        "expired_otm": 10,
+        "win_rate_pct": 83.3,
+        "avg_premium_per_cycle": 116.92
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 6.0,
+        "buy_hold_final_value": 21199.79,
+        "wheel_vs_bnh_pct": -2.04
+      },
+      "current_state": {
+        "phase": "CSP",
+        "shares_held": 0,
+        "cost_basis": 0,
+        "cash": 20791.0
+      },
+      "trades": [
+        {
+          "action": "SELL_CSP",
+          "date": "2025-03-19",
+          "ticker": "CL",
+          "strike": 83,
+          "premium": 1.25,
+          "delta": -0.234,
+          "iv": 0.317,
+          "stock_price": 88.27
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-04-23",
+          "ticker": "CL",
+          "type": "CSP",
+          "strike": 83,
+          "stock_price": 92.14,
+          "premium_kept": 1.25
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-04-23",
+          "ticker": "CL",
+          "strike": 87,
+          "premium": 1.57,
+          "delta": -0.258,
+          "iv": 0.336,
+          "stock_price": 92.14
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-05-28",
+          "ticker": "CL",
+          "type": "CSP",
+          "strike": 87,
+          "stock_price": 90.05,
+          "premium_kept": 1.57
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-05-28",
+          "ticker": "CL",
+          "strike": 86,
+          "premium": 1.02,
+          "delta": -0.242,
+          "iv": 0.248,
+          "stock_price": 90.05
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-07-02",
+          "ticker": "CL",
+          "type": "CSP",
+          "strike": 86,
+          "stock_price": 90.68,
+          "premium_kept": 1.02
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-07-02",
+          "ticker": "CL",
+          "strike": 88,
+          "premium": 1.06,
+          "delta": -0.283,
+          "iv": 0.208,
+          "stock_price": 90.68
+        },
+        {
+          "action": "ASSIGNED",
+          "date": "2025-08-06",
+          "ticker": "CL",
+          "strike": 88,
+          "stock_price": 83.53,
+          "cost_basis": 86.94,
+          "shares": 100
+        },
+        {
+          "action": "SELL_CC",
+          "date": "2025-08-06",
+          "ticker": "CL",
+          "strike": 87,
+          "premium": 0.97,
+          "delta": 0.298,
+          "iv": 0.206,
+          "stock_price": 83.53,
+          "cost_basis": 86.94
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-09-10",
+          "ticker": "CL",
+          "type": "CC",
+          "strike": 87,
+          "stock_price": 82.14,
+          "premium_kept": 0.97,
+          "new_cost_basis": 85.97
+        },
+        {
+          "action": "SELL_CC",
+          "date": "2025-09-10",
+          "ticker": "CL",
+          "strike": 85,
+          "premium": 1.13,
+          "delta": 0.335,
+          "iv": 0.207,
+          "stock_price": 82.14,
+          "cost_basis": 85.97
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-10-14",
+          "ticker": "CL",
+          "type": "CC",
+          "strike": 85,
+          "stock_price": 77.4,
+          "premium_kept": 1.13,
+          "new_cost_basis": 84.84
+        },
+        {
+          "action": "SELL_CC",
+          "date": "2025-10-14",
+          "ticker": "CL",
+          "strike": 81,
+          "premium": 0.85,
+          "delta": 0.279,
+          "iv": 0.212,
+          "stock_price": 77.4,
+          "cost_basis": 84.84
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-11-17",
+          "ticker": "CL",
+          "type": "CC",
+          "strike": 81,
+          "stock_price": 78.33,
+          "premium_kept": 0.85,
+          "new_cost_basis": 83.99
+        },
+        {
+          "action": "SELL_CC",
+          "date": "2025-11-17",
+          "ticker": "CL",
+          "strike": 82,
+          "premium": 1.12,
+          "delta": 0.307,
+          "iv": 0.244,
+          "stock_price": 78.33,
+          "cost_basis": 83.99
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-12-22",
+          "ticker": "CL",
+          "type": "CC",
+          "strike": 82,
+          "stock_price": 78.56,
+          "premium_kept": 1.12,
+          "new_cost_basis": 82.87
+        },
+        {
+          "action": "SELL_CC",
+          "date": "2025-12-22",
+          "ticker": "CL",
+          "strike": 82,
+          "premium": 1.11,
+          "delta": 0.313,
+          "iv": 0.234,
+          "stock_price": 78.56,
+          "cost_basis": 82.87
+        },
+        {
+          "action": "CALLED_AWAY",
+          "date": "2026-01-28",
+          "ticker": "CL",
+          "strike": 82,
+          "stock_price": 85.0,
+          "gain_per_share": 0
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2026-01-28",
+          "ticker": "CL",
+          "strike": 81,
+          "premium": 0.94,
+          "delta": -0.235,
+          "iv": 0.25,
+          "stock_price": 85.0
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2026-03-04",
+          "ticker": "CL",
+          "type": "CSP",
+          "strike": 81,
+          "stock_price": 95.28,
+          "premium_kept": 0.94
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2026-03-04",
+          "ticker": "CL",
+          "strike": 91,
+          "premium": 1.49,
+          "delta": -0.271,
+          "iv": 0.29,
+          "stock_price": 95.28
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2026-03-06",
+          "ticker": "CL",
+          "type": "CSP",
+          "strike": 91,
+          "stock_price": 93.56,
+          "premium_kept": 1.49
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2026-03-06",
+          "ticker": "CL",
+          "strike": 89,
+          "premium": 1.52,
+          "delta": -0.267,
+          "iv": 0.308,
+          "stock_price": 93.56
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2026-03-06",
+          "ticker": "CL",
+          "type": "CSP",
+          "strike": 89,
+          "stock_price": 93.56,
+          "premium_kept": 1.52
+        }
+      ]
+    },
+    {
+      "ticker": "SO",
+      "period": {
+        "start": "2025-03-19",
+        "end": "2026-03-06",
+        "trading_days": 243,
+        "months": 11.6
+      },
+      "parameters": {
+        "initial_capital": 20000.0,
+        "csp_delta": 0.25,
+        "cc_delta": 0.3,
+        "target_dte": 35,
+        "iv_premium": 1.2
+      },
+      "performance": {
+        "final_value": 20516.84,
+        "total_return_pct": 2.58,
+        "annualized_return_pct": 2.68,
+        "total_premium_collected": 1028.84,
+        "total_commissions": 12.0,
+        "sharpe_ratio": 0.41,
+        "max_drawdown_pct": -5.67
+      },
+      "trade_stats": {
+        "total_option_cycles": 12,
+        "assignments": 1,
+        "called_away": 1,
+        "expired_otm": 10,
+        "win_rate_pct": 83.3,
+        "avg_premium_per_cycle": 85.74
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 12.37,
+        "buy_hold_final_value": 22473.03,
+        "wheel_vs_bnh_pct": -9.78
+      },
+      "current_state": {
+        "phase": "CSP",
+        "shares_held": 0,
+        "cost_basis": 0,
+        "cash": 20516.84
+      },
+      "trades": [
+        {
+          "action": "SELL_CSP",
+          "date": "2025-03-19",
+          "ticker": "SO",
+          "strike": 83,
+          "premium": 0.92,
+          "delta": -0.238,
+          "iv": 0.235,
+          "stock_price": 86.75
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-04-23",
+          "ticker": "SO",
+          "type": "CSP",
+          "strike": 83,
+          "stock_price": 88.23,
+          "premium_kept": 0.92
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-04-23",
+          "ticker": "SO",
+          "strike": 84,
+          "premium": 0.94,
+          "delta": -0.229,
+          "iv": 0.248,
+          "stock_price": 88.23
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-05-28",
+          "ticker": "SO",
+          "type": "CSP",
+          "strike": 84,
+          "stock_price": 86.14,
+          "premium_kept": 0.94
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-05-28",
+          "ticker": "SO",
+          "strike": 82,
+          "premium": 0.98,
+          "delta": -0.235,
+          "iv": 0.256,
+          "stock_price": 86.14
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-07-02",
+          "ticker": "SO",
+          "type": "CSP",
+          "strike": 82,
+          "stock_price": 89.0,
+          "premium_kept": 0.98
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-07-02",
+          "ticker": "SO",
+          "strike": 86,
+          "premium": 0.64,
+          "delta": -0.226,
+          "iv": 0.174,
+          "stock_price": 89.0
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-08-06",
+          "ticker": "SO",
+          "type": "CSP",
+          "strike": 86,
+          "stock_price": 92.44,
+          "premium_kept": 0.64
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-08-06",
+          "ticker": "SO",
+          "strike": 90,
+          "premium": 0.57,
+          "delta": -0.232,
+          "iv": 0.144,
+          "stock_price": 92.44
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-09-10",
+          "ticker": "SO",
+          "type": "CSP",
+          "strike": 90,
+          "stock_price": 90.11,
+          "premium_kept": 0.57
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-09-10",
+          "ticker": "SO",
+          "strike": 88,
+          "premium": 0.55,
+          "delta": -0.242,
+          "iv": 0.135,
+          "stock_price": 90.11
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-10-14",
+          "ticker": "SO",
+          "type": "CSP",
+          "strike": 88,
+          "stock_price": 98.1,
+          "premium_kept": 0.55
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2025-10-14",
+          "ticker": "SO",
+          "strike": 96,
+          "premium": 0.78,
+          "delta": -0.274,
+          "iv": 0.148,
+          "stock_price": 98.1
+        },
+        {
+          "action": "ASSIGNED",
+          "date": "2025-11-17",
+          "ticker": "SO",
+          "strike": 96,
+          "stock_price": 89.87,
+          "cost_basis": 95.22,
+          "shares": 100
+        },
+        {
+          "action": "SELL_CC",
+          "date": "2025-11-17",
+          "ticker": "SO",
+          "strike": 93,
+          "premium": 0.94,
+          "delta": 0.307,
+          "iv": 0.178,
+          "stock_price": 89.87,
+          "cost_basis": 95.22
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2025-12-22",
+          "ticker": "SO",
+          "type": "CC",
+          "strike": 93,
+          "stock_price": 85.05,
+          "premium_kept": 0.94,
+          "new_cost_basis": 94.28
+        },
+        {
+          "action": "SELL_CC",
+          "date": "2025-12-22",
+          "ticker": "SO",
+          "strike": 89,
+          "premium": 0.81,
+          "delta": 0.264,
+          "iv": 0.198,
+          "stock_price": 85.05,
+          "cost_basis": 94.28
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2026-01-28",
+          "ticker": "SO",
+          "type": "CC",
+          "strike": 89,
+          "stock_price": 87.64,
+          "premium_kept": 0.81,
+          "new_cost_basis": 93.47
+        },
+        {
+          "action": "SELL_CC",
+          "date": "2026-01-28",
+          "ticker": "SO",
+          "strike": 91,
+          "premium": 0.75,
+          "delta": 0.273,
+          "iv": 0.168,
+          "stock_price": 87.64,
+          "cost_basis": 93.47
+        },
+        {
+          "action": "CALLED_AWAY",
+          "date": "2026-03-04",
+          "ticker": "SO",
+          "strike": 91,
+          "stock_price": 97.63,
+          "gain_per_share": 0
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2026-03-04",
+          "ticker": "SO",
+          "strike": 93,
+          "premium": 1.1,
+          "delta": -0.236,
+          "iv": 0.253,
+          "stock_price": 97.63
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2026-03-06",
+          "ticker": "SO",
+          "type": "CSP",
+          "strike": 93,
+          "stock_price": 97.48,
+          "premium_kept": 1.1
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2026-03-06",
+          "ticker": "SO",
+          "strike": 94,
+          "premium": 1.32,
+          "delta": -0.279,
+          "iv": 0.243,
+          "stock_price": 97.48
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2026-03-06",
+          "ticker": "SO",
+          "type": "CSP",
+          "strike": 94,
+          "stock_price": 97.48,
+          "premium_kept": 1.32
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "period": {
+        "start": "2025-03-19",
+        "end": "2026-03-06",
+        "trading_days": 243,
+        "months": 11.6
+      },
+      "parameters": {
+        "initial_capital": 20000.0,
+        "csp_delta": 0.25,
+        "cc_delta": 0.3,
+        "target_dte": 35,
+        "iv_premium": 1.2
+      },
+      "performance": {
+        "final_value": 20000.0,
+        "total_return_pct": 0.0,
+        "annualized_return_pct": 0.0,
+        "total_premium_collected": 0,
+        "total_commissions": 0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "trade_stats": {
+        "total_option_cycles": 0,
+        "assignments": 0,
+        "called_away": 0,
+        "expired_otm": 0,
+        "win_rate_pct": 0,
+        "avg_premium_per_cycle": 0
+      },
+      "benchmark": {
+        "buy_hold_return_pct": 10.66,
+        "buy_hold_final_value": 22131.92,
+        "wheel_vs_bnh_pct": -10.66
+      },
+      "current_state": {
+        "phase": "CSP",
+        "shares_held": 0,
+        "cost_basis": 0,
+        "cash": 20000.0
+      },
+      "trades": []
+    },
+    {
+      "ticker": "CRM",
+      "period": {
+        "start": "2025-03-19",
+        "end": "2026-03-06",
+        "trading_days": 243,
+        "months": 11.6
+      },
+      "parameters": {
+        "initial_capital": 20000.0,
+        "csp_delta": 0.25,
+        "cc_delta": 0.3,
+        "target_dte": 35,
+        "iv_premium": 1.2
+      },
+      "performance": {
+        "final_value": 21562.71,
+        "total_return_pct": 7.81,
+        "annualized_return_pct": 8.1,
+        "total_premium_collected": 1565.71,
+        "total_commissions": 3.0,
+        "sharpe_ratio": 1.77,
+        "max_drawdown_pct": 0.0
+      },
+      "trade_stats": {
+        "total_option_cycles": 3,
+        "assignments": 0,
+        "called_away": 0,
+        "expired_otm": 3,
+        "win_rate_pct": 100.0,
+        "avg_premium_per_cycle": 521.9
+      },
+      "benchmark": {
+        "buy_hold_return_pct": -27.19,
+        "buy_hold_final_value": 14562.4,
+        "wheel_vs_bnh_pct": 35.0
+      },
+      "current_state": {
+        "phase": "CSP",
+        "shares_held": 0,
+        "cost_basis": 0,
+        "cash": 21562.71
+      },
+      "trades": [
+        {
+          "action": "SELL_CSP",
+          "date": "2026-01-29",
+          "ticker": "CRM",
+          "strike": 198,
+          "premium": 4.55,
+          "delta": -0.248,
+          "iv": 0.435,
+          "stock_price": 214.08
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2026-03-05",
+          "ticker": "CRM",
+          "type": "CSP",
+          "strike": 198,
+          "stock_price": 201.39,
+          "premium_kept": 4.55
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2026-03-05",
+          "ticker": "CRM",
+          "strike": 183,
+          "premium": 5.6,
+          "delta": -0.25,
+          "iv": 0.551,
+          "stock_price": 201.39
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2026-03-06",
+          "ticker": "CRM",
+          "type": "CSP",
+          "strike": 183,
+          "stock_price": 202.11,
+          "premium_kept": 5.6
+        },
+        {
+          "action": "SELL_CSP",
+          "date": "2026-03-06",
+          "ticker": "CRM",
+          "strike": 184,
+          "premium": 5.51,
+          "delta": -0.25,
+          "iv": 0.54,
+          "stock_price": 202.11
+        },
+        {
+          "action": "EXPIRED_OTM",
+          "date": "2026-03-06",
+          "ticker": "CRM",
+          "type": "CSP",
+          "strike": 184,
+          "stock_price": 202.11,
+          "premium_kept": 5.51
+        }
+      ]
+    }
+  ]
+}

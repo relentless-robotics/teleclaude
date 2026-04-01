@@ -19,12 +19,13 @@
  */
 
 const { ImapFlow } = require('imapflow');
+const creds = require('./secure_creds');
 const path = require('path');
 const fs = require('fs');
 
 // Configuration
 const CONFIG = {
-  email: 'relentlessrobotics@gmail.com',
+  email: creds.google.email,
   // App password - set via env var or update here after generation
   appPassword: process.env.GMAIL_APP_PASSWORD || 'YOUR_APP_PASSWORD_HERE',
   host: 'imap.gmail.com',

@@ -1,0 +1,372 @@
+[
+  {
+    "id": "neptune_q2_001",
+    "priority": 1,
+    "name": "wf_cnn_expanding_fold74_restart",
+    "description": "Resume WF CNN expanding window from fold_74 checkpoint (folds 76-84 invalid, clean restart required)",
+    "command": "python launch_wider_cnn_expanding.py --resume-from-fold 74 --expanding-window --output-dir models/wider_cnn_clean_v2",
+    "node": "neptune",
+    "status": "running",
+    "created_at": "2026-03-29T20:00:00.000Z",
+    "started_at": "2026-03-29T21:09:41.000Z",
+    "completed_at": null,
+    "pid": 2084,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "training",
+      "cnn",
+      "walk_forward",
+      "expanding_window",
+      "priority_critical"
+    ]
+  },
+  {
+    "id": "neptune_q3_001",
+    "priority": 2,
+    "name": "c7_tp8_z25_fillsim_neptune_validation",
+    "description": "CRITICAL: Validate C7 TP8/z>2.5 on Neptune full fill_sim (with SL). Jupiter showed Sortino=2.768 -- confirm on Neptune's more accurate fill model. Config: book_predstdExit_conv2.0_vol70, TP8, hold_ms=600000, z>2.5, limit entry.",
+    "command": "python scripts/final_fill_sim.py --card C7 --tp 8 --min-z 2.5 --hold-ms 600000 --entry limit --with-sl --output results/c7_tp8_z25_neptune_validation.json",
+    "node": "neptune",
+    "status": "running",
+    "created_at": "2026-03-29T23:30:00.000Z",
+    "started_at": "2026-03-30T21:54:33.185Z",
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "fill_sim",
+      "c7",
+      "validation",
+      "sortino",
+      "priority_high"
+    ],
+    "log_pattern": "c7_tp8_validation*.log",
+    "completion_markers": [
+      "Sortino=",
+      "=== DONE ==="
+    ],
+    "metrics_regex": "Sortino=([0-9.]+)"
+  },
+  {
+    "id": "neptune_q3_002",
+    "priority": 2,
+    "name": "c1_z20_fillsim_neptune_validation",
+    "description": "Validate C1 z>2.0 on Neptune fill_sim with SL. Jupiter Sortino=2.046 -- confirm. Config: book_predstdExit_conv2.0, TP6, hold_ms=600000, z>2.0, limit entry.",
+    "command": "python scripts/final_fill_sim.py --card C1 --tp 6 --min-z 2.0 --hold-ms 600000 --entry limit --with-sl --output results/c1_z20_neptune_validation.json",
+    "node": "neptune",
+    "status": "running",
+    "created_at": "2026-03-29T23:30:01.000Z",
+    "started_at": "2026-03-30T21:57:15.255Z",
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "fill_sim",
+      "c1",
+      "validation",
+      "sortino"
+    ],
+    "log_pattern": "c1_z20_validation*.log",
+    "completion_markers": [
+      "Sortino=",
+      "=== DONE ==="
+    ],
+    "metrics_regex": "Sortino=([0-9.]+)"
+  },
+  {
+    "id": "neptune_q3_003",
+    "priority": 3,
+    "name": "meta_model_gate_v2_retrain_neptune",
+    "description": "Retrain LGBM meta-gate on Neptune with all current OOT embeddings. Baseline: IC lift +30%. Add temporal CNN z-score features from Razer (razer_q3_001). Expected lift: +5-10% additional.",
+    "command": "python scripts/lgbm_reduced_features.py --meta-gate --retrain --features temporal_zscore,embeddings,mbo,l1 --device cpu --output models/meta_gate_neptune_v2.pkl",
+    "node": "neptune",
+    "status": "running",
+    "created_at": "2026-03-29T23:30:02.000Z",
+    "started_at": "2026-03-30T22:18:48.695Z",
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "lgbm",
+      "meta_gate",
+      "retrain"
+    ],
+    "log_pattern": "meta_gate_neptune_v2*.log",
+    "completion_markers": [
+      "Meta-gate trained",
+      "Gate IC:"
+    ],
+    "metrics_regex": "Gate IC:\\s*([0-9.]+)"
+  },
+  {
+    "id": "neptune_q3_004",
+    "priority": 3,
+    "name": "fold74_decay_oot_extended",
+    "description": "Extended OOT decay test: fold_74 model on all data after training cutoff. Prior: IC=0.115 over 92 days. Extend to 150+ days to confirm durability. Flag degradation > 20%.",
+    "command": "python alpha_discovery/deep_models/run_fold74_decay_test.py --extended --days 150",
+    "node": "neptune",
+    "status": "running",
+    "created_at": "2026-03-29T23:30:03.000Z",
+    "started_at": "2026-04-01T06:08:59.030Z",
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "oot",
+      "decay_test",
+      "fold74",
+      "durability"
+    ]
+  },
+  {
+    "id": "neptune_q3_005",
+    "priority": 4,
+    "name": "monte_carlo_c7_c1_validated_sortinos",
+    "description": "Monte Carlo validation for C7 (Sortino=2.768) and C1 (Sortino=2.046). 1000 bootstrap samples, confirm Sortino > 1.5 at 95th percentile. Required before paper deploy.",
+    "command": "python scripts/final_fill_sim.py --monte-carlo 1000 --cards C7,C1 --output results/monte_carlo_c7_c1.json",
+    "node": "neptune",
+    "status": "running",
+    "created_at": "2026-03-29T23:30:04.000Z",
+    "started_at": "2026-04-01T06:11:39.190Z",
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "monte_carlo",
+      "validation",
+      "c7",
+      "c1",
+      "deployment_gate"
+    ]
+  },
+  {
+    "id": "neptune_q3_006",
+    "priority": 4,
+    "name": "wider_cnn_ic_by_horizon_sweep",
+    "description": "IC decay analysis: how does WiderCNN IC decay from 10s to 5min? Compute Spearman IC of existing OOT preds against 10s/30s/60s/120s/300s targets. Shows exactly where signal is still valuable.",
+    "command": "python scripts/wider_cnn_ic_analysis.py --horizons 10s,30s,60s,120s,300s --pred-dir alpha_discovery/deep_models/results/wider_cnn",
+    "node": "neptune",
+    "status": "running",
+    "created_at": "2026-03-29T23:30:05.000Z",
+    "started_at": "2026-04-01T10:44:17.571Z",
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "ic_analysis",
+      "horizon_decay",
+      "wider_cnn"
+    ]
+  },
+  {
+    "id": "neptune_q3_007",
+    "priority": 5,
+    "name": "cnn_embed_temporal_stack_pilot_lgbm",
+    "description": "EXP-TS-001: LGBM on lagged CNN embeddings. Use existing OOT embedding arrays (512-dim per bar). Add lag-1/5/10/30 embeddings + MBO. Test if temporal embedding sequence predicts 30s+ outcomes. CPU-only, 4h runtime.",
+    "command": "python alpha_discovery/deep_models/exp_ts_001_lgbm_gate.py --horizons 30s,60s,120s --embed-lags 1,5,10,30 --output results/exp_ts_001_results.json",
+    "node": "neptune",
+    "status": "running",
+    "created_at": "2026-03-29T23:30:06.000Z",
+    "started_at": "2026-04-01T10:59:34.994Z",
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "lgbm",
+      "temporal_embeddings",
+      "exp_ts_001",
+      "cpu_only"
+    ]
+  },
+  {
+    "id": "neptune_q3_008",
+    "priority": 5,
+    "name": "mfe_mae_multihorizon_cnn_neptune",
+    "description": "CNN multi-horizon training: add auxiliary loss heads for 30s, 60s, 120s alongside primary 10s head. Tests if shared backbone learns richer features. Full WF expanding window on Neptune.",
+    "command": "python scripts/mfe_mae_multihorizon.py --horizons 10s,30s,60s,120s --loss-weights 1.0,0.8,0.5,0.3 --output results/multihorizon_cnn",
+    "node": "neptune",
+    "status": "queued",
+    "created_at": "2026-03-29T23:30:07.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "multihorizon",
+      "cnn",
+      "auxiliary_loss",
+      "walk_forward"
+    ]
+  },
+  {
+    "id": "neptune_q3_009",
+    "priority": 6,
+    "name": "regime_gated_card_deployment_analysis",
+    "description": "Analyze card performance conditioned on regime classifier output. Which cards perform best in trending vs mean-reverting regimes? Guides regime-conditional deployment (only deploy card X in regime Y).",
+    "command": "python scripts/regime_classifier_lgbm.py --analyze-card-performance --cards C1,C5,C7 --output results/regime_card_performance.json",
+    "node": "neptune",
+    "status": "queued",
+    "created_at": "2026-03-29T23:30:08.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "regime",
+      "card_performance",
+      "deployment_strategy"
+    ]
+  },
+  {
+    "id": "neptune_q3_010",
+    "priority": 7,
+    "name": "adversarial_fill_sim_worst_case",
+    "description": "Adversarial fill sim: worst-case fills for C7 and C1. Assume 50% fill rate on limit orders, worst-quartile spread, 2x normal slippage. Validate Sortino > 1.0 in adversarial conditions.",
+    "command": "python scripts/final_fill_sim.py --adversarial --fill-rate 0.5 --slippage 2x --cards C7,C1 --output results/adversarial_fillsim.json",
+    "node": "neptune",
+    "status": "queued",
+    "created_at": "2026-03-29T23:30:09.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "adversarial",
+      "fill_sim",
+      "stress_test",
+      "c7",
+      "c1"
+    ]
+  },
+  {
+    "id": "neptune_q3_011",
+    "priority": 7,
+    "name": "cross_horizon_feature_engineering_neptune",
+    "description": "Cross-horizon feature engineering: compute return at 30s, 60s, 120s, 300s from existing mid_price data. Adds new training targets for next-gen models. Saves as enriched NPZ files for rapid experiment iteration.",
+    "command": "python alpha_discovery/cross_horizon_features.py --horizons 30s,60s,120s,300s --output data/processed/cross_horizon_targets",
+    "node": "neptune",
+    "status": "queued",
+    "created_at": "2026-03-29T23:30:10.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "feature_engineering",
+      "cross_horizon",
+      "data_prep"
+    ]
+  },
+  {
+    "id": "neptune_q2_012",
+    "priority": 8,
+    "name": "wider_cnn_wf_full_clean_after_fold74",
+    "description": "Complete WF CNN run after fold_74 restart finishes. Should reach fold 90-100 with clean expanding window (no warm-start contamination). Final production model candidate.",
+    "command": "python alpha_discovery/deep_models/run_wider_cnn_expanding_wf.py",
+    "node": "neptune",
+    "status": "blocked",
+    "blocked_reason": "Waiting for neptune_q2_001 to complete",
+    "created_at": "2026-03-29T23:30:11.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "training",
+      "cnn",
+      "walk_forward",
+      "production_candidate"
+    ]
+  },
+  {
+    "id": "neptune_auto_1774832604_0",
+    "name": "WiderCNN expanding window WF training",
+    "description": "WiderCNN expanding window WF training -- auto-launched from queue",
+    "command": "python launch_wider_cnn_expanding.py",
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "type": "training",
+    "priority": 1,
+    "tags": [
+      "training",
+      "neptune",
+      "auto-generated"
+    ],
+    "status": "running",
+    "created_at": "2026-03-30T01:03:24.000Z",
+    "log_pattern": "wider_cnn*.log",
+    "completion_markers": [
+      "WF complete",
+      "All folds done",
+      "=== DONE ==="
+    ],
+    "metrics_regex": "Concat IC:\\s*([0-9.]+)",
+    "started_at": "2026-03-30T01:09:41.000Z"
+  },
+  {
+    "id": "nextgen_neptune_B2_full_w300_h60",
+    "priority": 15,
+    "name": "[NEXTGEN-PENDING] Full-scale B2: SlimCausalTransformerCNN w=300 h=60s",
+    "description": "Full-scale next-gen experiment B2 on Neptune (RTX 3090 24GB). Run ONLY after Razer diagnostic shows concat_ic > 0.12 for B2_slimtfm_w300_h60. Slim Causal Transformer (3 layers, 128-dim) + CNN per-frame embeddings. w=300 (30s context), predicts 60s. Full WF expanding window (all folds), larger batch=128, epochs=5. Expected runtime: 48-72h.",
+    "command": "C:\\Python311\\python.exe alpha_discovery\\deep_models\\nextgen_cnn_experiments.py --exp B2_slimtfm_w300_h60 --n-folds 100",
+    "node": "neptune",
+    "status": "blocked",
+    "blocked_reason": "Waiting for Razer diagnostic B2_slimtfm_w300_h60 concat_ic > 0.12",
+    "created_at": "2026-03-29T10:00:00.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "nextgen",
+      "slim_transformer",
+      "full_scale",
+      "neptune",
+      "blocked_pending_razer"
+    ]
+  },
+  {
+    "id": "nextgen_neptune_D1_full_multiscale_h30",
+    "priority": 15,
+    "name": "[NEXTGEN-PENDING] Full-scale D1: MultiScaleCNN 3-stream h=30s",
+    "description": "Full-scale next-gen experiment D1 on Neptune. Run ONLY after Razer diagnostic shows concat_ic > 0.12 for D1_multiscale_h30. Three-stream parallel CNN at 2s/10s/30s timescales predicting 30s. Full WF expanding window, batch=128, epochs=5. Expected runtime: 36-48h.",
+    "command": "C:\\Python311\\python.exe alpha_discovery\\deep_models\\nextgen_cnn_experiments.py --exp D1_multiscale_h30 --n-folds 100",
+    "node": "neptune",
+    "status": "blocked",
+    "blocked_reason": "Waiting for Razer diagnostic D1_multiscale_h30 concat_ic > 0.12",
+    "created_at": "2026-03-29T10:01:00.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "nextgen",
+      "multiscale",
+      "full_scale",
+      "neptune",
+      "blocked_pending_razer"
+    ]
+  },
+  {
+    "id": "nextgen_neptune_C1_full_hierarchical_h30",
+    "priority": 15,
+    "name": "[NEXTGEN-PENDING] Full-scale C1: HierarchicalCNN w=300 h=30s",
+    "description": "Full-scale next-gen experiment C1 on Neptune. Run ONLY after Razer diagnostic shows concat_ic > 0.12 for C1_hierarch_w300_h30. Two-stage hierarchical: 2s chunks to stage-2 temporal CNN over 30s. Full WF expanding window, batch=128, epochs=5. Expected runtime: 36-48h.",
+    "command": "C:\\Python311\\python.exe alpha_discovery\\deep_models\\nextgen_cnn_experiments.py --exp C1_hierarch_w300_h30 --n-folds 100",
+    "node": "neptune",
+    "status": "blocked",
+    "blocked_reason": "Waiting for Razer diagnostic C1_hierarch_w300_h30 concat_ic > 0.12",
+    "created_at": "2026-03-29T10:02:00.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "C:\\Users\\Footb\\Documents\\Github\\Lvl3Quant",
+    "tags": [
+      "nextgen",
+      "hierarchical",
+      "full_scale",
+      "neptune",
+      "blocked_pending_razer"
+    ]
+  }
+]

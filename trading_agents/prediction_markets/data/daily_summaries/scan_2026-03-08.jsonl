@@ -1,0 +1,4 @@
+{"timestamp": "2026-03-08T08:31:49.293399+00:00", "scalper": {"status": "OK", "scanned": 30, "total_markets": 200, "mean_reversion": 0, "momentum": 0, "wide_spreads": 30, "opportunities": 0}, "llm": {"status": "SKIPPED"}, "duration_s": 29.1}
+{"timestamp": "2026-03-08T08:34:35.941174+00:00", "scalper": {"status": "OK", "scanned": 168, "total_markets": 500, "mean_reversion": 0, "momentum": 0, "wide_spreads": 168, "opportunities": 0}, "llm": {"status": "SKIPPED"}, "duration_s": 161.1}
+{"timestamp": "2026-03-08T08:45:11.856958+00:00", "scalper": {"status": "OK", "scanned": 30, "total_markets": 200, "mean_reversion": 0, "momentum": 0, "wide_spreads": 30, "opportunities": 0}, "llm": {"status": "SKIPPED"}, "duration_s": 25.1}
+{"timestamp": "2026-03-08T21:36:57.369403+00:00", "scalper": {"status": "OK", "scanned": 28, "total_markets": 200, "mean_reversion": 0, "momentum": 0, "wide_spreads": 28, "opportunities": 0}, "llm": {"status": "SKIPPED"}, "duration_s": 32.7}

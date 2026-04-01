@@ -1,0 +1,207 @@
+{
+  "last_updated": "2026-03-18T09:14:15.671584",
+  "nodes": {
+    "neptune": {
+      "name": "Neptune",
+      "description": "RTX 3090, 32-core CPU, 32GB RAM",
+      "ip": "localhost",
+      "reachable": true,
+      "gpu_pct": 98,
+      "gpu_temp_c": 71,
+      "gpu_power_w": 341.4,
+      "vram_used_gb": 12.4,
+      "vram_total_gb": 24.0,
+      "cpu_pct": null,
+      "ram_used_gb": null,
+      "ram_total_gb": null,
+      "disk_free_pct": null,
+      "current_task": "GPU Active (unknown task)",
+      "active_processes": [
+        {
+          "pid": 25956,
+          "mem_mb": 0.0
+        },
+        {
+          "pid": 28000,
+          "mem_mb": 0.1
+        }
+      ],
+      "python_count": 2,
+      "checkpoint_age_min": 2880.0,
+      "log_age_min": null,
+      "log_tail": null
+    },
+    "uranus": {
+      "name": "Uranus",
+      "description": "RTX 5090, 16-core, 130GB RAM",
+      "ip": "100.100.83.37",
+      "reachable": true,
+      "gpu_pct": 92,
+      "gpu_temp_c": 62,
+      "gpu_power_w": 474.5,
+      "vram_used_gb": 15.3,
+      "vram_total_gb": 31.8,
+      "cpu_pct": null,
+      "ram_used_gb": null,
+      "ram_total_gb": null,
+      "disk_free_pct": null,
+      "current_task": "GPU Active (unknown task)",
+      "active_processes": [
+        {
+          "pid": 20128,
+          "mem_mb": 0.0
+        }
+      ],
+      "python_count": 1,
+      "checkpoint_age_min": null,
+      "log_age_min": 2.2,
+      "log_tail": "09:00:21 [train_wf] INFO:   Fold IC: +0.0694 (best over 3 epochs)  [733.4s total]\r\n09:00:21 [train_wf] INFO:   VRAM after cleanup: 64MB allocated, 454MB reserved\r\n09:00:22 [train_wf] INFO: \r\n--- Fold 167/167 | Train: 2026-02-12..2026-03-11 (20d) | Test: 2026-03-13 ---\r\n09:00:30 [train_wf] INFO:   Target normalization: mean=0.052 std=5.277 ticks\r\n09:00:30 [train_wf] INFO:   Train: 4,677,999 valid bars | Test: 233,899 valid bars\r\n09:00:41 [train_wf] INFO:   Dataset: 935,524 train samples (subsampl"
+    },
+    "razer": {
+      "name": "Razer",
+      "description": "RTX 3070, Laptop",
+      "ip": "100.102.215.75",
+      "reachable": true,
+      "gpu_pct": 99,
+      "gpu_temp_c": 87,
+      "gpu_power_w": 75.3,
+      "vram_used_gb": 7.8,
+      "vram_total_gb": 8.0,
+      "cpu_pct": 12,
+      "ram_used_gb": 10.3,
+      "ram_total_gb": 15.4,
+      "disk_free_pct": 23.7,
+      "current_task": "Training",
+      "active_processes": [
+        {
+          "pid": 10480,
+          "cmd": "python  run_standard_cnn_wf.py",
+          "mem_mb": 0.0
+        },
+        {
+          "pid": 4908,
+          "cmd": "C:\\Python311\\python.exe C:\\Users\\claude\\Documents\\Lvl3Quant\\alpha_discovery\\deep_models\\train_walkfo",
+          "mem_mb": 0.0
+        }
+      ],
+      "python_count": 2,
+      "checkpoint_age_min": null,
+      "log_age_min": 95.3,
+      "log_tail": "07:26:06 [train_wf] INFO:   Total folds: 167\r\n07:26:06 [train_wf] INFO:   Method 1 (glob): found 1 checkpoint(s)\r\n07:26:06 [train_wf] INFO:   Will resume from: checkpoint_book_20260317_resume.json\r\n07:26:06 [train_wf] INFO:   CHECKPOINT RESUME: Skipping 162 completed folds (IC so far: +0.1500)\r\n07:26:06 [train_wf] INFO: \r\n--- Fold 163/167 | Train: 2025-07-14..2026-03-05 (167d) | Test: 2026-03-09 ---\r\n07:27:00 [train_wf] INFO:   Target normalization: mean=-0.004 std=3.901 ticks\r\n07:27:00 [train_w"
+    },
+    "jupiter": {
+      "name": "Jupiter",
+      "description": "16-core CPU, 46GB RAM",
+      "ip": "192.168.0.108",
+      "reachable": true,
+      "gpu_pct": null,
+      "gpu_temp_c": null,
+      "gpu_power_w": null,
+      "vram_used_gb": null,
+      "vram_total_gb": null,
+      "cpu_pct": 0.04,
+      "ram_used_gb": 0.8,
+      "ram_total_gb": 47.0,
+      "disk_free_pct": 79,
+      "current_task": "Inference",
+      "active_processes": [
+        {
+          "pid": 744,
+          "cmd": "/usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers"
+        },
+        {
+          "pid": 847,
+          "cmd": "/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal"
+        },
+        {
+          "pid": 1314208,
+          "cmd": "tmux new-session -d"
+        },
+        {
+          "pid": 1314209,
+          "cmd": "sh -c cd"
+        },
+        {
+          "pid": 1314211,
+          "cmd": "python3 -m trading_agents.prediction_markets.paper_trader"
+        },
+        {
+          "pid": 1314216,
+          "cmd": "sh -c cd"
+        },
+        {
+          "pid": 1314218,
+          "cmd": "python3 -m trading_agents.prediction_markets.data_collector"
+        },
+        {
+          "pid": 1314223,
+          "cmd": "sh -c cd"
+        }
+      ],
+      "python_count": 11,
+      "checkpoint_age_min": null,
+      "log_age_min": null,
+      "log_tail": null,
+      "fill_sim_count": 0,
+      "result_file_count": 483418,
+      "load_avg": 0.04
+    },
+    "saturn": {
+      "name": "Saturn",
+      "description": "48-core CPU, 62GB RAM",
+      "ip": "10.0.0.2 (via Jupiter)",
+      "reachable": true,
+      "gpu_pct": null,
+      "gpu_temp_c": null,
+      "gpu_power_w": null,
+      "vram_used_gb": null,
+      "vram_total_gb": null,
+      "cpu_pct": 77.75,
+      "ram_used_gb": 36.2,
+      "ram_total_gb": 39.1,
+      "disk_free_pct": 27,
+      "current_task": "Fill Sim (72 workers), Sweep",
+      "active_processes": [
+        {
+          "pid": 1038,
+          "cmd": "/usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers"
+        },
+        {
+          "pid": 1133,
+          "cmd": "/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal"
+        },
+        {
+          "pid": 1005968,
+          "cmd": "bash -c cd"
+        },
+        {
+          "pid": 1005970,
+          "cmd": "python3 -u /home/saturn/Lvl3Quant/focused_card567_sweep.py"
+        },
+        {
+          "pid": 1006016,
+          "cmd": "python3 -u /home/saturn/Lvl3Quant/focused_card567_sweep.py"
+        },
+        {
+          "pid": 1006017,
+          "cmd": "python3 -u /home/saturn/Lvl3Quant/focused_card567_sweep.py"
+        },
+        {
+          "pid": 1006018,
+          "cmd": "python3 -u /home/saturn/Lvl3Quant/focused_card567_sweep.py"
+        },
+        {
+          "pid": 1006019,
+          "cmd": "python3 -u /home/saturn/Lvl3Quant/focused_card567_sweep.py"
+        }
+      ],
+      "python_count": 51,
+      "checkpoint_age_min": null,
+      "log_age_min": null,
+      "log_tail": null,
+      "fill_sim_count": 72,
+      "result_file_count": 747466,
+      "load_avg": 77.75
+    }
+  }
+}

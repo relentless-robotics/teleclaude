@@ -1,0 +1,238 @@
+{
+  "timestamp": "2026-02-09T21:30:13.132Z",
+  "date": "2026-02-09",
+  "dailySummary": {
+    "equity": 4952.7,
+    "dailyPL": -17.550000000000182,
+    "dailyPLPct": -0.3531009506564093,
+    "positionCount": 4,
+    "winners": 3,
+    "losers": 1,
+    "biggestWinner": {
+      "symbol": "AMD",
+      "pct": 7.376
+    },
+    "biggestLoser": {
+      "symbol": "SNAP",
+      "pct": -10.263
+    },
+    "cash": 2397.31
+  },
+  "dayTradeSummary": {
+    "equity": 103541.83,
+    "dailyPL": 3980.600000000006,
+    "dailyPLPct": 3.9981426505076385,
+    "cash": 103541.83,
+    "buyingPower": 398244.24,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 13,
+    "closedTradesCount": 5,
+    "winsToday": 3,
+    "lossesToday": 2,
+    "winRate": "60%",
+    "reasoningCount": 107,
+    "todayLessons": [
+      {
+        "symbol": "AMD260213C00210000",
+        "outcome": "WIN",
+        "plPct": "66.10%",
+        "entry": 5.057143,
+        "exit": 8.4,
+        "reason": "Taking 57% of position off table at +66% gain ($4,680 unrealized). AMD at $214 vs entry thesis of 'oversold bounce to 215-218' - TARGET HIT. Holding 6 contracts for runner to 220+ but locking in most gains after strong morning move. This was a momentum play on oversold gap-up, not a hold-through-lunch position.",
+        "lesson": "AMD260213C00210000 WIN (66.1%): Taking 57% of position off table at +66% gain ($4,680 unrealized). AMD at $214 vs entry thesis of 'oversold bounce to 215-218' - TARGET HIT. Holding 6 contracts for runner to 220+ but locking in most gains after strong morning move. This was a momentum play on oversold gap-up, not a hold-through-lunch position.",
+        "rule": {
+          "underlying": "AMD",
+          "todayTradesOnSymbol": 0,
+          "todayLossesOnSymbol": 0,
+          "todayWinsOnSymbol": 0,
+          "patterns": [],
+          "actionableRule": "AMD WIN: Normal trade"
+        },
+        "time": "2026-02-09T15:45:58.067Z"
+      },
+      {
+        "symbol": "CRDO260213P00110000",
+        "outcome": "LOSS",
+        "plPct": "-7.50%",
+        "entry": 2,
+        "exit": 1.85,
+        "reason": "Down 12.5% on fade thesis that hasn't materialized. CRDO stabilized at 109-120 range instead of breaking to 105 target. High IV (102.9%) working against me with theta decay. Position too small to matter ($50 loss) - cut it and redeploy capital to better setup. Thesis was 'fade the gap' but stock found support.",
+        "lesson": "CRDO260213P00110000 LOSS (-7.5%): Down 12.5% on fade thesis that hasn't materialized. CRDO stabilized at 109-120 range instead of breaking to 105 target. High IV (102.9%) working against me with theta decay. Position too small to matter ($50 loss) - cut it and redeploy capital to better setup. Thesis was 'fade the gap' but stock found support.",
+        "rule": {
+          "underlying": "CRDO",
+          "todayTradesOnSymbol": 0,
+          "todayLossesOnSymbol": 0,
+          "todayWinsOnSymbol": 0,
+          "patterns": [],
+          "actionableRule": "CRDO LOSS: Normal trade"
+        },
+        "time": "2026-02-09T15:45:58.440Z"
+      },
+      {
+        "symbol": "HIMS",
+        "outcome": "WIN",
+        "plPct": "1.30%",
+        "entry": 16.95,
+        "exit": 17.1699,
+        "reason": "Trimming 50% of HIMS at breakeven ($17.025 vs $16.95 entry). Stock bounced from $16.35 low but only up 0.06% - not getting the explosive oversold bounce expected. Take half off to lock in capital while letting 151 shares run for the 20+ target. This was a 'extreme oversold bounce' play and it's not bouncing hard enough yet.",
+        "lesson": "HIMS WIN (1.3%): Trimming 50% of HIMS at breakeven ($17.025 vs $16.95 entry). Stock bounced from $16.35 low but only up 0.06% - not getting the explosive oversold bounce expected. Take half off to lock in capital while letting 151 shares run for the 20+ target. This was a 'extreme oversold bounce' play and it's not bouncing hard enough yet.",
+        "rule": {
+          "underlying": "HIMS",
+          "todayTradesOnSymbol": 0,
+          "todayLossesOnSymbol": 0,
+          "todayWinsOnSymbol": 0,
+          "patterns": [
+            "SMALL_MOVE: Choppy action, not trending"
+          ],
+          "actionableRule": "CAUTION on HIMS: SMALL_MOVE: Choppy action, not trending"
+        },
+        "time": "2026-02-09T15:45:58.737Z"
+      },
+      {
+        "symbol": "MNDY",
+        "outcome": "LOSS",
+        "plPct": "-1.49%",
+        "entry": 78.32,
+        "exit": 77.155,
+        "reason": "MNDY down -31% today, now at $77.15 from entry $78.32. Opened this as 'oversold bounce to 85+' but stock showing NO bounce - just continued bleeding from $112 to $73 lows. VWAP $94.47, price $93.03 = still below VWAP with downtrend intact per 5min bars. This is capitulation continuing, not bouncing. Cut the -1.5% loss and preserve capital.",
+        "lesson": "MNDY LOSS (-1.5%): MNDY down -31% today, now at $77.15 from entry $78.32. Opened this as 'oversold bounce to 85+' but stock showing NO bounce - just continued bleeding from $112 to $73 lows. VWAP $94.47, price $93.03 = still below VWAP with downtrend intact per 5min bars. This is capitulation continuing, not bouncing. Cut the -1.5% loss and preserve capital.",
+        "rule": {
+          "underlying": "MNDY",
+          "todayTradesOnSymbol": 0,
+          "todayLossesOnSymbol": 0,
+          "todayWinsOnSymbol": 0,
+          "patterns": [
+            "SMALL_MOVE: Choppy action, not trending"
+          ],
+          "actionableRule": "CAUTION on MNDY: SMALL_MOVE: Choppy action, not trending"
+        },
+        "time": "2026-02-09T16:01:01.917Z"
+      },
+      {
+        "symbol": "RIG",
+        "outcome": "WIN",
+        "plPct": "0.00%",
+        "entry": 5.66,
+        "exit": 5.66,
+        "reason": "RIG up 17% today from $4.82 to $5.66 - my momentum play is working but now at HOD with 147M volume exhaustion likely. Entry was $5.66 at 2:15 PM, essentially at current price. This was a 'power hour momentum' play and we're now IN power hour with minimal upside left. Lock in the small gain ($4.58) before late-day volatility reverses it. Energy sector strength already captured.",
+        "lesson": "RIG WIN (0.0%): RIG up 17% today from $4.82 to $5.66 - my momentum play is working but now at HOD with 147M volume exhaustion likely. Entry was $5.66 at 2:15 PM, essentially at current price. This was a 'power hour momentum' play and we're now IN power hour with minimal upside left. Lock in the small gain ($4.58) before late-day volatility reverses it. Energy sector strength already captured.",
+        "rule": {
+          "underlying": "RIG",
+          "todayTradesOnSymbol": 0,
+          "todayLossesOnSymbol": 0,
+          "todayWinsOnSymbol": 0,
+          "patterns": [
+            "SMALL_MOVE: Choppy action, not trending"
+          ],
+          "actionableRule": "CAUTION on RIG: SMALL_MOVE: Choppy action, not trending"
+        },
+        "time": "2026-02-09T19:31:12.812Z"
+      }
+    ]
+  },
+  "positionAnalysis": [
+    {
+      "symbol": "AMD",
+      "qty": 2,
+      "avgEntry": 200.78,
+      "currentPrice": 215.59,
+      "unrealizedPL": 29.62,
+      "unrealizedPLPct": 7.376,
+      "marketValue": 431.18,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    },
+    {
+      "symbol": "FOA",
+      "qty": 11,
+      "avgEntry": 21.91,
+      "currentPrice": 22.03,
+      "unrealizedPL": 1.32,
+      "unrealizedPLPct": 0.5479999999999999,
+      "marketValue": 242.33,
+      "thesis": "Reverse mortgage leader, Blue Owl $2.5B partnership",
+      "ptLow": 42,
+      "ptHigh": 76,
+      "daysHeld": null,
+      "recommendation": "✅ Hold - Thesis intact",
+      "distanceToTarget": 90.64911484339537
+    },
+    {
+      "symbol": "SMCI",
+      "qty": 30,
+      "avgEntry": 32.075667,
+      "currentPrice": 33.4969,
+      "unrealizedPL": 42.637,
+      "unrealizedPLPct": 4.431,
+      "marketValue": 1004.907,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    },
+    {
+      "symbol": "SNAP",
+      "qty": 168,
+      "avgEntry": 5.817083,
+      "currentPrice": 5.2201,
+      "unrealizedPL": -100.2932,
+      "unrealizedPLPct": -10.263,
+      "marketValue": 876.9768,
+      "thesis": "N/A",
+      "daysHeld": null,
+      "recommendation": ""
+    }
+  ],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Oversized swing options that went 40-80% against you (AMD puts, MU calls)",
+      "AVOID: Re-entering momentum names in power hour with no edge (RIG)",
+      "AVOID: Using same size on low-conviction ‘oversold bounce’ plays as on A+ setups"
+    ],
+    "tomorrowRules": [
+      "Max 10 trades/day; any trade after #10 needs written justification before entry",
+      "No new swing options >1% account unless thesis includes specific level + time frame + invalidation",
+      "If daily P/L >+3%, only close existing positions—no new opens after 3 PM ET"
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "+$3.98k day with 60% win rate is solid, but 13 trades in a neutral tape and two deep-red underwater swing positions (AMD puts, MU calls) show sizing/planning errors.",
+    "keyLessons": [
+      "Take profits faster on multi-baggers: you left $4.6k on the table by not fully closing the AMD 66% winner when the $215-218 target was tagged",
+      "Stop adding new trades once daily P/L >3% and trade count >10; every extra trade after that today had EV≈0"
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Scaling out winners (AMD, HIMS) while letting a runner work",
+        "Cutting losers quickly when thesis invalidated (CRDO, MNDY)",
+        "Recognizing sector divergence and adjusting intraday"
+      ],
+      "badPatterns": [
+        "Oversized swing options that went 40-80% against you (AMD puts, MU calls)",
+        "Re-entering momentum names in power hour with no edge (RIG)",
+        "Using same size on low-conviction ‘oversold bounce’ plays as on A+ setups"
+      ]
+    },
+    "tomorrowRules": [
+      "Max 10 trades/day; any trade after #10 needs written justification before entry",
+      "No new swing options >1% account unless thesis includes specific level + time frame + invalidation",
+      "If daily P/L >+3%, only close existing positions—no new opens after 3 PM ET"
+    ],
+    "riskAssessment": "Good intraday risk control (quick cuts), but swing account shows concentration risk: two options positions both >2% each and both deep ITM against you.",
+    "emotionalCheck": "No revenge trading, but mild FOMO in power hour (RIG) and reluctance to take the full AMD winner suggest greed, not fear, drove the last 3 trades."
+  },
+  "errors": []
+}

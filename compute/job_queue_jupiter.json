@@ -1,0 +1,526 @@
+[
+  {
+    "id": "jupiter_q2_001",
+    "priority": 1,
+    "name": "fillsim_884_configs_fixed_signal_thresh",
+    "description": "Re-run 884 fill sim configs with FIXED --signal-threshold bug (critical: previous results invalid). Session 38: all 884 showed 0 PnL due to PnL calculation bug \u2014 script test_fill_sim_pnl.py exists to validate fix.",
+    "command": "python3 scripts/final_fill_sim.py --configs 884 --signal-threshold --fix-applied --workers 12",
+    "node": "jupiter",
+    "status": "running",
+    "created_at": "2026-03-29T20:00:00.000Z",
+    "started_at": "2026-03-29T22:09:07.020556",
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "fill_sim",
+      "bug_fix",
+      "signal_threshold",
+      "priority_critical"
+    ]
+  },
+  {
+    "id": "jupiter_q2_002",
+    "priority": 1,
+    "name": "monte_carlo_z2_validation_500paths",
+    "description": "Monte Carlo validation on z>2.0 configs (500 paths, 95% CI) \u2014 confirm Sortino 2.046 is real. After fill sim bug fix applied.",
+    "command": "python3 scripts/final_fill_sim.py --min-z 2.0 --monte-carlo 500 --ci 95",
+    "node": "jupiter",
+    "status": "running",
+    "created_at": "2026-03-29T20:00:01.000Z",
+    "started_at": "2026-03-29T22:10:09.628873",
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "monte_carlo",
+      "z_score",
+      "validation",
+      "sortino"
+    ]
+  },
+  {
+    "id": "jupiter_q2_003",
+    "priority": 2,
+    "name": "meta_gated_fillsim_corrected",
+    "description": "Fill sim with meta-model LGBM gate applied \u2014 only trade when gate predicts positive EV. Previous run showed 0 PnL due to PnL bug. Rerun after fix.",
+    "command": "python3 scripts/final_fill_sim.py --meta-gate lgbm --signal-threshold --workers 12",
+    "node": "jupiter",
+    "status": "running",
+    "created_at": "2026-03-29T20:00:02.000Z",
+    "started_at": "2026-03-29T22:11:12.179121",
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "fill_sim",
+      "meta_gate",
+      "lgbm",
+      "execution"
+    ]
+  },
+  {
+    "id": "jupiter_q3_001",
+    "priority": 2,
+    "name": "fillsim_pnl_bug_validation",
+    "description": "CRITICAL: Validate fill sim PnL calculation fix using test_fill_sim_pnl.py before running any more fill sims. Prior session: ALL 884 configs showed 0 PnL \u2014 script had PnL calculation bug. This validates the fix is working.",
+    "command": "python3 scripts/test_fill_sim_pnl.py --validate-pnl --n-trades 100 --expected-sortino-range 1.5,3.0",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T23:30:00.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "validation",
+      "bug_fix",
+      "pnl_calculation",
+      "priority_high"
+    ],
+    "log_pattern": "fillsim_pnl_validate*.log",
+    "completion_markers": [
+      "PnL validation: PASSED",
+      "PnL validation: FAILED"
+    ],
+    "metrics_regex": "PnL validation: (PASSED|FAILED)"
+  },
+  {
+    "id": "jupiter_track2_001",
+    "priority": 2,
+    "name": "queue_position_targeting_sweep_5_to_30",
+    "description": "TRACK 2: Queue position targeting sweep \u2014 min_queue_pos 5/10/15/20/30. Tests whether requiring near-front queue position improves fill quality and Sortino. Baseline (no filter) included. Prior analysis: q10-20 bucket = best edge (+$13.58/trade).",
+    "command": "python3 scripts/queue_position_sweep.py",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T23:00:00.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "fill_sim",
+      "queue_position",
+      "sweep",
+      "track2"
+    ],
+    "log_pattern": "queue_position_sweep*.log",
+    "completion_markers": [
+      "QUEUE POSITION TARGETING SWEEP",
+      "Results saved"
+    ],
+    "metrics_regex": "Sortino=([0-9.]+)"
+  },
+  {
+    "id": "jupiter_q3_002",
+    "priority": 2,
+    "name": "meta_model_monte_carlo_1000_paths",
+    "description": "Monte Carlo validation on meta-gated fill sim results (1000 bootstrap paths, 99% CI). Target: p5 Sortino > 1.0 for deployment approval. This is the fastest path to deployment per session 38.",
+    "command": "python3 scripts/final_fill_sim.py --meta-gate lgbm --monte-carlo 1000 --ci 99 --workers 12 --output results/meta_gate_mc_1000.json",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T23:30:01.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "depends_on": [
+      "jupiter_q2_003"
+    ],
+    "tags": [
+      "monte_carlo",
+      "meta_gate",
+      "deployment_gate",
+      "priority_high"
+    ],
+    "log_pattern": "meta_gate_mc_1000*.log",
+    "completion_markers": [
+      "Monte Carlo complete",
+      "p5 Sortino",
+      "Probability of ruin"
+    ],
+    "metrics_regex": "p5 Sortino=([0-9.]+)"
+  },
+  {
+    "id": "jupiter_track2_002",
+    "priority": 3,
+    "name": "time_of_day_fillsim_segmentation",
+    "description": "TRACK 2: Time-of-day fill sim segmentation \u2014 separate fill sims for 9:30-11, 11-13, 13-15, 15-16 ET. Identify which sessions have toxic fills vs clean edges. Gates by Sortino > 1.5.",
+    "command": "python3 scripts/time_of_day_fillsim.py",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T23:00:01.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "fill_sim",
+      "time_of_day",
+      "session_gating",
+      "track2"
+    ],
+    "log_pattern": "time_of_day_fillsim*.log",
+    "completion_markers": [
+      "TIME-OF-DAY FILL SIM RESULTS",
+      "Results:"
+    ],
+    "metrics_regex": "Sortino=([0-9.]+)"
+  },
+  {
+    "id": "jupiter_q2_004",
+    "priority": 3,
+    "name": "hold_time_optimization_z2_multiperiod",
+    "description": "Hold time optimization for z>2.0 signals: 3/5/10/20/30s \u2014 find Sortino-maximizing hold period. Jupiter shows 10min local optimum, Neptune needed for definitive result.",
+    "command": "python3 scripts/short_hold_sweep.py --min-z 2.0 --periods 3,5,10,20,30",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T20:00:03.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "hold_time",
+      "z_score",
+      "fill_sim",
+      "sweep"
+    ]
+  },
+  {
+    "id": "jupiter_track2_003",
+    "priority": 3,
+    "name": "signal_strength_tpsl_interaction_sweep",
+    "description": "TRACK 2: Signal strength \u00d7 TP/SL interaction \u2014 4 z-score bins \u00d7 3 TP \u00d7 3 SL = 36 configs. Find optimal TP/SL per signal conviction level. Output: dynamic_tpsl_config.json for deployment.",
+    "command": "python3 scripts/signal_strength_tpsl_interaction.py",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T23:00:02.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "fill_sim",
+      "signal_strength",
+      "tpsl",
+      "dynamic",
+      "track2"
+    ],
+    "log_pattern": "sig_tpsl_sweep*.log",
+    "completion_markers": [
+      "SIGNAL STRENGTH",
+      "BEST CONFIG PER Z-BIN"
+    ],
+    "metrics_regex": "Sortino=([0-9.]+)"
+  },
+  {
+    "id": "jupiter_q3_003",
+    "priority": 3,
+    "name": "c7_validation_jupiter_tp8_z25",
+    "description": "Jupiter validation of C7 TP8/z>2.5 (Sortino=2.768 found last session). 54 OOT days. Confirms finding before Neptune full validation. Config: conv2.0_vol70, TP8, hold_ms=600000.",
+    "command": "python3 scripts/final_fill_sim.py --card C7 --tp 8 --min-z 2.5 --hold-ms 600000 --entry limit --workers 12 --output results/c7_tp8_z25_jupiter_revalidation.json",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T23:30:02.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "fill_sim",
+      "c7",
+      "validation",
+      "sortino"
+    ],
+    "log_pattern": "c7_tp8_z25_revalidation*.log",
+    "completion_markers": [
+      "Sortino=",
+      "=== DONE ==="
+    ],
+    "metrics_regex": "Sortino=([0-9.]+)"
+  },
+  {
+    "id": "jupiter_q2_006",
+    "priority": 4,
+    "name": "signal_decay_analysis_0_to_30s",
+    "description": "Signal decay analysis: how fast does CNN edge decay after signal event (0-30s with 1s granularity). Determines how quickly we need to be filled.",
+    "command": "python3 scripts/mfe_mae_conditioned_fast.py --decay-analysis --horizons 1,2,3,5,10,20,30",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T20:00:05.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "signal_decay",
+      "mfe_mae",
+      "cnn",
+      "edge_analysis"
+    ]
+  },
+  {
+    "id": "jupiter_q2_007",
+    "priority": 4,
+    "name": "mfemae_lgbm_dynamic_tpsl_fillsim",
+    "description": "Fill sim using LGBM MFE/MAE predictions (IC=0.28) as dynamic TP/SL instead of fixed. Fastest test: LGBM trains in 144s. Use predicted MFE as TP target, MAE as SL target.",
+    "command": "python3 scripts/mfe_mae_multihorizon.py --model lgbm --dynamic-tpsl --workers 12",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T20:00:06.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "mfe_mae",
+      "lgbm",
+      "fill_sim",
+      "dynamic_tpsl"
+    ]
+  },
+  {
+    "id": "jupiter_track2_004",
+    "priority": 4,
+    "name": "dynamic_tpsl_from_mfe_mae_cnn_after_uranus",
+    "description": "TRACK 2 (DEPENDS ON URANUS): Once MFE/MAE CNN completes on Uranus, run fill sim using CNN-predicted MFE as dynamic TP target. Highest-expected-value execution experiment \u2014 model tells us exactly how far it expects to move.",
+    "command": "python3 scripts/mfe_mae_jupiter.py --model cnn_mfe_mae --dynamic-tpsl --workers 12 --pin-memory",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T23:00:03.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "fill_sim",
+      "mfe_mae",
+      "dynamic_tpsl",
+      "cnn",
+      "track2",
+      "depends_uranus"
+    ],
+    "log_pattern": "mfe_mae_jupiter*.log",
+    "completion_markers": [
+      "=== DONE ==="
+    ],
+    "metrics_regex": "Sortino=([0-9.]+)"
+  },
+  {
+    "id": "jupiter_q2_008",
+    "priority": 4,
+    "name": "adverse_selection_by_time_of_day",
+    "description": "Adverse selection analysis segmented by time-of-day (open/midday/close) \u2014 when are fills most toxic?",
+    "command": "python3 scripts/adverse_selection_analysis.py --by-time-of-day",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T20:00:07.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "adverse_selection",
+      "time_of_day",
+      "microstructure"
+    ]
+  },
+  {
+    "id": "jupiter_q2_009",
+    "priority": 5,
+    "name": "queue_position_vs_sortino",
+    "description": "Queue position vs Sortino: does being 1st/2nd/3rd in queue predict trade outcome? Prior: q10-20 best, q0-10 negative. Validate with full data.",
+    "command": "python3 scripts/qf_passive_analysis.py --by-queue-position",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T20:00:08.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "queue_position",
+      "sortino",
+      "microstructure"
+    ]
+  },
+  {
+    "id": "jupiter_q3_004",
+    "priority": 5,
+    "name": "execution_cost_model_by_signal_tier",
+    "description": "Full execution cost model by signal tier: slippage, queue risk, adverse selection for z<1 / z1-2 / z2-3 / z>3. Expected: high-z signals have lower adverse selection. Validates tiered execution approach.",
+    "command": "python3 scripts/execution_cost_modeling.py --full --by-signal-tier --tiers 0,1,2,3 --output results/exec_cost_by_tier.json",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T23:30:03.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "execution_cost",
+      "slippage",
+      "adverse_selection",
+      "signal_tier"
+    ],
+    "log_pattern": "exec_cost_signal_tier*.log",
+    "completion_markers": [
+      "Execution cost model complete",
+      "Tier breakdown:"
+    ],
+    "metrics_regex": "Tier (\\d+) Sortino=([0-9.]+)"
+  },
+  {
+    "id": "jupiter_q2_010",
+    "priority": 5,
+    "name": "multi_card_conviction_exit_sweep",
+    "description": "Multi-card conviction exit sweep C1-C10 with dynamic signal exits",
+    "command": "python3 scripts/conviction_exit_analysis.py --all-cards --dynamic-exit",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T20:00:09.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "conviction",
+      "dynamic_exit",
+      "multi_card",
+      "sweep"
+    ]
+  },
+  {
+    "id": "jupiter_q2_011",
+    "priority": 5,
+    "name": "asymmetric_card_validation_long_short",
+    "description": "Validate asymmetric cards: C1 SHORT-ONLY, C3/C4 LONG-ONLY, C5 SHORT-ONLY side bias. Confirm per-side Sortino > overall.",
+    "command": "python3 scripts/asymmetric_card_validation.py --cards C1,C3,C4,C5",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T20:00:10.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "asymmetric",
+      "card_validation",
+      "long_short_bias"
+    ]
+  },
+  {
+    "id": "jupiter_q3_005",
+    "priority": 6,
+    "name": "orb_cnn_hybrid_entry_study",
+    "description": "ORB \u00d7 CNN hybrid: use ORB direction (8% edge from session 35) as entry direction filter, CNN z-score for conviction. Trade only when ORB direction agrees with CNN signal. Expected: higher WR by filtering against-trend entries.",
+    "command": "python3 scripts/orb_iceberg_hybrid_v2.py --cnn-confirm --min-z 2.0 --workers 12",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T23:30:04.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "orb",
+      "cnn",
+      "hybrid",
+      "direction_filter"
+    ],
+    "log_pattern": "orb_cnn_hybrid*.log",
+    "completion_markers": [
+      "=== DONE ==="
+    ],
+    "metrics_regex": "Sortino=([0-9.]+)"
+  },
+  {
+    "id": "jupiter_q2_012",
+    "priority": 6,
+    "name": "orb_iceberg_hybrid_v2",
+    "description": "ORB \u00d7 iceberg hybrid strategy v2 \u2014 opening range breakout with iceberg overlay",
+    "command": "python3 scripts/orb_iceberg_hybrid_v2.py",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T20:00:11.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "orb",
+      "iceberg",
+      "hybrid",
+      "opening_range"
+    ]
+  },
+  {
+    "id": "jupiter_q3_006",
+    "priority": 6,
+    "name": "c5_paper_fillsim_reconciliation",
+    "description": "Reconcile C5 paper (+$720 realized) vs fill sim. C5 paper: TP~1tick, 108 trades, 50% WR, hold=120s. Fill sim test confirmed: TP2/z>1.0/120s = Sortino=0.845. Now run TP2/z>1.0/120s with full SL to get accurate risk-adjusted number.",
+    "command": "python3 scripts/c5_diagnosis.py --tp 2 --min-z 1.0 --hold-ms 120000 --entry limit --workers 12 --output results/c5_reconciliation_final.json",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T23:30:05.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "c5",
+      "paper_reconciliation",
+      "fill_sim"
+    ],
+    "log_pattern": "c5_reconciliation*.log",
+    "completion_markers": [
+      "Sortino=",
+      "=== DONE ==="
+    ],
+    "metrics_regex": "Sortino=([0-9.]+)"
+  },
+  {
+    "id": "jupiter_q2_014",
+    "priority": 7,
+    "name": "execution_cost_modeling_full",
+    "description": "Full execution cost model: slippage, queue risk, adverse selection by signal strength tier",
+    "command": "python3 scripts/execution_cost_modeling.py --full --by-signal-tier",
+    "node": "jupiter",
+    "status": "queued",
+    "created_at": "2026-03-29T20:00:13.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "result_summary": null,
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "tags": [
+      "execution_cost",
+      "slippage",
+      "adverse_selection",
+      "modeling"
+    ]
+  },
+  {
+    "id": "jupiter_auto_1774834143_0",
+    "name": "Adverse selection analysis",
+    "description": "Adverse selection analysis",
+    "command": "python3 scripts/adverse_selection_analysis.py",
+    "cwd": "/home/jupiter/Lvl3Quant",
+    "type": "analysis",
+    "priority": 1,
+    "tags": [
+      "analysis",
+      "jupiter",
+      "auto-generated"
+    ],
+    "status": "running",
+    "created_at": "2026-03-30T01:29:03.402488",
+    "log_pattern": "adverse_selection*.log",
+    "completion_markers": [
+      "Analysis complete",
+      "=== DONE ==="
+    ],
+    "metrics_regex": "",
+    "started_at": "2026-03-30T01:30:03.733352"
+  }
+]

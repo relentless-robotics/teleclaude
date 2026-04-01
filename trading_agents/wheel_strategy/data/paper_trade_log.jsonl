@@ -1,0 +1,37 @@
+{"timestamp": "2026-03-09T09:46:14.180844", "action": "CSP_ERROR", "ticker": "C", "symbol": "C260320P00097500", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-09T09:46:14.230772", "action": "CSP_ERROR", "ticker": "F", "symbol": "F260320P00011500", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-09T09:46:14.281332", "action": "CSP_ERROR", "ticker": "BAC", "symbol": "BAC260320P00045000", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-09T09:46:14.336834", "action": "CSP_SUBMIT", "ticker": "WMT", "symbol": "WMT260320P00120000", "contracts": 1, "limit_price": 1.4, "strike": 120.0, "expiry": "2026-03-20", "collateral": 12000.0, "order_id": "cad00ad7-dcef-42b1-8c27-920d3f1a646c"}
+{"timestamp": "2026-03-09T09:46:14.692177", "action": "CSP_SUBMIT", "ticker": "INTC", "symbol": "INTC260320P00040000", "contracts": 2, "limit_price": 1.07, "strike": 40.0, "expiry": "2026-03-20", "collateral": 8000.0, "order_id": "4925b59f-2d0f-4bc1-b3fe-330e3449cfbe"}
+{"timestamp": "2026-03-09T09:46:14.993854", "action": "MORNING_RUN", "equity": 90401.14, "buying_power": 361604.56, "positions_submitted": 2}
+{"timestamp": "2026-03-09T10:04:36.196387", "action": "CSP_FILLED", "ticker": "WMT", "symbol": "WMT260320P00120000", "fill_price": 1.41, "contracts": 1, "total_premium": 141.0}
+{"timestamp": "2026-03-10T10:03:48.219468", "action": "CSP_FILLED", "ticker": "INTC", "symbol": "INTC260320P00040000", "fill_price": 1.08, "contracts": 2, "total_premium": 216.0}
+{"timestamp": "2026-03-16T09:46:14.188432", "action": "CSP_ERROR", "ticker": "HOOD", "symbol": "HOOD260327P00070000", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-16T09:46:14.241615", "action": "CSP_ERROR", "ticker": "PLTR", "symbol": "PLTR260327P00144000", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-16T09:46:14.292316", "action": "CSP_ERROR", "ticker": "C", "symbol": "C260327P00104000", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-16T09:46:14.348477", "action": "CSP_SUBMIT", "ticker": "SOFI", "symbol": "SOFI260327P00016500", "contracts": 14, "limit_price": 0.4, "strike": 16.5, "expiry": "2026-03-27", "collateral": 23100.0, "order_id": "25cac40b-490f-4651-8f8e-66ce8c662b35"}
+{"timestamp": "2026-03-16T09:46:14.704262", "action": "CSP_SUBMIT", "ticker": "F", "symbol": "F260327P00011500", "contracts": 9, "limit_price": 0.21, "strike": 11.5, "expiry": "2026-03-27", "collateral": 10350.0, "order_id": "80e32a39-7e8a-4411-968c-46688b48aa63"}
+{"timestamp": "2026-03-16T09:46:15.058577", "action": "CSP_SUBMIT", "ticker": "NIO", "symbol": "NIO260327P00006000", "contracts": 1, "limit_price": 0.2, "strike": 6.0, "expiry": "2026-03-27", "collateral": 600.0, "order_id": "87f96143-e98b-4a22-a1e5-23375aad06fb"}
+{"timestamp": "2026-03-16T09:46:15.362204", "action": "MORNING_RUN", "equity": 90544.84, "buying_power": 362179.36, "positions_submitted": 3}
+{"timestamp": "2026-03-16T10:05:52.746543", "action": "CSP_FILLED", "ticker": "NIO", "symbol": "NIO260327P00006000", "fill_price": 0.22, "contracts": 1, "total_premium": 22.0}
+{"timestamp": "2026-03-17T10:03:22.915146", "action": "CSP_FILLED", "ticker": "SOFI", "symbol": "SOFI260327P00016500", "fill_price": 0.4, "contracts": 14, "total_premium": 560.0}
+{"timestamp": "2026-03-17T10:03:22.915663", "action": "CSP_FILLED", "ticker": "F", "symbol": "F260327P00011500", "fill_price": 0.21, "contracts": 9, "total_premium": 189.0}
+{"timestamp": "2026-03-20T15:04:08.823486", "action": "EXPIRED_OTM", "ticker": "WMT", "strike": 120.0, "phase": "CSP", "premium_kept": 141.0}
+{"timestamp": "2026-03-20T15:04:08.886707", "action": "EXPIRED_OTM", "ticker": "INTC", "strike": 40.0, "phase": "CSP", "premium_kept": 216.0}
+{"timestamp": "2026-03-23T09:45:34.803355", "action": "CSP_ERROR", "ticker": "C", "symbol": "C260402P00108000", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-23T09:45:34.862494", "action": "CSP_ERROR", "ticker": "PLTR", "symbol": "PLTR260402P00150000", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-23T09:45:34.921657", "action": "CSP_ERROR", "ticker": "WMT", "symbol": "WMT260402P00117000", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-23T09:45:34.972689", "action": "CSP_SUBMIT", "ticker": "HOOD", "symbol": "HOOD260402P00068000", "contracts": 5, "limit_price": 1.47, "strike": 68.0, "expiry": "2026-04-02", "collateral": 34000.0, "order_id": "f888fe53-af65-4126-bd0e-a568b29c299a"}
+{"timestamp": "2026-03-23T09:45:35.285494", "action": "MORNING_RUN", "equity": 90783.64, "buying_power": 229058.56, "positions_submitted": 1}
+{"timestamp": "2026-03-23T10:03:04.858209", "action": "CSP_FILLED", "ticker": "HOOD", "symbol": "HOOD260402P00068000", "fill_price": 1.5, "contracts": 5, "total_premium": 750.0}
+{"timestamp": "2026-03-30T09:45:56.329743", "action": "AUTO_CLEANUP_EXPIRED", "ticker": "SOFI", "strike": 16.5, "expiry": "2026-03-27"}
+{"timestamp": "2026-03-30T09:45:56.329743", "action": "AUTO_CLEANUP_EXPIRED", "ticker": "F", "strike": 11.5, "expiry": "2026-03-27"}
+{"timestamp": "2026-03-30T09:45:56.329743", "action": "AUTO_CLEANUP_EXPIRED", "ticker": "NIO", "strike": 6.0, "expiry": "2026-03-27"}
+{"timestamp": "2026-03-30T09:46:22.998886", "action": "CSP_ERROR", "ticker": "C", "symbol": "C260410P00103000", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-30T09:46:23.047455", "action": "CSP_ERROR", "ticker": "BAC", "symbol": "BAC260410P00046000", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-30T09:46:23.101917", "action": "CSP_SUBMIT", "ticker": "DAL", "symbol": "DAL260410P00060000", "contracts": 6, "limit_price": 1.52, "strike": 60.0, "expiry": "2026-04-10", "collateral": 36000.0, "order_id": "7c3f29e3-715f-405f-bff1-18b0cae7b14b"}
+{"timestamp": "2026-03-30T09:46:23.461546", "action": "CSP_ERROR", "ticker": "PLTR", "symbol": "PLTR260410P00135000", "error": "403 Client Error: Forbidden for url: https://paper-api.alpaca.markets/v2/orders"}
+{"timestamp": "2026-03-30T09:46:23.515338", "action": "CSP_SUBMIT", "ticker": "AAL", "symbol": "AAL260410P00009500", "contracts": 1, "limit_price": 0.24, "strike": 9.5, "expiry": "2026-04-10", "collateral": 950.0, "order_id": "b8b09dc4-c468-47a7-bcc2-3fb03dd7e8ca"}
+{"timestamp": "2026-03-30T09:46:23.819274", "action": "MORNING_RUN", "equity": 89019.38, "buying_power": 184411.52, "positions_submitted": 2}
+{"timestamp": "2026-03-30T10:03:35.935155", "action": "CSP_FILLED", "ticker": "DAL", "symbol": "DAL260410P00060000", "fill_price": 1.54, "contracts": 6, "total_premium": 924.0}
+{"timestamp": "2026-03-30T10:03:35.935155", "action": "CSP_FILLED", "ticker": "AAL", "symbol": "AAL260410P00009500", "fill_price": 0.24, "contracts": 1, "total_premium": 24.0}

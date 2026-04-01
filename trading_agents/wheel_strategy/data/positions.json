@@ -1,0 +1,39 @@
+{
+  "last_updated": "2026-03-08T04:44:41.157187",
+  "capital": 100350.0,
+  "initial_capital": 100000,
+  "positions": [
+    {
+      "id": "AAPL_20260308_044441",
+      "ticker": "AAPL",
+      "sector": "Technology",
+      "phase": "CSP",
+      "status": "active",
+      "strike": 220,
+      "expiry": "2026-04-17",
+      "premium_collected": 3.5,
+      "total_premium": 350.0,
+      "entry_date": "2026-03-08",
+      "entry_stock_price": 230,
+      "capital_committed": 22000,
+      "cost_basis": null,
+      "shares": 0,
+      "iv_at_entry": 0.25,
+      "delta_at_entry": -0.25,
+      "rolls": 0
+    }
+  ],
+  "history": [],
+  "settings": {
+    "max_position_pct": 0.25,
+    "max_total_positions": 10,
+    "max_sector_concentration": 3,
+    "max_loss_per_position_pct": 15,
+    "portfolio_stop_loss_pct": 20,
+    "roll_dte_threshold": 7,
+    "roll_itm_threshold": 0.02,
+    "csp_delta_target": 0.25,
+    "cc_delta_target": 0.3,
+    "target_dte": 35
+  }
+}

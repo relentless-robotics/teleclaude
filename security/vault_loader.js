@@ -12,6 +12,7 @@
 
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '..', '.env') });
 const { vault } = require('./vault');
 
 const SECURE_KEY_FILE = path.join(__dirname, '..', 'secure', 'vault_master.key');

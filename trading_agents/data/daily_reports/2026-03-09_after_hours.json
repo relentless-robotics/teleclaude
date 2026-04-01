@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-03-09T20:30:49.359Z",
+  "date": "2026-03-09",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90507.06,
+    "dailyPL": 105.91999999999825,
+    "dailyPLPct": 0.11716666404870364,
+    "cash": 90597.06,
+    "buyingPower": 328740.48,
+    "positionCount": 1,
+    "posWinners": 1,
+    "posLosers": 0,
+    "biggestWinner": {
+      "symbol": "INTC260320P00040000",
+      "pct": 58.333
+    },
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 6,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Entering short puts without a pre-defined stop order — 'no stop was set' appeared explicitly in WMT reasoning, meaning risk was undefined at entry",
+      "AVOID: 38% win rate over 29 cumulative trades with heavy loss days (-$4,757 on Feb 11, -$2,870 on Feb 10, -$2,157 on Feb 13) signals a position sizing or strategy-fit problem that hasn't been resolved",
+      "AVOID: Monitoring frequency increased on INTC during stress (4 checks in 20 minutes) — a sign of emotional engagement that can lead to premature exits"
+    ],
+    "tomorrowRules": [
+      "Before entering any short put: set a GTC stop-limit order immediately at entry. Do not enter the position without a stop in the system. No exceptions.",
+      "With VIX above 28, reduce short put size by 50% or require a higher premium threshold to justify the elevated gamma risk.",
+      "If you check a position more than twice in 20 minutes, step away for 15 minutes before making any decision — frequent monitoring in volatile markets leads to noise-driven exits."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "The agent demonstrated disciplined stop management on INTC and correctly closed WMT before losses accelerated. No day trades executed, which is appropriate given VIX at 31+ and choppy RISK_OFF conditions. The swing account P&L is flat today, suggesting prudent inactivity. Grade capped at B due to the systemic issue of entering short puts with no stop pre-set (visible in WMT close reasoning), which is a recurring risk management gap.",
+    "keyLessons": [
+      "Stop-loss must be set at entry, not reactively after a position moves against you. WMT was closed at +14.18% loss because no stop was pre-set — this is the second time this pattern appears in the logs. Build stop into the order entry workflow, not as an afterthought.",
+      "The agent correctly identified VIX 31+ and Iran war headlines as reasons to reduce exposure. When macro risk is elevated, reduce position size or sit out entirely — not just monitor more frequently.",
+      "INTC short put recovered and became profitable (+5.56%) partly due to disciplined hold with a defined stop at $1.25. This is the correct process — define the stop, then let the thesis play out."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Correctly closed WMT position when momentum turned against the short put in a risk-off environment rather than hoping for reversal",
+        "Set and referenced a specific stop level ($1.25) on INTC and did not panic-close during minor adverse moves (-2.78%)",
+        "Stayed out of day trading entirely during elevated VIX and choppy conditions — capital preservation over forced activity"
+      ],
+      "badPatterns": [
+        "Entering short puts without a pre-defined stop order — 'no stop was set' appeared explicitly in WMT reasoning, meaning risk was undefined at entry",
+        "38% win rate over 29 cumulative trades with heavy loss days (-$4,757 on Feb 11, -$2,870 on Feb 10, -$2,157 on Feb 13) signals a position sizing or strategy-fit problem that hasn't been resolved",
+        "Monitoring frequency increased on INTC during stress (4 checks in 20 minutes) — a sign of emotional engagement that can lead to premature exits"
+      ]
+    },
+    "tomorrowRules": [
+      "Before entering any short put: set a GTC stop-limit order immediately at entry. Do not enter the position without a stop in the system. No exceptions.",
+      "With VIX above 28, reduce short put size by 50% or require a higher premium threshold to justify the elevated gamma risk.",
+      "If you check a position more than twice in 20 minutes, step away for 15 minutes before making any decision — frequent monitoring in volatile markets leads to noise-driven exits."
+    ],
+    "riskAssessment": "Partially adequate. INTC risk was managed with a defined stop and disciplined holds. WMT exposed the core weakness: undefined risk at entry. In a VIX 31 environment with geopolitical headlines, selling puts without pre-set stops is playing with an open position in a minefield. The agent recovered by closing WMT reactively, but the damage limitation was luck of timing, not process. The cumulative stats show $9,626 in losses over just four bad days (Feb 10-13) — position sizing relative to account equity needs review.",
+    "emotionalCheck": "No signs of revenge trading today — no day trades were forced despite the availability of the $90K day trade account. The repeated monitoring of INTC (4 rapid-fire checks) suggests anxiety around the position but discipline held. The decision to sit out day trading entirely in a choppy VIX 31 market is a mature call. Overall emotional discipline today was above average compared to the Feb 10-13 stretch where multiple losing days compounded into large drawdowns."
+  },
+  "errors": []
+}

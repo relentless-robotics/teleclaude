@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-02-25T21:30:55.211Z",
+  "date": "2026-02-25",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90401.14,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "cash": 90401.14,
+    "buyingPower": 361604.56,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Feb 11: 3 trades, 0 wins, -$4,757 — this is a full wipeout day with no stops honored or no exit from losing positions early enough",
+      "AVOID: Feb 13: After a -$7,627 two-day hole, still traded and lost another -$2,157 — revenge trading or failure to step away",
+      "AVOID: Win rate of 37.9% is below 40% threshold for sustainability unless average winner is 2.5x+ average loser — this ratio needs to be calculated and confirmed",
+      "AVOID: Extended inactivity (5 days) without a documented re-entry plan is not a strategy, it is avoidance"
+    ],
+    "tomorrowRules": [
+      "Define and write down your re-entry trigger before the open: e.g., 'I will take maximum 2 trades tomorrow, size at 50% normal, and stop at -$1,000 total'",
+      "If market regime is NEUTRAL or RISK_OFF, reduce position size by 50% — do not trade full size until RISK_ON confirmed with VIX below 18",
+      "Hard daily loss limit of $1,800 (2% of account). If hit, platform closes, no exceptions — this rule must have been violated on 2/10 and 2/11",
+      "After any loss, wait 15 minutes before taking the next trade — mandatory cooling period",
+      "Calculate your actual average winner vs. average loser ratio from the 29-trade sample and post it somewhere visible before trading"
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades today which avoids further losses, but five consecutive zero-trade days suggest either excessive caution or system/data issues. Cumulative account is profitable at +$11,947 but the 37.9% win rate with recent heavy losing days (-$4,757 on 2/11, -$2,870 on 2/10, -$2,157 on 2/13) indicates a serious risk management problem when active. Sitting out a NEUTRAL market regime with VIX at manageable levels is defensible, not heroic.",
+    "keyLessons": [
+      "Five straight days of zero trades after a brutal losing streak (2/10 through 2/13 lost ~$10,482) suggests you may be in a confidence freeze — this is a common but dangerous response. Define explicit re-entry criteria so you return by rule, not by feeling.",
+      "Your cumulative win rate of 37.9% means your winners must be significantly larger than your losers to be profitable. The +$20,632 on 2/6 is masking the damage. Do not confuse a lucky large winner with a working system.",
+      "The Feb 10-13 drawdown of ~$10,482 across 4 trading days on a ~$90k account is an 11.6% drawdown in under a week. That violates standard risk discipline. Maximum daily loss limits (e.g., 2% of equity = ~$1,800/day) must be enforced before you return to active trading."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Stopped trading after a significant losing streak — prevented further emotional damage during a choppy RISK_OFF market regime",
+        "Swing account appears stable and separately managed, showing some diversification discipline",
+        "Overall account remains profitable despite recent losses, suggesting the system has edge when properly controlled"
+      ],
+      "badPatterns": [
+        "Feb 11: 3 trades, 0 wins, -$4,757 — this is a full wipeout day with no stops honored or no exit from losing positions early enough",
+        "Feb 13: After a -$7,627 two-day hole, still traded and lost another -$2,157 — revenge trading or failure to step away",
+        "Win rate of 37.9% is below 40% threshold for sustainability unless average winner is 2.5x+ average loser — this ratio needs to be calculated and confirmed",
+        "Extended inactivity (5 days) without a documented re-entry plan is not a strategy, it is avoidance"
+      ]
+    },
+    "tomorrowRules": [
+      "Define and write down your re-entry trigger before the open: e.g., 'I will take maximum 2 trades tomorrow, size at 50% normal, and stop at -$1,000 total'",
+      "If market regime is NEUTRAL or RISK_OFF, reduce position size by 50% — do not trade full size until RISK_ON confirmed with VIX below 18",
+      "Hard daily loss limit of $1,800 (2% of account). If hit, platform closes, no exceptions — this rule must have been violated on 2/10 and 2/11",
+      "After any loss, wait 15 minutes before taking the next trade — mandatory cooling period",
+      "Calculate your actual average winner vs. average loser ratio from the 29-trade sample and post it somewhere visible before trading"
+    ],
+    "riskAssessment": "Risk management today: N/A (no trades). Historical risk management: Poor. The Feb 10-13 losing streak totaling approximately -$10,482 across 4 days represents an ~11.6% account drawdown with no apparent circuit breakers engaged. The -$4,757 single-day loss on 2/11 alone is catastrophic risk management. A profitable cumulative balance masks a system that can catastrophically self-destruct without hard daily loss limits. Fix this before resuming active trading.",
+    "emotionalCheck": "High probability of a confidence freeze response to the Feb 10-13 losses. Trading continued into 2/13 after two consecutive heavy loss days (classic revenge or recency bias), then went to zero activity for 5+ days (classic shutdown response). Neither extreme is healthy. The pattern — overtrading through losses, then full stop — is a textbook emotional cycle. The remedy is rules-based circuit breakers that prevent both extremes: a daily loss limit stops the revenge trading, and a pre-written re-entry protocol prevents the paralysis."
+  },
+  "errors": []
+}

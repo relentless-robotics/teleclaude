@@ -430,6 +430,9 @@ function startClaude() {
   // Get full path to Claude executable (important for Windows node-pty)
   const claudePath = platform.getCommandPath('claude');
 
+  // Build clean env without CLAUDECODE to prevent "nested session" detection
+  const { CLAUDECODE, ...cleanEnv } = process.env;
+
   claude = pty.spawn(claudePath, [
     '--dangerously-skip-permissions',
     '--mcp-config', MCP_CONFIG
@@ -439,7 +442,7 @@ function startClaude() {
     rows: 40,
     cwd: currentWorkingDir, // Use tracked working directory (can be changed via /cd)
     env: {
-      ...process.env,
+      ...cleanEnv,
       TERM: 'xterm-256color',
       HOME: config.workdir,
       USERPROFILE: config.workdir, // Windows equivalent
@@ -614,6 +617,35 @@ async function startTelegramMode() {
       }
     } catch (e) {}
   }, 500);
+
+  // ── Persistent Monitor Message Injection ──────────────────
+  // Watches monitor_messages.jsonl from PM2 persistent_monitor.js
+  // Injects messages into Claude's PTY as if they were user messages.
+  const MONITOR_FILE = path.join(__dirname, 'monitor_messages.jsonl');
+  let monitorLastSize = 0;
+  try { monitorLastSize = fs.statSync(MONITOR_FILE).size; } catch {}
+  setInterval(() => {
+    try {
+      const stat = fs.statSync(MONITOR_FILE);
+      if (stat.size > monitorLastSize) {
+        const content = fs.readFileSync(MONITOR_FILE, 'utf8');
+        const lines = content.split('\n').filter(l => l.trim());
+        // Get only new lines
+        const allLines = lines.slice(-5); // Last 5 messages max
+        if (allLines.length > 0 && claude) {
+          const lastMsg = JSON.parse(allLines[allLines.length - 1]);
+          console.log('[MONITOR→CLAUDE]', lastMsg.message.slice(0, 80));
+          claude.write(lastMsg.message);
+          setTimeout(() => claude && claude.write('\r'), 300);
+        }
+        // Truncate file to prevent unbounded growth
+        if (stat.size > 100000) {
+          fs.writeFileSync(MONITOR_FILE, lines.slice(-10).join('\n') + '\n');
+        }
+        monitorLastSize = fs.statSync(MONITOR_FILE).size;
+      }
+    } catch {}
+  }, 30000); // Check every 30s
 
   // Handle messages
   bot.on('message', (msg) => {

@@ -1,0 +1,168 @@
+{
+  "ticker": "MSFT",
+  "period": {
+    "start": "2025-09-15",
+    "end": "2026-03-06",
+    "trading_days": 120,
+    "months": 5.7
+  },
+  "parameters": {
+    "initial_capital": 100000,
+    "csp_delta": 0.25,
+    "cc_delta": 0.3,
+    "target_dte": 35,
+    "iv_premium": 1.2
+  },
+  "performance": {
+    "final_value": 95170.92,
+    "total_return_pct": -4.83,
+    "annualized_return_pct": -10.14,
+    "total_premium_collected": 3880.92,
+    "total_commissions": 6.0,
+    "sharpe_ratio": -0.96,
+    "max_drawdown_pct": -9.22
+  },
+  "trade_stats": {
+    "total_option_cycles": 6,
+    "assignments": 1,
+    "called_away": 0,
+    "expired_otm": 5,
+    "win_rate_pct": 83.3,
+    "avg_premium_per_cycle": 646.82
+  },
+  "benchmark": {
+    "buy_hold_return_pct": -20.32,
+    "buy_hold_final_value": 79684.22,
+    "wheel_vs_bnh_pct": 15.49
+  },
+  "current_state": {
+    "phase": "CC",
+    "shares_held": 100,
+    "cost_basis": 461.3,
+    "cash": 54274.92
+  },
+  "trades": [
+    {
+      "action": "SELL_CSP",
+      "date": "2025-09-15",
+      "ticker": "MSFT",
+      "strike": 496,
+      "premium": 4.11,
+      "delta": -0.246,
+      "iv": 0.191,
+      "stock_price": 513.23
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2025-10-17",
+      "ticker": "MSFT",
+      "type": "CSP",
+      "strike": 496,
+      "stock_price": 511.45,
+      "premium_kept": 4.11
+    },
+    {
+      "action": "SELL_CSP",
+      "date": "2025-10-17",
+      "ticker": "MSFT",
+      "strike": 496,
+      "premium": 3.7,
+      "delta": -0.246,
+      "iv": 0.173,
+      "stock_price": 511.45
+    },
+    {
+      "action": "ASSIGNED",
+      "date": "2025-11-20",
+      "ticker": "MSFT",
+      "strike": 496,
+      "stock_price": 477.34,
+      "cost_basis": 492.3,
+      "shares": 100
+    },
+    {
+      "action": "SELL_CC",
+      "date": "2025-11-20",
+      "ticker": "MSFT",
+      "strike": 500,
+      "premium": 5.91,
+      "delta": 0.301,
+      "iv": 0.241,
+      "stock_price": 477.34,
+      "cost_basis": 492.3
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2025-12-26",
+      "ticker": "MSFT",
+      "type": "CC",
+      "strike": 500,
+      "stock_price": 486.6,
+      "premium_kept": 5.91,
+      "new_cost_basis": 486.39
+    },
+    {
+      "action": "SELL_CC",
+      "date": "2025-12-26",
+      "ticker": "MSFT",
+      "strike": 510,
+      "premium": 5.95,
+      "delta": 0.299,
+      "iv": 0.241,
+      "stock_price": 486.6,
+      "cost_basis": 486.39
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2026-02-02",
+      "ticker": "MSFT",
+      "type": "CC",
+      "strike": 510,
+      "stock_price": 422.41,
+      "premium_kept": 5.95,
+      "new_cost_basis": 480.44
+    },
+    {
+      "action": "SELL_CC",
+      "date": "2026-02-02",
+      "ticker": "MSFT",
+      "strike": 460,
+      "premium": 9.0,
+      "delta": 0.298,
+      "iv": 0.434,
+      "stock_price": 422.41,
+      "cost_basis": 480.44
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2026-03-06",
+      "ticker": "MSFT",
+      "type": "CC",
+      "strike": 460,
+      "stock_price": 408.96,
+      "premium_kept": 9.0,
+      "new_cost_basis": 471.45
+    },
+    {
+      "action": "SELL_CC",
+      "date": "2026-03-06",
+      "ticker": "MSFT",
+      "strike": 452,
+      "premium": 10.14,
+      "delta": 0.299,
+      "iv": 0.508,
+      "stock_price": 408.96,
+      "cost_basis": 471.45
+    },
+    {
+      "action": "EXPIRED_OTM",
+      "date": "2026-03-06",
+      "ticker": "MSFT",
+      "type": "CC",
+      "strike": 452,
+      "stock_price": 408.96,
+      "premium_kept": 10.14,
+      "new_cost_basis": 461.3
+    }
+  ]
+}

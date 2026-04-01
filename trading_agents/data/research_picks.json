@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-03-13T21:00:52.950Z",
+  "date": "2026-03-13",
+  "picks": [
+    {
+      "symbol": "META",
+      "score": 3.5,
+      "sourceCount": 2,
+      "sources": [
+        "Social Trending",
+        "Reddit Multi-Sub"
+      ],
+      "signals": [
+        {
+          "source": "Social Trending",
+          "signal": "StockTwits+Reddit"
+        },
+        {
+          "source": "Reddit Multi-Sub",
+          "signal": "67 mentions across wallstreetbets,stocks"
+        }
+      ],
+      "conviction": 4
+    },
+    {
+      "symbol": "SPY",
+      "score": 2.5,
+      "sourceCount": 2,
+      "sources": [
+        "Social Trending",
+        "Reddit Multi-Sub"
+      ],
+      "signals": [
+        {
+          "source": "Social Trending",
+          "signal": "Reddit"
+        },
+        {
+          "source": "Reddit Multi-Sub",
+          "signal": "529 mentions across wallstreetbets,stocks,options"
+        }
+      ],
+      "conviction": 3
+    },
+    {
+      "symbol": "MSFT",
+      "score": 2.5,
+      "sourceCount": 2,
+      "sources": [
+        "Social Trending",
+        "Reddit Multi-Sub"
+      ],
+      "signals": [
+        {
+          "source": "Social Trending",
+          "signal": "Reddit"
+        },
+        {
+          "source": "Reddit Multi-Sub",
+          "signal": "88 mentions across wallstreetbets,stocks,options"
+        }
+      ],
+      "conviction": 3
+    },
+    {
+      "symbol": "NVDA",
+      "score": 2.5,
+      "sourceCount": 2,
+      "sources": [
+        "Social Trending",
+        "Reddit Multi-Sub"
+      ],
+      "signals": [
+        {
+          "source": "Social Trending",
+          "signal": "Reddit"
+        },
+        {
+          "source": "Reddit Multi-Sub",
+          "signal": "85 mentions across wallstreetbets,stocks,options"
+        }
+      ],
+      "conviction": 3
+    },
+    {
+      "symbol": "QQQ",
+      "score": 2.5,
+      "sourceCount": 2,
+      "sources": [
+        "Social Trending",
+        "Reddit Multi-Sub"
+      ],
+      "signals": [
+        {
+          "source": "Social Trending",
+          "signal": "Reddit"
+        },
+        {
+          "source": "Reddit Multi-Sub",
+          "signal": "80 mentions across wallstreetbets,stocks,options"
+        }
+      ],
+      "conviction": 3
+    },
+    {
+      "symbol": "DTE",
+      "score": 2.5,
+      "sourceCount": 2,
+      "sources": [
+        "Social Trending",
+        "Reddit Multi-Sub"
+      ],
+      "signals": [
+        {
+          "source": "Social Trending",
+          "signal": "Reddit"
+        },
+        {
+          "source": "Reddit Multi-Sub",
+          "signal": "68 mentions across wallstreetbets,options"
+        }
+      ],
+      "conviction": 3
+    }
+  ]
+}

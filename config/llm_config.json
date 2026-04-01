@@ -1,0 +1,55 @@
+{
+  "version": 3,
+  "updated": "2026-03-05",
+
+  "providerPriority": ["claude_cli", "groq", "anthropic", "openai", "kimi"],
+
+  "forceProvider": null,
+
+  "taskRouting": {
+    "trading_analysis": "groq",
+    "memory_health": "groq",
+    "security_scan": "groq",
+    "news_summary": "groq",
+    "position_monitor": "groq",
+    "complex_reasoning": "claude_cli",
+    "architecture": "claude_cli",
+    "browser_automation": "claude_cli"
+  },
+
+  "circuitBreaker": {
+    "enabled": true,
+    "failureThreshold": 3,
+    "recoveryTimeMs": 300000,
+    "halfOpenMaxAttempts": 1
+  },
+
+  "groq": {
+    "preferredModel": "llama-3.3-70b-versatile",
+    "maxTokens": 4096,
+    "temperature": 0.3
+  },
+
+  "anthropic": {
+    "preferredModel": "claude-haiku-4-5-20251001",
+    "maxTokens": 4096,
+    "temperature": 0.3
+  },
+
+  "claude_cli": {
+    "preferredModel": "sonnet",
+    "timeout": 90000
+  },
+
+  "costAlerts": {
+    "dailyBudgetUsd": 5.00,
+    "warnAtPercent": 80,
+    "trackingEnabled": true
+  },
+
+  "healthCheck": {
+    "enabled": true,
+    "intervalMs": 600000,
+    "timeoutMs": 10000
+  }
+}

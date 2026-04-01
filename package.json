@@ -10,7 +10,9 @@
     "teleclaude-discord": "./setup-discord.js"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node watchdog.js",
+    "start:direct": "node index.js",
+    "watchdog": "node watchdog.js",
     "setup": "node setup.js",
     "chat": "node chat.js",
     "setup-telegram": "node setup-telegram.js",

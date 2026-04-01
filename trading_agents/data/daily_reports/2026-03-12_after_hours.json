@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-03-12T20:30:00.725Z",
+  "date": "2026-03-12",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 90544.84,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "cash": 90544.84,
+    "buyingPower": 362179.36,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 0,
+    "closedTradesCount": 0,
+    "winsToday": 0,
+    "lossesToday": 0,
+    "winRate": "N/A",
+    "reasoningCount": 0,
+    "todayLessons": []
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Win rate of 37.9% combined with large loss days suggests you are cutting winners short and letting losers run — the inverse of what a profitable trader does.",
+      "AVOID: Three consecutive loss days on Feb 9-13 with escalating loss sizes indicates potential revenge trading or doubling down after losses.",
+      "AVOID: High trade frequency days (8 trades on Feb 6 and Feb 9) correlate with both your best and worst outcomes — overtrading is a major risk factor you have not yet controlled for.",
+      "AVOID: Losses on 18 of 29 trades means you are wrong more often than right — your entries need a higher-quality filter before sizing up."
+    ],
+    "tomorrowRules": [
+      "If VIX remains above 22 and market regime reads NEUTRAL, reduce position size by 50% from your normal sizing — elevated uncertainty demands reduced exposure.",
+      "Set a daily hard stop of -$1,500 for the day trade account. If you hit it, close the platform. No exceptions, no revenge trades.",
+      "Before entering any trade, write down in real-time: entry trigger, target, and stop. Do not enter without all three defined.",
+      "After 2 losses in a row on the same day, stop trading for that session — the Feb 10-11 sequence shows consecutive losses spiral into your worst days.",
+      "Do not execute more than 4 day trades in a single session until win rate improves above 45% over a 20-trade sample."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "B",
+    "gradingReason": "No trades today in a NEUTRAL market regime — this is disciplined capital preservation. However, the underlying cumulative stats reveal serious structural problems: 37.9% win rate with catastrophic loss days (-$4,757 and -$2,870) that dwarf most winning days. Sitting out today was correct, but the bigger picture needs urgent attention.",
+    "keyLessons": [
+      "Sitting out a NEUTRAL market with VIX around 24-25 and no clear edge is the right call — not trading IS a trade, and today's $0 P&L beats a forced loss.",
+      "Your cumulative win rate of 37.9% (11W/18L) is survivable ONLY if winners are significantly larger than losers — review your average win vs. average loss ratio immediately, because recent data suggests losses are crushing wins.",
+      "The Feb 11 (-$4,757) and Feb 10 (-$2,870) back-to-back losses totaling -$7,627 in two days represent a systemic risk control failure — identify exactly what broke down those days and build a hard rule to prevent recurrence.",
+      "Feb 6 (+$20,632) is masking the true state of your trading — strip that outlier out and your remaining 28 trades show a net loss, which means your edge depends on rare outsized wins while you bleed on most days."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "Correctly identified today's NEUTRAL regime and chose not to force trades — market awareness is functioning.",
+        "5 consecutive days of $0 day trade losses shows improving patience in a choppy, elevated-VIX environment.",
+        "Swing account is being maintained separately, showing portfolio structure discipline."
+      ],
+      "badPatterns": [
+        "Win rate of 37.9% combined with large loss days suggests you are cutting winners short and letting losers run — the inverse of what a profitable trader does.",
+        "Three consecutive loss days on Feb 9-13 with escalating loss sizes indicates potential revenge trading or doubling down after losses.",
+        "High trade frequency days (8 trades on Feb 6 and Feb 9) correlate with both your best and worst outcomes — overtrading is a major risk factor you have not yet controlled for.",
+        "Losses on 18 of 29 trades means you are wrong more often than right — your entries need a higher-quality filter before sizing up."
+      ]
+    },
+    "tomorrowRules": [
+      "If VIX remains above 22 and market regime reads NEUTRAL, reduce position size by 50% from your normal sizing — elevated uncertainty demands reduced exposure.",
+      "Set a daily hard stop of -$1,500 for the day trade account. If you hit it, close the platform. No exceptions, no revenge trades.",
+      "Before entering any trade, write down in real-time: entry trigger, target, and stop. Do not enter without all three defined.",
+      "After 2 losses in a row on the same day, stop trading for that session — the Feb 10-11 sequence shows consecutive losses spiral into your worst days.",
+      "Do not execute more than 4 day trades in a single session until win rate improves above 45% over a 20-trade sample."
+    ],
+    "riskAssessment": "Today: excellent — no trades in a low-conviction environment. Cumulative risk management: poor. The account absorbed over $10,000 in losses across several bad days while the win rate sits below 40%. The single +$20,632 day is the only reason the account is net positive. Risk management rules are either absent or not being followed on losing days. Priority action: define and enforce a daily max loss limit and a per-trade max loss before next trading session.",
+    "emotionalCheck": "Today shows no emotional trading signals — patience was maintained. However, the historical pattern raises flags: back-to-back loss days with increasing loss size (Feb 10 to Feb 11) is a textbook revenge trading or averaging-down signature. The jump from 1 trade on Feb 10 to 3 trades on Feb 11 while losing all three suggests emotional escalation after an initial loss. Watch for this pattern closely — if you take a loss tomorrow morning, your highest-risk moment will be the next 30 minutes. Have a plan for it before the session starts."
+  },
+  "errors": []
+}

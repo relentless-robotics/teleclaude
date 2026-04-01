@@ -1,0 +1,18 @@
+{
+  "2026-03-06": {
+    "groq": {
+      "calls": 2,
+      "inputTokens": 607,
+      "outputTokens": 233,
+      "estimatedCostUsd": 0.0005422
+    }
+  },
+  "2026-03-10": {
+    "groq": {
+      "calls": 30,
+      "inputTokens": 21868,
+      "outputTokens": 6961,
+      "estimatedCostUsd": 0.018401310000000004
+    }
+  }
+}

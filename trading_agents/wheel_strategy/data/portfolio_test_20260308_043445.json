@@ -1,0 +1,122 @@
+[
+  {
+    "ticker": "AAPL",
+    "return_pct": 1.64,
+    "premium": 1643.82,
+    "sharpe": 1.82,
+    "max_dd": 0.0,
+    "win_rate": 100.0,
+    "cycles": 4,
+    "assignments": 0,
+    "bh_return": 20.14,
+    "wheel_vs_bh": -18.5
+  },
+  {
+    "ticker": "MSFT",
+    "return_pct": 0.0,
+    "premium": 0,
+    "sharpe": 0,
+    "max_dd": 0.0,
+    "win_rate": 0,
+    "cycles": 0,
+    "assignments": 0,
+    "bh_return": 6.26,
+    "wheel_vs_bh": -6.26
+  },
+  {
+    "ticker": "T",
+    "return_pct": 0.75,
+    "premium": 2932.7,
+    "sharpe": 0.16,
+    "max_dd": -2.78,
+    "win_rate": 83.3,
+    "cycles": 12,
+    "assignments": 1,
+    "bh_return": 11.38,
+    "wheel_vs_bh": -10.63
+  },
+  {
+    "ticker": "CVX",
+    "return_pct": 1.09,
+    "premium": 2382.14,
+    "sharpe": 0.39,
+    "max_dd": -1.67,
+    "win_rate": 81.8,
+    "cycles": 11,
+    "assignments": 1,
+    "bh_return": 20.99,
+    "wheel_vs_bh": -19.9
+  },
+  {
+    "ticker": "COST",
+    "return_pct": 0.0,
+    "premium": 0,
+    "sharpe": 0,
+    "max_dd": 0.0,
+    "win_rate": 0,
+    "cycles": 0,
+    "assignments": 0,
+    "bh_return": 10.86,
+    "wheel_vs_bh": -10.86
+  },
+  {
+    "ticker": "KO",
+    "return_pct": 1.72,
+    "premium": 2444.33,
+    "sharpe": 1.09,
+    "max_dd": -0.77,
+    "win_rate": 75.0,
+    "cycles": 8,
+    "assignments": 1,
+    "bh_return": 13.64,
+    "wheel_vs_bh": -11.92
+  },
+  {
+    "ticker": "JNJ",
+    "return_pct": 1.56,
+    "premium": 3193.43,
+    "sharpe": 2.85,
+    "max_dd": 0.0,
+    "win_rate": 100.0,
+    "cycles": 6,
+    "assignments": 0,
+    "bh_return": 51.6,
+    "wheel_vs_bh": -50.05
+  },
+  {
+    "ticker": "META",
+    "return_pct": 0.0,
+    "premium": 0,
+    "sharpe": 0,
+    "max_dd": 0.0,
+    "win_rate": 0,
+    "cycles": 0,
+    "assignments": 0,
+    "bh_return": 10.66,
+    "wheel_vs_bh": -10.66
+  },
+  {
+    "ticker": "AMZN",
+    "return_pct": 4.01,
+    "premium": 4501.43,
+    "sharpe": 2.61,
+    "max_dd": 0.0,
+    "win_rate": 100.0,
+    "cycles": 8,
+    "assignments": 0,
+    "bh_return": 9.04,
+    "wheel_vs_bh": -5.03
+  },
+  {
+    "ticker": "NEE",
+    "return_pct": 3.34,
+    "premium": 4579.14,
+    "sharpe": 2.7,
+    "max_dd": 0.0,
+    "win_rate": 100.0,
+    "cycles": 9,
+    "assignments": 0,
+    "bh_return": 32.95,
+    "wheel_vs_bh": -29.6
+  }
+]

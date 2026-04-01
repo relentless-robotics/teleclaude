@@ -1,0 +1,2521 @@
+{
+  "lastScan": "2026-04-01T22:08:58.663Z",
+  "lastMarketHoursScan": null,
+  "lastOffHoursScan": null,
+  "scanCount": 339,
+  "todaySignals": 1143,
+  "alertedSignals": {
+    "us-forces-enter-iran-by-december-31-573-642-385-371-179-425-262": {
+      "lastAlerted": "2026-04-01T06:02:07.329Z",
+      "type": "mean_reversion",
+      "price": 0.625,
+      "count": 6
+    },
+    "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224": {
+      "lastAlerted": "2026-04-01T12:03:22.027Z",
+      "type": "mean_reversion",
+      "price": 0.475,
+      "count": 5
+    },
+    "will-bitcoin-dip-to-35000-by-december-31-2026-744-877-748-219-467-465-646-211-122-947-537-552-555-361-972-954-635-887": {
+      "lastAlerted": "2026-04-01T14:02:51.449Z",
+      "type": "mean_reversion",
+      "price": 0.265,
+      "count": 4
+    },
+    "will-ken-paxton-win-the-2026-republican-primary": {
+      "lastAlerted": "2026-04-01T12:03:22.027Z",
+      "type": "mean_reversion",
+      "price": 0.665,
+      "count": 3
+    },
+    "us-forces-enter-iran-by-april-30-899": {
+      "lastAlerted": "2026-04-01T08:02:19.110Z",
+      "type": "mean_reversion",
+      "price": 0.525,
+      "count": 5
+    },
+    "will-the-us-invade-iran-before-2027": {
+      "lastAlerted": "2026-04-01T12:03:22.027Z",
+      "type": "mean_reversion",
+      "price": 0.445,
+      "count": 6
+    },
+    "will-reza-pahlavi-enter-iran-by-june-30-555-947-362-379-213": {
+      "lastAlerted": "2026-04-01T22:03:01.496Z",
+      "type": "mean_reversion",
+      "price": 0.065,
+      "count": 4
+    },
+    "will-the-next-prime-minister-of-hungary-be-pter-magyar": {
+      "lastAlerted": "2026-04-01T12:03:22.027Z",
+      "type": "mean_reversion",
+      "price": 0.685,
+      "count": 2
+    },
+    "zelenskyy-out-as-ukraine-president-before-2027": {
+      "lastAlerted": "2026-04-01T13:33:05.878Z",
+      "type": "mean_reversion",
+      "price": 0.205,
+      "count": 3
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733": {
+      "lastAlerted": "2026-04-01T15:32:47.999Z",
+      "type": "mean_reversion",
+      "price": 0.085,
+      "count": 3
+    },
+    "megaeth-market-cap-fdv-1b-one-day-after-launch-gj9e-189-291-824-352": {
+      "lastAlerted": "2026-04-01T12:03:22.027Z",
+      "type": "mean_reversion",
+      "price": 0.315,
+      "count": 2
+    },
+    "will-john-cornyn-win-the-2026-republican-primary": {
+      "lastAlerted": "2026-04-01T14:32:45.980Z",
+      "type": "mean_reversion",
+      "price": 0.295,
+      "count": 2
+    },
+    "trump-announces-end-of-military-operations-against-iran-by-april-30th-753-882-164-769": {
+      "lastAlerted": "2026-04-01T06:02:07.329Z",
+      "type": "mean_reversion",
+      "price": 0.595,
+      "count": 3
+    },
+    "will-graham-platner-be-the-democratic-nominee-for-senate-in-maine": {
+      "lastAlerted": "2026-04-01T02:02:45.235Z",
+      "type": "mean_reversion",
+      "price": 0.905,
+      "count": 3
+    },
+    "will-the-iranian-regime-fall-by-june-30": {
+      "lastAlerted": "2026-04-01T14:02:51.449Z",
+      "type": "mean_reversion",
+      "price": 0.105,
+      "count": 5
+    },
+    "will-israel-strike-3-countries-in-2026": {
+      "lastAlerted": "2026-04-01T13:33:05.878Z",
+      "type": "momentum",
+      "price": 0.145,
+      "count": 3
+    },
+    "will-the-iranian-regime-fall-by-the-end-of-2026": {
+      "lastAlerted": "2026-04-01T12:03:22.027Z",
+      "type": "mean_reversion",
+      "price": 0.225,
+      "count": 4
+    },
+    "putin-out-before-2027": {
+      "lastAlerted": "2026-04-01T02:02:45.235Z",
+      "type": "mean_reversion",
+      "price": 0.105,
+      "count": 2
+    },
+    "puffpaw-fdv-above-100m-one-day-after-launch": {
+      "lastAlerted": "2026-04-01T14:02:51.449Z",
+      "type": "mean_reversion",
+      "price": 0.365,
+      "count": 3
+    },
+    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384": {
+      "lastAlerted": "2026-04-01T22:03:01.496Z",
+      "type": "mean_reversion",
+      "price": 0.379,
+      "count": 3
+    },
+    "billionaire-one-time-wealth-tax-passes-in-california-election-2026": {
+      "lastAlerted": "2026-04-01T14:02:51.449Z",
+      "type": "mean_reversion",
+      "price": 0.325,
+      "count": 2
+    },
+    "will-the-next-prime-minister-of-hungary-be-viktor-orbn": {
+      "lastAlerted": "2026-04-01T12:03:22.027Z",
+      "type": "mean_reversion",
+      "price": 0.305,
+      "count": 1
+    },
+    "will-perplexity-ai-be-acquired-before-2027-776": {
+      "lastAlerted": "2026-04-01T13:33:05.878Z",
+      "type": "mean_reversion",
+      "price": 0.26,
+      "count": 1
+    },
+    "opensea-fdv-above-1b-one-day-after-launch-426-422-754-756-879-328-494": {
+      "lastAlerted": "2026-04-01T15:02:48.370Z",
+      "type": "mean_reversion",
+      "price": 0.165,
+      "count": 1
+    },
+    "ai-industry-downturn-by-december-31-2026-857": {
+      "lastAlerted": "2026-04-01T15:32:47.999Z",
+      "type": "mean_reversion",
+      "price": 0.2045,
+      "count": 1
+    },
+    "will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting": {
+      "lastAlerted": "2026-04-01T22:03:01.496Z",
+      "type": "mean_reversion",
+      "price": 0.0515,
+      "count": 1
+    },
+    "will-satoshi-move-any-bitcoin-in-2026": {
+      "lastAlerted": "2026-04-01T22:03:01.496Z",
+      "type": "mean_reversion",
+      "price": 0.0765,
+      "count": 1
+    },
+    "puffpaw-fdv-above-50m-one-day-after-launch": {
+      "lastAlerted": "2026-04-01T22:03:01.496Z",
+      "type": "mean_reversion",
+      "price": 0.635,
+      "count": 1
+    },
+    "starmer-out-by-june-30-2026-862-594-548": {
+      "lastAlerted": "2026-04-01T22:03:01.496Z",
+      "type": "mean_reversion",
+      "price": 0.235,
+      "count": 1
+    }
+  },
+  "scanHistory": [
+    {
+      "time": "2026-03-19T14:02:40.908Z",
+      "timeET": "10:00:34",
+      "exitCode": 0,
+      "stdout": "[10:02] | SCALP: 156/500 mkts | mr=15 mom=1 | opps=16 | LLM: skipped (no key) | [126.1s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T14:32:38.133Z",
+      "timeET": "10:30:34",
+      "exitCode": 0,
+      "stdout": "[10:32] | SCALP: 152/500 mkts | mr=12 mom=1 | opps=13 | LLM: skipped (no key) | [123.1s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T15:02:42.357Z",
+      "timeET": "11:00:35",
+      "exitCode": 0,
+      "stdout": "[11:02] | SCALP: 156/500 mkts | mr=8 mom=1 | opps=9 | LLM: skipped (no key) | [127.1s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T15:32:54.689Z",
+      "timeET": "11:30:35",
+      "exitCode": 0,
+      "stdout": "[11:32] | SCALP: 156/500 mkts | mr=6 mom=1 | opps=7 | LLM: skipped (no key) | [139.2s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T16:06:18.839Z",
+      "timeET": "12:04:11",
+      "exitCode": 0,
+      "stdout": "[12:06] | SCALP: 158/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [127.2s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T16:32:43.917Z",
+      "timeET": "12:30:36",
+      "exitCode": 0,
+      "stdout": "[12:32] | SCALP: 157/500 mkts | mr=5 mom=0 | opps=5 | LLM: skipped (no key) | [127.4s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T17:02:43.730Z",
+      "timeET": "13:00:36",
+      "exitCode": 0,
+      "stdout": "[13:02] | SCALP: 158/500 mkts | mr=8 mom=0 | opps=8 | LLM: skipped (no key) | [127.0s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T17:32:44.675Z",
+      "timeET": "13:30:36",
+      "exitCode": 0,
+      "stdout": "[13:32] | SCALP: 157/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [127.7s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T18:02:42.745Z",
+      "timeET": "14:00:37",
+      "exitCode": 0,
+      "stdout": "[14:02] | SCALP: 157/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [125.5s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T18:32:44.328Z",
+      "timeET": "14:30:37",
+      "exitCode": 0,
+      "stdout": "[14:32] | SCALP: 157/500 mkts | mr=5 mom=0 | opps=5 | LLM: skipped (no key) | [126.9s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T19:02:45.365Z",
+      "timeET": "15:00:37",
+      "exitCode": 0,
+      "stdout": "[15:02] | SCALP: 157/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [127.7s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T19:32:47.161Z",
+      "timeET": "15:30:37",
+      "exitCode": 0,
+      "stdout": "[15:32] | SCALP: 155/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [129.3s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T20:02:44.290Z",
+      "timeET": "16:00:38",
+      "exitCode": 0,
+      "stdout": "[16:02] | SCALP: 154/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [126.2s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-19T22:02:43.060Z",
+      "timeET": "18:00:38",
+      "exitCode": 0,
+      "stdout": "[18:02] | SCALP: 153/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [124.0s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T00:02:44.444Z",
+      "timeET": "20:00:39",
+      "exitCode": 0,
+      "stdout": "[20:02] | SCALP: 154/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [124.5s]",
+      "newSignals": 6,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T02:02:49.920Z",
+      "timeET": "22:00:40",
+      "exitCode": 0,
+      "stdout": "[22:02] | SCALP: 159/500 mkts | mr=7 mom=1 | opps=8 | LLM: skipped (no key) | [129.0s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T04:02:40.431Z",
+      "timeET": "00:00:41",
+      "exitCode": 0,
+      "stdout": "[00:02] | SCALP: 148/500 mkts | mr=9 mom=1 | opps=10 | LLM: skipped (no key) | [118.5s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T06:02:47.111Z",
+      "timeET": "02:00:42",
+      "exitCode": 0,
+      "stdout": "[02:02] | SCALP: 153/500 mkts | mr=10 mom=1 | opps=11 | LLM: skipped (no key) | [124.2s]",
+      "newSignals": 7,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T08:02:49.450Z",
+      "timeET": "04:00:43",
+      "exitCode": 0,
+      "stdout": "[04:02] | SCALP: 156/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [125.6s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T10:02:52.004Z",
+      "timeET": "06:00:44",
+      "exitCode": 0,
+      "stdout": "[06:02] | SCALP: 157/500 mkts | mr=13 mom=0 | opps=13 | LLM: skipped (no key) | [127.1s]",
+      "newSignals": 9,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T12:03:55.952Z",
+      "timeET": "08:01:47",
+      "exitCode": 0,
+      "stdout": "[08:03] | SCALP: 159/500 mkts | mr=13 mom=0 | opps=13 | LLM: skipped (no key) | [128.7s]",
+      "newSignals": 6,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T13:33:17.019Z",
+      "timeET": "09:31:10",
+      "exitCode": 0,
+      "stdout": "[09:33] | SCALP: 156/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [126.4s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T14:02:50.919Z",
+      "timeET": "10:00:48",
+      "exitCode": 0,
+      "stdout": "[10:02] | SCALP: 154/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [122.3s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T14:32:54.832Z",
+      "timeET": "10:30:48",
+      "exitCode": 0,
+      "stdout": "[10:32] | SCALP: 156/500 mkts | mr=13 mom=0 | opps=13 | LLM: skipped (no key) | [126.0s]",
+      "newSignals": 10,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T15:03:02.115Z",
+      "timeET": "11:00:48",
+      "exitCode": 0,
+      "stdout": "[11:03] | SCALP: 157/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [133.1s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T15:32:56.446Z",
+      "timeET": "11:30:49",
+      "exitCode": 0,
+      "stdout": "[11:32] | SCALP: 156/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [127.1s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T16:06:30.998Z",
+      "timeET": "12:04:24",
+      "exitCode": 0,
+      "stdout": "[12:06] | SCALP: 156/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [126.1s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T16:32:57.980Z",
+      "timeET": "12:30:50",
+      "exitCode": 0,
+      "stdout": "[12:32] | SCALP: 157/500 mkts | mr=5 mom=0 | opps=5 | LLM: skipped (no key) | [127.3s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T17:02:58.385Z",
+      "timeET": "13:00:50",
+      "exitCode": 0,
+      "stdout": "[13:02] | SCALP: 157/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [127.6s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T17:32:58.524Z",
+      "timeET": "13:30:50",
+      "exitCode": 0,
+      "stdout": "[13:32] | SCALP: 158/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [127.5s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T18:02:58.098Z",
+      "timeET": "14:00:51",
+      "exitCode": 0,
+      "stdout": "[14:02] | SCALP: 156/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [126.8s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T18:32:58.838Z",
+      "timeET": "14:30:51",
+      "exitCode": 0,
+      "stdout": "[14:32] | SCALP: 157/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [127.0s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T19:02:59.700Z",
+      "timeET": "15:00:52",
+      "exitCode": 0,
+      "stdout": "[15:02] | SCALP: 158/500 mkts | mr=5 mom=0 | opps=5 | LLM: skipped (no key) | [127.6s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T19:32:57.719Z",
+      "timeET": "15:30:52",
+      "exitCode": 0,
+      "stdout": "[15:32] | SCALP: 157/500 mkts | mr=11 mom=0 | opps=11 | LLM: skipped (no key) | [125.4s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T20:02:58.973Z",
+      "timeET": "16:00:52",
+      "exitCode": 0,
+      "stdout": "[16:02] | SCALP: 155/500 mkts | mr=9 mom=0 | opps=9 | LLM: skipped (no key) | [126.4s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-20T22:02:56.322Z",
+      "timeET": "18:00:53",
+      "exitCode": 0,
+      "stdout": "[18:02] | SCALP: 153/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [122.8s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-21T00:02:58.242Z",
+      "timeET": "20:00:54",
+      "exitCode": 0,
+      "stdout": "[20:02] | SCALP: 153/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [123.7s]",
+      "newSignals": 8,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-21T02:02:53.285Z",
+      "timeET": "22:00:55",
+      "exitCode": 0,
+      "stdout": "[22:02] | SCALP: 153/500 mkts | mr=8 mom=0 | opps=8 | LLM: skipped (no key) | [117.8s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T04:02:05.193Z",
+      "timeET": "00:00:02",
+      "exitCode": 0,
+      "stdout": "[00:02] | SCALP: 150/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [122.9s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T06:02:17.083Z",
+      "timeET": "02:00:03",
+      "exitCode": 0,
+      "stdout": "[02:02] | SCALP: 157/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [133.8s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T08:02:10.987Z",
+      "timeET": "04:00:04",
+      "exitCode": 0,
+      "stdout": "[04:02] | SCALP: 157/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [126.8s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T10:02:17.726Z",
+      "timeET": "06:00:04",
+      "exitCode": 0,
+      "stdout": "[06:02] | SCALP: 155/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [132.7s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T12:03:31.029Z",
+      "timeET": "08:01:24",
+      "exitCode": 0,
+      "stdout": "[08:03] | SCALP: 153/500 mkts | mr=5 mom=0 | opps=5 | LLM: skipped (no key) | [126.1s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T13:32:27.687Z",
+      "timeET": "09:30:31",
+      "exitCode": 0,
+      "stdout": "[09:32] | SCALP: 152/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [115.6s]",
+      "newSignals": 8,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T14:01:59.874Z",
+      "timeET": "10:00:08",
+      "exitCode": 0,
+      "stdout": "[10:01] | SCALP: 151/500 mkts | mr=1 mom=0 | opps=1 | LLM: skipped (no key) | [111.0s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T14:32:07.133Z",
+      "timeET": "10:30:08",
+      "exitCode": 0,
+      "stdout": "[10:32] | SCALP: 154/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [118.1s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T15:02:12.173Z",
+      "timeET": "11:00:09",
+      "exitCode": 0,
+      "stdout": "[11:02] | SCALP: 156/500 mkts | mr=1 mom=0 | opps=1 | LLM: skipped (no key) | [122.9s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T15:32:15.016Z",
+      "timeET": "11:30:09",
+      "exitCode": 0,
+      "stdout": "[11:32] | SCALP: 155/500 mkts | mr=1 mom=0 | opps=1 | LLM: skipped (no key) | [125.5s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T16:05:55.820Z",
+      "timeET": "12:03:48",
+      "exitCode": 0,
+      "stdout": "[12:05] | SCALP: 155/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [126.8s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T16:32:21.295Z",
+      "timeET": "12:30:09",
+      "exitCode": 0,
+      "stdout": "[12:32] | SCALP: 156/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [131.4s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T17:02:20.290Z",
+      "timeET": "13:00:09",
+      "exitCode": 0,
+      "stdout": "[13:02] | SCALP: 157/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [130.2s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T17:32:17.475Z",
+      "timeET": "13:30:10",
+      "exitCode": 0,
+      "stdout": "[13:32] | SCALP: 155/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [127.2s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T18:02:06.247Z",
+      "timeET": "14:00:10",
+      "exitCode": 0,
+      "stdout": "[14:02] | SCALP: 156/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [115.8s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T18:32:04.382Z",
+      "timeET": "14:30:10",
+      "exitCode": 0,
+      "stdout": "[14:32] | SCALP: 154/500 mkts | mr=1 mom=0 | opps=1 | LLM: skipped (no key) | [113.6s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T19:02:03.282Z",
+      "timeET": "15:00:10",
+      "exitCode": 0,
+      "stdout": "[15:02] | SCALP: 152/500 mkts | mr=1 mom=0 | opps=1 | LLM: skipped (no key) | [112.3s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T19:32:06.645Z",
+      "timeET": "15:30:11",
+      "exitCode": 0,
+      "stdout": "[15:32] | SCALP: 155/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [115.4s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T20:02:05.928Z",
+      "timeET": "16:00:11",
+      "exitCode": 0,
+      "stdout": "[16:02] | SCALP: 154/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [114.4s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-23T22:02:04.458Z",
+      "timeET": "18:00:12",
+      "exitCode": 0,
+      "stdout": "[18:02] | SCALP: 152/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [112.1s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T00:02:06.629Z",
+      "timeET": "20:00:13",
+      "exitCode": 0,
+      "stdout": "[20:02] | SCALP: 153/500 mkts | mr=5 mom=0 | opps=5 | LLM: skipped (no key) | [113.5s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T02:02:07.399Z",
+      "timeET": "22:00:14",
+      "exitCode": 0,
+      "stdout": "[22:02] | SCALP: 152/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [113.3s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T04:02:05.071Z",
+      "timeET": "00:00:03",
+      "exitCode": 0,
+      "stdout": "[00:02] | SCALP: 148/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [121.9s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T06:02:08.229Z",
+      "timeET": "02:00:04",
+      "exitCode": 0,
+      "stdout": "[02:02] | SCALP: 149/500 mkts | mr=1 mom=0 | opps=1 | LLM: skipped (no key) | [124.1s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T08:01:57.542Z",
+      "timeET": "04:00:05",
+      "exitCode": 0,
+      "stdout": "[04:01] | SCALP: 151/500 mkts | mr=1 mom=1 | opps=2 | LLM: skipped (no key) | [112.4s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T10:01:58.208Z",
+      "timeET": "06:00:06",
+      "exitCode": 0,
+      "stdout": "[06:01] | SCALP: 149/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [112.0s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T12:03:20.909Z",
+      "timeET": "08:01:27",
+      "exitCode": 0,
+      "stdout": "[08:03] | SCALP: 150/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [112.9s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T13:32:53.525Z",
+      "timeET": "09:30:46",
+      "exitCode": 0,
+      "stdout": "[09:32] | SCALP: 149/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [126.7s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T14:02:30.524Z",
+      "timeET": "10:00:22",
+      "exitCode": 0,
+      "stdout": "[10:02] | SCALP: 150/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [127.8s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T14:32:27.360Z",
+      "timeET": "10:30:22",
+      "exitCode": 0,
+      "stdout": "[10:32] | SCALP: 150/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [124.5s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T15:02:25.507Z",
+      "timeET": "11:00:22",
+      "exitCode": 0,
+      "stdout": "[11:02] | SCALP: 151/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [122.4s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T15:32:21.586Z",
+      "timeET": "11:30:23",
+      "exitCode": 0,
+      "stdout": "[11:32] | SCALP: 151/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [118.3s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T16:06:04.605Z",
+      "timeET": "12:04:01",
+      "exitCode": 0,
+      "stdout": "[12:06] | SCALP: 150/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [123.3s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T16:32:25.486Z",
+      "timeET": "12:30:25",
+      "exitCode": 0,
+      "stdout": "[12:32] | SCALP: 150/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [119.4s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T17:02:27.650Z",
+      "timeET": "13:00:26",
+      "exitCode": 0,
+      "stdout": "[13:02] | SCALP: 149/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [121.4s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T17:32:42.122Z",
+      "timeET": "13:30:38",
+      "exitCode": 0,
+      "stdout": "[13:32] | SCALP: 151/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [123.5s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T18:32:53.593Z",
+      "timeET": "14:30:50",
+      "exitCode": 0,
+      "stdout": "[14:32] | SCALP: 149/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [123.5s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T19:02:03.850Z",
+      "timeET": "15:00:01",
+      "exitCode": 0,
+      "stdout": "[15:02] | SCALP: 151/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [122.3s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T19:32:02.386Z",
+      "timeET": "15:30:01",
+      "exitCode": 0,
+      "stdout": "[15:32] | SCALP: 151/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [120.6s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T20:02:45.810Z",
+      "timeET": "16:00:43",
+      "exitCode": 0,
+      "stdout": "[16:02] | SCALP: 153/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [122.6s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-24T22:02:51.534Z",
+      "timeET": "18:00:44",
+      "exitCode": 0,
+      "stdout": "[18:02] | SCALP: 154/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [127.4s]",
+      "newSignals": 11,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T00:02:55.242Z",
+      "timeET": "20:00:44",
+      "exitCode": 0,
+      "stdout": "[20:02] | SCALP: 159/500 mkts | mr=9 mom=0 | opps=9 | LLM: skipped (no key) | [130.2s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T02:02:51.099Z",
+      "timeET": "22:00:45",
+      "exitCode": 0,
+      "stdout": "[22:02] | SCALP: 152/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [125.2s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T04:02:51.908Z",
+      "timeET": "00:00:46",
+      "exitCode": 0,
+      "stdout": "[00:02] | SCALP: 152/500 mkts | mr=9 mom=0 | opps=9 | LLM: skipped (no key) | [125.0s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T06:02:49.194Z",
+      "timeET": "02:00:47",
+      "exitCode": 0,
+      "stdout": "[02:02] | SCALP: 149/500 mkts | mr=11 mom=0 | opps=11 | LLM: skipped (no key) | [121.4s]",
+      "newSignals": 6,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T08:02:49.634Z",
+      "timeET": "04:00:48",
+      "exitCode": 0,
+      "stdout": "[04:02] | SCALP: 148/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [121.0s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T10:02:49.329Z",
+      "timeET": "06:00:49",
+      "exitCode": 0,
+      "stdout": "[06:02] | SCALP: 147/500 mkts | mr=13 mom=0 | opps=13 | LLM: skipped (no key) | [119.7s]",
+      "newSignals": 8,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T12:03:54.804Z",
+      "timeET": "08:01:50",
+      "exitCode": 0,
+      "stdout": "[08:03] | SCALP: 152/500 mkts | mr=15 mom=0 | opps=15 | LLM: skipped (no key) | [124.6s]",
+      "newSignals": 10,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T13:32:50.042Z",
+      "timeET": "09:30:51",
+      "exitCode": 0,
+      "stdout": "[09:32] | SCALP: 149/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [118.9s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T14:02:49.622Z",
+      "timeET": "10:00:51",
+      "exitCode": 0,
+      "stdout": "[10:02] | SCALP: 149/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [118.2s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T14:32:53.621Z",
+      "timeET": "10:30:53",
+      "exitCode": 0,
+      "stdout": "[10:32] | SCALP: 147/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [119.8s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T15:02:56.075Z",
+      "timeET": "11:00:53",
+      "exitCode": 0,
+      "stdout": "[11:02] | SCALP: 148/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [122.0s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T15:32:54.215Z",
+      "timeET": "11:30:54",
+      "exitCode": 0,
+      "stdout": "[11:32] | SCALP: 147/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [119.9s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T16:06:32.056Z",
+      "timeET": "12:04:31",
+      "exitCode": 0,
+      "stdout": "[12:06] | SCALP: 149/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [120.4s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T16:32:55.491Z",
+      "timeET": "12:30:54",
+      "exitCode": 0,
+      "stdout": "[12:32] | SCALP: 148/500 mkts | mr=5 mom=0 | opps=5 | LLM: skipped (no key) | [120.8s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T17:02:56.262Z",
+      "timeET": "13:00:54",
+      "exitCode": 0,
+      "stdout": "[13:02] | SCALP: 147/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [121.3s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T17:32:58.018Z",
+      "timeET": "13:30:55",
+      "exitCode": 0,
+      "stdout": "[13:32] | SCALP: 150/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [122.8s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T18:03:00.797Z",
+      "timeET": "14:00:55",
+      "exitCode": 0,
+      "stdout": "[14:03] | SCALP: 149/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [125.4s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T18:33:00.785Z",
+      "timeET": "14:30:55",
+      "exitCode": 0,
+      "stdout": "[14:33] | SCALP: 147/500 mkts | mr=5 mom=0 | opps=5 | LLM: skipped (no key) | [125.2s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T19:02:57.494Z",
+      "timeET": "15:00:55",
+      "exitCode": 0,
+      "stdout": "[15:02] | SCALP: 146/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [121.6s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T19:32:53.499Z",
+      "timeET": "15:30:55",
+      "exitCode": 0,
+      "stdout": "[15:32] | SCALP: 146/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [117.4s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T20:02:55.748Z",
+      "timeET": "16:00:56",
+      "exitCode": 0,
+      "stdout": "[16:02] | SCALP: 146/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [119.4s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-25T22:02:58.553Z",
+      "timeET": "18:00:57",
+      "exitCode": 0,
+      "stdout": "[18:02] | SCALP: 145/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [121.3s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T00:02:58.188Z",
+      "timeET": "20:00:58",
+      "exitCode": 0,
+      "stdout": "[20:02] | SCALP: 148/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [119.9s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T02:03:00.257Z",
+      "timeET": "22:00:59",
+      "exitCode": 0,
+      "stdout": "[22:03] | SCALP: 146/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [121.1s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T04:03:02.713Z",
+      "timeET": "00:00:59",
+      "exitCode": 0,
+      "stdout": "[00:03] | SCALP: 146/500 mkts | mr=8 mom=0 | opps=8 | LLM: skipped (no key) | [122.7s]",
+      "newSignals": 6,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T06:02:00.544Z",
+      "timeET": "02:00:00",
+      "exitCode": 0,
+      "stdout": "[02:02] | SCALP: 143/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [119.6s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T08:02:00.948Z",
+      "timeET": "04:00:01",
+      "exitCode": 0,
+      "stdout": "[04:02] | SCALP: 144/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [119.0s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T10:02:07.285Z",
+      "timeET": "06:00:02",
+      "exitCode": 0,
+      "stdout": "[06:02] | SCALP: 149/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [124.5s]",
+      "newSignals": 11,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T12:03:20.445Z",
+      "timeET": "08:01:21",
+      "exitCode": 0,
+      "stdout": "[08:03] | SCALP: 149/500 mkts | mr=15 mom=0 | opps=15 | LLM: skipped (no key) | [119.2s]",
+      "newSignals": 7,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T13:32:32.087Z",
+      "timeET": "09:30:27",
+      "exitCode": 0,
+      "stdout": "[09:32] | SCALP: 149/500 mkts | mr=15 mom=0 | opps=15 | LLM: skipped (no key) | [124.1s]",
+      "newSignals": 6,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T14:02:04.453Z",
+      "timeET": "10:00:04",
+      "exitCode": 0,
+      "stdout": "[10:02] | SCALP: 149/500 mkts | mr=14 mom=0 | opps=14 | LLM: skipped (no key) | [119.8s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T14:32:08.499Z",
+      "timeET": "10:30:07",
+      "exitCode": 0,
+      "stdout": "[10:32] | SCALP: 148/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [121.2s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T15:02:10.767Z",
+      "timeET": "11:00:07",
+      "exitCode": 0,
+      "stdout": "[11:02] | SCALP: 151/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [123.2s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T15:32:09.787Z",
+      "timeET": "11:30:07",
+      "exitCode": 0,
+      "stdout": "[11:32] | SCALP: 149/500 mkts | mr=8 mom=0 | opps=8 | LLM: skipped (no key) | [122.1s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T16:05:44.405Z",
+      "timeET": "12:03:45",
+      "exitCode": 0,
+      "stdout": "[12:05] | SCALP: 147/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [119.3s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T16:32:05.366Z",
+      "timeET": "12:30:08",
+      "exitCode": 0,
+      "stdout": "[12:32] | SCALP: 150/500 mkts | mr=8 mom=0 | opps=8 | LLM: skipped (no key) | [117.2s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T17:02:02.865Z",
+      "timeET": "13:00:08",
+      "exitCode": 0,
+      "stdout": "[13:02] | SCALP: 150/500 mkts | mr=9 mom=0 | opps=9 | LLM: skipped (no key) | [114.4s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T17:32:05.874Z",
+      "timeET": "13:30:09",
+      "exitCode": 0,
+      "stdout": "[13:32] | SCALP: 152/500 mkts | mr=7 mom=1 | opps=8 | LLM: skipped (no key) | [116.7s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T18:02:36.502Z",
+      "timeET": "14:00:40",
+      "exitCode": 0,
+      "stdout": "[14:02] | SCALP: 150/500 mkts | mr=9 mom=0 | opps=9 | LLM: skipped (no key) | [115.9s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T18:32:36.526Z",
+      "timeET": "14:30:40",
+      "exitCode": 0,
+      "stdout": "[14:32] | SCALP: 150/500 mkts | mr=5 mom=0 | opps=5 | LLM: skipped (no key) | [115.8s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T19:02:41.177Z",
+      "timeET": "15:00:40",
+      "exitCode": 0,
+      "stdout": "[15:02] | SCALP: 149/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [120.2s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T19:32:43.493Z",
+      "timeET": "15:30:41",
+      "exitCode": 0,
+      "stdout": "[15:32] | SCALP: 149/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [122.2s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T20:02:43.821Z",
+      "timeET": "16:00:41",
+      "exitCode": 0,
+      "stdout": "[16:02] | SCALP: 150/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [122.3s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-26T22:02:36.891Z",
+      "timeET": "18:00:42",
+      "exitCode": 0,
+      "stdout": "[18:02] | SCALP: 148/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [114.4s]",
+      "newSignals": 6,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T00:02:56.422Z",
+      "timeET": "20:00:43",
+      "exitCode": 0,
+      "stdout": "[20:02] | SCALP: 150/500 mkts | mr=8 mom=0 | opps=8 | LLM: skipped (no key) | [133.0s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T02:02:49.176Z",
+      "timeET": "22:00:44",
+      "exitCode": 0,
+      "stdout": "[22:02] | SCALP: 141/500 mkts | mr=9 mom=0 | opps=9 | LLM: skipped (no key) | [124.8s]",
+      "newSignals": 6,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T04:02:52.378Z",
+      "timeET": "00:00:45",
+      "exitCode": 0,
+      "stdout": "[00:02] | SCALP: 141/500 mkts | mr=11 mom=1 | opps=12 | LLM: skipped (no key) | [127.1s]",
+      "newSignals": 6,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T06:02:49.789Z",
+      "timeET": "02:00:46",
+      "exitCode": 0,
+      "stdout": "[02:02] | SCALP: 141/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [123.6s]",
+      "newSignals": 7,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T08:02:49.391Z",
+      "timeET": "04:00:46",
+      "exitCode": 0,
+      "stdout": "[04:02] | SCALP: 140/500 mkts | mr=9 mom=1 | opps=10 | LLM: skipped (no key) | [122.4s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T10:02:50.949Z",
+      "timeET": "06:00:47",
+      "exitCode": 0,
+      "stdout": "[06:02] | SCALP: 140/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [123.0s]",
+      "newSignals": 11,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T12:03:56.648Z",
+      "timeET": "08:01:56",
+      "exitCode": 0,
+      "stdout": "[08:03] | SCALP: 139/500 mkts | mr=16 mom=1 | opps=17 | LLM: skipped (no key) | [119.7s]",
+      "newSignals": 8,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T13:33:19.493Z",
+      "timeET": "09:31:14",
+      "exitCode": 0,
+      "stdout": "[09:33] | SCALP: 140/500 mkts | mr=17 mom=0 | opps=17 | LLM: skipped (no key) | [125.2s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T14:02:53.427Z",
+      "timeET": "10:00:49",
+      "exitCode": 0,
+      "stdout": "[10:02] | SCALP: 142/500 mkts | mr=17 mom=0 | opps=17 | LLM: skipped (no key) | [123.6s]",
+      "newSignals": 12,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T14:32:53.565Z",
+      "timeET": "10:30:52",
+      "exitCode": 0,
+      "stdout": "[10:32] | SCALP: 140/500 mkts | mr=14 mom=0 | opps=14 | LLM: skipped (no key) | [121.2s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T15:02:54.014Z",
+      "timeET": "11:00:52",
+      "exitCode": 0,
+      "stdout": "[11:02] | SCALP: 140/500 mkts | mr=14 mom=0 | opps=14 | LLM: skipped (no key) | [121.5s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T15:32:52.904Z",
+      "timeET": "11:30:52",
+      "exitCode": 0,
+      "stdout": "[11:32] | SCALP: 139/500 mkts | mr=11 mom=0 | opps=11 | LLM: skipped (no key) | [120.1s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T16:06:33.558Z",
+      "timeET": "12:04:31",
+      "exitCode": 0,
+      "stdout": "[12:06] | SCALP: 140/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [122.1s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T17:02:46.786Z",
+      "timeET": "13:00:44",
+      "exitCode": 0,
+      "stdout": "[13:02] | SCALP: 141/500 mkts | mr=13 mom=0 | opps=13 | LLM: skipped (no key) | [122.1s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T17:32:54.992Z",
+      "timeET": "13:30:44",
+      "exitCode": 0,
+      "stdout": "[13:32] | SCALP: 140/500 mkts | mr=14 mom=1 | opps=15 | LLM: skipped (no key) | [130.0s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T18:02:47.481Z",
+      "timeET": "14:00:45",
+      "exitCode": 0,
+      "stdout": "[14:02] | SCALP: 141/500 mkts | mr=12 mom=1 | opps=13 | LLM: skipped (no key) | [122.3s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T18:32:52.957Z",
+      "timeET": "14:30:45",
+      "exitCode": 0,
+      "stdout": "[14:32] | SCALP: 140/500 mkts | mr=11 mom=1 | opps=12 | LLM: skipped (no key) | [127.5s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T19:02:47.223Z",
+      "timeET": "15:00:45",
+      "exitCode": 0,
+      "stdout": "[15:02] | SCALP: 140/500 mkts | mr=9 mom=1 | opps=10 | LLM: skipped (no key) | [121.6s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T19:32:48.611Z",
+      "timeET": "15:30:45",
+      "exitCode": 0,
+      "stdout": "[15:32] | SCALP: 141/500 mkts | mr=8 mom=1 | opps=9 | LLM: skipped (no key) | [122.7s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T20:02:48.689Z",
+      "timeET": "16:00:45",
+      "exitCode": 0,
+      "stdout": "[16:02] | SCALP: 141/500 mkts | mr=9 mom=1 | opps=10 | LLM: skipped (no key) | [122.6s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-27T22:02:32.038Z",
+      "timeET": "18:00:46",
+      "exitCode": 0,
+      "stdout": "[18:02] | SCALP: 141/500 mkts | mr=9 mom=1 | opps=10 | LLM: skipped (no key) | [105.2s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-28T00:02:30.633Z",
+      "timeET": "20:00:47",
+      "exitCode": 0,
+      "stdout": "[20:02] | SCALP: 140/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [102.9s]",
+      "newSignals": 10,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-28T02:02:29.509Z",
+      "timeET": "22:00:48",
+      "exitCode": 0,
+      "stdout": "[22:02] | SCALP: 133/500 mkts | mr=10 mom=1 | opps=11 | LLM: skipped (no key) | [100.8s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T04:02:40.356Z",
+      "timeET": "00:00:50",
+      "exitCode": 0,
+      "stdout": "[00:02] | SCALP: 129/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [110.0s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T06:02:37.717Z",
+      "timeET": "02:00:51",
+      "exitCode": 0,
+      "stdout": "[02:02] | SCALP: 126/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [106.2s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T08:02:37.818Z",
+      "timeET": "04:00:52",
+      "exitCode": 0,
+      "stdout": "[04:02] | SCALP: 126/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [105.3s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T10:02:39.297Z",
+      "timeET": "06:00:53",
+      "exitCode": 0,
+      "stdout": "[06:02] | SCALP: 127/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [105.8s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T12:03:44.466Z",
+      "timeET": "08:02:01",
+      "exitCode": 0,
+      "stdout": "[08:03] | SCALP: 128/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [103.0s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T13:33:05.897Z",
+      "timeET": "09:31:18",
+      "exitCode": 0,
+      "stdout": "[09:33] | SCALP: 127/500 mkts | mr=1 mom=0 | opps=1 | LLM: skipped (no key) | [106.9s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T14:02:40.842Z",
+      "timeET": "10:00:55",
+      "exitCode": 0,
+      "stdout": "[10:02] | SCALP: 128/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [105.5s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T14:32:42.333Z",
+      "timeET": "10:30:55",
+      "exitCode": 0,
+      "stdout": "[10:32] | SCALP: 129/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [106.8s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T15:02:41.871Z",
+      "timeET": "11:00:55",
+      "exitCode": 0,
+      "stdout": "[11:02] | SCALP: 129/500 mkts | mr=0 mom=0 | opps=0 | LLM: skipped (no key) | [106.0s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T15:32:47.479Z",
+      "timeET": "11:30:56",
+      "exitCode": 0,
+      "stdout": "[11:32] | SCALP: 129/500 mkts | mr=1 mom=0 | opps=1 | LLM: skipped (no key) | [111.3s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T16:06:18.517Z",
+      "timeET": "12:04:32",
+      "exitCode": 0,
+      "stdout": "[12:06] | SCALP: 127/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [105.6s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T16:32:41.083Z",
+      "timeET": "12:30:56",
+      "exitCode": 0,
+      "stdout": "[12:32] | SCALP: 127/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [104.5s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T17:02:39.013Z",
+      "timeET": "13:00:56",
+      "exitCode": 0,
+      "stdout": "[13:02] | SCALP: 126/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [102.2s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T17:31:58.512Z",
+      "timeET": "13:30:15",
+      "exitCode": 0,
+      "stdout": "[13:31] | SCALP: 124/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [102.7s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T18:02:00.538Z",
+      "timeET": "14:00:15",
+      "exitCode": 0,
+      "stdout": "[14:02] | SCALP: 125/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [104.4s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T18:32:01.010Z",
+      "timeET": "14:30:16",
+      "exitCode": 0,
+      "stdout": "[14:32] | SCALP: 126/500 mkts | mr=1 mom=0 | opps=1 | LLM: skipped (no key) | [104.7s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T19:02:00.580Z",
+      "timeET": "15:00:16",
+      "exitCode": 0,
+      "stdout": "[15:02] | SCALP: 126/500 mkts | mr=1 mom=0 | opps=1 | LLM: skipped (no key) | [104.0s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T19:31:57.848Z",
+      "timeET": "15:30:16",
+      "exitCode": 0,
+      "stdout": "[15:31] | SCALP: 125/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [101.1s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T20:01:59.796Z",
+      "timeET": "16:00:16",
+      "exitCode": 0,
+      "stdout": "[16:01] | SCALP: 125/500 mkts | mr=4 mom=0 | opps=4 | LLM: skipped (no key) | [102.8s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-30T22:01:55.410Z",
+      "timeET": "18:00:17",
+      "exitCode": 0,
+      "stdout": "[18:01] | SCALP: 129/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [97.4s]",
+      "newSignals": 8,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T00:01:58.833Z",
+      "timeET": "20:00:19",
+      "exitCode": 0,
+      "stdout": "[20:01] | SCALP: 127/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [99.7s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T02:02:04.352Z",
+      "timeET": "22:00:20",
+      "exitCode": 0,
+      "stdout": "[22:02] | SCALP: 127/500 mkts | mr=19 mom=0 | opps=19 | LLM: skipped (no key) | [104.2s]",
+      "newSignals": 16,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T04:02:03.930Z",
+      "timeET": "00:00:29",
+      "exitCode": 0,
+      "stdout": "[00:02] | SCALP: 125/500 mkts | mr=14 mom=0 | opps=14 | LLM: skipped (no key) | [94.8s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T06:02:05.379Z",
+      "timeET": "02:00:30",
+      "exitCode": 0,
+      "stdout": "[02:02] | SCALP: 126/500 mkts | mr=17 mom=0 | opps=17 | LLM: skipped (no key) | [95.2s]",
+      "newSignals": 14,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T08:02:05.816Z",
+      "timeET": "04:00:31",
+      "exitCode": 0,
+      "stdout": "[04:02] | SCALP: 125/500 mkts | mr=9 mom=0 | opps=9 | LLM: skipped (no key) | [94.5s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T10:02:27.983Z",
+      "timeET": "06:00:32",
+      "exitCode": 0,
+      "stdout": "[06:02] | SCALP: 125/500 mkts | mr=8 mom=0 | opps=8 | LLM: skipped (no key) | [115.7s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T12:03:00.799Z",
+      "timeET": "08:01:26",
+      "exitCode": 0,
+      "stdout": "[08:03] | SCALP: 125/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [94.3s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T13:32:07.865Z",
+      "timeET": "09:30:33",
+      "exitCode": 0,
+      "stdout": "[09:32] | SCALP: 126/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [94.1s]",
+      "newSignals": 6,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T14:02:06.835Z",
+      "timeET": "10:00:33",
+      "exitCode": 0,
+      "stdout": "[10:02] | SCALP: 125/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [92.8s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T14:32:09.618Z",
+      "timeET": "10:30:34",
+      "exitCode": 0,
+      "stdout": "[10:32] | SCALP: 126/500 mkts | mr=8 mom=0 | opps=8 | LLM: skipped (no key) | [95.3s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T15:02:10.962Z",
+      "timeET": "11:00:34",
+      "exitCode": 0,
+      "stdout": "[11:02] | SCALP: 126/500 mkts | mr=3 mom=0 | opps=3 | LLM: skipped (no key) | [96.3s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T15:32:11.448Z",
+      "timeET": "11:30:34",
+      "exitCode": 0,
+      "stdout": "[11:32] | SCALP: 126/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [96.6s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T16:05:40.293Z",
+      "timeET": "12:04:05",
+      "exitCode": 0,
+      "stdout": "[12:05] | SCALP: 126/500 mkts | mr=5 mom=0 | opps=5 | LLM: skipped (no key) | [94.6s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T16:32:10.436Z",
+      "timeET": "12:30:35",
+      "exitCode": 0,
+      "stdout": "[12:32] | SCALP: 126/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [95.1s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T17:02:11.589Z",
+      "timeET": "13:00:35",
+      "exitCode": 0,
+      "stdout": "[13:02] | SCALP: 126/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [95.9s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T17:32:11.114Z",
+      "timeET": "13:30:35",
+      "exitCode": 0,
+      "stdout": "[13:32] | SCALP: 125/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [95.2s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T18:02:37.096Z",
+      "timeET": "14:00:36",
+      "exitCode": 0,
+      "stdout": "[14:02] | SCALP: 125/500 mkts | mr=5 mom=0 | opps=5 | LLM: skipped (no key) | [120.8s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T18:32:14.926Z",
+      "timeET": "14:30:36",
+      "exitCode": 0,
+      "stdout": "[14:32] | SCALP: 125/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [98.5s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T19:02:11.547Z",
+      "timeET": "15:00:36",
+      "exitCode": 0,
+      "stdout": "[15:02] | SCALP: 126/500 mkts | mr=2 mom=0 | opps=2 | LLM: skipped (no key) | [95.0s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T19:32:12.502Z",
+      "timeET": "15:30:36",
+      "exitCode": 0,
+      "stdout": "[15:32] | SCALP: 125/500 mkts | mr=5 mom=1 | opps=6 | LLM: skipped (no key) | [95.6s]",
+      "newSignals": 3,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T20:02:13.909Z",
+      "timeET": "16:00:36",
+      "exitCode": 0,
+      "stdout": "[16:02] | SCALP: 127/500 mkts | mr=5 mom=1 | opps=6 | LLM: skipped (no key) | [96.8s]",
+      "newSignals": 0,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-03-31T22:02:13.484Z",
+      "timeET": "18:00:37",
+      "exitCode": 0,
+      "stdout": "[18:02] | SCALP: 126/500 mkts | mr=7 mom=1 | opps=8 | LLM: skipped (no key) | [95.4s]",
+      "newSignals": 7,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T00:02:15.384Z",
+      "timeET": "20:00:39",
+      "exitCode": 0,
+      "stdout": "[20:02] | SCALP: 127/500 mkts | mr=9 mom=1 | opps=10 | LLM: skipped (no key) | [96.2s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T02:02:44.923Z",
+      "timeET": "22:00:40",
+      "exitCode": 0,
+      "stdout": "[22:02] | SCALP: 127/500 mkts | mr=7 mom=1 | opps=8 | LLM: skipped (no key) | [124.6s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T06:02:07.037Z",
+      "timeET": "02:00:33",
+      "exitCode": 0,
+      "stdout": "[02:02] | SCALP: 127/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [93.0s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T08:02:18.766Z",
+      "timeET": "04:00:34",
+      "exitCode": 0,
+      "stdout": "[04:02] | SCALP: 142/500 mkts | mr=8 mom=0 | opps=8 | LLM: skipped (no key) | [103.7s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T10:02:25.871Z",
+      "timeET": "06:00:35",
+      "exitCode": 0,
+      "stdout": "[06:02] | SCALP: 151/500 mkts | mr=7 mom=0 | opps=7 | LLM: skipped (no key) | [109.8s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T12:03:21.800Z",
+      "timeET": "08:01:27",
+      "exitCode": 0,
+      "stdout": "[08:03] | SCALP: 151/500 mkts | mr=11 mom=0 | opps=11 | LLM: skipped (no key) | [114.1s]",
+      "newSignals": 7,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T13:33:05.576Z",
+      "timeET": "09:31:14",
+      "exitCode": 0,
+      "stdout": "[09:33] | SCALP: 149/500 mkts | mr=15 mom=1 | opps=16 | LLM: skipped (no key) | [111.3s]",
+      "newSignals": 5,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T14:02:51.236Z",
+      "timeET": "10:00:54",
+      "exitCode": 0,
+      "stdout": "[10:02] | SCALP: 149/500 mkts | mr=12 mom=0 | opps=12 | LLM: skipped (no key) | [116.4s]",
+      "newSignals": 4,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T14:32:45.621Z",
+      "timeET": "10:30:54",
+      "exitCode": 0,
+      "stdout": "[10:32] | SCALP: 149/500 mkts | mr=10 mom=0 | opps=10 | LLM: skipped (no key) | [110.6s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T15:02:48.153Z",
+      "timeET": "11:00:55",
+      "exitCode": 0,
+      "stdout": "[11:02] | SCALP: 151/500 mkts | mr=8 mom=0 | opps=8 | LLM: skipped (no key) | [112.8s]",
+      "newSignals": 1,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T15:32:47.734Z",
+      "timeET": "11:30:55",
+      "exitCode": 0,
+      "stdout": "[11:32] | SCALP: 152/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [112.1s]",
+      "newSignals": 2,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    },
+    {
+      "time": "2026-04-01T22:03:01.314Z",
+      "timeET": "18:00:52",
+      "exitCode": 0,
+      "stdout": "[18:03] | SCALP: 149/500 mkts | mr=6 mom=0 | opps=6 | LLM: skipped (no key) | [128.2s]",
+      "newSignals": 6,
+      "newEdges": 0,
+      "errors": [],
+      "paperTrades": 0,
+      "paperSummary": null
+    }
+  ],
+  "errors": [
+    {
+      "time": "2026-03-09T04:02:34.516Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T08:02:36.225Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T10:02:37.062Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T12:03:57.520Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T13:34:52.941Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T14:04:34.024Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T14:34:36.091Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T15:04:34.922Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T15:34:05.811Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T16:08:27.520Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T16:34:35.406Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T17:04:37.257Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T17:34:37.224Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T18:04:38.543Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T18:34:27.205Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T19:04:38.832Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T19:34:37.842Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T20:02:49.159Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-09T22:02:50.113Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T00:02:50.981Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T02:02:54.215Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T04:02:56.847Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T06:02:57.796Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T08:02:58.722Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T10:02:59.648Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T12:03:22.987Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T13:35:45.177Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T14:03:46.609Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T14:34:05.925Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T15:04:12.733Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T15:34:46.824Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-10T16:07:48.729Z",
+      "error": "Unknown error"
+    },
+    {
+      "time": "2026-03-17T02:03:52.309Z",
+      "error": "Unknown error"
+    }
+  ],
+  "_lastErrorAlert": "2026-03-17T02:03:52.310Z",
+  "lastUpdated": "2026-04-01T22:08:58.663Z"
+}

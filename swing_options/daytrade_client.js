@@ -93,10 +93,22 @@ class DayTradeClient {
 
   async getAccountSummary() {
     const acc = await this.getAccount();
+
+    // Handle buying_power undefined (Alpaca v2 API issue)
+    let buyingPower = parseFloat(acc.buying_power);
+    if (isNaN(buyingPower) || buyingPower === undefined || buyingPower === null) {
+      console.warn('[DayTradeClient] buying_power undefined, calculating fallback');
+      // Fallback: cash + (0.5 * equity) for options-approved accounts
+      const equity = parseFloat(acc.portfolio_value) || 0;
+      const cash = parseFloat(acc.cash) || 0;
+      buyingPower = cash + (equity * 0.5);
+      console.log(`[DayTradeClient] Fallback buying_power: $${buyingPower.toFixed(2)} (cash: $${cash}, equity: $${equity})`);
+    }
+
     return {
       equity: parseFloat(acc.portfolio_value),
       cash: parseFloat(acc.cash),
-      buyingPower: parseFloat(acc.buying_power),
+      buyingPower,
       lastEquity: parseFloat(acc.last_equity),
       dailyPL: parseFloat(acc.portfolio_value) - parseFloat(acc.last_equity),
       optionsLevel: acc.options_trading_level || acc.options_approved_level,
@@ -401,4 +413,9 @@ module.exports = {
   getTodayTrades: () => getClient().getTodayTrades(),
   calculatePositionSize: (r, p) => getClient().calculatePositionSize(r, p),
   isMarketOpen: () => getClient().isMarketOpen(),
+  findContract: (u, e, t, s) => getClient().findContract(u, e, t, s),
+  getPosition: (s) => getClient().getPosition(s),
+  getOrders: (p) => getClient().getOrders(p),
+  getOrder: (orderId) => getClient().getOrder(orderId),
+  getClient: () => getClient(),
 };

@@ -1,0 +1,2376 @@
+{
+  "date": "2026-02-06",
+  "createdAt": "2026-02-06T05:16:41.560Z",
+  "lastUpdated": "2026-02-07T04:00:33.906Z",
+  "overnight": {
+    "futures": {
+      "S&P 500": {
+        "price": 6945.75,
+        "change": 1.8326430377890994,
+        "threshold": 0.5,
+        "significant": true
+      },
+      "NASDAQ": {
+        "price": 25107.75,
+        "change": 1.8528660094925158,
+        "threshold": 0.7,
+        "significant": true
+      },
+      "Dow Jones": {
+        "price": 50201,
+        "change": 2.45520225315319,
+        "threshold": 0.5,
+        "significant": true
+      },
+      "Russell 2000": {
+        "price": 2674.2,
+        "change": 3.3786918200092635,
+        "threshold": 0.7,
+        "significant": true
+      },
+      "Crude Oil": {
+        "price": 63.5,
+        "change": 0.3318059725075065,
+        "threshold": 2,
+        "significant": false
+      },
+      "Gold": {
+        "price": 4988.6,
+        "change": 2.616530217632796,
+        "threshold": 1,
+        "significant": true
+      },
+      "30Y Bonds": {
+        "price": 115.5,
+        "change": 0.10834236186348861,
+        "threshold": 0.5,
+        "significant": false
+      }
+    },
+    "globalMarkets": {
+      "Asia": [
+        {
+          "name": "Nikkei (Japan)",
+          "price": 54253.68,
+          "change": 0.8094683492747031
+        },
+        {
+          "name": "Hang Seng (HK)",
+          "price": 26559.95,
+          "change": -1.0703861688987915
+        },
+        {
+          "name": "Shanghai (China)",
+          "price": 4065.5835,
+          "change": -0.25352577101054147
+        }
+      ],
+      "Europe": [
+        {
+          "name": "FTSE 100 (UK)",
+          "price": 10369.75,
+          "change": -0.31291156763407396
+        },
+        {
+          "name": "DAX (Germany)",
+          "price": 24721.46,
+          "change": 0.4813226333005931
+        },
+        {
+          "name": "CAC 40 (France)",
+          "price": 8273.84,
+          "change": 0.4329845099093618
+        }
+      ]
+    },
+    "crypto": {
+      "Bitcoin": {
+        "price": 70701.875,
+        "change": 0.25172156850789007
+      },
+      "Ethereum": {
+        "price": 2076.5286,
+        "change": 0.7024291719838148
+      }
+    },
+    "significantMoves": [
+      {
+        "market": "S&P 500",
+        "change": 1.8326430377890994,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "NASDAQ",
+        "change": 1.8528660094925158,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Dow Jones",
+        "change": 2.45520225315319,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Russell 2000",
+        "change": 3.3786918200092635,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      },
+      {
+        "market": "Gold",
+        "change": 2.616530217632796,
+        "type": "FUTURES",
+        "severity": "HIGH"
+      }
+    ],
+    "riskSentiment": "RISK_ON",
+    "updatedAt": "2026-02-07T04:00:33.905Z"
+  },
+  "preMarket": {
+    "futures": {
+      "S&P 500": {
+        "price": 6856.75,
+        "change": 0.5278011948832606,
+        "direction": "up"
+      },
+      "NASDAQ": {
+        "price": 24790,
+        "change": 0.5638716482089976,
+        "direction": "up"
+      },
+      "Dow Jones": {
+        "price": 49267,
+        "change": 0.549002000081636,
+        "direction": "up"
+      },
+      "Russell 2000": {
+        "price": 2622.6,
+        "change": 1.3839492809648881,
+        "direction": "up"
+      }
+    },
+    "gappers": [
+      {
+        "symbol": "AMD",
+        "change": -20.490686051794643,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "BE",
+        "change": -19.118953164781807,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "CCJ",
+        "change": -13.372968688069761,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "CRDO",
+        "change": -11.903692390620789,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "MU",
+        "change": -8.713999618539008,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "FOA",
+        "change": -5.340859748154583,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "RIVN",
+        "change": -4.7189451769604425,
+        "direction": "DOWN"
+      },
+      {
+        "symbol": "SMCI",
+        "change": 3.9770812268284454,
+        "direction": "UP"
+      }
+    ],
+    "movers": [
+      {
+        "symbol": "AMD",
+        "price": 192.5,
+        "change": -20.490686051794643
+      },
+      {
+        "symbol": "BE",
+        "price": 136.6,
+        "change": -19.118953164781807
+      },
+      {
+        "symbol": "CCJ",
+        "price": 109.28,
+        "change": -13.372968688069761
+      },
+      {
+        "symbol": "CRDO",
+        "price": 98.06,
+        "change": -11.903692390620789
+      },
+      {
+        "symbol": "MU",
+        "price": 382.89,
+        "change": -8.713999618539008
+      },
+      {
+        "symbol": "FOA",
+        "price": 21.8,
+        "change": -5.340859748154583
+      },
+      {
+        "symbol": "RIVN",
+        "price": 13.73,
+        "change": -4.7189451769604425
+      },
+      {
+        "symbol": "SMCI",
+        "price": 30.85,
+        "change": 3.9770812268284454
+      }
+    ],
+    "watchlistAlerts": [
+      {
+        "symbol": "AMD",
+        "action": "GAP_DOWN",
+        "change": -20.490686051794643,
+        "note": "Pre-market gap down of -20.5%"
+      },
+      {
+        "symbol": "BE",
+        "action": "GAP_DOWN",
+        "change": -19.118953164781807,
+        "note": "Pre-market gap down of -19.1%"
+      },
+      {
+        "symbol": "CCJ",
+        "action": "GAP_DOWN",
+        "change": -13.372968688069761,
+        "note": "Pre-market gap down of -13.4%"
+      },
+      {
+        "symbol": "CRDO",
+        "action": "GAP_DOWN",
+        "change": -11.903692390620789,
+        "note": "Pre-market gap down of -11.9%"
+      },
+      {
+        "symbol": "MU",
+        "action": "GAP_DOWN",
+        "change": -8.713999618539008,
+        "note": "Pre-market gap down of -8.7%"
+      },
+      {
+        "symbol": "FOA",
+        "action": "GAP_DOWN",
+        "change": -5.340859748154583,
+        "note": "Pre-market gap down of -5.3%"
+      }
+    ],
+    "newsHighlights": [],
+    "updatedAt": "2026-02-06T14:15:15.622Z"
+  },
+  "market": {
+    "indices": {
+      "DIA": {
+        "symbol": "DIA",
+        "price": 500.88,
+        "prevClose": 489.03,
+        "change": 500.88,
+        "changePct": null,
+        "volume": 8580121,
+        "high": 500.8999938964844,
+        "low": 492.17999267578125,
+        "fiftyTwoHigh": 500.9,
+        "fiftyTwoLow": 366.32,
+        "open": 492.510009765625
+      }
+    },
+    "vix": 17.79,
+    "regime": "RISK_OFF",
+    "sectorLeaders": [
+      "GLD (Gold) 6.63%",
+      "XLE (Energy) 6.39%",
+      "XLP (Consumer Staples) 4.07%",
+      "XLB (Materials) 3.75%",
+      "XLI (Industrials) 3.37%"
+    ],
+    "sectorLaggards": [
+      "XLC (Communications) -3.27%",
+      "XLY (Consumer Disc) -3.26%",
+      "XLK (Technology) -2.84%",
+      "SMH (Semiconductors) -1.55%",
+      "XBI (Biotech) -1.44%"
+    ],
+    "updatedAt": "2026-02-07T02:48:27.556Z"
+  },
+  "sentiment": {
+    "overall": null,
+    "trending": [
+      {
+        "symbol": "RDDT",
+        "title": "Reddit Inc",
+        "watchlistCount": 31590
+      },
+      {
+        "symbol": "SMX",
+        "title": "SMX (Security Matters) PLC",
+        "watchlistCount": 12203
+      },
+      {
+        "symbol": "PSKY",
+        "title": "Paramount Skydance Corp. - Ordinary Shares - Class B",
+        "watchlistCount": 26155
+      },
+      {
+        "symbol": "SOUN",
+        "title": "SoundHound AI Inc",
+        "watchlistCount": 54153
+      },
+      {
+        "symbol": "DIA",
+        "title": "SPDR Dow Jones Industrial Average ETF",
+        "watchlistCount": 73146
+      },
+      {
+        "symbol": "AMZN",
+        "title": "Amazon.com Inc",
+        "watchlistCount": 686094
+      },
+      {
+        "symbol": "BILL",
+        "title": "Bill.com Holdings Inc",
+        "watchlistCount": 5106
+      },
+      {
+        "symbol": "META",
+        "title": "Meta Platforms Inc",
+        "watchlistCount": 593168
+      },
+      {
+        "symbol": "IMMX",
+        "title": "Immix Biopharma Inc",
+        "watchlistCount": 4458
+      },
+      {
+        "symbol": "LUMN",
+        "title": "Lumen Technologies Inc",
+        "watchlistCount": 18439
+      },
+      {
+        "symbol": "AFRM",
+        "title": "Affirm Holdings Inc",
+        "watchlistCount": 39866
+      },
+      {
+        "symbol": "LBTYB",
+        "title": "Liberty Global plc - Ordinary Shares - Class B",
+        "watchlistCount": 344
+      },
+      {
+        "symbol": "MOH",
+        "title": "Molina Healthcare Inc",
+        "watchlistCount": 2644
+      },
+      {
+        "symbol": "IGV",
+        "title": "iShares Expanded Tech-Software Sector ETF",
+        "watchlistCount": 2368
+      },
+      {
+        "symbol": "NEGG",
+        "title": "Newegg Commerce Inc",
+        "watchlistCount": 12455
+      }
+    ],
+    "socialMomentum": [
+      {
+        "symbol": "RDDT",
+        "score": 5,
+        "source": "StockTwits+Reddit"
+      },
+      {
+        "symbol": "MSFT",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "SPY",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "MSTR",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "AMZN",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "NVDA",
+        "score": 4,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "HIMS",
+        "score": 3,
+        "source": "StockTwits+Reddit"
+      },
+      {
+        "symbol": "MU",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "SLV",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "HOOD",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "GOOG",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "META",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "DTE",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "VOO",
+        "score": 3,
+        "source": "Reddit"
+      },
+      {
+        "symbol": "TSLA",
+        "score": 3,
+        "source": "Reddit"
+      }
+    ],
+    "updatedAt": "2026-02-07T02:48:27.557Z"
+  },
+  "catalysts": {
+    "earningsToday": [],
+    "earningsThisWeek": [],
+    "economicEvents": [],
+    "newsBreaking": [
+      {
+        "headline": "Wealthy Families Are Worried About Geopolitics. But They're Not Rushing to AI, Crypto, or Gold",
+        "url": "https://www.barrons.com/articles/wealthy-families-are-worried-about-geopolitics-but-they-arent-rushing-to-ai-crypto-or-gold-62ce6f59?mod=bar_FV",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:33.213Z",
+        "symbols": [
+          "AMD"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Dow closes above 50,000, Nvidia soars as traders focus on AI spending",
+        "url": "https://finance.yahoo.com/video/dow-closes-above-50-000-235453952.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:33.213Z",
+        "symbols": [
+          "AMD",
+          "NVDA"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Stock Market Today: Dow Closes Above 50,000 As Nvidia Lands Atop Blue Chips (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/d5f6d70b-adbf-3412-b185-ebea8f943d91/stock-market-today%3A-dow.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:33.213Z",
+        "symbols": [
+          "AMD",
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Top Analyst Reports for AMD, Constellation Energy &amp; Freeport-McMoRan",
+        "url": "/news/303417/top-analyst-reports-for-amd-constellation-energy-freeport-mcmoran",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:33.213Z",
+        "symbols": [
+          "AMD"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Earnings live: Amazon, Reddit stocks sink to cap jam-packed earnings week",
+        "url": "https://finance.yahoo.com/news/live/earnings-live-amazon-reddit-stocks-sink-to-cap-jam-packed-earnings-week-213155571.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:33.213Z",
+        "symbols": [
+          "AMD",
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Abercrombie &amp; Fitch (ANF) Stock Dips While Market Gains: Key Facts",
+        "url": "/news/303435/abercrombie-fitch-anf-stock-dips-while-market-gains-key-facts",
+        "symbol": "ANF",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:33.810Z",
+        "symbols": [
+          "ANF"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Abercrombie &amp; Fitch Co. to Report Fourth Quarter and Full Year 2025 Results on March 4, 2026",
+        "url": "/news/302586/abercrombie-fitch-co-to-report-fourth-quarter-and-full-year-2025-results-on-march-4-2026",
+        "symbol": "ANF",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:33.810Z",
+        "symbols": [
+          "ANF"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Is Trending Stock Abercrombie &amp; Fitch Company (ANF) a Buy Now?",
+        "url": "/news/301439/is-trending-stock-abercrombie-fitch-company-anf-a-buy-now",
+        "symbol": "ANF",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:33.810Z",
+        "symbols": [
+          "ANF"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Why Investors Need to Take Advantage of These 2 Retail and Wholesale Stocks Now",
+        "url": "/news/301433/why-investors-need-to-take-advantage-of-these-2-retail-and-wholesale-stocks-now",
+        "symbol": "ANF",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:33.810Z",
+        "symbols": [
+          "ANF"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Abercrombie &amp; Fitch (ANF) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+        "url": "/news/298348/abercrombie-fitch-anf-sees-a-more-significant-dip-than-broader-market-some-facts-to-know",
+        "symbol": "ANF",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:33.810Z",
+        "symbols": [
+          "ANF"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Finance of America Appoints Angela Tribelli as Chief Marketing Officer",
+        "url": "https://www.businesswire.com/news/home/20260106942290/en/Angela",
+        "symbol": "FOA",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:34.407Z",
+        "symbols": [
+          "FOA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Finance of America Announces $2.5 Billion Strategic Partnership with Funds Managed by Blue Owl to Expand FOA's Home Equity Lending",
+        "url": "https://www.businesswire.com/news/home/20251211161188/en",
+        "symbol": "FOA",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:34.407Z",
+        "symbols": [
+          "FOA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Finance of America to Acquire Reverse Mortgage Assets from Onity Group Subsidiary PHH Mortgage",
+        "url": "https://www.businesswire.com/news/home/20251118612663/en",
+        "symbol": "FOA",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:34.407Z",
+        "symbols": [
+          "FOA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Finance of America Companies Inc (FOA) Q3 2025 Earnings Call Highlights: Strong Growth Amidst ...",
+        "url": "https://finance.yahoo.com/news/finance-america-companies-inc-foa-051314350.html",
+        "symbol": "FOA",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:34.407Z",
+        "symbols": [
+          "FOA"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Finance of America Reports Third Quarter 2025 Results",
+        "url": "https://www.businesswire.com/news/home/20251104887925/en/",
+        "symbol": "FOA",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:34.407Z",
+        "symbols": [
+          "FOA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Super Micro, Lumen, Globalstar, Amphenol, and Jabil Stocks Trade Up, What You Need To Know",
+        "url": "/news/303272/super-micro-lumen-globalstar-amphenol-and-jabil-stocks-trade-up-what-you-need-to-know",
+        "symbol": "SMCI",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:35.002Z",
+        "symbols": [
+          "SMCI"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Analysts revamp Super Micro stock price target after earnings",
+        "url": "https://finance.yahoo.com/m/0ce2be38-7be2-39f5-84a9-199855e526da/analysts-revamp-super-micro.html",
+        "symbol": "SMCI",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:35.002Z",
+        "symbols": [
+          "SMCI"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Should You Buy, Sell, or Hold Vertiv Stock Before Q4 Earnings?",
+        "url": "/news/303015/should-you-buy-sell-or-hold-vertiv-stock-before-q4-earnings",
+        "symbol": "SMCI",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:35.002Z",
+        "symbols": [
+          "SMCI"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Photronics and Xerox have been highlighted as Zacks Bull and Bear of the Day",
+        "url": "/news/303005/photronics-and-xerox-have-been-highlighted-as-zacks-bull-and-bear-of-the-day",
+        "symbol": "SMCI",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:35.002Z",
+        "symbols": [
+          "SMCI"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Why Super Micro Computer (SMCI) is a Top Value Stock for the Long-Term",
+        "url": "/news/302912/why-super-micro-computer-smci-is-a-top-value-stock-for-the-long-term",
+        "symbol": "SMCI",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:35.002Z",
+        "symbols": [
+          "SMCI"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stifel upgrades Snap as sharp selloff balances risk despite user, ad concerns",
+        "url": "https://finance.yahoo.com/news/stifel-upgrades-snap-sharp-selloff-171524231.html",
+        "symbol": "SNAP",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:35.603Z",
+        "symbols": [
+          "SNAP"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "Amazon, Roku, Snap: Top Analyst Calls",
+        "url": "https://finance.yahoo.com/video/amazon-roku-snap-top-analyst-153734501.html",
+        "symbol": "SNAP",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:35.603Z",
+        "symbols": [
+          "SNAP",
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Amazon downgraded, Roblox upgraded: Wall Street's top analyst calls",
+        "url": "https://finance.yahoo.com/news/amazon-downgraded-roblox-upgraded-wall-144121688.html",
+        "symbol": "SNAP",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:35.603Z",
+        "symbols": [
+          "SNAP",
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Here Are Fridays Top Wall Street Analyst Research Calls: Amazon.com, Caterpillar, Estee Lauder,  JPMorgan, Norfolk Southern, Roku, Snap, Vistra, and More",
+        "url": "https://finance.yahoo.com/m/2c0413d3-07a7-364e-97b6-23d3281ed969/here-are-friday%E2%80%99s-top-wall.html",
+        "symbol": "SNAP",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:35.603Z",
+        "symbols": [
+          "SNAP",
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Reddit forecasts revenue above estimates as AI fuels ad sales",
+        "url": "https://finance.yahoo.com/news/reddit-forecasts-revenue-above-estimates-211036909.html",
+        "symbol": "SNAP",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:35.603Z",
+        "symbols": [
+          "SNAP"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Bloom Energy, The Clean Energy Choice For AI Data Centers, Tops Outlook; Amazon Announces AI Spending",
+        "url": "https://finance.yahoo.com/m/8eb78c5c-8ba9-31f5-86a3-858a6ec236c1/bloom-energy%2C-the-clean.html",
+        "symbol": "BE",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:36.194Z",
+        "symbols": [
+          "BE",
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Bloom Energy Scales Toward $3 Billion as AI Tailwinds Intensify",
+        "url": "/news/303225/bloom-energy-scales-toward-3-billion-as-ai-tailwinds-intensify",
+        "symbol": "BE",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:36.194Z",
+        "symbols": [
+          "BE"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Analyst Report: Bloom Energy Corporation",
+        "url": "https://finance.yahoo.com/m/bcd4b6a5-8c00-3a09-8ee3-f2ee5482596d/analyst-report%3A-bloom-energy.html",
+        "symbol": "BE",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:36.194Z",
+        "symbols": [
+          "BE"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Bloom Energy Is Already the Fuel-Cell King. It's Setting Its Sights Much Higher.",
+        "url": "https://www.barrons.com/articles/bloom-energy-earnings-stock-price-427c1612?mod=bar_FV",
+        "symbol": "BE",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:36.194Z",
+        "symbols": [
+          "BE"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Bloom Energy Stock Pops After Upbeat Q4 Results",
+        "url": "/news/302882/bloom-energy-stock-pops-after-upbeat-q4-results",
+        "symbol": "BE",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:36.194Z",
+        "symbols": [
+          "BE"
+        ],
+        "sentiment": "BULLISH"
+      },
+      {
+        "headline": "LEU To Report Q4 Earnings: What's in Store for the Stock?",
+        "url": "/news/303191/leu-to-report-q4-earnings-whats-in-store-for-the-stock",
+        "symbol": "CCJ",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:36.777Z",
+        "symbols": [
+          "CCJ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Antero Resources Gears Up to Report Q4 Earnings: What's in the Cards?",
+        "url": "/news/302978/antero-resources-gears-up-to-report-q4-earnings-whats-in-the-cards",
+        "symbol": "CCJ",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:36.777Z",
+        "symbols": [
+          "CCJ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Is Cameco Corp. (CCJ) One of the Stocks That Should Double by 2030?",
+        "url": "/news/301038/is-cameco-corp-ccj-one-of-the-stocks-that-should-double-by-2030",
+        "symbol": "CCJ",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:36.777Z",
+        "symbols": [
+          "CCJ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Brookfield Asset Management Q4 Earnings Call Highlights",
+        "url": "https://finance.yahoo.com/m/72019086-6c63-383d-9a0f-802ae9f49467/brookfield-asset-management.html",
+        "symbol": "CCJ",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:36.777Z",
+        "symbols": [
+          "CCJ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Plains All American to Post Q4 Earnings: What's Next for the Stock?",
+        "url": "/news/299776/plains-all-american-to-post-q4-earnings-whats-next-for-the-stock",
+        "symbol": "CCJ",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:36.777Z",
+        "symbols": [
+          "CCJ"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Should You Buy, Sell, or Hold ALAB Stock Before Q4 Earnings Release?",
+        "url": "/news/303009/should-you-buy-sell-or-hold-alab-stock-before-q4-earnings-release",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:37.372Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Credo Technology Slips 32% in a Month: Hold the Stock or Cut Losses?",
+        "url": "/news/302840/credo-technology-slips-32-in-a-month-hold-the-stock-or-cut-losses",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:37.372Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Credo Targets Scale-Up Networking Market With Blue Heron Retimer",
+        "url": "/news/297511/credo-targets-scale-up-networking-market-with-blue-heron-retimer",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:37.372Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "BofA Sees Credo Technology Group Holding Ltd (CRDO) As Long-Term Beneficiary of AI-Driven Cloud Connectivity",
+        "url": "/news/296626/bofa-sees-credo-technology-group-holding-ltd-crdo-as-long-term-beneficiary-of-ai-driven-cloud-connectivity",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:37.372Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Credo Technology Group Holding Ltd (CRDO): A Bull Case Theory",
+        "url": "/news/296465/credo-technology-group-holding-ltd-crdo-a-bull-case-theory",
+        "symbol": "CRDO",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:37.372Z",
+        "symbols": [
+          "CRDO"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Nvidia may skip new GPU release in stunning break",
+        "url": "https://finance.yahoo.com/m/f3b6930f-f00c-37d2-aa1f-1d1044f8188a/nvidia-may-skip-new-gpu.html",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:37.976Z",
+        "symbols": [
+          "MU",
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Is It Too Late to Buy Micron Stock? Not According to This Bull",
+        "url": "https://finance.yahoo.com/m/a859b698-0e54-3c4b-91af-cd06ed89c995/is-it-too-late-to-buy-micron.html",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:37.976Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Micron Stock Slips as Analyst Predicts Zero Nvidia Orders for HBM4 Chips",
+        "url": "https://finance.yahoo.com/news/micron-stock-slips-analyst-predicts-171902390.html",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:37.976Z",
+        "symbols": [
+          "MU",
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Micron Stock Climbs Despite Losing Nvidia HBM4 Orders",
+        "url": "https://finance.yahoo.com/news/micron-stock-climbs-despite-losing-171816771.html",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:37.976Z",
+        "symbols": [
+          "MU",
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Micron Is on an Epic Run. Don't Fear the Memory-Chip Cycle.",
+        "url": "https://www.barrons.com/articles/micron-stock-price-memory-chips-e1755fa0?mod=bar_FV",
+        "symbol": "MU",
+        "source": "finviz",
+        "time": "2026-02-07T02:51:37.976Z",
+        "symbols": [
+          "MU"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Stock Market Today: Dow Closes Above 50,000 As Nvidia Lands Atop Blue Chips (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/d5f6d70b-adbf-3412-b185-ebea8f943d91/stock-market-today%3A-dow.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-06T23:21:37.171Z",
+        "symbols": [
+          "AMD",
+          "NVDA"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Top Analyst Reports for AMD, Constellation Energy &amp; Freeport-McMoRan",
+        "url": "/news/303417/top-analyst-reports-for-amd-constellation-energy-freeport-mcmoran",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-06T23:21:37.171Z",
+        "symbols": [
+          "AMD"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Earnings live: Amazon, Reddit stocks sink to cap jam-packed earnings week",
+        "url": "https://finance.yahoo.com/news/live/earnings-live-amazon-reddit-stocks-sink-to-cap-jam-packed-earnings-week-213155571.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-06T23:21:37.171Z",
+        "symbols": [
+          "AMD",
+          "AMZN"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Top Funds Like Google  But Go Bonkers For These Three Stocks",
+        "url": "https://finance.yahoo.com/m/da3245ba-9015-31b0-a441-d953bc51dce7/top-funds-like-google-%E2%80%94-but.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-06T23:21:37.171Z",
+        "symbols": [
+          "AMD",
+          "GOOGL"
+        ],
+        "sentiment": "NEUTRAL"
+      },
+      {
+        "headline": "Chip Stocks Soar as Nvidia CEO Huang Says Demand Is 'Through the Roof'",
+        "url": "https://finance.yahoo.com/m/7b36b1a9-81a7-38ba-bdcc-e53cd0b232ea/chip-stocks-soar-as-nvidia.html",
+        "symbol": "AMD",
+        "source": "finviz",
+        "time": "2026-02-06T23:21:37.171Z",
+        "symbols": [
+          "AMD",
+          "NVDA"
+        ],
+        "sentiment": "BULLISH"
+      }
+    ],
+    "updatedAt": "2026-02-07T02:51:38.480Z"
+  },
+  "technicals": {
+    "oversold": [],
+    "overbought": [],
+    "breakouts": [],
+    "volumeSpikes": [],
+    "updatedAt": "2026-02-07T02:48:27.558Z"
+  },
+  "optionsFlow": {
+    "unusualActivity": [],
+    "putCallRatio": "0.59",
+    "ivRank": {
+      "BE": "87.5%",
+      "CCJ": "54.7%",
+      "AMD": "32.2%"
+    },
+    "updatedAt": "2026-02-07T02:48:27.558Z"
+  },
+  "dayWatchlist": [
+    {
+      "symbol": "AMD",
+      "reason": "Pre-market DOWN -20.5%",
+      "source": "pre-market",
+      "conviction": "HIGH"
+    },
+    {
+      "symbol": "BE",
+      "reason": "Pre-market DOWN -19.1%",
+      "source": "pre-market",
+      "conviction": "HIGH"
+    },
+    {
+      "symbol": "CCJ",
+      "reason": "Pre-market DOWN -13.4%",
+      "source": "pre-market",
+      "conviction": "HIGH"
+    },
+    {
+      "symbol": "CRDO",
+      "reason": "Pre-market DOWN -11.9%",
+      "source": "pre-market",
+      "conviction": "HIGH"
+    },
+    {
+      "symbol": "MU",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 197 mentions across stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T02:48:27.553Z"
+    },
+    {
+      "symbol": "FOA",
+      "reason": "Pre-market DOWN -5.3%",
+      "source": "pre-market",
+      "conviction": "MEDIUM"
+    },
+    {
+      "symbol": "RDDT",
+      "reason": "Social Trending: StockTwits+Reddit | Reddit Multi-Sub: 500 mentions across stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 4,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T02:48:27.536Z"
+    },
+    {
+      "symbol": "MSFT",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 441 mentions across options,stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T02:48:27.548Z"
+    },
+    {
+      "symbol": "AMZN",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 285 mentions across options,stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T02:48:27.551Z"
+    },
+    {
+      "symbol": "NVDA",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 259 mentions across options,stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T02:48:27.552Z"
+    },
+    {
+      "symbol": "SPY",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 412 mentions across options,stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T02:48:27.549Z"
+    },
+    {
+      "symbol": "MSTR",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 343 mentions across options,stocks,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T02:48:27.550Z"
+    },
+    {
+      "symbol": "SLV",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 135 mentions across options,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T02:48:27.553Z"
+    },
+    {
+      "symbol": "HOOD",
+      "reason": "Social Trending: Reddit | Reddit Multi-Sub: 120 mentions across options,wallstreetbets",
+      "source": "research_dispatcher",
+      "conviction": 3,
+      "sourceCount": 2,
+      "addedAt": "2026-02-07T02:48:27.554Z"
+    },
+    {
+      "symbol": "HIMS",
+      "reason": "Social Trending: StockTwits+Reddit",
+      "source": "research_dispatcher",
+      "conviction": 2,
+      "sourceCount": 1,
+      "addedAt": "2026-02-07T02:48:27.555Z"
+    }
+  ],
+  "swingTrader": {
+    "positions": [
+      {
+        "symbol": "AMD",
+        "qty": 2,
+        "avgEntry": 200.78,
+        "currentPrice": 207.83,
+        "marketValue": 415.66,
+        "unrealizedPL": 14.1,
+        "unrealizedPLPct": 3.511
+      },
+      {
+        "symbol": "ANF",
+        "qty": 2,
+        "avgEntry": 99.04,
+        "currentPrice": 98.19,
+        "marketValue": 196.38,
+        "unrealizedPL": -1.7,
+        "unrealizedPLPct": -0.8580000000000001
+      },
+      {
+        "symbol": "FOA",
+        "qty": 11,
+        "avgEntry": 21.91,
+        "currentPrice": 21.715,
+        "marketValue": 238.865,
+        "unrealizedPL": -2.145,
+        "unrealizedPLPct": -0.89
+      },
+      {
+        "symbol": "SMCI",
+        "qty": 30,
+        "avgEntry": 32.075667,
+        "currentPrice": 34.465,
+        "marketValue": 1033.95,
+        "unrealizedPL": 71.68,
+        "unrealizedPLPct": 7.449
+      },
+      {
+        "symbol": "SNAP",
+        "qty": 168,
+        "avgEntry": 5.817083,
+        "currentPrice": 5.215,
+        "marketValue": 876.12,
+        "unrealizedPL": -101.15,
+        "unrealizedPLPct": -10.35
+      }
+    ],
+    "pendingOrders": [],
+    "signals": [],
+    "account": {
+      "equity": 4969.99,
+      "cash": 2209.01,
+      "buyingPower": 7179
+    },
+    "updatedAt": "2026-02-06T20:30:23.147Z"
+  },
+  "dayTrader": {
+    "positions": [
+      {
+        "symbol": "AMD260213C00210000",
+        "qty": 8,
+        "side": "long",
+        "avgEntry": 5.4,
+        "currentPrice": 5.8,
+        "marketValue": 4640,
+        "unrealizedPL": 320,
+        "unrealizedPLPct": 7.407,
+        "assetClass": "us_option"
+      }
+    ],
+    "trades": [
+      {
+        "symbol": "AMD260206C00205000",
+        "underlying": "AMD",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "CALL",
+        "strike": "205",
+        "expiry": "2026-02-06",
+        "qty": 5,
+        "reason": "AMD down 20% pre-market on earnings fears, but holding above 196 support. High volume suggests oversold bounce potential with risk/reward favoring a quick rebound toward 210-215 resistance.",
+        "conviction": "HIGH",
+        "target": "$210 or 5%",
+        "stop": "$196 or 3%",
+        "timeframe": "intraday",
+        "orderId": "2eb5bc16-7f08-4e91-8044-185bf11edb9d",
+        "time": "2026-02-06T15:15:16.436Z"
+      },
+      {
+        "symbol": "AMD260206C00205000",
+        "action": "CLOSE",
+        "reason": "Cut the loser before theta crush into tomorrow expiry; AMD can't find footing and position is bleeding faster than risk limit allows.",
+        "time": "2026-02-06T15:45:45.448Z"
+      },
+      {
+        "symbol": "AMD260206P00205000",
+        "underlying": "AMD",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "PUT",
+        "strike": "205",
+        "expiry": "2026-02-06",
+        "qty": 15,
+        "reason": "AMD gapping down 20% on heavy volume, breaking key support at 210; momentum continuation likely into close with earnings overhang. High conviction fade.",
+        "conviction": "HIGH",
+        "target": "$190 or 50% gain",
+        "stop": "$210 or 30% loss",
+        "timeframe": "intraday",
+        "orderId": "28b176ec-f6bf-4800-86fb-0bdc42a9ca77",
+        "time": "2026-02-06T16:00:31.466Z"
+      },
+      {
+        "symbol": "MU260206P00385000",
+        "underlying": "MU",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "PUT",
+        "strike": "385",
+        "expiry": "2026-02-06",
+        "qty": 7,
+        "reason": "Micron following AMD lower, down 8.7% pre-market with volume spike; memory-chip sentiment souring quickly, technical breakdown below 390 support.",
+        "conviction": "MEDIUM",
+        "target": "$370 or 40% gain",
+        "stop": "$390 or 25% loss",
+        "timeframe": "1-3 days",
+        "orderId": "44c6e64f-d2ab-40a0-b2cb-6e3cde2f0e05",
+        "time": "2026-02-06T16:00:31.769Z"
+      },
+      {
+        "symbol": "AMD260213P00200000",
+        "underlying": "AMD",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "PUT",
+        "strike": "200",
+        "expiry": "2026-02-13",
+        "qty": 10,
+        "reason": "Re-entering AMD puts after stop loss. Thesis strengthened - AMD broke below 200 support with massive volume (26M vs avg 15M). Earnings uncertainty plus sector rotation out of semis. Previous stop was too tight, now using wider stop and longer expiry for cushion.",
+        "conviction": "HIGH",
+        "target": "$190 or 5%",
+        "stop": "$6.50 or 55%",
+        "timeframe": "1-3 days",
+        "orderId": "624f5cee-5df0-4ee8-99a2-de783fbbcc05",
+        "time": "2026-02-06T16:16:09.059Z"
+      },
+      {
+        "symbol": "QQQ260213P00595000",
+        "underlying": "QQQ",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "PUT",
+        "strike": "595",
+        "expiry": "2026-02-13",
+        "qty": 5,
+        "reason": "Nasdaq weakness accelerating with QQQ breaking below 600 support. Chip bloodbath (AMD, MU, NVDA all down) dragging tech lower. Low risk entry near resistance with VIX still subdued at 18.89. Hedge against further semiconductor weakness.",
+        "conviction": "MEDIUM",
+        "target": "$585 or 2%",
+        "stop": "$8.50 or 47%",
+        "timeframe": "1-3 days",
+        "orderId": "fb4158bd-a4c9-4fc0-8e84-0298184c3dc3",
+        "time": "2026-02-06T16:16:10.771Z"
+      },
+      {
+        "symbol": "AMD260213P00200000",
+        "underlying": "AMD",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "PUT",
+        "strike": "200",
+        "expiry": "2026-02-13",
+        "qty": 10,
+        "reason": "Re-entering AMD puts after previous stop out. AMD holding below 200 resistance with massive volume (28M vs 15M avg). Earnings uncertainty plus sector rotation intact. Previous trade was too tight on stop, now using wider cushion.",
+        "conviction": "HIGH",
+        "target": "$5.50 (55% gain)",
+        "stop": "$2.50 (30% loss)",
+        "timeframe": "1-3 days",
+        "orderId": "e6fbead5-c8c9-416c-a5b3-89cae474746e",
+        "time": "2026-02-06T16:31:00.691Z"
+      },
+      {
+        "symbol": "AMD260213P00200000",
+        "action": "CLOSE",
+        "reason": "Taking profits on AMD puts as position is down 5.5% and AMD finding support at 207. With futures green and risk sentiment potentially shifting, closing to preserve capital and reassess",
+        "time": "2026-02-06T17:15:54.346Z"
+      },
+      {
+        "symbol": "AMD260213P00200000",
+        "underlying": "AMD",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "PUT",
+        "strike": "200",
+        "expiry": "2026-02-13",
+        "qty": 10,
+        "reason": "Re-entering AMD puts after previous profitable exit. AMD holding below 200 resistance with massive volume (33M vs 15M avg) confirming distribution. Sector rotation intact with semis bleeding while VIX remains subdued. Thesis strengthened - AMD broke key 200 support level on earnings uncertainty.",
+        "conviction": "HIGH",
+        "target": "$4.50 (58% gain)",
+        "stop": "$2.00 (-30%)",
+        "timeframe": "1-3 days",
+        "orderId": "be491443-b8d4-4bf0-84a8-ebff3e91b1e1",
+        "time": "2026-02-06T17:30:56.261Z"
+      },
+      {
+        "symbol": "QQQ260213P00595000",
+        "underlying": "QQQ",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "PUT",
+        "strike": "595",
+        "expiry": "2026-02-13",
+        "qty": 5,
+        "reason": "Adding QQQ puts as hedge against continued tech weakness. QQQ holding below 610 resistance with semiconductor carnage (AMD, MU, NVDA all down) dragging Nasdaq lower. Low risk entry near resistance with room to 590 support.",
+        "conviction": "MEDIUM",
+        "target": "$5.50 (72% gain)",
+        "stop": "$2.00 (-38%)",
+        "timeframe": "1-3 days",
+        "orderId": "b802026a-cd73-4184-95e6-3df6ff428688",
+        "time": "2026-02-06T17:30:57.922Z"
+      },
+      {
+        "symbol": "AMD260213P00200000",
+        "action": "CLOSE",
+        "reason": "Closing AMD puts for small loss after multiple re-entries. AMD finding support at 208 with massive volume suggesting oversold bounce potential. Green futures and VIX at 17.9 indicate risk sentiment may shift. Preserve capital after choppy action.",
+        "time": "2026-02-06T17:45:51.554Z"
+      },
+      {
+        "symbol": "QQQ260213P00595000",
+        "action": "CLOSE",
+        "reason": "Closing QQQ puts as tech sell-off may be nearing exhaustion. QQQ holding 598 support with Dow up 0.5% showing sector rotation rather than broad market weakness. Small loss acceptable to avoid theta decay into weekend.",
+        "time": "2026-02-06T17:45:51.860Z"
+      },
+      {
+        "symbol": "SMX",
+        "action": "OPEN",
+        "vehicle": "EQUITY",
+        "direction": "LONG",
+        "qty": 289,
+        "reason": "SMX is the #1 trending StockTwits symbol with massive momentum - up from 8.60 to 17.17 open, hitting 20.49 high. Volume is explosive at 34M vs normal. This is a classic momentum play with clear continuation potential. Low float likely creating squeeze conditions.",
+        "conviction": "HIGH",
+        "target": "$22-23 (30% gain)",
+        "stop": "$15.50 (10% risk)",
+        "orderId": "ad5717d8-c502-4755-b37a-a204642e32cc",
+        "time": "2026-02-06T19:16:10.566Z"
+      },
+      {
+        "symbol": "AMD260213C00210000",
+        "underlying": "AMD",
+        "action": "OPEN",
+        "vehicle": "OPTION",
+        "direction": "CALL",
+        "strike": "210",
+        "expiry": "2026-02-13",
+        "qty": 8,
+        "reason": "AMD down 20% pre-market on earnings fears but showing strong reversal - trading above VWAP and near HOD with massive volume. Previous put trades failed as stock found support at 207. RSI at 40 suggests oversold bounce potential with risk/reward favoring move toward 215-220 resistance.",
+        "conviction": "HIGH",
+        "target": "$215 or 50% gain",
+        "stop": "$202 or 30% loss",
+        "timeframe": "intraday",
+        "orderId": "f855a7f4-120f-407b-86c3-096fc49c0c63",
+        "time": "2026-02-06T20:15:33.754Z"
+      }
+    ],
+    "pnlToday": -506.3099999999977,
+    "tradesCount": 14,
+    "account": {
+      "equity": 99493.69,
+      "cash": 94853.69,
+      "buyingPower": 189707.38,
+      "lastEquity": 100000,
+      "dailyPL": -506.3099999999977,
+      "optionsLevel": 3,
+      "daytradeCount": 9,
+      "status": "ACTIVE"
+    },
+    "reasoning": [
+      {
+        "time": "09:30:37",
+        "thought": "LLM (Claude CLI (Sonnet)): Market opening with severe risk-off pressure despite futures showing slight gains overnight. Major tech names (AMD -20%, AMZN -15%, COIN -21%) getting crushed at open, indicating systematic selling. VIX at 20+ confirms elevated fear.",
+        "decision": "2 trade(s)"
+      },
+      {
+        "time": "09:30:37",
+        "thought": "LLM wants more data: AMD news/catalyst for -20% gap, Options chains for AMD, AMZN, COIN, Sector rotation data - where is money flowing",
+        "decision": "DATA_REQUEST"
+      },
+      {
+        "time": "09:41:17",
+        "thought": "MONITOR: AMD NEW_HIGH - LLM says WATCH: Position is profitable and at new highs; momentum intact but no clear exit signal yet.",
+        "decision": "WATCH"
+      },
+      {
+        "time": "09:45:19",
+        "thought": "LLM (Groq (Kimi K2)): Severe risk-off sentiment with major tech names gapping down hard despite overnight futures gains; AMD -20%, AMZN -15%, COIN -21% indicate systematic selling pressure, VIX confirms elevated fear",
+        "decision": "2 trade(s)"
+      },
+      {
+        "time": "09:45:19",
+        "thought": "LLM wants more data: AMD options chain liquidity, VIX futures curve",
+        "decision": "DATA_REQUEST"
+      },
+      {
+        "time": "09:46:10",
+        "thought": "MONITOR: AMD NEW_HIGH - LLM says TRIM: Lock in partial gains near session high resistance; momentum strong but 2.25% intraday gain vulnerable to reversal.",
+        "decision": "TRIM"
+      },
+      {
+        "time": "09:46:13",
+        "thought": "MONITOR: ANF NEW_HIGH - LLM says HOLD: Position is only 1.7% in-the-money and below the day's high; no catalyst to exit yet.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "09:46:14",
+        "thought": "MONITOR: SMCI RAPID_MOVE - LLM says TRIM: Sharp 2.6% spike in a minute pushes SMCI to the top of its intraday range; locking in partial gains near $32.67 resistance protects profit while keeping core for follow-through.",
+        "decision": "TRIM"
+      },
+      {
+        "time": "09:52:09",
+        "thought": "MONITOR: SMCI NEW_HIGH - LLM says TRIM: Lock in partial gains near intraday resistance; chip-sector news flow is mixed and 3.3% intraday move leaves little cushion.",
+        "decision": "TRIM"
+      },
+      {
+        "time": "10:00:24",
+        "thought": "LLM (Groq (Kimi K2)): Risk-off tone with VIX at 19 despite futures up; heavy tech selling in AMD/MU but indices holding suggests dip-buying may emerge.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "10:09:10",
+        "thought": "MONITOR: FOA NEW_LOW - LLM says WATCH: Position is only 1% underwater and holding above recent support; wait for earnings clarity on 4 Mar before acting.",
+        "decision": "WATCH"
+      },
+      {
+        "time": "10:15:16",
+        "thought": "LLM (Groq (Kimi K2)): Risk-off tone with VIX at 19 despite futures up; heavy tech selling in AMD/MU but indices holding suggests dip-buying may emerge.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "10:16:03",
+        "thought": "MONITOR: AMD NEW_HIGH - LLM says TRIM: Position is profitable and near the top of today's range; take partial profits while momentum persists.",
+        "decision": "TRIM"
+      },
+      {
+        "time": "10:17:03",
+        "thought": "MONITOR: AMD260206C00205000 RAPID_MOVE - LLM says TRIM: Fast 8% drop from intraday high suggests short-term exhaustion; locking in partial gains above 30% protects profit while leaving upside.",
+        "decision": "TRIM"
+      },
+      {
+        "time": "10:19:03",
+        "thought": "MONITOR: SMCI NEW_HIGH - LLM says TRIM: Position up 3.8% intraday and near session high; take partial profits in case of reversal while keeping core for further upside.",
+        "decision": "TRIM"
+      },
+      {
+        "time": "10:22:03",
+        "thought": "MONITOR: AMD260206C00205000 RAPID_MOVE - LLM says TRIM: 55% gain in a short-dated option after a 4.7% spike in 60s; take risk off before theta decay accelerates.",
+        "decision": "TRIM"
+      },
+      {
+        "time": "10:22:04",
+        "thought": "MONITOR: AMD NEW_HIGH - LLM says TRIM: Lock in partial gains after 2.8% intraday surge to $206.38; chip peers volatile on mixed guidance.",
+        "decision": "TRIM"
+      },
+      {
+        "time": "10:28:32",
+        "thought": "MONITOR: AMD260206C00205000 RAPID_MOVE - LLM says WATCH: Sharp 60-second drop on a long call is concerning, but still above entry and within daily range; wait for follow-through before trimming.",
+        "decision": "WATCH"
+      },
+      {
+        "time": "10:30:46",
+        "thought": "LLM (Groq (Kimi K2)): Futures up ~0.5% but VIX >19 and chip sector in free-fall after mixed earnings; AMD gapping down 20% on heavy volume, creating potential mean-reversion setup if support holds.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "10:30:46",
+        "thought": "LLM wants more data: AMD 7 Feb options chain for 205-210 calls, real-time Level II at $196 support",
+        "decision": "DATA_REQUEST"
+      },
+      {
+        "time": "10:33:32",
+        "thought": "MONITOR: AMD260206C00205000 RAPID_MOVE - LLM says TRIM: 24.9% drop in 60s on a long call signals a liquidity-driven flush; reduce size to limit gamma risk while keeping a toehold for a bounce.",
+        "decision": "TRIM"
+      },
+      {
+        "time": "10:38:32",
+        "thought": "MONITOR: AMD260206C00205000 RAPID_MOVE - LLM says TRIM: 22.5% intraday drop on a long call already down 10% signals a momentum breakdown; reduce risk before theta accelerates into weekend.",
+        "decision": "TRIM"
+      },
+      {
+        "time": "10:39:33",
+        "thought": "MONITOR: SMCI ENTRY_THRESHOLD - LLM says WATCH: Position is up 5% but still well within normal volatility; no clear exit signal yet.",
+        "decision": "WATCH"
+      },
+      {
+        "time": "10:43:32",
+        "thought": "MONITOR: AMD260206C00205000 RAPID_MOVE - LLM says TRIM: Position is down 25.93% and making new intraday lows; reduce size to limit further damage.",
+        "decision": "TRIM"
+      },
+      {
+        "time": "10:45:45",
+        "thought": "LLM (Groq (Kimi K2)): Risk-off tone with VIX at 19.07 and chip stocks getting hammered pre-market on earnings jitters; futures green but breadth is weak with AMD down 20% and dragging semis lower.",
+        "decision": "2 trade(s)"
+      },
+      {
+        "time": "10:56:12",
+        "thought": "MONITOR: SMCI NEW_HIGH - LLM: N/A: No analysis",
+        "decision": "ALERT"
+      },
+      {
+        "time": "11:00:31",
+        "thought": "LLM (Groq (Kimi K2)): Risk-off tone with VIX at 18.68; futures green but chip bloodbath (AMD -20%, MU -8%) on earnings jitters while small-caps outperform. Breadth is weak and momentum favors shorts in semis.",
+        "decision": "2 trade(s)"
+      },
+      {
+        "time": "11:01:10",
+        "thought": "STOP TRIGGERED: AMD260206P00205000 closed at $1.55 (stop: $6.37)",
+        "decision": "CLOSE"
+      },
+      {
+        "time": "11:01:12",
+        "thought": "STOP TRIGGERED: MU260206P00385000 closed at $3.70 (stop: $5.17)",
+        "decision": "CLOSE"
+      },
+      {
+        "time": "11:16:08",
+        "thought": "LLM (Groq (Kimi K2)): Risk-off tone persists with VIX at 18.89 and chip stocks in freefall - AMD down 20% on heavy volume, MU down 8.7%. Futures are green but breadth is terrible with semis leading declines. Just stopped out of AMD and MU puts as they hit my stops, but the thesis remains intact - chip weakness is accelerating.",
+        "decision": "2 trade(s)"
+      },
+      {
+        "time": "11:17:53",
+        "thought": "MONITOR: SMCI NEW_LOW - LLM: N/A: No analysis",
+        "decision": "ALERT"
+      },
+      {
+        "time": "11:18:51",
+        "thought": "MONITOR: AMD260213P00200000 NEW_LOW - LLM: HOLD: Position is only -1.4% and thesis intact - AMD broke 200 support on massive volume, earnings uncertainty remains, and you just re-entered with wider stop for cushion.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "11:18:56",
+        "thought": "MONITOR: QQQ260213P00595000 NEW_LOW - LLM: N/A: No analysis",
+        "decision": "ALERT"
+      },
+      {
+        "time": "11:22:40",
+        "thought": "MONITOR: AMD260213P00200000 RAPID_MOVE - LLM: HOLD: Position just turned green, thesis intact with AMD below 200 support and heavy volume confirming downside momentum.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "11:22:43",
+        "thought": "MONITOR: QQQ260213P00595000 NEW_HIGH - LLM: HOLD: Position opened today on tech weakness thesis; minor pullback within normal options volatility, thesis intact with chip stocks still under pressure.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "11:25:42",
+        "thought": "MONITOR: AMD260213P00200000 RAPID_MOVE - LLM: HOLD: Position is working with thesis intact; AMD broke 200 support on heavy volume and momentum continues.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "11:25:54",
+        "thought": "MONITOR: QQQ260213P00595000 NEW_HIGH - LLM: HOLD: Position is only down 1.87% from entry, well within normal intraday option volatility. New intraday high of $4.19 suggests bounce potential, and chip weakness thesis remains intact based on news. No stop currently set to protect against further downside.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "11:29:41",
+        "thought": "MONITOR: AMD260213P00200000 RAPID_MOVE - LLM: HOLD: Position is profitable and thesis intact - AMD broke 200 support on heavy volume, sector rotation out of semis continues.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "11:30:40",
+        "thought": "STOP TRIGGERED: AMD260213P00200000 closed at $3.55 (stop: $3.55)",
+        "decision": "CLOSE"
+      },
+      {
+        "time": "11:30:45",
+        "thought": "MONITOR: QQQ260213P00595000 RAPID_MOVE - LLM: HOLD: Position opened today on tech weakness thesis; QQQ still below 600, chips remain under pressure, thesis intact despite minor pullback.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "11:31:00",
+        "thought": "LLM (Groq (Kimi K2)): Tech carnage continues with AMD down 20% and dragging semis lower; QQQ holding below 600 support while VIX remains subdued at 18.53, suggesting more downside ahead.",
+        "decision": "2 trade(s)"
+      },
+      {
+        "time": "11:31:39",
+        "thought": "MONITOR: FOA NEW_LOW - LLM: WATCH: FOA is only 1.7% underwater and still within normal volatility; no stop is set so we need to monitor for a clear break below $21.50 before deciding on exit.",
+        "decision": "WATCH"
+      },
+      {
+        "time": "11:33:39",
+        "thought": "MONITOR: AMD260213P00200000 RAPID_MOVE - LLM: HOLD: Position flat, thesis intact - AMD still below 200 resistance with high volume and earnings overhang.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "11:34:39",
+        "thought": "MONITOR: QQQ260213P00595000 RAPID_MOVE - LLM: HOLD: Position is within normal options volatility; thesis on tech/semiconductor weakness still intact with Amazon down 8% premarket and QQQ below 600 support.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "11:35:41",
+        "thought": "STOP TRIGGERED: QQQ260213P00595000 closed at $3.79 (stop: $3.85)",
+        "decision": "CLOSE"
+      },
+      {
+        "time": "11:45:49",
+        "thought": "MONITOR: AMD260213P00200000 RAPID_MOVE - LLM: HOLD: Position just re-entered 10 minutes ago at $3.65, currently +1.37% with thesis intact (AMD below 200, high volume, earnings uncertainty). Normal intraday volatility - no reason to exit prematurely after learning from previous tight stops.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "11:45:58",
+        "thought": "LLM (Groq (Kimi K2)): Tech carnage continues with AMD down 20% and dragging semis lower; QQQ holding below 600 support while VIX remains subdued at 18.44, suggesting more downside ahead.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "11:45:58",
+        "thought": "HOLD AMD260213P00200000: Position showing small profit, thesis intact - AMD still below 200 resistance with massive volume and earnings overhang. Will hold for continuation toward 190 support.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "11:59:40",
+        "thought": "MONITOR: SMCI ENTRY_THRESHOLD - LLM: HOLD: Position up 5.1% with no stop set; momentum intact, no immediate risk signal.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "12:01:15",
+        "thought": "LLM (Claude CLI (Sonnet)): Tech selloff deepening with AMD down 12.7% and sector dragging indices lower. Current AMD put position up 4.1% with thesis intact - semis bleeding, earnings uncertainty persists, volume confirms selling pressure.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "12:01:15",
+        "thought": "HOLD AMD260213P00200000: Position up $150 (4.1%) with thesis strengthening - AMD now at 206.77, well below 210 resistance, massive volume (31.4M vs 15M avg) confirms distribution. Sector rotation from semis intact with MU, NVDA also bleeding. Friday expiry gives runway, stop remains at $3.00 (-17.8%).",
+        "decision": "HOLD"
+      },
+      {
+        "time": "12:15:54",
+        "thought": "LLM (Groq (Kimi K2)): Tech carnage continues with AMD down 12% and dragging semis lower; QQQ holding below 610 resistance while VIX remains subdued at 18.11, suggesting more downside ahead despite futures being green.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "12:15:54",
+        "thought": "LLM wants more data: AMD options chain for next week, QQQ support at 600 level",
+        "decision": "DATA_REQUEST"
+      },
+      {
+        "time": "12:20:40",
+        "thought": "MONITOR: SMCI ENTRY_THRESHOLD - LLM: HOLD: Position working well with 5% gain and thesis intact; no need to trim yet.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "12:25:39",
+        "thought": "MONITOR: SMCI ENTRY_THRESHOLD - LLM: HOLD: Position working well with 5% gain and thesis intact; no need to trim yet on normal intraday volatility.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "12:30:55",
+        "thought": "LLM (Groq (Kimi K2)): Market bifurcation continues with Dow futures up 0.5% while tech bleeds - AMD down 20% on massive volume, dragging semis lower. QQQ holding below 610 resistance with VIX at 18.12 suggesting more downside ahead despite broad market green futures.",
+        "decision": "2 trade(s)"
+      },
+      {
+        "time": "12:31:01",
+        "thought": "LLM wants more data: AMD options chain for next week, QQQ support levels below 590",
+        "decision": "DATA_REQUEST"
+      },
+      {
+        "time": "12:31:39",
+        "thought": "MONITOR: QQQ260213P00595000 RAPID_MOVE - LLM: HOLD: Position only -1.1% and thesis intact: tech sell-off continues with QQQ below 600 and chips weak. Quick dip to $3.50 is normal option volatility.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "12:35:39",
+        "thought": "MONITOR: QQQ260213P00595000 RAPID_MOVE - LLM: HOLD: Position is essentially flat (-0.28%) and well above stop; thesis intact as tech weakness persists.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "12:45:51",
+        "thought": "LLM (Groq (Kimi K2)): Tech carnage continues with AMD down 20% and dragging semis lower, but futures are green and VIX subdued at 17.9 suggesting potential relief bounce. QQQ holding below 610 resistance while Dow futures up 0.5% shows sector rotation out of growth.",
+        "decision": "2 trade(s)"
+      },
+      {
+        "time": "12:45:52",
+        "thought": "LLM wants more data: AMD support levels below 200, QQQ resistance at 610-615",
+        "decision": "DATA_REQUEST"
+      },
+      {
+        "time": "13:45:42",
+        "thought": "LLM (Groq (Kimi K2)): Tech carnage continues with AMD down 20% and dragging semis lower, but futures are green and VIX subdued at 17.9 suggesting potential relief bounce. QQQ holding below 610 resistance while Dow futures up 0.5% shows sector rotation out of growth.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "13:45:42",
+        "thought": "LLM wants more data: AMD options chain for next week, QQQ support levels below 590",
+        "decision": "DATA_REQUEST"
+      },
+      {
+        "time": "14:00:57",
+        "thought": "LLM (Groq (Kimi K2)): Tech carnage continues with AMD down 20% and semis bleeding, but futures are green and VIX subdued at 17.9 suggesting potential relief bounce. QQQ holding below 610 resistance while Dow futures up 0.5% shows sector rotation out of growth.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "14:00:57",
+        "thought": "LLM wants more data: AMD options chain for next week, QQQ support levels below 590",
+        "decision": "DATA_REQUEST"
+      },
+      {
+        "time": "14:15:41",
+        "thought": "LLM (Groq (Kimi K2)): Tech carnage continues with AMD down 20% and semis bleeding, but futures are green and VIX subdued at 18 suggesting potential relief bounce. QQQ holding below 610 resistance while Dow futures up 0.5% shows sector rotation out of growth.",
+        "decision": "NO_TRADE"
+      },
+      {
+        "time": "14:15:41",
+        "thought": "LLM wants more data: AMD options chain for next week, QQQ support levels below 590",
+        "decision": "DATA_REQUEST"
+      },
+      {
+        "time": "14:16:10",
+        "thought": "LLM (Groq (Kimi K2)): Tech carnage continues with AMD down 20% and semis bleeding, but futures are green and VIX subdued at 18 suggesting potential relief bounce. QQQ holding below 610 resistance while Dow futures up 0.5% shows sector rotation out of growth.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "14:17:57",
+        "thought": "MONITOR: SMX NEW_LOW - LLM: HOLD: Intraday pullback within normal volatility for a low-float momentum name; volume still strong and no thesis break.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "14:22:12",
+        "thought": "MONITOR: SMX RAPID_MOVE - LLM: HOLD: Low-float momentum play, sharp pullback but no volume climax or news break; still above pre-market base near $15.50.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "14:26:12",
+        "thought": "MONITOR: FOA NEW_HIGH - LLM: WATCH: Position is underwater but making higher intraday highs; no stop is set so risk is uncontrolled.",
+        "decision": "WATCH"
+      },
+      {
+        "time": "14:29:12",
+        "thought": "MONITOR: SMX RAPID_MOVE - LLM: HOLD: Thesis intact - SMX remains #1 trending with explosive volume and low-float squeeze potential; current pullback is normal volatility within strong uptrend.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "14:30:36",
+        "thought": "LLM (Groq (Kimi K2)): Market is in chop mode with tech carnage (AMD down 20%, MU down 8%) but futures green and VIX only 18; SMX is the hottest momentum play on StockTwits with 34M volume and low-float squeeze potential while beaten-down semis may be due for an oversold bounce.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "14:30:36",
+        "thought": "HOLD SMX: SMX remains #1 trending on StockTwits, low-float squeeze intact, volume explosive at 34M vs normal; thesis unchanged despite intraday pullback from 20.49 high",
+        "decision": "HOLD"
+      },
+      {
+        "time": "14:45:06",
+        "thought": "MONITOR: SMX NEW_LOW - LLM: HOLD: Thesis intact - expansion news is bullish, intraday low is only 1% below entry and volume/momentum still strong. No stop set yet, but not at critical level.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "14:45:23",
+        "thought": "LLM (Groq (Kimi K2)): Market is choppy with tech carnage but futures green and VIX subdued at 17.96. SMX remains the hottest momentum play on StockTwits with explosive volume and low-float squeeze potential while beaten-down semis may be due for an oversold bounce.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "14:45:23",
+        "thought": "HOLD SMX: SMX remains #1 trending on StockTwits with massive momentum - volume at 34M vs normal, low-float squeeze intact. Thesis unchanged despite intraday pullback from 20.49 high. Holding for continuation into close.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "14:50:11",
+        "thought": "MONITOR: SMX NEW_HIGH - LLM: HOLD: Thesis intact - momentum play with strong news catalyst and trending status; position is only 4% underwater and showing intraday strength with new highs.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "14:54:10",
+        "thought": "MONITOR: SMX NEW_HIGH - LLM: HOLD: Position is off entry but thesis intact - momentum play with strong news catalyst and low float squeeze potential still valid.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "15:00:46",
+        "thought": "LLM (Groq (Kimi K2)): Market is choppy with tech carnage but futures green and VIX subdued at 18.03. SMX remains the hottest momentum play on StockTwits with explosive volume and low-float squeeze potential while beaten-down semis may be due for an oversold bounce.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "15:00:46",
+        "thought": "HOLD SMX: SMX remains #1 trending on StockTwits with massive momentum - volume at 36M vs normal, low-float squeeze intact. Thesis unchanged despite intraday pullback from 20.49 high. Holding for continuation into close.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "15:03:12",
+        "thought": "STOP TRIGGERED: SMX closed at $16.30 (stop: $16.50)",
+        "decision": "CLOSE"
+      },
+      {
+        "time": "15:15:33",
+        "thought": "LLM (Groq (Kimi K2)): Market is choppy with tech carnage but futures green and VIX subdued at 17.85. AMD showing signs of bottoming after massive pre-market drop, now trading above VWAP and near HOD with strong volume suggesting oversold bounce potential.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "15:17:10",
+        "thought": "MONITOR: AMD260213C00210000 NEW_LOW - LLM: HOLD: Position is only -3.7% and thesis intact - AMD showing reversal above VWAP with massive volume supporting bounce toward 215-220 resistance.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "15:17:11",
+        "thought": "MONITOR: SNAP NEW_HIGH - LLM: WATCH: Position is underwater but showing intraday strength with a new high; no stop is set, so immediate risk management is needed.",
+        "decision": "WATCH"
+      },
+      {
+        "time": "15:21:10",
+        "thought": "MONITOR: AMD260213C00210000 NEW_HIGH - LLM: HOLD: Position just opened at entry, flat P&L, thesis intact - oversold bounce developing with volume above VWAP.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "15:24:10",
+        "thought": "MONITOR: AMD260213C00210000 NEW_HIGH - LLM: HOLD: Calls up only 1.85% on first new high; thesis for oversold bounce toward 215-220 intact with volume confirmation.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "15:28:15",
+        "thought": "MONITOR: AMD260213C00210000 RAPID_MOVE - LLM: HOLD: Position working with thesis intact; 2.8% move in 60s is normal options volatility, not a signal.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "15:30:40",
+        "thought": "LLM (Groq (Kimi K2)): Market in risk-off mode with VIX at 17.85, but futures green and AMD showing strong reversal above VWAP after 20% pre-market drop. Power hour with choppy conditions - selective opportunities only.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "15:30:40",
+        "thought": "HOLD AMD260213C00210000: Already long 8 contracts from 3:15 PM entry. AMD holding above VWAP at $199.63 with massive volume confirming oversold bounce thesis. RSI at 40 suggests room to run toward 215-220 resistance. Let winner run into close.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "15:36:10",
+        "thought": "MONITOR: AMD260213C00210000 NEW_HIGH - LLM: HOLD: Position is working with +4.6% gain and new intraday high; thesis intact as AMD shows reversal strength above VWAP with massive volume.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "15:40:11",
+        "thought": "MONITOR: AMD260213C00210000 ENTRY_THRESHOLD - LLM: HOLD: Position working with thesis intact; calls opened on oversold bounce thesis above VWAP with volume confirmation.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "15:43:10",
+        "thought": "MONITOR: AMD260213C00210000 NEW_HIGH - LLM: HOLD: Position is working with thesis intact; calls opened on oversold bounce are up 7.4% and still below VWAP resistance zone.",
+        "decision": "HOLD"
+      },
+      {
+        "time": "15:45:26",
+        "thought": "LLM (Groq (Kimi K2)): Market in risk-off mode with VIX at 17.79, but futures green and AMD showing strong reversal above VWAP after 20% pre-market drop. Power hour with choppy conditions - selective opportunities only.",
+        "decision": "1 trade(s)"
+      },
+      {
+        "time": "15:45:26",
+        "thought": "HOLD AMD260213C00210000: Position working with thesis intact; calls opened on oversold bounce are up 7.4% and still below VWAP resistance zone. AMD holding above VWAP at $199.63 with massive volume confirming reversal strength.",
+        "decision": "HOLD"
+      }
+    ],
+    "updatedAt": "2026-02-06T20:45:27.325Z"
+  },
+  "agentLog": [
+    {
+      "agent": "overnight",
+      "time": "00:16:41",
+      "timestamp": "2026-02-06T05:16:41.564Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "00:16:41",
+      "timestamp": "2026-02-06T05:16:41.565Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "pre-market",
+      "time": "09:15:15",
+      "timestamp": "2026-02-06T14:15:15.622Z",
+      "action": "Updated pre-market data",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "09:39:23",
+      "timestamp": "2026-02-06T14:39:23.343Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "09:44:13",
+      "timestamp": "2026-02-06T14:44:13.448Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "09:45:19",
+      "timestamp": "2026-02-06T14:45:19.768Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "10:00:11",
+      "timestamp": "2026-02-06T15:00:11.271Z",
+      "action": "LLM: Risk-off tone with tech/guidance jitters; chip names muted, data-center power plays hot. Tight risk, only A+ setups.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "10:00:18",
+      "timestamp": "2026-02-06T15:00:18.078Z",
+      "action": "Fetched 17 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "10:00:24",
+      "timestamp": "2026-02-06T15:00:24.714Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "10:13:08",
+      "timestamp": "2026-02-06T15:13:08.453Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "10:15:16",
+      "timestamp": "2026-02-06T15:15:16.438Z",
+      "action": "Scan complete: 0 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "10:26:37",
+      "timestamp": "2026-02-06T15:26:37.324Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "10:30:35",
+      "timestamp": "2026-02-06T15:30:35.003Z",
+      "action": "LLM: Choppy tape with mixed earnings reactions; chips consolidating after big 2025 run, retail showing relative strength into March earnings.",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "10:30:46",
+      "timestamp": "2026-02-06T15:30:46.980Z",
+      "action": "Scan complete: 1 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "10:36:37",
+      "timestamp": "2026-02-06T15:36:37.905Z",
+      "action": "Fetched 45 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "10:45:38",
+      "timestamp": "2026-02-06T15:45:38.254Z",
+      "action": "Fetched 2 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "10:49:13",
+      "timestamp": "2026-02-06T15:49:13.914Z",
+      "action": "Fetched 45 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "11:00:12",
+      "timestamp": "2026-02-06T16:00:12.112Z",
+      "action": "LLM: Choppy risk-off tape but semis showing relative strength; retail names like ANF catching bid into March earnings while broader market works off recent tech-led selloff.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "11:00:18",
+      "timestamp": "2026-02-06T16:00:18.884Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "11:00:33",
+      "timestamp": "2026-02-06T16:00:33.774Z",
+      "action": "Scan complete: 0 positions, 2 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "11:11:54",
+      "timestamp": "2026-02-06T16:11:54.375Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "11:15:54",
+      "timestamp": "2026-02-06T16:15:54.569Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "11:16:14",
+      "timestamp": "2026-02-06T16:16:14.438Z",
+      "action": "Scan complete: 0 positions, 2 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "11:20:44",
+      "timestamp": "2026-02-06T16:20:44.545Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "11:30:45",
+      "timestamp": "2026-02-06T16:30:45.134Z",
+      "action": "LLM: Choppy tape with defensive bid; chips trying to bounce but no clear follow-through yet. Retail names showing relative strength into March earnings.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "11:30:52",
+      "timestamp": "2026-02-06T16:30:52.183Z",
+      "action": "Fetched 6 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "11:31:04",
+      "timestamp": "2026-02-06T16:31:04.320Z",
+      "action": "Scan complete: 1 positions, 2 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "11:45:44",
+      "timestamp": "2026-02-06T16:45:44.890Z",
+      "action": "Fetched 4 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "11:45:58",
+      "timestamp": "2026-02-06T16:45:58.286Z",
+      "action": "Scan complete: 1 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "12:00:52",
+      "timestamp": "2026-02-06T17:00:52.025Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "12:01:15",
+      "timestamp": "2026-02-06T17:01:15.564Z",
+      "action": "Scan complete: 1 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "12:15:45",
+      "timestamp": "2026-02-06T17:15:45.494Z",
+      "action": "Fetched 3 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "12:15:54",
+      "timestamp": "2026-02-06T17:15:54.610Z",
+      "action": "Scan complete: 1 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "12:30:42",
+      "timestamp": "2026-02-06T17:30:42.685Z",
+      "action": "LLM: Mixed tape: mega-cap AI spend headlines are bullish for AMD/SMCI, but Nasdaq remains below key levels and VIX-spike risk lingers; best swing action is in individual catalysts, not broad beta.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "12:30:49",
+      "timestamp": "2026-02-06T17:30:49.802Z",
+      "action": "Fetched 2 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "12:31:01",
+      "timestamp": "2026-02-06T17:31:01.594Z",
+      "action": "Scan complete: 0 positions, 2 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "12:45:45",
+      "timestamp": "2026-02-06T17:45:45.399Z",
+      "action": "Fetched 4 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "12:45:52",
+      "timestamp": "2026-02-06T17:45:52.120Z",
+      "action": "Scan complete: 2 positions, 2 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "13:00:44",
+      "timestamp": "2026-02-06T18:00:44.080Z",
+      "action": "LLM: Tech rotation underway—AI capex still rising but money moving from high-beta chips to megacaps; defensive cash-heavy posture warranted until next macro catalyst (CPI 2/13).",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "13:42:36",
+      "timestamp": "2026-02-06T18:42:36.421Z",
+      "action": "Fetched 40 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "13:45:42",
+      "timestamp": "2026-02-06T18:45:42.177Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "14:00:38",
+      "timestamp": "2026-02-06T19:00:38.157Z",
+      "action": "LLM: Choppy tape with VIX at 17.9; tech bouncing but no clear sector follow-through—best to stick with individual catalysts rather than broad beta.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "14:00:45",
+      "timestamp": "2026-02-06T19:00:45.431Z",
+      "action": "Fetched 13 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "14:00:57",
+      "timestamp": "2026-02-06T19:00:57.616Z",
+      "action": "Scan complete: 0 positions, 0 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "14:16:02",
+      "timestamp": "2026-02-06T19:16:02.483Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "14:16:12",
+      "timestamp": "2026-02-06T19:16:12.635Z",
+      "action": "Scan complete: 0 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "14:19:17",
+      "timestamp": "2026-02-06T19:19:17.653Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "14:30:20",
+      "timestamp": "2026-02-06T19:30:20.925Z",
+      "action": "LLM: Market bouncing hard off recent lows with VIX still elevated—classic relief-rally setup that favors holding beta into next week but keeps risk tight.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "14:41:10",
+      "timestamp": "2026-02-06T19:41:10.864Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "14:48:15",
+      "timestamp": "2026-02-06T19:48:15.186Z",
+      "action": "Fetched 50 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:00:22",
+      "timestamp": "2026-02-06T20:00:22.092Z",
+      "action": "LLM: Choppy tape with VIX still elevated; tech bouncing but no clear sector leadership—ideal for stock-specific catalyst plays while keeping risk tight.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "15:00:29",
+      "timestamp": "2026-02-06T20:00:29.007Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:00:46",
+      "timestamp": "2026-02-06T20:00:46.255Z",
+      "action": "Scan complete: 1 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "15:15:15",
+      "timestamp": "2026-02-06T20:15:15.758Z",
+      "action": "Fetched 1 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:15:37",
+      "timestamp": "2026-02-06T20:15:37.381Z",
+      "action": "Scan complete: 0 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "swing-scanner",
+      "time": "15:30:22",
+      "timestamp": "2026-02-06T20:30:22.996Z",
+      "action": "LLM: Choppy tape with AI/datacenter bid offset by broad risk-off; catalyst-light next two weeks favors technical setups over event-driven.",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "15:30:30",
+      "timestamp": "2026-02-06T20:30:30.040Z",
+      "action": "Fetched 6 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "day-trader",
+      "time": "15:30:40",
+      "timestamp": "2026-02-06T20:30:40.670Z",
+      "action": "Scan complete: 1 positions, 1 new trades",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "18:21:42",
+      "timestamp": "2026-02-06T23:21:42.503Z",
+      "action": "Fetched 45 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "20:00:38",
+      "timestamp": "2026-02-07T01:00:38.122Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "21:00:38",
+      "timestamp": "2026-02-07T02:00:38.607Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "news-feed",
+      "time": "21:51:38",
+      "timestamp": "2026-02-07T02:51:38.481Z",
+      "action": "Fetched 45 new headlines",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "22:00:33",
+      "timestamp": "2026-02-07T03:00:33.580Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    },
+    {
+      "agent": "overnight",
+      "time": "23:00:33",
+      "timestamp": "2026-02-07T04:00:33.905Z",
+      "action": "Updated overnight data",
+      "summary": ""
+    }
+  ]
+}

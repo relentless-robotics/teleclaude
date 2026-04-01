@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-02-12T21:30:28.835Z",
+  "date": "2026-02-12",
+  "dailySummary": {
+    "equity": 4923.79,
+    "dailyPL": 0,
+    "dailyPLPct": 0,
+    "positionCount": 0,
+    "winners": 0,
+    "losers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "cash": 4923.79
+  },
+  "dayTradeSummary": {
+    "equity": 92340.5,
+    "dailyPL": -6207.0899999999965,
+    "dailyPLPct": -6.298571076167359,
+    "cash": 92340.5,
+    "buyingPower": 394188.88,
+    "positionCount": 0,
+    "posWinners": 0,
+    "posLosers": 0,
+    "biggestWinner": null,
+    "biggestLoser": null,
+    "todayTradesCount": 5,
+    "closedTradesCount": 1,
+    "winsToday": 0,
+    "lossesToday": 1,
+    "winRate": "0%",
+    "reasoningCount": 25,
+    "todayLessons": [
+      {
+        "symbol": "BAC",
+        "outcome": "LOSS",
+        "plPct": "-2.76%",
+        "entry": 53.47,
+        "exit": 51.995,
+        "reason": "Closing BAC at $52.02 for -2.7% loss ($163). Original thesis was 'oversold bounce with SPY +2.5% risk-on rotation' but BAC showing ZERO bounce after 1.5 hours - just continued weakness from $53.47 entry to $52.02. IASM not even providing signal on BAC (not in top opportunities). With SPY +2.3%, if financials aren't catching a bid in THIS environment, the thesis is broken. Cut loss and redeploy capital to better setup. Market giving us MU consolidation and other opportunities - no need to hold dead weight.",
+        "lesson": "BAC LOSS (-2.8%): Closing BAC at $52.02 for -2.7% loss ($163). Original thesis was 'oversold bounce with SPY +2.5% risk-on rotation' but BAC showing ZERO bounce after 1.5 hours - just continued weakness from $53.47 entry to $52.02. IASM not even providing signal on BAC (not in top opportunities). With SPY +2.3%, if financials aren't catching a bid in THIS environment, the thesis is broken. Cut loss and redeploy capital to better setup. Market giving us MU consolidation and other opportunities - no need to hold dead weight.",
+        "rule": {
+          "underlying": "BAC",
+          "todayTradesOnSymbol": 0,
+          "todayLossesOnSymbol": 0,
+          "todayWinsOnSymbol": 0,
+          "patterns": [],
+          "actionableRule": "BAC LOSS: Normal trade"
+        },
+        "time": "2026-02-12T16:21:16.551Z"
+      }
+    ]
+  },
+  "positionAnalysis": [],
+  "marketRecap": {
+    "sentiment": "NEUTRAL"
+  },
+  "sectorPerformance": [],
+  "earningsTonight": [],
+  "tomorrowSetup": {
+    "marketBias": "NEUTRAL",
+    "focusSymbols": [],
+    "keyLevels": [],
+    "watchFor": [
+      "AVOID: Trading in NEUTRAL regime with elevated VIX - 3 of last 4 days were NEUTRAL/choppy, all red days. You need RISK_ON directional moves",
+      "AVOID: Holding losers too long: BAC bled for 90 minutes with broken thesis before -2.76% cut. Your winners (AMD) are trimmed quickly, losers are given rope",
+      "AVOID: Forcing trades: 5 trades today in 'midday lull' when agent said wait for 2pm momentum. CRDO fade and BAC hold were both low-conviction",
+      "AVOID: Fading strength in wrong regime: CRDO +27% earnings gap fade lost -32%. In choppy NEUTRAL tape, don't fight momentum plays"
+    ],
+    "tomorrowRules": [
+      "NO TRADING if regime is NEUTRAL or VIX >18 - Your stats prove it: RISK_ON days = profit (Feb 6 +$20k, Feb 9 +$3.9k), NEUTRAL days = losses (Feb 10 -$2.8k, today -$6.2k). Wait for directional regime confirmation before first trade.",
+      "30-minute thesis checkpoint - If thesis isn't working within 30 minutes (like BAC showing 'ZERO bounce' in SPY +2.3%), cut immediately. Don't wait 90 minutes hoping for reversal. Max hold for broken thesis: 30 minutes.",
+      "Only trade setups with IASM confidence >65% AND clear catalyst - AMD (oversold RSI 7 + IASM 64%) barely qualified. CRDO fade had NO IASM signal. BAC had broken thesis. Require both technical + catalyst alignment.",
+      "Limit to 2 trades per day until win rate >50% - You're at 34.6% over 26 trades. This is systematic overtrading. Force selectivity by capping entries. Exception: Can add 3rd trade only if first 2 are both winners.",
+      "No fading earnings gaps in NEUTRAL regime - CRDO +27% gap fade lost -32% because you fought momentum in choppy tape. In NEUTRAL/elevated VIX, only trade WITH strong moves (like MU continuation), never against them."
+    ]
+  },
+  "dailyLessons": {
+    "overallGrade": "D",
+    "gradingReason": "34.6% win rate over 26 trades with 3-day red streak shows systematic execution problems. Today: -$6,207 (-6.7%) on NEUTRAL regime with elevated VIX 20, yet you traded 5 times into choppy tape. The AMD trim discipline was excellent (locked in +21.5%), but CRDO fade attempt and BAC loss show you're forcing trades in wrong conditions.",
+    "keyLessons": [
+      "STOP TRADING IN NEUTRAL/ELEVATED VIX - You lost -$6,207 today in NEUTRAL regime with VIX 20. Your agent correctly identified 'midday lull phase - quality over quantity' at 11:51 yet you still entered CRDO fade and held losing BAC. Pattern: Feb 10 was NEUTRAL/-$2,870, Feb 11 RISK_ON/flat. You make money in directional regimes (Feb 6 RISK_ON/+$20,632, Feb 9 +$3,980), not choppy ones.",
+      "BAC thesis breakdown shows lack of conviction management - You held BAC for 1.5 hours watching it bleed from $53.47 to $52.02 with 'ZERO bounce' in SPY +2.3% environment. Your own lesson states 'if financials aren't catching a bid in THIS environment, the thesis is broken' - yet you waited 90 minutes to cut -2.76%. Rule: If thesis invalidates within first 30 minutes (no bounce in risk-on tape), cut immediately. Don't hope.",
+      "CRDO fade was forced trade into strength - Stock at $124 (-0.8% from entry) 'refusing to break lower' after +27% earnings gap means your bearish fade thesis never had edge. You lost -32% fighting momentum. Pattern: This mirrors your losing streak behavior - trying to catch reversals instead of riding trends. In NEUTRAL regime with choppy tech (AMZN -11%, NFLX -6.5%), fading strong semiconductor earnings (CRDO +27%, MU +9%) is low probability.",
+      "AMD trim execution was textbook - but highlights win rate problem: You captured +21.5% on AMD calls with perfect trim discipline (half at +18%, raised stops). This shows you CAN execute winners. But 9 wins vs 17 losses (34.6% win rate) means you're entering too many low-probability setups. The AMD oversold bounce (RSI 7, Z-score -2.64) had clear catalyst - most of your losses lack this conviction."
+    ],
+    "patterns": {
+      "goodPatterns": [
+        "AMD position management: Trimmed half at +18%, let rest run to +21.5% with raised stops on expiring options - perfect risk management",
+        "Agent correctly identified midday lull and recommended quality over quantity - the reasoning was there, execution failed",
+        "MU hold decision showed conviction: 'earnings beat catalyst intact, consolidation is healthy digestion not reversal' - proper thesis defense"
+      ],
+      "badPatterns": [
+        "Trading in NEUTRAL regime with elevated VIX - 3 of last 4 days were NEUTRAL/choppy, all red days. You need RISK_ON directional moves",
+        "Holding losers too long: BAC bled for 90 minutes with broken thesis before -2.76% cut. Your winners (AMD) are trimmed quickly, losers are given rope",
+        "Forcing trades: 5 trades today in 'midday lull' when agent said wait for 2pm momentum. CRDO fade and BAC hold were both low-conviction",
+        "Fading strength in wrong regime: CRDO +27% earnings gap fade lost -32%. In choppy NEUTRAL tape, don't fight momentum plays"
+      ]
+    },
+    "tomorrowRules": [
+      "NO TRADING if regime is NEUTRAL or VIX >18 - Your stats prove it: RISK_ON days = profit (Feb 6 +$20k, Feb 9 +$3.9k), NEUTRAL days = losses (Feb 10 -$2.8k, today -$6.2k). Wait for directional regime confirmation before first trade.",
+      "30-minute thesis checkpoint - If thesis isn't working within 30 minutes (like BAC showing 'ZERO bounce' in SPY +2.3%), cut immediately. Don't wait 90 minutes hoping for reversal. Max hold for broken thesis: 30 minutes.",
+      "Only trade setups with IASM confidence >65% AND clear catalyst - AMD (oversold RSI 7 + IASM 64%) barely qualified. CRDO fade had NO IASM signal. BAC had broken thesis. Require both technical + catalyst alignment.",
+      "Limit to 2 trades per day until win rate >50% - You're at 34.6% over 26 trades. This is systematic overtrading. Force selectivity by capping entries. Exception: Can add 3rd trade only if first 2 are both winners.",
+      "No fading earnings gaps in NEUTRAL regime - CRDO +27% gap fade lost -32% because you fought momentum in choppy tape. In NEUTRAL/elevated VIX, only trade WITH strong moves (like MU continuation), never against them."
+    ],
+    "riskAssessment": "Poor. -6.7% daily drawdown is excessive for account size. AMD trim showed good position sizing (took half at +18%), but overall trade selection was reckless: 5 trades in NEUTRAL regime when agent recommended waiting. BAC -2.76% loss after 90-minute bleed shows weak invalidation discipline. CRDO -32% fade into earnings strength was high-risk/low-edge. You're managing winners well but entering too many losers. Position sizing isn't the issue - trade selection is.",
+    "emotionalCheck": "Signs of frustration trading after 3-day red streak. Agent logs show correct 'NO_TRADE' call at 11:51 ('wait for 2pm momentum'), yet you entered CRDO fade at 12:02 anyway. BAC hold for 90 minutes despite 'ZERO bounce' shows hope/attachment over discipline. Pattern: You're not revenge trading (not sizing up), but you ARE forcing trades to 'get back to even' instead of waiting for A+ setups. The CRDO fade especially feels like trying to catch a quick win to offset the streak. Take tomorrow off if regime isn't RISK_ON - your stats prove you can't trade chop profitably."
+  },
+  "errors": []
+}

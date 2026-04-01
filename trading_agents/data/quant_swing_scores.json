@@ -1,0 +1,885 @@
+{
+  "timestamp": "2026-03-13T19:16:20.537Z",
+  "vix": 27.01,
+  "scores": [
+    {
+      "symbol": "PATH",
+      "price": 11.515000343322754,
+      "composite": 65,
+      "breakdown": {
+        "momentum": 80,
+        "meanReversion": 65,
+        "volume": 60,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 64.5,
+        "macdHistogram": 0.294,
+        "priceVsSma20": 3.71,
+        "priceVsSma50": -12.1,
+        "volumeRatio": 0.86,
+        "atr": 0.74,
+        "ret1d": 1.28,
+        "ret5d": -2.91,
+        "ret20d": 3
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:56.964Z"
+    },
+    {
+      "symbol": "MSTR",
+      "price": 139.5500030517578,
+      "composite": 64,
+      "breakdown": {
+        "momentum": 95,
+        "meanReversion": 50,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 61.8,
+        "macdHistogram": 0.739,
+        "priceVsSma20": 4.23,
+        "priceVsSma50": -3.64,
+        "volumeRatio": 1,
+        "atr": 9.1,
+        "ret1d": 1.61,
+        "ret5d": 4.51,
+        "ret20d": 13.46
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:09.596Z"
+    },
+    {
+      "symbol": "XOM",
+      "price": 156.7899932861328,
+      "composite": 63,
+      "breakdown": {
+        "momentum": 100,
+        "meanReversion": 40,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 61.9,
+        "macdHistogram": 0.555,
+        "priceVsSma20": 4.11,
+        "priceVsSma50": 10.98,
+        "volumeRatio": 0.64,
+        "atr": 4.07,
+        "ret1d": 2.12,
+        "ret5d": 3.69,
+        "ret20d": 4.58
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:06.166Z"
+    },
+    {
+      "symbol": "CVX",
+      "price": 196.9499969482422,
+      "composite": 60,
+      "breakdown": {
+        "momentum": 90,
+        "meanReversion": 40,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 70.8,
+        "macdHistogram": 0.807,
+        "priceVsSma20": 5.1,
+        "priceVsSma50": 11.58,
+        "volumeRatio": 0.68,
+        "atr": 4.18,
+        "ret1d": -0.01,
+        "ret5d": 3.69,
+        "ret20d": 7.98
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:06.659Z"
+    },
+    {
+      "symbol": "USO",
+      "price": 119.16000366210938,
+      "composite": 59,
+      "breakdown": {
+        "momentum": 90,
+        "meanReversion": 30,
+        "volume": 60,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 88.7,
+        "macdHistogram": 3.622,
+        "priceVsSma20": 30.49,
+        "priceVsSma50": 47.33,
+        "volumeRatio": 1.24,
+        "atr": 7.83,
+        "ret1d": 0.65,
+        "ret5d": 9.55,
+        "ret20d": 56.01
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:53.206Z"
+    },
+    {
+      "symbol": "COST",
+      "price": 1007.8099975585938,
+      "composite": 58,
+      "breakdown": {
+        "momentum": 90,
+        "meanReversion": 50,
+        "volume": 30,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 57.9,
+        "macdHistogram": 2.324,
+        "priceVsSma20": 0.88,
+        "priceVsSma50": 3.88,
+        "volumeRatio": 0.42,
+        "atr": 19.34,
+        "ret1d": 0.45,
+        "ret5d": 0.97,
+        "ret20d": 0.9
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:04.384Z"
+    },
+    {
+      "symbol": "SNOW",
+      "price": 177.82359313964844,
+      "composite": 55,
+      "breakdown": {
+        "momentum": 80,
+        "meanReversion": 50,
+        "volume": 30,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 67.4,
+        "macdHistogram": 2.274,
+        "priceVsSma20": 2.45,
+        "priceVsSma50": -6.67,
+        "volumeRatio": 0.4,
+        "atr": 9.36,
+        "ret1d": 0.32,
+        "ret5d": -1.47,
+        "ret20d": 2.84
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:09.980Z"
+    },
+    {
+      "symbol": "FOA",
+      "price": 16.170000076293945,
+      "composite": 54,
+      "breakdown": {
+        "momentum": 35,
+        "meanReversion": 75,
+        "volume": 60,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 17.6,
+        "macdHistogram": 0.092,
+        "priceVsSma20": -15.8,
+        "priceVsSma50": -25.13,
+        "volumeRatio": 1.43,
+        "atr": 1.13,
+        "ret1d": -0.12,
+        "ret5d": -8.54,
+        "ret20d": -24.26
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:51.610Z"
+    },
+    {
+      "symbol": "AMZN",
+      "price": 208.02000427246094,
+      "composite": 53,
+      "breakdown": {
+        "momentum": 60,
+        "meanReversion": 50,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 53.9,
+        "macdHistogram": 2.846,
+        "priceVsSma20": -0.62,
+        "priceVsSma50": -6.85,
+        "volumeRatio": 0.5,
+        "atr": 5.62,
+        "ret1d": -0.72,
+        "ret5d": -2.43,
+        "ret20d": 4.22
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:02.022Z"
+    },
+    {
+      "symbol": "PLTR",
+      "price": 151.19000244140625,
+      "composite": 53,
+      "breakdown": {
+        "momentum": 65,
+        "meanReversion": 50,
+        "volume": 40,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 74.6,
+        "macdHistogram": 0.914,
+        "priceVsSma20": 5.88,
+        "priceVsSma50": -1.73,
+        "volumeRatio": 0.66,
+        "atr": 6.55,
+        "ret1d": -1.5,
+        "ret5d": -3.8,
+        "ret20d": 17.08
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:08.830Z"
+    },
+    {
+      "symbol": "XLU",
+      "price": 47.125,
+      "composite": 53,
+      "breakdown": {
+        "momentum": 60,
+        "meanReversion": 50,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 54.9,
+        "macdHistogram": -0.603,
+        "priceVsSma20": 0.73,
+        "priceVsSma50": 5.69,
+        "volumeRatio": 0.78,
+        "atr": 0.77,
+        "ret1d": 1.34,
+        "ret5d": 0.82,
+        "ret20d": 4.14
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:14.603Z"
+    },
+    {
+      "symbol": "MSFT",
+      "price": 395.6050109863281,
+      "composite": 52,
+      "breakdown": {
+        "momentum": 55,
+        "meanReversion": 50,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 59.3,
+        "macdHistogram": 2.527,
+        "priceVsSma20": -1.18,
+        "priceVsSma50": -7.86,
+        "volumeRatio": 0.55,
+        "atr": 8.82,
+        "ret1d": -1.56,
+        "ret5d": -3.27,
+        "ret20d": -1.55
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:55.778Z"
+    },
+    {
+      "symbol": "PANW",
+      "price": 166.71499633789062,
+      "composite": 52,
+      "breakdown": {
+        "momentum": 80,
+        "meanReversion": 30,
+        "volume": 40,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 84.6,
+        "macdHistogram": 4.508,
+        "priceVsSma20": 6.36,
+        "priceVsSma50": -1.94,
+        "volumeRatio": 0.32,
+        "atr": 5.8,
+        "ret1d": -0.84,
+        "ret5d": 1.01,
+        "ret20d": 2.4
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:11.216Z"
+    },
+    {
+      "symbol": "AMD",
+      "price": 193.19000244140625,
+      "composite": 51,
+      "breakdown": {
+        "momentum": 40,
+        "meanReversion": 65,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 48,
+        "macdHistogram": 5.26,
+        "priceVsSma20": -3.99,
+        "priceVsSma50": -10.61,
+        "volumeRatio": 0.63,
+        "atr": 9.46,
+        "ret1d": -2.3,
+        "ret5d": 0.39,
+        "ret20d": -6.19
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:02.786Z"
+    },
+    {
+      "symbol": "ASML",
+      "price": 1350.0001220703125,
+      "composite": 50,
+      "breakdown": {
+        "momentum": 50,
+        "meanReversion": 50,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 35.9,
+        "macdHistogram": 0.952,
+        "priceVsSma20": -4.67,
+        "priceVsSma50": -1.45,
+        "volumeRatio": 0.65,
+        "atr": 58.04,
+        "ret1d": -0.12,
+        "ret5d": 4.42,
+        "ret20d": -4.04
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:58.677Z"
+    },
+    {
+      "symbol": "NET",
+      "price": 211.7899932861328,
+      "composite": 50,
+      "breakdown": {
+        "momentum": 90,
+        "meanReversion": 10,
+        "volume": 40,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 90.8,
+        "macdHistogram": 4.514,
+        "priceVsSma20": 12.28,
+        "priceVsSma50": 14.09,
+        "volumeRatio": 0.45,
+        "atr": 9.44,
+        "ret1d": -0.15,
+        "ret5d": 8.5,
+        "ret20d": 14.38
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:10.362Z"
+    },
+    {
+      "symbol": "XLE",
+      "price": 57.92499923706055,
+      "composite": 50,
+      "breakdown": {
+        "momentum": 65,
+        "meanReversion": 40,
+        "volume": 40,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 69.9,
+        "macdHistogram": -0.078,
+        "priceVsSma20": 3.79,
+        "priceVsSma50": 11.6,
+        "volumeRatio": 0.53,
+        "atr": 1.26,
+        "ret1d": 0.72,
+        "ret5d": 2.4,
+        "ret20d": 7.31
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:12.931Z"
+    },
+    {
+      "symbol": "NVDA",
+      "price": 180.9324951171875,
+      "composite": 49,
+      "breakdown": {
+        "momentum": 45,
+        "meanReversion": 50,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 39.8,
+        "macdHistogram": 0.055,
+        "priceVsSma20": -2.19,
+        "priceVsSma50": -2.45,
+        "volumeRatio": 0.66,
+        "atr": 6.28,
+        "ret1d": -1.21,
+        "ret5d": 1.75,
+        "ret20d": -3.21
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:53.996Z"
+    },
+    {
+      "symbol": "DTE",
+      "price": 149.72999572753906,
+      "composite": 49,
+      "breakdown": {
+        "momentum": 60,
+        "meanReversion": 50,
+        "volume": 30,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 62.6,
+        "macdHistogram": -1.279,
+        "priceVsSma20": 1.85,
+        "priceVsSma50": 7.54,
+        "volumeRatio": 0.37,
+        "atr": 2.73,
+        "ret1d": 1.42,
+        "ret5d": -0.27,
+        "ret20d": 6.26
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:54.479Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "price": 302.1322021484375,
+      "composite": 49,
+      "breakdown": {
+        "momentum": 45,
+        "meanReversion": 50,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 39,
+        "macdHistogram": 3.958,
+        "priceVsSma20": -1.32,
+        "priceVsSma50": -5.27,
+        "volumeRatio": 0.52,
+        "atr": 7.37,
+        "ret1d": -0.47,
+        "ret5d": 1.21,
+        "ret20d": -2.22
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:01.646Z"
+    },
+    {
+      "symbol": "CRM",
+      "price": 192.90499877929688,
+      "composite": 49,
+      "breakdown": {
+        "momentum": 45,
+        "meanReversion": 50,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 61.8,
+        "macdHistogram": -0.266,
+        "priceVsSma20": 0.28,
+        "priceVsSma50": -9.25,
+        "volumeRatio": 0.61,
+        "atr": 8.81,
+        "ret1d": -3.2,
+        "ret5d": -4.55,
+        "ret20d": 4.03
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:03.176Z"
+    },
+    {
+      "symbol": "CRWD",
+      "price": 440.17999267578125,
+      "composite": 49,
+      "breakdown": {
+        "momentum": 85,
+        "meanReversion": 20,
+        "volume": 30,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 90.1,
+        "macdHistogram": 13.229,
+        "priceVsSma20": 8.41,
+        "priceVsSma50": 2.52,
+        "volumeRatio": 0.31,
+        "atr": 18.66,
+        "ret1d": -0.31,
+        "ret5d": 2.61,
+        "ret20d": 6.96
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:10.824Z"
+    },
+    {
+      "symbol": "RBRK",
+      "price": 52.8650016784668,
+      "composite": 48,
+      "breakdown": {
+        "momentum": 25,
+        "meanReversion": 65,
+        "volume": 60,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 62.7,
+        "macdHistogram": -0.327,
+        "priceVsSma20": -1.79,
+        "priceVsSma50": -11.49,
+        "volumeRatio": 1.92,
+        "atr": 3.1,
+        "ret1d": -2.14,
+        "ret5d": -7.53,
+        "ret20d": -0.61
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:56.573Z"
+    },
+    {
+      "symbol": "COIN",
+      "price": 194.85000610351562,
+      "composite": 48,
+      "breakdown": {
+        "momentum": 50,
+        "meanReversion": 50,
+        "volume": 40,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 67.8,
+        "macdHistogram": -1.246,
+        "priceVsSma20": 6.55,
+        "priceVsSma50": -2.41,
+        "volumeRatio": 0.71,
+        "atr": 13.3,
+        "ret1d": 0.84,
+        "ret5d": -1.2,
+        "ret20d": 38.1
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:09.208Z"
+    },
+    {
+      "symbol": "QQQ",
+      "price": 594.4650268554688,
+      "composite": 47,
+      "breakdown": {
+        "momentum": 40,
+        "meanReversion": 50,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 45.3,
+        "macdHistogram": 0.297,
+        "priceVsSma20": -1.8,
+        "priceVsSma50": -3.08,
+        "volumeRatio": 0.73,
+        "atr": 10.95,
+        "ret1d": -0.47,
+        "ret5d": -0.88,
+        "ret20d": -1.03
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:53.609Z"
+    },
+    {
+      "symbol": "PYPL",
+      "price": 44.8849983215332,
+      "composite": 47,
+      "breakdown": {
+        "momentum": 45,
+        "meanReversion": 50,
+        "volume": 40,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 53.2,
+        "macdHistogram": -0.462,
+        "priceVsSma20": 0.25,
+        "priceVsSma50": -8.95,
+        "volumeRatio": 0.33,
+        "atr": 1.92,
+        "ret1d": 1.18,
+        "ret5d": -4.44,
+        "ret20d": 14.85
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:59.455Z"
+    },
+    {
+      "symbol": "XLK",
+      "price": 136.99000549316406,
+      "composite": 47,
+      "breakdown": {
+        "momentum": 40,
+        "meanReversion": 50,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 46.8,
+        "macdHistogram": 0.261,
+        "priceVsSma20": -1.86,
+        "priceVsSma50": -3.76,
+        "volumeRatio": 0.66,
+        "atr": 3.23,
+        "ret1d": -0.62,
+        "ret5d": -0.22,
+        "ret20d": -1.59
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:11.635Z"
+    },
+    {
+      "symbol": "AVGO",
+      "price": 324.42498779296875,
+      "composite": 46,
+      "breakdown": {
+        "momentum": 35,
+        "meanReversion": 50,
+        "volume": 50,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 46.6,
+        "macdHistogram": 0.934,
+        "priceVsSma20": -1.55,
+        "priceVsSma50": -2.61,
+        "volumeRatio": 0.73,
+        "atr": 14.49,
+        "ret1d": -3.44,
+        "ret5d": -1.83,
+        "ret20d": -2.04
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:16:03.965Z"
+    },
+    {
+      "symbol": "ADBE",
+      "price": 253.63999938964844,
+      "composite": 45,
+      "breakdown": {
+        "momentum": 25,
+        "meanReversion": 65,
+        "volume": 45,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 55,
+        "macdHistogram": -0.283,
+        "priceVsSma20": -4.5,
+        "priceVsSma50": -11.45,
+        "volumeRatio": 2.28,
+        "atr": 10.46,
+        "ret1d": -5.98,
+        "ret5d": -10.57,
+        "ret20d": -3.38
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:52.819Z"
+    },
+    {
+      "symbol": "SE",
+      "price": 85.16500091552734,
+      "composite": 45,
+      "breakdown": {
+        "momentum": 5,
+        "meanReversion": 100,
+        "volume": 30,
+        "sector": 50,
+        "earnings": 50
+      },
+      "indicators": {
+        "rsi": 26,
+        "macdHistogram": -1.232,
+        "priceVsSma20": -15.09,
+        "priceVsSma50": -25.11,
+        "volumeRatio": 0.28,
+        "atr": 6.4,
+        "ret1d": 0.01,
+        "ret5d": -7.41,
+        "ret20d": -21.91
+      },
+      "signal": "HOLD",
+      "timestamp": "2026-03-13T19:15:57.433Z"
+    }
+  ],
+  "topBuys": [],
+  "topSells": [],
+  "sectorRotation": {
+    "leaders": [
+      {
+        "symbol": "XLE",
+        "ret5d": 2.4,
+        "ret20d": 0,
+        "rsi": 70,
+        "strength": 1.44
+      },
+      {
+        "symbol": "XLU",
+        "ret5d": 0.82,
+        "ret20d": 0,
+        "rsi": 55,
+        "strength": 0.49
+      },
+      {
+        "symbol": "XLK",
+        "ret5d": -0.21,
+        "ret20d": 0,
+        "rsi": 47,
+        "strength": -0.12
+      }
+    ],
+    "laggards": [
+      {
+        "symbol": "XLF",
+        "ret5d": -3.03,
+        "ret20d": 0,
+        "rsi": 36,
+        "strength": -1.82
+      },
+      {
+        "symbol": "XLY",
+        "ret5d": -2.91,
+        "ret20d": 0,
+        "rsi": 35,
+        "strength": -1.75
+      },
+      {
+        "symbol": "XLI",
+        "ret5d": -2.82,
+        "ret20d": 0,
+        "rsi": 30,
+        "strength": -1.69
+      }
+    ],
+    "all": [
+      {
+        "symbol": "XLE",
+        "ret5d": 2.4,
+        "ret20d": 0,
+        "rsi": 70,
+        "strength": 1.44
+      },
+      {
+        "symbol": "XLU",
+        "ret5d": 0.82,
+        "ret20d": 0,
+        "rsi": 55,
+        "strength": 0.49
+      },
+      {
+        "symbol": "XLK",
+        "ret5d": -0.21,
+        "ret20d": 0,
+        "rsi": 47,
+        "strength": -0.12
+      },
+      {
+        "symbol": "XLP",
+        "ret5d": -1.13,
+        "ret20d": 0,
+        "rsi": 30,
+        "strength": -0.68
+      },
+      {
+        "symbol": "XLB",
+        "ret5d": -1.14,
+        "ret20d": 0,
+        "rsi": 17,
+        "strength": -0.69
+      },
+      {
+        "symbol": "XLRE",
+        "ret5d": -1.18,
+        "ret20d": 0,
+        "rsi": 31,
+        "strength": -0.71
+      },
+      {
+        "symbol": "XLV",
+        "ret5d": -1.41,
+        "ret20d": 0,
+        "rsi": 28,
+        "strength": -0.84
+      },
+      {
+        "symbol": "XLC",
+        "ret5d": -2.49,
+        "ret20d": 0,
+        "rsi": 45,
+        "strength": -1.49
+      },
+      {
+        "symbol": "XLI",
+        "ret5d": -2.82,
+        "ret20d": 0,
+        "rsi": 30,
+        "strength": -1.69
+      },
+      {
+        "symbol": "XLY",
+        "ret5d": -2.91,
+        "ret20d": 0,
+        "rsi": 35,
+        "strength": -1.75
+      },
+      {
+        "symbol": "XLF",
+        "ret5d": -3.03,
+        "ret20d": 0,
+        "rsi": 36,
+        "strength": -1.82
+      }
+    ]
+  }
+}
